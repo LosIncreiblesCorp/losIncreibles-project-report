@@ -30,35 +30,35 @@ De igual manera, la plataforma tiene como meta promover el apoyo mutuo entre los
 <td><img src="" alt="Foto"></td>
 <td>Asto Jacome, Jose Gustavo</td>
 <td>Ingeniería de Software</td>
-<td>[Descripción pendiente]</td>
+<td>(descripcion pendiente)</td>
 </tr>
 
 <tr>
 <td><img src="" alt="Foto"></td>
 <td>Noriega Collado, Jean Fabio</td>
 <td>Ingeniería de Software</td>
-<td>Código: U202310342. [Descripción pendiente]</td>
+<td>Código: U202310342. (descripcion pendiente)</td>
 </tr>
 
 <tr>
 <td><img src="" alt="Foto"></td>
-<td>[APELLIDOS, Nombres]</td>
-<td>[Carrera]</td>
-<td>[Descripción pendiente]</td>
+<td>(apellidos, nombres)</td>
+<td>(carrera)</td>
+<td>(descripcion pendiente)</td>
 </tr>
 
 <tr>
 <td><img src="" alt="Foto"></td>
-<td>[APELLIDOS, Nombres]</td>
-<td>[Carrera]</td>
-<td>[Descripción pendiente]</td>
+<td>(apellidos, nombres)</td>
+<td>(carrera)</td>
+<td>(descripcion pendiente)</td>
 </tr>
 
 <tr>
 <td><img src="" alt="Foto"></td>
-<td>[APELLIDOS, Nombres]</td>
-<td>[Carrera]</td>
-<td>[Descripción pendiente]</td>
+<td>(apellidos, nombres)</td>
+<td>(carrera)</td>
+<td>(descripcion pendiente)</td>
 </tr>
 
 </tbody>
@@ -69,6 +69,40 @@ De igual manera, la plataforma tiene como meta promover el apoyo mutuo entre los
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+
+La inseguridad ciudadana y la criminalidad son problemáticas crecientes que afectan severamente al sector comercial en el Perú. Este fenómeno impacta de forma directa en el desarrollo económico de los negocios y en la integridad del personal operativo.
+Para analizar esta situación de manera estructurada, se utiliza la metodología 5W2H, la cual permite identificar los aspectos clave del problema:
+
+**What (¿Qué está ocurriendo?)**
+Existe un incremento sostenido en la incidencia de delitos dirigidos a establecimientos comerciales, tales como robos a mano armada, hurtos y extorsiones (cobro de cupos), lo que genera un clima de constante vulnerabilidad para los dueños y trabajadores de los locales.
+
+**Why (¿Por qué ocurre?)**
+Las causas principales incluyen:
+- Deficiente comunicación preventiva entre los negocios de un mismo sector.
+- Escasez de herramientas tecnológicas integradas para emitir alertas tempranas.
+- Limitada capacidad de reacción inmediata frente a un incidente en progreso.
+- Baja tasa de denuncias formales debido a la desconfianza en el proceso.
+
+**Who (¿A quién afecta?)**
+- Dueños y administradores de establecimientos comerciales y pequeños negocios.
+- Personal operativo y de ventas que trabaja en atención al cliente.
+
+**Where (¿Dónde ocurre?)**
+En zonas urbanas y comerciales de riesgo medio-alto, con especial énfasis en áreas con poca vigilancia policial o iluminación deficiente.
+
+**When (¿Cuándo ocurre?)**
+Principalmente durante el horario de atención al público, aprovechando momentos de baja afluencia de clientes, así como durante los horarios de apertura y cierre de los locales.
+
+**How (¿Cómo ocurre?)**
+Los delincuentes se aprovechan del aislamiento de cada local y de la falta de un canal de comunicación directo entre los negocios vecinos. Al no existir un sistema de alertas rápidas, los actos delictivos se consuman antes de que las autoridades o la comunidad puedan intervenir.
+
+**How much (¿Cuánto impacto tiene?)**
+La magnitud de esta problemática se refleja en el impacto económico y psicológico que sufren los negocios. Según el Instituto Nacional de Estadística e Informática (INEI, 2024), la tasa de victimización por robo a negocios se duplicó en el último año, pasando del 1.0% en 2023 al 2.1% en 2024. A esto se suma el alarmante aumento de las extorsiones a nivel nacional.
+
+De acuerdo con el Banco Interamericano de Desarrollo (BID, 2024), los altos índices de criminalidad representan un sobrecosto significativo para las empresas latinoamericanas, obligándolas a invertir recursos adicionales en seguridad privada y mermando su competitividad. Asimismo, la percepción de inseguridad en la población urbana ha alcanzado un 86.1% en 2024 (INEI, 2024), lo que demuestra que la falta de herramientas colaborativas y de reacción inmediata está afectando gravemente al sector comercial peruano.
+
+**Conclusión del análisis 5W2H:**
+Del análisis realizado, se concluye que la vulnerabilidad de los establecimientos comerciales no solo responde al aumento de la criminalidad, sino también a la falta de redes de apoyo y herramientas tecnológicas que permitan la comunicación en tiempo real entre locales vecinos. Esta brecha tecnológica evidencia la necesidad de una plataforma digital (como InstAlert) que centralice las alertas tempranas y fomente la prevención colectiva en el sector comercial.
 
 ### 1.2.2. Lean UX Process
 
