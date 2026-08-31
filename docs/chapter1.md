@@ -82,6 +82,15 @@ El constante aumento de la delincuencia se ha convertido en un obstáculo críti
 | **How** | ¿Cómo ocurre? | Los asaltantes se aprovechan del aislamiento de cada local y la falta de canales directos entre negocios vecinos. Al no existir alertas rápidas, los actos delictivos se consuman antes de que las autoridades o la comunidad puedan intervenir. |
 | **How much** | ¿Cuánto impacto tiene? | Según el Instituto Nacional de Estadística e Informática (INEI, 2024), la tasa de victimización por robo a negocios pasó del 1.0% en 2023 al 2.1% en 2024. Además, el Banco Interamericano de Desarrollo (BID, 2024) indica que esto representa un sobrecosto significativo en seguridad privada, mermando la competitividad. |
 
+**Figura 1:**
+
+*Tasa de Victimización Comercial (2023-2024)*
+
+<p align="center">
+  <img src="../assets/Chapter1/statistics/victimization_rate.png" alt="Tasa de Victimización" width="600"><br>
+  Nota: Aumento de la tasa de victimización por robo a negocios en el Perú, elaborado a partir de datos del INEI (2024).
+</p>
+
 **Conclusión del análisis 5W2H:**
 Tras evaluar todos estos puntos, queda en evidencia que el peligro para los establecimientos no solo recae en la cantidad de asaltos, sino en el profundo nivel de aislamiento en el que operan. La falta de comunicación inmediata entre negocios cercanos impide que se puedan apoyar mutuamente ante una amenaza. Por ello, el desarrollo de una herramienta como InstAlert resulta esencial para cerrar esa brecha, conectando a los comerciantes a través de una red de alertas tempranas que priorice la prevención y la acción conjunta.
 
@@ -174,7 +183,7 @@ A partir de las funcionalidades propuestas (Feature Assumptions), planteamos las
 
 El siguiente Lean UX Canvas sintetiza los problemas, los segmentos de usuarios, las hipótesis y los resultados esperados para InstAlert. Este diagrama es esencial para visualizar de manera estructurada la relación entre las necesidades del negocio y las soluciones propuestas.
 
-**Figura 1:**
+**Figura 2:**
 
 *Lean UX Canvas*
 
@@ -186,3 +195,78 @@ El siguiente Lean UX Canvas sintetiza los problemas, los segmentos de usuarios, 
 A continuación, se presenta el enlace público de UXPressia del Lean UX Canvas del proyecto: <[ENLACE_PENDIENTE]>
 
 ## 1.3. Segmentos objetivo
+
+Para el desarrollo de InstAlert, se han definido dos segmentos clave que representan a los usuarios principales de la plataforma. Ambos enfrentan directamente la problemática de la inseguridad y requieren herramientas tecnológicas para la prevención colaborativa.
+
+**1. Segmento 1: Administradores y dueños de Locales Comerciales**
+Personas responsables de la gestión y operación de establecimientos comerciales ubicados en zonas de riesgo medio-alto. Buscan proteger su negocio, sus bienes y a su personal mediante herramientas que les permitan prevenir incidentes, monitorear situaciones de riesgo y recibir alertas oportunas para tomar decisiones rápidas ante posibles amenazas.
+
+* **Perfil Demográfico:**
+  - **Género:** Hombres y mujeres.
+  - **Edad:** 25 a 60 años.
+  - **Ocupación:** Propietarios, emprendedores y administradores de micro y pequeñas empresas.
+  - **Nivel socioeconómico:** B, C y D.
+* **Perfil Geográfico:**
+  - **Ubicación:** Zonas urbanas, galerías y corredores comerciales en Lima Metropolitana y las principales ciudades del Perú, especialmente en áreas de riesgo medio-alto.
+* **Perfil Psicográfico:**
+  - **Preocupaciones:** Alta preocupación por la seguridad física de su patrimonio, motivada por la amenaza constante de la extorsión ("cobro de cupos").
+  - **Motivaciones:** Proteger su inversión y operar en un ambiente de tranquilidad para garantizar la sostenibilidad de su emprendimiento.
+  - **Comportamiento ante el problema:** Desconfían de la rapidez de respuesta de las autoridades y valoran la creación de redes de apoyo vecinal.
+* **Perfil Comportamental:**
+  - **Uso de tecnología:** Alta dependencia del smartphone como principal herramienta de acceso a la información y gestión básica del negocio.
+
+**2. Segmento 2: Personal Operativo y Vendedores de Establecimientos**
+Trabajadores que realizan sus actividades directamente dentro o alrededor de los establecimientos comerciales, manteniendo contacto constante con clientes, productos y espacios expuestos a posibles situaciones de inseguridad. Necesitan herramientas que les permitan reportar incidentes de manera rápida, recibir alertas y solicitar ayuda cuando se encuentren frente a una situación de riesgo.
+
+* **Perfil Demográfico:**
+  - **Género:** Hombres y mujeres.
+  - **Edad:** 18 a 45 años.
+  - **Ocupación:** Vendedores, cajeros, atención al cliente y personal de seguridad interna.
+  - **Nivel socioeconómico:** C y D.
+* **Perfil Geográfico:**
+  - **Ubicación:** Mismas zonas comerciales donde laboran, expuestos al tránsito peatonal constante y al contacto directo con el público.
+* **Perfil Psicográfico:**
+  - **Preocupaciones:** Miedo a sufrir agresiones físicas o verse involucrados en actos violentos durante su jornada laboral.
+  - **Motivaciones:** Trabajar en un entorno seguro y contar con protocolos claros de emergencia.
+  - **Comportamiento ante el problema:** Se sienten vulnerables al ser la primera línea de contacto frente a un asalto.
+* **Perfil Comportamental:**
+  - **Uso de tecnología:** Usuarios digitales nativos o muy familiarizados con dispositivos móviles inteligentes. 
+  - **Reacción ante emergencias:** Requieren herramientas que no exijan concentración, priorizando la inmediatez (como un botón de alerta).
+
+Para sustentar el dimensionamiento del mercado, la viabilidad tecnológica y la urgencia del problema que atiende InstAlert, nos respaldamos en las siguientes investigaciones académicas e institucionales:
+
+**1. Representatividad y Conectividad de las MYPEs**
+El segmento objetivo de InstAlert abarca a la gran mayoría del ecosistema empresarial peruano. Según el Ministerio de la Producción (PRODUCE, s.f.), el 99.2% de las empresas formales en el Perú son micro y pequeñas empresas. Además, la viabilidad de una plataforma web es altísima, ya que el 90% de estas MYPEs cuenta con acceso a internet, aunque solo una minoría lo explota para optimizar sus ventas.
+
+**Figura 3:**
+
+*Distribución y Brecha Digital en MYPEs*
+
+<p align="center">
+  <img src="../assets/Chapter1/statistics/mypes_digitalization.png" alt="Brecha Digital MYPEs" width="600"><br>
+  Nota: Análisis del acceso a internet vs. ventas online en las micro y pequeñas empresas del Perú, basado en estimaciones de PRODUCE.
+</p>
+
+**2. Masificación del Smartphone como Herramienta Clave**
+El perfil comportamental del comerciante evidencia que el smartphone es el canal ideal para InstAlert. El Centro Nacional de Planeamiento Estratégico (CEPLAN, s.f.) confirma, basándose en datos de OSIPTEL, el crecimiento sostenido y la masificación de los teléfonos inteligentes, consolidándolos como la principal herramienta de acceso a las Tecnologías de la Información y Comunicación (TIC) tanto en áreas urbanas como rurales del país.
+
+**Figura 4:**
+
+*Penetración de Smartphones en el Perú*
+
+<p align="center">
+  <img src="../assets/Chapter1/statistics/smartphone_adoption.png" alt="Adopción de Smartphones" width="600"><br>
+  Nota: Crecimiento histórico y proyectado de la penetración de smartphones en el Perú, según datos de CEPLAN y OSIPTEL.
+</p>
+
+**3. Impacto de la Extorsión en la Sostenibilidad**
+El temor del segmento 1 (dueños de locales) está fundamentado en el grave impacto económico de la delincuencia. Un estudio fenomenológico de la Universidad César Vallejo (Ríos, 2024) concluye que el delito de extorsión mediante el "cobro de cupos" no solo genera cuantiosas pérdidas directas, sino que vulnera la sostenibilidad de las empresas emergentes y desalienta la formalización, haciendo imperativa la adopción de herramientas de prevención.
+
+**Figura 5:**
+
+*Impacto Percibido de la Extorsión en MYPEs*
+
+<p align="center">
+  <img src="../assets/Chapter1/statistics/extortion_impact.png" alt="Impacto de la Extorsión" width="600"><br>
+  Nota: Principales consecuencias del delito de extorsión en empresas emergentes, a partir del estudio fenomenológico de Ríos (2024).
+</p>
