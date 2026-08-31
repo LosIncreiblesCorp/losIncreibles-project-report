@@ -109,10 +109,80 @@ En la actualidad, los dueños y trabajadores de locales comerciales ubicados en 
 
 #### 1.2.2.1. Lean UX Problem Statements
 
+Para definir claramente la propuesta de valor de InstAlert frente al desafío de la inseguridad comercial, hemos aplicado el modelo de *Brand New Initiative*, estructurando el dominio, los problemas actuales y nuestra estrategia para abordarlos:
+
+**The current state of** la seguridad y vigilancia preventiva en zonas comerciales **has focused mainly on** los dueños de locales y su personal de ventas, quienes sufren de robos y extorsiones constantes, y que actualmente dependen de tiempos de respuesta policiales lentos o de herramientas de comunicación ineficientes.
+
+**What existing products/services fail to address is** la ausencia de un canal unificado que conecte a los negocios vecinos en tiempo real, permitiéndoles emitir alertas geolocalizadas y tomar medidas preventivas antes de que el delito se consume en sus propios establecimientos.
+
+**Our product/service will address this gap by** ofrecer una plataforma web colaborativa e intuitiva donde los comerciantes puedan reportar amenazas al instante, alertar a su comunidad sectorial y visualizar zonas de riesgo en un mapa interactivo.
+
+**Our initial focus will be** los dueños y trabajadores de pequeños y medianos comercios ubicados en zonas urbanas de riesgo medio-alto.
+
+**We’ll know we are successful when we see** una alta tasa de adopción de la plataforma por parte de grupos de negocios en una misma cuadra o galería, reportes activos de incidencias sospechosas y una reducción tangible en los asaltos gracias a la prevención comunitaria.
+
 #### 1.2.2.2. Lean UX Assumptions
+
+A continuación, se detallan las creencias e hipótesis fundamentales sobre las cuales se sostiene el desarrollo de InstAlert, divididas en cinco categorías clave:
+
+**1. Business Assumptions (Suposiciones del Negocio)**
+- Creemos que existe una necesidad urgente en el sector comercial por adquirir herramientas tecnológicas centradas en la prevención delictiva.
+- Creemos que los comerciantes están dispuestos a incorporar una plataforma web a su rutina laboral si esto les garantiza mayor tranquilidad.
+
+**2. Business Outcome Assumptions (Suposiciones de Resultados del Negocio)**
+- Creemos que lograremos reducir el impacto económico y emocional de la delincuencia en los establecimientos afiliados.
+- Sabremos que tenemos éxito si logramos un alto nivel de retención de usuarios y una red de comercios activos que verifiquen constantemente las alertas.
+
+**3. User Assumptions (Suposiciones de los Usuarios)**
+- Nuestros usuarios principales son administradores de negocios y su personal de primera línea.
+- Asumimos que tienen acceso constante a una computadora de mostrador o dispositivo móvil durante su jornada laboral.
+- Asumimos que poseen un sentido de solidaridad y están dispuestos a advertir a los locales vecinos si notan actividades sospechosas.
+
+**4. User Outcome and Benefit Assumptions (Suposiciones de Beneficios para el Usuario)**
+- Los comerciantes buscan operar sus negocios en un entorno seguro y libre de estrés.
+- Al utilizar InstAlert, los usuarios obtendrán el beneficio de estar advertidos con anticipación sobre posibles amenazas acercándose a su local, dándoles tiempo para resguardarse.
+
+**5. Feature Assumptions (Suposiciones de Funcionalidades)**
+Para lograr estos beneficios, creemos que la plataforma debe contar con las siguientes funcionalidades:
+- Un botón de alerta temprana de un solo clic.
+- Un mapa interactivo que muestre el nivel de riesgo en los alrededores en tiempo real.
+- Un sistema de notificaciones push para recibir avisos urgentes al instante.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+A partir de las funcionalidades propuestas (Feature Assumptions), planteamos las siguientes hipótesis para validar su efectividad, utilizando el formato estándar de Lean UX:
+
+**Hipótesis 1: Botón de Alerta Temprana**
+- **We believe we will achieve** una mejora sustancial en el tiempo de reacción ante amenazas
+- **If** los trabajadores de los establecimientos comerciales
+- **Attain** la capacidad de notificar silenciosa e instantáneamente a sus vecinos
+- **With** un botón de alerta temprana de fácil acceso en la plataforma web.
+
+**Hipótesis 2: Mapa Interactivo de Zonas de Riesgo**
+- **We believe we will achieve** una mejor toma de decisiones preventivas en el entorno local
+- **If** los administradores de los negocios
+- **Attain** el conocimiento actualizado sobre qué áreas cercanas registran actividad sospechosa
+- **With** un mapa interactivo que visualiza el nivel de riesgo y los reportes en tiempo real.
+
+**Hipótesis 3: Notificaciones Push Inmediatas**
+- **We believe we will achieve** una alta tasa de prevención y protección comunitaria
+- **If** los dueños y el personal operativo
+- **Attain** información oportuna sobre sospechosos merodeando su cuadra o galería
+- **With** un sistema de notificaciones push enviadas en el momento exacto del reporte.
+
 #### 1.2.2.4. Lean UX Canvas
+
+El siguiente Lean UX Canvas sintetiza los problemas, los segmentos de usuarios, las hipótesis y los resultados esperados para InstAlert. Este diagrama es esencial para visualizar de manera estructurada la relación entre las necesidades del negocio y las soluciones propuestas.
+
+**Figura 1:**
+
+*Lean UX Canvas*
+
+<p align="center">
+  <img src="../assets/Chapter1/UX Designs/leanuxcanvas.png" alt="Lean UX Canvas" width="700"><br>
+  Nota: Lean UX Canvas del proyecto InstAlert, elaborado en UXPressia. Resume el problema, los segmentos de usuarios B2B, las hipótesis, las soluciones propuestas y los resultados esperados.
+</p>
+
+A continuación, se presenta el enlace público de UXPressia del Lean UX Canvas del proyecto: <[ENLACE_PENDIENTE]>
 
 ## 1.3. Segmentos objetivo
