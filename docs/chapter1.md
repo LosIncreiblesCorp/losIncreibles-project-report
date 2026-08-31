@@ -80,7 +80,7 @@ El constante aumento de la delincuencia se ha convertido en un obstáculo críti
 | **Where** | ¿Dónde ocurre? | En zonas urbanas y corredores comerciales de riesgo medio-alto, con especial énfasis en áreas con poca vigilancia policial, rutas de escape fáciles o iluminación deficiente. |
 | **When** | ¿Cuándo ocurre? | Durante el horario de atención al público (aprovechando momentos de baja afluencia de clientes) y durante los horarios críticos de apertura y cierre de los locales comerciales. |
 | **How** | ¿Cómo ocurre? | Los asaltantes se aprovechan del aislamiento de cada local y la falta de canales directos entre negocios vecinos. Al no existir alertas rápidas, los actos delictivos se consuman antes de que las autoridades o la comunidad puedan intervenir. |
-| **How much** | ¿Cuánto impacto tiene? | Según el Instituto Nacional de Estadística e Informática (INEI, 2024), la tasa de victimización por robo a negocios pasó del 1.0% en 2023 al 2.1% en 2024. Además, el Banco Interamericano de Desarrollo (BID, 2024) indica que esto representa un sobrecosto significativo en seguridad privada, mermando la competitividad. |
+| **How much** | ¿Cuánto impacto tiene? | Según el INEI (2024), la tasa de victimización por robo a negocios pasó de 1.0% en 2023 a 2.1% en 2024. Esta tendencia se agudizó, pues la Policía Nacional del Perú (PNP) reportó más de 20,000 denuncias por extorsión a pequeños y medianos negocios solo hasta octubre de 2025, promediando una denuncia cada 19 minutos (Gestión, 2025). Además, el BID (2024) indica que esto representa un sobrecosto crítico en seguridad privada, mermando la competitividad. |
 
 **Conclusión del análisis 5W2H:**
 Tras evaluar todos estos puntos, queda en evidencia que el peligro para los establecimientos no solo recae en la cantidad de asaltos, sino en el profundo nivel de aislamiento en el que operan. La falta de comunicación inmediata entre negocios cercanos impide que se puedan apoyar mutuamente ante una amenaza. Por ello, el desarrollo de una herramienta como InstAlert resulta esencial para cerrar esa brecha, conectando a los comerciantes a través de una red de alertas tempranas que priorice la prevención y la acción conjunta.
@@ -113,9 +113,9 @@ Para definir claramente la propuesta de valor de InstAlert frente al desafío de
 
 **The current state of** la seguridad y vigilancia preventiva en zonas comerciales **has focused mainly on** los dueños de locales y su personal de ventas, quienes sufren de robos y extorsiones constantes, y que actualmente dependen de tiempos de respuesta policiales lentos o de herramientas de comunicación ineficientes.
 
-**What existing products/services fail to address is** la ausencia de un canal unificado que conecte a los negocios vecinos en tiempo real, permitiéndoles emitir alertas geolocalizadas y tomar medidas preventivas antes de que el delito se consume en sus propios establecimientos.
+**What existing products fail to address is** la ausencia de un canal unificado que conecte a los negocios vecinos en tiempo real, permitiéndoles emitir alertas geolocalizadas y tomar medidas preventivas antes de que el delito se consume en sus propios establecimientos.
 
-**Our product/service will address this gap by** ofrecer una plataforma web colaborativa e intuitiva donde los comerciantes puedan reportar amenazas al instante, alertar a su comunidad sectorial y visualizar zonas de riesgo en un mapa interactivo.
+**Our product will address this gap by** ofrecer una plataforma web colaborativa e intuitiva donde los comerciantes puedan reportar amenazas al instante, alertar a su comunidad sectorial y visualizar zonas de riesgo en un mapa interactivo.
 
 **Our initial focus will be** los dueños y trabajadores de pequeños y medianos comercios ubicados en zonas urbanas de riesgo medio-alto.
 
