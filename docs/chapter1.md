@@ -82,8 +82,29 @@ El constante aumento de la delincuencia se ha convertido en un obstáculo críti
 | **How** | ¿Cómo ocurre? | Los asaltantes se aprovechan del aislamiento de cada local y la falta de canales directos entre negocios vecinos. Al no existir alertas rápidas, los actos delictivos se consuman antes de que las autoridades o la comunidad puedan intervenir. |
 | **How much** | ¿Cuánto impacto tiene? | Según el Instituto Nacional de Estadística e Informática (INEI, 2024), la tasa de victimización por robo a negocios pasó del 1.0% en 2023 al 2.1% en 2024. Además, el Banco Interamericano de Desarrollo (BID, 2024) indica que esto representa un sobrecosto significativo en seguridad privada, mermando la competitividad. |
 
-**Reflexión del análisis 5W2H:**
+**Conclusión del análisis 5W2H:**
 Tras evaluar todos estos puntos, queda en evidencia que el peligro para los establecimientos no solo recae en la cantidad de asaltos, sino en el profundo nivel de aislamiento en el que operan. La falta de comunicación inmediata entre negocios cercanos impide que se puedan apoyar mutuamente ante una amenaza. Por ello, el desarrollo de una herramienta como InstAlert resulta esencial para cerrar esa brecha, conectando a los comerciantes a través de una red de alertas tempranas que priorice la prevención y la acción conjunta.
+
+**Enunciado del problema**
+En la actualidad, los dueños y trabajadores de locales comerciales ubicados en zonas de riesgo carecen de un sistema tecnológico unificado que les facilite la comunicación en tiempo real para reportar amenazas, emitir alertas preventivas a negocios vecinos y coordinar una respuesta rápida, dejándolos en un estado de vulnerabilidad y aislamiento ante actos delictivos.
+
+**Objetivos del proyecto**
+
+**Objetivo general**
+Desarrollar una aplicación web diseñada para fortalecer la seguridad de los establecimientos comerciales a través de alertas tempranas en tiempo real y la colaboración activa entre negocios de un mismo sector.
+
+**Objetivos específicos**
+- Agilizar el proceso de reporte de incidentes para que los comercios puedan avisar a su entorno en cuestión de segundos.
+- Mostrar áreas de mayor vulnerabilidad a través de mapas interactivos y actualizados.
+- Promover un canal de comunicación directo entre los comerciantes ante posibles emergencias.
+- Distribuir notificaciones preventivas y alertas inmediatas a los locales suscritos a la red.
+
+**Restricciones del proyecto**
+- La efectividad de la red dependerá directamente del compromiso y la participación constante de los administradores de los locales.
+- Posibles limitaciones técnicas en la exactitud del posicionamiento GPS (geolocalización) dependiendo del dispositivo utilizado.
+- No se contará con conexión directa e inmediata a las bases de datos oficiales de las autoridades policiales.
+- El plazo para el desarrollo y despliegue del producto de software está restringido a la duración del ciclo académico.
+- El proyecto se construirá considerando recursos de hardware y de equipo humano limitados.
 
 ### 1.2.2. Lean UX Process
 
