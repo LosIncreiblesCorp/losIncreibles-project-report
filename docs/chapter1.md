@@ -70,8 +70,7 @@ De igual manera, la plataforma tiene como meta promover el apoyo mutuo entre los
 
 ### 1.2.1. Antecedentes y problemática
 
-La inseguridad ciudadana y la criminalidad son problemáticas crecientes que afectan severamente al sector comercial en el Perú. Este fenómeno impacta de forma directa en el desarrollo económico de los negocios y en la integridad del personal operativo.
-Para analizar esta situación de manera estructurada, se utiliza la metodología 5W2H, la cual permite identificar los aspectos clave del problema:
+El constante aumento de la delincuencia se ha convertido en un obstáculo crítico para el crecimiento de los negocios a nivel local. Hoy en día, los dueños y sus equipos de trabajo enfrentan amenazas diarias que ponen en riesgo tanto sus ingresos económicos como su seguridad física. Para entender este escenario a fondo y desglosar todas sus aristas, aplicaremos la técnica de las 5W y 2H, lo que nos dará una perspectiva mucho más clara de las dimensiones de este reto:
 
 | Elemento | Pregunta | Análisis enfocado en el sector comercial |
 | :--- | :--- | :--- |
@@ -83,8 +82,8 @@ Para analizar esta situación de manera estructurada, se utiliza la metodología
 | **How** | ¿Cómo ocurre? | Los asaltantes se aprovechan del aislamiento de cada local y la falta de canales directos entre negocios vecinos. Al no existir alertas rápidas, los actos delictivos se consuman antes de que las autoridades o la comunidad puedan intervenir. |
 | **How much** | ¿Cuánto impacto tiene? | Según el Instituto Nacional de Estadística e Informática (INEI, 2024), la tasa de victimización por robo a negocios pasó del 1.0% en 2023 al 2.1% en 2024. Además, el Banco Interamericano de Desarrollo (BID, 2024) indica que esto representa un sobrecosto significativo en seguridad privada, mermando la competitividad. |
 
-**Conclusión del análisis 5W2H:**
-Del análisis realizado, se concluye que la vulnerabilidad de los establecimientos comerciales no solo responde al aumento de la criminalidad, sino también a la falta de redes de apoyo y herramientas tecnológicas que permitan la comunicación en tiempo real entre locales vecinos. Esta brecha tecnológica evidencia la necesidad de una plataforma digital (como InstAlert) que centralice las alertas tempranas y fomente la prevención colectiva en el sector comercial.
+**Reflexión del análisis 5W2H:**
+Tras evaluar todos estos puntos, queda en evidencia que el peligro para los establecimientos no solo recae en la cantidad de asaltos, sino en el profundo nivel de aislamiento en el que operan. La falta de comunicación inmediata entre negocios cercanos impide que se puedan apoyar mutuamente ante una amenaza. Por ello, el desarrollo de una herramienta como InstAlert resulta esencial para cerrar esa brecha, conectando a los comerciantes a través de una red de alertas tempranas que priorice la prevención y la acción conjunta.
 
 ### 1.2.2. Lean UX Process
 
