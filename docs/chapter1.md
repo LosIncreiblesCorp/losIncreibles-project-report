@@ -70,39 +70,40 @@ De igual manera, la plataforma tiene como meta promover el apoyo mutuo entre los
 
 ### 1.2.1. Antecedentes y problemática
 
-La inseguridad ciudadana y la criminalidad son problemáticas crecientes que afectan severamente al sector comercial en el Perú. Este fenómeno impacta de forma directa en el desarrollo económico de los negocios y en la integridad del personal operativo.
-Para analizar esta situación de manera estructurada, se utiliza la metodología 5W2H, la cual permite identificar los aspectos clave del problema:
+El constante aumento de la delincuencia se ha convertido en un obstáculo crítico para el crecimiento de los negocios a nivel local. Hoy en día, los dueños y sus equipos de trabajo enfrentan amenazas diarias que ponen en riesgo tanto sus ingresos económicos como su seguridad física. Para entender este escenario a fondo y desglosar todas sus aristas, aplicaremos la técnica de las 5W y 2H, lo que nos dará una perspectiva mucho más clara de las dimensiones de este reto:
 
-**What (¿Qué está ocurriendo?)**
-Existe un incremento sostenido en la incidencia de delitos dirigidos a establecimientos comerciales, tales como robos a mano armada, hurtos y extorsiones (cobro de cupos), lo que genera un clima de constante vulnerabilidad para los dueños y trabajadores de los locales.
-
-**Why (¿Por qué ocurre?)**
-Las causas principales incluyen:
-- Deficiente comunicación preventiva entre los negocios de un mismo sector.
-- Escasez de herramientas tecnológicas integradas para emitir alertas tempranas.
-- Limitada capacidad de reacción inmediata frente a un incidente en progreso.
-- Baja tasa de denuncias formales debido a la desconfianza en el proceso.
-
-**Who (¿A quién afecta?)**
-- Dueños y administradores de establecimientos comerciales y pequeños negocios.
-- Personal operativo y de ventas que trabaja en atención al cliente.
-
-**Where (¿Dónde ocurre?)**
-En zonas urbanas y comerciales de riesgo medio-alto, con especial énfasis en áreas con poca vigilancia policial o iluminación deficiente.
-
-**When (¿Cuándo ocurre?)**
-Principalmente durante el horario de atención al público, aprovechando momentos de baja afluencia de clientes, así como durante los horarios de apertura y cierre de los locales.
-
-**How (¿Cómo ocurre?)**
-Los delincuentes se aprovechan del aislamiento de cada local y de la falta de un canal de comunicación directo entre los negocios vecinos. Al no existir un sistema de alertas rápidas, los actos delictivos se consuman antes de que las autoridades o la comunidad puedan intervenir.
-
-**How much (¿Cuánto impacto tiene?)**
-La magnitud de esta problemática se refleja en el impacto económico y psicológico que sufren los negocios. Según el Instituto Nacional de Estadística e Informática (INEI, 2024), la tasa de victimización por robo a negocios se duplicó en el último año, pasando del 1.0% en 2023 al 2.1% en 2024. A esto se suma el alarmante aumento de las extorsiones a nivel nacional.
-
-De acuerdo con el Banco Interamericano de Desarrollo (BID, 2024), los altos índices de criminalidad representan un sobrecosto significativo para las empresas latinoamericanas, obligándolas a invertir recursos adicionales en seguridad privada y mermando su competitividad. Asimismo, la percepción de inseguridad en la población urbana ha alcanzado un 86.1% en 2024 (INEI, 2024), lo que demuestra que la falta de herramientas colaborativas y de reacción inmediata está afectando gravemente al sector comercial peruano.
+| Elemento | Pregunta | Análisis enfocado en el sector comercial |
+| :--- | :--- | :--- |
+| **What** | ¿Qué está ocurriendo? | Existe un incremento sostenido en la incidencia de delitos dirigidos a establecimientos comerciales, tales como robos a mano armada, hurtos y extorsiones (cobro de cupos). Esto genera un clima de constante vulnerabilidad para los negocios. |
+| **Why** | ¿Por qué ocurre? | Principalmente por una deficiente comunicación preventiva entre los locales de un mismo sector, escasez de herramientas tecnológicas integradas para emitir alertas tempranas, y una baja tasa de denuncias formales por desconfianza. |
+| **Who** | ¿A quién afecta? | Afecta directamente a dueños y administradores de establecimientos comerciales, así como al personal operativo y de ventas que trabaja en primera línea de atención al público. |
+| **Where** | ¿Dónde ocurre? | En zonas urbanas y corredores comerciales de riesgo medio-alto, con especial énfasis en áreas con poca vigilancia policial, rutas de escape fáciles o iluminación deficiente. |
+| **When** | ¿Cuándo ocurre? | Durante el horario de atención al público (aprovechando momentos de baja afluencia de clientes) y durante los horarios críticos de apertura y cierre de los locales comerciales. |
+| **How** | ¿Cómo ocurre? | Los asaltantes se aprovechan del aislamiento de cada local y la falta de canales directos entre negocios vecinos. Al no existir alertas rápidas, los actos delictivos se consuman antes de que las autoridades o la comunidad puedan intervenir. |
+| **How much** | ¿Cuánto impacto tiene? | Según el Instituto Nacional de Estadística e Informática (INEI, 2024), la tasa de victimización por robo a negocios pasó del 1.0% en 2023 al 2.1% en 2024. Además, el Banco Interamericano de Desarrollo (BID, 2024) indica que esto representa un sobrecosto significativo en seguridad privada, mermando la competitividad. |
 
 **Conclusión del análisis 5W2H:**
-Del análisis realizado, se concluye que la vulnerabilidad de los establecimientos comerciales no solo responde al aumento de la criminalidad, sino también a la falta de redes de apoyo y herramientas tecnológicas que permitan la comunicación en tiempo real entre locales vecinos. Esta brecha tecnológica evidencia la necesidad de una plataforma digital (como InstAlert) que centralice las alertas tempranas y fomente la prevención colectiva en el sector comercial.
+Tras evaluar todos estos puntos, queda en evidencia que el peligro para los establecimientos no solo recae en la cantidad de asaltos, sino en el profundo nivel de aislamiento en el que operan. La falta de comunicación inmediata entre negocios cercanos impide que se puedan apoyar mutuamente ante una amenaza. Por ello, el desarrollo de una herramienta como InstAlert resulta esencial para cerrar esa brecha, conectando a los comerciantes a través de una red de alertas tempranas que priorice la prevención y la acción conjunta.
+
+**Enunciado del problema**
+En la actualidad, los dueños y trabajadores de locales comerciales ubicados en zonas de riesgo carecen de un sistema tecnológico unificado que les facilite la comunicación en tiempo real para reportar amenazas, emitir alertas preventivas a negocios vecinos y coordinar una respuesta rápida, dejándolos en un estado de vulnerabilidad y aislamiento ante actos delictivos.
+
+**Objetivos del proyecto**
+
+* **Objetivo general:** Desarrollar una aplicación web diseñada para fortalecer la seguridad de los establecimientos comerciales a través de alertas tempranas en tiempo real y la colaboración activa entre negocios de un mismo sector.
+
+* **Objetivos específicos:**
+  - Agilizar el proceso de reporte de incidentes para que los comercios puedan avisar a su entorno en cuestión de segundos.
+  - Mostrar áreas de mayor vulnerabilidad a través de mapas interactivos y actualizados.
+  - Promover un canal de comunicación directo entre los comerciantes ante posibles emergencias.
+  - Distribuir notificaciones preventivas y alertas inmediatas a los locales suscritos a la red.
+
+**Restricciones del proyecto**
+- La efectividad de la red dependerá del compromiso y la participación de los administradores de los locales.
+- Puede haber limitaciones técnicas en la exactitud de la ubicación según el celular o dispositivo utilizado.
+- No tendremos conexión directa con las bases de datos oficiales de la policía.
+- El plazo para el desarrollo y despliegue del software está restringido a la duración del ciclo académico.
+- El proyecto se construirá con recursos de hardware y un equipo humano limitados.
 
 ### 1.2.2. Lean UX Process
 
