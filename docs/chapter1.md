@@ -87,7 +87,7 @@ El constante aumento de la delincuencia se ha convertido en un obstáculo críti
 *Tasa de Victimización Comercial (2023-2024)*
 
 <p align="center">
-  <img src="../assets/Chapter1/statistics/victimization_rate.png" alt="Tasa de Victimización" width="600"><br>
+  <img src="../assets/Chapter1/Graphics/TasaDeVictimizacion.png" alt="Tasa de Victimización" width="600"><br>
   Nota: Aumento de la tasa de victimización por robo a negocios en el Perú, elaborado a partir de datos del INEI (2024).
 </p>
 
@@ -243,7 +243,7 @@ El segmento objetivo de InstAlert abarca a la gran mayoría del ecosistema empre
 *Distribución y Brecha Digital en MYPEs*
 
 <p align="center">
-  <img src="../assets/Chapter1/statistics/mypes_digitalization.png" alt="Brecha Digital MYPEs" width="600"><br>
+  <img src="../assets/Chapter1/Graphics/DigitalizacionDeMypes.png" alt="Brecha Digital MYPEs" width="600"><br>
   Nota: Análisis del acceso a internet vs. ventas online en las micro y pequeñas empresas del Perú, basado en estimaciones de PRODUCE.
 </p>
 
@@ -255,7 +255,7 @@ El perfil comportamental del comerciante evidencia que el smartphone es el canal
 *Penetración de Smartphones en el Perú*
 
 <p align="center">
-  <img src="../assets/Chapter1/statistics/smartphone_adoption.png" alt="Adopción de Smartphones" width="600"><br>
+  <img src="../assets/Chapter1/Graphics/AdopcionDeSmartphones.png" alt="Adopción de Smartphones" width="600"><br>
   Nota: Crecimiento histórico y proyectado de la penetración de smartphones en el Perú, según datos de CEPLAN y OSIPTEL.
 </p>
 
@@ -267,6 +267,6 @@ El temor del segmento 1 (dueños de locales) está fundamentado en el grave impa
 *Impacto Percibido de la Extorsión en MYPEs*
 
 <p align="center">
-  <img src="../assets/Chapter1/statistics/extortion_impact.png" alt="Impacto de la Extorsión" width="600"><br>
+  <img src="../assets/Chapter1/Graphics/ImpactoDeExtorsiones.png" alt="Impacto de la Extorsión" width="600"><br>
   Nota: Principales consecuencias del delito de extorsión en empresas emergentes, a partir del estudio fenomenológico de Ríos (2024).
 </p>
