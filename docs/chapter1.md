@@ -140,22 +140,21 @@ A continuación, se detallan las creencias e hipótesis fundamentales sobre las 
 
 **2. Business Outcome Assumptions (Suposiciones de Resultados del Negocio)**
 - Creemos que lograremos reducir el impacto económico y emocional de la delincuencia en los establecimientos afiliados.
-- Sabremos que tenemos éxito si logramos un alto nivel de retención de usuarios y una red de comercios activos que verifiquen constantemente las alertas.
+- Creemos que tendremos éxito si logramos un alto nivel de retención de usuarios y una red de comercios activos que verifiquen constantemente las alertas.
 
 **3. User Assumptions (Suposiciones de los Usuarios)**
-- Nuestros usuarios principales son administradores de negocios y su personal de primera línea.
-- Asumimos que tienen acceso constante a una computadora de mostrador o dispositivo móvil durante su jornada laboral.
-- Asumimos que poseen un sentido de solidaridad y están dispuestos a advertir a los locales vecinos si notan actividades sospechosas.
+- Creemos que nuestros usuarios principales son administradores de negocios y su personal de primera línea.
+- Creemos que estos usuarios tienen acceso constante a una computadora de mostrador o dispositivo móvil durante su jornada laboral.
+- Creemos que los comerciantes poseen un fuerte sentido de solidaridad y están dispuestos a advertir a los locales vecinos si notan actividades sospechosas.
 
 **4. User Outcome and Benefit Assumptions (Suposiciones de Beneficios para el Usuario)**
-- Los comerciantes buscan operar sus negocios en un entorno seguro y libre de estrés.
-- Al utilizar InstAlert, los usuarios obtendrán el beneficio de estar advertidos con anticipación sobre posibles amenazas acercándose a su local, dándoles tiempo para resguardarse.
+- Creemos que los comerciantes valoran enormemente operar sus negocios en un entorno seguro y libre de estrés.
+- Creemos que los usuarios obtendrán el beneficio crucial de estar advertidos con anticipación sobre amenazas cercanas, dándoles tiempo para resguardarse o cerrar sus puertas.
 
 **5. Feature Assumptions (Suposiciones de Funcionalidades)**
-Para lograr estos beneficios, creemos que la plataforma debe contar con las siguientes funcionalidades:
-- Un botón de alerta temprana de un solo clic.
-- Un mapa interactivo que muestre el nivel de riesgo en los alrededores en tiempo real.
-- Un sistema de notificaciones push para recibir avisos urgentes al instante.
+- Creemos que la plataforma debe contar con un botón de alerta temprana o de pánico silencioso.
+- Creemos que los usuarios necesitan un mapa interactivo que muestre incidentes recientes para identificar el nivel de riesgo en sus alrededores en tiempo real.
+- Creemos que un sistema de notificaciones push comunitarias es indispensable para enviar y recibir avisos urgentes al instante.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
