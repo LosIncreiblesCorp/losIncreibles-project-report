@@ -48,16 +48,20 @@
       <td style="border: none; padding: 3px 15px;">Asto Jacome, Jose Gustavo</td>
     </tr>
     <tr style="border: none;">
+      <td style="border: none; padding: 3px 15px;">U202415638</td>
+      <td style="border: none; padding: 3px 15px;">Díaz Mendoza, Sebastián Víctor André</td>
+    </tr>
+    <tr style="border: none;">
       <td style="border: none; padding: 3px 15px;">U202310342</td>
       <td style="border: none; padding: 3px 15px;">Noriega Collado, Jean Fabio</td>
     </tr>
     <tr style="border: none;">
-      <td style="border: none; padding: 3px 15px;">CÓDIGO</td>
-      <td style="border: none; padding: 3px 15px;">APELLIDOS, Nombres</td>
+      <td style="border: none; padding: 3px 15px;">U20241G022</td>
+      <td style="border: none; padding: 3px 15px;">Ruiz Villegas, Yngrid Nahir</td>
     </tr>
     <tr style="border: none;">
-      <td style="border: none; padding: 3px 15px;">CÓDIGO</td>
-      <td style="border: none; padding: 3px 15px;">APELLIDOS, Nombres</td>
+      <td style="border: none; padding: 3px 15px;">U201823468</td>
+      <td style="border: none; padding: 3px 15px;">Simon Calderon, Ismael Sebastian</td>
     </tr>
   </table>
 
