@@ -88,7 +88,7 @@ El constante aumento de la delincuencia se ha convertido en un obstáculo críti
 
 <p align="center">
   <img src="../assets/Chapter1/Graphics/TasaDeVictimizacion.png" alt="Tasa de Victimización" width="600"><br>
-  Nota: Aumento de la tasa de victimización por robo a negocios en el Perú, elaborado a partir de datos del INEI (2024).
+  <i>Nota: Elaboración propia a partir de datos del INEI (2024). Gráfico generado con la librería Matplotlib en Python.</i>
 </p>
 
 **Conclusión del análisis 5W2H:**
@@ -244,7 +244,7 @@ El segmento objetivo de InstAlert abarca a la gran mayoría del ecosistema empre
 
 <p align="center">
   <img src="../assets/Chapter1/Graphics/DigitalizacionDeMypes.png" alt="Brecha Digital MYPEs" width="600"><br>
-  Nota: Análisis del acceso a internet vs. ventas online en las micro y pequeñas empresas del Perú, basado en estimaciones de PRODUCE.
+  <i>Nota: Elaboración propia a partir de estimaciones de PRODUCE. Gráfico generado con la librería Matplotlib en Python.</i>
 </p>
 
 **2. Masificación del Smartphone como Herramienta Clave**
@@ -256,7 +256,7 @@ El perfil comportamental del comerciante evidencia que el smartphone es el canal
 
 <p align="center">
   <img src="../assets/Chapter1/Graphics/AdopcionDeSmartphones.png" alt="Adopción de Smartphones" width="600"><br>
-  Nota: Crecimiento histórico y proyectado de la penetración de smartphones en el Perú, según datos de CEPLAN y OSIPTEL.
+  <i>Nota: Elaboración propia a partir de datos de CEPLAN y OSIPTEL. Gráfico generado con la librería Matplotlib en Python.</i>
 </p>
 
 **3. Impacto de la Extorsión en la Sostenibilidad**
@@ -268,5 +268,5 @@ El temor del segmento 1 (dueños de locales) está fundamentado en el grave impa
 
 <p align="center">
   <img src="../assets/Chapter1/Graphics/ImpactoDeExtorsiones.png" alt="Impacto de la Extorsión" width="600"><br>
-  Nota: Principales consecuencias del delito de extorsión en empresas emergentes, a partir del estudio fenomenológico de Ríos (2024).
+  <i>Nota: Elaboración propia a partir del estudio fenomenológico de Ríos (2024). Gráfico generado con la librería Matplotlib en Python.</i>
 </p>
