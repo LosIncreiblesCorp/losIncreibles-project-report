@@ -187,11 +187,11 @@ El siguiente Lean UX Canvas sintetiza los problemas, los segmentos de usuarios, 
 *Lean UX Canvas*
 
 <p align="center">
-  <img src="../assets/Chapter1/UX Designs/leanuxcanvas.png" alt="Lean UX Canvas" width="700"><br>
-  Nota: Lean UX Canvas del proyecto InstAlert, elaborado en UXPressia. Resume el problema, los segmentos de usuarios B2B, las hipótesis, las soluciones propuestas y los resultados esperados.
+  <img src="../assets/Chapter1/Graphics/LeanUXCanvas_Oficial.png" alt="Lean UX Canvas" width="800"><br>
+  <i>Nota: Lean UX Canvas del proyecto InstAlert, elaborado en Canva. Resume el problema, los segmentos de usuarios, las hipótesis y los resultados esperados.</i>
 </p>
 
-A continuación, se presenta el enlace público de UXPressia del Lean UX Canvas del proyecto: <[ENLACE_PENDIENTE]>
+A continuación, se presenta el enlace público de Canva del Lean UX Canvas del proyecto: <https://canva.link/n58mftoui937o2g>
 
 ## 1.3. Segmentos objetivo
 
