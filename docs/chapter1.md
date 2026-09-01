@@ -27,38 +27,38 @@ De igual manera, la plataforma tiene como meta promover el apoyo mutuo entre los
 <tbody>
 
 <tr>
-<td><img src="" alt="Foto"></td>
-<td>Asto Jacome, Jose Gustavo</td>
+<td align="center"><img src="../assets/Chapter1/Team/Victor.jpeg" alt="Sebastián Díaz" width="150"></td>
+<td>Díaz Mendoza, Sebastián Víctor André<br><b>Código:</b> U202415638</td>
 <td>Ingeniería de Software</td>
-<td>(descripcion pendiente)</td>
+<td>[PENDIENTE: Describir principales conocimientos técnicos y habilidades]</td>
 </tr>
 
 <tr>
-<td><img src="" alt="Foto"></td>
-<td>Noriega Collado, Jean Fabio</td>
+<td align="center"><img src="../assets/Chapter1/Team/Simon.jpeg" alt="Ismael Simon" width="150"></td>
+<td>Simon Calderon, Ismael Sebastian<br><b>Código:</b> U201823468</td>
 <td>Ingeniería de Software</td>
-<td>Código: U202310342. (descripcion pendiente)</td>
+<td>[PENDIENTE: Describir principales conocimientos técnicos y habilidades]</td>
 </tr>
 
 <tr>
-<td><img src="" alt="Foto"></td>
-<td>(apellidos, nombres)</td>
-<td>(carrera)</td>
-<td>(descripcion pendiente)</td>
+<td align="center"><img src="../assets/Chapter1/Team/Asto.jpeg" alt="Jose Asto" width="150"></td>
+<td>Asto Jacome, Jose Gustavo<br><b>Código:</b> U20241C630</td>
+<td>Ingeniería de Software</td>
+<td>[PENDIENTE: Describir principales conocimientos técnicos y habilidades]</td>
 </tr>
 
 <tr>
-<td><img src="" alt="Foto"></td>
-<td>(apellidos, nombres)</td>
-<td>(carrera)</td>
-<td>(descripcion pendiente)</td>
+<td align="center"><img src="../assets/Chapter1/Team/Jean.jpeg" alt="Jean Noriega" width="150"></td>
+<td>Noriega Collado, Jean Fabio<br><b>Código:</b> U202310342</td>
+<td>Ingeniería de Software</td>
+<td>[PENDIENTE: Describir principales conocimientos técnicos y habilidades]</td>
 </tr>
 
 <tr>
-<td><img src="" alt="Foto"></td>
-<td>(apellidos, nombres)</td>
-<td>(carrera)</td>
-<td>(descripcion pendiente)</td>
+<td align="center"><img src="../assets/Chapter1/Team/Yngrid.jpeg" alt="Yngrid Ruiz" width="150"></td>
+<td>Ruiz Villegas, Yngrid Nahir<br><b>Código:</b> U20241G022</td>
+<td>Ingeniería de Software</td>
+<td>[PENDIENTE: Describir principales conocimientos técnicos y habilidades]</td>
 </tr>
 
 </tbody>
