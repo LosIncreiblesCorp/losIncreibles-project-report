@@ -22,6 +22,22 @@ https://www.atlassian.com/es/software/jira
   <img src="https://imgur.com/65HmGqZ.png" alt="Jira" width="250">
 </p>
 
+**2. Product UX/UI Design**
+
+*Descripción:*
+
+El diseño de la interfaz (UI) y la experiencia de usuario (UX) son elementos importantes para desarrollar aplicaciones intuitivas, funcionales y agradables visualmente. Las herramientas de UX/UI permiten elaborar prototipos, wireframes y diseños interactivos que pueden ser evaluados y validados antes de iniciar la etapa de implementación.
+
+Figma:
+
+Figma es una herramienta de diseño colaborativo en la nube que permite crear interfaces, prototipos y diseños interactivos. Su funcionamiento en línea facilita que los integrantes de un equipo puedan editar, revisar y comentar los diseños en tiempo real, incluso trabajando desde diferentes lugares. Además, resulta especialmente útil en metodologías ágiles, donde las actividades de diseño y desarrollo se realizan de manera paralela.
+
+https://www.figma.com/es-la/
+
+<p align="center">
+  <img src="https://imgur.com/Z8QXBFT.png" alt="Figma" width="250">
+</p>
+
 ### 5.1.2. Source Code Management
 
 ### 5.1.3. Source Code Style Guide & Conventions
