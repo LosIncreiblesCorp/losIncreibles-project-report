@@ -370,7 +370,7 @@ Se utilizará para controlar la presentación visual, priorizando un diseño mod
 * **Variables:** Utilizar Custom Properties (variables CSS) en la raíz (`:root`) para colores de la marca, tipografías y espaciados estandarizados.
 
 <p align="center">
-  <img src="https://imgur.com/LShPot3" alt="CSS Conventions" width="250">
+  <img src="https://imgur.com/d4f2qFX" alt="CSS Conventions" width="250">
 </p>
 
 ---
@@ -395,7 +395,7 @@ Se aplicará para la interactividad del lado del cliente y el consumo de APIs, p
 * **Documentación:** Usar JSDoc para documentar funciones complejas, describiendo parámetros y valores de retorno.
 
 <p align="center">
-  <img src="https://imgur.com/jqtZ1jQ" alt="JS Conventions" width="250">
+  <img src="https://imgur.com/buHT5fx" alt="JS Conventions" width="250">
 </p>
 
 ---
@@ -422,7 +422,7 @@ Se aplicará en el desarrollo de los Web Services y la lógica del lado del serv
 * **LINQ:** Aprovechar los métodos de extensión de LINQ para manipular colecciones de forma declarativa y legible.
 
 <p align="center">
-  <img src="https://imgur.com/I2VvlCC" alt="C# Conventions" width="250">
+  <img src="https://imgur.com/yeEElyR" alt="C# Conventions" width="250">
 </p>
 
 ### 5.1.4. Software Deployment Configuration
