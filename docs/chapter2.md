@@ -58,6 +58,32 @@ Analizar a la competencia permite identificar sus estrategias, fortalezas y debi
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+InstAlert plantea estrategias de diferenciación frente a cada competidor identificado, tomando como base su enfoque especializado en establecimientos comerciales, su bajo costo de adopción y su capacidad para conectar negocios cercanos mediante alertas preventivas.
+
+#### Frente a Seguridad Ciudadana App
+
+- **Especialización en establecimientos comerciales:** mientras Seguridad Ciudadana App tiene un enfoque amplio de reporte ciudadano, InstAlert se concentra en los problemas específicos de negocios ubicados en zonas comerciales de riesgo medio-alto.
+- **Red colaborativa entre comercios cercanos:** InstAlert no solo busca reportar una emergencia a una entidad pública, sino alertar rápidamente a negocios vecinos para que puedan tomar medidas preventivas.
+- **Mayor control para administradores de negocios:** la plataforma permite que los dueños o administradores gestionen su red interna de usuarios, personal operativo e incidentes reportados dentro de su zona comercial.
+- **Prevención antes de la emergencia:** InstAlert busca complementar el reporte de incidentes con información preventiva, mapas de riesgo y alertas tempranas entre comercios.
+- **Táctica principal:** presentar InstAlert como una solución especializada para comercios que complementa los canales públicos de seguridad, ofreciendo rapidez, colaboración local y foco en prevención comercial.
+
+#### Frente a Verisure Perú
+
+- **Modelo basado en software:** InstAlert no requiere sensores, cableado, sirenas físicas ni visitas técnicas de instalación. Esto reduce la barrera económica de entrada para micro y pequeños negocios.
+- **Costo accesible:** frente a modelos de seguridad privada con mensualidades e instalación física, InstAlert propone una suscripción más accesible orientada a negocios que necesitan prevención, comunicación y respuesta temprana.
+- **Protección colaborativa:** Verisure protege principalmente un local de forma individual. InstAlert busca fortalecer la seguridad de una zona comercial completa mediante colaboración entre negocios cercanos.
+- **Gestión flexible del personal:** los administradores pueden registrar o retirar accesos del personal operativo sin depender de dispositivos físicos adicionales.
+- **Táctica principal:** presentar InstAlert como complemento o alternativa inicial para comercios que no pueden pagar servicios privados de seguridad monitoreada, pero sí necesitan un mecanismo organizado de alerta y prevención.
+
+#### Frente a Life360
+
+- **Especialización en seguridad comercial:** aunque Life360 ofrece funciones de seguridad y alerta, InstAlert se enfoca específicamente en comercios expuestos a riesgos delictivos dentro de zonas urbanas.
+- **Alertas por zona comercial:** InstAlert no busca rastrear personas de manera permanente, sino facilitar reportes de incidentes y alertas preventivas relacionadas con establecimientos comerciales.
+- **Red dentro de un perímetro comercial:** mientras Life360 funciona mediante círculos privados, InstAlert conecta negocios cercanos que pueden no tener una relación personal previa, pero que comparten un mismo entorno de riesgo.
+- **Mapa de riesgo comercial:** InstAlert permite visualizar incidentes en zonas comerciales, ayudando a administradores y trabajadores a reconocer patrones de riesgo.
+- **Táctica principal:** diferenciar la plataforma como una solución enfocada en prevención comercial, alertas entre negocios y respuesta temprana ante amenazas delictivas.
+
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
