@@ -486,11 +486,11 @@ En este primer sprint se desarrolló la landing page y la documentación inicial
 
 | Team Member | GitHub Username | Landing Page | Diseño UI/UX | Documentación |
 | :--- | :--- | :--- | :--- | :--- |
-| Jose Gustavo Asto Jacome | JoseAsto | Líder | Colaborador | Colaborador |
-| Sebastian Victor Andre Diaz Mendoza | DiazDeveloper | Colaborador | Colaborador | Líder |
-| Jean Fabio Noriega Collado | JeanNoriega | Colaborador | Colaborador | Colaborador |
-| Yngrid Nahir Ruiz Villegas | YngridRuiz | Colaborador | Líder | Colaborador |
-| Ismael Sebastian Simon Calderon | IsmaelSimon | Colaborador | Colaborador | Colaborador |
+| Jose Gustavo Asto Jacome | DhudsQ | Lider | Colaborador | Colaborador |
+| Sebastian Victor Andre Diaz Mendoza | DiazDeveloper | Colaborador | Colaborador | Colaborador |
+| Jean Fabio Noriega Collado | dumbaskidd | Colaborador | Colaborador | Lider |
+| Yngrid Nahir Ruiz Villegas | nahiryn8 | Colaborador | Líder | Colaborador |
+| Ismael Sebastian Simon Calderon | Mayel-dev | Colaborador | Colaborador | Colaborador |
 
 **Nota:** Distribución de responsabilidades de los integrantes del equipo durante el Sprint 1, indicando el liderazgo y la colaboración en las principales áreas de trabajo.
 
