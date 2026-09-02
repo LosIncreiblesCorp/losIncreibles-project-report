@@ -461,7 +461,38 @@ A continuación, se describen los pasos específicos y las tecnologías involucr
 
 ### 5.2.1. Sprint 1
 
+En este primer sprint se desarrolló la landing page y la documentación inicial del proyecto InstAlert.
+
 #### 5.2.1.1. Sprint Planning 1
+
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 11/04/2026 |
+| Time | 3:30 PM |
+| Location | Google Meet |
+| Prepared By | Alexander Paolo Justo Yauricasa |
+| Attendees (to planning meeting) | Piero Leonardo Molina Falcón<br>Sebastian Victor Andre Diaz Mendoza<br>Breithner Rodolfo Perez Encarnación<br>Alexander Paolo Justo Yauricasa |
+| **Sprint 1 Review Summary** | Durante este sprint, el equipo se enfocó en sentar las bases estratégicas del proyecto InstAlert. Se completaron entregables clave de UX como User Personas, Journey Maps y la arquitectura de información, que guiaron el diseño de la plataforma. Con esta base, se diseñó, maquetó y desplegó la primera versión funcional de la landing page. Esta página incluye la propuesta de valor del SaaS, los planes de suscripción. |
+| **Sprint 1 Retrospective Summary** | Los miembros del equipo coincidieron en que la colaboración fue fluida gracias a la correcta asignación de roles. Se destacó la sinergia entre el diseño en Figma y la configuración inicial de los repositorios. Para el siguiente sprint, se identificó la oportunidad de mejorar la estimación de tiempos de desarrollo al iniciar la integración del backend. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | Nos enfocamos en entregar una primera versión de la landing page desplegada y la documentación de los primeros capítulos del informe. Creemos que esto entrega una propuesta de valor validada para atraer a nuestro segmento objetivo. Esto se confirmará cuando la web esté pública y el informe sea aprobado. |
+| **Sprint 1 Velocity** | 20 |
+| **Sum of Story Points** | 20 |
+
+**Nota:** Resumen de la planificación, objetivos, resultados y métricas correspondientes al Sprint 1 del proyecto InstAlert.
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+| Team Member | GitHub Username | Landing Page | Diseño UI/UX | Documentación |
+| :--- | :--- | :--- | :--- | :--- |
+| Piero Leonardo Molina Falcón | PieroMFAL | Colaborador | Colaborador | Líder |
+| Alexander Paolo Justo Yauricasa | AlexanderJusto | Líder | Colaborador | Colaborador |
+| Sebastian Victor Andre Diaz Mendoza | DiazDeveloper | Colaborador | Colaborador | Colaborador |
+| Breithner Rodolfo Perez Encarnación | Breithner1 | Colaborador | Líder | Colaborador |
+
+**Nota:** Distribución de responsabilidades de los integrantes del equipo durante el Sprint 1, indicando el liderazgo y la colaboración en las principales áreas de trabajo.
+
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
