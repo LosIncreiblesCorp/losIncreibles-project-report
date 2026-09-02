@@ -22,6 +22,22 @@ https://www.atlassian.com/es/software/jira
   <img src="https://imgur.com/65HmGqZ.png" alt="Jira" width="250">
 </p>
 
+Discord:
+
+Discord es una plataforma de comunicación que permite mantener reuniones y conversaciones en tiempo real mediante canales de texto y voz. En el desarrollo del proyecto, puede utilizarse como medio de comunicación sincrónica para coordinar actividades, realizar reuniones diarias y mantener una comunicación constante entre los integrantes del equipo.
+
+https://discord.com/
+
+<p align="center"> <img src="https://imgur.com/discord-logo.png" alt="Discord" width="250"> </p>
+
+Google Meet:
+
+Google Meet es una herramienta de videoconferencias que permite realizar reuniones virtuales mediante llamadas de audio y video. En el proyecto, se utiliza para llevar a cabo reuniones formales con el equipo, como revisiones de sprint, coordinaciones y otras actividades que requieren comunicación directa.
+
+https://meet.google.com/
+
+<p align="center"> <img src="https://imgur.com/google-meet-logo.png" alt="Google Meet" width="250"> </p>
+
 **2. Product UX/UI Design**
 
 *Descripción:*
