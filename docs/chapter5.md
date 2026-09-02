@@ -187,6 +187,26 @@ https://www.lucidchart.com/
   <img src="https://imgur.com/eMoS4S0.png" alt="Lucidchart" width="250">
 </p>
 
+Git:
+
+Git es un sistema de control de versiones distribuido utilizado para gestionar los cambios realizados en el código fuente de manera local. Permite crear ramas, registrar modificaciones y mantener un historial de versiones del proyecto.
+
+https://git-scm.com/
+
+<p align="center">
+  <img src="https://imgur.com/BFkP50S.png" alt="Git" width="250">
+</p>
+
+GitHub:
+
+GitHub es una plataforma de desarrollo colaborativo basada en Git que permite alojar repositorios, gestionar versiones del código y facilitar el trabajo colaborativo entre los integrantes del equipo mediante ramas, commits y pull requests.
+
+https://github.com/
+
+<p align="center">
+  <img src="https://imgur.com/4ue0oEn.png" alt="Github" width="250">
+</p>
+
 **5. Software Deployment**
 
 GitHub Pages:
