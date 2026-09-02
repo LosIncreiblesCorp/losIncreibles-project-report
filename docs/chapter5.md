@@ -7,7 +7,9 @@ La Gestión de Configuración de Software (SCM) es una disciplina del desarrollo
 A continuación se listan los productos de software utilizados por el equipo, organizados por tipo de actividad del ciclo de vida. Para cada herramienta se indica su propósito y la ruta de referencia o descarga.
 
 **1. Project Management**
+
 *Descripción:*
+
 La gestión de proyectos es un aspecto esencial en el desarrollo de software, ya que permite organizar y estructurar las actividades necesarias para alcanzar los objetivos de un proyecto. Las herramientas de gestión facilitan la planificación, asignación y seguimiento de tareas, además de favorecer la comunicación y colaboración entre los integrantes del equipo.
 
 Jira (SaaS):
