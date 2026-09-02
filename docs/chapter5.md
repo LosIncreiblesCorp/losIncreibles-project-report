@@ -258,17 +258,21 @@ Para estructurar el código y las pruebas de manera óptima, se han creado repos
 *Landing Page:* 
 Repositorio dedicado exclusivamente al sitio web promocional e informativo del proyecto. Contiene todos los recursos de interfaz estática (HTML, CSS, JavaScript, multimedia) orientados a presentar la propuesta de valor del software a los usuarios y potenciales clientes.
 
-*Web Services:* 
-Este repositorio aloja toda la lógica del Back-End y la provisión de servicios. Es fundamental destacar que aquí se incluye no solo el código fuente del proyecto, sino también todos los archivos correspondientes a las pruebas automatizadas, abarcando tanto las pruebas unitarias como las de integración y aceptación.
+*Report Repository:* 
+Repositorio destinado a la redaccion del reporte del proyecto 
 
 *Frontend Web Applications:* 
 Repositorio destinado a la aplicación web del lado del cliente. Contiene la estructura, componentes, vistas y la lógica de consumo de los servicios web (APIs), garantizando la interacción del usuario final con el sistema.
 
+*Web Services:* 
+Este repositorio aloja toda la lógica del Back-End y la provisión de servicios. Es fundamental destacar que aquí se incluye no solo el código fuente del proyecto, sino también todos los archivos correspondientes a las pruebas automatizadas, abarcando tanto las pruebas unitarias como las de integración y aceptación.
+
 **Enlaces a los repositorios:**
 
-* Repositorio de Landing Page: https://github.com/InstAlert-Org/instalert-landing-page
-* Repositorio de Web Services: https://github.com/InstAlert-Org/instalert-web-services
-* Repositorio de Frontend Web Applications: https://github.com/InstAlert-Org/instalert-frontend
+* Repositorio de Landing Page: ()
+* Repositorio de Frontend Web Applications: ()
+* Repositorio de Web Services: ()
+* Repositorio del Reporte: ()
 
 **2. Workflow de control de versiones (GitFlow)**
 
