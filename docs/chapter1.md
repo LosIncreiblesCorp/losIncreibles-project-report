@@ -210,7 +210,7 @@ Personas responsables de la gestión y operación de establecimientos comerciale
 * **Perfil Psicográfico:**
   - **Preocupaciones:** Alta preocupación por la seguridad física de su patrimonio, motivada por la amenaza constante de la extorsión ("cobro de cupos").
   - **Motivaciones:** Proteger su inversión y operar en un ambiente de tranquilidad para garantizar la sostenibilidad de su emprendimiento.
-  - **Comportamiento ante el problema:** Desconfían de la rapidez de respuesta de las autoridades y valoran la creación de redes de apoyo vecinal.
+  - **Comportamiento ante el problema:** Desconfían de la rapidez de respuesta de las autoridades y dependen de su personal operativo para el reporte inmediato y monitoreo de incidentes en el local.
 * **Perfil Comportamental:**
   - **Uso de tecnología:** Alta dependencia del smartphone como principal herramienta de acceso a la información y gestión básica del negocio.
 
