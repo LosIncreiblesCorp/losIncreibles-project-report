@@ -154,7 +154,7 @@ C# es el lenguaje de programación utilizado para el desarrollo de los Web Servi
 https://dotnet.microsoft.com/languages/csharp
 
 <p align="center">
-  <img src="https://imgur.com/a/0sZN7T3.png" alt="ASP.NET Core" width="250">
+  <img src="https://imgur.com/KBqr9MO.png" alt="C#" width="250">
 </p>
 
 MySQL Server:
