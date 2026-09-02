@@ -153,6 +153,76 @@ https://dotnet.microsoft.com/languages/csharp
   <img src="https://imgur.com/aspnet-core-logo.png" alt="ASP.NET Core" width="250">
 </p>
 
+MySQL Server:
+
+MySQL Server será utilizado como sistema de gestión de bases de datos relacional (RDBMS), permitiendo almacenar y administrar la información utilizada por la aplicación.
+
+https://www.mysql.com/
+
+<p align="center">
+  <img src="URL_IMAGEN_MYSQL" alt="MySQL Server" width="250">
+</p>
+
+Structurizr:
+
+Structurizr será utilizado para la elaboración de los diagramas de Software Architecture mediante el modelo C4, permitiendo representar la estructura y arquitectura del sistema.
+
+https://structurizr.com/
+
+<p align="center">
+  <img src="URL_IMAGEN_STRUCTURIZR" alt="Structurizr" width="250">
+</p>
+
+Lucidchart:
+
+Lucidchart será utilizado para la elaboración de diagramas UML y para el Database Design, permitiendo representar la estructura, relaciones y componentes de la solución.
+
+https://www.lucidchart.com/
+
+<p align="center">
+  <img src="URL_IMAGEN_LUCIDCHART" alt="Lucidchart" width="250">
+</p>
+
+**5. Software Deployment**
+
+GitHub Pages:
+
+GitHub Pages será utilizado como servicio de hosting para realizar el despliegue de la Landing Page estática y de la Web Application (frontend).
+
+https://pages.github.com/
+
+<p align="center">
+  <img src="URL_IMAGEN_GITHUB_PAGES" alt="GitHub Pages" width="250">
+</p>
+
+Proveedor de hosting en la nube para ASP.NET Core:
+
+Se utilizará un proveedor de hosting en la nube para realizar el despliegue de los Web Services desarrollados con ASP.NET Core. El proveedor definitivo será determinado de acuerdo con las necesidades del proyecto.
+
+<p align="center">
+  <img src="URL_IMAGEN_HOSTING" alt="Cloud Hosting" width="250">
+</p>
+
+**6. Software Documentation**
+
+Swagger / OpenAPI:
+
+Swagger será utilizado para documentar los Web Services mediante la especificación OpenAPI, permitiendo visualizar e interactuar con los endpoints disponibles en la RESTful API.
+
+https://swagger.io/
+
+<p align="center">
+  <img src="URL_IMAGEN_SWAGGER" alt="Swagger / OpenAPI" width="250">
+</p>
+
+Markdown + Visual Studio Code:
+
+Markdown será utilizado para la elaboración y estructuración de la documentación del proyecto dentro del repositorio. Visual Studio Code permitirá editar los archivos Markdown y utilizar extensiones para facilitar su visualización y generación en diferentes formatos.
+
+<p align="center">
+  <img src="URL_IMAGEN_MARKDOWN_VSCODE" alt="Markdown + Visual Studio Code" width="250">
+</p>
+
 ### 5.1.2. Source Code Management
 
 ### 5.1.3. Source Code Style Guide & Conventions
