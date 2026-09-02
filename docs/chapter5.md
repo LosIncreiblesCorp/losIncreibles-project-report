@@ -77,6 +77,17 @@ https://www.figma.com/es-la/
   <img src="https://imgur.com/Z8QXBFT.png" alt="Figma" width="250">
 </p>
 
+Lucidchart:
+
+Lucidchart es una plataforma de diagramación utilizada para elaborar Wireflows y User Flows, además de diagramas UML y Database Design, permitiendo representar visualmente diferentes aspectos del diseño y estructura del sistema.
+
+https://www.lucidchart.com/
+
+<p align="center">
+  <img src="https://imgur.com/lucidchart-logo.png" alt="Lucidchart" width="250">
+</p>
+
+
 ### 5.1.2. Source Code Management
 
 ### 5.1.3. Source Code Style Guide & Conventions
