@@ -468,28 +468,29 @@ En este primer sprint se desarrolló la landing page y la documentación inicial
 | Sprint # | Sprint 1 |
 | :--- | :--- |
 | **Sprint Planning Background** | |
-| Date | 11/04/2026 |
-| Time | 3:30 PM |
+| Date | 02/09/2026 |
+| Time | 11:00 PM |
 | Location | Google Meet |
-| Prepared By | Alexander Paolo Justo Yauricasa |
-| Attendees (to planning meeting) | Piero Leonardo Molina Falcón<br>Sebastian Victor Andre Diaz Mendoza<br>Breithner Rodolfo Perez Encarnación<br>Alexander Paolo Justo Yauricasa |
-| **Sprint 1 Review Summary** | Durante este sprint, el equipo se enfocó en sentar las bases estratégicas del proyecto InstAlert. Se completaron entregables clave de UX como User Personas, Journey Maps y la arquitectura de información, que guiaron el diseño de la plataforma. Con esta base, se diseñó, maquetó y desplegó la primera versión funcional de la landing page. Esta página incluye la propuesta de valor del SaaS, los planes de suscripción. |
-| **Sprint 1 Retrospective Summary** | Los miembros del equipo coincidieron en que la colaboración fue fluida gracias a la correcta asignación de roles. Se destacó la sinergia entre el diseño en Figma y la configuración inicial de los repositorios. Para el siguiente sprint, se identificó la oportunidad de mejorar la estimación de tiempos de desarrollo al iniciar la integración del backend. |
+| Prepared By | Sebastian Victor Andre Diaz Mendoza |
+| Attendees (to planning meeting) | Jose Gustavo Asto Jacome<br>Sebastian Victor Andre Diaz Mendoza<br>Jean Fabio Noriega Collado<br>Yngrid Nahir Ruiz Villegas<br>Ismael Sebastian Simon Calderon |
+| **Sprint 1 Review Summary** | Durante este primer ciclo, los esfuerzos del equipo se centraron en definir la base estratégica e identitaria de InstAlert. Logramos concluir satisfactoriamente los artefactos fundamentales de UX (User Personas, Customer Journey Maps y Arquitectura de la Información), los cuales sirvieron de guía directa para la concepción del producto. Con este respaldo, logramos diseñar, desarrollar y desplegar la versión inicial de nuestra Landing Page, en la cual se expone de forma clara la propuesta de valor del SaaS y los detalles de los planes de suscripción. |
+| **Sprint 1 Retrospective Summary** | El equipo concluyó que la dinámica de trabajo fue altamente productiva, impulsada por una clara y equitativa distribución de responsabilidades. Se destacó positivamente la transición y alineación entre el prototipado realizado en Figma y la configuración inicial de los repositorios en GitHub. Como área de mejora para el próximo sprint, acordamos optimizar nuestras estimaciones de tiempo (puntos de historia), especialmente de cara al inicio del desarrollo e integración del lado del servidor (backend). |
 | **Sprint Goal & User Stories** | |
-| **Sprint 1 Goal** | Nos enfocamos en entregar una primera versión de la landing page desplegada y la documentación de los primeros capítulos del informe. Creemos que esto entrega una propuesta de valor validada para atraer a nuestro segmento objetivo. Esto se confirmará cuando la web esté pública y el informe sea aprobado. |
+| **Sprint 1 Goal** | Nuestro objetivo principal consistió en presentar una primera iteración completamente funcional y desplegada de la Landing Page, a la par de la redacción formal de los primeros capítulos del informe técnico. Consideramos que estos avances nos permiten proyectar una propuesta de valor sólida para captar a nuestro público objetivo, hito que se validará con el tráfico web inicial y la aprobación de la documentación entregada. |
 | **Sprint 1 Velocity** | 20 |
 | **Sum of Story Points** | 20 |
 
-**Nota:** Resumen de la planificación, objetivos, resultados y métricas correspondientes al Sprint 1 del proyecto InstAlert.
+**Nota:** Cuadro resumen que detalla la planificación estratégica, las metas establecidas, los resultados obtenidos y las métricas de esfuerzo correspondientes al Sprint 1 de InstAlert.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
 | Team Member | GitHub Username | Landing Page | Diseño UI/UX | Documentación |
 | :--- | :--- | :--- | :--- | :--- |
-| Piero Leonardo Molina Falcón | PieroMFAL | Colaborador | Colaborador | Líder |
-| Alexander Paolo Justo Yauricasa | AlexanderJusto | Líder | Colaborador | Colaborador |
-| Sebastian Victor Andre Diaz Mendoza | DiazDeveloper | Colaborador | Colaborador | Colaborador |
-| Breithner Rodolfo Perez Encarnación | Breithner1 | Colaborador | Líder | Colaborador |
+| Jose Gustavo Asto Jacome | JoseAsto | Líder | Colaborador | Colaborador |
+| Sebastian Victor Andre Diaz Mendoza | DiazDeveloper | Colaborador | Colaborador | Líder |
+| Jean Fabio Noriega Collado | JeanNoriega | Colaborador | Colaborador | Colaborador |
+| Yngrid Nahir Ruiz Villegas | YngridRuiz | Colaborador | Líder | Colaborador |
+| Ismael Sebastian Simon Calderon | IsmaelSimon | Colaborador | Colaborador | Colaborador |
 
 **Nota:** Distribución de responsabilidades de los integrantes del equipo durante el Sprint 1, indicando el liderazgo y la colaboración en las principales áreas de trabajo.
 
