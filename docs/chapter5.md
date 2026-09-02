@@ -65,7 +65,7 @@ https://miro.com/
 </p>
 
 
-**2. Product UX/UI Design**
+**3. Product UX/UI Design**
 
 Figma:
 
@@ -86,6 +86,19 @@ https://www.lucidchart.com/
 <p align="center">
   <img src="https://imgur.com/lucidchart-logo.png" alt="Lucidchart" width="250">
 </p>
+
+**4. Software Development**
+
+Visual Studio Code:
+
+Visual Studio Code es un editor de código utilizado como herramienta principal para el desarrollo de la Landing Page y de la Web Application. Permite trabajar con tecnologías como HTML5, CSS3, JavaScript y Vue.js.
+
+https://code.visualstudio.com/
+
+<p align="center">
+  <img src="https://imgur.com/vscode-logo.png" alt="Visual Studio Code" width="250">
+</p>
+
 
 
 ### 5.1.2. Source Code Management
