@@ -119,6 +119,19 @@ https://primevue.org/
   <img src="https://imgur.com/primevue-logo.png" alt="PrimeVue" width="250">
 </p>
 
+HTML5 / CSS3 / JavaScript:
+
+HTML5, CSS3 y JavaScript serán utilizados como tecnologías principales para el desarrollo de la Landing Page. Asimismo, HTML5 y CSS3 se emplearán en la construcción de templates de la Web Application, mientras que JavaScript será utilizado como lenguaje de programación del frontend.
+
+ASP.NET Core:
+
+ASP.NET Core es el framework utilizado para el desarrollo de los Web Services bajo el estilo arquitectónico RESTful API. Permitirá implementar la lógica del backend y los servicios necesarios para la comunicación con el frontend.
+
+https://dotnet.microsoft.com/apps/aspnet
+
+<p align="center">
+  <img src="https://imgur.com/aspnet-core-logo.png" alt="ASP.NET Core" width="250">
+</p>
 
 ### 5.1.2. Source Code Management
 
