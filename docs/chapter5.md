@@ -42,11 +42,20 @@ https://meet.google.com/
   <img src="https://imgur.com/oStbxH8.png" alt="Google Meet" width="250"> 
 </p>
 
+**2. Requirements Management**
+
+UXPressia:
+
+UXPressia es una plataforma utilizada para representar y organizar información relacionada con los usuarios y sus experiencias. En el proyecto se empleará para elaborar User Personas, Empathy Maps, Journey Maps e Impact Maps, facilitando la identificación de necesidades y comportamientos de los usuarios.
+
+https://uxpressia.com/
+
+<p align="center">
+  <img src="https://imgur.com/uxpressia-logo.png" alt="UXPressia" width="250">
+</p>
+
+
 **2. Product UX/UI Design**
-
-*Descripción:*
-
-El diseño de la interfaz (UI) y la experiencia de usuario (UX) son elementos importantes para desarrollar aplicaciones intuitivas, funcionales y agradables visualmente. Las herramientas de UX/UI permiten elaborar prototipos, wireframes y diseños interactivos que pueden ser evaluados y validados antes de iniciar la etapa de implementación.
 
 Figma:
 
