@@ -249,6 +249,67 @@ Markdown será utilizado para la elaboración y estructuración de la documentac
 
 ### 5.1.2. Source Code Management
 
+La administración del código fuente es un pilar esencial para el trabajo colaborativo en nuestro proyecto de software. En este apartado se define el modelo organizativo y de control de versiones que se aplicará mediante la plataforma GitHub y el flujo de trabajo GitFlow. Esta configuración asegura que el código se mantenga estructurado, seguro y rastreable. Asimismo, se detallan las normativas para nombrar las ramas, estructurar los mensajes de commit y aplicar el versionado semántico de los lanzamientos.
+
+**1. Establecimiento de repositorios en GitHub**
+
+Para estructurar el código y las pruebas de manera óptima, se han creado repositorios independientes en GitHub, dividiendo las responsabilidades del sistema en tres frentes principales:
+
+*Landing Page:* 
+Repositorio dedicado exclusivamente al sitio web promocional e informativo del proyecto. Contiene todos los recursos de interfaz estática (HTML, CSS, JavaScript, multimedia) orientados a presentar la propuesta de valor del software a los usuarios y potenciales clientes.
+
+*Web Services:* 
+Este repositorio aloja toda la lógica del Back-End y la provisión de servicios. Es fundamental destacar que aquí se incluye no solo el código fuente del proyecto, sino también todos los archivos correspondientes a las pruebas automatizadas, abarcando tanto las pruebas unitarias como las de integración y aceptación.
+
+*Frontend Web Applications:* 
+Repositorio destinado a la aplicación web del lado del cliente. Contiene la estructura, componentes, vistas y la lógica de consumo de los servicios web (APIs), garantizando la interacción del usuario final con el sistema.
+
+**Enlaces a los repositorios:**
+
+* Repositorio de Landing Page: https://github.com/InstAlert-Org/instalert-landing-page
+* Repositorio de Web Services: https://github.com/InstAlert-Org/instalert-web-services
+* Repositorio de Frontend Web Applications: https://github.com/InstAlert-Org/instalert-frontend
+
+**2. Workflow de control de versiones (GitFlow)**
+
+Para gestionar la integración de nuevas características y coordinar los cambios en el equipo, emplearemos el modelo GitFlow. Este flujo de trabajo define ramas específicas con propósitos estrictos, lo que facilita el desarrollo en paralelo sin afectar la estabilidad del proyecto.
+
+*Estructura de ramas principales y de soporte:*
+
+| Nombre de la rama | Descripción |
+| --- | --- |
+| **Main Branch** (`main`) | Es la rama base que refleja el estado de producción. Solamente recibe código que ha sido completamente validado, probado y aprobado para su despliegue final. |
+| **Develop Branch** (`develop`) | Actúa como la rama de integración principal para el equipo. Aquí se unifica el código de las nuevas funcionalidades en curso antes de pasar a un estado de lanzamiento. |
+| **Feature Branches** (`feature/*`) | Ramas temporales creadas a partir de `develop` para trabajar en tareas o características específicas de forma aislada. <br> **Convención:** `feature/nombre-de-la-tarea` |
+| **Release Branches** (`release/*`) | Ramas destinadas a la preparación de un nuevo despliegue a producción. Permiten hacer pruebas finales, documentar y corregir fallos menores antes de fusionar con `main`. <br> **Convención:** `release/vX.Y.Z` |
+| **Hotfix Branches** (`hotfix/*`) | Ramas de emergencia creadas directamente desde `main` para solucionar fallos críticos en producción de manera inmediata. Luego se fusionan tanto en `main` como en `develop`. <br> **Convención:** `hotfix/descripcion-del-parche` |
+
+**3. Versionado Semántico (Semantic Versioning 2.0.0)**
+
+Para identificar y rastrear adecuadamente cada versión de nuestro software, aplicaremos el estándar Semantic Versioning (SemVer). Este modelo utiliza una secuencia de tres dígitos con el formato Major.Minor.Patch:
+
+* Major (Versión Mayor): Se incrementa cuando se realizan cambios profundos o actualizaciones que rompen la compatibilidad con versiones anteriores.
+* Minor (Versión Menor): Se incrementa al añadir nuevas funcionalidades al sistema, manteniendo la compatibilidad con la versión actual.
+* Patch (Parche): Se incrementa cuando se aplican correcciones de errores o mejoras de rendimiento que no alteran la funcionalidad general.
+
+Ejemplos de aplicación:
+* v1.0.0: Primer despliegue oficial en entorno de producción.
+* v1.1.0: Integración de un nuevo módulo al sistema.
+* v1.1.1: Resolución de un bug reportado por los usuarios.
+
+**4. Convenciones de Mensajes de Commit (Conventional Commits)**
+
+Con el fin de estandarizar el historial del repositorio y facilitar la auditoría de cambios, todos los mensajes de commit deberán seguir la especificación de Conventional Commits. La estructura obligatoria inicia con un prefijo que indica la naturaleza del cambio, seguido de una descripción directa:
+
+*Tipos de prefijos a utilizar:*
+
+* feat: Añade una funcionalidad completamente nueva al código (Ej. feat: integrar pasarela de pagos).
+* fix: Soluciona un error o comportamiento anómalo en el sistema (Ej. fix: resolver caída en el registro de usuarios).
+* docs: Modificaciones exclusivas en la documentación, como el README (Ej. docs: actualizar diagrama de arquitectura).
+* style: Ajustes de formato, indentación o estilos que no alteran la lógica del programa (Ej. style: aplicar linting a componentes UI).
+* refactor: Reestructuración de código existente para mejorar su legibilidad o diseño sin añadir características nuevas ni corregir errores (Ej. refactor: simplificar bucle de validación).
+* test: Adición de nuevas pruebas o corrección de pruebas existentes (Ej. test: agregar pruebas unitarias para modulo de autenticación).
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
 ### 5.1.4. Software Deployment Configuration
