@@ -314,7 +314,116 @@ Con el fin de estandarizar el historial del repositorio y facilitar la auditorí
 * refactor: Reestructuración de código existente para mejorar su legibilidad o diseño sin añadir características nuevas ni corregir errores (Ej. refactor: simplificar bucle de validación).
 * test: Adición de nuevas pruebas o corrección de pruebas existentes (Ej. test: agregar pruebas unitarias para modulo de autenticación).
 
-### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.3. Source Code Style Guide & Coding Conventions
+
+En esta sección, el equipo define las normativas y directrices de codificación que se aplicarán a lo largo del desarrollo de la solución. El objetivo principal es estandarizar la escritura del código en HTML, CSS, JavaScript y C#, asegurando que sea legible, mantenible y escalable. 
+
+Como regla transversal, **toda la nomenclatura (variables, métodos, clases, comentarios, etc.) se redactará exclusivamente en inglés**. Para establecer estas bases, nos alinearemos con las siguientes guías de la industria:
+
+* HTML Style Guide and Coding Conventions
+* Google HTML/CSS Style Guide
+* Google JavaScript Style Guide
+* MDN JavaScript Guidelines
+* W3C JavaScript Style Guide
+* C# Coding Conventions
+* Microsoft ASP.NET Core Coding Guidelines
+
+La estructuración e implementación del sistema, desde la Landing Page hasta los Web Services y el Frontend de la aplicación, seguirán reglas estrictas para cada tecnología involucrada.
+
+**Principios Transversales**
+* **Idioma:** Todo el nombrado de elementos técnicos y documentación interna debe estar en inglés.
+* **DRY (Don't Repeat Yourself):** Evitar la duplicidad de código mediante la creación de componentes y métodos reutilizables.
+* **KISS (Keep It Simple, Stupid):** Priorizar la simplicidad y claridad en la lógica de programación.
+* **Indentación:** Mantener una indentación estricta y coherente según el lenguaje utilizado.
+
+---
+
+**HTML**
+
+Se utilizará HTML5 para definir la estructura semántica de las interfaces (Landing Page y vistas de la aplicación web).
+
+*Convenciones de Formato y Estructura:*
+* **Indentación:** 2 espacios por nivel. No utilizar tabulaciones.
+* **Etiquetas y atributos:** Escribir siempre en minúsculas (ej. `<section>`, `<article>`).
+* **Comillas:** Usar comillas dobles para los valores de los atributos (ej. `class="container"`).
+* **Cierre de etiquetas:** Todas las etiquetas deben cerrarse adecuadamente. Las etiquetas vacías no requieren barra diagonal en HTML5 (ej. usar `<br>` en lugar de `<br />`).
+* **Semántica:** Priorizar etiquetas semánticas (`<header>`, `<nav>`, `<main>`, `<footer>`) sobre el uso excesivo de `<div>`.
+* **Accesibilidad:** Incluir siempre el atributo `alt` en las imágenes y usar atributos ARIA cuando sea necesario para tecnologías de asistencia.
+* **Documento base:** Declarar siempre `<!DOCTYPE html>` en la primera línea y especificar el idioma principal `<html lang="en">`.
+
+<p align="center">
+  <img src="https://imgur.com/P4oNNZs.png" alt="Html Conventions" width="250">
+</p>
+
+---
+
+**CSS**
+
+Se utilizará para controlar la presentación visual, priorizando un diseño modular y responsivo (Mobile-First).
+
+*Convenciones de Formato y Arquitectura:*
+* **Indentación:** 2 espacios por nivel.
+* **Sintaxis:** Dejar un espacio antes de la llave de apertura `{` y colocar la llave de cierre `}` en una nueva línea. Escribir cada declaración en su propia línea, terminando con punto y coma `;`.
+* **Nomenclatura:** Adoptar la metodología BEM (Block, Element, Modifier) para las clases, utilizando guiones bajos dobles para elementos y guiones medios dobles para modificadores (ej. `.card`, `.card__title`, `.card--highlighted`).
+* **Orden de propiedades:** Agrupar propiedades lógicamente: Posicionamiento, Modelo de caja (Box model), Tipografía, Aspecto visual (Colores, fondos) y Animaciones.
+* **Especificidad y Anidamiento:** Evitar anidar selectores más de 3 niveles de profundidad. Restringir estrictamente el uso de `!important`.
+* **Variables:** Utilizar Custom Properties (variables CSS) en la raíz (`:root`) para colores de la marca, tipografías y espaciados estandarizados.
+
+<p align="center">
+  <img src="https://imgur.com/LShPot3" alt="CSS Conventions" width="250">
+</p>
+
+---
+
+**JavaScript**
+
+Se aplicará para la interactividad del lado del cliente y el consumo de APIs, priorizando los estándares modernos de ECMAScript (ES6+).
+
+*Convenciones de Formato y Nomenclatura:*
+* **Indentación:** 2 espacios.
+* **Sintaxis:** Requerir el uso de punto y coma `;` al final de cada instrucción para evitar problemas de ASI (Automatic Semicolon Insertion). Usar comillas simples para strings (`'texto'`).
+* **Nomenclatura:** 
+  * Variables y funciones: `camelCase` (ej. `fetchUserData`).
+  * Clases y Componentes: `PascalCase` (ej. `UserProfile`).
+  * Constantes globales: `UPPER_SNAKE_CASE` (ej. `API_BASE_URL`).
+* **Declaración de variables:** Usar `const` por defecto. Utilizar `let` únicamente cuando la variable vaya a ser reasignada. Prohibir el uso de `var`.
+
+*Buenas Prácticas Añadidas:*
+* **Igualdad Estricta:** Utilizar siempre `===` y `!==` en lugar de `==` y `!=`.
+* **Asincronismo:** Preferir `async/await` sobre cadenas extensas de `.then()` para el manejo de promesas, y siempre envolver el bloque lógico en `try/catch` para el manejo de errores.
+* **Funciones:** Utilizar arrow functions `() => {}` para callbacks y métodos anónimos para preservar el contexto de `this`.
+* **Documentación:** Usar JSDoc para documentar funciones complejas, describiendo parámetros y valores de retorno.
+
+<p align="center">
+  <img src="https://imgur.com/jqtZ1jQ" alt="JS Conventions" width="250">
+</p>
+
+---
+
+**C# (.NET Core)**
+
+Se aplicará en el desarrollo de los Web Services y la lógica del lado del servidor, siguiendo las convenciones oficiales de Microsoft.
+
+*Convenciones de Formato y Nomenclatura:*
+* **Indentación:** 4 espacios (configuración por defecto en Visual Studio).
+* **Llaves:** Utilizar el estilo Allman (cada llave `{` y `}` va en su propia línea).
+* **Nomenclatura:**
+  * Clases, Métodos y Propiedades Públicas: `PascalCase` (ej. `UserController`, `GetActiveUsers`, `FirstName`).
+  * Interfaces: Prefijo `I` seguido de `PascalCase` (ej. `IUserRepository`).
+  * Parámetros y variables locales: `camelCase` (ej. `userId`).
+  * Campos privados de clase: Prefijo guion bajo seguido de `camelCase` (ej. `_dbContext`).
+* **Longitud de línea:** Evitar exceder los 120 caracteres para mejorar la legibilidad en pantallas estándar.
+
+*Buenas Prácticas Añadidas:*
+* **Tipado implícito:** Usar la palabra clave `var` cuando el tipo de dato sea evidente en el lado derecho de la asignación (ej. `var users = new List<User>();`).
+* **Inyección de Dependencias:** Todos los servicios y repositorios deben ser inyectados a través del constructor, evitando instanciaciones directas (uso de `new`) de clases de lógica de negocio.
+* **Controladores ligeros:** Mantener los controladores (Controllers) lo más delgados posible, delegando toda la lógica de negocio a la capa de Servicios (Services).
+* **Asincronismo:** Los métodos que realicen operaciones de base de datos o I/O deben ser asíncronos, llevando el sufijo `Async` (ej. `GetUserByIdAsync`) y utilizando `async` y `await`.
+* **LINQ:** Aprovechar los métodos de extensión de LINQ para manipular colecciones de forma declarativa y legible.
+
+<p align="center">
+  <img src="https://imgur.com/I2VvlCC" alt="C# Conventions" width="250">
+</p>
 
 ### 5.1.4. Software Deployment Configuration
 
