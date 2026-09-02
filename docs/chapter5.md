@@ -109,6 +109,16 @@ https://vuejs.org/
   <img src="https://imgur.com/vuejs-logo.png" alt="Vue.js" width="250">
 </p>
 
+PrimeVue:
+
+PrimeVue es una biblioteca de componentes de interfaz de usuario para Vue.js. Será utilizada para implementar componentes visuales y funcionales en la Web Application.
+
+https://primevue.org/
+
+<p align="center">
+  <img src="https://imgur.com/primevue-logo.png" alt="PrimeVue" width="250">
+</p>
+
 
 ### 5.1.2. Source Code Management
 
