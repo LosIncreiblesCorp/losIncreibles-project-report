@@ -427,6 +427,36 @@ Se aplicará en el desarrollo de los Web Services y la lógica del lado del serv
 
 ### 5.1.4. Software Deployment Configuration
 
+En esta sección se detalla el proceso de configuración y despliegue establecido para los tres productos digitales que componen la solución de **InstAlert**. El objetivo es definir un pipeline claro que garantice que el código alojado en los repositorios se integre, construya y publique de manera segura, eficiente y libre de errores en los entornos de producción.
+
+A continuación, se describen los pasos específicos y las tecnologías involucradas en la publicación de cada componente:
+
+**1. Landing Page (Repositorio: Instalert-landing-page)**
+* **Plataforma de Hosting:** GitHub Pages
+* **Proceso de Despliegue:**
+  * **Integración:** Las nuevas características se desarrollan en ramas `feature/*` y se integran en la rama `develop` mediante Pull Requests (PR). Para asegurar la calidad, se requiere al menos una revisión de código cruzada (Code Review) antes de la aprobación.
+  * **Pase a Producción:** Una vez que la versión es estable, se realiza un *merge* hacia la rama principal (`main`).
+  * **Publicación:** GitHub Pages está configurado para detectar automáticamente cualquier actualización en la rama `main`. Al identificar un nuevo commit (push), el motor publica de forma inmediata el contenido estático (HTML, CSS, JS y assets).
+* **URL de Producción:** `hh` 
+
+**2. Frontend Web Application (Repositorio: instalert-frontend)**
+* **Plataforma de Hosting:** Vercel
+* **Proceso de Despliegue:**
+  * **Integración:** Al igual que la Landing Page, el flujo inicia con la creación de PRs hacia `develop` y su posterior validación por parte del equipo.
+  * **Construcción (Build):** Al realizar el merge hacia la rama `main`, se ejecuta el proceso de construcción de la aplicación. Esto implica la ejecución de los comandos de empaquetado (ej. `npm install` y `npm run build`). 
+  * **Configuración de Entorno:** Durante el *build*, se inyectan las variables de entorno correspondientes a producción, definiendo parámetros críticos como la URL base de la API de producción.
+  * **Publicación:** El directorio resultante (por lo general la carpeta `dist/` o `build/`), que contiene los archivos minificados y optimizados, se despliega en el servicio de hosting.
+* **URL de Producción:** `hh` 
+
+**3. Web Services (Repositorio: instalert-web-services)**
+* **Tecnología y Hosting:** ASP.NET Core desplegado en Railway.
+* **Proceso de Despliegue:**
+  * **Integración y Pruebas:** Los PRs hacia `develop` deben pasar exitosamente la ejecución de las pruebas unitarias y de integración, validando que la nueva lógica no rompa servicios existentes.
+  * **Compilación (Publish):** Tras fusionar el código aprobado en la rama `main`, el proyecto se compila y optimiza para producción utilizando el comando oficial del SDK: `dotnet publish -c Release`.
+  * **Despliegue y Configuración:** El artefacto compilado se sube al proveedor de la nube. En el panel de administración del servidor, se configuran de manera segura las variables de entorno y los "Secrets", tales como la cadena de conexión (Connection String) a la base de datos de producción y las claves para los tokens de seguridad (JWT).
+  * **Documentación:** Tras un despliegue exitoso, la documentación de los endpoints (rutas, parámetros y esquemas de respuesta) queda inmediatamente expuesta e interactiva mediante **Swagger/OpenAPI**.
+* **URL de Producción (API):** `hh` 
+
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1. Sprint 1
