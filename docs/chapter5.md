@@ -28,7 +28,9 @@ Discord es una plataforma de comunicación que permite mantener reuniones y conv
 
 https://discord.com/
 
-<p align="center"> <img src="https://imgur.com/discord-logo.png" alt="Discord" width="250"> </p>
+<p align="center"> 
+  <img src="https://imgur.com/nVyvvEN.png" alt="Discord" width="250"> 
+</p>
 
 Google Meet:
 
@@ -36,7 +38,9 @@ Google Meet es una herramienta de videoconferencias que permite realizar reunion
 
 https://meet.google.com/
 
-<p align="center"> <img src="https://imgur.com/google-meet-logo.png" alt="Google Meet" width="250"> </p>
+<p align="center"> 
+  <img src="https://imgur.com/a/FhKlbD8.png" alt="Google Meet" width="250"> 
+</p>
 
 **2. Product UX/UI Design**
 
