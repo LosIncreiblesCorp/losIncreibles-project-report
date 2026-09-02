@@ -51,7 +51,7 @@ UXPressia es una plataforma utilizada para representar y organizar información 
 https://uxpressia.com/
 
 <p align="center">
-  <img src="https://imgur.com/uxpressia-logo.png" alt="UXPressia" width="250">
+  <img src="https://imgur.com/fCa7uwT.png" alt="UXPressia" width="250">
 </p>
 
 Miro:
@@ -61,7 +61,7 @@ Miro es una plataforma colaborativa utilizada para organizar y representar visua
 https://miro.com/
 
 <p align="center">
-  <img src="https://imgur.com/miro-logo.png" alt="Miro" width="250">
+  <img src="https://imgur.com/CuDff2Y.png" alt="Miro" width="250">
 </p>
 
 
@@ -84,7 +84,7 @@ Lucidchart es una plataforma de diagramación utilizada para elaborar Wireflows 
 https://www.lucidchart.com/
 
 <p align="center">
-  <img src="https://imgur.com/lucidchart-logo.png" alt="Lucidchart" width="250">
+  <img src="https://imgur.com/eMoS4S0.png" alt="Lucidchart" width="250">
 </p>
 
 **4. Software Development**
@@ -96,7 +96,7 @@ Visual Studio Code es un editor de código utilizado como herramienta principal 
 https://code.visualstudio.com/
 
 <p align="center">
-  <img src="https://imgur.com/vscode-logo.png" alt="Visual Studio Code" width="250">
+  <img src="https://imgur.com/p8XelFC.png" alt="Visual Studio Code" width="250">
 </p>
 
 Vue.js:
@@ -106,7 +106,7 @@ Vue.js es un framework de JavaScript utilizado para el desarrollo del frontend d
 https://vuejs.org/
 
 <p align="center">
-  <img src="https://imgur.com/vuejs-logo.png" alt="Vue.js" width="250">
+  <img src="https://imgur.com/1A2BcIC.png" alt="Vue.js" width="250">
 </p>
 
 PrimeVue:
@@ -116,12 +116,16 @@ PrimeVue es una biblioteca de componentes de interfaz de usuario para Vue.js. Se
 https://primevue.org/
 
 <p align="center">
-  <img src="https://imgur.com/primevue-logo.png" alt="PrimeVue" width="250">
+  <img src="https://imgur.com/HW4REnt.png" alt="PrimeVue" width="250">
 </p>
 
 HTML5 / CSS3 / JavaScript:
 
 HTML5, CSS3 y JavaScript serán utilizados como tecnologías principales para el desarrollo de la Landing Page. Asimismo, HTML5 y CSS3 se emplearán en la construcción de templates de la Web Application, mientras que JavaScript será utilizado como lenguaje de programación del frontend.
+
+<p align="center">
+  <img src="https://imgur.com/WvnLL69.png" alt="PrimeVue" width="250">
+</p>
 
 ASP.NET Core:
 
@@ -130,7 +134,7 @@ ASP.NET Core es el framework utilizado para el desarrollo de los Web Services ba
 https://dotnet.microsoft.com/apps/aspnet
 
 <p align="center">
-  <img src="https://imgur.com/aspnet-core-logo.png" alt="ASP.NET Core" width="250">
+  <img src="https://imgur.com/l9IiqmU.png" alt="ASP.NET Core" width="250">
 </p>
 
 Entity Framework Core:
@@ -140,7 +144,7 @@ Entity Framework Core es un ORM para .NET utilizado para facilitar la interacci�
 https://learn.microsoft.com/ef/core/
 
 <p align="center">
-  <img src="https://imgur.com/aspnet-core-logo.png" alt="ASP.NET Core" width="250">
+  <img src="https://imgur.com/HAZ1JFa.png" alt="ASP.NET Core" width="250">
 </p>
 
 C#:
@@ -150,7 +154,7 @@ C# es el lenguaje de programación utilizado para el desarrollo de los Web Servi
 https://dotnet.microsoft.com/languages/csharp
 
 <p align="center">
-  <img src="https://imgur.com/aspnet-core-logo.png" alt="ASP.NET Core" width="250">
+  <img src="https://imgur.com/a/0sZN7T3.png" alt="ASP.NET Core" width="250">
 </p>
 
 MySQL Server:
@@ -160,7 +164,7 @@ MySQL Server será utilizado como sistema de gestión de bases de datos relacion
 https://www.mysql.com/
 
 <p align="center">
-  <img src="URL_IMAGEN_MYSQL" alt="MySQL Server" width="250">
+  <img src="https://imgur.com/ocZUbSb.png" alt="MySQL Server" width="250">
 </p>
 
 Structurizr:
@@ -170,7 +174,7 @@ Structurizr será utilizado para la elaboración de los diagramas de Software Ar
 https://structurizr.com/
 
 <p align="center">
-  <img src="URL_IMAGEN_STRUCTURIZR" alt="Structurizr" width="250">
+  <img src="https://imgur.com/p3MGGvK.png" alt="Structurizr" width="250">
 </p>
 
 Lucidchart:
@@ -180,7 +184,7 @@ Lucidchart será utilizado para la elaboración de diagramas UML y para el Datab
 https://www.lucidchart.com/
 
 <p align="center">
-  <img src="URL_IMAGEN_LUCIDCHART" alt="Lucidchart" width="250">
+  <img src="https://imgur.com/eMoS4S0.png" alt="Lucidchart" width="250">
 </p>
 
 **5. Software Deployment**
@@ -192,7 +196,7 @@ GitHub Pages será utilizado como servicio de hosting para realizar el despliegu
 https://pages.github.com/
 
 <p align="center">
-  <img src="URL_IMAGEN_GITHUB_PAGES" alt="GitHub Pages" width="250">
+  <img src="https://imgur.com/ebcsG7V.png" alt="GitHub Pages" width="250">
 </p>
 
 Proveedor de hosting en la nube para ASP.NET Core:
@@ -200,7 +204,7 @@ Proveedor de hosting en la nube para ASP.NET Core:
 Se utilizará un proveedor de hosting en la nube para realizar el despliegue de los Web Services desarrollados con ASP.NET Core. El proveedor definitivo será determinado de acuerdo con las necesidades del proyecto.
 
 <p align="center">
-  <img src="URL_IMAGEN_HOSTING" alt="Cloud Hosting" width="250">
+  <img src="https://imgur.com/l9IiqmU.png" alt="ASP.NET Core" width="250">
 </p>
 
 **6. Software Documentation**
@@ -212,7 +216,7 @@ Swagger será utilizado para documentar los Web Services mediante la especificac
 https://swagger.io/
 
 <p align="center">
-  <img src="URL_IMAGEN_SWAGGER" alt="Swagger / OpenAPI" width="250">
+  <img src="https://imgur.com/6YWgYO8.png" alt="Swagger / OpenAPI" width="250">
 </p>
 
 Markdown + Visual Studio Code:
@@ -220,7 +224,7 @@ Markdown + Visual Studio Code:
 Markdown será utilizado para la elaboración y estructuración de la documentación del proyecto dentro del repositorio. Visual Studio Code permitirá editar los archivos Markdown y utilizar extensiones para facilitar su visualización y generación en diferentes formatos.
 
 <p align="center">
-  <img src="URL_IMAGEN_MARKDOWN_VSCODE" alt="Markdown + Visual Studio Code" width="250">
+  <img src="https://imgur.com/izshdNe.png" alt="Markdown + Visual Studio Code" width="250">
 </p>
 
 ### 5.1.2. Source Code Management
