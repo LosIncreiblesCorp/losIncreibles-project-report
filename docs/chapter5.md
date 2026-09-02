@@ -133,6 +133,26 @@ https://dotnet.microsoft.com/apps/aspnet
   <img src="https://imgur.com/aspnet-core-logo.png" alt="ASP.NET Core" width="250">
 </p>
 
+Entity Framework Core:
+
+Entity Framework Core es un ORM para .NET utilizado para facilitar la interacción entre los Web Services desarrollados con ASP.NET Core y la base de datos relacional.
+
+https://learn.microsoft.com/ef/core/
+
+<p align="center">
+  <img src="https://imgur.com/aspnet-core-logo.png" alt="ASP.NET Core" width="250">
+</p>
+
+C#:
+
+C# es el lenguaje de programación utilizado para el desarrollo de los Web Services mediante ASP.NET Core y Entity Framework Core.
+
+https://dotnet.microsoft.com/languages/csharp
+
+<p align="center">
+  <img src="https://imgur.com/aspnet-core-logo.png" alt="ASP.NET Core" width="250">
+</p>
+
 ### 5.1.2. Source Code Management
 
 ### 5.1.3. Source Code Style Guide & Conventions
