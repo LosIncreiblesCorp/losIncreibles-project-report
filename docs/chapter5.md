@@ -474,7 +474,7 @@ En este primer sprint se desarrolló la landing page y la documentación inicial
 | Prepared By | Sebastian Victor Andre Diaz Mendoza |
 | Attendees (to planning meeting) | Jose Gustavo Asto Jacome<br>Sebastian Victor Andre Diaz Mendoza<br>Jean Fabio Noriega Collado<br>Yngrid Nahir Ruiz Villegas<br>Ismael Sebastian Simon Calderon |
 | **Sprint 1 Review Summary** | Durante este primer ciclo, los esfuerzos del equipo se centraron en definir la base estratégica e identitaria de InstAlert. Logramos concluir satisfactoriamente los artefactos fundamentales de UX (User Personas, Customer Journey Maps y Arquitectura de la Información), los cuales sirvieron de guía directa para la concepción del producto. Con este respaldo, logramos diseñar, desarrollar y desplegar la versión inicial de nuestra Landing Page, en la cual se expone de forma clara la propuesta de valor del SaaS y los detalles de los planes de suscripción. |
-| **Sprint 1 Retrospective Summary** | El equipo concluyó que la dinámica de trabajo fue altamente productiva, impulsada por una clara y equitativa distribución de responsabilidades. Se destacó positivamente la transición y alineación entre el prototipado realizado en Figma y la configuración inicial de los repositorios en GitHub. Como área de mejora para el próximo sprint, acordamos optimizar nuestras estimaciones de tiempo (puntos de historia), especialmente de cara al inicio del desarrollo e integración del lado del servidor (backend). |
+| **Sprint 1 Retrospective Summary** | El equipo concluyó que la dinámica de trabajo fue altamente productiva, impulsada por una clara y equitativa distribución de responsabilidades. Se destacó positivamente la transición y alineación entre el prototipado realizado en Figma y la configuración inicial de los repositorios en GitHub. Como área de mejora para el próximo sprint, acordamos optimizar nuestras estimaciones de tiempo (puntos de historia), especialmente de cara al inicio del desarrollo e integración del lado de la presentacion del producto (frontend). |
 | **Sprint Goal & User Stories** | |
 | **Sprint 1 Goal** | Nuestro objetivo principal consistió en presentar una primera iteración completamente funcional y desplegada de la Landing Page, a la par de la redacción formal de los primeros capítulos del informe técnico. Consideramos que estos avances nos permiten proyectar una propuesta de valor sólida para captar a nuestro público objetivo, hito que se validará con el tráfico web inicial y la aprobación de la documentación entregada. |
 | **Sprint 1 Velocity** | 20 |
@@ -494,11 +494,21 @@ En este primer sprint se desarrolló la landing page y la documentación inicial
 
 **Nota:** Distribución de responsabilidades de los integrantes del equipo durante el Sprint 1, indicando el liderazgo y la colaboración en las principales áreas de trabajo.
 
-
-#### 5.2.1.2. Aspect Leaders and Collaborators
-
 #### 5.2.1.3. Sprint Backlog 1
 
+| User Story Id | User Story Title | Work Item/Task Id | Work Item/Task Title | Description | Estimation | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| US-13 | Acceso y descarga de la aplicación | T01 | Estructuración base en HTML5 | Creación del esqueleto principal de la Landing Page, abarcando la barra de navegación (header), la sección de impacto visual (hero section) y el pie de página (footer). | 3h | Jose Gustavo Asto Jacome | Done |
+| US-14 | Exploración de características de InstAlert | T02 | Integración de contenido informativo | Inserción de la propuesta de valor, descripción detallada de los beneficios y las funcionalidades clave de la plataforma en la web. | 2h | Ismael Sebastian Simon Calderon | Done |
+| US-15 | Captura de leads desde la landing page | T03 | Desarrollo de sección de contacto | Diseño y maquetación de un formulario interactivo para que los visitantes interesados puedan dejar sus datos y enviar consultas. | 2.5h | Sebastian Victor Andre Diaz Mendoza | Done |
+| US-16 | Visualización de casos de éxito y opiniones | T04 | Integración de validación social (Testimonios) | Selección de los hallazgos de las entrevistas de validación e implementación de tarjetas de testimonios para generar confianza en los usuarios. | 2h | Yngrid Nahir Ruiz Villegas | Done |
+| US-17 | Visualización de planes de suscripción | T05 | Maquetación de planes y precios | Creación de la sección "Pricing" mediante tarjetas (cards) que exponen las características y costos de cada nivel de suscripción del SaaS. | 3h | Jean Fabio Noriega Collado | Done |
+| US-18 | Adaptabilidad a dispositivos móviles (Responsive) | T06 | Configuración de Media Queries y CSS | Ajuste de los estilos y contenedores para garantizar que toda la Landing Page se visualice y funcione correctamente en smartphones y tablets. | 3.5h | Jose Gustavo Asto Jacome | Done |
+| US-19 | Exposición de la identidad corporativa | T07 | Maquetación de la sección "About Us" | Desarrollo estructural y visual de la sección destinada a presentar la visión, misión y los valores centrales detrás del desarrollo de la plataforma. | 2h | Jean Fabio Noriega Collado | Done |
+| US-20 | Reconocimiento del equipo de desarrollo | T08 | Desarrollo de perfiles del equipo (Team Members) | Diseño e integración de tarjetas de perfil que detallen los roles, nombres y perfiles profesionales de los miembros del equipo fundador. | 2.5h | Yngrid Nahir Ruiz Villegas | Done |
+| US-21 | Internacionalización de la interfaz de usuario (i18n) | T09 | Implementación de sistema multilingüe (ES/EN) | Integración de lógica y diccionarios de traducción para permitir la alternancia dinámica del contenido de la página entre los idiomas español e inglés. | 4h | Sebastian Victor Andre Diaz Mendoza | Done |
+
+**Nota:** Tabla que vincula las Historias de Usuario abordadas durante el Sprint 1, incluyendo las nuevas implementaciones de internacionalización (i18n) y presentación corporativa, con sus respectivas tareas técnicas. Se detalla el esfuerzo estimado en horas, el miembro del equipo responsable de su desarrollo y el estado actual de cada asignación dentro del ciclo.
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
