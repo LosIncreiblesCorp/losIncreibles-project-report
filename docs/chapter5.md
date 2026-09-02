@@ -54,6 +54,16 @@ https://uxpressia.com/
   <img src="https://imgur.com/uxpressia-logo.png" alt="UXPressia" width="250">
 </p>
 
+Miro:
+
+Miro es una plataforma colaborativa utilizada para organizar y representar visualmente diferentes elementos del proyecto. En este caso, será utilizada para la elaboración de diagramas de EventStorming y para facilitar el trabajo colaborativo del equipo.
+
+https://miro.com/
+
+<p align="center">
+  <img src="https://imgur.com/miro-logo.png" alt="Miro" width="250">
+</p>
+
 
 **2. Product UX/UI Design**
 
