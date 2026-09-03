@@ -525,6 +525,53 @@ Esta sección expone la evidencia técnica del progreso alcanzado durante el pre
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
+Durante el transcurso del Sprint 1, el esfuerzo de desarrollo se centró en la construcción y despliegue de la Landing Page oficial de InstAlert. Se implementaron con éxito las historias de usuario planificadas, logrando estructurar una interfaz web atractiva, modular y completamente adaptativa (responsive) para distintos dispositivos. 
+
+El alcance completado incluye la navegación global, la sección principal de impacto (Hero), los planes de suscripción, las características de la plataforma, testimonios de usuarios, información corporativa (Misión y Equipo) y un formulario de contacto. Además, se integró con éxito la internacionalización (i18n), permitiendo a los usuarios alternar la página entre inglés y español. El entregable final ofrece una experiencia fluida que comunica eficazmente la propuesta de valor del SaaS.
+
+**Evidencia visual:**
+
+A continuación, se presentan las capturas de pantalla que evidencian las principales vistas y componentes implementados durante este ciclo. 
+
+*Desarrollado por: Sebastian Victor Andre Diaz Mendoza*
+
+**1. Inicio (Hero Section) y Navegación (Header/i18n)**
+
+<p align="center">
+  <img src="https://imgur.com/gxgwuQJ.png" alt="Hero Section" width="500">
+</p>
+
+**2. Planes de Suscripción (Pricing)**
+
+<p align="center">
+  <img src="https://imgur.com/89nwIdz.png" alt="Pricing Section" width="500">
+</p>
+
+**3. Testimonios y Validaciones (Social Proof)**
+
+<p align="center">
+  <img src="https://imgur.com/SXDHeGf.png" alt="Testimonials Section" width="500">
+</p>
+
+**4. Sobre Nosotros y Nuestro Equipo (About Us & Team)**
+
+<p align="center">
+  <img src="https://imgur.com/s6loIOT.png" alt="About Us Section" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/3AWvO4S.png" alt="About Us Section" width="500">
+</p>
+
+**5. Formulario de Contacto y Footer**
+
+<p align="center">
+  <img src="https://imgur.com/YUMkP1P.png" alt="Contact Section" width="500">
+</p>
+
+
+**Video del Sprint Review:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415638_upc_edu_pe/IQAc9nUyqnvkRpBWL_qYVD3eAZMXJIZvLDiY-ph5ckpQTgE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ClXo52
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
