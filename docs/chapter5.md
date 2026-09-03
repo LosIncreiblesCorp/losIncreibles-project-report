@@ -516,12 +516,13 @@ Esta sección expone la evidencia técnica del progreso alcanzado durante el pre
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| DiazDeveloper/InstAlert-LandingPage | feature/hero-and-pricing | [ID] | feat: implement hero section and pricing plans | Added the main hero section with the core value proposition and integrated the subscription plans layout. | [FECHA] |
-| DiazDeveloper/InstAlert-LandingPage | feature/testimonials-section | [ID] | feat: add user testimonials and ratings section | Implemented the social proof section displaying user feedback and star ratings. | [FECHA] |
-| DiazDeveloper/InstAlert-LandingPage | feature/about-us-team | [ID] | feat: create about us and team presentation | Added startup mission statement and developed cards for team member profiles. | [FECHA] |
-| DiazDeveloper/InstAlert-LandingPage | feature/contact-form | [ID] | feat: integrate contact form section | Built the contact section with a functional form for user inquiries and lead capture. | [FECHA] |
-| DiazDeveloper/InstAlert-LandingPage | feature/core-layout-i18n | [ID] | feat: implement header, footer, and i18n support | Added global navigation header, page footer, and configured internationalization (ES/EN) across all components. | [FECHA] |
-| DiazDeveloper/InstAlert-LandingPage | main | [ID] | chore: prepare release and trigger deployment | Merged all feature branches for Sprint 1 and triggered production deployment pipeline. | [FECHA] |
+| DiazDeveloper/InstAlert-LandingPage | feature/hero-and-pricing | b620957 | feat: implement hero section and pricing plans | Added the main hero section with the core value proposition and integrated the subscription plans layout. | 03/09/2026 |
+| DiazDeveloper/InstAlert-LandingPage | feature/testimonials-section | 5d15163 | feat: add user testimonials and ratings section | Implemented the social proof section displaying user feedback and star ratings. | 03/09/2026 |
+| DiazDeveloper/InstAlert-LandingPage | feature/about-us-team | 0dcace8 | feat: create about us and team presentation | Added startup mission statement and developed cards for team member profiles. | 03/09/2026 |
+| DiazDeveloper/InstAlert-LandingPage | feature/contact-form | 20d9ace | feat: integrate contact form section | Built the contact section with a functional form for user inquiries and lead capture. | 03/09/2026 |
+| DiazDeveloper/InstAlert-LandingPage | feature/core-layout-i18n | a0d5600 | feat: implement header, footer, and i18n support | Added global navigation header, page footer, and configured internationalization (ES/EN) across all components. | 03/09/2026 |
+| DiazDeveloper/InstAlert-LandingPage | main | b54c82e | chore: prepare release and trigger deployment | Merged all feature branches for Sprint 1 and triggered production deployment pipeline. | 03/09/2026 |
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
