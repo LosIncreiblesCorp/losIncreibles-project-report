@@ -516,10 +516,10 @@ Esta sección expone la evidencia técnica del progreso alcanzado durante el pre
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| DiazDeveloper/InstAlert-LandingPage | feature/hero-and-pricing | b620957 | feat: implement hero section and pricing plans | Added the main hero section with the core value proposition and integrated the subscription plans layout. | 03/09/2026 |
-| DiazDeveloper/InstAlert-LandingPage | feature/testimonials-section | 5d15163 | feat: add user testimonials and ratings section | Implemented the social proof section displaying user feedback and star ratings. | 03/09/2026 |
-| DiazDeveloper/InstAlert-LandingPage | feature/about-us-team | 0dcace8 | feat: create about us and team presentation | Added startup mission statement and developed cards for team member profiles. | 03/09/2026 |
-| DiazDeveloper/InstAlert-LandingPage | feature/contact-form | 20d9ace | feat: integrate contact form section | Built the contact section with a functional form for user inquiries and lead capture. | 03/09/2026 |
+| dumbaskidd/InstAlert-LandingPage | feature/hero-and-pricing | b620957 | feat: implement hero section and pricing plans | Added the main hero section with the core value proposition and integrated the subscription plans layout. | 03/09/2026 |
+| Mayel-dev/InstAlert-LandingPage | feature/testimonials-section | 5d15163 | feat: add user testimonials and ratings section | Implemented the social proof section displaying user feedback and star ratings. | 03/09/2026 |
+| nahiryn8/InstAlert-LandingPage | feature/about-us-team | 0dcace8 | feat: create about us and team presentation | Added startup mission statement and developed cards for team member profiles. | 03/09/2026 |
+| DhudsQ/InstAlert-LandingPage | feature/contact-form | 20d9ace | feat: integrate contact form section | Built the contact section with a functional form for user inquiries and lead capture. | 03/09/2026 |
 | DiazDeveloper/InstAlert-LandingPage | feature/core-layout-i18n | a0d5600 | feat: implement header, footer, and i18n support | Added global navigation header, page footer, and configured internationalization (ES/EN) across all components. | 03/09/2026 |
 | DiazDeveloper/InstAlert-LandingPage | main | b54c82e | chore: prepare release and trigger deployment | Merged all feature branches for Sprint 1 and triggered production deployment pipeline. | 03/09/2026 |
 
@@ -527,33 +527,31 @@ Esta sección expone la evidencia técnica del progreso alcanzado durante el pre
 
 Durante el transcurso del Sprint 1, el esfuerzo de desarrollo se centró en la construcción y despliegue de la Landing Page oficial de InstAlert. Se implementaron con éxito las historias de usuario planificadas, logrando estructurar una interfaz web atractiva, modular y completamente adaptativa (responsive) para distintos dispositivos. 
 
-El alcance completado incluye la navegación global, la sección principal de impacto (Hero), los planes de suscripción, las características de la plataforma, testimonios de usuarios, información corporativa (Misión y Equipo) y un formulario de contacto. Además, se integró con éxito la internacionalización (i18n), permitiendo a los usuarios alternar la página entre inglés y español. El entregable final ofrece una experiencia fluida que comunica eficazmente la propuesta de valor del SaaS.
+El alcance completado incluye la navegación global, la sección principal de impacto (Hero), los planes de suscripción, las características de la plataforma, testimonios de usuarios, información corporativa (Misión y Equipo) y un formulario de contacto. Además, se integró con éxito la internacionalización (i18n), permitiendo a los usuarios alternar la página entre inglés y español. El trabajo fue distribuido equitativamente entre todos los miembros del equipo, logrando un entregable final que comunica eficazmente la propuesta de valor del SaaS.
 
 **Evidencia visual:**
 
-A continuación, se presentan las capturas de pantalla que evidencian las principales vistas y componentes implementados durante este ciclo. 
+A continuación, se presentan las capturas de pantalla que evidencian las principales vistas y componentes implementados durante este ciclo, indicando el responsable principal de cada apartado.
 
-*Desarrollado por: Sebastian Victor Andre Diaz Mendoza*
+**1. Inicio (Hero Section) y Planes de Suscripción (Pricing)**
 
-**1. Inicio (Hero Section) y Navegación (Header/i18n)**
+*Desarrollado por: Jean Fabio Noriega Collado*
 
 <p align="center">
   <img src="https://imgur.com/gxgwuQJ.png" alt="Hero Section" width="500">
 </p>
 
-**2. Planes de Suscripción (Pricing)**
+**2. Testimonios**
 
-<p align="center">
-  <img src="https://imgur.com/89nwIdz.png" alt="Pricing Section" width="500">
-</p>
-
-**3. Testimonios y Validaciones (Social Proof)**
+*Desarrollado por: Ismael Sebastian Simon Calderon*
 
 <p align="center">
   <img src="https://imgur.com/SXDHeGf.png" alt="Testimonials Section" width="500">
 </p>
 
-**4. Sobre Nosotros y Nuestro Equipo (About Us & Team)**
+**3. Sobre Nosotros y Nuestro Equipo (About Us & Team)**
+
+*Desarrollado por: Yngrid Nahir Ruiz Villegas*
 
 <p align="center">
   <img src="https://imgur.com/s6loIOT.png" alt="About Us Section" width="500">
@@ -563,20 +561,134 @@ A continuación, se presentan las capturas de pantalla que evidencian las princi
   <img src="https://imgur.com/3AWvO4S.png" alt="About Us Section" width="500">
 </p>
 
-**5. Formulario de Contacto y Footer**
+**4. Formulario de Contacto**
+
+*Desarrollado por: Jose Gustavo Asto Jacome*
 
 <p align="center">
   <img src="https://imgur.com/YUMkP1P.png" alt="Contact Section" width="500">
 </p>
 
+**5. Navegación (Header/Footer), Internacionalización (i18n) y Vista Responsive**
+
+*Desarrollado por: Sebastián Víctor André Díaz Mendoza*
+
+<p align="center">
+  <img src="https://imgur.com/gxgwuQJ.png" alt="Hero Section" width="500">
+</p>
 
 **Video del Sprint Review:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415638_upc_edu_pe/IQAc9nUyqnvkRpBWL_qYVD3eAZMXJIZvLDiY-ph5ckpQTgE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ClXo52
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Durante el presente Sprint, los objetivos del equipo se centraron exclusivamente en la ideación, diseño y desarrollo de la Landing Page de InstAlert. 
+
+Dado que el alcance de esta primera iteración no contempló el desarrollo de la lógica del lado del servidor ni la creación de una API RESTful, actualmente no existen servicios web implementados. Por consiguiente, no se han generado endpoints que requieran ser documentados mediante el estándar OpenAPI. Tienes razón en tu observación: el enlace actual de la Landing Page no corresponde a este apartado, ya que aquí solo debe ir la URL del repositorio del backend.
+
+La construcción y documentación de los servicios web está planificada para los siguientes ciclos de desarrollo. Una vez que se inicie la implementación del backend, se empleará Swagger (OpenAPI) para generar la documentación técnica e interactiva. 
+
+En futuras entregas, esta sección se actualizará para incluir estrictamente lo solicitado por las instrucciones del proyecto:
+
+* Una tabla exhaustiva con la relación de los Endpoints implementados.
+* Especificación de las acciones soportadas indicando el verbo HTTP correspondiente (GET, POST, PUT, PATCH, DELETE) y la sintaxis de las llamadas.
+* Detalle de los parámetros requeridos y la explicación estructurada de las respuestas (Responses).
+* Capturas de pantalla que evidencien la interacción funcional con la API a través de la interfaz de Swagger UI, empleando datos de muestra.
+* El enlace directo al repositorio de Web Services, junto con el registro de los IDs de los commits asociados exclusivamente a la elaboración de la documentación.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 1, los esfuerzos del equipo se centraron en configurar y ejecutar el despliegue inicial de la Landing Page de InstAlert. Este proceso garantizó que la propuesta de valor del producto esté accesible públicamente, sentando además las bases para la integración continua. 
+
+Dado que el alcance de esta iteración se limitó a la presentación web estática, aún no se han creado cuentas ni configurado entornos de despliegue para las Web Applications ni para los Web Services. Estas actividades, que involucrarán el uso de plataformas y proveedores de nube específicos (Cloud Providers) para el backend y frontend dinámico, están planificadas para los próximos sprints.
+
+**Actividades de Despliegue Realizadas:**
+
+**1. Configuración del Repositorio de Código Fuente**
+* Se estableció un repositorio público dedicado exclusivamente a la Landing Page dentro de la organización del equipo.
+* El control de versiones se estructuró para facilitar la automatización de los despliegues.
+* Enlace del repositorio: https://github.com/losincreiblescorp/InstAlert-LandingPage
+
+**2. Habilitación y Configuración de GitHub Pages**
+* Se activó el servicio de alojamiento estático desde el apartado de configuración (Settings > Pages) del repositorio.
+* Se definió la rama main y el directorio raíz (/root) como el entorno de origen para la lectura de los archivos a publicar.
+* Mediante esta configuración, el sitio web quedó expuesto de forma segura y pública en la siguiente URL de producción: https://losincreiblescorp.github.io/InstAlert-LandingPage/
+
+<p align="center">
+  <img src="https://imgur.com/FOA0hnN.png" alt="Configuracion de GitHub Pages" width="500">
+</p>
+
+**3. Automatización del Proceso de Despliegue (CI/CD)**
+* Se aprovechó la integración nativa de GitHub Actions para el despliegue automático. 
+* El flujo de trabajo garantiza que cada vez que se aprueba un Pull Request y se realiza un merge hacia la rama main, la plataforma detecta los cambios y actualiza el contenido en tiempo real sin requerir intervención manual del equipo de desarrollo.
+
+<p align="center">
+  <img src="https://imgur.com/EbFBvLf.png" alt="Ejecucion de GitHub Actions" width="500">
+</p>
+
+**4. Verificación y Validación en Producción**
+* Se validó la correcta carga de todos los recursos (imágenes, estilos, scripts), la estabilidad del diseño responsivo en múltiples resoluciones y el correcto funcionamiento del cambio de idioma (i18n) directamente en la URL pública.
+
+<p align="center">
+  <img src="https://imgur.com/gxgwuQJ.png" alt="Hero Section" width="500">
+</p>
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante este primer Sprint, el equipo se dedicó integralmente a la concepción, diseño e implementación de la Landing Page de InstAlert. Para cumplir con los objetivos trazados, las responsabilidades se dividieron de forma equitativa, asegurando que todos los miembros del equipo tuvieran participación activa y directa en el desarrollo del código fuente, la maquetación y la lógica de la interfaz.
+
+**Actividades de implementación desarrolladas:**
+
+* **Planificación Visual:** Se estructuró el diseño base (wireframes y mockups) de la web para definir claramente la jerarquía de la información, las secciones clave y la paleta de colores.
+* **Desarrollo Modular:** La maquetación se dividió en componentes específicos (Hero, Pricing, Testimonials, About Us, Contact, Layout), permitiendo que cada desarrollador trabajara en una rama de característica (`feature/*`) independiente.
+* **Integración de Funcionalidades:** Se aplicaron estilos responsivos con CSS y se integró lógica en JavaScript para dotar de interactividad a la página, incluyendo el sistema de internacionalización (i18n) para soportar múltiples idiomas.
+* **Gestión de Versiones y Despliegue:** Se empleó GitHub como plataforma central, aplicando flujos de Pull Requests y revisiones de código antes de integrar los cambios a la rama `main` para su posterior publicación en GitHub Pages.
+
+**Analíticas de colaboración en GitHub:**
+
+Para evidenciar el compromiso y la participación equitativa de todos los integrantes, a continuación se presentan los gráficos y registros extraídos directamente de las estadísticas del repositorio del proyecto.
+
+**1. Historial de commits por miembro**
+
+*Desarrollado por: Jean Fabio Noriega Collado (dumbaskidd)*
+<p align="center">
+  <img src="[ENLACE_IMAGEN_COMMITS_JEAN]" alt="Commits Jean" width="500">
+</p>
+
+*Desarrollado por: Ismael Sebastian Simon Calderon (Mayel-dev)*
+<p align="center">
+  <img src="[ENLACE_IMAGEN_COMMITS_ISMAEL]" alt="Commits Ismael" width="500">
+</p>
+
+*Desarrollado por: Yngrid Nahir Ruiz Villegas (nahiryn8)*
+<p align="center">
+  <img src="[ENLACE_IMAGEN_COMMITS_YNGRID]" alt="Commits Yngrid" width="500">
+</p>
+
+*Desarrollado por: Jose Gustavo Asto Jacome (DhudsQ)*
+<p align="center">
+  <img src="[ENLACE_IMAGEN_COMMITS_JOSE]" alt="Commits Jose" width="500">
+</p>
+
+*Desarrollado por: Sebastián Víctor André Díaz Mendoza (DiazDeveloper)*
+<p align="center">
+  <img src="[ENLACE_IMAGEN_COMMITS_SEBASTIAN]" alt="Commits Sebastian" width="500">
+</p>
+
+**2. Colaboradores activos en el repositorio**
+
+*Esta gráfica demuestra la actividad conjunta del equipo y la distribución de los aportes (adiciones y eliminaciones de código) a lo largo del Sprint.*
+<p align="center">
+  <img src="[ENLACE_IMAGEN_CONTRIBUTORS_GRAPH]" alt="Active Contributors" width="500">
+</p>
+
+**3. Histograma de contribuciones en el tiempo**
+
+*Muestra la frecuencia de las confirmaciones (commits) realizadas en los días previos a la revisión del Sprint, evidenciando un esfuerzo constante y coordinado para la integración final.*
+<p align="center">
+  <img src="[ENLACE_IMAGEN_COMMIT_HISTOGRAM]" alt="Commit Histogram" width="500">
+</p>
 
 # Conclusiones
 
