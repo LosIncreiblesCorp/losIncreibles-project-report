@@ -512,6 +512,16 @@ En este primer sprint se desarrolló la landing page y la documentación inicial
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
+Esta sección expone la evidencia técnica del progreso alcanzado durante el presente sprint con relación a los productos de la solución definidos en el alcance. Se resumen los principales avances en la implementación a través de un registro detallado de las modificaciones en el código fuente. A continuación, se presenta una tabla que incluye los repositorios y sus respectivos commits, documentando el desarrollo estructural, la integración de contenido y la configuración para la Landing Page de InstAlert.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| DiazDeveloper/InstAlert-LandingPage | feature/hero-and-pricing | [ID] | feat: implement hero section and pricing plans | Added the main hero section with the core value proposition and integrated the subscription plans layout. | [FECHA] |
+| DiazDeveloper/InstAlert-LandingPage | feature/testimonials-section | [ID] | feat: add user testimonials and ratings section | Implemented the social proof section displaying user feedback and star ratings. | [FECHA] |
+| DiazDeveloper/InstAlert-LandingPage | feature/about-us-team | [ID] | feat: create about us and team presentation | Added startup mission statement and developed cards for team member profiles. | [FECHA] |
+| DiazDeveloper/InstAlert-LandingPage | feature/contact-form | [ID] | feat: integrate contact form section | Built the contact section with a functional form for user inquiries and lead capture. | [FECHA] |
+| DiazDeveloper/InstAlert-LandingPage | feature/core-layout-i18n | [ID] | feat: implement header, footer, and i18n support | Added global navigation header, page footer, and configured internationalization (ES/EN) across all components. | [FECHA] |
+| DiazDeveloper/InstAlert-LandingPage | main | [ID] | chore: prepare release and trigger deployment | Merged all feature branches for Sprint 1 and triggered production deployment pipeline. | [FECHA] |
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
