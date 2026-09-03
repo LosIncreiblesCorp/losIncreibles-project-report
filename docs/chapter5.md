@@ -634,8 +634,6 @@ Dado que el alcance de esta iteración se limitó a la presentación web estáti
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
-
 Durante este primer Sprint, el equipo se dedicó integralmente a la concepción, diseño e implementación de la Landing Page de InstAlert. Para cumplir con los objetivos trazados, las responsabilidades se dividieron de forma equitativa, asegurando que todos los miembros del equipo tuvieran participación activa y directa en el desarrollo del código fuente, la maquetación y la lógica de la interfaz.
 
 **Actividades de implementación desarrolladas:**
@@ -691,7 +689,102 @@ Para evidenciar el compromiso y la participación equitativa de todos los integr
 </p>
 
 # Conclusiones
+# Conclusiones
+
+## AV1
+
+A partir del análisis del perfil de la startup InstAlert y su nueva propuesta comercial, se concluye que existe una necesidad crítica y un mercado altamente receptivo para una plataforma integral de seguridad, justificada por el incremento sostenido de delitos y una percepción de inseguridad superior al 80% en el país. El enfoque Lean UX implementado por el equipo demuestra una base sólida al alinear las capacidades técnicas con las exigencias del nuevo segmento objetivo B2B bajo un modelo SaaS (Software as a Service), orientado a organizaciones, administraciones residenciales y entidades que requieran planes de suscripción para gestionar su seguridad. La estrategia del producto es acertada al centralizar la prevención y la reacción inmediata mediante herramientas tecnológicas, mitigando la fragmentación de las soluciones actuales y promoviendo redes colaborativas eficientes.
+
+Se concluye que InstAlert posee una ventaja competitiva clara frente a alternativas institucionales y comerciales tradicionales, al ofrecer una plataforma escalable y adaptable mediante niveles de suscripción. El proceso de investigación y validación permitió redefinir las problemáticas recurrentes, enfocándose no solo en la inseguridad ciudadana, sino en la necesidad de las organizaciones de contar con mecanismos de monitoreo y prevención. Como resultado, se definieron funcionalidades alineadas con los requerimientos operativos de estos nuevos clientes, estableciendo las bases funcionales y comerciales para el desarrollo del sistema.
+
+Con respecto al diseño y la experiencia de usuario, la identidad visual, la arquitectura de información y los flujos de interacción diseñados para InstAlert mantienen una estricta coherencia con los valores de confianza, rapidez y facilidad de uso. La organización jerárquica de los contenidos y la definición de mecanismos de navegación intuitivos contribuyen a reducir la carga cognitiva, facilitando el proceso de adopción de la plataforma por parte de los clientes y sus usuarios finales.
+
+Finalmente, tras la ejecución del primer sprint de desarrollo, se concluye que el diseño y despliegue de la Landing Page constituye un hito fundamental para la validación comercial del proyecto. La implementación de una página web estática y multilingüe (i18n), que expone claramente la propuesta de valor, los planes de suscripción (Pricing), el equipo detrás del desarrollo y casos de éxito (Testimonios), provee a InstAlert de un canal oficial y profesional. Esto no solo fortalece la presencia digital de la marca, sino que establece el principal motor para la captación de leads y futuros clientes interesados en el servicio SaaS.
 
 # Bibliografía
 
 # Anexos
+
+* About the Team: Disponible en futuras entregas
+
+* About the Product Video: Disponible en futuras entregas
+
+## Exposiciones del Proyecto
+
+* Enlace de Exposición AV1: (anexar link)
+
+* Enlace de Exposición TB1: Disponible en futuras entregas
+
+* Enlace de Exposición AV2: Disponible en futuras entregas
+
+* Enlace de Exposición TB2: Disponible en futuras entregas
+
+## Needfinding Interviews
+
+* Interview 1: (Anexar Link)
+
+* Interview 2: (Anexar Link)
+
+* Interview 3: (Anexar Link)
+
+* Interview 4: (Anexar Link)
+
+* Interview 5: (Anexar Link)
+
+* Interview 6: (Anexar Link)
+
+## Validation Interviews
+
+* Interview 1: Disponible en futuras entregas
+
+* Interview 2: Disponible en futuras entregas
+
+* Interview 3: Disponible en futuras entregas
+
+* Interview 4: Disponible en futuras entregas
+
+* Interview 5: Disponible en futuras entregas
+
+* Interview 6: Disponible en futuras entregas
+
+## Execution Evidence
+
+* Sprint 1: <https://upcedupe-my.sharepoint.com/personal/u202415638_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202415638%5Fupc%5Fedu%5Fpe%2FDocuments%2FSprint%20%201%20Evidence%2Emov&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E93f3a0df%2D5a55%2D44fa%2Db7dd%2D9a5cfd34fc00>
+  
+* Sprint 2: Disponible en futuras entregas
+
+* Sprint 3: Disponible en futuras entregas
+
+* Sprint 4: Disponible en futuras entregas
+
+### Landingpage Desplegada
+
+<https://losincreiblescorp.github.io/InstAlert-LandingPage/>
+
+## Plataforma Desplegada
+
+### InstAlert Web Application
+
+Disponible en futuras entregas
+
+## Repositorios
+
+* Frontend Repository
+
+<https://github.com/instalert-startup/Instalert-FrontEnd>
+
+* Backend Repository
+
+<https://github.com/LosIncreiblesCorp/Instalert-BackEnd>
+
+* Repositorio del Report:
+
+<https://github.com/LosIncreiblesCorp/losIncreibles-project-report>
+
+* Landingpage Repository:
+
+<https://github.com/LosIncreiblesCorp/InstAlert-LandingPage>
+
+## API Documentation
+
+* Swagger / OpenAPI Documentation: Disponible en futuras entregas
