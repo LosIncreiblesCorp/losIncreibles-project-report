@@ -99,63 +99,17 @@ InstAlert plantea estrategias de diferenciación frente a cada competidor identi
 
 ### Entrevistas realizadas al Segmento 1: Administradores y dueños de locales comerciales
 
-<table>
-  <colgroup>
-    <col width="25%">
-    <col width="75%">
-  </colgroup>
-  <thead>
-    <tr>
-      <th colspan="2">Entrevista #4</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Nombre</td>
-      <td>Maria Rocio</td>
-    </tr>
-    <tr>
-      <td>Apellidos</td>
-      <td>de los Ángeles</td>
-    </tr>
-    <tr>
-      <td>Edad</td>
-      <td>42 años</td>
-    </tr>
-    <tr>
-      <td>Distrito</td>
-      <td>Comas</td>
-    </tr>
-    <tr>
-      <td>Evidencia</td>
-      <td>
-        <div align="center">
-          <img src="https://i.postimg.cc/rRmPRFrz/evidencia1.png" alt="Entrevista">
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td>Link</td>
-      <!-- Aplicamos el estilo para forzar el quiebre del texto largo -->
-      <td style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415638_upc_edu_pe/IQBfUrfMjw5qQaE1oeaS4ID-AZnXkCn5NzuHO9g1RUvBgXk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tlBfqM</td>
-    </tr>
-    <tr>
-      <td>Timing donde inicia</td>
-      <td>00:00 min</td>
-    </tr>
-    <tr>
-      <td>Duración</td>
-      <td>18:06 min</td>
-    </tr>
-    <tr>
-      <td>Resumen</td>
-      <td>
-        La entrevistada, administradora de un minimarket, manifiesta que la extorsión y los asaltos son los mayores riesgos para su negocio, especialmente durante el cierre y la gestión de efectivo. Actualmente emplea grupos de WhatsApp con otros comerciantes, pero los considera ineficientes y desorganizados ante emergencias reales. Destaca el gran valor que tendría una plataforma dedicada a alertas entre comercios vecinos y la visualización de un mapa de riesgos para anticiparse a las amenazas y proteger a su personal, siempre que la herramienta sea intuitiva en el uso móvil.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+| **Entrevista #1** | |
+| :--- | :--- |
+| **Nombre** | Maria Rocio |
+| **Apellidos** | de los Ángeles |
+| **Edad** | 42 años |
+| **Distrito** | Comas |
+| **Evidencia** | <img src="https://i.postimg.cc/rRmPRFrz/evidencia1.png" alt="Entrevista 1" width="180"> |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415638_upc_edu_pe/IQBfUrfMjw5qQaE1oeaS4ID-AZnXkCn5NzuHO9g1RUvBgXk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tlBfqM |
+| **Timing donde inicia** | 00:00 min |
+| **Duración** | 18:06 min |
+| **Resumen** | La entrevistada, administradora de un minimarket, manifiesta que la extorsión y los asaltos son los mayores riesgos para su negocio, especialmente durante el cierre y la gestión de efectivo. Actualmente emplea grupos de WhatsApp con otros comerciantes, pero los considera ineficientes y desorganizados ante emergencias reales. Destaca el gran valor que tendría una plataforma dedicada a alertas entre comercios vecinos y la visualización de un mapa de riesgos para anticiparse a las amenazas y proteger a su personal, siempre que la herramienta sea intuitiva en el uso móvil. |
 
 | **Entrevista #2** | |
 | :--- | :--- |
