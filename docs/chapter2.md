@@ -95,9 +95,137 @@ InstAlert plantea estrategias de diferenciación frente a cada competidor identi
 | Preguntas para Segmento 1: Administradores y dueños de locales comerciales | 1. ¿Qué tipo de negocio administra o dirige? ¿Qué rol específico cumple usted en la gestión del local? <br> 2. ¿Cuáles son los principales riesgos de seguridad que enfrenta su negocio actualmente? <br> 3. ¿Ha ocurrido algún robo, hurto, extorsión o situación sospechosa en su local o en negocios cercanos? ¿Cómo se manejó esa situación? <br> 4. ¿En qué momentos del día considera que su negocio es más vulnerable? <br> 5. ¿Qué medidas utiliza actualmente para proteger a su personal, clientes y bienes? <br> 6. ¿Cómo se comunica con otros negocios cercanos cuando ocurre una emergencia o situación sospechosa? <br> 7. ¿Qué tan efectivos considera los canales actuales, como llamadas, grupos de WhatsApp, cámaras o seguridad privada? <br> 8. ¿Qué dificultades encuentra al intentar reportar o comunicar una amenaza de forma rápida? <br> 9. ¿Qué información le gustaría recibir sobre incidentes ocurridos cerca de su local? <br> 10. ¿Le sería útil visualizar en un mapa las zonas o momentos con mayor riesgo dentro de su entorno comercial? ¿Por qué? <br> 11. ¿Qué características tendría que tener una herramienta digital para que usted decida usarla en su negocio? <br> 12. ¿Qué factores podrían impedir que adopte una plataforma como InstAlert? <br> 13. ¿Cuánto valor le daría a una red de alertas entre comercios vecinos? |
 | Preguntas para Segmento 2: Personal operativo y vendedores de establecimientos comerciales | 1. ¿En qué horario suele trabajar y qué tan seguido rota entre distintas funciones dentro del establecimiento? <br> 2. ¿Ha sentido inseguridad durante su jornada laboral? ¿En qué situaciones? <br> 3. ¿Cuáles considera que son los momentos o lugares de mayor riesgo dentro o cerca del local? <br> 4. ¿Ha presenciado o vivido algún robo, amenaza, extorsión o situación sospechosa en el trabajo? ¿Qué ocurrió? <br> 5. Cuando identifica una situación de riesgo, ¿a quién avisa primero y cómo lo hace? <br> 6. ¿Qué tan fácil o difícil es pedir ayuda durante una emergencia mientras está atendiendo el local? <br> 7. ¿Qué herramientas usa actualmente para comunicarse con el administrador, compañeros o negocios cercanos? <br> 8. ¿Qué problemas encuentra en esos canales de comunicación durante una situación urgente? <br> 9. ¿Le sería útil contar con una forma rápida y discreta de enviar una alerta? ¿En qué casos la usaría? <br> 10. ¿Qué tipo de aviso le gustaría recibir si otro comercio cercano reporta una amenaza? <br> 11. ¿Qué información necesita para saber si una alerta cercana representa un riesgo real para usted? <br> 12. ¿Qué tan cómodo se sentiría usando una aplicación web desde una computadora, celular o dispositivo del local? <br> 13. ¿Qué características harían que una herramienta de alertas sea fácil y segura de usar durante el trabajo? |
 
-### 2.2.2. Registro de entrevistas
+#### 2.2.2. Registro de entrevistas
+
+### Entrevistas realizadas al Segmento 1: Administradores y dueños de locales comerciales
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #1<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Maria Rocio</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>de los Ángeles</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>42 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Comas</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="https://i.postimg.cc/rRmPRFrz/evidencia1.png" alt="Entrevista"></div></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415638_upc_edu_pe/IQBfUrfMjw5qQaE1oeaS4ID-AZnXkCn5NzuHO9g1RUvBgXk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tlBfqM</td>
+  </tr>
+  <tr>
+    <td>Timing donde inicia la entrevista</td>
+    <td>00:00 min</td>
+  </tr>
+  <tr>
+    <td>Duración de la entrevista</td>
+    <td>18:06 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+      La entrevistada, administradora de un minimarket, manifiesta que la extorsión y los asaltos son los mayores riesgos para su negocio, especialmente durante el cierre y la gestión de efectivo. Actualmente emplea grupos de WhatsApp con otros comerciantes, pero los considera ineficientes y desorganizados ante emergencias reales. Destaca el gran valor que tendría una plataforma dedicada a alertas entre comercios vecinos y la visualización de un mapa de riesgos para anticiparse a las amenazas y proteger a su personal, siempre que la herramienta sea intuitiva en el uso móvil.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
+| **Entrevista #2** | |
+| :--- | :--- |
+| **Nombre** | |
+| **Apellidos** | |
+| **Edad** | |
+| **Distrito** | |
+| **Evidencia** | |
+| **Link** | |
+| **Timing donde inicia** | |
+| **Duración** | |
+| **Resumen** | |
+
+| **Entrevista #3** | |
+| :--- | :--- |
+| **Nombre** | |
+| **Apellidos** | |
+| **Edad** | |
+| **Distrito** | |
+| **Evidencia** | |
+| **Link** | |
+| **Timing donde inicia** | |
+| **Duración** | |
+| **Resumen** | |
+
+---
+
+### Entrevistas realizadas al Segmento 2: Personal operativo y vendedores de establecimientos comerciales
+
+| **Entrevista #4** | |
+| :--- | :--- |
+| **Nombre** | |
+| **Apellidos** | |
+| **Edad** | |
+| **Distrito** | |
+| **Evidencia** | |
+| **Link** | |
+| **Timing donde inicia** | |
+| **Duración** | |
+| **Resumen** | |
+
+| **Entrevista #5** | |
+| :--- | :--- |
+| **Nombre** | |
+| **Apellidos** | |
+| **Edad** | |
+| **Distrito** | |
+| **Evidencia** | |
+| **Link** | |
+| **Timing donde inicia** | |
+| **Duración** | |
+| **Resumen** | |
+
+| **Entrevista #6** | |
+| :--- | :--- |
+| **Nombre** | |
+| **Apellidos** | |
+| **Edad** | |
+| **Distrito** | |
+| **Evidencia** | |
+| **Link** | |
+| **Timing donde inicia** | |
+| **Duración** | |
+| **Resumen** | |
 
 ### 2.2.3. Análisis de entrevistas
+
+#### **Segmento 1: Administradores y dueños de Locales Comerciales**
+
+**Entrevista 1 (Maria Rocio de los Ángeles):**
+En su rol como dueña y administradora de un minimarket en Comas, María Rocío expone que la principal amenaza para la sostenibilidad de su negocio es la creciente ola de extorsiones ("cobro de cupos") y los asaltos a mano armada. Identifica que su local es particularmente vulnerable durante el horario de cierre nocturno y al realizar el cuadre de caja, momentos donde la exposición de su personal y la recaudación es crítica. Tras haber experimentado intentos de robo y presenciar asaltos a locales contiguos, ha implementado cámaras de seguridad y rejas, aunque reconoce que estas medidas son meramente disuasuasivas o de registro posterior, pero no de prevención activa.
+
+Respecto a la comunicación con otros negocios de la zona, señala que actualmente dependen de llamadas telefónicas y grupos de WhatsApp vecinales. Sin embargo, califica estos canales como ineficientes; la información clave suele perderse entre mensajes irrelevantes (spam), y la reacción de la policía o el serenazgo es demasiado lenta cuando logran contactarlos. Ante esta problemática, María Rocío valida con entusiasmo la necesidad de una solución como InstAlert. Subraya que establecer una red de alertas verificadas y exclusivas entre comercios vecinos sería invaluable para reaccionar de manera coordinada.
+
+Asimismo, destaca que la visualización de un mapa de zonas de riesgo en tiempo real le permitiría tomar decisiones operativas inmediatas, como adelantar el cierre del local si se reporta actividad sospechosa a pocas cuadras. Como única barrera para la adopción de la plataforma, menciona la complejidad tecnológica: la aplicación debe ser sumamente intuitiva y rápida de operar desde un smartphone, garantizando que tanto ella como sus empleados puedan emitir una alerta en segundos bajo situaciones de alto estrés.
+
+#### **Segmento 2: Personal operativo y vendedores de establecimientos comerciales**
 
 ## 2.3. Needfinding
 
