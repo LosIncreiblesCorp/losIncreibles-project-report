@@ -295,8 +295,6 @@ Para una mejor visualización de los detalles en los Empathy Maps de InstAlert, 
 
 ## 2.4. Big Picture EventStorming
 
-## 2.4. Big Picture Event Storming
-
 El equipo llevó a cabo una sesión colaborativa de Big Picture Event Storming con el objetivo de comprender integralmente el nuevo dominio de negocio de InstAlert bajo el modelo SaaS B2B. Esta técnica permitió mapear el flujo completo de la solución, desde la adquisición de planes de suscripción hasta la gestión diaria y la resolución de incidentes en los establecimientos comerciales. A través de este proceso, logramos una aproximación visual de alto nivel que alineó la visión técnica con las necesidades operativas y de seguridad de nuestros dos segmentos clave: Administradores/dueños y Personal operativo. Además, permitió identificar procesos críticos, dependencias y potenciales oportunidades de mejora en la red de seguridad comercial.
 
 ### 2.4.1. Etapas del Big Picture Event Storming
