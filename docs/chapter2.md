@@ -127,15 +127,15 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 
 | **Entrevista #3** | |
 | :--- | :--- |
-| **Nombre** | |
-| **Apellidos** | |
-| **Edad** | |
-| **Distrito** | |
+| **Nombre** | Katherine |
+| **Apellidos** | Andonaire Romero |
+| **Edad** | 26 |
+| **Distrito** | San Martin de Porres |
 | **Evidencia** | |
-| **Link** | |
-| **Timing donde inicia** | |
-| **Duración** | |
-| **Resumen** | |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBVI59EDT7pR5YnprWB9MSXAbyTplj87UcNeGYeCvPDpJA?e=CCEzLd |
+| **Timing donde inicia** | 00:02 min |
+| **Duración** |09:11 min|
+| **Resumen** | La entrevistada, socia de una agencia de marketing con presencia en San Martin de Porres desde hace 2 años, nos hace saber su preocupación por el alto índice de inseguridad que se vive en el distrito donde reside el local. Menciona que una tarea tan básica y simple como trasladar distintos equipos como cámaras o laptops a distintos lugares de la ciudad se vuelve preocupante por el constante temor de que los equipos puedan ser robados en pleno traslado, o en caso, como menciona ella, que si los delincuentes se enteraran que en su local existen dichos equipos de alto valor, puedan forzar la entrada y hurtarlos. Adicionalmente, explica que entre negocios o locales cercanos y/o vecinos, si bien cuentan con un canal de WhatsApp para poder reportar incidencias o posibles actos sospechosos en la zona, a veces la comunicación no es tan efectiva, pues suelen mandarse muchos mensajes y los mensajes relevantes pueden perderse entre tantos. Mencionó que lo que mas valoraría en una plataforma digital como InstAlert sería la facilidad de uso y la confianza del producto.|
 
 ---
 
