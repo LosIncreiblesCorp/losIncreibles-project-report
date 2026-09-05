@@ -245,9 +245,10 @@ En esta sección se presentan las fichas de User Persona, construidas a partir d
   <img src="../assets/Chapter2/Graphics/01-user-persona.png" alt="User persona Carlos Mendoza" width="600">
 </p>
 
+***Nota.*** Ficha que representa el arquetipo del Segmento 1. Detalla sus objetivos orientados a proteger su inversión y a su personal, su frustración ante la ineficacia policial frente a extorsiones, y su necesidad de una plataforma centralizada para recibir alertas tempranas.
+
 Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQB6H7iWp1u_SaA7wZPV7YSOAUHKis7__wwOyzxH4cpoCbc?e=D00egw 
 
-***Nota.*** Ficha que representa el arquetipo del Segmento 1. Detalla sus objetivos orientados a proteger su inversión y a su personal, su frustración ante la ineficacia policial frente a extorsiones, y su necesidad de una plataforma centralizada para recibir alertas tempranas.
 
 **User Persona 2: Lucía Ramírez - Personal operativo y vendedora**
 
@@ -255,10 +256,11 @@ Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sha
   <img src="../assets/Chapter2/Graphics/02-user-persona.png" alt="User persona Lucia Ramirez" width="600">
 </p>
 
+***Nota.*** Ficha que representa el arquetipo del Segmento 2. Expone su necesidad de contar con herramientas de auxilio rápido (botón de pánico) y su frustración por la vulnerabilidad y exposición al peligro durante los horarios de apertura, cierre o manejo de efectivo.
+
 Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQAQgAyDVbwmQY6md0n5nu1nAbgV4gOMufdDbHsxmPhoQho?e=ESLT3z 
 
 
-***Nota.*** Ficha que representa el arquetipo del Segmento 2. Expone su necesidad de contar con herramientas de auxilio rápido (botón de pánico) y su frustración por la vulnerabilidad y exposición al peligro durante los horarios de apertura, cierre o manejo de efectivo.
 
 ### 2.3.2. User Task Matrix
 
@@ -300,26 +302,24 @@ El recorrido actual de Carlos (Administrador) refleja la tensión constante por 
   <img src="../assets/Chapter2/Graphics/User Journey Map (As-Is) — Carlos Mendoza.png" alt="Journey Map Carlos" width="600">
 </p>
 
-Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQD3ELST12cFTr--zEcLz38fAaf-626Y3xLeLDz3KIeLt-M?e=OfwOWZ 
+*Nota.* User Journey Map (As-Is) correspondiente a Carlos Mendoza, detallando las deficiencias actuales en la comunicación comunitaria y la prevención de riesgos patrimoniales. 
 
-*Nota.* User Journey Map (As-Is) correspondiente a Carlos Mendoza, detallando las deficiencias actuales en la comunicación comunitaria y la prevención de riesgos patrimoniales.
+Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQAi5yEOjEfcSrTiz1lkXRmxAf36hc46eDHQ8h4yuP-KBLU?e=mU7gbU  
 
-Para una mejor visualización de los detalles y lectura:
 
 **Segmento 2: Personal operativo y vendedores de establecimientos comerciales**
 
 El recorrido de Lucía (Vendedora) evidencia la vulnerabilidad de estar en la "primera línea" de atención. Su mapa destaca los picos negativos de estrés al detectar comportamientos hostiles o sospechosos en el establecimiento y su impotencia al no contar con un mecanismo de auxilio discreto e inmediato, dependiendo exclusivamente de llamadas tradicionales que alertarían al delincuente.
 
 <p align="center">
-  <img src="../assets/Chapter2/Graphics/User Journet Map(As-Is) Lucia Ramirez.png" alt="Journey Map  Lucia" width="600">
+  <img src="../assets/Chapter2/Graphics/User Journey Map (As-Is) — Lucia Rámirez.png" alt="Journey Map  Lucia" width="600">
 </p>
-
-Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQBWuhKmJ_CMQ7bAMoxt3xEYAXMtY3bwDXpgiUX4rZLLE0A?e=jivgzE
 
 
 *Nota.* User Journey Map (As-Is) correspondiente a Lucía Ramírez, ilustrando la alta exposición al peligro físico y la ausencia de herramientas eficaces para emitir alertas tempranas de emergencia.
 
-Para una mejor visualización de los detalles y lectura: 
+Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQArn7UEL-1DS5nQpb6rwbepAe2pD0AMZ6bodVM1IOl4JQ4?e=tVh6ar
+
 
 ### 2.3.4. Empathy Mapping
 
@@ -334,22 +334,25 @@ Finalmente, se sintetizaron los "Pains" (frustraciones) y "Gains" (ganancias), r
 El mapa de empatía de Carlos se enfoca en su preocupación constante por la extorsión y los asaltos. Refleja lo que escucha en su entorno sobre el aumento de la criminalidad, lo que ve en la ineficacia de las autoridades y cómo siente la necesidad urgente de proteger su inversión y a sus empleados.
 
 <p align="center">
-  <img src="../assets/Chapter2/Graphics/Empathy Map — Lucía Ramírez.png" alt="Empathy Map" width="600">
+  <img src="../assets/Chapter2/Graphics/Empathy Map — Carlos Mendoza.png" alt="Empathy Map" width="600">
 </p>
 
 *Nota.* Empathy Map correspondiente al Segmento 1, detallando sus percepciones del entorno delictivo y sus motivaciones para adoptar una red de seguridad comercial.
+
+Para una mejor visualización de los detalles en los Empathy Maps de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQD3ELST12cFTr--zEcLz38fAZiaGTca7_Ermms7NRMGXdw?e=4dBE0U 
 
 **Segmento 2: Personal operativo y vendedores de establecimientos comerciales**
 
 El mapa de empatía de Lucía ilustra la tensión y el estrés de trabajar en la primera línea de atención al cliente en una zona de riesgo. Destaca su miedo a enfrentar situaciones de violencia directa durante el cierre de caja, su frustración al no tener a quién recurrir de inmediato, y su necesidad de contar con una herramienta discreta de auxilio.
 
+
 <p align="center">
-  <img src="../assets/Chapter2/Graphics/Empathy Map — Carlos Mendoza.png" alt="Empathy Map" width="600">
+  <img src="../assets/Chapter2/Graphics/Empathy Map — Lucía Ramírez.png" alt="Empathy Map" width="600">
 </p>
 
 *Nota.* Empathy Map correspondiente al Segmento 2, reflejando su exposición al peligro y la necesidad de mecanismos de reacción inmediata como el botón de pánico.
 
-Para una mejor visualización de los detalles en los Empathy Maps de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: (link)
+Para una mejor visualización de los detalles en los Empathy Maps de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQBWuhKmJ_CMQ7bAMoxt3xEYAXMtY3bwDXpgiUX4rZLLE0A?e=OCTcQA 
 
 ## 2.4. Big Picture EventStorming
 
