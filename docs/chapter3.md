@@ -51,23 +51,6 @@ A continuación, se presenta la vista panorámica del modelo completo:
   <br><em>Figura: Vista panorámica del Impact Mapping</em>
 </p>
 
-Para un mayor nivel de detalle, se presentan a continuación los cortes específicos de las diferentes ramas del mapa:
-
-<p align="center">
-  <img src="../assets/Chapter3/Impact Mapping_corte1.png" alt="Impact Mapping - Corte 1" width="800">
-  <br><em>Figura: Corte 1 - Business Goals y ramificación de actores principales</em>
-</p>
-
-<p align="center">
-  <img src="../assets/Chapter3/Impact Mapping_corte2.png" alt="Impact Mapping - Corte 2" width="800">
-  <br><em>Figura: Corte 2 - Rama de Carlos Mendoza (Foco en Adquisición y Monetización)</em>
-</p>
-
-<p align="center">
-  <img src="../assets/Chapter3/Impact Mapping_corte3.png" alt="Impact Mapping - Corte 3" width="800">
-  <br><em>Figura: Corte 3 - Rama de Lucía Ramírez (Foco en Engagement y Alertas) y Technical Features</em>
-</p>
-
 ## 3.3. Product Backlog
 
 A continuación se presenta el Product Backlog del proyecto InstAlert, priorizado estrictamente en función del valor entregado al negocio. Siguiendo las directrices del marco de trabajo ágil, las User Stories relacionadas al sitio web estático (Landing Page) y la funcionalidad core del producto se han considerado en la prioridad más alta, desplazando a posiciones posteriores las tareas de soporte técnico como el registro y la autenticación.
