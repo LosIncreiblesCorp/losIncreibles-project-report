@@ -209,12 +209,151 @@ En esta sección se presentan las fichas de User Persona, construidas a partir d
 </p>
 
 ***Nota.*** Ficha que representa el arquetipo del Segmento 2. Expone su necesidad de contar con herramientas de auxilio rápido (botón de pánico) y su frustración por la vulnerabilidad y exposición al peligro durante los horarios de apertura, cierre o manejo de efectivo.
+
 ### 2.3.2. User Task Matrix
+
+En esta sección se presenta el User Task Matrix, una herramienta que concentra y evalúa las tareas cotidianas que realizan nuestros dos segmentos objetivo (Administradores/dueños de locales comerciales y Personal operativo/vendedores) para cumplir sus objetivos de seguridad y operatividad. Es fundamental destacar que estas tareas representan acciones del mundo real, independientes de cualquier solución de software, orientadas a la prevención de riesgos, la gestión del negocio y la reacción ante emergencias.
+
+A continuación, se detalla la matriz unificada, evaluando la frecuencia (Alta, Media, Baja) y la importancia (Alta, Media, Baja) de cada tarea para ambos arquetipos.
+
+| Tareas del Usuario (Independientes del software) | Administrador (Carlos) - Frecuencia | Administrador (Carlos) - Importancia | Personal Operativo (Lucía) - Frecuencia | Personal Operativo (Lucía) - Importancia |
+| :--- | :---: | :---: | :---: | :---: |
+| Monitorear el entorno y los accesos del establecimiento | High | High | High | High |
+| Alertar a compañeros o dueños sobre personas sospechosas | Medium | High | High | High |
+| Gestionar el cierre del local y el cuadre de caja diario | High | High | High | High |
+| Coordinar acciones preventivas con comerciantes vecinos | High | High | Low | Low |
+| Solicitar auxilio inmediato ante una emergencia (robo, asalto) | Low | High | Low | High |
+| Indagar sobre incidentes delictivos recientes en la zona | High | High | Medium | Medium |
+| Establecer y revisar protocolos internos de seguridad | Medium | High | Low | Medium |
+| Reportar un acto delictivo a las autoridades (Policía/Serenazgo) | Low | High | Low | High |
+
+**Análisis de la Matriz de Tareas:**
+
+Al analizar el cuadro, se identifican importantes coincidencias y diferencias en el comportamiento de ambos segmentos frente a la seguridad del negocio. 
+
+Entre las **coincidencias principales**, destaca que ambos arquetipos otorgan una importancia crítica (High) a las tareas de reacción ante emergencias, como solicitar auxilio inmediato y reportar actos delictivos, aunque su frecuencia sea baja (Low) al tratarse de eventos críticos y excepcionales. Asimismo, el monitoreo del entorno y la gestión del cierre del local son tareas de alta frecuencia e importancia para ambos, ya que representan los momentos de mayor vulnerabilidad operativa.
+
+En cuanto a las **diferencias**, el Administrador (Carlos) asume un rol mucho más preventivo y estratégico. Tareas como coordinar acciones con comerciantes vecinos, establecer protocolos internos e indagar sobre incidentes en la zona tienen una alta frecuencia e importancia para él, ya que busca proteger su inversión a largo plazo. Por su parte, el Personal Operativo (Lucía) tiene una participación baja en la coordinación comunitaria y el diseño de protocolos, enfocando su frecuencia diaria (High) en tareas tácticas como alertar inmediatamente sobre personas sospechosas y ejecutar de forma segura el cuadre de caja al finalizar el turno.
 
 ### 2.3.3. User Journey Mapping
 
+En esta sección se presentan los User Journey Maps en su estado actual (*As-Is*), los cuales ilustran el recorrido y la experiencia cotidiana de nuestros User Personas frente a la gestión de la seguridad comercial, previo a la existencia de la solución InstAlert. El *end-to-end journey* documentado abarca desde el inicio de la jornada laboral y la apertura del establecimiento, pasando por la gestión de situaciones sospechosas durante el día de ventas, hasta el momento más crítico: el cierre del local y el cuadre de caja.
+
+A través de estos mapas, se detallan las acciones, puntos de contacto, curvas emocionales y principales puntos de fricción (*pain points*) que enfrentan los usuarios al depender de herramientas preventivas informales (como llamadas telefónicas o grupos de WhatsApp saturados) y al lidiar con la respuesta tardía de las fuerzas del orden.
+
+**Segmento 1: Administradores y dueños de locales comerciales**
+
+El recorrido actual de Carlos (Administrador) refleja la tensión constante por proteger su inversión y a su personal. Su mapa ilustra la frustración operativa al intentar coordinar alertas preventivas con negocios vecinos mediante canales de comunicación ineficientes, así como la profunda incertidumbre y estrés al momento de gestionar la recaudación del día sin contar con un sistema de inteligencia comunitaria que le advierta sobre riesgos cercanos.
+
+<p align="center">
+  <img src="" alt="User Journey Map As-Is Carlos Mendoza" width="600">
+</p>
+
+*Nota.* User Journey Map (As-Is) correspondiente a Carlos Mendoza, detallando las deficiencias actuales en la comunicación comunitaria y la prevención de riesgos patrimoniales.
+
+**Segmento 2: Personal operativo y vendedores de establecimientos comerciales**
+
+El recorrido de Lucía (Vendedora) evidencia la vulnerabilidad de estar en la "primera línea" de atención. Su mapa destaca los picos negativos de estrés al detectar comportamientos hostiles o sospechosos en el establecimiento y su impotencia al no contar con un mecanismo de auxilio discreto e inmediato, dependiendo exclusivamente de llamadas tradicionales que alertarían al delincuente.
+
+<p align="center">
+  <img src="" alt="User Journey Map As-Is Lucia Ramirez" width="600">
+</p>
+
+*Nota.* User Journey Map (As-Is) correspondiente a Lucía Ramírez, ilustrando la alta exposición al peligro físico y la ausencia de herramientas eficaces para emitir alertas tempranas de emergencia.
+
+Para una mejor visualización de los detalles y lectura de las etapas en los User Journey Maps de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo de diseño: (link)
+
 ### 2.3.4. Empathy Mapping
+
+En esta sección, el equipo resume el proceso de elaboración y presenta los Empathy Maps construidos para cada uno de los User Personas de InstAlert. Para su desarrollo, seguimos una metodología estructurada que inició con la fase de preparación, ubicando al User Persona correspondiente en el centro del análisis. 
+
+A partir de los hallazgos de las entrevistas, los miembros del equipo organizaron sus observaciones en los diferentes cuadrantes de la herramienta de diseño, respondiendo a las siguientes preguntas clave para generar empatía real: ¿Con quién estamos empatizando?, ¿Qué necesita hacer?, ¿Qué está diciendo?, ¿Qué está viendo?, ¿Qué está haciendo?, ¿Qué está escuchando? y ¿Cómo se siente y qué piensa? 
+
+Finalmente, se sintetizaron los "Pains" (frustraciones) y "Gains" (ganancias), respondiendo puntualmente a: ¿Qué le preocupa?, ¿Qué puede ayudar a resolver sus problemas? y ¿Qué puede convencerlo de que InstAlert es la alternativa correcta frente a la inseguridad?
+
+**Segmento 1: Administradores y dueños de locales comerciales**
+
+El mapa de empatía de Carlos se enfoca en su preocupación constante por la extorsión y los asaltos. Refleja lo que escucha en su entorno sobre el aumento de la criminalidad, lo que ve en la ineficacia de las autoridades y cómo siente la necesidad urgente de proteger su inversión y a sus empleados.
+
+<p align="center">
+  <img src="" alt="Empathy Map Carlos Mendoza" width="600">
+</p>
+
+*Nota.* Empathy Map correspondiente al Segmento 1, detallando sus percepciones del entorno delictivo y sus motivaciones para adoptar una red de seguridad comercial.
+
+**Segmento 2: Personal operativo y vendedores de establecimientos comerciales**
+
+El mapa de empatía de Lucía ilustra la tensión y el estrés de trabajar en la primera línea de atención al cliente en una zona de riesgo. Destaca su miedo a enfrentar situaciones de violencia directa durante el cierre de caja, su frustración al no tener a quién recurrir de inmediato, y su necesidad de contar con una herramienta discreta de auxilio.
+
+<p align="center">
+  <img src="" alt="Empathy Map Lucia Ramirez" width="600">
+</p>
+
+*Nota.* Empathy Map correspondiente al Segmento 2, reflejando su exposición al peligro y la necesidad de mecanismos de reacción inmediata como el botón de pánico.
+
+Para una mejor visualización de los detalles en los Empathy Maps de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: (link)
 
 ## 2.4. Big Picture EventStorming
 
+## 2.4. Big Picture Event Storming
+
+El equipo llevó a cabo una sesión colaborativa de Big Picture Event Storming con el objetivo de comprender integralmente el nuevo dominio de negocio de InstAlert bajo el modelo SaaS B2B. Esta técnica permitió mapear el flujo completo de la solución, desde la adquisición de planes de suscripción hasta la gestión diaria y la resolución de incidentes en los establecimientos comerciales. A través de este proceso, logramos una aproximación visual de alto nivel que alineó la visión técnica con las necesidades operativas y de seguridad de nuestros dos segmentos clave: Administradores/dueños y Personal operativo. Además, permitió identificar procesos críticos, dependencias y potenciales oportunidades de mejora en la red de seguridad comercial.
+
+### 2.4.1. Etapas del Big Picture Event Storming
+
+#### 2.4.1.1. Generación de Eventos de Dominio (Domain Events)
+
+En esta fase inicial, el equipo se enfocó en identificar todos los hechos significativos que ocurren dentro del ecosistema de InstAlert. Siguiendo la convención de la metodología, estos eventos se plasmaron en notas adhesivas de color naranja y se redactaron en tiempo pasado, reflejando acciones ya concretadas. 
+Para nuestro enfoque B2B, se identificaron eventos clave como *Suscripción SaaS adquirida*, *Personal operativo registrado*, *Cierre de caja iniciado*, *Alerta de extorsión emitida*, y *Botón de pánico silencioso activado*. Esta etapa permitió visibilizar la complejidad de la gestión del negocio y la interacción comunitaria sin restricciones de orden cronológico.
+
+<p align="center">
+  <img src="" alt="Generación de Eventos de Dominio" width="450"><br>
+  *Nota.* Generación de eventos de dominio del Big Picture Event Storming de InstAlert para el entorno comercial.
+</p>
+
+#### 2.4.1.2. Ordenamiento Cronológico y Flujo de Trabajo
+
+Una vez generados los eventos de dominio, se procedió a organizarlos en una línea de tiempo (de izquierda a derecha). Este ordenamiento permitió estructurar el ciclo de vida del usuario en la plataforma a través de dos flujos principales: el **Flujo de Gestión Preventiva** (orientado a la suscripción, configuración del local y monitoreo del mapa de riesgos por parte del Administrador) y el **Flujo Reactivo** (enfocado en el reporte de incidencias y uso del botón de pánico por parte del Personal Operativo ante emergencias). Se utilizaron alineaciones verticales para representar eventos concurrentes, como el envío simultáneo de alertas a la red de comercios vecinos y a los contactos clave.
+
+<p align="center">
+  <img src="" alt="Ordenamiento Cronológico y Flujo de Trabajo" width="450"><br>
+  *Nota.* Ordenamiento cronológico y estructuración de flujos preventivos y reactivos del Big Picture Event Storming.
+</p>
+
+#### 2.4.1.3. Identificación de Actores y Sistemas Externos
+
+Para otorgar el contexto necesario a la secuencia de eventos, se añadieron capas de información identificando quién ejecuta las acciones y qué sistemas o integraciones de terceros intervienen en el proceso.
+* **Actores:** Se definieron roles críticos como el Administrador/Dueño del local, el Personal Operativo (cajeros/vendedores), los Comercios Vecinos (red de apoyo) y las Autoridades (Policía/Serenazgo).
+* **Sistemas Externos:** Se identificaron integraciones necesarias, tales como Pasarelas de Pago (para la gestión de las suscripciones SaaS), Google Maps API (para la geolocalización de las alertas comerciales) y Firebase (para el envío de notificaciones push de emergencia en tiempo real).
+
+<p align="center">
+  <img src="" alt="Identificación de Actores y Sistemas Externos" width="450"><br>
+  *Nota.* Identificación de los actores comerciales y las integraciones tecnológicas externas requeridas por el sistema.
+</p>
+
+#### 2.4.1.4. Storytelling y Validación (Reverse Storytelling)
+
+Finalmente, el equipo realizó una lectura crítica del mapa completo. Al narrar la historia de forma inversa (Reverse Storytelling), se validó la coherencia lógica del dominio. Durante esta etapa se utilizaron notas adhesivas de color rosado para marcar los "Puntos de Dolor" (Pain Points) o riesgos del sistema. 
+En nuestro contexto comercial, se identificaron vulnerabilidades como la *falsa activación de alertas por parte de empleados nuevos*, *fallos en la renovación automática de la suscripción*, y la *pérdida de conectividad a internet dentro de almacenes o sótanos del local*. Esta etapa garantizó el diseño de contingencias para que el sistema sea robusto y confiable en situaciones de estrés comercial real.
+
+<p align="center">
+  <img src="" alt="Storytelling y Validación" width="450"><br>
+  *Nota.* Proceso de Reverse Storytelling para la validación lógica y detección de puntos de dolor en el sistema.
+</p>
+
 ## 2.5. Ubiquitous Language
+
+| Término (Inglés) | Definición |
+| :--- | :--- |
+| Store Owner (Dueño / Administrador de local) | Persona responsable de la gestión y operación del establecimiento comercial, encargada de administrar el negocio y adquirir la suscripción del servicio de seguridad. |
+| Operational Staff (Personal operativo / Vendedores) | Empleados, cajeros o trabajadores que se encuentran en la primera línea de atención del negocio y utilizan la plataforma para emitir alertas tempranas o solicitar auxilio en caso de emergencia. |
+| Commercial Network (Red de comercios) | Agrupación de negocios vecinos o locales ubicados en un mismo corredor geográfico que comparten información preventiva para protegerse mutuamente. |
+| Subscription Plan (Plan de suscripción) | Nivel de servicio o membresía adquirida por la organización o negocio, el cual define el acceso a características específicas de prevención y seguridad dentro de la plataforma. |
+| Silent Panic Button (Botón de pánico silencioso) | Mecanismo de activación discreta utilizado por el personal operativo para enviar una alerta de emergencia a contactos clave y autoridades sin llamar la atención de los delincuentes. |
+| Extortion Threat (Amenaza de extorsión) | Riesgo de seguridad crítico para el sector comercial (conocido localmente como "cobro de cupos"), cuyo registro y seguimiento requiere un tratamiento confidencial en el sistema. |
+| Commercial Risk Map (Mapa de riesgo comercial) | Representación geográfica que resalta las zonas y horarios con mayor incidencia delictiva, permitiendo a los negocios tomar decisiones operativas (como adelantar horarios de cierre). |
+| Incident Report (Reporte de incidente) | Aviso documentado sobre un hecho delictivo, estafa o actividad sospechosa (ej. billetes falsos, merodeadores), generado por el personal de un comercio para alertar a su red. |
+| Emergency Contacts (Contactos de emergencia) | Lista predefinida de personas clave (dueños, administradores o gerentes de locales vecinos) designadas para recibir notificaciones inmediatas ante la activación de un botón de pánico. |
+| Security Authorities (Autoridades de seguridad) | Entidades encargadas del orden público (Policía Nacional, Serenazgo), con las cuales los comercios buscan articular una respuesta rápida ante emergencias validadas. |
+
+**Nota:** Lenguaje ubicuo (Ubiquitous Language) de InstAlert adaptado al entorno comercial (B2B), que define los principales términos del dominio utilizados para evitar ambigüedades y mantener una comunicación consistente entre los stakeholders y el equipo de desarrollo.
