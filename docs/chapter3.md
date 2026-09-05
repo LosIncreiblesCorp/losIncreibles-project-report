@@ -44,8 +44,6 @@ Se han definido los siguientes Epics:
 
 El Impact Mapping ha sido elaborado de manera colaborativa utilizando la herramienta **UXpressia**, estructurado en los niveles de Business Goals, Personas, Impacts, Deliverables y sus correspondientes User Stories, alineados a los segmentos de administradores de locales y personal operativo de InstAlert.
 
-**URL del Impact Mapping:** [Enlace público de UXpressia]
-
 A continuación, se presenta la vista panorámica del modelo completo:
 
 <p align="center">
