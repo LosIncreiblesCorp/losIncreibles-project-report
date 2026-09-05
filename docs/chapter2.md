@@ -192,6 +192,23 @@ Asimismo, destaca que la visualización de un mapa de zonas de riesgo en tiempo 
 
 ### 2.3.1. User Personas
 
+En esta sección se presentan las fichas de User Persona, construidas a partir de los patrones de comportamiento y necesidades identificados en el análisis de entrevistas, así como de las oportunidades de mejora detectadas en el análisis de la competencia. Estos arquetipos sintetizan la información demográfica, las motivaciones, las frustraciones y las dinámicas operativas de nuestros dos nuevos segmentos objetivos B2B. La definición precisa de estos perfiles garantiza que el diseño de las funcionalidades de InstAlert —como la red de alertas, el botón de pánico y los mapas de riesgo— responda directamente a las urgencias reales de quienes administran y operan establecimientos comerciales en zonas de riesgo medio-alto.
+
+**User Persona 1: Carlos Mendoza - Administrador y dueño de local comercial**
+
+<p align="center">
+  <img src="" alt="User Persona 1" width="450">
+</p>
+
+***Nota.*** Ficha que representa el arquetipo del Segmento 1. Detalla sus objetivos orientados a proteger su inversión y a su personal, su frustración ante la ineficacia policial frente a extorsiones, y su necesidad de una plataforma centralizada para recibir alertas tempranas.
+
+**User Persona 2: Lucía Ramírez - Personal operativo y vendedora**
+
+<p align="center">
+  <img src="" alt="User Persona 2" width="450">
+</p>
+
+***Nota.*** Ficha que representa el arquetipo del Segmento 2. Expone su necesidad de contar con herramientas de auxilio rápido (botón de pánico) y su frustración por la vulnerabilidad y exposición al peligro durante los horarios de apertura, cierre o manejo de efectivo.
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
