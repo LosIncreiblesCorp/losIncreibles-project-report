@@ -42,6 +42,32 @@ Se han definido los siguientes Epics:
 | US18 | Endpoint de consulta de incidentes cercanos | Como Developer, deseo implementar un endpoint GET que retorne incidentes cercanos, para alimentar el mapa de riesgos en la aplicación cliente. | **Scenario 1: Recuperación de incidentes cercanos**<br>_Given_ que la aplicación cliente solicita los incidentes dentro de un área geográfica<br>_When_ el sistema consulta la base de datos buscando coincidencias<br>_Then_ retorna una lista JSON de los incidentes encontrados<br>_And_ retorna un código HTTP 200 OK. | EP07 |
 ## 3.2. Impact Mapping
 
+El Impact Mapping ha sido elaborado de manera colaborativa utilizando la herramienta **UXpressia**, estructurado en los niveles de Business Goals, Personas, Impacts, Deliverables y sus correspondientes User Stories, alineados a los segmentos de administradores de locales y personal operativo de InstAlert.
+
+A continuación, se presenta la vista panorámica del modelo completo:
+
+<p align="center">
+  <img src="../assets/Chapter3/Impact Mapping.png" alt="Impact Mapping - Vista Panorámica" width="800">
+  <br><em>Figura: Vista panorámica del Impact Mapping</em>
+</p>
+
+Para un mayor nivel de detalle, se presentan a continuación los cortes específicos de las diferentes ramas del mapa:
+
+<p align="center">
+  <img src="../assets/Chapter3/Impact Mapping_corte1.png" alt="Impact Mapping - Corte 1" width="800">
+  <br><em>Figura: Corte 1 - Business Goals y ramificación de actores principales</em>
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter3/Impact Mapping_corte2.png" alt="Impact Mapping - Corte 2" width="800">
+  <br><em>Figura: Corte 2 - Rama de Carlos Mendoza (Foco en Adquisición y Monetización)</em>
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter3/Impact Mapping_corte3.png" alt="Impact Mapping - Corte 3" width="800">
+  <br><em>Figura: Corte 3 - Rama de Lucía Ramírez (Foco en Engagement y Alertas) y Technical Features</em>
+</p>
+
 ## 3.3. Product Backlog
 
 A continuación se presenta el Product Backlog del proyecto InstAlert, priorizado estrictamente en función del valor entregado al negocio. Siguiendo las directrices del marco de trabajo ágil, las User Stories relacionadas al sitio web estático (Landing Page) y la funcionalidad core del producto se han considerado en la prioridad más alta, desplazando a posiciones posteriores las tareas de soporte técnico como el registro y la autenticación.
