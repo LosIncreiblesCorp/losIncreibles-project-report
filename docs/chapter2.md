@@ -179,16 +179,59 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 
 ### 2.2.3. Análisis de entrevistas
 
-#### **Segmento 1: Administradores y dueños de Locales Comerciales**
+#### Segmento 1: Administradores y dueños de locales comerciales
 
-**Entrevista 1 (Maria Rocio de los Ángeles):**
-En su rol como dueña y administradora de un minimarket en Comas, María Rocío expone que la principal amenaza para la sostenibilidad de su negocio es la creciente ola de extorsiones ("cobro de cupos") y los asaltos a mano armada. Identifica que su local es particularmente vulnerable durante el horario de cierre nocturno y al realizar el cuadre de caja, momentos donde la exposición de su personal y la recaudación es crítica. Tras haber experimentado intentos de robo y presenciar asaltos a locales contiguos, ha implementado cámaras de seguridad y rejas, aunque reconoce que estas medidas son meramente disuasuasivas o de registro posterior, pero no de prevención activa.
+**Entrevista 1 (María Rocío de los Ángeles):** la entrevistada, administradora de una tienda en Comas, evidencia un profundo impacto psicológico derivado de haber sido víctima directa de un asalto, donde dos personas la amenazaron exigiendo dinero. Identifica la apertura y el cierre del negocio como los momentos de mayor vulnerabilidad, al coincidir con calles vacías y ausencia de ayuda inmediata. Su testimonio revela además una exposición constante a delincuencia organizada (extorsión tipo "gota a gota") y desconfianza hacia la respuesta policial, a la que califica de lenta e inconsistente. Como mecanismo de mitigación, valora positivamente un botón de pánico y un mapa de zonas de riesgo que le permita coordinarse con otros vecinos y anticiparse a los momentos más peligrosos.
 
-Respecto a la comunicación con otros negocios de la zona, señala que actualmente dependen de llamadas telefónicas y grupos de WhatsApp vecinales. Sin embargo, califica estos canales como ineficientes; la información clave suele perderse entre mensajes irrelevantes (spam), y la reacción de la policía o el serenazgo es demasiado lenta cuando logran contactarlos. Ante esta problemática, María Rocío valida con entusiasmo la necesidad de una solución como InstAlert. Subraya que establecer una red de alertas verificadas y exclusivas entre comercios vecinos sería invaluable para reaccionar de manera coordinada.
+**Entrevista 2 (Jorge Alberto Portocarrero de los Ríos):** gerente de una empresa gráfica con presencia en cinco distritos de Lima, Jorge Alberto atribuye el principal riesgo de su negocio a la ausencia de vigilancia externa, particularmente después de las 6 p.m. Aunque no ha sido víctima directa de un robo, reconoce que comerciantes cercanos sí lo han sido, y que la comunicación ante una emergencia es completamente informal (verbal, sin ningún canal establecido entre negocios). Su testimonio destaca como principal limitante la lentitud de las llamadas telefónicas para reportar una amenaza, proponiendo como solución una vía directa de contacto con la policía y una plataforma que integre a todo su personal, a la que otorga una importancia alta "porque sin seguridad las empresas no pueden trabajar con tranquilidad".
 
-Asimismo, destaca que la visualización de un mapa de zonas de riesgo en tiempo real le permitiría tomar decisiones operativas inmediatas, como adelantar el cierre del local si se reporta actividad sospechosa a pocas cuadras. Como única barrera para la adopción de la plataforma, menciona la complejidad tecnológica: la aplicación debe ser sumamente intuitiva y rápida de operar desde un smartphone, garantizando que tanto ella como sus empleados puedan emitir una alerta en segundos bajo situaciones de alto estrés.
 
-#### **Segmento 2: Personal operativo y vendedores de establecimientos comerciales**
+**Características más comunes del Segmento 1 (n=2):**
+
+| Característica | % de entrevistados | Entrevistas | Evidencia |
+| :--- | :--- | :--- | :--- |
+| Perciben inseguridad activa en su zona o negocio | 100% | #1, #2 | María Rocío relata un asalto directo; Jorge Alberto identifica la falta de vigilancia como riesgo constante. |
+| Señalan la apertura y/o el cierre como el momento más vulnerable | 100% | #1, #2 | María Rocío lo indica explícitamente; Jorge Alberto ubica el riesgo "a partir de las 6 en adelante". |
+| Han sido víctimas directas de un asalto | 50% | #1 | María Rocío fue amenazada dentro de su tienda; Jorge Alberto no ha sido víctima directa. |
+| Conocen casos de robo/extorsión en negocios cercanos | 100% | #1, #2 | María Rocío menciona el asalto a la bodega vecina; Jorge Alberto conoce comerciantes afectados en su zona. |
+| Consideran lenta o poco confiable la respuesta policial | 100% | #1, #2 | María Rocío: "no contestan rápido"; Jorge Alberto: "el teléfono está ocupado o no contesta". |
+| No cuentan con un canal formal con negocios vecinos | 50% | #2 | Jorge Alberto declara que "no nos comunicamos"; María Rocío sí participa de un grupo de WhatsApp, aunque lo considera desorganizado. |
+| Valoran positivamente un botón de pánico | 100% | #1, #2 | Ambos lo consideran "muy útil" / prioritario para su negocio. |
+| Valoran positivamente un mapa de zonas de riesgo | 100% | #1, #2 | María Rocío destaca la coordinación vecinal; Jorge Alberto resalta la utilidad de conocer zonas vulnerables. |
+
+**Conclusión del Segmento 1:**
+
+Las dos entrevistas registradas evidencian que la vulnerabilidad de este segmento se concentra en los momentos de menor actividad comercial (apertura, cierre y horario nocturno), y que la desconfianza hacia la respuesta policial es unánime (100%), lo que empuja a los administradores a depender de mecanismos informales —redes de WhatsApp, comunicación verbal— para mantenerse alertas. El 100% de los entrevistados valora positivamente tanto un botón de pánico como un mapa de zonas de riesgo, lo que confirma que ambas funcionalidades responden a una necesidad real y compartida por este segmento, y no a una suposición del equipo. La principal limitación de este análisis es el tamaño de muestra (n=2), por lo que se recomienda incorporar la Entrevista #3 pendiente antes de considerar estos porcentajes como definitivos para la construcción de los arquetipos.
+
+#### Segmento 2: Personal operativo y vendedores de establecimientos comerciales
+
+**Entrevista 4 (Alberto Alejandro Ponce Perales):** trabajador de un establecimiento en Barranco con funciones rotativas entre distintas sedes, Alberto Alejandro identifica el cierre de jornada (8–9 p.m.) como el momento de mayor riesgo, marcado por baja afluencia de personas y presencia de vehículos sospechosos. Relata un intento de distracción por parte de dos personas dentro del local y menciona un caso de extorsión sufrido por un negocio cercano. Su testimonio revela que, ante una emergencia, avisar a su jefe por WhatsApp o llamada resulta poco discreto y lento, por lo que valora una alerta silenciosa activable con un gesto rápido, que funcione incluso con poca señal y no genere notificaciones sonoras que alerten al agresor.
+
+**Entrevista 5 (Carol Juliana Montenegro Izquierdo):** vendedora de un minimarket en San Juan de Lurigancho, Carol Juliana señala la apertura y el cierre del local —momentos en que muchas veces atiende sola— como los de mayor vulnerabilidad. Su testimonio incluye haber sido víctima de un intento de extorsión ("cupo"), situación en la que no supo a quién avisar de forma inmediata. Manifiesta que atender a un cliente le impide usar el celular sin levantar sospechas, y que el grupo de WhatsApp de vendedores de la galería resulta demasiado lento para emergencias reales. Valora una alerta rápida, silenciosa y de pocos clics, que le permita reportar sin que el cliente lo perciba.
+
+**Entrevista 6 (Pilar, Goya Durmi):** con tres años administrando funciones en un negocio de San Isidro, la entrevistada evidencia una exposición reiterada a hechos delictivos: el robo de su teléfono en la puerta del negocio, un intento de asalto por "raqueteros" y, previamente a su llegada, el robo de las computadoras del local. Actualmente reporta las emergencias únicamente por teléfono a la policía o el serenazgo, además de contar con un sistema de alarma comercial instalado, aunque reconoce que la respuesta policial suele ser lenta. Su testimonio resalta como funcionalidad clave una alerta de un solo clic o con huella digital que notifique simultáneamente a la comisaría, al serenazgo y a otros negocios cercanos, junto con la necesidad de mecanismos que eviten el mal uso de la herramienta.
+
+**Características más comunes del Segmento 2 (n=3):**
+
+| Característica | % de entrevistados | Entrevistas | Evidencia |
+| :--- | :--- | :--- | :--- |
+| Han sentido inseguridad durante su jornada laboral | 100% | #4, #5, #6 | Los tres relatan situaciones concretas de temor durante el trabajo. |
+| Asocian el mayor riesgo a apertura y/o cierre, o baja afluencia | 100% | #4, #5, #6 | Alberto (cierre), Carol Juliana (apertura y cierre), Pilar (horas de la tarde). |
+| Han presenciado o vivido un incidente sospechoso, robo o extorsión | 100% | #4, #5, #6 | Distracción de dos personas, amenaza de cupo, robo de teléfono e intento de asalto, respectivamente. |
+| Avisan primero a su jefe/administrador antes que a la autoridad | 66% | #4, #5 | Alberto y Carol Juliana avisan a su jefe/jefa primero; Pilar reporta directamente a la policía/serenazgo. |
+| Usan WhatsApp como canal principal de comunicación | 66% | #4, #5 | Ambos mencionan un grupo de WhatsApp; Pilar usa únicamente el teléfono. |
+| Señalan dificultad para pedir ayuda sin levantar sospechas | 66% | #4, #5 | Ambos indican que no pueden usar el celular abiertamente frente al agresor. |
+| Valoran una alerta silenciosa que no notifique al agresor | 100% | #4, #5, #6 | Los tres piden explícitamente discreción y ausencia de sonido/notificaciones. |
+| Necesitan distancia, hora y tipo de incidente para evaluar el riesgo | 100% | #4, #5, #6 | Los tres mencionan estos tres datos como criterios de decisión. |
+| Se sienten cómodos usando una app web desde su celular | 100% | #4, #5, #6 | Los tres afirman sentirse cómodos, dado el uso constante del celular en su jornada. |
+| Mencionan preocupación por la conectividad/señal del local | 33% | #4 | Solo Alberto menciona explícitamente la mala señal dentro del almacén. |
+
+**Conclusión del Segmento 2:**
+
+Las tres entrevistas registradas muestran un patrón consistente: el 100% de los entrevistados ha vivido un incidente sospechoso, de robo o de extorsión durante su jornada laboral, y todos identifican el cierre del local como el momento de mayor exposición. La necesidad más reiterada es la discreción: el 100% de los entrevistados valora una alerta silenciosa que no ponga sobre aviso al agresor, muy por encima de canales actuales como WhatsApp (66%) o la llamada telefónica, que consideran lentos o riesgosos de usar frente a una amenaza en curso. Asimismo, el 100% coincide en que necesita conocer la distancia, la hora y el tipo de incidente para evaluar si una alerta cercana representa un riesgo real, lo que debe traducirse directamente en los campos obligatorios del reporte de incidentes dentro de InstAlert. Con n=3, este segmento cuenta con una muestra más sólida que el Segmento 1, aunque igualmente se recomienda ampliarla para robustecer el sustento estadístico del análisis.
+
+> **Nota:** Los porcentajes se calculan sobre el total de entrevistas completas por segmento (n=2 para Administradores y dueños, n=3 para Personal operativo). Se recomienda actualizar el Segmento 1 al completar la Entrevista #3 pendiente, ya que el cambio en n modificará los porcentajes reportados.
+
 
 ## 2.3. Needfinding
 
