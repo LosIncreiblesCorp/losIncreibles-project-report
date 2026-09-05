@@ -295,9 +295,12 @@ A través de estos mapas, se detallan las acciones, puntos de contacto, curvas e
 
 El recorrido actual de Carlos (Administrador) refleja la tensión constante por proteger su inversión y a su personal. Su mapa ilustra la frustración operativa al intentar coordinar alertas preventivas con negocios vecinos mediante canales de comunicación ineficientes, así como la profunda incertidumbre y estrés al momento de gestionar la recaudación del día sin contar con un sistema de inteligencia comunitaria que le advierta sobre riesgos cercanos.
 
+
 <p align="center">
-  <img src="" alt="User Journey Map As-Is Carlos Mendoza" width="600">
+  <img src="../assets/Chapter2/Graphics/User Journey Map (As-Is) — Carlos Mendoza.png" alt="Journey Map Carlos" width="600">
 </p>
+
+Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQD3ELST12cFTr--zEcLz38fAaf-626Y3xLeLDz3KIeLt-M?e=OfwOWZ 
 
 *Nota.* User Journey Map (As-Is) correspondiente a Carlos Mendoza, detallando las deficiencias actuales en la comunicación comunitaria y la prevención de riesgos patrimoniales.
 
@@ -308,8 +311,11 @@ Para una mejor visualización de los detalles y lectura:
 El recorrido de Lucía (Vendedora) evidencia la vulnerabilidad de estar en la "primera línea" de atención. Su mapa destaca los picos negativos de estrés al detectar comportamientos hostiles o sospechosos en el establecimiento y su impotencia al no contar con un mecanismo de auxilio discreto e inmediato, dependiendo exclusivamente de llamadas tradicionales que alertarían al delincuente.
 
 <p align="center">
-  <img src="" alt="User Journey Map As-Is Lucia Ramirez" width="600">
+  <img src="../assets/Chapter2/Graphics/User Journet Map(As-Is) Lucia Ramirez.png" alt="Journey Map  Lucia" width="600">
 </p>
+
+Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQBWuhKmJ_CMQ7bAMoxt3xEYAXMtY3bwDXpgiUX4rZLLE0A?e=jivgzE
+
 
 *Nota.* User Journey Map (As-Is) correspondiente a Lucía Ramírez, ilustrando la alta exposición al peligro físico y la ausencia de herramientas eficaces para emitir alertas tempranas de emergencia.
 
@@ -328,7 +334,7 @@ Finalmente, se sintetizaron los "Pains" (frustraciones) y "Gains" (ganancias), r
 El mapa de empatía de Carlos se enfoca en su preocupación constante por la extorsión y los asaltos. Refleja lo que escucha en su entorno sobre el aumento de la criminalidad, lo que ve en la ineficacia de las autoridades y cómo siente la necesidad urgente de proteger su inversión y a sus empleados.
 
 <p align="center">
-  <img src="" alt="Empathy Map Carlos Mendoza" width="600">
+  <img src="../assets/Chapter2/Graphics/Empathy Map — Lucía Ramírez.png" alt="Empathy Map" width="600">
 </p>
 
 *Nota.* Empathy Map correspondiente al Segmento 1, detallando sus percepciones del entorno delictivo y sus motivaciones para adoptar una red de seguridad comercial.
@@ -338,7 +344,7 @@ El mapa de empatía de Carlos se enfoca en su preocupación constante por la ext
 El mapa de empatía de Lucía ilustra la tensión y el estrés de trabajar en la primera línea de atención al cliente en una zona de riesgo. Destaca su miedo a enfrentar situaciones de violencia directa durante el cierre de caja, su frustración al no tener a quién recurrir de inmediato, y su necesidad de contar con una herramienta discreta de auxilio.
 
 <p align="center">
-  <img src="" alt="Empathy Map Lucia Ramirez" width="600">
+  <img src="../assets/Chapter2/Graphics/Empathy Map — Carlos Mendoza.png" alt="Empathy Map" width="600">
 </p>
 
 *Nota.* Empathy Map correspondiente al Segmento 2, reflejando su exposición al peligro y la necesidad de mecanismos de reacción inmediata como el botón de pánico.
