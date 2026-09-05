@@ -57,8 +57,6 @@ A continuación se presenta el Product Backlog del proyecto InstAlert, priorizad
 
 Para la estimación del esfuerzo se ha utilizado la secuencia de Fibonacci (1, 2, 3, 5, 8). La gestión del Product Backlog se lleva a cabo mediante la herramienta **Jira Software**.
 
-**URL del Product Backlog:** [AQUÍ VA TU LINK DE JIRA]
-
 <p align="center">
   <img src="../assets/Chapter3/product_backlog.png" alt="Product Backlog" width="800">
   <br><em>Figura 2: Captura del Product Backlog priorizado por valor de negocio</em>
