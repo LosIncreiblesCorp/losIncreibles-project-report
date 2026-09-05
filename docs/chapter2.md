@@ -242,16 +242,21 @@ En esta sección se presentan las fichas de User Persona, construidas a partir d
 **User Persona 1: Carlos Mendoza - Administrador y dueño de local comercial**
 
 <p align="center">
-  <img src="" alt="User Persona 1" width="450">
+  <img src="../assets/Chapter2/Graphics/01-user-persona.png" alt="User persona Carlos Mendoza" width="600">
 </p>
+
+Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQB6H7iWp1u_SaA7wZPV7YSOAUHKis7__wwOyzxH4cpoCbc?e=D00egw 
 
 ***Nota.*** Ficha que representa el arquetipo del Segmento 1. Detalla sus objetivos orientados a proteger su inversión y a su personal, su frustración ante la ineficacia policial frente a extorsiones, y su necesidad de una plataforma centralizada para recibir alertas tempranas.
 
 **User Persona 2: Lucía Ramírez - Personal operativo y vendedora**
 
 <p align="center">
-  <img src="" alt="User Persona 2" width="450">
+  <img src="../assets/Chapter2/Graphics/02-user-persona.png" alt="User persona Lucia Ramirez" width="600">
 </p>
+
+Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQAQgAyDVbwmQY6md0n5nu1nAbgV4gOMufdDbHsxmPhoQho?e=ESLT3z 
+
 
 ***Nota.*** Ficha que representa el arquetipo del Segmento 2. Expone su necesidad de contar con herramientas de auxilio rápido (botón de pánico) y su frustración por la vulnerabilidad y exposición al peligro durante los horarios de apertura, cierre o manejo de efectivo.
 
@@ -296,6 +301,8 @@ El recorrido actual de Carlos (Administrador) refleja la tensión constante por 
 
 *Nota.* User Journey Map (As-Is) correspondiente a Carlos Mendoza, detallando las deficiencias actuales en la comunicación comunitaria y la prevención de riesgos patrimoniales.
 
+Para una mejor visualización de los detalles y lectura:
+
 **Segmento 2: Personal operativo y vendedores de establecimientos comerciales**
 
 El recorrido de Lucía (Vendedora) evidencia la vulnerabilidad de estar en la "primera línea" de atención. Su mapa destaca los picos negativos de estrés al detectar comportamientos hostiles o sospechosos en el establecimiento y su impotencia al no contar con un mecanismo de auxilio discreto e inmediato, dependiendo exclusivamente de llamadas tradicionales que alertarían al delincuente.
@@ -306,7 +313,7 @@ El recorrido de Lucía (Vendedora) evidencia la vulnerabilidad de estar en la "p
 
 *Nota.* User Journey Map (As-Is) correspondiente a Lucía Ramírez, ilustrando la alta exposición al peligro físico y la ausencia de herramientas eficaces para emitir alertas tempranas de emergencia.
 
-Para una mejor visualización de los detalles y lectura de las etapas en los User Journey Maps de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo de diseño: (link)
+Para una mejor visualización de los detalles y lectura: 
 
 ### 2.3.4. Empathy Mapping
 
