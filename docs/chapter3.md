@@ -44,11 +44,13 @@ Se han definido los siguientes Epics:
 
 El Impact Mapping ha sido elaborado de manera colaborativa utilizando la herramienta **UXpressia**, estructurado en los niveles de Business Goals, Personas, Impacts, Deliverables y sus correspondientes User Stories, alineados a los segmentos de administradores de locales y personal operativo de InstAlert.
 
+**URL del Impact Mapping:** [Enlace público de UXpressia]
+
 A continuación, se presenta la vista panorámica del modelo completo:
 
 <p align="center">
   <img src="../assets/Chapter3/Impact Mapping.png" alt="Impact Mapping - Vista Panorámica" width="800">
-  <br><em>Figura: Vista panorámica del Impact Mapping</em>
+  <br><em>Figura 1: Vista panorámica del Impact Mapping en UXpressia</em>
 </p>
 
 ## 3.3. Product Backlog
@@ -59,9 +61,9 @@ Para la estimación del esfuerzo se ha utilizado la secuencia de Fibonacci (1, 2
 
 **URL del Product Backlog:** [Enlace a la herramienta de gestión del proyecto]
 
-*(Incluir aquí captura de pantalla del Backlog en la herramienta utilizada)*
 <p align="center">
   <img src="../assets/Chapter3/product_backlog.png" alt="Product Backlog" width="800">
+  <br><em>Figura 2: Captura del Product Backlog priorizado por valor de negocio</em>
 </p>
 
 | # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
