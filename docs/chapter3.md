@@ -55,9 +55,9 @@ A continuación, se presenta la vista panorámica del modelo completo:
 
 A continuación se presenta el Product Backlog del proyecto InstAlert, priorizado estrictamente en función del valor entregado al negocio. Siguiendo las directrices del marco de trabajo ágil, las User Stories relacionadas al sitio web estático (Landing Page) y la funcionalidad core del producto se han considerado en la prioridad más alta, desplazando a posiciones posteriores las tareas de soporte técnico como el registro y la autenticación.
 
-Para la estimación del esfuerzo se ha utilizado la secuencia de Fibonacci (1, 2, 3, 5, 8). La gestión del Product Backlog se lleva a cabo mediante la herramienta **Trello** (o Jira/YouTrack).
+Para la estimación del esfuerzo se ha utilizado la secuencia de Fibonacci (1, 2, 3, 5, 8). La gestión del Product Backlog se lleva a cabo mediante la herramienta **Jira Software**.
 
-**URL del Product Backlog:** [Enlace a la herramienta de gestión del proyecto]
+**URL del Product Backlog:** [AQUÍ VA TU LINK DE JIRA]
 
 <p align="center">
   <img src="../assets/Chapter3/product_backlog.png" alt="Product Backlog" width="800">
