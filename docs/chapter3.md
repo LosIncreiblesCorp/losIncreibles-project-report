@@ -43,3 +43,35 @@ Se han definido los siguientes Epics:
 ## 3.2. Impact Mapping
 
 ## 3.3. Product Backlog
+
+A continuación se presenta el Product Backlog del proyecto InstAlert, priorizado estrictamente en función del valor entregado al negocio. Siguiendo las directrices del marco de trabajo ágil, las User Stories relacionadas al sitio web estático (Landing Page) y la funcionalidad core del producto se han considerado en la prioridad más alta, desplazando a posiciones posteriores las tareas de soporte técnico como el registro y la autenticación.
+
+Para la estimación del esfuerzo se ha utilizado la secuencia de Fibonacci (1, 2, 3, 5, 8). La gestión del Product Backlog se lleva a cabo mediante la herramienta **Trello** (o Jira/YouTrack).
+
+**URL del Product Backlog:** [Enlace a la herramienta de gestión del proyecto]
+
+*(Incluir aquí captura de pantalla del Backlog en la herramienta utilizada)*
+<p align="center">
+  <img src="../assets/Chapter3/product_backlog.png" alt="Product Backlog" width="800">
+</p>
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---|---|---|---|---|
+| 1 | US13 | Visualización de propuesta de valor | Como visitante, deseo leer de forma clara cómo la aplicación protege a los negocios, para entender los beneficios antes de registrarme. | 3 |
+| 2 | US14 | Comparación de planes de precios | Como visitante, deseo visualizar una tabla comparativa de precios y características, para evaluar qué plan se adapta a las necesidades de mi negocio. | 2 |
+| 3 | US15 | Formulario de contacto y soporte | Como visitante, deseo acceder a un formulario de contacto, para realizar consultas comerciales sobre el servicio. | 2 |
+| 4 | US04 | Envío de alerta rápida | Como personal operativo, deseo emitir una alerta de pánico inmediata, para notificar rápidamente sobre un asalto o extorsión en curso. | 5 |
+| 5 | US05 | Recepción de alertas cercanas | Como usuario, deseo recibir notificaciones en tiempo real cuando se reporte un incidente cerca, para poder tomar medidas preventivas como cerrar mi local. | 5 |
+| 6 | US01 | Registro de comercio | Como administrador de local, deseo registrar los datos de mi negocio, para acceder a la plataforma y administrar la seguridad de mi local. | 3 |
+| 7 | US03 | Inicio de sesión | Como usuario, deseo iniciar sesión con mis credenciales, para acceder de forma segura a mi entorno de alertas y gestión. | 2 |
+| 8 | US02 | Invitación a personal operativo | Como administrador de local, deseo invitar a mi personal operativo, para que puedan reportar incidentes desde sus propias cuentas vinculadas a mi tienda. | 3 |
+| 9 | US17 | Endpoint de creación de alertas | Como Developer, deseo implementar un endpoint POST para registrar una alerta, para procesar y almacenar los reportes enviados por las aplicaciones cliente. | 3 |
+| 10 | US18 | Endpoint de consulta de incidentes cercanos | Como Developer, deseo implementar un endpoint GET que retorne incidentes cercanos, para alimentar el mapa de riesgos en la aplicación cliente. | 3 |
+| 11 | US07 | Mapa de incidentes en tiempo real | Como administrador de local, deseo visualizar un mapa con los incidentes recientes en mi zona, para identificar patrones de riesgo y áreas inseguras. | 5 |
+| 12 | US16 | Autenticación basada en JWT | Como Developer, deseo implementar autenticación JWT en los endpoints, para asegurar que solo usuarios autorizados realicen operaciones críticas. | 3 |
+| 13 | US08 | Historial de alertas | Como administrador de local, deseo consultar un historial detallado de las alertas generadas por mi tienda, para llevar un registro de eventos de seguridad. | 3 |
+| 14 | US06 | Cancelación de falsa alarma | Como usuario emisor, deseo poder cancelar una alerta en caso de falsa alarma, para evitar pánico innecesario en la red vecinal. | 2 |
+| 15 | US09 | Selección de plan de suscripción | Como administrador de local, deseo seleccionar y suscribirme a un plan de pago, para desbloquear funcionalidades premium de la plataforma. | 5 |
+| 16 | US11 | Configuración de contactos de emergencia | Como usuario, deseo agregar contactos de emergencia personales, para que sean notificados de forma automática e inmediata si activo una alerta. | 3 |
+| 17 | US12 | Verificación de negocios vecinos seguros | Como administrador de local, deseo visualizar qué negocios vecinos pertenecen a la red de InstAlert, para fomentar la colaboración vecinal. | 5 |
+| 18 | US10 | Cancelación de suscripción | Como administrador de local, deseo cancelar mi suscripción activa desde mi panel de configuración, para gestionar mis gastos directamente. | 2 |
