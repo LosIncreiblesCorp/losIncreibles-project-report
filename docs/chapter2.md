@@ -97,6 +97,8 @@ InstAlert plantea estrategias de diferenciación frente a cada competidor identi
 
 #### 2.2.2. Registro de entrevistas
 
+Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCX8BMfKSTJRqOoLTV6ACVjAZgeMTj-lKAhsWLSH9tZIGY?e=GiUpns&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 ### Entrevistas realizadas al Segmento 1: Administradores y dueños de locales comerciales
 
 | **Entrevista #1** | |
@@ -105,23 +107,23 @@ InstAlert plantea estrategias de diferenciación frente a cada competidor identi
 | **Apellidos** | de los Ángeles |
 | **Edad** | 42 años |
 | **Distrito** | Comas |
-| **Evidencia** | <img src="https://i.postimg.cc/rRmPRFrz/evidencia1.png" alt="Entrevista 1" width="180"> |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415638_upc_edu_pe/IQBfUrfMjw5qQaE1oeaS4ID-AZnXkCn5NzuHO9g1RUvBgXk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tlBfqM |
-| **Timing donde inicia** | 00:00 min |
-| **Duración** | 18:06 min |
-| **Resumen** | La entrevistada, administradora de un minimarket, manifiesta que la extorsión y los asaltos son los mayores riesgos para su negocio, especialmente durante el cierre y la gestión de efectivo. Actualmente emplea grupos de WhatsApp con otros comerciantes, pero los considera ineficientes y desorganizados ante emergencias reales. Destaca el gran valor que tendría una plataforma dedicada a alertas entre comercios vecinos y la visualización de un mapa de riesgos para anticiparse a las amenazas y proteger a su personal, siempre que la herramienta sea intuitiva en el uso móvil. |
+| **Evidencia** | <img src="https://i.postimg.cc/rRmPRFrz/evidencia1.png" alt="Evidencia Entrevista 1" width="180"> |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCQ3QCcLMNJTpUchqBe08G_AYlmCTa9z7RyanN0NzsO_Z4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1yOnV7 |
+| **Timing donde inicia** | 00:05 min |
+| **Duración** | 18:11 min |
+| **Resumen** | La entrevistada, administradora dgit branche un minimarket, manifiesta que la extorsión y los asaltos son los mayores riesgos para su negocio, especialmente durante el cierre y la gestión de efectivo. Actualmente emplea grupos de WhatsApp con otros comerciantes, pero los considera ineficientes y desorganizados ante emergencias reales. Destaca el gran valor que tendría una plataforma dedicada a alertas entre comercios vecinos y la visualización de un mapa de riesgos para anticiparse a las amenazas y proteger a su personal, siempre que la herramienta sea intuitiva en el uso móvil. |
 
 | **Entrevista #2** | |
 | :--- | :--- |
-| **Nombre** | |
-| **Apellidos** | |
-| **Edad** | |
-| **Distrito** | |
-| **Evidencia** | |
-| **Link** | |
-| **Timing donde inicia** | |
-| **Duración** | |
-| **Resumen** | |
+| **Nombre** | Jorge Alberto |
+| **Apellidos** | Portocarrero de los Ríos |
+| **Edad** | 60 años |
+| **Distrito** | Jesús María, Miraflores, San Isidro, Lince y Breña |
+| **Evidencia** | <img src="https://i.postimg.cc/sgFC23zQ/Evidencia-2.png" alt="Evidencia Entrevista 2" width="180"> |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBXA7xWaCu8Sp821kXGKg0eARcjMnTc_E4mKjf0QHs5Oi4?e=Aytt25&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Timing donde inicia** | 00:05 min |
+| **Duración** | 8:49 min |
+| **Resumen** | El entrevistado, gerente de una empresa gráfica (imprenta) con presencia en Jesús María, Miraflores, San Isidro, Lince y Breña desde hace aproximadamente 30 años, identifica la falta de vigilancia externa como el principal riesgo de seguridad, agravado en horario nocturno a partir de las 6 p.m. Aunque no ha sido víctima directa de un robo, comerciantes cercanos sí lo han sufrido, y actualmente la comunicación ante emergencias es únicamente verbal, sin ningún canal formal entre negocios vecinos. Señala como principal limitante la lentitud de las llamadas telefónicas para reportar una amenaza y valora positivamente contar con un mapa de zonas de riesgo, una llamada de emergencia directa a la policía y una red que integre a todo su personal, otorgando una importancia alta a una plataforma de alertas entre comercios vecinos, "porque sin seguridad las empresas no pueden trabajar con tranquilidad". |
 
 | **Entrevista #3** | |
 | :--- | :--- |
@@ -141,39 +143,39 @@ InstAlert plantea estrategias de diferenciación frente a cada competidor identi
 
 | **Entrevista #4** | |
 | :--- | :--- |
-| **Nombre** | |
-| **Apellidos** | |
-| **Edad** | |
-| **Distrito** | |
-| **Evidencia** | |
-| **Link** | |
-| **Timing donde inicia** | |
-| **Duración** | |
-| **Resumen** | |
+| **Nombre** | Alberto Alejandro |
+| **Apellidos** | Ponce Perales |
+| **Edad** | 26 años |
+| **Distrito** | Barranco |
+| **Evidencia** | <img src="https://i.postimg.cc/jd4BRP8s/Evidencia-4.png" alt="Evidencia Entrevista 4" width="180">  |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDnrzJvuWDISZriFAfcjHYAAfXvGQiumZTBCMOoufNrfOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ScD75v |
+| **Timing donde inicia** | 00:05 min |
+| **Duración** | 8:57 min |
+| **Resumen** | El entrevistado, con 6 meses en su puesto en un establecimiento de Barranco, rota entre distintas funciones y sedes, trabajando de lunes a sábado hasta altas horas de la noche. Identifica el cierre de jornada (8-9 p.m.) como el momento de mayor riesgo, por la baja afluencia de personas y presencia de motos sospechosas, y relata un intento de distracción por parte de dos personas dentro del local, además de un caso de extorsión ("cupo") a un negocio cercano. Ante una emergencia, avisa primero a su jefe por WhatsApp o llamada, pero reconoce que ninguno de los dos canales es discreto ni inmediato, y que llamar a la policía resulta lento. Señala que le sería útil una alerta silenciosa, activable con un gesto rápido, que funcione con poca señal y sin notificaciones sonoras que alerten al sospechoso, e indica que para evaluar el riesgo real de una alerta cercana necesitaría conocer la distancia del local que reportó, la hora del incidente y si la persona o vehículo sospechoso sigue circulando por la zona. |
 
 | **Entrevista #5** | |
 | :--- | :--- |
-| **Nombre** | |
-| **Apellidos** | |
-| **Edad** | |
-| **Distrito** | |
-| **Evidencia** | |
-| **Link** | |
-| **Timing donde inicia** | |
-| **Duración** | |
-| **Resumen** | |
+| **Nombre** | Carol Juliana |
+| **Apellidos** | Montenegro Izquierdo |
+| **Edad** | 19 años |
+| **Distrito** | San Juan de Lurigancho |
+| **Evidencia** | <img src="https://i.postimg.cc/L87DSsM4/Evidencia-5.png" alt="Evidencia Entrevista 5" width="180"> |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCl-Zw2GZYcQ6myUop36XoIAavZ2BZlRXtX72Ux2v5yuk0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NSMmm2 |
+| **Timing donde inicia** | 00:05 min |
+| **Duración** | 6:01 min |
+| **Resumen** | La entrevistada, vendedora de un minimarket en San Juan de Lurigancho desde hace un año, trabaja de 9 a.m. a 6 p.m. rotando entre caja, atención al cliente y cierre del local, muchas veces sola. Identifica el horario de apertura y cierre como los momentos de mayor riesgo, por la falta de vigilancia en la calle, y relata haber sido víctima de un intento de extorsión ("cupo") sin saber a quién avisar de forma rápida en ese momento. Ante una situación de riesgo, avisa primero a su jefa por WhatsApp o grita/llama a un vecino del local contiguo, pero señala que atender a un cliente le impide sacar el celular sin levantar sospechas, y que el grupo de WhatsApp de vendedores de la galería es lento porque no todos lo revisan a tiempo. Valora una alerta rápida y discreta, activable con pocos clics y sin sonido, que le permita usarla sin que el cliente lo note, y que para evaluar el riesgo real de una alerta cercana necesitaría conocer la distancia del incidente a su local, la hora en que ocurrió y el tipo de amenaza (robo, sospechoso o extorsión). |
 
 | **Entrevista #6** | |
 | :--- | :--- |
-| **Nombre** | |
-| **Apellidos** | |
-| **Edad** | |
-| **Distrito** | |
-| **Evidencia** | |
-| **Link** | |
-| **Timing donde inicia** | |
-| **Duración** | |
-| **Resumen** | |
+| **Nombre** | Pilar |
+| **Apellidos** | Goya Durmi |
+| **Edad** | 50 años |
+| **Distrito** | San Isidro |
+| **Evidencia** | <img src="https://i.postimg.cc/wM7399zY/Evidencia-6.png" alt="Evidencia Entrevista 6" width="180"> |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCfz9VQv-UWTriH5euSG9nGAfmT-OcmnMkMmy8zG5tawKU?e=pNc9Mb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Timing donde inicia** | 00:05 min |
+| **Duración** | 5:55 min |
+| **Resumen** | La entrevistada administra un negocio en San Isidro desde hace 3 años, en horario de 7 a.m. a 5 p.m., encargándose de supervisar todas las funciones del local. Identifica las horas de la tarde, de menor afluencia de público, como el momento de mayor riesgo, y relata haber sido víctima del robo de su teléfono en la puerta del negocio, un intento de asalto por "raqueteros" y, antes de su llegada, el robo de computadoras del local. Actualmente reporta las emergencias únicamente por teléfono a la policía o el serenazgo, además de contar con una alarma tipo "Berishuk" (posible referencia distorsionada a un sistema de alarma comercial), pero señala que la policía suele demorar en responder. Valora positivamente una alerta rápida y discreta que no ponga sobre aviso a los delincuentes, con ubicación exacta del incidente, activable con un solo clic o huella digital, que notifique simultáneamente a la comisaría, al serenazgo y a otros negocios cercanos, y resalta la importancia de que la herramienta tenga mecanismos contra el mal uso por parte de personas inescrupulosas. |
 
 ### 2.2.3. Análisis de entrevistas
 
