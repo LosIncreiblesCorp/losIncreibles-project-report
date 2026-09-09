@@ -89,6 +89,12 @@ Los estados semánticos permiten representar la situación de los elementos gest
 
 Estos estados permiten reconocer de forma rápida la condición de una alerta, reporte o acción dentro de la plataforma.
 
+**4.1.1.7. Icon Buttons**
+
+Los Icon Buttons corresponden a botones representados mediante iconos para facilitar el acceso a determinadas acciones. En el Style Guide se establece un tamaño de 44 × 44 px, un radio del 50 % y un tamaño de icono de aproximadamente 18–20 px.
+
+Entre los iconos definidos se encuentran Inicio, Búsqueda, Perfil y Alerta. Su tamaño y distribución permiten mantener una interacción clara y ordenada dentro de la interfaz.
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
