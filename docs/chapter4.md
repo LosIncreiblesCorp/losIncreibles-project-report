@@ -8,6 +8,13 @@ Asimismo, las Style Guidelines sirven como referencia para el equipo durante las
 
 ### 4.1.1. General Style Guidelines
 
+Los General Style Guidelines establecen las características visuales utilizadas en InstAlert. En este apartado se presentan las definiciones correspondientes a la tipografía, colores y componentes principales de la plataforma.
+
+<p align="center">
+  <img src="../assets/Chapter4/InstAlert_Design_System_1.png" alt="Desing_System" width="700"><br>
+  Nota: Guía visual utilizada como referencia para la definición de los elementos de la interfaz.
+</p> 
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
