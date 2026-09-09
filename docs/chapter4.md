@@ -31,6 +31,8 @@ Para el contenido general se utiliza un tamaño de 16 px con peso Regular. Este 
 * Label:
 Las etiquetas y textos que requieren mayor énfasis utilizan un tamaño de 14 px con peso Semibold. Este nivel tipográfico permite destacar información breve asociada a botones, estados, categorías y otros componentes de la interfaz.
 
+
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
