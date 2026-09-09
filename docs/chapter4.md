@@ -101,6 +101,12 @@ La acción de emergencia corresponde a la funcionalidad destinada a activar o ca
 
 La diferenciación visual de estas acciones permite reconocerlas rápidamente y mantener una separación adecuada respecto a otros elementos de la interfaz.
 
+**4.1.1.9. Cards / Surfaces**
+
+Las Cards / Surfaces permiten organizar información dentro de contenedores visuales. Su estructura considera elementos como título, contenido secundario y estado, manteniendo una distribución ordenada entre ellos.
+
+La separación de los contenidos dentro de las tarjetas facilita su lectura y permite presentar la información de manera organizada.
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
