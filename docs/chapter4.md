@@ -61,7 +61,17 @@ Los botones de InstAlert presentan diferentes variantes según la función que d
 
 La diferenciación entre estas variantes permite identificar con mayor facilidad el tipo de acción asociado a cada botón.
 
+**4.1.1.4. Inputs**
 
+Los inputs permiten al usuario ingresar o consultar información dentro de la plataforma. En el Style Guide se establecen diferentes estados para estos componentes, considerando su apariencia y distribución dentro de la interfaz.
+
+* Default: corresponde al estado inicial del campo.
+
+* Active: indica que el campo se encuentra seleccionado y listo para la interacción.
+
+* Search: permite realizar búsquedas mediante un campo acompañado de un ícono.
+
+La distribución y separación de estos elementos se mantiene organizada para facilitar la identificación y el uso de los campos.
 
 ### 4.1.2. Web Style Guidelines
 
