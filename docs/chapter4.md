@@ -73,6 +73,16 @@ Los inputs permiten al usuario ingresar o consultar información dentro de la pl
 
 La distribución y separación de estos elementos se mantiene organizada para facilitar la identificación y el uso de los campos.
 
+**4.1.1.5. Estados de navegación**
+
+Los estados de navegación permiten diferenciar las opciones disponibles y la sección en la que se encuentra el usuario. En el Style Guide se presentan los estados Active e Inactive para los elementos de navegación, aplicados a opciones como Alertas e Historial.
+
+* Active: identifica la sección actualmente seleccionada.
+
+* Inactive: corresponde a las opciones disponibles que no se encuentran seleccionadas.
+
+La disposición de los elementos mantiene una separación adecuada para facilitar la navegación y reconocer rápidamente la sección activa.
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
