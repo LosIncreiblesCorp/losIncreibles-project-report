@@ -33,17 +33,18 @@ Las etiquetas y textos que requieren mayor énfasis utilizan un tamaño de 14 px
 
 **4.1.1.2. Colores**
 
-La paleta cromática de InstAlert está conformada por cuatro colores principales que permiten establecer una diferenciación visual entre los distintos elementos de la interfaz. Los colores definidos son Primary (#0F172A), Secondary (#2563EB), Danger (#DC2626) y Neutral (#64748B).
+La paleta de colores de InstAlert está compuesta por cuatro colores principales: Primary, Secondary, Danger y Neutral, cada uno definido con una tonalidad base y sus respectivas variaciones. Esta clasificación permite mantener una diferenciación visual entre los distintos elementos de la interfaz.
 
-* Primary (#0F172A): utilizado como color principal de la interfaz, proporcionando una base visual sólida para los elementos de mayor jerarquía.
+* Primary (#0F172A): corresponde al color principal de la plataforma y se utiliza en elementos de navegación, textos principales y acciones base.
 
-* Secondary (#2563EB): empleado en elementos interactivos y acciones secundarias, permitiendo diferenciarlos de los componentes principales.
+* Secondary (#2563EB): se emplea en elementos interactivos, selecciones y enlaces, permitiendo destacar acciones dentro de la interfaz.
 
-* Danger (#DC2626): destinado a representar situaciones de alerta, emergencia o acciones que requieren especial atención.
+* Danger (#DC2626): representa situaciones de emergencia, alertas y acciones que requieren especial atención.
 
-* Neutral (#64748B): utilizado en elementos secundarios y de apoyo, ayudando a establecer contraste y jerarquía sin competir con los colores de mayor importancia.
+* Neutral (#64748B): se utiliza en textos secundarios y elementos neutrales de la interfaz.
 
-La combinación de estos colores permite mantener una diferenciación clara entre las funciones y estados presentes en la interfaz de InstAlert.
+La combinación de estas tonalidades permite establecer una jerarquía visual coherente y diferenciar las funciones principales de la plataforma.
+
 
 ### 4.1.2. Web Style Guidelines
 
