@@ -83,6 +83,12 @@ Los estados de navegación permiten diferenciar las opciones disponibles y la se
 
 La disposición de los elementos mantiene una separación adecuada para facilitar la navegación y reconocer rápidamente la sección activa.
 
+**4.1.1.6. Estados semánticos**
+
+Los estados semánticos permiten representar la situación de los elementos gestionados dentro de InstAlert. La guía establece los estados Activa, Resuelta, Pendiente, Cancelada y Completada, diferenciados mediante los colores definidos para cada situación.
+
+Estos estados permiten reconocer de forma rápida la condición de una alerta, reporte o acción dentro de la plataforma.
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
