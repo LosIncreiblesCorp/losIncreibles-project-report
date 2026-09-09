@@ -109,6 +109,8 @@ La separación de los contenidos dentro de las tarjetas facilita su lectura y pe
 
 ### 4.1.2. Web Style Guidelines
 
+Las Web Style Guidelines de InstAlert establecen criterios para la organización y comportamiento de los elementos dentro de la plataforma web. El diseño considera una distribución clara de los componentes y un enfoque responsive, permitiendo adaptar la interfaz a diferentes tamaños de pantalla sin perder funcionalidad ni claridad.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
