@@ -45,6 +45,23 @@ La paleta de colores de InstAlert está compuesta por cuatro colores principales
 
 La combinación de estas tonalidades permite establecer una jerarquía visual coherente y diferenciar las funciones principales de la plataforma.
 
+**4.1.1.3. Botones**
+
+Los botones de InstAlert presentan diferentes variantes según la función que desempeñan dentro de la plataforma. Se han definido cinco tipos: Primary, Secondary, Danger, Outlined y Disabled, permitiendo diferenciar las acciones principales, secundarias, de riesgo y aquellas que no se encuentran disponibles.
+
+* Primary: utilizado para las acciones principales.
+
+* Secondary: empleado para acciones secundarias o complementarias.
+
+* Danger: destinado a acciones relacionadas con situaciones de riesgo o emergencia.
+
+* Outlined: utilizado para acciones alternativas con menor énfasis visual.
+
+* Disabled: representa acciones que no se encuentran disponibles para el usuario.
+
+La diferenciación entre estas variantes permite identificar con mayor facilidad el tipo de acción asociado a cada botón.
+
+
 
 ### 4.1.2. Web Style Guidelines
 
