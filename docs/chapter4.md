@@ -95,6 +95,12 @@ Los Icon Buttons corresponden a botones representados mediante iconos para facil
 
 Entre los iconos definidos se encuentran Inicio, Búsqueda, Perfil y Alerta. Su tamaño y distribución permiten mantener una interacción clara y ordenada dentro de la interfaz.
 
+**4.1.1.8. Acción de emergencia**
+
+La acción de emergencia corresponde a la funcionalidad destinada a activar o cancelar una alerta de pánico. El Style Guide contempla las acciones “ACTIVAR ALERTA DE PÁNICO” y “CANCELAR ALERTA”.
+
+La diferenciación visual de estas acciones permite reconocerlas rápidamente y mantener una separación adecuada respecto a otros elementos de la interfaz.
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
