@@ -31,7 +31,19 @@ Para el contenido general se utiliza un tamaño de 16 px con peso Regular. Este 
 * Label:
 Las etiquetas y textos que requieren mayor énfasis utilizan un tamaño de 14 px con peso Semibold. Este nivel tipográfico permite destacar información breve asociada a botones, estados, categorías y otros componentes de la interfaz.
 
+**4.1.1.2. Colores**
 
+La paleta cromática de InstAlert está conformada por cuatro colores principales que permiten establecer una diferenciación visual entre los distintos elementos de la interfaz. Los colores definidos son Primary (#0F172A), Secondary (#2563EB), Danger (#DC2626) y Neutral (#64748B).
+
+* Primary (#0F172A): utilizado como color principal de la interfaz, proporcionando una base visual sólida para los elementos de mayor jerarquía.
+
+* Secondary (#2563EB): empleado en elementos interactivos y acciones secundarias, permitiendo diferenciarlos de los componentes principales.
+
+* Danger (#DC2626): destinado a representar situaciones de alerta, emergencia o acciones que requieren especial atención.
+
+* Neutral (#64748B): utilizado en elementos secundarios y de apoyo, ayudando a establecer contraste y jerarquía sin competir con los colores de mayor importancia.
+
+La combinación de estos colores permite mantener una diferenciación clara entre las funciones y estados presentes en la interfaz de InstAlert.
 
 ### 4.1.2. Web Style Guidelines
 
