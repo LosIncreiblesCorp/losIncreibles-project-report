@@ -127,10 +127,25 @@ La arquitectura de información de InstAlert organiza el contenido y las funcion
   Nota: Diagrama de organización de información de las aplicaciones
 </p>
 
+### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de InstAlert utiliza nombres breves, directos y relacionados con la función que representan, facilitando que los usuarios puedan identificar rápidamente cada sección. En la aplicación se emplean etiquetas como “Inicio”, “Mapa de incidentes”, “Alertas”, “Personal”, “Perfil” y “Suscripción”, además de opciones específicas como “Mapa de calor”, “Historial de incidencias”, “Tabla de control” y “Botón de pánico”.
+
+Para el landing page se utilizan etiquetas orientadas a la información y navegación, como “Inicio”, “Funciones”, “Planes” y “Sobre Nosotros”, complementadas con acciones como “Ingresar / Registrar” y “Elegir Plan”. De esta manera, las etiquetas mantienen una relación directa con el contenido o acción que representan y facilitan la navegación dentro de cada experiencia.
+
+<p align="center">
+  <img src="../assets/Chapter4/Labeling de las Aplicaciones (Móvil y Web).png" alt="Labeling app" width="700"><br>
+  Nota. Labeling de las aplicaciones.
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/Labeling del Landing Page.png" alt="Labeling landing page" width="700"><br>
+  Nota. Labeling del landing page.
+</p>
+
 **Acceso al diagrama de la Arquitectura de Información (Miro):** 
 https://miro.com/app/board/uXjVHpZMLZ4=/?share_link_id=378532050437 
 
-### 4.2.2. Labeling Systems
 ### 4.2.3. SEO Tags and Meta Tags
 
 ### 4.2.4. Searching Systems
