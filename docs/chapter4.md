@@ -131,7 +131,6 @@ La arquitectura de información de InstAlert organiza el contenido y las funcion
 https://miro.com/app/board/uXjVHpZMLZ4=/?share_link_id=378532050437 
 
 ### 4.2.2. Labeling Systems
-
 ### 4.2.3. SEO Tags and Meta Tags
 
 ### 4.2.4. Searching Systems
