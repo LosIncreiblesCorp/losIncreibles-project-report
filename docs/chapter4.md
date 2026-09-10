@@ -195,9 +195,78 @@ Nota: La tabla muestra los apartados principales de navegación de la aplicació
 
 ## 4.3. Landing Page UI Design
 
-
-
 ### 4.3.1. Landing Page Wireframe
+
+El diseño del wireframe de la Landing Page de InstAlert se estructura de manera jerárquica, priorizando la presentación de la propuesta de valor y el acceso a las principales funcionalidades de la plataforma. La estructura busca facilitar la comprensión del producto y guiar al usuario hacia las acciones principales.
+
+**1. Encabezado (Header)**
+
+Presenta el logotipo de InstAlert, las opciones principales de navegación, el selector de idioma y los botones de acceso y registro. El encabezado se mantiene visible durante el desplazamiento para facilitar el acceso a las diferentes secciones de la página.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-wireframe-1.png" alt="Labeling app" width="700"><br>
+  Nota: Wireframe del encabezado de la Landing Page de InstAlert.
+</p>
+
+**2. Hero Section**
+
+Es la primera sección visual de la landing y presenta la propuesta principal de InstAlert mediante un título, una breve descripción y botones de acción. El contenido se acompaña de un espacio destinado al recurso visual principal del producto.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-wireframe-1.png" alt="Wireframe 1 lading" width="700"><br>
+  Nota: Wireframe de la sección principal (Hero Section) de InstAlert.
+</p>
+
+
+**3. Beneficios y presentación del producto**
+
+Esta sección resume los principales beneficios de la plataforma y posteriormente presenta información sobre InstAlert, acompañada de un recurso multimedia destinado a explicar el funcionamiento o propósito del producto.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-wireframe-2.png" alt="Wireframe 2 lading" width="700"><br>
+  Nota: Wireframe de la sección de beneficios y presentación del producto.
+</p>
+
+
+**4. Principios y solución de InstAlert**
+
+Se presentan los principales principios de la plataforma y una sección orientada a explicar la solución propuesta. La información se complementa con un espacio visual destinado a representar el funcionamiento del sistema y sus funcionalidades relacionadas con la seguridad.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-wireframe-3.png" alt="Wireframe 2 lading" width="700"><br>
+  Nota: Wireframe de la sección de principios y solución de InstAlert.
+</p>
+
+
+**5. Planes y precios**
+
+La sección de planes presenta las diferentes opciones disponibles para el usuario mediante tarjetas comparativas. Cada tarjeta contiene el nombre del plan, descripción, precio, características principales y un botón de acción para seleccionar la opción correspondiente.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-wireframe-4.png" alt="Wireframe 2 lading" width="700"><br>
+  Nota: Wireframe de la sección de planes y precios.
+</p>
+
+
+**6. Equipo de trabajo**
+
+Se presenta al equipo responsable del desarrollo de InstAlert mediante tarjetas individuales con un espacio reservado para la fotografía de cada integrante, su nombre y rol. La sección también incorpora un espacio para contenido audiovisual relacionado con el equipo.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-wireframe-5.png" alt="Wireframe 2 lading" width="700"><br>
+  Nota: Wireframe de la sección del equipo de InstAlert.
+</p>
+
+
+**7. Llamado a la acción y Footer**
+
+Finalmente, la landing incorpora un llamado a la acción que refuerza la propuesta de InstAlert y dirige al usuario hacia la acción principal. El footer contiene la información complementaria y enlaces de navegación del sitio.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-wireframe-6.png" alt="Wireframe 2 lading" width="700"><br>
+  Nota: Wireframe del llamado a la acción y pie de página de InstAlert.
+</p>
+
 
 ### 4.3.2. Landing Page Mock-up
 
