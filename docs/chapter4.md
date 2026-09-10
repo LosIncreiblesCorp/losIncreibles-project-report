@@ -115,6 +115,21 @@ Las Web Style Guidelines de InstAlert establecen criterios para la organización
 
 ### 4.2.1. Organization Systems
 
+La arquitectura de información de InstAlert organiza el contenido y las funcionalidades de la plataforma de acuerdo con las necesidades de sus usuarios. Se busca que tanto los administradores como el personal operativo puedan acceder de manera sencilla a las principales funciones, mientras que el landing page presenta la información del producto de forma estructurada para facilitar su comprensión.
+
+<p align="center">
+  <img src="../assets/Chapter4/Diagrama de organización de información de las aplicaciones.png" alt="Diagrama organizacional apps" width="700"><br>
+  Nota: Diagrama de organización de información de las aplicaciones
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/Diagrama de organización de información del landing page.png" alt="Diagrama organizacional lading page" width="700"><br>
+  Nota: Diagrama de organización de información de las aplicaciones
+</p>
+
+**Acceso al diagrama de la Arquitectura de Información (Miro):** 
+https://miro.com/app/board/uXjVHpZMLZ4=/?share_link_id=378532050437 
+
 ### 4.2.2. Labeling Systems
 
 ### 4.2.3. SEO Tags and Meta Tags
