@@ -270,6 +270,71 @@ Finalmente, la landing incorpora un llamado a la acción que refuerza la propues
 
 ### 4.3.2. Landing Page Mock-up
 
+Los mock-ups de la Landing Page de InstAlert representan la propuesta visual final de la plataforma, aplicando los lineamientos definidos en el Style Guidelines. La interfaz mantiene una estructura clara y consistente, priorizando la presentación de la información, las funcionalidades principales y los accesos de interacción.
+
+**1. Encabezado y Hero Section**
+
+Aquí se muestra el encabezado de la Landing Page junto con la sección principal. El encabezado contiene el logotipo, las opciones de navegación, el selector de idioma, el acceso a inicio de sesión y el botón principal de acción. En el Hero Section se presenta la propuesta de valor de InstAlert, acompañada de un espacio visual destinado a representar el producto.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-mock-up-1.png" alt="Header y Hero Section" width="700"><br>
+  Nota: Mock-up del encabezado y Hero Section de la Landing Page de InstAlert
+</p>
+
+**2. Beneficios principales**
+
+La sección presenta los principales beneficios de InstAlert mediante tres elementos visuales, permitiendo comunicar de manera rápida las características que diferencian la propuesta de la plataforma.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-mock-up-1.png" alt="Beneficios principales" width="700"><br>
+  Nota: Mock-up de los beneficios principales de InstAlert
+</p>
+
+**3. Sobre InstAlert y principios de la plataforma**
+
+Esta sección presenta información relacionada con la propuesta de InstAlert y sus principales principios, utilizando bloques diferenciados para facilitar la lectura y comprensión del contenido.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-mock-up-2.png" alt="Principios de InstAlert" width="700"><br>
+  Nota: Mock-up de la sección informativa y principios de InstAlert
+</p>
+
+**4. Plataforma y mapa**
+
+La sección muestra una representación de la plataforma mediante un espacio visual destinado al mapa, acompañado de información sobre las soluciones y funcionalidades principales de InstAlert. Esta distribución permite relacionar la información presentada con la visualización de incidentes y zonas de riesgo.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-mock-up-3.png" alt="Plataforma y mapa" width="700"><br>
+  Nota: Mock-up de la sección de plataforma y visualización del mapa
+</p>
+
+**5. Planes**
+
+La sección presenta los diferentes planes disponibles mediante tarjetas comparativas. Cada tarjeta contiene el nombre del plan, su descripción, precio, características principales y un botón de acción, permitiendo al usuario comparar las alternativas disponibles.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-mock-up-4.png" alt="Planes de InstAlert" width="700"><br>
+  Nota: Mock-up de la sección de planes de InstAlert
+</p>
+
+**6. Equipo**
+
+La sección presenta a los integrantes del equipo mediante tarjetas individuales que incluyen su representación visual, nombre y rol dentro del proyecto. También incorpora un espacio destinado a presentar contenido audiovisual relacionado con el equipo.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-mock-up-5.png" alt="Equipo de InstAlert" width="700"><br>
+  Nota: Mock-up de la sección del equipo de InstAlert
+</p>
+
+**7. Llamado a la acción y Footer**
+
+Finalmente, se presenta un llamado a la acción que dirige al usuario hacia el siguiente paso dentro de la plataforma. El Footer contiene el logotipo, enlaces de navegación, información complementaria y los datos correspondientes al proyecto.
+
+<p align="center">
+  <img src="../assets/Chapter4/landing-page-mock-up-6.png" alt="Footer de InstAlert" width="700"><br>
+  Nota: Mock-up del llamado a la acción y pie de página de InstAlert
+</p>
+
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
