@@ -165,7 +165,37 @@ Nota: La tabla muestra los criterios considerados para la consulta de informaci�
 
 ### 4.2.5. Navigation Systems
 
+4.2.5. Navigation Systems
+
+La arquitectura de navegación de InstAlert se organiza según las principales funcionalidades de la plataforma y el tipo de usuario. En el Landing Page se presentan las secciones destinadas a mostrar información del producto, mientras que en la aplicación se distribuyen las funciones relacionadas con la gestión de seguridad.
+
+Para el Landing Page, se definieron las siguientes secciones:
+
+| **NOMBRE**         | **DESCRIPCIÓN**                                                         |
+| :----------------- | :---------------------------------------------------------------------- |
+| **Inicio**         | Presenta la información principal del producto y su propuesta de valor. |
+| **Funciones**      | Muestra las principales funcionalidades ofrecidas por InstAlert.        |
+| **Planes**         | Presenta las opciones de suscripción disponibles.                       |
+| **Sobre Nosotros** | Contiene información relacionada con el equipo o proyecto InstAlert.    |
+
+
+Nota: La tabla muestra los apartados de navegación definidos para el Landing Page de InstAlert.
+
+Para la aplicación web, la navegación se organiza a partir del dashboard y de las funciones disponibles para los usuarios:
+
+| **NOMBRE**         | **DESCRIPCIÓN**                                                       |
+| :----------------- | :-------------------------------------------------------------------- |
+| **Inicio**         | Permite acceder a la pantalla principal del dashboard.                |
+| **Mapa de riesgo** | Permite consultar la información de riesgo mediante el mapa de calor. |
+| **Alertas**        | Permite acceder a las alertas y acciones relacionadas con incidentes. |
+| **Personal**       | Permite consultar la información del personal del negocio.            |
+| **Más**            | Agrupa opciones adicionales como suscripción y perfil de negocio.     |
+
+Nota: La tabla muestra los apartados principales de navegación de la aplicación web de InstAlert.
+
 ## 4.3. Landing Page UI Design
+
+
 
 ### 4.3.1. Landing Page Wireframe
 
