@@ -148,6 +148,9 @@ https://miro.com/app/board/uXjVHpZMLZ4=/?share_link_id=378532050437
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+Para el Landing Page de InstAlert se plantea una estructura de etiquetas orientada a facilitar su identificación en motores de búsqueda y comunicar de manera directa la propuesta de la plataforma. El Title y la Meta Description deberán relacionarse con la seguridad de establecimientos comerciales, las alertas y la prevención de incidentes. Asimismo, se considerarán términos asociados a las principales funcionalidades del producto, como alertas, botón de pánico, mapa de riesgo y seguridad de negocios. Esta configuración permitirá presentar el contenido del Landing Page de forma clara y relacionada con los servicios ofrecidos por InstAlert.
+
+
 ### 4.2.4. Searching Systems
 
 ### 4.2.5. Navigation Systems
