@@ -150,8 +150,18 @@ https://miro.com/app/board/uXjVHpZMLZ4=/?share_link_id=378532050437
 
 Para el Landing Page de InstAlert se plantea una estructura de etiquetas orientada a facilitar su identificación en motores de búsqueda y comunicar de manera directa la propuesta de la plataforma. El Title y la Meta Description deberán relacionarse con la seguridad de establecimientos comerciales, las alertas y la prevención de incidentes. Asimismo, se considerarán términos asociados a las principales funcionalidades del producto, como alertas, botón de pánico, mapa de riesgo y seguridad de negocios. Esta configuración permitirá presentar el contenido del Landing Page de forma clara y relacionada con los servicios ofrecidos por InstAlert.
 
-
 ### 4.2.4. Searching Systems
+
+El sistema de búsqueda de InstAlert se encuentra relacionado principalmente con la consulta de información sobre incidentes y zonas de riesgo. Para facilitar la localización de información relevante, se consideran criterios asociados al contenido mostrado en el mapa y al historial de incidencias.
+
+| **FILTRO**            | **DESCRIPCIÓN**                                                                |
+| :-------------------- | :----------------------------------------------------------------------------- |
+| **Tipo de incidente** | Permite identificar los incidentes según su categoría dentro de la plataforma. |
+| **Fecha**             | Permite consultar los incidentes registrados en un período determinado.        |
+| **Ubicación**         | Permite consultar los incidentes según la zona en la que fueron registrados.   |
+| **Intensidad**        | Permite diferenciar el nivel de riesgo representado en el mapa de calor.       |
+
+Nota: La tabla muestra los criterios considerados para la consulta de información relacionada con incidentes y zonas de riesgo.
 
 ### 4.2.5. Navigation Systems
 
