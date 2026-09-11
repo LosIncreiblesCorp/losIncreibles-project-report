@@ -625,6 +625,132 @@ Si el usuario que activó una alerta determina que se trató de una falsa alarma
 
 ### 4.4.3. Web Applications Mock-ups
 
+Esta sección reúne la interfaz gráfica de alta fidelidad para la aplicación web de InstAlert, diseñada para ofrecer una experiencia intuitiva, accesible y de alta respuesta visual tanto para el personal operativo de primera línea como para la administración general.
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/01_InstAlert - Iniciar Sesión (Desktop).png" alt="wireframe 1" width="500"><br>
+  Nota: Mockup de Iniciar Sesión
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/02_InstAlert - Iniciar Sesión error credenciales (Desktop).png" alt="wireframe 2" width="500"><br>
+  Nota: Mockup de Iniciar Sesión — Error de Credenciales
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/03_InstAlert - Registro negocio 1.png" alt="wireframe 3" width="500"><br>
+  Nota: Mockup de Registro de Negocio — Paso 1
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/04_InstAlert - Registro negocio 2.png" alt="wireframe 4" width="500"><br>
+  Nota: Mockup de Registro de Negocio — Elección de Plan
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/05_InstAlert - Seleccionar Plan.png" alt="wireframe 5" width="500"><br>
+  Nota: Mockup de Registro de Negocio — Datos de Empresa
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/06_InstAlert - Dashboard Operativo.png" alt="wireframe 6" width="500"><br>
+  Nota: Mockup del Dashboard Operativo
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/07_InstAlert - Mapa de Riesgo Táctico.png" alt="wireframe 7" width="500"><br>
+  Nota: Mockup del Mapa de Riesgo Táctico — Vista General
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/08_InstAlert - Mapa de Riesgo Táctico-1.png" alt="wireframe 8" width="500"><br>
+  Nota: Mockup del Mapa de Riesgo Táctico — Vista Simplificada
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/09_InstAlert - Mapa de Riesgo Táctico-2.png" alt="wireframe 9" width="500"><br>
+  Nota: Mockup del Mapa de Riesgo Táctico — Detalle de Incidente
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/10_InstAlert - Mapa de Riesgo Táctico-3.png" alt="wireframe 10" width="500"><br>
+  Nota: Mockup del Mapa de Riesgo Táctico — Vista Administrador General
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/11_InstAlert - Mapa de Riesgo Táctico-4.png" alt="wireframe 11" width="500"><br>
+  Nota: Mockup del Mapa de Riesgo Táctico — Comercio Seleccionado
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/11_InstAlert - Mapa de Riesgo Táctico-5.png" alt="wireframe 12" width="500"><br>
+  Nota: Mockup del Mapa de Riesgo Táctico — Detalle Narrativo
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/13_InstAlert - Alertas Operativas.png" alt="wireframe 13" width="500"><br>
+  Nota: Mockup de Alertas Operativas
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/14_InstAlert - Alertas Administrador.png" alt="wireframe 14" width="500"><br>
+  Nota: Mockup de Selección de Alertas para Administrador
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/15_InstAlert - Completar Reporte de Emergencia.png" alt="wireframe 15" width="500"><br>
+  Nota: Mockup de Completar Reporte de Emergencia
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/16_InstAlert - Cuenta Regresiva de Emergencia (Pánico).png" alt="wireframe 16" width="500"><br>
+  Nota: Mockup de Cuenta Regresiva de Emergencia
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/17_InstAlert - Dashboard Administrador.png" alt="wireframe 17" width="500"><br>
+  Nota: Mockup del Dashboard Administrador
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/18_InstAlert - Gestión de Personal (Administrador).png" alt="wireframe 18" width="500"><br>
+  Nota: Mockup de Gestión de Personal
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/19_InstAlert - Gestión de Suscripción (Administrador).png" alt="wireframe 19" width="500"><br>
+  Nota: Mockup de Gestión de Suscripción y Facturación
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/20_InstAlert - Historial de Alertas.png" alt="wireframe 20" width="500"><br>
+  Nota: Mockup del Historial de Alertas y Eventos
+</p>
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/21_InstAlert - Historial de Alertas-1.png" alt="wireframe 21" width="500"><br>
+  Nota: Mockup del Historial de Alertas — Vista Administrador
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/22_InstAlert - Otro tipo de alerta.png" alt="wireframe 22" width="500"><br>
+  Nota: Mockup de Reporte de Incidencia o Riesgo — Otro Tipo de Alerta
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/23_InstAlert - Perfil de Usuario.png" alt="wireframe 23" width="500"><br>
+  Nota: Mockup del Perfil de Usuario y Ajustes Operativos
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/24_InstAlert - Reportar Actividad Sospechosa.png" alt="wireframe 24" width="500"><br>
+  Nota: Mockup de Reportar Actividad Sospechosa
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/25_InstAlert - Situación de Pánico Activa.png" alt="wireframe 25" width="500"><br>
+  Nota: Mockup de Situación de Pánico Activa
+</p>
+
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
