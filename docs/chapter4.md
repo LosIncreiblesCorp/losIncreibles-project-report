@@ -356,18 +356,18 @@ En esta sección se presentan los wireframes de alta fidelidad baja/media para l
 </p>
 
 <p align="center">
-  <img src="../assets/Chapter4/web-app/wireframes/03_Login_Error_Estado_2 1.png" alt="wireframe 3" width="500"><br>
-  Nota: Wireframe del Login — Estados de Error 2
+  <img src="../assets/Chapter4/web-app/wireframes/03_Registro_negocio_1.png" alt="wireframe 3" width="500"><br>
+  Nota: Wireframe del Registro de negocio 1
 </p>
 
 <p align="center">
-  <img src="../assets/Chapter4/web-app/wireframes/04_Login_Error_Estado_3 1.png" alt="wireframe 4" width="500"><br>
-  Nota: Wireframe del Login — Estados de Error 3   
+  <img src="../assets/Chapter4/web-app/wireframes/04_Registro_negocio_2.png" alt="wireframe 4" width="500"><br>
+  Nota: Wireframe del Registro de negocio 2  
 </p>
 
 <p align="center">
-  <img src="../assets/Chapter4/web-app/wireframes/05_Login_Error_Estado_4 1.png" alt="wireframe 5" width="500"><br>
-  Nota: Wireframe del Login — Estados de Error 4
+  <img src="../assets/Chapter4/web-app/wireframes/05_Seleccionar_Plan.png" alt="wireframe 5" width="500"><br>
+  Nota: Wireframe de seleccionar un plan de suscripción
 </p>
 
 <p align="center">
@@ -473,7 +473,155 @@ En esta sección se presentan los wireframes de alta fidelidad baja/media para l
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+**Segmento 1: Administradores de locales comerciales**
 
+* User Goal: Como administrador de local, quiero registrar los datos de mi negocio, para acceder a la plataforma y administrar la seguridad de mi local.
+
+Task Flow:
+<p align="center"> 
+<img src="../assets/Chapter4/task-flows/Task Flow Administrador 1.jpg" width="500"> 
+<br> Nota: Diagrama de Task Flow para el registro de un nuevo comercio en la plataforma </p>
+
+Wireflow:
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 1.png"width="500"> 
+<br> Nota: Diagrama de Wireflow del proceso de registro de comercio, desde el login hasta el acceso al Dashboard </p>
+
+Descripción del flujo:
+El proceso inicia cuando un visitante decide registrar su negocio en InstAlert desde la pantalla de login. Al seleccionar la opción de registro, el sistema solicita los datos formales del comercio (RUC, nombres y apellidos del responsable) y valida que el correo electrónico ingresado no esté previamente asociado a otra cuenta. Si la validación es exitosa, el usuario avanza a la selección de un plan de suscripción entre las opciones disponibles, y al confirmar, el sistema crea la cuenta y otorga acceso inmediato al Dashboard del Administrador, quedando listo para comenzar a gestionar la seguridad de su local.
+
+* User Goal: Como administrador de local, quiero visualizar un mapa con los incidentes recientes en mi zona, para identificar patrones de riesgo y áreas inseguras.
+
+Task Flow:
+<p align="center"> 
+<img src="../assets/Chapter4/task-flows/Task Flow Administrador 2.jpg" width="500"> 
+<br> Nota: Diagrama de Task Flow para la consulta del mapa de riesgo del administrador </p>
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 2.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de la consulta del mapa de riesgo, desde el Dashboard hasta el detalle de zona </p>
+
+Descripción del flujo:
+Desde el Dashboard principal, el administrador accede al mapa de riesgo mediante la acción operativa directa "Ir al Mapa de Riesgo". El sistema despliega la vista base con los incidentes recientes geolocalizados en su zona. A partir de ahí, el usuario puede profundizar de dos formas: seleccionando un negocio específico para ver su información, o seleccionando una zona marcada con mayor nivel de riesgo para consultar el detalle de los incidentes registrados ahí. Esta información permite al administrador anticiparse a patrones de riesgo y ajustar decisiones operativas, como reforzar la seguridad en horarios o zonas específicas.
+
+* User Goal: Como administrador de local, quiero consultar un historial detallado de las alertas generadas por mi tienda, para llevar un registro de eventos de seguridad.
+
+Task Flow:
+<p align="center"> 
+<img src="../assets/Chapter4/task-flows/Task Flow Administrador 3.jpg" width="500"> 
+<br> Nota: Diagrama de Task Flow para la consulta del historial de alertas del administrador </p>
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 3.png"width="500"> 
+<br> Nota: Diagrama de Wireflow del historial de alertas para el administrador </p>
+
+Descripción del flujo:
+El administrador accede al historial de alertas desde el Dashboard para llevar un registro de eventos de seguridad de su negocio. El sistema presenta la lista completa de incidentes en orden cronológico, con la posibilidad de aplicar filtros por fecha, tipo de incidente o estado (Activa, Resuelta, Reporte pendiente) para localizar rápidamente eventos específicos. Al seleccionar una alerta puntual, el usuario accede al detalle completo, incluyendo ubicación, hora, estado y evidencias asociadas cuando estén disponibles.
+
+* User Goal: Como administrador de local, quiero seleccionar y suscribirme a un plan de pago, para desbloquear funcionalidades premium de la plataforma.
+
+Task Flow:
+<p align="center"> 
+<img src="../assets/Chapter4/task-flows/Task Flow Administrador 4.jpg" width="500"> 
+<br> Nota: Diagrama de Task Flow para la selección y gestión del plan de suscripción </p>
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 4.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de la gestión de suscripción del administrador </p>
+
+Descripción del flujo:
+Desde el panel de configuración, el administrador accede a la sección de gestión de suscripción para revisar los planes disponibles (Sentinel Basic, Pro o Red Enterprise). Tras seleccionar el plan que mejor se adapta a las necesidades de su negocio, el sistema solicita un método de pago válido; si el pago se procesa correctamente, la suscripción premium se activa de inmediato, habilitando funcionalidades avanzadas como el monitoreo multi-sede o soporte prioritario, según el nivel contratado.
+
+* User Goal: Como administrador de local, quiero agregar personal operativo a la plataforma usando su correo electrónico, para que puedan utilizar la aplicación y gestionar las alertas del comercio.
+
+Task Flow:
+<p align="center"> 
+<img src="../assets/Chapter4/task-flows/Task Flow Administrador 5.jpg" width="500"> 
+<br> Nota: Diagrama de Task Flow para la gestión de personal operativo </p>
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 5.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de la gestión de personal operativo del administrador </p>
+
+Descripción del flujo:
+El administrador accede a la sección "Personal" desde su Dashboard para agregar a un nuevo colaborador. Al ingresar el correo electrónico del empleado, el sistema valida que dicho correo no esté ya asociado a otro miembro del mismo comercio; de ser así, rechaza la operación e indica el conflicto. Si la validación es correcta, el sistema registra la invitación y la muestra con el estado "Invitación pendiente" hasta que el empleado acepte y cree su propia cuenta vinculada al negocio.
+
+
+**Segmento 2: Personal Operativo**
+
+* User Goal: Como personal operativo, quiero activar el botón de pánico web de manera inmediata y gestionar la red de apoyo para solicitar auxilio ante un peligro inminente en mi ubicación, y coordinar la ayuda necesaria.
+
+Task Flow:
+<p align="center"> 
+<img src="../assets/Chapter4/task-flows/Task Flow Operador 1.jpg" width="500"> 
+<br> Nota: Diagrama de Task Flow para la activación del botón de pánico y gestión de la red de apoyo </p>
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 6.png"width="500"> 
+<br> Nota: Diagrama de Wireflow del proceso de activación del botón de pánico y seguimiento de la emergencia </p>
+
+
+Descripción del flujo:
+Para gestionar una situación de emergencia crítica, el usuario accede a la funcionalidad principal de la aplicación web donde encuentra el botón de pánico diseñado para una activación inmediata. Al presionarlo, el sistema despliega una cuenta regresiva breve como mecanismo de confirmación, evitando activaciones accidentales. Una vez confirmada la alerta, el sistema captura automáticamente la ubicación en tiempo real y dispara notificaciones de auxilio de forma simultánea a la red de apoyo previamente configurada, que incluye contactos de confianza, comercios vecinos y autoridades locales. Tras el despliegue de la señal de socorro, la interfaz permite al usuario monitorear el estado de la respuesta y gestionar su círculo de ayuda, manteniendo un canal de comunicación abierto para actualizaciones sobre el incidente.
+
+
+* User Goal: Como personal operativo, quiero clasificar el tipo de alerta (Robo, Intento de robo, Asalto u Otro) al crear un reporte, para que quede documentado el motivo exacto del incidente.
+
+Task Flow:
+<p align="center"> 
+<img src="../assets/Chapter4/task-flows/Task Flow Operador 2.jpg" width="500"> 
+<br> Nota: Diagrama de Task Flow para la clasificación del tipo de alerta </p>
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 7.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de clasificación del tipo de alerta </p>
+
+Descripción del flujo:
+Al completar el reporte de un incidente, el usuario selecciona la categoría que mejor describe lo ocurrido entre las opciones predefinidas: Robo, Intento de robo, Asalto u Otro. Si ninguna categoría se ajusta al incidente, el usuario selecciona "Otro" y el sistema habilita un campo de descripción libre para documentar el motivo exacto. Esta clasificación queda registrada y visible en el detalle de la alerta, permitiendo un análisis posterior más preciso de los patrones delictivos en la zona.
+
+* User Goal: Como usuario, quiero recibir notificaciones en tiempo real cuando se reporte un incidente cerca, para poder tomar medidas preventivas como cerrar mi local.
+
+Task Flow:
+<p align="center"> 
+<img src="../assets/Chapter4/task-flows/Task Flow Operador 3.jpg" width="500"> 
+<br> Nota: Diagrama de Task Flow para la recepción de alertas cercanas </p>
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 8.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de recepción de alertas cercanas </p>
+
+Descripción del flujo:
+ Al abrir alertas, el operador de la tienda accede a los detalles clave del incidente: tipo de amenaza, distancia aproximada y hora del suceso, información suficiente para decidir una acción preventiva inmediata, como cerrar temporalmente su local o extremar precauciones.
+
+* User Goal: Como operador, quiero poder cancelar una alerta en caso de falsa alarma, para evitar pánico innecesario en la red vecinal.
+
+Task Flow:
+<p align="center"> 
+<img src="../assets/Chapter4/task-flows/Task Flow Operador 4.jpg" width="500"> 
+<br> Nota: Diagrama de Task Flow para la cancelación de una falsa alarma </p>
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 9.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de cancelación de falsa alarma </p>
+
+Descripción del flujo:
+Si el usuario que activó una alerta determina que se trató de una falsa alarma, puede cancelarla directamente desde la pantalla de "Situación de Pánico Activa" sin necesidad de esperar a que se resuelva como un incidente real. Tras confirmar la cancelación, el sistema actualiza el estado de la alerta a "resuelta" y notifica a la red vecinal que la emergencia ha sido descartada, evitando que otros negocios mantengan un estado de alerta innecesario.
 
 ### 4.4.3. Web Applications Mock-ups
 
