@@ -343,6 +343,8 @@ El diseño está enfocado en facilitar el acceso a las principales funcionalidad
 
 ### 4.4.1. Web Applications Wireframes
 
+En esta sección se presentan los wireframes de alta fidelidad baja/media para la plataforma web de InstAlert, diseñada específicamente para los roles de Personal Operativo y Administrador de locales comerciales. La propuesta visual y funcional responde directamente a estándares de usabilidad web, estructuración de datos y accesibilidad.
+
 <p align="center">
   <img src="../assets/Chapter4/web-app/wireframes/01_Login 1.png" alt="wireframe 1" width="500"><br>
   Nota: Wireframe del Login Inicial
@@ -469,8 +471,9 @@ El diseño está enfocado en facilitar el acceso a las principales funcionalidad
   Nota: Wireframe del Historial de Alertas para Administrador  
 </p>
 
-
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+
 
 ### 4.4.3. Web Applications Mock-ups
 
