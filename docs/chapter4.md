@@ -204,7 +204,7 @@ El diseño del wireframe de la Landing Page de InstAlert se estructura de manera
 Presenta el logotipo de InstAlert, las opciones principales de navegación, el selector de idioma y los botones de acceso y registro. El encabezado se mantiene visible durante el desplazamiento para facilitar el acceso a las diferentes secciones de la página.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-wireframe-1.png" alt="Labeling app" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-1.png" alt="Labeling app" width="700"><br>
   Nota: Wireframe del encabezado de la Landing Page de InstAlert.
 </p>
 
@@ -213,7 +213,7 @@ Presenta el logotipo de InstAlert, las opciones principales de navegación, el s
 Es la primera sección visual de la landing y presenta la propuesta principal de InstAlert mediante un título, una breve descripción y botones de acción. El contenido se acompaña de un espacio destinado al recurso visual principal del producto.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-wireframe-1.png" alt="Wireframe 1 lading" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-1.png" alt="Wireframe 1 lading" width="700"><br>
   Nota: Wireframe de la sección principal (Hero Section) de InstAlert.
 </p>
 
@@ -223,7 +223,7 @@ Es la primera sección visual de la landing y presenta la propuesta principal de
 Esta sección resume los principales beneficios de la plataforma y posteriormente presenta información sobre InstAlert, acompañada de un recurso multimedia destinado a explicar el funcionamiento o propósito del producto.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-wireframe-2.png" alt="Wireframe 2 lading" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-2.png" alt="Wireframe 2 lading" width="700"><br>
   Nota: Wireframe de la sección de beneficios y presentación del producto.
 </p>
 
@@ -233,7 +233,7 @@ Esta sección resume los principales beneficios de la plataforma y posteriorment
 Se presentan los principales principios de la plataforma y una sección orientada a explicar la solución propuesta. La información se complementa con un espacio visual destinado a representar el funcionamiento del sistema y sus funcionalidades relacionadas con la seguridad.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-wireframe-3.png" alt="Wireframe 2 lading" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-3.png" alt="Wireframe 2 lading" width="700"><br>
   Nota: Wireframe de la sección de principios y solución de InstAlert.
 </p>
 
@@ -243,7 +243,7 @@ Se presentan los principales principios de la plataforma y una sección orientad
 La sección de planes presenta las diferentes opciones disponibles para el usuario mediante tarjetas comparativas. Cada tarjeta contiene el nombre del plan, descripción, precio, características principales y un botón de acción para seleccionar la opción correspondiente.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-wireframe-4.png" alt="Wireframe 2 lading" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-4.png" alt="Wireframe 2 lading" width="700"><br>
   Nota: Wireframe de la sección de planes y precios.
 </p>
 
@@ -253,7 +253,7 @@ La sección de planes presenta las diferentes opciones disponibles para el usuar
 Se presenta al equipo responsable del desarrollo de InstAlert mediante tarjetas individuales con un espacio reservado para la fotografía de cada integrante, su nombre y rol. La sección también incorpora un espacio para contenido audiovisual relacionado con el equipo.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-wireframe-5.png" alt="Wireframe 2 lading" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-5.png" alt="Wireframe 2 lading" width="700"><br>
   Nota: Wireframe de la sección del equipo de InstAlert.
 </p>
 
@@ -263,7 +263,7 @@ Se presenta al equipo responsable del desarrollo de InstAlert mediante tarjetas 
 Finalmente, la landing incorpora un llamado a la acción que refuerza la propuesta de InstAlert y dirige al usuario hacia la acción principal. El footer contiene la información complementaria y enlaces de navegación del sitio.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-wireframe-6.png" alt="Wireframe 2 lading" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-6.png" alt="Wireframe 2 lading" width="700"><br>
   Nota: Wireframe del llamado a la acción y pie de página de InstAlert.
 </p>
 
@@ -277,7 +277,7 @@ Los mock-ups de la Landing Page de InstAlert representan la propuesta visual fin
 Aquí se muestra el encabezado de la Landing Page junto con la sección principal. El encabezado contiene el logotipo, las opciones de navegación, el selector de idioma, el acceso a inicio de sesión y el botón principal de acción. En el Hero Section se presenta la propuesta de valor de InstAlert, acompañada de un espacio visual destinado a representar el producto.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-mock-up-1.png" alt="Header y Hero Section" width="700"><br>
+  <img src="../assets/Chapter4/landing-page//mockups/landing-page-mock-up-1.png" alt="Header y Hero Section" width="700"><br>
   Nota: Mock-up del encabezado y Hero Section de la Landing Page de InstAlert
 </p>
 
@@ -286,7 +286,7 @@ Aquí se muestra el encabezado de la Landing Page junto con la sección principa
 La sección presenta los principales beneficios de InstAlert mediante tres elementos visuales, permitiendo comunicar de manera rápida las características que diferencian la propuesta de la plataforma.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-mock-up-1.png" alt="Beneficios principales" width="700"><br>
+  <img src="../assets/Chapter4/landing-page//mockups/landing-page-mock-up-1.png" alt="Beneficios principales" width="700"><br>
   Nota: Mock-up de los beneficios principales de InstAlert
 </p>
 
@@ -295,7 +295,7 @@ La sección presenta los principales beneficios de InstAlert mediante tres eleme
 Esta sección presenta información relacionada con la propuesta de InstAlert y sus principales principios, utilizando bloques diferenciados para facilitar la lectura y comprensión del contenido.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-mock-up-2.png" alt="Principios de InstAlert" width="700"><br>
+  <img src="../assets/Chapter4/landing-page//mockups/landing-page-mock-up-2.png" alt="Principios de InstAlert" width="700"><br>
   Nota: Mock-up de la sección informativa y principios de InstAlert
 </p>
 
@@ -304,7 +304,7 @@ Esta sección presenta información relacionada con la propuesta de InstAlert y 
 La sección muestra una representación de la plataforma mediante un espacio visual destinado al mapa, acompañado de información sobre las soluciones y funcionalidades principales de InstAlert. Esta distribución permite relacionar la información presentada con la visualización de incidentes y zonas de riesgo.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-mock-up-3.png" alt="Plataforma y mapa" width="700"><br>
+  <img src="../assets/Chapter4/landing-page//mockups/landing-page-mock-up-3.png" alt="Plataforma y mapa" width="700"><br>
   Nota: Mock-up de la sección de plataforma y visualización del mapa
 </p>
 
@@ -313,7 +313,7 @@ La sección muestra una representación de la plataforma mediante un espacio vis
 La sección presenta los diferentes planes disponibles mediante tarjetas comparativas. Cada tarjeta contiene el nombre del plan, su descripción, precio, características principales y un botón de acción, permitiendo al usuario comparar las alternativas disponibles.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-mock-up-4.png" alt="Planes de InstAlert" width="700"><br>
+  <img src="../assets/Chapter4/landing-page//mockups/landing-page-mock-up-4.png" alt="Planes de InstAlert" width="700"><br>
   Nota: Mock-up de la sección de planes de InstAlert
 </p>
 
@@ -322,7 +322,7 @@ La sección presenta los diferentes planes disponibles mediante tarjetas compara
 La sección presenta a los integrantes del equipo mediante tarjetas individuales que incluyen su representación visual, nombre y rol dentro del proyecto. También incorpora un espacio destinado a presentar contenido audiovisual relacionado con el equipo.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-mock-up-5.png" alt="Equipo de InstAlert" width="700"><br>
+  <img src="../assets/Chapter4/landing-page//mockups/landing-page-mock-up-5.png" alt="Equipo de InstAlert" width="700"><br>
   Nota: Mock-up de la sección del equipo de InstAlert
 </p>
 
@@ -331,13 +331,144 @@ La sección presenta a los integrantes del equipo mediante tarjetas individuales
 Finalmente, se presenta un llamado a la acción que dirige al usuario hacia el siguiente paso dentro de la plataforma. El Footer contiene el logotipo, enlaces de navegación, información complementaria y los datos correspondientes al proyecto.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page-mock-up-6.png" alt="Footer de InstAlert" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/mockups/landing-page-mock-up-6.png" alt="Footer de InstAlert" width="700"><br>
   Nota: Mock-up del llamado a la acción y pie de página de InstAlert
 </p>
 
 ## 4.4. Web Applications UX/UI Design
 
+En esta sección se presenta la propuesta de diseño UX/UI de la aplicación web de InstAlert, describiendo la estructura visual, los elementos de interfaz y los patrones de interacción que orientan la experiencia del usuario.
+
+El diseño está enfocado en facilitar el acceso a las principales funcionalidades de seguridad, priorizando una interacción clara, rápida y consistente. Asimismo, se mantiene la coherencia con los Style Guidelines y la Information Architecture, garantizando una experiencia intuitiva y organizada en las diferentes interfaces de la plataforma.
+
 ### 4.4.1. Web Applications Wireframes
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/01_Login 1.png" alt="wireframe 1" width="500"><br>
+  Nota: Wireframe del Login Inicial
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/02_Login_Error_Estado_1 1.png" alt="wireframe 2" width="500"><br>
+  Nota: Wireframe del Login — Estados de Error 1
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/03_Login_Error_Estado_2 1.png" alt="wireframe 3" width="500"><br>
+  Nota: Wireframe del Login — Estados de Error 2
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/04_Login_Error_Estado_3 1.png" alt="wireframe 4" width="500"><br>
+  Nota: Wireframe del Login — Estados de Error 3   
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/05_Login_Error_Estado_4 1.png" alt="wireframe 5" width="500"><br>
+  Nota: Wireframe del Login — Estados de Error 4
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/06_Dashboard_Operativo 1.png" alt="wireframe 6" width="500"><br>
+  Nota: Wireframe del Dashboard Operativo   
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/07_Mapa_Operativo_Base 1.png" alt="wireframe 7" width="500"><br>
+  Nota: Wireframe del Mapa de Riesgo — Vista Base  
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/08_Mapa_Operativo_Negocio 1.png" alt="wireframe 8" width="500"><br>
+  Nota: Wireframe del Mapa de Riesgo — Negocio Seleccionado   
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/09_Mapa_Operativo_Zona_Riesgo 1.png" alt="wireframe 9" width="500"><br>
+  Nota: Wireframe del Mapa de Riesgo — Zona de Riesgo Seleccionada  
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/10_Alertas_Operativas 1.png" alt="wireframe 10" width="500"><br>
+  Nota: Wireframe de Alertas Operativas  
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/11_Cuenta_Regresiva_Panico 1.png" alt="wireframe 11" width="500"><br>
+  Nota: Wireframe de Alerta de Pánico — Cuenta Regresiva   
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/12_Panico_Activo 1.png" alt="wireframe 12" width="500"><br>
+  Nota: Wireframe de Alerta de Pánico — Estado Activo   
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/13_Completar_Reporte 1.png" alt="wireframe 13" width="500"><br>
+  Nota: Wireframe de Completar Reporte de Emergencia  
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/14_Actividad_Sospechosa 1.png" alt="wireframe 14" width="500"><br>
+  Nota: Wireframe de Reportar Actividad Sospechosa   
+</p>
+
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/15_Otro_Tipo_Alerta 1.png" alt="wireframe 15" width="500"><br>
+  Nota: Wireframe de Otro Tipo de Alerta   
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/16_Historial_Operativo 1.png" alt="wireframe 16" width="500"><br>
+  Nota: Wireframe del Historial Operativo de Alertas   
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/17_Perfil_Usuario 1.png" alt="wireframe 17" width="500"><br>
+  Nota: Wireframe del Perfil de Usuario Operativo   
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/18_Dashboard_Administrador 1.png" alt="wireframe 18" width="500"><br>
+  Nota: Wireframe del Dashboard del Administrador   
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/19_Alertas_Administrador 1.png" alt="wireframe 19" width="500"><br>
+  Nota:  Wireframe de Alertas del Comercio (Administración) 
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/20_Personal_Administrador 1.png" alt="wireframe 20" width="500"><br>
+  Nota: Wireframe de Gestión de Personal (Administración)   
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/21_Suscripcion_Administrador 1.png" alt="wireframe 21" width="500"><br>
+  Nota: Wireframe de Gestión de Suscripción (Administración)   
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/22_Mapa_Admin_Base 1.png" alt="wireframe 22" width="500"><br>
+  Nota: Wireframe del Mapa de Riesgo para Administrador — Vista Base  
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/23_Mapa_Admin_Negocio 1.png" alt="wireframe 23" width="500"><br>
+  Nota: Wireframe del Mapa de Riesgo para Administrador — Negocio Seleccionado  
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/24_Mapa_Admin_Zona_Riesgo 1.png" alt="wireframe 24" width="500"><br>
+  Nota: Wireframe del Mapa de Riesgo para Administrador — Zona de Riesgo Seleccionada  
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/25_Historial_Administrador 1.png" alt="wireframe 25" width="500"><br>
+  Nota: Wireframe del Historial de Alertas para Administrador  
+</p>
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
