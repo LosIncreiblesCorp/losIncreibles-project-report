@@ -753,6 +753,89 @@ Esta sección reúne la interfaz gráfica de alta fidelidad para la aplicación 
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+**Segmento 1: Administradores de locales comerciales**
+
+* User Goal: Como administrador de local, quiero registrar los datos de mi negocio, para acceder a la plataforma y administrar la seguridad de mi local.
+
+Wireflow:
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 1.png"width="500"> 
+<br> Nota: Diagrama de Wireflow del proceso de registro de comercio, desde el login hasta el acceso al Dashboard </p>
+
+
+* User Goal: Como administrador de local, quiero visualizar un mapa con los incidentes recientes en mi zona, para identificar patrones de riesgo y áreas inseguras.
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 2.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de la consulta del mapa de riesgo, desde el Dashboard hasta el detalle de zona </p>
+
+
+* User Goal: Como administrador de local, quiero consultar un historial detallado de las alertas generadas por mi tienda, para llevar un registro de eventos de seguridad.
+
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 3.png"width="500"> 
+<br> Nota: Diagrama de Wireflow del historial de alertas para el administrador </p>
+
+
+* User Goal: Como administrador de local, quiero seleccionar y suscribirme a un plan de pago, para desbloquear funcionalidades premium de la plataforma.
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 4.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de la gestión de suscripción del administrador </p>
+
+
+* User Goal: Como administrador de local, quiero agregar personal operativo a la plataforma usando su correo electrónico, para que puedan utilizar la aplicación y gestionar las alertas del comercio.
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 5.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de la gestión de personal operativo del administrador </p>
+
+
+**Segmento 2: Personal Operativo**
+
+* User Goal: Como personal operativo, quiero activar el botón de pánico web de manera inmediata y gestionar la red de apoyo para solicitar auxilio ante un peligro inminente en mi ubicación, y coordinar la ayuda necesaria.
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 6.png"width="500"> 
+<br> Nota: Diagrama de Wireflow del proceso de activación del botón de pánico y seguimiento de la emergencia </p>
+
+
+* User Goal: Como personal operativo, quiero clasificar el tipo de alerta (Robo, Intento de robo, Asalto u Otro) al crear un reporte, para que quede documentado el motivo exacto del incidente.
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 7.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de clasificación del tipo de alerta </p>
+
+* User Goal: Como usuario, quiero recibir notificaciones en tiempo real cuando se reporte un incidente cerca, para poder tomar medidas preventivas como cerrar mi local.
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 8.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de recepción de alertas cercanas </p>
+
+* User Goal: Como operador, quiero poder cancelar una alerta en caso de falsa alarma, para evitar pánico innecesario en la red vecinal.
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 9.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de cancelación de falsa alarma </p>
+
+
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
