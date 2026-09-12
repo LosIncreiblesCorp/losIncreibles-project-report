@@ -835,8 +835,21 @@ Wireflow:
 <img src="../assets/Chapter4/wireflow/Wireflow de los mock up 9.png"width="500"> 
 <br> Nota: Diagrama de Wireflow de cancelación de falsa alarma </p>
 
-
 ## 4.5. Web Applications Prototyping
+
+Los prototipos de UI presentados a continuación simulan la interacción real de los flujos priorizados como lo son la activación y resolución de una alerta de pánico, la consulta del mapa de riesgo y la gestión operativa del negocio, tanto en Desktop como en Mobile Web Browser. 
+
+- **Landing Page Prototype Link:** https://www.figma.com/proto/pVi401pE79dbjkdcjoTDQy/Wireflows?node-id=41-12398&t=EYsEnO7HOdlA1Tot-1&scaling=min-zoom&content-scaling=fixed&page-id=18%3A2&starting-point-node-id=41%3A12398&show-proto-sidebar=1 
+
+
+- **Admin Prototype Link:** https://www.figma.com/proto/pVi401pE79dbjkdcjoTDQy/Wireflows?node-id=18-4515&t=EYsEnO7HOdlA1Tot-1&scaling=min-zoom&content-scaling=fixed&page-id=18%3A2&starting-point-node-id=18%3A4515&show-proto-sidebar=1 
+
+
+- **Operador Prototype Link:** https://www.figma.com/proto/pVi401pE79dbjkdcjoTDQy/Wireflows?node-id=41-12398&t=EYsEnO7HOdlA1Tot-1&scaling=min-zoom&content-scaling=fixed&page-id=18%3A2&starting-point-node-id=41%3A12398&show-proto-sidebar=1 
+
+
+Link del video demostrativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQA8DWbv42LlRYa0nQ4P4x1MAa4ST8BcRGO8it_OGeTc8eE?e=l3R106 
+
 
 ## 4.6. Domain-Driven Software Architecture
 
