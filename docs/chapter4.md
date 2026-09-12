@@ -855,11 +855,105 @@ Link del video demostrativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 
 ### 4.6.1. Design-Level EventStorming
 
+**Step 1: Unstructured Exploration**
+
+<p align="center">
+<img src="../assets\Chapter4\event-storming\Step (1).jpg" alt="Paso 1" width="700"><br>
+Nota: Paso 1 del Design-Level Event Storming – Exploración no estructurada de eventos de dominio
+</p>
+
+**Step 2: Chronology**
+
+<p align="center">
+<img src="../assets\Chapter4\event-storming\Step (2).jpg" alt="Paso 2" width="700"><br>
+Nota: Paso 2 del Design-Level Event Storming – Organización cronológica del flujo de eventos
+</p>
+
+**Step 3: Pain Points**
+
+<p align="center">
+<img src="../assets\Chapter4\event-storming\Step (3).jpg" alt="Paso 3" width="700"><br>
+Nota: Paso 3 del Design-Level Event Storming – Identificación de puntos de dolor y cuellos de botella
+</p>
+
+**Step 4: Pivotal Points**
+
+<p align="center">
+<img src="../assets\Chapter4\event-storming\Step (4).jpg" alt="Paso 4" width="700"><br>
+Nota: Paso 4 del Design-Level Event Storming – Definición de puntos pivote y momentos clave del sistema
+</p>
+
+**Step 5: Commands**
+
+<p align="center">
+<img src="../assets\Chapter4\event-storming\Step (5).jpg" alt="Paso 5" width="700"><br>
+Nota: Paso 5 del Design-Level Event Storming – Identificación de comandos, actores y detonadores
+</p>
+
+**Step 6: Policies**
+
+<p align="center">
+<img src="../assets\Chapter4\event-storming\Step (6).jpg" alt="Paso 6" width="700"><br>
+Nota: Paso 6 del Design-Level Event Storming – Definición de políticas de negocio
+</p>
+
+**Step 7: Read Models**
+
+<p align="center">
+<img src="../assets\Chapter4\event-storming\Step (7).jpg" alt="Paso 7" width="700"><br>
+Nota: Paso 7 del Design-Level Event Storming – Identificación de modelos de lectura e información requerida
+</p>
+
+**Step 8: External Systems**
+
+<p align="center">
+<img src="../assets\Chapter4\event-storming\Step (8).jpg" alt="Paso 8" width="700"><br>
+Nota: Paso 8 del Design-Level Event Storming – Integración con sistemas externos y servicios de terceros
+</p>
+
+**Step 9: Aggregates**
+
+<p align="center">
+<img src="../assets\Chapter4\event-storming\Step (9).jpg" alt="Paso 9" width="700"><br>
+Nota: Paso 9 del Design-Level Event Storming – Identificación y agrupación de agregados de dominio
+</p>
+
+**Step 10: Bounded Contexts**
+
+<p align="center">
+<img src="../assets\Chapter4\event-storming\Step (10).jpg" alt="Paso 10" width="700"><br>
+Nota: Paso 10 del Design-Level Event Storming – Delimitación de contextos acotados (Bounded Contexts)
+</p>
+
+**Miro Board Link:** https://miro.com/app/board/uXjVHqyvuL0=/?share_link_id=889295094432
+
 ### 4.6.2. Software Architecture Context Diagram
+
+Este diagrama muestra a InstAlert en el centro y cómo interactúa con los usuarios y los sistemas externos.
+
+<p align="center">
+<img src="../assets\Chapter4\System Context Diagram.png" alt="Paso 10" width="700"><br>
+Nota: Diagrama de contexto de la arquitectura de software de InstAlert
+</p>
 
 ### 4.6.3. Software Architecture Container Diagrams
 
+Hacemos "zoom" a la caja central azul de InstAlert para ver sus contenedores (aplicaciones y bases de datos).
+
+<p align="center">
+<img src="../assets\Chapter4\Container Diagram.png" alt="Paso 10" width="700"><br>
+Nota: Diagrama de contenedores de la arquitectura de software de InstAlert
+</p>
+
 ### 4.6.4. Software Architecture Components Diagrams
+
+Hacemos "zoom" al contenedor de la Backend API para detallar los componentes internos y Bounded Contexts que conforman la lógica de negocio del sistema.
+
+<p align="center">
+<img src="../assets\Chapter4\Component Diagram (Backend API).png" alt="Paso 10" width="700"><br>
+Nota: Diagrama de componentes de la arquitectura de software de InstAlert
+</p>
+
 
 ## 4.7. Software Object-Oriented Design
 
