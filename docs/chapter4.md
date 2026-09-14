@@ -959,6 +959,118 @@ Nota: Diagrama de componentes de la arquitectura de software de InstAlert
 
 ### 4.7.1. Class Diagrams
 
+Los diagramas de clases representan el diseño orientado a objetos del backend de InstAlert. Cada bounded context se modela como un paquete con sus propias entidades, agregados, objetos de valor, enumeraciones y relaciones. Las referencias entre contextos se mantienen mediante contratos y referencias por identificador, evitando que un contexto dependa directamente de las clases internas de otro.
+
+El diseño considera cinco bounded contexts de negocio: Iam, Business, Alert, Payments y Mapping. `Shared` no se presenta como un contexto de negocio, ya que corresponde únicamente a soporte técnico transversal.
+
+**Diagrama completo de clases**
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/complete.svg" alt="Diagrama completo de clases de InstAlert" width="1000"><br>
+Nota: Diagrama completo de clases del backend de InstAlert, organizado por bounded context.
+</p>
+
+**Iam**
+
+Este bounded context administra la identidad de los usuarios: registro, credenciales, datos personales, estado de la cuenta y autenticación. No administra los roles dentro de un comercio; esos roles pertenecen a las membresías de Business.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/iam.svg" alt="Diagrama de clases del bounded context Iam" width="850"><br>
+Nota: Clases del bounded context Iam.
+</p>
+
+**Business**
+
+Este bounded context representa los comercios y la relación entre usuarios y comercios. Contiene el agregado Business, las membresías, los roles Administrator y Operative, y las invitaciones de personal.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/business.svg" alt="Diagrama de clases del bounded context Business" width="850"><br>
+Nota: Clases del bounded context Business.
+</p>
+
+**Alert**
+
+Este bounded context concentra la operación de seguridad colaborativa. Gestiona la creación, clasificación y resolución de alertas, los reportes de incidentes, las preferencias de notificación, los contactos de emergencia y las entregas de notificaciones mediante los canales definidos por el sistema.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/alert.svg" alt="Diagrama de clases del bounded context Alert" width="850"><br>
+Nota: Clases del bounded context Alert.
+</p>
+
+**Payments**
+
+Este bounded context gestiona los planes, las suscripciones de los comercios, las transacciones y la comunicación con el proveedor de pagos. Conserva la información necesaria para confirmar pagos y controlar el estado de la suscripción.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/payments.svg" alt="Diagrama de clases del bounded context Payments" width="850"><br>
+Nota: Clases del bounded context Payments.
+</p>
+
+**Mapping**
+
+Este bounded context administra la información geográfica utilizada para mapas y consultas de riesgo. Contiene zonas de riesgo y proyecciones de incidentes y ubicaciones comerciales, sin convertirse en propietario de las alertas o comercios originales.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/mapping.svg" alt="Diagrama de clases del bounded context Mapping" width="850"><br>
+Nota: Clases del bounded context Mapping.
+</p>
+
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
+
+El diseño de base de datos corresponde a un modelo relacional implementable en MySQL. Las tablas están agrupadas visualmente por bounded context y utilizan nombres en inglés con `snake_case`. El esquema aplica las tres primeras formas normales: cada columna contiene un valor atómico, las tablas representan una sola responsabilidad y los atributos no clave dependen de la clave primaria de su tabla.
+
+Las relaciones entre bounded contexts se representan mediante identificadores, sin duplicar la información propietaria de otro contexto. `Shared` no se incluye porque no contiene datos propios del negocio.
+
+**Diagrama relacional completo**
+
+<p align="center">
+<img src="../assets/Chapter4/database-diagrams/complete.svg" alt="Diagrama relacional completo de InstAlert" width="1000"><br>
+Nota: Diagrama relacional completo de InstAlert, agrupado por bounded context.
+</p>
+
+**Iam**
+
+La persistencia de Iam se centra en `users`, que almacena la identidad, las credenciales protegidas, los datos personales y el estado de la cuenta.
+
+<p align="center">
+<img src="../assets/Chapter4/database-diagrams/iam.svg" alt="Diagrama de base de datos de Iam" width="850"><br>
+Nota: Tablas del bounded context Iam.
+</p>
+
+**Business**
+
+Business contiene `businesses`, `business_members` y `staff_invitations`. Las membresías relacionan usuarios con comercios y almacenan el rol que tiene cada usuario dentro de cada comercio.
+
+<p align="center">
+<img src="../assets/Chapter4/database-diagrams/business.svg" alt="Diagrama de base de datos de Business" width="850"><br>
+Nota: Tablas del bounded context Business.
+</p>
+
+**Alert**
+
+Alert contiene las alertas, los reportes de incidentes, las preferencias, los contactos de emergencia y las entregas de notificaciones. El historial se conserva en este contexto porque representa información operativa de seguridad.
+
+<p align="center">
+<img src="../assets/Chapter4/database-diagrams/alert.svg" alt="Diagrama de base de datos de Alert" width="850"><br>
+Nota: Tablas del bounded context Alert.
+</p>
+
+**Payments**
+
+Payments contiene los planes, las suscripciones y las transacciones de pago. Las suscripciones se relacionan con un comercio mediante `business_id`, mientras que las transacciones conservan el importe y la moneda de la operación.
+
+<p align="center">
+<img src="../assets/Chapter4/database-diagrams/payments.svg" alt="Diagrama de base de datos de Payments" width="850"><br>
+Nota: Tablas del bounded context Payments.
+</p>
+
+**Mapping**
+
+Mapping contiene las zonas de riesgo, las proyecciones de incidentes y las ubicaciones comerciales utilizadas para consultas geográficas. Las proyecciones referencian los identificadores de origen, pero no reemplazan las tablas autoritativas de Alert o Business.
+
+<p align="center">
+<img src="../assets/Chapter4/database-diagrams/mapping.svg" alt="Diagrama de base de datos de Mapping" width="850"><br>
+Nota: Tablas del bounded context Mapping.
+</p>
