@@ -58,7 +58,7 @@ De igual manera, la plataforma tiene como meta promover el apoyo mutuo entre los
 <td align="center"><img src="../assets/Chapter1/Team/Simon.jpeg" alt="Ismael Simon" width="150"></td>
 <td>Simon Calderon, Ismael Sebastian<br><b>Código:</b> U201823468</td>
 <td>Ingeniería de Software</td>
-<td>(Pendiente)</td>
+<td>Estudiante de Ingeniería de Software con gran interés en la Inteligencia Artificial generativa combinada con robótica/domótica. Soy una persona analítica y sistemática que se compromete en colaborar en equipo. Mis hobbies son aprender nuevas cosas relacionadas a tecnología, idiomas y habilidades como tocar guitarra, ensamblar computadoras y reparar distintas cosas.</td>
 </tr>
 
 </tbody>
