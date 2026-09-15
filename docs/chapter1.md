@@ -44,7 +44,7 @@ De igual manera, la plataforma tiene como meta promover el apoyo mutuo entre los
 <td align="center"><img src="../assets/Chapter1/Team/Jean.jpeg" alt="Jean Noriega" width="150"></td>
 <td>Noriega Collado, Jean Fabio<br><b>Código:</b> U202310342</td>
 <td>Ingeniería de Software</td>
-<td>(Pendiente)</td>
+<td>Estudio ingenieria de software. Me gusta liderar equipos de trabajo y mantener ambientes ordenados en la medida de lo posible. En este trabajo, elabore el captitulo 1, capitulo 3, además de la realización completa del design-level event storming (DDD applications) paso 1 al 10</td>
 </tr>
 
 <tr>
