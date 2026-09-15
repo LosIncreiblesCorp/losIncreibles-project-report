@@ -30,7 +30,7 @@ De igual manera, la plataforma tiene como meta promover el apoyo mutuo entre los
 <td align="center"><img src="../assets/Chapter1/Team/Asto.jpeg" alt="Jose Asto" width="150"></td>
 <td>Asto Jacome, Jose Gustavo<br><b>Código:</b> U20241C630</td>
 <td>Ingeniería de Software</td>
-<td>(Pendiente)</td>
+<td>Mi nombre es José Asto y actualmente estudio Ingeniería de Software en la UPC. Me interesa especializarme en desarrollo de software, especialmente en Backend, desarrollo Full Stack e Inteligencia Artificial aplicada. Tengo experiencia trabajando con tecnologías como Angular, Vue, Spring Boot, .NET, MySQL y Git, además de conocimientos en arquitectura de software y desarrollo de aplicaciones web. También me interesa aprender constantemente sobre nuevas tecnologías, herramientas y buenas prácticas que me permitan mejorar mis habilidades y aportar soluciones de valor en los proyectos en los que participo.</td>
 </tr>
 
 <tr>
