@@ -648,14 +648,14 @@ Dado que el alcance de esta iteración se limitó a la presentación web estáti
 * El flujo de trabajo garantiza que cada vez que se aprueba un Pull Request y se realiza un merge hacia la rama main, la plataforma detecta los cambios y actualiza el contenido en tiempo real sin requerir intervención manual del equipo de desarrollo.
 
 <p align="center">
-  <img src="https://imgur.com/AHKZXk4.png" alt="Inicio y Hero Section" width="500">
+  <img src="https://imgur.com/Z9BUnld.png" alt="Inicio y Hero Section" width="500">
 </p>
 
 **4. Verificación y Validación en Producción**
 * Se validó la correcta carga de todos los recursos (imágenes, estilos, scripts), la estabilidad del diseño responsivo en múltiples resoluciones y el correcto funcionamiento del cambio de idioma (i18n) directamente en la URL pública.
 
 <p align="center">
-  <img src="https://imgur.com/gxgwuQJ.png" alt="Hero Section" width="500">
+  <img src="https://imgur.com/AHKZXk4.png" alt="Inicio y Hero Section" width="500">
 </p>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
