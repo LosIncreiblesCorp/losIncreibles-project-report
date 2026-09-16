@@ -448,36 +448,45 @@ Se aplicará en el desarrollo de los Web Services y la lógica del lado del serv
 
 ### 5.1.4. Software Deployment Configuration
 
-En esta sección se detalla el proceso de configuración y despliegue establecido para los tres productos digitales que componen la solución de **InstAlert**. El objetivo es definir un pipeline claro que garantice que el código alojado en los repositorios se integre, construya y publique de manera segura, eficiente y libre de errores en los entornos de producción.
+En esta sección se describe la estrategia de despliegue definida para los productos que conforman la solución InstAlert. Debido a que el alcance del Sprint 1 contempla principalmente el desarrollo y publicación de la Landing Page, actualmente este es el único componente desplegado en un entorno de producción. El despliegue de la Frontend Web Application y los Web Services se realizará en iteraciones posteriores, de acuerdo con el avance del proyecto.
 
-A continuación, se describen los pasos específicos y las tecnologías involucradas en la publicación de cada componente:
+**1. Landing Page**
 
-**1. Landing Page (Repositorio: Instalert-landing-page)**
 * **Plataforma de Hosting:** GitHub Pages
-* **Proceso de Despliegue:**
-  * **Integración:** Las nuevas características se desarrollan en ramas `feature/*` y se integran en la rama `develop` mediante Pull Requests (PR). Para asegurar la calidad, se requiere al menos una revisión de código cruzada (Code Review) antes de la aprobación.
-  * **Pase a Producción:** Una vez que la versión es estable, se realiza un *merge* hacia la rama principal (`main`).
-  * **Publicación:** GitHub Pages está configurado para detectar automáticamente cualquier actualización en la rama `main`. Al identificar un nuevo commit (push), el motor publica de forma inmediata el contenido estático (HTML, CSS, JS y assets).
-* **URL de Producción:** `hh` 
 
-**2. Frontend Web Application (Repositorio: instalert-frontend)**
-* **Plataforma de Hosting:** Vercel
 * **Proceso de Despliegue:**
-  * **Integración:** Al igual que la Landing Page, el flujo inicia con la creación de PRs hacia `develop` y su posterior validación por parte del equipo.
-  * **Construcción (Build):** Al realizar el merge hacia la rama `main`, se ejecuta el proceso de construcción de la aplicación. Esto implica la ejecución de los comandos de empaquetado (ej. `npm install` y `npm run build`). 
-  * **Configuración de Entorno:** Durante el *build*, se inyectan las variables de entorno correspondientes a producción, definiendo parámetros críticos como la URL base de la API de producción.
-  * **Publicación:** El directorio resultante (por lo general la carpeta `dist/` o `build/`), que contiene los archivos minificados y optimizados, se despliega en el servicio de hosting.
-* **URL de Producción:** `hh` 
+  * **Integración:** Las nuevas características se desarrollan en ramas `feature/*` creadas a partir de `develop` y posteriormente se integran mediante Pull Requests.
+  * **Preparación de versión:** Una vez que las funcionalidades han sido integradas y validadas, se prepara la versión correspondiente siguiendo el flujo GitFlow.
+  * **Pase a producción:** La versión estable se integra en la rama `main`.
+  * **Publicación:** GitHub Pages publica automáticamente el contenido estático del repositorio desde la configuración establecida para producción.
 
-**3. Web Services (Repositorio: instalert-web-services)**
-* **Tecnología y Hosting:** ASP.NET Core desplegado en Railway.
-* **Proceso de Despliegue:**
-  * **Integración y Pruebas:** Los PRs hacia `develop` deben pasar exitosamente la ejecución de las pruebas unitarias y de integración, validando que la nueva lógica no rompa servicios existentes.
-  * **Compilación (Publish):** Tras fusionar el código aprobado en la rama `main`, el proyecto se compila y optimiza para producción utilizando el comando oficial del SDK: `dotnet publish -c Release`.
-  * **Despliegue y Configuración:** El artefacto compilado se sube al proveedor de la nube. En el panel de administración del servidor, se configuran de manera segura las variables de entorno y los "Secrets", tales como la cadena de conexión (Connection String) a la base de datos de producción y las claves para los tokens de seguridad (JWT).
-  * **Documentación:** Tras un despliegue exitoso, la documentación de los endpoints (rutas, parámetros y esquemas de respuesta) queda inmediatamente expuesta e interactiva mediante **Swagger/OpenAPI**.
-* **URL de Producción (API):** `hh` 
+* **Estado actual:** Desplegado.
+* **URL de Producción:** https://losincreiblescorp.github.io/InstAlert-LandingPage/
 
+**2. Frontend Web Application**
+
+* **Plataforma de Hosting planificada:** Vercel
+
+La Frontend Web Application será desplegada en Vercel en una iteración posterior del proyecto. El proceso previsto considera la integración de las funcionalidades mediante ramas `feature/*`, Pull Requests hacia `develop` y la preparación de una versión estable antes de su incorporación a `main`.
+
+Una vez implementado el frontend, el proceso de construcción utilizará las herramientas correspondientes al proyecto Vue.js, incluyendo la instalación de dependencias y la generación del build de producción. Asimismo, se configurarán las variables de entorno necesarias, como la URL base de los Web Services.
+
+* **Estado actual:** Pendiente de implementación y despliegue.
+* **URL de Producción:** No disponible en el Sprint 1.
+
+**3. Web Services**
+
+* **Tecnología:** ASP.NET Core
+* **Plataforma de Hosting planificada:** Railway
+
+Los Web Services serán desplegados en Railway en una iteración posterior del proyecto. Previamente, el backend será desarrollado y validado mediante las pruebas correspondientes.
+
+El proceso de despliegue previsto contempla la compilación del proyecto en modo Release mediante el SDK de .NET, la configuración segura de variables de entorno y secretos, como la cadena de conexión de la base de datos y las claves utilizadas para autenticación mediante JWT.
+
+Una vez que los Web Services se encuentren desplegados, sus endpoints serán documentados utilizando OpenAPI/Swagger, permitiendo visualizar y probar las operaciones disponibles de la RESTful API.
+
+* **Estado actual:** Pendiente de implementación y despliegue.
+* **URL de Producción (API):** No disponible en el Sprint 1.
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1. Sprint 1
