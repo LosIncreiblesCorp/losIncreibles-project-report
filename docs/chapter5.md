@@ -546,65 +546,61 @@ Esta sección expone la evidencia técnica del progreso alcanzado durante el pre
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| dumbaskidd/InstAlert-LandingPage | feature/hero-and-pricing | b620957 | feat: implement hero section and pricing plans | Added the main hero section with the core value proposition and integrated the subscription plans layout. | 03/09/2026 |
-| Mayel-dev/InstAlert-LandingPage | feature/testimonials-section | 5d15163 | feat: add user testimonials and ratings section | Implemented the social proof section displaying user feedback and star ratings. | 03/09/2026 |
-| nahiryn8/InstAlert-LandingPage | feature/about-us-team | 0dcace8 | feat: create about us and team presentation | Added startup mission statement and developed cards for team member profiles. | 03/09/2026 |
-| DhudsQ/InstAlert-LandingPage | feature/contact-form | 20d9ace | feat: integrate contact form section | Built the contact section with a functional form for user inquiries and lead capture. | 03/09/2026 |
-| DiazDeveloper/InstAlert-LandingPage | feature/core-layout-i18n | a0d5600 | feat: implement header, footer, and i18n support | Added global navigation header, page footer, and configured internationalization (ES/EN) across all components. | 03/09/2026 |
-| DiazDeveloper/InstAlert-LandingPage | main | b54c82e | chore: prepare release and trigger deployment | Merged all feature branches for Sprint 1 and triggered production deployment pipeline. | 03/09/2026 |
+| DhudsQ/InstAlert-LandingPage | feature/inicio | 8c9035e | feat(inicio):add site-config file for default Language | Configured the initial site settings and established the default language parameters for the i18n implementation across the main layout. | 10/09/2026 |
+| dumbaskidd/InstAlert-LandingPage | feature/planes | 8a6b851 | feat(planes): add base and responsive css styles for pricing section | Implemented the core stylesheet for the subscription plans, ensuring mobile responsiveness and proper alignment of the pricing cards and currency toggle. | 11/09/2026 |
+| Mayel-dev/InstAlert-LandingPage | feature/equipo | 4bbfccf | feat(team): add team presentation section | Developed the 'About Us' structure, integrating team member portraits, roles, and the placeholder layout for the promotional video. | 11/09/2026 |
+| DiazDeveloper/InstAlert-LandingPage | feature/producto | a8ca125 | feat: agrego estilos, html y js de la seccion producto | Built the interactive 'What We Offer' section, linking the descriptive HTML with its specific CSS styles and interactive JavaScript components. | 12/09/2026 |
+| nahiryn8/InstAlert-LandingPage | feature/cierre | e6cc66e | docs(cierre): add help center and legal documentation pdfs | Uploaded the necessary legal assets (Privacy Policy, Terms of Service) and Help Center documentation, linking them directly in the site footer. | 13/09/2026 |
+| DiazDeveloper/InstAlert-LandingPage | main | b54c82e | chore: merge sprint 1 features and trigger deployment |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 Durante el transcurso del Sprint 1, el esfuerzo de desarrollo se centró en la construcción y despliegue de la Landing Page oficial de InstAlert. Se implementaron con éxito las historias de usuario planificadas, logrando estructurar una interfaz web atractiva, modular y completamente adaptativa (responsive) para distintos dispositivos. 
 
-El alcance completado incluye la navegación global, la sección principal de impacto (Hero), los planes de suscripción, las características de la plataforma, testimonios de usuarios, información corporativa (Misión y Equipo) y un formulario de contacto. Además, se integró con éxito la internacionalización (i18n), permitiendo a los usuarios alternar la página entre inglés y español. El trabajo fue distribuido equitativamente entre todos los miembros del equipo, logrando un entregable final que comunica eficazmente la propuesta de valor del SaaS.
+El alcance completado incluye la estructura base, navegación global, la sección principal de impacto (Hero), los beneficios de la plataforma, la presentación del producto y soluciones, los planes de suscripción, la presentación del equipo, el llamado a la acción final (CTA) y el pie de página con documentación legal. El trabajo fue distribuido equitativamente entre todos los miembros del equipo, logrando un entregable final que comunica eficazmente la propuesta de valor del modelo SaaS B2B.
 
 **Evidencia visual:**
 
-A continuación, se presentan las capturas de pantalla que evidencian las principales vistas y componentes implementados durante este ciclo, indicando el responsable principal de cada apartado.
+A continuación, se presentan las capturas de pantalla que evidencian las principales vistas y componentes implementados durante este ciclo, indicando el responsable principal de cada apartado según la nueva distribución del repositorio.
 
-**1. Inicio (Hero Section) y Planes de Suscripción (Pricing)**
-
-*Desarrollado por: Jean Fabio Noriega Collado*
-
-<p align="center">
-  <img src="https://imgur.com/gxgwuQJ.png" alt="Hero Section" width="500">
-</p>
-
-**2. Testimonios**
-
-*Desarrollado por: Ismael Sebastian Simon Calderon*
-
-<p align="center">
-  <img src="https://imgur.com/SXDHeGf.png" alt="Testimonials Section" width="500">
-</p>
-
-**3. Sobre Nosotros y Nuestro Equipo (About Us & Team)**
-
-*Desarrollado por: Yngrid Nahir Ruiz Villegas*
-
-<p align="center">
-  <img src="https://imgur.com/s6loIOT.png" alt="About Us Section" width="500">
-</p>
-
-<p align="center">
-  <img src="https://imgur.com/3AWvO4S.png" alt="About Us Section" width="500">
-</p>
-
-**4. Formulario de Contacto**
+**1. Estructura base, Navegación, Hero y Beneficios**
 
 *Desarrollado por: Jose Gustavo Asto Jacome*
 
 <p align="center">
-  <img src="https://imgur.com/YUMkP1P.png" alt="Contact Section" width="500">
+  <img src="https://imgur.com/AHKZXk4" alt="Inicio y Hero Section" width="500">
 </p>
 
-**5. Navegación (Header/Footer), Internacionalización (i18n) y Vista Responsive**
+**2. Presentación del Producto y Soluciones (Qué ofrecemos)**
 
 *Desarrollado por: Sebastián Víctor André Díaz Mendoza*
 
 <p align="center">
-  <img src="https://imgur.com/gxgwuQJ.png" alt="Hero Section" width="500">
+  <img src="https://imgur.com/cg2RfmR.png" alt="Producto y Soluciones" width="500">
+</p>
+
+**3. Planes de Suscripción y Selector de Moneda (Pricing)**
+
+*Desarrollado por: Jean Fabio Noriega Collado*
+
+<p align="center">
+  <img src="https://imgur.com/quV9lhu.png" alt="Planes de Suscripción" width="500">
+</p>
+
+**4. Sobre Nosotros y Nuestro Equipo (About Us & Team)**
+
+*Desarrollado por: Ismael Sebastian Simon Calderon*
+
+<p align="center">
+  <img src="https://imgur.com/PLDYOag.png" alt="Sección Equipo" width="500">
+</p>
+
+**5. Llamado a la Acción (CTA), Footer y Enlaces Legales**
+
+*Desarrollado por: Yngrid Nahir Ruiz Villegas*
+
+<p align="center">
+  <img src="https://imgur.com/L5xYg2c.png" alt="Cierre y Footer" width="500">
 </p>
 
 **Video del Sprint Review:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415638_upc_edu_pe/IQAc9nUyqnvkRpBWL_qYVD3eAZMXJIZvLDiY-ph5ckpQTgE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ClXo52
@@ -681,44 +677,43 @@ Para evidenciar el compromiso y la participación equitativa de todos los integr
 
 *Desarrollado por: Jean Fabio Noriega Collado (dumbaskidd)*
 <p align="center">
-  <img src="[ENLACE_IMAGEN_COMMITS_JEAN]" alt="Commits Jean" width="500">
+  <img src="https://imgur.com/VZ9kGig.png" alt="Commits Jean" width="500">
 </p>
 
 *Desarrollado por: Ismael Sebastian Simon Calderon (Mayel-dev)*
 <p align="center">
-  <img src="[ENLACE_IMAGEN_COMMITS_ISMAEL]" alt="Commits Ismael" width="500">
+  <img src="https://imgur.com/BRODVGr.png" alt="Commits Ismael" width="500">
 </p>
 
 *Desarrollado por: Yngrid Nahir Ruiz Villegas (nahiryn8)*
 <p align="center">
-  <img src="[ENLACE_IMAGEN_COMMITS_YNGRID]" alt="Commits Yngrid" width="500">
+  <img src="https://imgur.com/QP1IhrA.png" alt="Commits Yngrid" width="500">
 </p>
 
 *Desarrollado por: Jose Gustavo Asto Jacome (DhudsQ)*
 <p align="center">
-  <img src="[ENLACE_IMAGEN_COMMITS_JOSE]" alt="Commits Jose" width="500">
+  <img src="https://imgur.com/iJ5DCVK.png" alt="Commits Jose" width="500">
 </p>
 
 *Desarrollado por: Sebastián Víctor André Díaz Mendoza (DiazDeveloper)*
 <p align="center">
-  <img src="[ENLACE_IMAGEN_COMMITS_SEBASTIAN]" alt="Commits Sebastian" width="500">
+  <img src="https://imgur.com/7WormTD.png" alt="Commits Sebastian" width="500">
 </p>
 
 **2. Colaboradores activos en el repositorio**
 
 *Esta gráfica demuestra la actividad conjunta del equipo y la distribución de los aportes (adiciones y eliminaciones de código) a lo largo del Sprint.*
 <p align="center">
-  <img src="[ENLACE_IMAGEN_CONTRIBUTORS_GRAPH]" alt="Active Contributors" width="500">
+  <img src="https://imgur.com/f8tma3B.png" alt="Active Contributors" width="500">
 </p>
 
 **3. Histograma de contribuciones en el tiempo**
 
 *Muestra la frecuencia de las confirmaciones (commits) realizadas en los días previos a la revisión del Sprint, evidenciando un esfuerzo constante y coordinado para la integración final.*
 <p align="center">
-  <img src="[ENLACE_IMAGEN_COMMIT_HISTOGRAM]" alt="Commit Histogram" width="500">
+  <img src="https://imgur.com/B0z7ABn.png" alt="Commit Histogram" width="500">
 </p>
 
-# Conclusiones
 # Conclusiones
 
 ## AV1
