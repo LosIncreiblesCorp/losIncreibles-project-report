@@ -165,8 +165,6 @@ Nota: La tabla muestra los criterios considerados para la consulta de informaci�
 
 ### 4.2.5. Navigation Systems
 
-4.2.5. Navigation Systems
-
 La arquitectura de navegación de InstAlert se organiza según las principales funcionalidades de la plataforma y el tipo de usuario. En el Landing Page se presentan las secciones destinadas a mostrar información del producto, mientras que en la aplicación se distribuyen las funciones relacionadas con la gestión de seguridad.
 
 Para el Landing Page, se definieron las siguientes secciones:
