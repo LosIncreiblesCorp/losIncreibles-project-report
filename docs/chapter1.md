@@ -37,7 +37,7 @@ De igual manera, la plataforma tiene como meta promover el apoyo mutuo entre los
 <td align="center"><img src="../assets/Chapter1/Team/Victor.jpeg" alt="Sebastián Díaz" width="150"></td>
 <td>Díaz Mendoza, Sebastián Víctor André<br><b>Código:</b> U202415638</td>
 <td>Ingeniería de Software</td>
-<td>Enfoque en experiencia de usuario (UX/UI), estructuras de datos y bases de datos. Aporta en la visión del producto y el diseño de los flujos de usuario.</td>
+<td>Código: U202415638. Soy Sebastian Diaz, actualmente estudio la carrera de Ingeniería de Software y para el presente proyecto me he enfocado en diseño de experiencia de usuario (UX/UI), además soy responsable de la interacción y usabilidad. Cuento con dominio en estructura de datos, algoritmos y base de datos. Con una capacidad de razonamiento lógico y ordenado, con conocimiento en paradigmas como la programación orientada a objetos y técnicas de aplicación en la complejidad algorítmica. Aporte al equipo: Aporte en la presentación de idea y fundamento del proyecto además del desarrollo de los capítulos II y IV. Con alta proactividad en el desarrollo del proyecto.</td>
 </tr>
 
 <tr>
