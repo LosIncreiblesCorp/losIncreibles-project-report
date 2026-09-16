@@ -551,7 +551,7 @@ Esta sección expone la evidencia técnica del progreso alcanzado durante el pre
 | Mayel-dev/InstAlert-LandingPage | feature/equipo | 4bbfccf | feat(team): add team presentation section | Developed the 'About Us' structure, integrating team member portraits, roles, and the placeholder layout for the promotional video. | 11/09/2026 |
 | DiazDeveloper/InstAlert-LandingPage | feature/producto | a8ca125 | feat: agrego estilos, html y js de la seccion producto | Built the interactive 'What We Offer' section, linking the descriptive HTML with its specific CSS styles and interactive JavaScript components. | 12/09/2026 |
 | nahiryn8/InstAlert-LandingPage | feature/cierre | e6cc66e | docs(cierre): add help center and legal documentation pdfs | Uploaded the necessary legal assets (Privacy Policy, Terms of Service) and Help Center documentation, linking them directly in the site footer. | 13/09/2026 |
-| DiazDeveloper/InstAlert-LandingPage | main | b54c82e | chore: merge sprint 1 features and trigger deployment |
+| DhudsQ/InstAlert-LandingPage | main | b54c82e | chore: merge sprint 1 features and trigger deployment |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -568,7 +568,7 @@ A continuación, se presentan las capturas de pantalla que evidencian las princi
 *Desarrollado por: Jose Gustavo Asto Jacome*
 
 <p align="center">
-  <img src="https://imgur.com/AHKZXk4" alt="Inicio y Hero Section" width="500">
+  <img src="https://imgur.com/AHKZXk4.png" alt="Inicio y Hero Section" width="500">
 </p>
 
 **2. Presentación del Producto y Soluciones (Qué ofrecemos)**
@@ -648,7 +648,7 @@ Dado que el alcance de esta iteración se limitó a la presentación web estáti
 * El flujo de trabajo garantiza que cada vez que se aprueba un Pull Request y se realiza un merge hacia la rama main, la plataforma detecta los cambios y actualiza el contenido en tiempo real sin requerir intervención manual del equipo de desarrollo.
 
 <p align="center">
-  <img src="https://imgur.com/EbFBvLf.png" alt="Ejecucion de GitHub Actions" width="500">
+  <img src="https://imgur.com/AHKZXk4.png" alt="Inicio y Hero Section" width="500">
 </p>
 
 **4. Verificación y Validación en Producción**
