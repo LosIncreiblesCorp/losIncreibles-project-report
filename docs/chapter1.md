@@ -51,7 +51,8 @@ De igual manera, la plataforma tiene como meta promover el apoyo mutuo entre los
 <td align="center"><img src="../assets/Chapter1/Team/Yngrid.jpeg" alt="Yngrid Ruiz" width="150"></td>
 <td>Ruiz Villegas, Yngrid Nahir<br><b>Código:</b> U20241G022</td>
 <td>Ingeniería de Software</td>
-<td>(Pendiente)</td>
+<td>Me considero una persona responsable, dedicada y con interés en seguir desarrollando mis habilidades en el área de la tecnología. En mis momentos libres disfruto de actividades creativas y recreativas, como el dibujo, la lectura de mangas y el descubrir nuevas historias. 
+Mi objetivo académico es fortalecer mis conocimientos y aplicarlos en proyectos que me permitan adquirir experiencia práctica. Asimismo, espero que este proyecto contribuya a mi formación profesional y me brinde la oportunidad de crecer personal y académicamente.</td>
 </tr>
 
 <tr>
