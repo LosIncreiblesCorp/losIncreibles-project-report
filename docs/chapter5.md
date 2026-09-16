@@ -249,70 +249,91 @@ Markdown será utilizado para la elaboración y estructuración de la documentac
 
 ### 5.1.2. Source Code Management
 
-La administración del código fuente es un pilar esencial para el trabajo colaborativo en nuestro proyecto de software. En este apartado se define el modelo organizativo y de control de versiones que se aplicará mediante la plataforma GitHub y el flujo de trabajo GitFlow. Esta configuración asegura que el código se mantenga estructurado, seguro y rastreable. Asimismo, se detallan las normativas para nombrar las ramas, estructurar los mensajes de commit y aplicar el versionado semántico de los lanzamientos.
+La administración del código fuente es un pilar esencial para el trabajo colaborativo en el desarrollo de InstAlert. En este apartado se define el modelo de organización y control de versiones utilizado por el equipo mediante GitHub y el flujo de trabajo GitFlow. Esta configuración permite mantener el código fuente y la documentación estructurados, trazables y organizados durante el ciclo de vida del proyecto.
+
+Asimismo, se establecen las convenciones utilizadas para la creación de ramas, la escritura de mensajes de commit y la gestión de versiones mediante Semantic Versioning.
 
 **1. Establecimiento de repositorios en GitHub**
 
-Para estructurar el código y las pruebas de manera óptima, se han creado repositorios independientes en GitHub, dividiendo las responsabilidades del sistema en tres frentes principales:
+Para organizar los distintos componentes de la solución, el proyecto InstAlert se encuentra distribuido en cuatro repositorios públicos dentro de la organización LosIncreiblesCorp. Cada repositorio posee una responsabilidad específica dentro de la solución.
 
-*Landing Page:* 
-Repositorio dedicado exclusivamente al sitio web promocional e informativo del proyecto. Contiene todos los recursos de interfaz estática (HTML, CSS, JavaScript, multimedia) orientados a presentar la propuesta de valor del software a los usuarios y potenciales clientes.
+*Landing Page:*  
+Repositorio destinado al sitio web promocional e informativo de InstAlert. Contiene la estructura HTML, hojas de estilo CSS, scripts JavaScript y recursos multimedia utilizados para presentar la propuesta de valor, funcionalidades, planes y equipo del producto.
 
-*Report Repository:* 
-Repositorio destinado a la redaccion del reporte del proyecto 
+*Frontend Web Application:*  
+Repositorio destinado a la aplicación web del lado del cliente. Contiene la estructura, componentes, vistas y lógica de interacción de la Web Application, además del consumo de los servicios proporcionados por la RESTful API.
 
-*Frontend Web Applications:* 
-Repositorio destinado a la aplicación web del lado del cliente. Contiene la estructura, componentes, vistas y la lógica de consumo de los servicios web (APIs), garantizando la interacción del usuario final con el sistema.
+*Web Services:*  
+Repositorio destinado al Backend de InstAlert. Contiene la lógica de negocio, acceso a datos y servicios RESTful desarrollados con ASP.NET Core y Entity Framework Core. Asimismo, incluye los recursos necesarios para las pruebas automatizadas y la documentación de los endpoints mediante OpenAPI/Swagger.
 
-*Web Services:* 
-Este repositorio aloja toda la lógica del Back-End y la provisión de servicios. Es fundamental destacar que aquí se incluye no solo el código fuente del proyecto, sino también todos los archivos correspondientes a las pruebas automatizadas, abarcando tanto las pruebas unitarias como las de integración y aceptación.
+*Project Report:*  
+Repositorio destinado a la documentación académica y técnica del proyecto. Contiene el informe desarrollado colaborativamente en Markdown, junto con los recursos gráficos, diagramas y evidencias correspondientes a cada capítulo.
 
 **Enlaces a los repositorios:**
 
-* Repositorio de Landing Page: ()
-* Repositorio de Frontend Web Applications: ()
-* Repositorio de Web Services: ()
-* Repositorio del Reporte: ()
+* Repositorio de Landing Page: https://github.com/LosIncreiblesCorp/InstAlert-LandingPage
+* Repositorio de Frontend Web Application: https://github.com/LosIncreiblesCorp/Instalert-FrontEnd
+* Repositorio de Web Services: https://github.com/LosIncreiblesCorp/Instalert-BackEnd
+* Repositorio del Project Report: https://github.com/LosIncreiblesCorp/losIncreibles-project-report
 
 **2. Workflow de control de versiones (GitFlow)**
 
-Para gestionar la integración de nuevas características y coordinar los cambios en el equipo, emplearemos el modelo GitFlow. Este flujo de trabajo define ramas específicas con propósitos estrictos, lo que facilita el desarrollo en paralelo sin afectar la estabilidad del proyecto.
+Para gestionar la integración de nuevas características y coordinar el trabajo colaborativo, el equipo utiliza GitFlow. Este flujo de trabajo permite desarrollar funcionalidades de manera aislada mediante ramas específicas y posteriormente integrarlas de forma controlada a las ramas principales del proyecto.
 
 *Estructura de ramas principales y de soporte:*
 
 | Nombre de la rama | Descripción |
 | --- | --- |
-| **Main Branch** (`main`) | Es la rama base que refleja el estado de producción. Solamente recibe código que ha sido completamente validado, probado y aprobado para su despliegue final. |
-| **Develop Branch** (`develop`) | Actúa como la rama de integración principal para el equipo. Aquí se unifica el código de las nuevas funcionalidades en curso antes de pasar a un estado de lanzamiento. |
-| **Feature Branches** (`feature/*`) | Ramas temporales creadas a partir de `develop` para trabajar en tareas o características específicas de forma aislada. <br> **Convención:** `feature/nombre-de-la-tarea` |
-| **Release Branches** (`release/*`) | Ramas destinadas a la preparación de un nuevo despliegue a producción. Permiten hacer pruebas finales, documentar y corregir fallos menores antes de fusionar con `main`. <br> **Convención:** `release/vX.Y.Z` |
-| **Hotfix Branches** (`hotfix/*`) | Ramas de emergencia creadas directamente desde `main` para solucionar fallos críticos en producción de manera inmediata. Luego se fusionan tanto en `main` como en `develop`. <br> **Convención:** `hotfix/descripcion-del-parche` |
+| **Main Branch** (`main`) | Representa el estado estable y listo para producción del proyecto. Recibe únicamente cambios previamente integrados, revisados y validados. |
+| **Develop Branch** (`develop`) | Funciona como la rama principal de integración. Las nuevas funcionalidades se incorporan aquí antes de preparar una nueva versión del producto. |
+| **Feature Branches** (`feature/*`) | Ramas temporales creadas a partir de `develop` para implementar funcionalidades o tareas específicas de manera independiente. <br> **Convención:** `feature/nombre-de-la-tarea` |
+| **Release Branches** (`release/*`) | Ramas utilizadas para preparar una nueva versión del producto. Permiten realizar validaciones finales y correcciones menores antes de integrar los cambios en `main`. <br> **Convención:** `release/vX.Y.Z` |
+| **Hotfix Branches** (`hotfix/*`) | Ramas creadas a partir de `main` para resolver errores críticos detectados en una versión publicada. Posteriormente, los cambios deben incorporarse tanto en `main` como en `develop`. <br> **Convención:** `hotfix/descripcion-del-parche` |
 
 **3. Versionado Semántico (Semantic Versioning 2.0.0)**
 
-Para identificar y rastrear adecuadamente cada versión de nuestro software, aplicaremos el estándar Semantic Versioning (SemVer). Este modelo utiliza una secuencia de tres dígitos con el formato Major.Minor.Patch:
+Para identificar y rastrear las versiones publicadas de InstAlert, el equipo utiliza Semantic Versioning (SemVer). Este estándar emplea el formato `MAJOR.MINOR.PATCH`.
 
-* Major (Versión Mayor): Se incrementa cuando se realizan cambios profundos o actualizaciones que rompen la compatibilidad con versiones anteriores.
-* Minor (Versión Menor): Se incrementa al añadir nuevas funcionalidades al sistema, manteniendo la compatibilidad con la versión actual.
-* Patch (Parche): Se incrementa cuando se aplican correcciones de errores o mejoras de rendimiento que no alteran la funcionalidad general.
+* **MAJOR:** Se incrementa cuando se introducen cambios incompatibles con versiones anteriores.
+* **MINOR:** Se incrementa cuando se incorporan nuevas funcionalidades compatibles con la versión actual.
+* **PATCH:** Se incrementa cuando se realizan correcciones de errores o mejoras menores que no modifican la compatibilidad del producto.
 
-Ejemplos de aplicación:
-* v1.0.0: Primer despliegue oficial en entorno de producción.
-* v1.1.0: Integración de un nuevo módulo al sistema.
-* v1.1.1: Resolución de un bug reportado por los usuarios.
+Ejemplos:
+
+* `v1.0.0`: Primera versión estable del producto.
+* `v1.1.0`: Incorporación de nuevas funcionalidades manteniendo compatibilidad.
+* `v1.1.1`: Corrección de errores de una versión existente.
 
 **4. Convenciones de Mensajes de Commit (Conventional Commits)**
 
-Con el fin de estandarizar el historial del repositorio y facilitar la auditoría de cambios, todos los mensajes de commit deberán seguir la especificación de Conventional Commits. La estructura obligatoria inicia con un prefijo que indica la naturaleza del cambio, seguido de una descripción directa:
+Los mensajes de commit siguen la especificación Conventional Commits con el objetivo de mantener un historial de cambios consistente, comprensible y fácilmente auditable.
 
-*Tipos de prefijos a utilizar:*
+La estructura utilizada es:
 
-* feat: Añade una funcionalidad completamente nueva al código (Ej. feat: integrar pasarela de pagos).
-* fix: Soluciona un error o comportamiento anómalo en el sistema (Ej. fix: resolver caída en el registro de usuarios).
-* docs: Modificaciones exclusivas en la documentación, como el README (Ej. docs: actualizar diagrama de arquitectura).
-* style: Ajustes de formato, indentación o estilos que no alteran la lógica del programa (Ej. style: aplicar linting a componentes UI).
-* refactor: Reestructuración de código existente para mejorar su legibilidad o diseño sin añadir características nuevas ni corregir errores (Ej. refactor: simplificar bucle de validación).
-* test: Adición de nuevas pruebas o corrección de pruebas existentes (Ej. test: agregar pruebas unitarias para modulo de autenticación).
+`type(scope): description`
+
+Los principales tipos utilizados por el equipo son:
+
+* `feat`: Incorporación de una nueva funcionalidad.  
+  Ejemplo: `feat(alerts): add panic alert creation`
+
+* `fix`: Corrección de un error o comportamiento inesperado.  
+  Ejemplo: `fix(auth): resolve login validation issue`
+
+* `docs`: Cambios realizados exclusivamente en documentación.  
+  Ejemplo: `docs(chapter5): update source code management`
+
+* `style`: Cambios de formato o presentación que no modifican la lógica del sistema.  
+  Ejemplo: `style(landing): improve responsive team layout`
+
+* `refactor`: Reestructuración de código existente sin modificar su comportamiento externo.  
+  Ejemplo: `refactor(alerts): simplify alert processing logic`
+
+* `test`: Incorporación o modificación de pruebas automatizadas.  
+  Ejemplo: `test(auth): add authentication unit tests`
+
+* `chore`: Cambios de configuración, mantenimiento o tareas auxiliares que no afectan directamente una funcionalidad del producto.  
+  Ejemplo: `chore(repo): update project configuration`
 
 ### 5.1.3. Source Code Style Guide & Coding Conventions
 
