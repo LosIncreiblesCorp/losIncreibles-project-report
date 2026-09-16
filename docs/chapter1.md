@@ -37,7 +37,7 @@ De igual manera, la plataforma tiene como meta promover el apoyo mutuo entre los
 <td align="center"><img src="../assets/Chapter1/Team/Victor.jpeg" alt="Sebastián Díaz" width="150"></td>
 <td>Díaz Mendoza, Sebastián Víctor André<br><b>Código:</b> U202415638</td>
 <td>Ingeniería de Software</td>
-<td>(Pendiente)</td>
+<td>Enfoque en experiencia de usuario (UX/UI), estructuras de datos y bases de datos. Aporta en la visión del producto y el diseño de los flujos de usuario.</td>
 </tr>
 
 <tr>
