@@ -507,8 +507,8 @@ En este primer sprint se desarrolló la landing page y la documentación inicial
 | **Sprint 1 Retrospective Summary** | El equipo concluyó que la dinámica de trabajo fue altamente productiva, impulsada por una clara y equitativa distribución de responsabilidades. Se destacó positivamente la transición y alineación entre el prototipado realizado en Figma y la configuración inicial de los repositorios en GitHub. Como área de mejora para el próximo sprint, acordamos optimizar nuestras estimaciones de tiempo (puntos de historia), especialmente de cara al inicio del desarrollo e integración del lado de la presentacion del producto (frontend). |
 | **Sprint Goal & User Stories** | |
 | **Sprint 1 Goal** | Nuestro objetivo principal consistió en presentar una primera iteración completamente funcional y desplegada de la Landing Page, a la par de la redacción formal de los primeros capítulos del informe técnico. Consideramos que estos avances nos permiten proyectar una propuesta de valor sólida para captar a nuestro público objetivo, hito que se validará con el tráfico web inicial y la aprobación de la documentación entregada. |
-| **Sprint 1 Velocity** | 20 |
-| **Sum of Story Points** | 20 |
+| **Sprint 1 Velocity** | 14 |
+| **Sum of Story Points** | 14 |
 
 **Nota:** Cuadro resumen que detalla la planificación estratégica, las metas establecidas, los resultados obtenidos y las métricas de esfuerzo correspondientes al Sprint 1 de InstAlert.
 
@@ -526,19 +526,20 @@ En este primer sprint se desarrolló la landing page y la documentación inicial
 
 #### 5.2.1.3. Sprint Backlog 1
 
-| User Story Id | User Story Title | Work Item/Task Id | Work Item/Task Title | Description | Estimation | Assigned To | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| US-1 | Acceso y descarga de la aplicación | T01 | Estructuración base en HTML5 | Creación del esqueleto principal de la Landing Page, abarcando la barra de navegación (header), la sección de impacto visual (hero section) y el pie de página (footer). | 3h | Jose Gustavo Asto Jacome | Done |
-| US-2 | Exploración de características de InstAlert | T02 | Integración de contenido informativo | Inserción de la propuesta de valor, descripción detallada de los beneficios y las funcionalidades clave de la plataforma en la web. | 2h | Ismael Sebastian Simon Calderon | Done |
-| US-3 | Captura de leads desde la landing page | T03 | Desarrollo de sección de contacto | Diseño y maquetación de un formulario interactivo para que los visitantes interesados puedan dejar sus datos y enviar consultas. | 2.5h | Sebastian Victor Andre Diaz Mendoza | Done |
-| US-4 | Visualización de casos de éxito y opiniones | T04 | Integración de validación social (Testimonios) | Selección de los hallazgos de las entrevistas de validación e implementación de tarjetas de testimonios para generar confianza en los usuarios. | 2h | Yngrid Nahir Ruiz Villegas | Done |
-| US-5 | Visualización de planes de suscripción | T05 | Maquetación de planes y precios | Creación de la sección "Pricing" mediante tarjetas (cards) que exponen las características y costos de cada nivel de suscripción del SaaS. | 3h | Jean Fabio Noriega Collado | Done |
-| US-6 | Adaptabilidad a dispositivos móviles (Responsive) | T06 | Configuración de Media Queries y CSS | Ajuste de los estilos y contenedores para garantizar que toda la Landing Page se visualice y funcione correctamente en smartphones y tablets. | 3.5h | Jose Gustavo Asto Jacome | Done |
-| US-7 | Exposición de la identidad corporativa | T07 | Maquetación de la sección "About Us" | Desarrollo estructural y visual de la sección destinada a presentar la visión, misión y los valores centrales detrás del desarrollo de la plataforma. | 2h | Jean Fabio Noriega Collado | Done |
-| US-8 | Reconocimiento del equipo de desarrollo | T08 | Desarrollo de perfiles del equipo (Team Members) | Diseño e integración de tarjetas de perfil que detallen los roles, nombres y perfiles profesionales de los miembros del equipo fundador. | 2.5h | Yngrid Nahir Ruiz Villegas | Done |
-| US-9 | Internacionalización de la interfaz de usuario (i18n) | T09 | Implementación de sistema multilingüe (ES/EN) | Integración de lógica y diccionarios de traducción para permitir la alternancia dinámica del contenido de la página entre los idiomas español e inglés. | 4h | Sebastian Victor Andre Diaz Mendoza | Done |
+| User Story Id | User Story Title | Story Points | Status |
+| :--- | :--- | :---: | :--- |
+| US-13 | Visualización de propuesta de valor | 3 | Done |
+| US-14 | Comparación de planes de precios | 2 | Done |
+| US-15 | Visualización de testimonios | 2 | Done |
+| US-29 | Visualización de funcionamiento | 5 | Done |
+| US-30 | Visualización de preguntas frecuentes | 2 | Done |
+| **Total** |  | **14** |  |
 
-**Nota:** Tabla que vincula las Historias de Usuario abordadas durante el Sprint 1, incluyendo las nuevas implementaciones de internacionalización (i18n) y presentación corporativa, con sus respectivas tareas técnicas. Se detalla el esfuerzo estimado en horas, el miembro del equipo responsable de su desarrollo y el estado actual de cada asignación dentro del ciclo.
+
+
+<p align="center">
+  <img src="../assets/Chapter5/jira-sprint-1.png" alt="Evidencia del Sprint 1 en Jira" width="800">
+</p>
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -555,7 +556,7 @@ Esta sección expone la evidencia técnica del progreso alcanzado durante el pre
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-Durante el transcurso del Sprint 1, el esfuerzo de desarrollo se centró en la construcción y despliegue de la Landing Page oficial de InstAlert. Se implementaron con éxito las historias de usuario planificadas, logrando estructurar una interfaz web atractiva, modular y completamente adaptativa (responsive) para distintos dispositivos. 
+Durante el transcurso del Sprint 1, el esfuerzo de desarrollo se centró en la construcción y despliegue de la Landing Page oficial de InstAlert. Se completaron las historias US-13, US-14, US-15, US-29 y US-30, correspondientes a la propuesta de valor, los planes de precios, los testimonios, el funcionamiento y las preguntas frecuentes.
 
 El alcance completado incluye la estructura base, navegación global, la sección principal de impacto (Hero), los beneficios de la plataforma, la presentación del producto y soluciones, los planes de suscripción, la presentación del equipo, el llamado a la acción final (CTA) y el pie de página con documentación legal. El trabajo fue distribuido equitativamente entre todos los miembros del equipo, logrando un entregable final que comunica eficazmente la propuesta de valor del modelo SaaS B2B.
 
@@ -603,7 +604,7 @@ A continuación, se presentan las capturas de pantalla que evidencian las princi
   <img src="https://imgur.com/L5xYg2c.png" alt="Cierre y Footer" width="500">
 </p>
 
-**Video del Sprint Review:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202415638_upc_edu_pe/IQAc9nUyqnvkRpBWL_qYVD3eAZMXJIZvLDiY-ph5ckpQTgE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ClXo52
+**Video del Sprint Review:** [Ver video del Sprint Review del Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDDu4coMfEFS5u3PVPylCcgAWrLM56l0VTYYK_eO1OWuSk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ChGf3N)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -774,7 +775,7 @@ Finalmente, tras la ejecución del primer sprint de desarrollo, se concluye que 
 
 ## Execution Evidence
 
-* Sprint 1: <https://upcedupe-my.sharepoint.com/personal/u202415638_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202415638%5Fupc%5Fedu%5Fpe%2FDocuments%2FSprint%20%201%20Evidence%2Emov&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E93f3a0df%2D5a55%2D44fa%2Db7dd%2D9a5cfd34fc00>
+* Sprint 1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDDu4coMfEFS5u3PVPylCcgAWrLM56l0VTYYK_eO1OWuSk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ChGf3N>
   
 * Sprint 2: Disponible en futuras entregas
 
@@ -782,7 +783,7 @@ Finalmente, tras la ejecución del primer sprint de desarrollo, se concluye que 
 
 * Sprint 4: Disponible en futuras entregas
 
-### Landingpage Desplegada
+### Landing page Desplegada
 
 <https://losincreiblescorp.github.io/InstAlert-LandingPage/>
 
