@@ -38,7 +38,8 @@
 
   <p><strong>Integrantes</strong></p>
 
-  <table align="center" style="border: none; border-collapse: collapse; margin: 0 auto; text-align: center;">
+  <div align="center" style="width: 100%; text-align: center;">
+  <table align="center" style="display: inline-table; width: auto; border: none; border-collapse: collapse; margin-left: auto; margin-right: auto; text-align: center;">
     <tr style="border: none;">
       <td style="border: none; padding: 3px 15px;"><strong>Código</strong></td>
       <td style="border: none; padding: 3px 15px;"><strong>Apellidos y Nombres</strong></td>
@@ -64,6 +65,7 @@
       <td style="border: none; padding: 3px 15px;">Simon Calderon, Ismael Sebastian</td>
     </tr>
   </table>
+  </div>
 
   <br><br>
 
