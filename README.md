@@ -33,7 +33,7 @@
 
   <p>
     Producto<br>
-    <strong>NOMBRE DEL PRODUCTO</strong>
+    <strong>InstAlert</strong>
   </p>
 
   <p><strong>Integrantes</strong></p>
@@ -70,7 +70,7 @@
   <br><br>
 
   <p>
-    <strong>2026-02</strong><br><br>
+    <strong>Período 202620</strong><br><br>
     <strong>Septiembre, 2026</strong>
   </p>
 </div>
