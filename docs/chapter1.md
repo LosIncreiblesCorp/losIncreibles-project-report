@@ -90,21 +90,20 @@ En la actualidad, los dueños y trabajadores de locales comerciales ubicados en 
 
 **Objetivos del proyecto**
 
-**Objetivo general**
-Desarrollar una aplicación web diseñada para fortalecer la seguridad de los establecimientos comerciales a través de alertas tempranas en tiempo real y la colaboración activa entre negocios de un mismo sector.
+* **Objetivo general:** Desarrollar una aplicación web diseñada para fortalecer la seguridad de los establecimientos comerciales a través de alertas tempranas en tiempo real y la colaboración activa entre negocios de un mismo sector.
 
-**Objetivos específicos**
-- Agilizar el proceso de reporte de incidentes para que los comercios puedan avisar a su entorno en cuestión de segundos.
-- Mostrar áreas de mayor vulnerabilidad a través de mapas interactivos y actualizados.
-- Promover un canal de comunicación directo entre los comerciantes ante posibles emergencias.
-- Distribuir notificaciones preventivas y alertas inmediatas a los locales suscritos a la red.
+* **Objetivos específicos:**
+  - Agilizar el proceso de reporte de incidentes para que los comercios puedan avisar a su entorno en cuestión de segundos.
+  - Mostrar áreas de mayor vulnerabilidad a través de mapas interactivos y actualizados.
+  - Promover un canal de comunicación directo entre los comerciantes ante posibles emergencias.
+  - Distribuir notificaciones preventivas y alertas inmediatas a los locales suscritos a la red.
 
 **Restricciones del proyecto**
-- La efectividad de la red dependerá directamente del compromiso y la participación constante de los administradores de los locales.
-- Posibles limitaciones técnicas en la exactitud del posicionamiento GPS (geolocalización) dependiendo del dispositivo utilizado.
-- No se contará con conexión directa e inmediata a las bases de datos oficiales de las autoridades policiales.
-- El plazo para el desarrollo y despliegue del producto de software está restringido a la duración del ciclo académico.
-- El proyecto se construirá considerando recursos de hardware y de equipo humano limitados.
+- La efectividad de la red dependerá del compromiso y la participación de los administradores de los locales.
+- Puede haber limitaciones técnicas en la exactitud de la ubicación según el celular o dispositivo utilizado.
+- No tendremos conexión directa con las bases de datos oficiales de la policía.
+- El plazo para el desarrollo y despliegue del software está restringido a la duración del ciclo académico.
+- El proyecto se construirá con recursos de hardware y un equipo humano limitados.
 
 ### 1.2.2. Lean UX Process
 
