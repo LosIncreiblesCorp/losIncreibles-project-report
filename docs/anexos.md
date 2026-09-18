@@ -6,7 +6,7 @@
 
 ## Exposiciones del Proyecto
 
-* Enlace de Exposición AV1: [Ver video de la exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDKy1P_7vjFSKC9Q1r7TBw5AZHoo-qmaGEIEixjJACx8tI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=rRairr)
+* Enlace de Exposición AV1: [Ver video de la exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDKy1P_7vjFSKC9Q1r7TBw5AZHoo-qmaGEIEixjJACx8tI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VnvfnY)
 
 * Enlace de Exposición TB1: Disponible en futuras entregas
 
