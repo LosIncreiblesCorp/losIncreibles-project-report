@@ -252,15 +252,7 @@ Este gráfico muestra la evolución de las ramas, los puntos de integración y l
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](chapter5.md#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](chapter5.md#5218-team-collaboration-insights-during-sprint)
 
-# Conclusiones
 
-# Bibliografía
-
-Consulta la [bibliografía del proyecto](bibliografia.md).
-
-# Anexos
-
-Consulta los [anexos del proyecto](anexos.md).
 
 
 <div style="page-break-after: always;"></div>

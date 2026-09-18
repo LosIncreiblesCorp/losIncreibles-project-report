@@ -75,8 +75,3 @@
 
 <div style="page-break-after: always;"></div>
 
-# Contenido del informe
-
-El registro de versiones, la colaboración de AV1, la tabla de contenido, las conclusiones, la bibliografía, los anexos y el Student Outcome se encuentran en el siguiente archivo:
-
-[Ver el contenido general del Project Report](docs/report-overview.md)
