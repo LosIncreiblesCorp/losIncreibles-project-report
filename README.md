@@ -88,23 +88,101 @@
 </thead>
 <tbody>
 <tr>
-<td align="center">1.0<br>(AV1)</td>
-<td align="center">17/09/2026</td>
+<td align="center">0.0.1</td>
+<td align="center">28/08/2026</td>
 <td>
-Asto Jacome, Jose Gustavo<br>
-Díaz Mendoza, Sebastián Víctor André<br>
-Noriega Collado, Jean Fabio<br>
-Ruiz Villegas, Yngrid Nahir<br>
-Simon Calderon, Ismael Sebastian
+Jose Asto
 </td>
 <td>
-Primera versión del Project Report correspondiente a AV1.<br>
-Desarrollo de los Capítulos I, II, III y IV.<br>
-Desarrollo del Capítulo V hasta la sección 5.2.1.8 (Sprint 1).<br>
-Elaboración de artefactos de Requirements Elicitation, Needfinding, Requirements Specification y Product Design.<br>
-Configuración de repositorios, GitFlow, Conventional Commits y Semantic Versioning.<br>
-Implementación y despliegue de la primera versión de la Landing Page de InstAlert en GitHub Pages.<br>
-Incorporación de evidencias de colaboración y Student Outcome de AV1.
+Inicialización del repositorio del Project Report y creación del primer commit.
+</td>
+</tr>
+<tr>
+<td align="center">0.0.2</td>
+<td align="center">28/08/2026</td>
+<td>Jose Asto</td>
+<td>
+Creación de la estructura base para la gestión de archivos y de los esqueletos de la Introducción y de los Capítulos II, III, IV y V.
+</td>
+</tr>
+<tr>
+<td align="center">0.0.3</td>
+<td align="center">28/08–31/08/2026</td>
+<td>Jose Asto<br>Jean Noriega</td>
+<td>
+Incorporación de la información inicial del equipo, el perfil de la startup, los antecedentes y la estructura inicial del Capítulo I.
+</td>
+</tr>
+<tr>
+<td align="center">0.0.4</td>
+<td align="center">31/08–01/09/2026</td>
+<td>Jean Noriega<br>Yngrid Ruiz</td>
+<td>
+Avance del Capítulo I con Lean UX, segmentos objetivo, gráficos y bibliografía inicial; inicio del análisis de competidores y diseño de entrevistas del Capítulo II.
+</td>
+</tr>
+<tr>
+<td align="center">0.0.5</td>
+<td align="center">02/09–05/09/2026</td>
+<td>Víctor Díaz<br>Yngrid Ruiz<br>Jean Noriega<br>Ismael Simon</td>
+<td>
+Desarrollo del Capítulo II: registros y análisis de entrevistas, User Personas, User Journey Mapping, Empathy Mapping, análisis competitivo y artefactos de Needfinding.
+</td>
+</tr>
+<tr>
+<td align="center">0.0.6</td>
+<td align="center">04/09–06/09/2026</td>
+<td>Jean Noriega</td>
+<td>
+Desarrollo del Capítulo III con User Stories, Impact Mapping y Product Backlog, incluyendo priorización, numeración y ajustes de coherencia entre historias.
+</td>
+</tr>
+<tr>
+<td align="center">0.0.7</td>
+<td align="center">02/09–10/09/2026</td>
+<td>Víctor Díaz<br>Yngrid Ruiz</td>
+<td>
+Avance de la configuración del entorno de desarrollo y del Capítulo IV con Style Guidelines, Information Architecture, navegación, SEO y primeros artefactos UX/UI.
+</td>
+</tr>
+<tr>
+<td align="center">0.0.8</td>
+<td align="center">10/09–15/09/2026</td>
+<td>Yngrid Ruiz<br>Jean Noriega<br>Jose Asto<br>Ismael Simon<br>Víctor Díaz</td>
+<td>
+Consolidación del diseño del producto: wireframes, wireflows, mock-ups, prototipos, C4, EventStorming, diagramas de clases y diagrama de base de datos. También se actualizaron la gestión de repositorios y el despliegue.
+</td>
+</tr>
+<tr>
+<td align="center">0.0.9</td>
+<td align="center">16/09/2026</td>
+<td>Víctor Díaz<br>Jose Asto</td>
+<td>
+Revisión del Sprint 1, corrección de las User Stories del Capítulo III, actualización de evidencias e imágenes y ajuste de la documentación de implementación.
+</td>
+</tr>
+<tr>
+<td align="center">0.0.10</td>
+<td align="center">17/09/2026</td>
+<td>Ismael Simon</td>
+<td>
+Completado el Student Outcome de AV1 y realizada la revisión final de la Introducción para la consolidación de la entrega.
+</td>
+</tr>
+<tr>
+<td align="center">0.0.11</td>
+<td align="center">18/09/2026</td>
+<td>Jose Asto<br>Todos los integrantes</td>
+<td>
+Integración en <code>develop</code> de las ramas <code>feature/Introduction</code> y <code>feature/Chapter1</code> a <code>feature/Chapter5</code>, consolidando los Capítulos I–V y los avances de AV1.
+</td>
+</tr>
+<tr>
+<td align="center">1.0.0</td>
+<td align="center">18/09/2026</td>
+<td>Todos los integrantes</td>
+<td>
+Versión propuesta para la entrega AV1: Project Report consolidado, Landing Page del Sprint 1, artefactos de Requirements Elicitation, Requirements Specification, Product Design, arquitectura y evidencias de colaboración. Esta versión se considerará publicada cuando el contenido consolidado sea enviado a <code>main</code>.
 </td>
 </tr>
 </tbody>
@@ -115,6 +193,47 @@ Incorporación de evidencias de colaboración y Student Outcome de AV1.
 <div style="page-break-after: always;"></div>
 
 # Project Report Collaboration Insights
+
+Link de los repositorios de la organización: https://github.com/LosIncreiblesCorp
+
+Link del repositorio-Informe: https://github.com/LosIncreiblesCorp/losIncreibles-project-report
+
+## Reporte de colaboración de la entrega del AV1
+
+Durante la primera fase de elaboración del informe, el equipo LosIncreibles centró sus esfuerzos en la construcción de los fundamentos conceptuales, de investigación, especificación y diseño inicial de InstAlert. Cada integrante asumió un rol activo en la redacción, modelado y documentación de los capítulos del reporte, manteniendo una organización basada en ramas de trabajo y revisiones antes de integrar los cambios.
+
+A partir del historial de commits del repositorio, se observa la participación de los cinco integrantes en las distintas etapas del informe. Las responsabilidades principales de la entrega AV1 fueron las siguientes:
+
+* **Jose Asto:** creó la estructura inicial del Project Report, organizó la gestión de archivos y ramas, participó en la configuración del flujo GitFlow, integró las ramas de los capítulos en `develop` y desarrolló los diagramas de clases y de base de datos.
+
+* **Víctor Díaz:** desarrolló gran parte de la configuración del entorno de desarrollo y del Source Code Management, documentó herramientas y servicios, organizó la planificación y las evidencias del Sprint 1, y realizó revisiones y actualizaciones del Capítulo V.
+
+* **Yngrid Ruiz:** trabajó en Requirements Elicitation y Product Design, incluyendo competidores, entrevistas, Needfinding, User Personas, User Journey Mapping, Empathy Mapping, Style Guidelines, UX/UI, wireframes, prototipos, EventStorming y arquitectura C4.
+
+* **Jean Noriega:** desarrolló el Startup Profile y partes principales del Capítulo I, incluyendo antecedentes, problemática, Lean UX y segmentos objetivo. También elaboró y reorganizó las User Stories, el Impact Mapping y el Product Backlog del Capítulo III.
+
+* **Ismael Simon:** colaboró en el registro y análisis de entrevistas, actualizó la configuración de despliegue y los repositorios del proyecto, participó en la revisión de la documentación y completó el Student Outcome correspondiente a la entrega AV1.
+
+Estas responsabilidades representan la distribución principal observada en el historial de commits; no excluyen las revisiones, apoyos y aportes colaborativos realizados por los demás integrantes durante la consolidación del informe.
+
+Finalmente, estos gráficos representan la cantidad de commits realizados por cada miembro en el repositorio del Project Report. Cada barra representa a un integrante del equipo y su altura indica el número de commits reconocidos por GitHub. Debido a que el repositorio fue consolidado y publicado en distintas ramas durante el desarrollo, los valores de GitHub podrían variar si la plataforma agrupa de manera diferente los alias o correos utilizados en los commits.
+
+### Gráfico de colaboración de AV1
+
+Pendiente de insertar la captura de GitHub Insights después del push de la versión consolidada a `main`.
+
+## Ramificación del proyecto usando GitFlow
+
+Durante la elaboración del informe se trabajó con una rama principal de integración y ramas `feature` asociadas a cada capítulo. Se utilizaron `feature/Introduction`, `feature/Chapter1`, `feature/Chapter2`, `feature/Chapter3`, `feature/Chapter4` y `feature/Chapter5` para desarrollar los contenidos de forma independiente. Posteriormente, estas ramas fueron integradas en `develop`, donde se consolidó la versión correspondiente al avance AV1.
+
+El registro de versiones del informe representa esta evolución desde `0.0.1`, correspondiente a la inicialización del repositorio, hasta `1.0.0`, propuesta como versión consolidada de AV1. La versión `1.0.0` quedará formalmente publicada cuando el contenido final sea enviado a `main`.
+
+Este gráfico mostrará la evolución de las ramas, los puntos de integración y la relación entre los avances documentales y las versiones del Project Report.
+
+### Ramificación GitFlow de AV1
+
+Pendiente de insertar la captura del historial de ramas y commits después del push final a `main`.
+
 
 
 
