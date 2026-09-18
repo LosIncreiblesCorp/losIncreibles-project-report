@@ -216,11 +216,17 @@ A partir del historial de commits del repositorio, se observa la participación 
 
 Estas responsabilidades representan la distribución principal observada en el historial de commits; no excluyen las revisiones, apoyos y aportes colaborativos realizados por los demás integrantes durante la consolidación del informe.
 
-Finalmente, estos gráficos representan la cantidad de commits realizados por cada miembro en el repositorio del Project Report. Cada barra representa a un integrante del equipo y su altura indica el número de commits reconocidos por GitHub. Debido a que el repositorio fue consolidado y publicado en distintas ramas durante el desarrollo, los valores de GitHub podrían variar si la plataforma agrupa de manera diferente los alias o correos utilizados en los commits.
+Finalmente, estas capturas representan la cantidad de commits realizados por cada miembro en el repositorio del Project Report. En la vista de GitHub se identifican Víctor Díaz (`DiazDeveloper`) con 47 commits, Yngrid Ruiz (`nahiryn8`) con 45, Jean Noriega (`dumbaskidd`) con 39, Jose Asto (`DhudsQ`) con 13 e Ismael Simon (`Mayel-dev`) con 6. Cada barra representa a un integrante del equipo y su altura indica el número de commits registrados durante la elaboración del informe.
 
-### Gráfico de colaboración de AV1
+### Gráficos de colaboración de AV1
 
-Pendiente de insertar la captura de GitHub Insights después del push de la versión consolidada a `main`.
+![Principales colaboradores del Project Report durante AV1](assets/project-report-collaboration/top-committers-av1.png)
+
+*Figura: Principales colaboradores y cantidad de commits registrados por GitHub durante AV1.*
+
+![Detalle de contribuciones por integrante durante AV1](assets/project-report-collaboration/contributors-av1.png)
+
+*Figura: Detalle de commits, adiciones y eliminaciones por integrante durante AV1.*
 
 ## Ramificación del proyecto usando GitFlow
 
@@ -228,11 +234,13 @@ Durante la elaboración del informe se trabajó con una rama principal de integr
 
 El registro de versiones del informe representa esta evolución desde `0.0.1`, correspondiente a la inicialización del repositorio, hasta `1.0.0`, propuesta como versión consolidada de AV1. La versión `1.0.0` quedará formalmente publicada cuando el contenido final sea enviado a `main`.
 
-Este gráfico mostrará la evolución de las ramas, los puntos de integración y la relación entre los avances documentales y las versiones del Project Report.
+Este gráfico muestra la evolución de las ramas, los puntos de integración y la relación entre los avances documentales y las versiones del Project Report. Durante AV1 se trabajó en ramas independientes por capítulo y posteriormente se integraron los cambios en `develop`, antes de consolidar el contenido en `main`.
 
 ### Ramificación GitFlow de AV1
 
-Pendiente de insertar la captura del historial de ramas y commits después del push final a `main`.
+![Ramificación del proyecto usando GitFlow durante AV1](assets/project-report-collaboration/gitflow-av1.png)
+
+*Figura: Ramificación del proyecto usando GitFlow durante la elaboración del Project Report de AV1.*
 
 
 
