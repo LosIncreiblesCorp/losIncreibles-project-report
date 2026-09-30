@@ -1,6 +1,6 @@
 # Capítulo I: Introducción
 
-## 1.1. Startup Profile
+## 1.1. Perfil del Emprendimiento (Startup)
 
 ### 1.1.1. Descripción de la Startup
 
@@ -67,7 +67,7 @@ Mi objetivo académico es fortalecer mis conocimientos y aplicarlos en proyectos
 
 **Nota:** Información de los integrantes del equipo de desarrollo
 
-## 1.2. Solution Profile
+## 1.2. Perfil de la Solución
 
 ### 1.2.1. Antecedentes y problemática
 
@@ -115,23 +115,23 @@ En la actualidad, los dueños y trabajadores de locales comerciales ubicados en 
 - El plazo para el desarrollo y despliegue del software está restringido a la duración del ciclo académico.
 - El proyecto se construirá con recursos de hardware y un equipo humano limitados.
 
-### 1.2.2. Lean UX Process
+### 1.2.2. Proceso Lean UX
 
-#### 1.2.2.1. Lean UX Problem Statements
+#### 1.2.2.1. Declaraciones de Problemas (Problem Statements)
 
 Para definir claramente la propuesta de valor de InstAlert frente al desafío de la inseguridad comercial, hemos aplicado el modelo de *Brand New Initiative*, estructurando el dominio, los problemas actuales y nuestra estrategia para abordarlos:
 
-**The current state of** la seguridad y vigilancia preventiva en zonas comerciales **has focused mainly on** los dueños de locales y su personal de ventas, quienes sufren de robos y extorsiones constantes, y que actualmente dependen de tiempos de respuesta policiales lentos o de herramientas de comunicación ineficientes.
+**El estado actual de** la seguridad y vigilancia preventiva en zonas comerciales **se ha enfocado principalmente en** los dueños de locales y su personal de ventas, quienes sufren de robos y extorsiones constantes, y que actualmente dependen de tiempos de respuesta policiales lentos o de herramientas de comunicación ineficientes.
 
-**What existing products fail to address is** la ausencia de un canal unificado que conecte a los negocios vecinos en tiempo real, permitiéndoles emitir alertas geolocalizadas y tomar medidas preventivas antes de que el delito se consume en sus propios establecimientos.
+**Lo que los productos existentes no logran abordar es** la ausencia de un canal unificado que conecte a los negocios vecinos en tiempo real, permitiéndoles emitir alertas geolocalizadas y tomar medidas preventivas antes de que el delito se consume en sus propios establecimientos.
 
-**Our product will address this gap by** ofrecer una plataforma web colaborativa e intuitiva donde los comerciantes puedan reportar amenazas al instante, alertar a su comunidad sectorial y visualizar zonas de riesgo en un mapa interactivo.
+**Nuestro producto abordará esta brecha al** ofrecer una plataforma web colaborativa e intuitiva donde los comerciantes puedan reportar amenazas al instante, alertar a su comunidad sectorial y visualizar zonas de riesgo en un mapa interactivo.
 
-**Our initial focus will be** los dueños y trabajadores de pequeños y medianos comercios ubicados en zonas urbanas de riesgo medio-alto.
+**Nuestro enfoque inicial será** los dueños y trabajadores de pequeños y medianos comercios ubicados en zonas urbanas de riesgo medio-alto.
 
-**We’ll know we are successful when we see** una alta tasa de adopción de la plataforma por parte de grupos de negocios en una misma cuadra o galería, reportes activos de incidencias sospechosas y una reducción tangible en los asaltos gracias a la prevención comunitaria.
+**Sabremos que tenemos éxito cuando veamos** una alta tasa de adopción de la plataforma por parte de grupos de negocios en una misma cuadra o galería, reportes activos de incidencias sospechosas y una reducción tangible en los asaltos gracias a la prevención comunitaria.
 
-#### 1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Suposiciones (Assumptions)
 
 A continuación, se detallan las creencias e hipótesis fundamentales sobre las cuales se sostiene el desarrollo de InstAlert, divididas en cinco categorías clave:
 
@@ -157,29 +157,29 @@ A continuación, se detallan las creencias e hipótesis fundamentales sobre las 
 - Creemos que los usuarios necesitan un mapa interactivo que muestre incidentes recientes para identificar el nivel de riesgo en sus alrededores en tiempo real.
 - Creemos que un sistema de notificaciones push comunitarias es indispensable para enviar y recibir avisos urgentes al instante.
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+#### 1.2.2.3. Declaraciones de Hipótesis (Hypothesis Statements)
 
-A partir de las funcionalidades propuestas (Feature Assumptions), planteamos las siguientes hipótesis para validar su efectividad, utilizando el formato estándar de Lean UX:
+A partir de las funcionalidades propuestas (Suposiciones de Funcionalidades), planteamos las siguientes hipótesis para validar su efectividad, utilizando el formato estándar de Lean UX:
 
 **Hipótesis 1: Botón de Alerta Temprana**
-- **We believe we will achieve** una mejora sustancial en el tiempo de reacción ante amenazas
-- **If** los trabajadores de los establecimientos comerciales
-- **Attain** la capacidad de notificar silenciosa e instantáneamente a sus vecinos
-- **With** un botón de alerta temprana de fácil acceso en la plataforma web.
+- **Creemos que lograremos** una mejora sustancial en el tiempo de reacción ante amenazas
+- **Si** los trabajadores de los establecimientos comerciales
+- **Logran** la capacidad de notificar silenciosa e instantáneamente a sus vecinos
+- **Con** un botón de alerta temprana de fácil acceso en la plataforma web.
 
 **Hipótesis 2: Mapa Interactivo de Zonas de Riesgo**
-- **We believe we will achieve** una mejor toma de decisiones preventivas en el entorno local
-- **If** los administradores de los negocios
-- **Attain** el conocimiento actualizado sobre qué áreas cercanas registran actividad sospechosa
-- **With** un mapa interactivo que visualiza el nivel de riesgo y los reportes en tiempo real.
+- **Creemos que lograremos** una mejor toma de decisiones preventivas en el entorno local
+- **Si** los administradores de los negocios
+- **Logran** el conocimiento actualizado sobre qué áreas cercanas registran actividad sospechosa
+- **Con** un mapa interactivo que visualiza el nivel de riesgo y los reportes en tiempo real.
 
 **Hipótesis 3: Notificaciones Push Inmediatas**
-- **We believe we will achieve** una alta tasa de prevención y protección comunitaria
-- **If** los dueños y el personal operativo
-- **Attain** información oportuna sobre sospechosos merodeando su cuadra o galería
-- **With** un sistema de notificaciones push enviadas en el momento exacto del reporte.
+- **Creemos que lograremos** una alta tasa de prevención y protección comunitaria
+- **Si** los dueños y el personal operativo
+- **Logran** información oportuna sobre sospechosos merodeando su cuadra o galería
+- **Con** un sistema de notificaciones push enviadas en el momento exacto del reporte.
 
-#### 1.2.2.4. Lean UX Canvas
+#### 1.2.2.4. Lienzo Lean UX (Canvas)
 
 El siguiente Lean UX Canvas sintetiza los problemas, los segmentos de usuarios, las hipótesis y los resultados esperados para InstAlert. Este diagrama es esencial para visualizar de manera estructurada la relación entre las necesidades del negocio y las soluciones propuestas.
 
