@@ -1,8 +1,8 @@
 # Anexos
 
-* About the Team: Disponible en futuras entregas
+* Sobre el Equipo: Disponible en futuras entregas
 
-* About the Product Video: Disponible en futuras entregas
+* Video sobre el Producto: Disponible en futuras entregas
 
 ## Exposiciones del Proyecto
 
@@ -14,9 +14,9 @@
 
 * Enlace de Exposición TB2: Disponible en futuras entregas
 
-## Needfinding Interviews
+## Entrevistas de Descubrimiento de Necesidades
 
-* [Enlace general de las entrevistas de Needfinding](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBrqsJSVffgSaS2KT2RC4_yAbMjSfUL3AXeUaYltiDsDoU?e=GPJvVF)
+* [Enlace general de las entrevistas de Descubrimiento de Necesidades](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBrqsJSVffgSaS2KT2RC4_yAbMjSfUL3AXeUaYltiDsDoU?e=GPJvVF)
 * [Entrevista 1 — Segmento 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCQ3QCcLMNJTpUchqBe08G_AYlmCTa9z7RyanN0NzsO_Z4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1yOnV7)
 * [Entrevista 2 — Segmento 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBXA7xWaCu8Sp821kXGKg0eARcjMnTc_E4mKjf0QHs5Oi4?e=Aytt25&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 * [Entrevista 3 — Segmento 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDHSCAadtHiTYRuyzSdT-UsAThrPOgKm9g88x3TIRDNV8I?e=VXLFKW)
@@ -24,58 +24,58 @@
 * [Entrevista 5 — Segmento 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCl-Zw2GZYcQ6myUop36XoIAavZ2BZlRXtX72Ux2v5yuk0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NSMmm2)
 * [Entrevista 6 — Segmento 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCfz9VQv-UWTriH5euSG9nGAfmT-OcmnMkMmy8zG5tawKU?e=pNc9Mb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-## Validation Interviews
+## Entrevistas de Validación
 
-* Interview 1: Disponible en futuras entregas
+* Entrevista 1: Disponible en futuras entregas
 
-* Interview 2: Disponible en futuras entregas
+* Entrevista 2: Disponible en futuras entregas
 
-* Interview 3: Disponible en futuras entregas
+* Entrevista 3: Disponible en futuras entregas
 
-* Interview 4: Disponible en futuras entregas
+* Entrevista 4: Disponible en futuras entregas
 
-* Interview 5: Disponible en futuras entregas
+* Entrevista 5: Disponible en futuras entregas
 
-* Interview 6: Disponible en futuras entregas
+* Entrevista 6: Disponible en futuras entregas
 
-## Execution Evidence
+## Evidencia de Ejecución
 
-* Sprint 1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDDu4coMfEFS5u3PVPylCcgAWrLM56l0VTYYK_eO1OWuSk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ChGf3N>
+* Iteración 1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDDu4coMfEFS5u3PVPylCcgAWrLM56l0VTYYK_eO1OWuSk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ChGf3N>
   
-* Sprint 2: Disponible en futuras entregas
+* Iteración 2: Disponible en futuras entregas
 
-* Sprint 3: Disponible en futuras entregas
+* Iteración 3: Disponible en futuras entregas
 
-* Sprint 4: Disponible en futuras entregas
+* Iteración 4: Disponible en futuras entregas
 
-### Landing page Desplegada
+### Página de Aterrizaje Desplegada
 
 <https://losincreiblescorp.github.io/InstAlert-LandingPage/>
 
 ## Plataforma Desplegada
 
-### InstAlert Web Application
+### InstAlert Aplicación Web
 
 Disponible en futuras entregas
 
 ## Repositorios
 
-* Frontend Repository
+* Repositorio Frontend
 
 <https://github.com/instalert-startup/Instalert-FrontEnd>
 
-* Backend Repository
+* Repositorio Backend
 
 <https://github.com/LosIncreiblesCorp/Instalert-BackEnd>
 
-* Repositorio del Report:
+* Repositorio del Informe:
 
 <https://github.com/LosIncreiblesCorp/losIncreibles-project-report>
 
-* Landingpage Repository:
+* Repositorio de la Página de Aterrizaje:
 
 <https://github.com/LosIncreiblesCorp/InstAlert-LandingPage>
 
-## API Documentation
+## Documentación de API
 
-* Swagger / OpenAPI Documentation: Disponible en futuras entregas
+* Swagger / OpenDocumentación de API: Disponible en futuras entregas
