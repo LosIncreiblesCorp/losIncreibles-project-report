@@ -11,7 +11,7 @@
 - Price, M. J. (2025). *Real-world web development with .NET 10* (2nd ed.). Packt Publishing.
 - Mahdhi, M. (2025). *Mastering ASP.NET Core 10: Web applications made easy with the biggest update yet* (1st ed.). Apress.
 - Gorman, B. (2025). *Practical Entity Framework Core 10: Database access for enterprise applications* (3rd ed.). Apress.
-- Baptista, G. (2026). *Software architecture with C# 14 and .NET 10: Build enterprise applications using microservices, DevSecOps, EF Core, and design patterns for Azure* (1st ed.). Packt Publishing Limited. Capítulos 13, 16 y 20 consultados.
-- Crouse, C. (2026). *Clean architecture with .NET: Design scalable .NET applications by using Clean Architecture principles and proven patterns* (1st ed.). Apress. Capítulos 6 y 7 consultados.
+- Baptista, G. (2026). *Software architecture with C# 14 and .NET 10: Build enterprise applications using microservices, DevSecOps, EF Core, and design patterns for Azure* (1st ed.). Packt Publishing Limited. Chapters 13, 16, and 20 consulted.
+- Crouse, C. (2026). *Clean architecture with .NET: Design scalable .NET applications by using Clean Architecture principles and proven patterns* (1st ed.). Apress. Chapters 6 and 7 consulted.
 - Price, M. J. (2025). *C# 14 and .NET 10: Modern cross-platform development fundamentals* (10th ed.). Packt Publishing.
 - Price, M. J. (2026). *Apps and services with .NET 10: Build practical projects with Avalonia, Blazor, gRPC, GraphQL, and other enterprise technologies*. Packt Publishing Limited.
