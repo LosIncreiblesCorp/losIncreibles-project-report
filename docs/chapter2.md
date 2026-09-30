@@ -1,4 +1,4 @@
-# Capítulo II: Requirements Elicitation & Analysis
+# Capítulo II: Obtención y Análisis de Requisitos
 
 ## 2.1. Competidores
 
@@ -34,7 +34,7 @@
 
 ### 2.1.1. Análisis competitivo
 
-#### Competitive Analysis Landscape
+#### Panorama de Análisis Competitivo
 
 **¿Por qué llevar a cabo este análisis?**
 
@@ -44,7 +44,7 @@ Analizar a la competencia permite identificar sus estrategias, fortalezas y debi
 |---|---|---|---|---|---|
 |   |  Nombre | InstAlert | Seguridad Ciudadana App | Verisure Perú | Life360 |
 |   | Logotipo | <br><p align="center"><img src="https://i.postimg.cc/sx4QJktv/logo-Inst-Alert.jpg" alt="InstAlert" width="100"></p> | <br><p align="center"><img src="https://i.postimg.cc/90hwZmgK/Logo-Seguridad-Ciudadana-App.png" alt="Seguridad Ciudadana App" width="100"></p> |<br><p align="center"><img src="https://i.postimg.cc/KY1TysMh/Logo-Verisure.png" alt="Verisure Peru" width="100"></p> | <br><p align="center"><img src="https://i.postimg.cc/PJYznV9c/Logo-Life360.png" alt="Life360" width="100"></p> 
-| **Perfil** | Overview | Aplicación web (PWA) de seguridad comercial orientada a la prevención y respuesta rápida ante robos, hurtos y extorsiones. Conecta en tiempo real a administradores, dueños y personal de ventas mediante alertas silenciosas, mapas de calor dinámicos y un canal de comunicación directo entre locales vecinos. | Solución tecnológica privada (desarrollada por UC-WEB.COM S.A.C.) bajo modelo B2G, contratada por municipalidades para digitalizar el reporte de emergencias e incidentes ciudadanos mediante herramientas de alerta, geolocalización y comunicación con entidades públicas de seguridad. | Empresa privada de seguridad monitoreada con más de 35 años de trayectoria. Ofrece sistemas de alarma físicos con sensores, sirena y botón antiatraco conectados a una Central Receptora de Alarmas (CRA) 24/7 con aviso a la PNP y Serenazgo. | Aplicación global de seguridad y geolocalización familiar que permite rastrear en tiempo real a los integrantes de un "Círculo" cerrado de confianza, con herramientas automatizadas de emergencia y detección de incidentes vehiculares. |
+| **Perfil** | Descripción general | Aplicación web (PWA) de seguridad comercial orientada a la prevención y respuesta rápida ante robos, hurtos y extorsiones. Conecta en tiempo real a administradores, dueños y personal de ventas mediante alertas silenciosas, mapas de calor dinámicos y un canal de comunicación directo entre locales vecinos. | Solución tecnológica privada (desarrollada por UC-WEB.COM S.A.C.) bajo modelo B2G, contratada por municipalidades para digitalizar el reporte de emergencias e incidentes ciudadanos mediante herramientas de alerta, geolocalización y comunicación con entidades públicas de seguridad. | Empresa privada de seguridad monitoreada con más de 35 años de trayectoria. Ofrece sistemas de alarma físicos con sensores, sirena y botón antiatraco conectados a una Central Receptora de Alarmas (CRA) 24/7 con aviso a la PNP y Serenazgo. | Aplicación global de seguridad y geolocalización familiar que permite rastrear en tiempo real a los integrantes de un "Círculo" cerrado de confianza, con herramientas automatizadas de emergencia y detección de incidentes vehiculares. |
 | | Ventaja competitiva / ¿Qué valor ofrece a los clientes? | Unifica la prevención y la reacción en el entorno comercial. Alerta rápida en segundos sin requerir descarga de apps pesadas. Promueve el apoyo mutuo y la red de comunicación inmediata entre comercios vecinos para romper el aislamiento delictivo. | Especialización en gestión pública (PEI/POI) con implementación rápida "llave en mano". Garantiza estabilidad en un entorno de plataforma cerrada sin requerir infraestructura propia por parte del municipio contratante. | Monitoreo profesional permanente respaldado por más de 800 especialistas, tiempo de reacción ante intrusión declarado <60s e integración de hardware físico (fotodetectores, sirenas). | Ecosistema tecnológico robusto, alcance internacional, interfaz intuitiva y funciones avanzadas como la detección automática de accidentes vehiculares. |
 | **Perfil de Marketing** | Mercado objetivo | Dueños y administradores de establecimientos comerciales en corredores de riesgo medio-alto. | Gobiernos locales, municipalidades distritales y provinciales que requieren digitalizar su gestión de seguridad ciudadana bajo un modelo institucional (B2G). | Hogares y negocios formales (bodegas, tiendas, oficinas) con capacidad de pago para contratar un servicio de seguridad monitoreada profesional en su zona de cobertura. | Círculos familiares (padres, hijos, adultos mayores) y grupos privados o comunidades que buscan visibilidad constante de su entorno cercano. |
 | | Estrategias de marketing | Venta B2B directa abordando a asociaciones de comerciantes y administradores de galerías y centros comerciales. Demostraciones del sistema de alertas tempranas y mapas de calor en vivo. | Enfoque institucional resaltando valor político y cumplimiento de metas municipales. Marketing directo B2G a través de licitaciones y exposición de métricas de respuesta. | Venta directa mediante asesores comerciales, cotización personalizada en su sitio web y promociones periódicas de descuento sobre el precio de catálogo. | Liderazgo en SEO/ASO en tiendas de aplicaciones, marketing masivo en redes sociales y colaboraciones con medios sobre historias de éxito en seguridad familiar. |
@@ -237,9 +237,9 @@ Las tres entrevistas registradas muestran un patrón consistente: el 100% de los
 > **Nota:** Los porcentajes se calculan sobre el total de entrevistas completas por segmento (n=3 para Administradores y dueños, n=3 para Personal operativo).
 
 
-## 2.3. Needfinding
+## 2.3. Descubrimiento de Necesidades
 
-### 2.3.1. User Personas
+### 2.3.1. Arquetipos de Usuario (User Personas)
 
 En esta sección se presentan las fichas de User Persona, construidas a partir de los patrones de comportamiento y necesidades identificados en el análisis de entrevistas, así como de las oportunidades de mejora detectadas en el análisis de la competencia. Estos arquetipos sintetizan la información demográfica, las motivaciones, las frustraciones y las dinámicas operativas de nuestros dos nuevos segmentos objetivos B2B. La definición precisa de estos perfiles garantiza que el diseño de las funcionalidades de InstAlert —como la red de alertas, el botón de pánico y los mapas de riesgo— responda directamente a las urgencias reales de quienes administran y operan establecimientos comerciales en zonas de riesgo medio-alto.
 
@@ -266,9 +266,9 @@ Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sha
 
 
 
-### 2.3.2. User Task Matrix
+### 2.3.2. Matriz de Tareas del Usuario
 
-En esta sección se presenta el User Task Matrix, una herramienta que concentra y evalúa las tareas cotidianas que realizan nuestros dos segmentos objetivo (Administradores/dueños de locales comerciales y Personal operativo/vendedores) para cumplir sus objetivos de seguridad y operatividad. Es fundamental destacar que estas tareas representan acciones del mundo real, independientes de cualquier solución de software, orientadas a la prevención de riesgos, la gestión del negocio y la reacción ante emergencias.
+En esta sección se presenta la Matriz de Tareas del Usuario, una herramienta que concentra y evalúa las tareas cotidianas que realizan nuestros dos segmentos objetivo (Administradores/dueños de locales comerciales y Personal operativo/vendedores) para cumplir sus objetivos de seguridad y operatividad. Es fundamental destacar que estas tareas representan acciones del mundo real, independientes de cualquier solución de software, orientadas a la prevención de riesgos, la gestión del negocio y la reacción ante emergencias.
 
 A continuación, se detalla la matriz unificada, evaluando la frecuencia (Alta, Media, Baja) y la importancia (Alta, Media, Baja) de cada tarea para ambos arquetipos.
 
@@ -291,9 +291,9 @@ Entre las **coincidencias principales**, destaca que ambos arquetipos otorgan un
 
 En cuanto a las **diferencias**, el Administrador (Carlos) asume un rol mucho más preventivo y estratégico. Tareas como coordinar acciones con comerciantes vecinos, establecer protocolos internos e indagar sobre incidentes en la zona tienen una alta frecuencia e importancia para él, ya que busca proteger su inversión a largo plazo. Por su parte, el Personal Operativo (Lucía) tiene una participación baja en la coordinación comunitaria y el diseño de protocolos, enfocando su frecuencia diaria (High) en tareas tácticas como alertar inmediatamente sobre personas sospechosas y ejecutar de forma segura el cuadre de caja al finalizar el turno.
 
-### 2.3.3. User Journey Mapping
+### 2.3.3. Mapeo del Viaje del Usuario
 
-En esta sección se presentan los User Journey Maps en su estado actual (*As-Is*), los cuales ilustran el recorrido y la experiencia cotidiana de nuestros User Personas frente a la gestión de la seguridad comercial, previo a la existencia de la solución InstAlert. El *end-to-end journey* documentado abarca desde el inicio de la jornada laboral y la apertura del establecimiento, pasando por la gestión de situaciones sospechosas durante el día de ventas, hasta el momento más crítico: el cierre del local y el cuadre de caja.
+En esta sección se presentan los Mapas del Viaje del Usuario en su estado actual, los cuales ilustran el recorrido y la experiencia cotidiana de nuestros Arquetipos de Usuario frente a la gestión de la seguridad comercial, previo a la existencia de la solución InstAlert. El *viaje de extremo a extremo* documentado abarca desde el inicio de la jornada laboral y la apertura del establecimiento, pasando por la gestión de situaciones sospechosas durante el día de ventas, hasta el momento más crítico: el cierre del local y el cuadre de caja.
 
 A través de estos mapas, se detallan las acciones, puntos de contacto, curvas emocionales y principales puntos de fricción (*pain points*) que enfrentan los usuarios al depender de herramientas preventivas informales (como llamadas telefónicas o grupos de WhatsApp saturados) y al lidiar con la respuesta tardía de las fuerzas del orden.
 
@@ -306,7 +306,7 @@ El recorrido actual de Carlos (Administrador) refleja la tensión constante por 
   <img src="../assets/Chapter2/Graphics/User Journey Map (As-Is) — Carlos Mendoza.png" alt="Journey Map Carlos" width="600">
 </p>
 
-*Nota.* User Journey Map (As-Is) correspondiente a Carlos Mendoza, detallando las deficiencias actuales en la comunicación comunitaria y la prevención de riesgos patrimoniales. 
+*Nota.* Mapa del Viaje del Usuario (Actual) correspondiente a Carlos Mendoza, detallando las deficiencias actuales en la comunicación comunitaria y la prevención de riesgos patrimoniales. 
 
 Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQAi5yEOjEfcSrTiz1lkXRmxAf36hc46eDHQ8h4yuP-KBLU?e=mU7gbU  
 
@@ -320,18 +320,18 @@ El recorrido de Lucía (Vendedora) evidencia la vulnerabilidad de estar en la "p
 </p>
 
 
-*Nota.* User Journey Map (As-Is) correspondiente a Lucía Ramírez, ilustrando la alta exposición al peligro físico y la ausencia de herramientas eficaces para emitir alertas tempranas de emergencia.
+*Nota.* Mapa del Viaje del Usuario (Actual) correspondiente a Lucía Ramírez, ilustrando la alta exposición al peligro físico y la ausencia de herramientas eficaces para emitir alertas tempranas de emergencia.
 
 Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQArn7UEL-1DS5nQpb6rwbepAe2pD0AMZ6bodVM1IOl4JQ4?e=tVh6ar
 
 
-### 2.3.4. Empathy Mapping
+### 2.3.4. Mapeo de Empatía
 
-En esta sección, el equipo resume el proceso de elaboración y presenta los Empathy Maps construidos para cada uno de los User Personas de InstAlert. Para su desarrollo, seguimos una metodología estructurada que inició con la fase de preparación, ubicando al User Persona correspondiente en el centro del análisis. 
+En esta sección, el equipo resume el proceso de elaboración y presenta los Mapas de Empatía construidos para cada uno de los Arquetipos de Usuario de InstAlert. Para su desarrollo, seguimos una metodología estructurada que inició con la fase de preparación, ubicando al Arquetipo de Usuario correspondiente en el centro del análisis. 
 
 A partir de los hallazgos de las entrevistas, los miembros del equipo organizaron sus observaciones en los diferentes cuadrantes de la herramienta de diseño, respondiendo a las siguientes preguntas clave para generar empatía real: ¿Con quién estamos empatizando?, ¿Qué necesita hacer?, ¿Qué está diciendo?, ¿Qué está viendo?, ¿Qué está haciendo?, ¿Qué está escuchando? y ¿Cómo se siente y qué piensa? 
 
-Finalmente, se sintetizaron los "Pains" (frustraciones) y "Gains" (ganancias), respondiendo puntualmente a: ¿Qué le preocupa?, ¿Qué puede ayudar a resolver sus problemas? y ¿Qué puede convencerlo de que InstAlert es la alternativa correcta frente a la inseguridad?
+Finalmente, se sintetizaron los "Dolores" (Pains) y "Ganancias" (Gains), respondiendo puntualmente a: ¿Qué le preocupa?, ¿Qué puede ayudar a resolver sus problemas? y ¿Qué puede convencerlo de que InstAlert es la alternativa correcta frente a la inseguridad?
 
 **Segmento 1: Administradores y dueños de locales comerciales**
 
@@ -341,9 +341,9 @@ El mapa de empatía de Carlos se enfoca en su preocupación constante por la ext
   <img src="../assets/Chapter2/Graphics/Empathy Map — Carlos Mendoza.png" alt="Empathy Map Carlos Mendoza" width="600">
 </p>
 
-*Nota.* Empathy Map correspondiente al Segmento 1, detallando sus percepciones del entorno delictivo y sus motivaciones para adoptar una red de seguridad comercial.
+*Nota.* Mapa de Empatía correspondiente al Segmento 1, detallando sus percepciones del entorno delictivo y sus motivaciones para adoptar una red de seguridad comercial.
 
-Para una mejor visualización de los detalles en los Empathy Maps de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQD3ELST12cFTr--zEcLz38fAZiaGTca7_Ermms7NRMGXdw?e=4dBE0U 
+Para una mejor visualización de los detalles en los Mapas de Empatía de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQD3ELST12cFTr--zEcLz38fAZiaGTca7_Ermms7NRMGXdw?e=4dBE0U 
 
 **Segmento 2: Personal operativo y vendedores de establecimientos comerciales**
 
@@ -354,24 +354,24 @@ El mapa de empatía de Lucía ilustra la tensión y el estrés de trabajar en la
   <img src="../assets/Chapter2/Graphics/Empathy Map — Lucía Ramírez.png" alt="Empathy Map Lucía Ramírez " width="600">
 </p>
 
-*Nota.* Empathy Map correspondiente al Segmento 2, reflejando su exposición al peligro y la necesidad de mecanismos de reacción inmediata como el botón de pánico.
+*Nota.* Mapa de Empatía correspondiente al Segmento 2, reflejando su exposición al peligro y la necesidad de mecanismos de reacción inmediata como el botón de pánico.
 
-Para una mejor visualización de los detalles en los Empathy Maps de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQBWuhKmJ_CMQ7bAMoxt3xEYAXMtY3bwDXpgiUX4rZLLE0A?e=OCTcQA 
+Para una mejor visualización de los detalles en los Mapas de Empatía de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQBWuhKmJ_CMQ7bAMoxt3xEYAXMtY3bwDXpgiUX4rZLLE0A?e=OCTcQA 
 
-## 2.4. Big Picture EventStorming
+## 2.4. Event Storming de Panorama General
 
-El equipo llevó a cabo una sesión colaborativa de Big Picture Event Storming con el objetivo de comprender integralmente el nuevo dominio de negocio de InstAlert bajo el modelo SaaS B2B. Esta técnica permitió mapear el flujo completo de la solución, desde la adquisición de planes de suscripción hasta la gestión diaria y la resolución de incidentes en los establecimientos comerciales. A través de este proceso, logramos una aproximación visual de alto nivel que alineó la visión técnica con las necesidades operativas y de seguridad de nuestros dos segmentos clave: Administradores/dueños y Personal operativo. Además, permitió identificar procesos críticos, dependencias y potenciales oportunidades de mejora en la red de seguridad comercial.
+El equipo llevó a cabo una sesión colaborativa de Event Storming de Panorama General con el objetivo de comprender integralmente el nuevo dominio de negocio de InstAlert bajo el modelo SaaS B2B. Esta técnica permitió mapear el flujo completo de la solución, desde la adquisición de planes de suscripción hasta la gestión diaria y la resolución de incidentes en los establecimientos comerciales. A través de este proceso, logramos una aproximación visual de alto nivel que alineó la visión técnica con las necesidades operativas y de seguridad de nuestros dos segmentos clave: Administradores/dueños y Personal operativo. Además, permitió identificar procesos críticos, dependencias y potenciales oportunidades de mejora en la red de seguridad comercial.
 
-### 2.4.1. Etapas del Big Picture Event Storming
+### 2.4.1. Etapas del Event Storming de Panorama General
 
-#### 2.4.1.1. Generación de Eventos de Dominio (Domain Events)
+#### 2.4.1.1. Generación de Eventos de Dominio
 
 En esta fase inicial, el equipo se enfocó en identificar todos los hechos significativos que ocurren dentro del ecosistema de InstAlert. Siguiendo la convención de la metodología, estos eventos se plasmaron en notas adhesivas de color naranja y se redactaron en tiempo pasado, reflejando acciones ya concretadas. 
 Para nuestro enfoque B2B, se identificaron eventos clave como *Suscripción SaaS adquirida*, *Personal operativo registrado*, *Cierre de caja iniciado*, *Alerta de extorsión emitida*, y *Botón de pánico silencioso activado*. Esta etapa permitió visibilizar la complejidad de la gestión del negocio y la interacción comunitaria sin restricciones de orden cronológico.
 
 <p align="center">
   <img src="../assets/Chapter2/Graphics/Domain Events.png" alt="Generación de Eventos de Dominio" width="450"><br>
-  *Nota.* Generación de eventos de dominio del Big Picture Event Storming de InstAlert para el entorno comercial.
+  *Nota.* Generación de eventos de dominio del Event Storming de Panorama General de InstAlert para el entorno comercial.
 </p>
 
 #### 2.4.1.2. Ordenamiento Cronológico y Flujo de Trabajo
@@ -380,7 +380,7 @@ Una vez generados los eventos de dominio, se procedió a organizarlos en una lí
 
 <p align="center">
   <img src="../assets/Chapter2/Graphics/Flujo.png" alt="Ordenamiento Cronológico y Flujo de Trabajo" width="450"><br>
-  *Nota.* Ordenamiento cronológico y estructuración de flujos preventivos y reactivos del Big Picture Event Storming.
+  *Nota.* Ordenamiento cronológico y estructuración de flujos preventivos y reactivos del Event Storming de Panorama General.
 </p>
 
 #### 2.4.1.3. Identificación de Actores y Sistemas Externos
@@ -394,9 +394,9 @@ Para otorgar el contexto necesario a la secuencia de eventos, se añadieron capa
   *Nota.* Identificación de los actores comerciales y las integraciones tecnológicas externas requeridas por el sistema.
 </p>
 
-#### 2.4.1.4. Storytelling y Validación (Reverse Storytelling)
+#### 2.4.1.4. Narración y Validación (Reverse Storytelling)
 
-Finalmente, el equipo realizó una lectura crítica del mapa completo. Al narrar la historia de forma inversa (Reverse Storytelling), se validó la coherencia lógica del dominio. Durante esta etapa se utilizaron notas adhesivas de color rosado para marcar los "Puntos de Dolor" (Pain Points) o riesgos del sistema. 
+Finalmente, el equipo realizó una lectura crítica del mapa completo. Al narrar la historia de forma inversa (Reverse Storytelling), se validó la coherencia lógica del dominio. Durante esta etapa se utilizaron notas adhesivas de color rosado para marcar los "Puntos de Dolor" o riesgos del sistema. 
 En nuestro contexto comercial, se identificaron vulnerabilidades como la *falsa activación de alertas por parte de empleados nuevos*, *fallos en la renovación automática de la suscripción*, y la *pérdida de conectividad a internet dentro de almacenes o sótanos del local*. Esta etapa garantizó el diseño de contingencias para que el sistema sea robusto y confiable en situaciones de estrés comercial real.
 
 <p align="center">
@@ -404,7 +404,7 @@ En nuestro contexto comercial, se identificaron vulnerabilidades como la *falsa 
   *Nota.* Proceso de Reverse Storytelling para la validación lógica y detección de puntos de dolor en el sistema.
 </p>
 
-## 2.5. Ubiquitous Language
+## 2.5. Lenguaje Ubicuo
 
 | Término (Inglés) | Definición |
 | :--- | :--- |
@@ -419,4 +419,4 @@ En nuestro contexto comercial, se identificaron vulnerabilidades como la *falsa 
 | Emergency Contacts (Contactos de emergencia) | Lista predefinida de personas clave (dueños, administradores o gerentes de locales vecinos) designadas para recibir notificaciones inmediatas ante la activación de un botón de pánico. |
 | Security Authorities (Autoridades de seguridad) | Entidades encargadas del orden público (Policía Nacional, Serenazgo), con las cuales los comercios buscan articular una respuesta rápida ante emergencias validadas. |
 
-**Nota:** Lenguaje ubicuo (Ubiquitous Language) de InstAlert adaptado al entorno comercial (B2B), que define los principales términos del dominio utilizados para evitar ambigüedades y mantener una comunicación consistente entre los stakeholders y el equipo de desarrollo.
+**Nota:** Lenguaje Ubicuo de InstAlert adaptado al entorno comercial (B2B), que define los principales términos del dominio utilizados para evitar ambigüedades y mantener una comunicación consistente entre los participantes del proyecto y el equipo de desarrollo.
