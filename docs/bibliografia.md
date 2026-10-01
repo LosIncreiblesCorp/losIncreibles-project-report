@@ -3,6 +3,8 @@
 - Centro Nacional de Planeamiento Estratégico [CEPLAN]. (s.f.). *Crecimiento en el acceso a tecnologías de la información a través de los teléfonos inteligentes (Smartphones)*. Observatorio Nacional de Prospectiva. https://observatorio.ceplan.gob.pe/ficha/t70
 - Ministerio de la Producción [PRODUCE]. (s.f.). *Las MYPE que se digitalizan tienen el potencial de incrementar sus ventas hasta en un 25%*. Plataforma digital única del Estado Peruano. https://www.gob.pe/institucion/produce/noticias/1419753-las-mype-que-se-digitializan-tienen-el-potencial-de-incrementar-sus-ventas-hasta-en-un-25
 - Ríos, F. J. C. (2024). *Delito de extorsión por cobro de cupos y su afectación económica en las empresas emergentes del emporio comercial de Gamarra, 2023-2024* [Tesis de maestría, Universidad César Vallejo]. Repositorio Institucional UCV. https://hdl.handle.net/20.500.12692/170985
+- Instituto Nacional de Estadística e Informática. (2026). *Perú: Victimización Empresarial, 2023*. https://www.gob.pe/institucion/inei/informes-publicaciones/8071670-peru-victimizacion-empresarial-2023
+- Perez-Vincent, S. M., Puebla, D., Alvarado, N., Mejía, L., Cadena, X., Higuera, S., & Niño, J. D. (2024). *Los costos del crimen y la violencia: ampliación y actualización de las estimaciones para América Latina y el Caribe*. https://doi.org/10.18235/0013238
 
 - Camden, R., Di Francesco, H., Gurney, C., & Shavin, M. (2023). *Frontend development projects with Vue.js 3* (2nd ed.). Packt Publishing.
 - Cuomo, S., & Lee, T. (2024). *Vue.js 3 for beginners: Learn the essentials of Vue.js 3 and its ecosystem to build modern web applications* (1st ed.). Packt Publishing.
