@@ -1,9 +1,9 @@
-# Capítulo V: Implementación, Validación y Despliegue del Producto
+# Capítulo V: Product Implementation, Validation & Deployment
 
-## 5.1. Gestión de Configuración de Software
+## 5.1. Software Configuration Management.
 La Gestión de Configuración de Software (SCM) es una disciplina del desarrollo de software que permite identificar, controlar y realizar un seguimiento de los diferentes componentes de un sistema durante todo su ciclo de vida. Su aplicación facilita la organización y administración de los cambios realizados en el código, documentos y demás elementos del proyecto, contribuyendo a un proceso de desarrollo más ordenado y eficiente. De esta manera, busca optimizar el trabajo del equipo y reducir la posibilidad de errores (Martin, 2023).
 
-### 5.1.1. Configuración del Entorno de Desarrollo de Software
+### 5.1.1. Software Development Environment Configuration.
 A continuación se listan los productos de software utilizados por el equipo, organizados por tipo de actividad del ciclo de vida. Para cada herramienta se indica su propósito y la ruta de referencia o descarga.
 
 **1. Gestión de Proyectos**
@@ -247,7 +247,7 @@ Markdown será utilizado para la elaboración y estructuración de la documentac
   <img src="https://imgur.com/izshdNe.png" alt="Markdown + Visual Studio Code" width="250">
 </p>
 
-### 5.1.2. Gestión de Código Fuente
+### 5.1.2. Source Code Management.
 
 La administración del código fuente es un pilar esencial para el trabajo colaborativo en el desarrollo de InstAlert. En este apartado se define el modelo de organización y control de versiones utilizado por el equipo mediante GitHub y el flujo de trabajo GitFlow. Esta configuración permite mantener el código fuente y la documentación estructurados, trazables y organizados durante el ciclo de vida del proyecto.
 
@@ -335,7 +335,7 @@ Los principales tipos utilizados por el equipo son:
 * `chore`: Cambios de configuración, mantenimiento o tareas auxiliares que no afectan directamente una funcionalidad del producto.  
   Ejemplo: `chore(repo): update project configuration`
 
-### 5.1.3. Guía de Estilo de Código Fuente y Convenciones de Codificación
+### 5.1.3. Source Code Style Guide & Conventions.
 
 En esta sección, el equipo define las normativas y directrices de codificación que se aplicarán a lo largo del desarrollo de la solución. El objetivo principal es estandarizar la escritura del código en HTML, CSS, JavaScript y C#, asegurando que sea legible, mantenible y escalable. 
 
@@ -446,7 +446,7 @@ Se aplicará en el desarrollo de los Servicios Web y la lógica del lado del ser
   <img src="https://imgur.com/yeEElyR.png" alt="C# Conventions" width="250">
 </p>
 
-### 5.1.4. Configuración de Despliegue de Software
+### 5.1.4. Software Deployment Configuration.
 
 En esta sección se describe la estrategia de despliegue definida para los productos que conforman la solución InstAlert. Debido a que el alcance del Iteración 1 contempla principalmente el desarrollo y publicación de la Página de Aterrizaje, actualmente este es el único componente desplegado en un entorno de producción. El despliegue de la Frontend Aplicación Web y los Servicios Web se realizará en iteraciones posteriores, de acuerdo con el avance del proyecto.
 
@@ -487,13 +487,13 @@ Una vez que los Servicios Web se encuentren desplegados, sus puntos de enlace se
 
 * **Estado actual:** Pendiente de implementación y despliegue.
 * **URL de Producción (API):** No disponible en el Iteración 1.
-## 5.2. Página de Aterrizaje, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation.
 
-### 5.2.1. Iteración 1
+### 5.2.1. Sprint 1
 
 En este primer iteración se desarrolló la página de aterrizaje y la documentación inicial del proyecto InstAlert.
 
-#### 5.2.1.1. Planificación de Iteración 1
+#### 5.2.1.1. Sprint Planning 1.
 
 | Iteración # | Iteración 1 |
 | :--- | :--- |
@@ -512,7 +512,7 @@ En este primer iteración se desarrolló la página de aterrizaje y la documenta
 
 **Nota:** Cuadro resumen que detalla la planificación estratégica, las metas establecidas, los resultados obtenidos y las métricas de esfuerzo correspondientes al Iteración 1 de InstAlert.
 
-#### 5.2.1.2. Líderes de Aspectos y Colaboradores
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
 | Miembro del Equipo | Nombre de Usuario de GitHub | Página de Aterrizaje | Diseño UI/UX | Documentación |
 | :--- | :--- | :--- | :--- | :--- |
@@ -524,7 +524,7 @@ En este primer iteración se desarrolló la página de aterrizaje y la documenta
 
 **Nota:** Distribución de responsabilidades de los integrantes del equipo durante el Iteración 1, indicando el liderazgo y la colaboración en las principales áreas de trabajo.
 
-#### 5.2.1.3. Pila de Iteración 1
+#### 5.2.1.3. Sprint Backlog 1.
 
 | ID de Historia de Usuario | Título de Historia de Usuario | Puntos de Historia | Estado |
 | :--- | :--- | :---: | :--- |
@@ -541,7 +541,7 @@ En este primer iteración se desarrolló la página de aterrizaje y la documenta
   <img src="../assets/Chapter5/jira-iteración-1.png" alt="Evidencia del Iteración 1 en Jira" width="800">
 </p>
 
-#### 5.2.1.4. Evidencia de Desarrollo para Revisión de Iteración
+#### 5.2.1.4. Development Evidence for Sprint Review.
 
 Esta sección expone la evidencia técnica del progreso alcanzado durante el presente iteración con relación a los productos de la solución definidos en el alcance. Se resumen los principales avances en la implementación a través de un registro detallado de las modificaciones en el código fuente. A continuación, se presenta una tabla que incluye los repositorios y sus respectivos confirmaciones, documentando el desarrollo estructural, la integración de contenido y la configuración para la Página de Aterrizaje de InstAlert.
 
@@ -554,7 +554,7 @@ Esta sección expone la evidencia técnica del progreso alcanzado durante el pre
 | nahiryn8/InstAlert-LandingPage | feature/cierre | e6cc66e | docs(cierre): add help center and legal documentation pdfs | Uploaded the necessary legal assets (Privacy Policy, Terms of Service) and Help Center documentation, linking them directly in the site footer. | 13/09/2026 |
 | DhudsQ/InstAlert-LandingPage | main | b54c82e | chore: integración iteración 1 features and trigger deployment |
 
-#### 5.2.1.5. Evidencia de Ejecución para Revisión de Iteración
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Durante el transcurso del Iteración 1, el esfuerzo de desarrollo se centró en la construcción y despliegue de la Página de Aterrizaje oficial de InstAlert. Se completaron las historias US-13, US-14, US-15, US-29 y US-30, correspondientes a la propuesta de valor, los planes de precios, los testimonios, el funcionamiento y las preguntas frecuentes.
 
@@ -606,7 +606,7 @@ A continuación, se presentan las capturas de pantalla que evidencian las princi
 
 **Video del Revisión de Iteración:** [Ver video del Revisión de Iteración del Iteración 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDDu4coMfEFS5u3PVPylCcgAWrLM56l0VTYYK_eO1OWuSk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ChGf3N)
 
-#### 5.2.1.6. Evidencia de Documentación de Servicios para Revisión de Iteración
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Durante el presente Iteración, los objetivos del equipo se centraron exclusivamente en la ideación, diseño y desarrollo de la Página de Aterrizaje de InstAlert. 
 
@@ -622,7 +622,7 @@ En futuras entregas, esta sección se actualizará para incluir estrictamente lo
 * Capturas de pantalla que evidencien la interacción funcional con la API a través de la interfaz de Swagger UI, empleando datos de muestra.
 * El enlace directo al repositorio de Servicios Web, junto con el registro de los IDs de los confirmaciones asociados exclusivamente a la elaboración de la documentación.
 
-#### 5.2.1.7. Evidencia de Despliegue de Software para Revisión de Iteración
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 Durante el Iteración 1, los esfuerzos del equipo se centraron en configurar y ejecutar el despliegue inicial de la Página de Aterrizaje de InstAlert. Este proceso garantizó que la propuesta de valor del producto esté accesible públicamente, sentando además las bases para la integración continua. 
 
@@ -659,7 +659,7 @@ Dado que el alcance de esta iteración se limitó a la presentación web estáti
   <img src="https://imgur.com/AHKZXk4.png" alt="Inicio y Hero Section" width="500">
 </p>
 
-#### 5.2.1.8. Perspectivas de Colaboración del Equipo durante la Iteración
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 Durante este primer Iteración, el equipo se dedicó integralmente a la concepción, diseño e implementación de la Página de Aterrizaje de InstAlert. Para cumplir con los objetivos trazados, las responsabilidades se dividieron de forma equitativa, asegurando que todos los miembros del equipo tuvieran participación activa y directa en el desarrollo del código fuente, la maquetación y la lógica de la interfaz.
 

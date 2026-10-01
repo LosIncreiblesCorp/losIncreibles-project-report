@@ -1,4 +1,4 @@
-# Capítulo II: Obtención y Análisis de Requisitos
+# Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
@@ -237,9 +237,9 @@ Las tres entrevistas registradas muestran un patrón consistente: el 100% de los
 > **Nota:** Los porcentajes se calculan sobre el total de entrevistas completas por segmento (n=3 para Administradores y dueños, n=3 para Personal operativo).
 
 
-## 2.3. Descubrimiento de Necesidades
+## 2.3. Needfinding.
 
-### 2.3.1. Arquetipos de Usuario (User Personas)
+### 2.3.1. User Personas.
 
 En esta sección se presentan las fichas de User Persona, construidas a partir de los patrones de comportamiento y necesidades identificados en el análisis de entrevistas, así como de las oportunidades de mejora detectadas en el análisis de la competencia. Estos arquetipos sintetizan la información demográfica, las motivaciones, las frustraciones y las dinámicas operativas de nuestros dos nuevos segmentos objetivos B2B. La definición precisa de estos perfiles garantiza que el diseño de las funcionalidades de InstAlert —como la red de alertas, el botón de pánico y los mapas de riesgo— responda directamente a las urgencias reales de quienes administran y operan establecimientos comerciales en zonas de riesgo medio-alto.
 
@@ -266,7 +266,7 @@ Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sha
 
 
 
-### 2.3.2. Matriz de Tareas del Usuario
+### 2.3.2. User Task Matrix.
 
 En esta sección se presenta la Matriz de Tareas del Usuario, una herramienta que concentra y evalúa las tareas cotidianas que realizan nuestros dos segmentos objetivo (Administradores/dueños de locales comerciales y Personal operativo/vendedores) para cumplir sus objetivos de seguridad y operatividad. Es fundamental destacar que estas tareas representan acciones del mundo real, independientes de cualquier solución de software, orientadas a la prevención de riesgos, la gestión del negocio y la reacción ante emergencias.
 
@@ -291,7 +291,7 @@ Entre las **coincidencias principales**, destaca que ambos arquetipos otorgan un
 
 En cuanto a las **diferencias**, el Administrador (Carlos) asume un rol mucho más preventivo y estratégico. Tareas como coordinar acciones con comerciantes vecinos, establecer protocolos internos e indagar sobre incidentes en la zona tienen una alta frecuencia e importancia para él, ya que busca proteger su inversión a largo plazo. Por su parte, el Personal Operativo (Lucía) tiene una participación baja en la coordinación comunitaria y el diseño de protocolos, enfocando su frecuencia diaria (High) en tareas tácticas como alertar inmediatamente sobre personas sospechosas y ejecutar de forma segura el cuadre de caja al finalizar el turno.
 
-### 2.3.3. Mapeo del Viaje del Usuario
+### 2.3.3. User Journey Mapping.
 
 En esta sección se presentan los Mapas del Viaje del Usuario en su estado actual, los cuales ilustran el recorrido y la experiencia cotidiana de nuestros Arquetipos de Usuario frente a la gestión de la seguridad comercial, previo a la existencia de la solución InstAlert. El *viaje de extremo a extremo* documentado abarca desde el inicio de la jornada laboral y la apertura del establecimiento, pasando por la gestión de situaciones sospechosas durante el día de ventas, hasta el momento más crítico: el cierre del local y el cuadre de caja.
 
@@ -325,7 +325,7 @@ El recorrido de Lucía (Vendedora) evidencia la vulnerabilidad de estar en la "p
 Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQArn7UEL-1DS5nQpb6rwbepAe2pD0AMZ6bodVM1IOl4JQ4?e=tVh6ar
 
 
-### 2.3.4. Mapeo de Empatía
+### 2.3.4. Empathy Mapping.
 
 En esta sección, el equipo resume el proceso de elaboración y presenta los Mapas de Empatía construidos para cada uno de los Arquetipos de Usuario de InstAlert. Para su desarrollo, seguimos una metodología estructurada que inició con la fase de preparación, ubicando al Arquetipo de Usuario correspondiente en el centro del análisis. 
 
@@ -358,7 +358,7 @@ El mapa de empatía de Lucía ilustra la tensión y el estrés de trabajar en la
 
 Para una mejor visualización de los detalles en los Mapas de Empatía de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQBWuhKmJ_CMQ7bAMoxt3xEYAXMtY3bwDXpgiUX4rZLLE0A?e=OCTcQA 
 
-## 2.4. Event Storming de Panorama General
+## 2.4. Big Picture EventStorming.
 
 El equipo llevó a cabo una sesión colaborativa de Event Storming de Panorama General con el objetivo de comprender integralmente el nuevo dominio de negocio de InstAlert bajo el modelo SaaS B2B. Esta técnica permitió mapear el flujo completo de la solución, desde la adquisición de planes de suscripción hasta la gestión diaria y la resolución de incidentes en los establecimientos comerciales. A través de este proceso, logramos una aproximación visual de alto nivel que alineó la visión técnica con las necesidades operativas y de seguridad de nuestros dos segmentos clave: Administradores/dueños y Personal operativo. Además, permitió identificar procesos críticos, dependencias y potenciales oportunidades de mejora en la red de seguridad comercial.
 
@@ -404,7 +404,7 @@ En nuestro contexto comercial, se identificaron vulnerabilidades como la *falsa 
   *Nota.* Proceso de Reverse Storytelling para la validación lógica y detección de puntos de dolor en el sistema.
 </p>
 
-## 2.5. Lenguaje Ubicuo
+## 2.5. Ubiquitous Language.
 
 | Término (Inglés) | Definición |
 | :--- | :--- |

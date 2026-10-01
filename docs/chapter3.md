@@ -1,6 +1,6 @@
-# Capítulo III: Especificación de Requisitos
+# Capítulo III: Requirements Specification
 
-## 3.1. Historias de Usuario
+## 3.1. User Stories.
 
 En esta sección se definen los requisitos funcionales del proyecto InstAlert utilizando Épicas e Historias de Usuario. Los criterios de aceptación están redactados siguiendo la estructura Gherkin (Dado-Cuando-Entonces), redactados en tiempo presente, tercera persona y sin referenciar elementos específicos de la interfaz gráfica, tal como establece rigurosamente la rúbrica.
 
@@ -54,7 +54,7 @@ Se han definido las siguientes Épicas:
 | US16 | Autenticación basada en JWT | Como Desarrollador, deseo implementar autenticación JWT en los endpoints, para asegurar que solo usuarios autorizados realicen operaciones críticas. | **Escenario 1: Protección de endpoints con JWT**<br>_Dado_ que la API recibe una solicitud a un endpoint protegido<br>_Cuando_ la solicitud incluye un JWT válido en el encabezado de Autorización<br>_Entonces_ el sistema autentica la solicitud exitosamente<br>_Y_ procesa la operación solicitada.<br><br>**Escenario 2: Rechazo por JWT inválido o expirado**<br>_Dado_ que la API recibe una solicitud a un endpoint protegido<br>_Cuando_ la solicitud incluye un JWT inválido, manipulado o expirado<br>_Entonces_ el sistema rechaza la solicitud<br>_Y_ retorna un código HTTP 401 Unauthorized. | EP07 |
 | US17 | Endpoint de creación de alertas | Como Desarrollador, deseo implementar un endpoint POST para registrar una alerta, para procesar y almacenar las alertas enviadas por las aplicaciones cliente. | **Escenario 1: Procesamiento del payload de una alerta**<br>_Dado_ que la aplicación cliente envía una petición de creación de alerta<br>_Cuando_ el payload contiene coordenadas válidas y un AlertKind válido (Panic, Preventive o Historical)<br>_Entonces_ el sistema almacena una alerta con estado Active<br>_Y_ retorna un código HTTP 201 Created. | EP07 |
 | US18 | Endpoint de consulta de incidentes cercanos | Como Desarrollador, deseo implementar un endpoint GET que retorne incidentes cercanos, para alimentar el mapa de riesgos en la aplicación cliente. | **Escenario 1: Recuperación de incidentes cercanos**<br>_Dado_ que la aplicación cliente solicita los incidentes dentro de un área geográfica<br>_Cuando_ el sistema consulta la base de datos buscando coincidencias<br>_Entonces_ retorna una lista JSON de los incidentes encontrados<br>_Y_ retorna un código HTTP 200 OK. | EP07 |
-## 3.2. Mapeo de Impacto
+## 3.2. Impact Mapping.
 
 El Mapeo de Impacto ha sido elaborado de manera colaborativa utilizando la herramienta **UXpressia**, estructurado en los niveles de Objetivos de Negocio, Arquetipos, Impactos, Entregables y sus correspondientes Historias de Usuario, alineados a los segmentos de administradores de locales y personal operativo de InstAlert.
 
@@ -65,7 +65,7 @@ A continuación, se presenta la vista panorámica del modelo completo:
   <br><em>Figura 1: Vista panorámica del Mapeo de Impacto en UXpressia</em>
 </p>
 
-## 3.3. Pila de Producto
+## 3.3. Product Backlog.
 
 A continuación se presenta la Pila de Producto del proyecto InstAlert, priorizado estrictamente en función del valor entregado al negocio. Siguiendo las directrices del marco de trabajo ágil, las Historias de Usuario relacionadas al sitio web estático (Página de Aterrizaje) y la funcionalidad principal del producto se han considerado en la prioridad más alta, desplazando a posiciones posteriores las tareas de soporte técnico como el registro y la autenticación.
 

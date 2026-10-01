@@ -1,12 +1,12 @@
-# Capítulo IV: Diseño de Producto
+# Capítulo IV: Product Design
 
-## 4.1. Guías de Estilo
+## 4.1. Style Guidelines.
 
 Las Guías de Estilo de InstAlert definen los criterios que orientan la construcción visual de la plataforma y permiten mantener una experiencia consistente entre sus diferentes interfaces. Debido a que el sistema está dirigido a propietarios, administradores y trabajadores de establecimientos comerciales que necesitan acceder rápidamente a información relacionada con situaciones de riesgo, las decisiones de diseño se enfocan en facilitar la comprensión y ejecución de acciones en el menor tiempo posible. Por ello, los elementos de la interfaz presentan una jerarquía visual clara que permite diferenciar la información, las acciones y los estados relevantes para el usuario.
 La guía establece criterios para los principales elementos gráficos y funcionales empleados en el producto, como la tipografía, los colores, la iconografía, los botones, el espaciado, los componentes y los estados de interacción. Estos lineamientos permiten que las funcionalidades de InstAlert mantengan una misma lógica visual y facilitan el reconocimiento de elementos asociados a alertas, incidentes y acciones preventivas.
 Asimismo, las Guías de Estilo sirven como referencia para el equipo durante las etapas de diseño y desarrollo, orientando la incorporación de nuevas interfaces y componentes de acuerdo con los criterios visuales establecidos para InstAlert.
 
-### 4.1.1. General Guías de Estilo
+### 4.1.1. General Style Guidelines.
 
 Los General Guías de Estilo establecen las características visuales utilizadas en InstAlert. En este apartado se presentan las definiciones correspondientes a la tipografía, colores y componentes principales de la plataforma.
 
@@ -107,13 +107,13 @@ Las Tarjetas / Superficies permiten organizar información dentro de contenedore
 
 La separación de los contenidos dentro de las tarjetas facilita su lectura y permite presentar la información de manera organizada.
 
-### 4.1.2. Web Guías de Estilo
+### 4.1.2. Web Style Guidelines.
 
 Las Web Guías de Estilo de InstAlert establecen criterios para la organización y comportamiento de los elementos dentro de la plataforma web. El diseño considera una distribución clara de los componentes y un enfoque adaptable, permitiendo adaptar la interfaz a diferentes tamaños de pantalla sin perder funcionalidad ni claridad.
 
-## 4.2. Arquitectura de Información
+## 4.2. Information Architecture.
 
-### 4.2.1. Sistemas de Organización
+### 4.2.1. Organization Systems.
 
 La arquitectura de información de InstAlert organiza el contenido y las funcionalidades de la plataforma de acuerdo con las necesidades de sus usuarios. Se busca que tanto los administradores como el personal operativo puedan acceder de manera sencilla a las principales funciones, mientras que el página de aterrizaje presenta la información del producto de forma estructurada para facilitar su comprensión.
 
@@ -127,7 +127,7 @@ La arquitectura de información de InstAlert organiza el contenido y las funcion
   Nota: Diagrama de organización de información de las aplicaciones
 </p>
 
-### 4.2.2. Sistemas de Etiquetado
+### 4.2.2. Labeling Systems.
 
 El sistema de etiquetado de InstAlert utiliza nombres breves, directos y relacionados con la función que representan, facilitando que los usuarios puedan identificar rápidamente cada sección. En la aplicación se emplean etiquetas como “Inicio”, “Mapa de incidentes”, “Alertas”, “Personal”, “Perfil” y “Suscripción”, además de opciones específicas como “Mapa de calor”, “Historial de incidencias”, “Tabla de control” y “Botón de pánico”.
 
@@ -146,11 +146,11 @@ Para el página de aterrizaje se utilizan etiquetas orientadas a la información
 **Acceso al diagrama de la Arquitectura de Información (Miro):** 
 https://miro.com/app/board/uXjVHpZMLZ4=/?share_link_id=378532050437 
 
-### 4.2.3. Etiquetas SEO y Meta Etiquetas
+### 4.2.3. SEO Tags and Meta Tags
 
 Para el Página de Aterrizaje de InstAlert se plantea una estructura de etiquetas orientada a facilitar su identificación en motores de búsqueda y comunicar de manera directa la propuesta de la plataforma. El Título y la Meta Descripción deberán relacionarse con la seguridad de establecimientos comerciales, las alertas y la prevención de incidentes. Asimismo, se considerarán términos asociados a las principales funcionalidades del producto, como alertas, botón de pánico, mapa de riesgo y seguridad de negocios. Esta configuración permitirá presentar el contenido del Página de Aterrizaje de forma clara y relacionada con los servicios ofrecidos por InstAlert.
 
-### 4.2.4. Sistemas de Búsqueda
+### 4.2.4. Searching Systems.
 
 El sistema de búsqueda de InstAlert se encuentra relacionado principalmente con la consulta de información sobre incidentes y zonas de riesgo. Para facilitar la localización de información relevante, se consideran criterios asociados al contenido mostrado en el mapa y al historial de incidencias.
 
@@ -163,7 +163,7 @@ El sistema de búsqueda de InstAlert se encuentra relacionado principalmente con
 
 Nota: La tabla muestra los criterios considerados para la consulta de información relacionada con incidentes y zonas de riesgo.
 
-### 4.2.5. Sistemas de Navegación
+### 4.2.5. Navigation Systems.
 
 La arquitectura de navegación de InstAlert se organiza según las principales funcionalidades de la plataforma y el tipo de usuario. En el Página de Aterrizaje se presentan las secciones destinadas a mostrar información del producto, mientras que en la aplicación se distribuyen las funciones relacionadas con la gestión de seguridad.
 
@@ -191,9 +191,9 @@ Para la aplicación web, la navegación se organiza a partir del panel de contro
 
 Nota: La tabla muestra los apartados principales de navegación de la aplicación web de InstAlert.
 
-## 4.3. Página de Aterrizaje Interfaz de Usuario Design
+## 4.3. Landing Page UI Design.
 
-### 4.3.1. Página de Aterrizaje Esquema visual
+### 4.3.1. Landing Page Wireframe.
 
 El diseño del esquema visual de la Página de Aterrizaje de InstAlert se estructura de manera jerárquica, priorizando la presentación de la propuesta de valor y el acceso a las principales funcionalidades de la plataforma. La estructura busca facilitar la comprensión del producto y guiar al usuario hacia las acciones principales.
 
@@ -266,7 +266,7 @@ Finalmente, la página de aterrizaje incorpora un llamado a la acción que refue
 </p>
 
 
-### 4.3.2. Página de Aterrizaje Maqueta
+### 4.3.2. Landing Page Mock-up.
 
 Los maquetas de la Página de Aterrizaje de InstAlert representan la propuesta visual final de la plataforma, aplicando los lineamientos definidos en el Guías de Estilo. La interfaz mantiene una estructura clara y consistente, priorizando la presentación de la información, las funcionalidades principales y los accesos de interacción.
 
@@ -333,13 +333,13 @@ Finalmente, se presenta un llamado a la acción que dirige al usuario hacia el s
   Nota: Maqueta del llamado a la acción y pie de página de InstAlert
 </p>
 
-## 4.4. Diseño UX/Interfaz de Usuario de Aplicaciones Web
+## 4.4. Web Applications UX/UI Design.
 
 En esta sección se presenta la propuesta de diseño UX/Interfaz de Usuario de la aplicación web de InstAlert, describiendo la estructura visual, los elementos de interfaz y los patrones de interacción que orientan la experiencia del usuario.
 
 El diseño está enfocado en facilitar el acceso a las principales funcionalidades de seguridad, priorizando una interacción clara, rápida y consistente. Asimismo, se mantiene la coherencia con los Guías de Estilo y la Arquitectura de Información, garantizando una experiencia intuitiva y organizada en las diferentes interfaces de la plataforma.
 
-### 4.4.1. Esquemas Visuales de Aplicaciones Web
+### 4.4.1. Web Applications Wireframes.
 
 En esta sección se presentan los esquemas visuales de alta fidelidad baja/media para la plataforma web de InstAlert, diseñada específicamente para los roles de Personal Operativo y Administrador de locales comerciales. La propuesta visual y funcional responde directamente a estándares de usabilidad web, estructuración de datos y accesibilidad.
 
@@ -469,7 +469,7 @@ En esta sección se presentan los esquemas visuales de alta fidelidad baja/media
   Nota: Esquema visual del Historial de Alertas para Administrador  
 </p>
 
-### 4.4.2. Diagramas de Flujo Visual de Aplicaciones Web
+### 4.4.2. Web Applications Wireflow Diagrams.
 
 **Segmento 1: Administradores de locales comerciales**
 
@@ -621,7 +621,7 @@ Flujo Visual:
 Descripción del flujo:
 Si el usuario que activó una alerta determina que se trató de una falsa alarma, puede cancelarla directamente desde la pantalla de "Situación de Pánico Activa" sin necesidad de esperar a que se resuelva como un incidente real. Tras confirmar la cancelación, el sistema actualiza el estado de la alerta a "resuelta" y notifica a la red vecinal que la emergencia ha sido descartada, evitando que otros negocios mantengan un estado de alerta innecesario.
 
-### 4.4.3. Web Applications Maquetas
+### 4.4.3. Web Applications Mock-ups.
 
 Esta sección reúne la interfaz gráfica de alta fidelidad para la aplicación web de InstAlert, diseñada para ofrecer una experiencia intuitiva, accesible y de alta respuesta visual tanto para el personal operativo de primera línea como para la administración general.
 
@@ -749,7 +749,7 @@ Esta sección reúne la interfaz gráfica de alta fidelidad para la aplicación 
   Nota: Maqueta de Situación de Pánico Activa
 </p>
 
-### 4.4.4. Diagramas de Flujo de Usuario de Aplicaciones Web
+### 4.4.4. Web Applications User Flow Diagrams.
 
 **Segmento 1: Administradores de locales comerciales**
 
@@ -833,7 +833,7 @@ Flujo Visual:
 <img src="../assets/Chapter4/wireflow/Flujo Visual de los mock up 9.png"width="500"> 
 <br> Nota: Diagrama de Flujo Visual de cancelación de falsa alarma </p>
 
-## 4.5. Prototipado de Aplicaciones Web
+## 4.5. Web Applications Prototyping.
 
 Los prototipos de Interfaz de Usuario presentados a continuación simulan la interacción real de los flujos priorizados como lo son la activación y resolución de una alerta de pánico, la consulta del mapa de riesgo y la gestión operativa del negocio, tanto en Escritorio como en Navegador Web Móvil. 
 
@@ -849,9 +849,9 @@ Los prototipos de Interfaz de Usuario presentados a continuación simulan la int
 Link del video demostrativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQA8DWbv42LlRYa0nQ4P4x1MAa4ST8BcRGO8it_OGeTc8eE?e=l3R106 
 
 
-## 4.6. Arquitectura de Software Orientada al Dominio
+## 4.6. Domain-Driven Software Architecture.
 
-### 4.6.1. Event Storming a Nivel de Diseño
+### 4.6.1. Design-Level EventStorming.
 
 **Paso 1: Exploración No Estructurada**
 
@@ -925,7 +925,7 @@ Nota: Paso 10 del Event Storming a Nivel de Diseño – Delimitación de context
 
 **Enlace del Tablero de Miro:** https://miro.com/app/board/uXjVHqyvuL0=/?share_link_id=889295094432
 
-### 4.6.2. Diagrama de Contexto de Arquitectura de Software
+### 4.6.2. Software Architecture Context Diagram.
 
 Este diagrama muestra a InstAlert en el centro y cómo interactúa con los usuarios y los sistemas externos.
 
@@ -934,7 +934,7 @@ Este diagrama muestra a InstAlert en el centro y cómo interactúa con los usuar
 Nota: Diagrama de contexto de la arquitectura de software de InstAlert
 </p>
 
-### 4.6.3. Diagramas de Contenedores de Arquitectura de Software
+### 4.6.3. Software Architecture Container Diagrams.
 
 Hacemos "zoom" a la caja central azul de InstAlert para ver sus contenedores (aplicaciones y bases de datos).
 
@@ -943,7 +943,7 @@ Hacemos "zoom" a la caja central azul de InstAlert para ver sus contenedores (ap
 Nota: Diagrama de contenedores de la arquitectura de software de InstAlert
 </p>
 
-### 4.6.4. Diagramas de Componentes de Arquitectura de Software
+### 4.6.4. Software Architecture Components Diagrams.
 
 Hacemos "zoom" al contenedor de la API de Backend para detallar los componentes internos y Contextos Acotados que conforman la lógica de negocio del sistema.
 
@@ -953,9 +953,9 @@ Nota: Diagrama de componentes de la arquitectura de software de InstAlert
 </p>
 
 
-## 4.7. Diseño de Software Orientado a Objetos
+## 4.7. Software Object-Oriented Design.
 
-### 4.7.1. Diagramas de Clases
+### 4.7.1. Class Diagrams.
 
 Los diagramas de clases representan el diseño orientado a objetos del backend de InstAlert. Cada contexto acotado se modela como un paquete con sus propias entidades, agregados, objetos de valor, enumeraciones y relaciones. Las referencias entre contextos se mantienen mediante contratos y referencias por identificador, evitando que un contexto dependa directamente de las clases internas de otro.
 
@@ -1013,9 +1013,9 @@ Este contexto acotado administra la información geográfica utilizada para mapa
 Nota: Clases del contexto acotado Mapping.
 </p>
 
-## 4.8. Diseño de Base de Datos
+## 4.8. Database Design.
 
-### 4.8.1. Diagramas de Base de Datos
+### 4.8.1. Database Diagrams.
 
 El diseño de base de datos corresponde a un modelo relacional implementable en MySQL. Las tablas están agrupadas visualmente por contexto acotado y utilizan nombres en inglés con `snake_case`. El esquema aplica las tres primeras formas normales: cada columna contiene un valor atómico, las tablas representan una sola responsabilidad y los atributos no clave dependen de la clave primaria de su tabla.
 
