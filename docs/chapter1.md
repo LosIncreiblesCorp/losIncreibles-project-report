@@ -231,6 +231,9 @@ Personas responsables de la gestión y operación de establecimientos comerciale
 * **Perfil Comportamental:**
   - **Uso de tecnología:** Alta dependencia del smartphone como principal herramienta de acceso a la información y gestión básica del negocio.
 
+**Información estadística de sustento:**
+En 2024, el Perú registró 1 030 978 MIPYME formales del sector comercio, equivalentes al 44,2 % del total de MIPYME formales (PRODUCE, 2025, p. 24). Además, el INEI reportó que el 23,4 % de las empresas comerciales incluidas en su estudio fue víctima de algún delito durante 2023 (INEI, 2026, pp. 9–10). Estas cifras sustentan la relevancia del sector comercial y la necesidad de herramientas que apoyen la gestión de la seguridad en los negocios.
+
 **2. Segmento 2: Personal Operativo y Vendedores de Establecimientos**
 Trabajadores que realizan sus actividades directamente dentro o alrededor de los establecimientos comerciales, manteniendo contacto constante con clientes, productos y espacios expuestos a posibles situaciones de inseguridad. Necesitan herramientas que les permitan reportar incidentes de manera rápida, recibir alertas y solicitar ayuda cuando se encuentren frente a una situación de riesgo.
 
@@ -248,6 +251,9 @@ Trabajadores que realizan sus actividades directamente dentro o alrededor de los
 * **Perfil Comportamental:**
   - **Uso de tecnología:** Usuarios digitales nativos o muy familiarizados con dispositivos móviles inteligentes. 
   - **Reacción ante emergencias:** Requieren herramientas que no exijan concentración, priorizando la inmediatez (como un botón de alerta).
+
+**Información estadística de sustento:**
+En 2024, las MIPYME emplearon aproximadamente a 10,5 millones de personas, lo que representó el 89,1 % del empleo del sector privado (PRODUCE, 2025, pp. 13–14). Asimismo, el 96,1 % de las MIPYME formales declaró hasta cinco trabajadores (PRODUCE, 2025, p. 30). Estas cifras respaldan la importancia del personal de las MIPYME y el contexto de equipos pequeños en el que se desempeña el personal operativo.
 
 Para sustentar el dimensionamiento del mercado, la viabilidad tecnológica y la urgencia del problema que atiende InstAlert, nos respaldamos en las siguientes investigaciones académicas e institucionales:
 
