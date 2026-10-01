@@ -208,6 +208,8 @@ El siguiente Lean UX Canvas sintetiza los problemas, los segmentos de usuarios, 
 
 A continuación, se presenta el enlace público de Canva del Lean UX Canvas del proyecto: <https://canva.link/n58mftoui937o2g>
 
+El Lean UX Canvas expuesto anteriormente resume la estrategia fundamental de InstAlert. Como se observa, partimos del problema crítico de comunicación aislada entre comercios (*Business Problem*) para definir objetivos medibles de adopción y tiempos de alerta (*Business Outcomes*). A partir de esto, identificamos a nuestros usuarios principales y los beneficios que esperan (*User Outcomes & Benefits*), lo que nos permite plantear soluciones directas como el mapa de zonas de riesgo y notificaciones automáticas (*Solutions*). Finalmente, consolidamos estas premisas en hipótesis verificables y priorizamos nuestros experimentos (como la publicación de una *Landing Page* y entrevistas a dueños de negocios) para validar nuestras suposiciones de mayor riesgo con el menor esfuerzo posible.
+
 ## 1.3. Segmentos objetivo.
 
 Para el desarrollo de InstAlert, se han definido dos segmentos clave que representan a los usuarios principales de la plataforma. Ambos enfrentan directamente la problemática de la inseguridad y requieren herramientas tecnológicas para la prevención colaborativa.
