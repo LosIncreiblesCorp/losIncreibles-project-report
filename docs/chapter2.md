@@ -245,24 +245,26 @@ En esta sección se presentan las fichas de User Persona, construidas a partir d
 
 **User Persona 1: Carlos Mendoza - Administrador y dueño de local comercial**
 
+Para representar a los administradores y dueños de comercios, se elaboró la persona de usuario Carlos Mendoza, propietario de una tienda de electrodomésticos de 42 años, con ocho años de experiencia en una galería comercial de Los Olivos. Su perfil refleja las responsabilidades de quien busca proteger su negocio y a su personal mientras atiende las ventas y la gestión del local. También considera sus preocupaciones ante los intentos de robo, los rumores de extorsión y la falta de información oportuna sobre los riesgos cercanos. Sus principales necesidades son anticiparse a incidentes en la zona y coordinarse con otros comerciantes. Su uso habitual del teléfono inteligente y de aplicaciones de mensajería también se tomó en cuenta para definir cómo accedería a InstAlert.
+
 <p align="center">
   <img src="../assets/Chapter2/Graphics/01-user-persona.png" alt="User persona Carlos Mendoza" width="600">
 </p>
 
-***Nota.*** Ficha que representa el arquetipo del Segmento 1. Detalla sus objetivos orientados a proteger su inversión y a su personal, su frustración ante la ineficacia policial frente a extorsiones, y su necesidad de una plataforma centralizada para recibir alertas tempranas.
 
-Para una mejor visualización de los detalles y lectura: [Ver Ficha de User Persona 1](https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQB6H7iWp1u_SaA7wZPV7YSOAUHKis7__wwOyzxH4cpoCbc?e=D00egw) 
+
+
 
 
 **User Persona 2: Lucía Ramírez - Personal operativo y vendedora**
+
+Para representar al personal operativo y vendedor, se elaboró la persona de usuario Lucía Ramírez, una vendedora de 24 años que trabaja en un local comercial del centro de Lima. Su perfil refleja la exposición de quienes atienden directamente al público y pueden encontrarse con una situación de riesgo durante la jornada. Sus principales necesidades son sentirse segura, pedir ayuda con rapidez y discreción, e identificar datos clave de una alerta cercana, como el tipo de incidente y su distancia. También se consideraron su uso frecuente del teléfono inteligente y de aplicaciones de mensajería, así como la importancia de que las acciones de la plataforma sean sencillas durante momentos de tensión.
 
 <p align="center">
   <img src="../assets/Chapter2/Graphics/02-user-persona.png" alt="User persona Lucia Ramirez" width="600">
 </p>
 
-***Nota.*** Ficha que representa el arquetipo del Segmento 2. Expone su necesidad de contar con herramientas de auxilio rápido (botón de pánico) y su frustración por la vulnerabilidad y exposición al peligro durante los horarios de apertura, cierre o manejo de efectivo.
 
-Para una mejor visualización de los detalles y lectura: [Ver Ficha de User Persona 2](https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQAQgAyDVbwmQY6md0n5nu1nAbgV4gOMufdDbHsxmPhoQho?e=ESLT3z) 
 
 
 
