@@ -44,7 +44,7 @@ Analizar a la competencia permite identificar sus estrategias, fortalezas y debi
 |---|---|---|---|---|---|
 |   |  Nombre | InstAlert | Seguridad Ciudadana App | Verisure Perú | Life360 |
 |   | Logotipo | <br><p align="center"><img src="https://i.postimg.cc/sx4QJktv/logo-Inst-Alert.jpg" alt="InstAlert" width="100"></p> | <br><p align="center"><img src="https://i.postimg.cc/90hwZmgK/Logo-Seguridad-Ciudadana-App.png" alt="Seguridad Ciudadana App" width="100"></p> |<br><p align="center"><img src="https://i.postimg.cc/KY1TysMh/Logo-Verisure.png" alt="Verisure Peru" width="100"></p> | <br><p align="center"><img src="https://i.postimg.cc/PJYznV9c/Logo-Life360.png" alt="Life360" width="100"></p> 
-| **Perfil** | Descripción general | Aplicación web (PWA) de seguridad comercial orientada a la prevención y respuesta rápida ante robos, hurtos y extorsiones. Conecta en tiempo real a administradores, dueños y personal de ventas mediante alertas silenciosas, mapas de calor dinámicos y un canal de comunicación directo entre locales vecinos. | Solución tecnológica privada (desarrollada por UC-WEB.COM S.A.C.) bajo modelo B2G, contratada por municipalidades para digitalizar el reporte de emergencias e incidentes ciudadanos mediante herramientas de alerta, geolocalización y comunicación con entidades públicas de seguridad. | Empresa privada de seguridad monitoreada con más de 35 años de trayectoria. Ofrece sistemas de alarma físicos con sensores, sirena y botón antiatraco conectados a una Central Receptora de Alarmas (CRA) 24/7 con aviso a la PNP y Serenazgo. | Aplicación global de seguridad y geolocalización familiar que permite rastrear en tiempo real a los integrantes de un "Círculo" cerrado de confianza, con herramientas automatizadas de emergencia y detección de incidentes vehiculares. |
+| **Perfil** | Overview | Aplicación web (PWA) de seguridad comercial orientada a la prevención y respuesta rápida ante robos, hurtos y extorsiones. Conecta en tiempo real a administradores, dueños y personal de ventas mediante alertas silenciosas, mapas de calor dinámicos y un canal de comunicación directo entre locales vecinos. | Solución tecnológica privada (desarrollada por UC-WEB.COM S.A.C.) bajo modelo B2G, contratada por municipalidades para digitalizar el reporte de emergencias e incidentes ciudadanos mediante herramientas de alerta, geolocalización y comunicación con entidades públicas de seguridad. | Empresa privada de seguridad monitoreada con más de 35 años de trayectoria. Ofrece sistemas de alarma físicos con sensores, sirena y botón antiatraco conectados a una Central Receptora de Alarmas (CRA) 24/7 con aviso a la PNP y Serenazgo. | Aplicación global de seguridad y geolocalización familiar que permite rastrear en tiempo real a los integrantes de un "Círculo" cerrado de confianza, con herramientas automatizadas de emergencia y detección de incidentes vehiculares. |
 | | Ventaja competitiva / ¿Qué valor ofrece a los clientes? | Unifica la prevención y la reacción en el entorno comercial. Alerta rápida en segundos sin requerir descarga de apps pesadas. Promueve el apoyo mutuo y la red de comunicación inmediata entre comercios vecinos para romper el aislamiento delictivo. | Especialización en gestión pública (PEI/POI) con implementación rápida "llave en mano". Garantiza estabilidad en un entorno de plataforma cerrada sin requerir infraestructura propia por parte del municipio contratante. | Monitoreo profesional permanente respaldado por más de 800 especialistas, tiempo de reacción ante intrusión declarado <60s e integración de hardware físico (fotodetectores, sirenas). | Ecosistema tecnológico robusto, alcance internacional, interfaz intuitiva y funciones avanzadas como la detección automática de accidentes vehiculares. |
 | **Perfil de Marketing** | Mercado objetivo | Dueños y administradores de establecimientos comerciales en corredores de riesgo medio-alto. | Gobiernos locales, municipalidades distritales y provinciales que requieren digitalizar su gestión de seguridad ciudadana bajo un modelo institucional (B2G). | Hogares y negocios formales (bodegas, tiendas, oficinas) con capacidad de pago para contratar un servicio de seguridad monitoreada profesional en su zona de cobertura. | Círculos familiares (padres, hijos, adultos mayores) y grupos privados o comunidades que buscan visibilidad constante de su entorno cercano. |
 | | Estrategias de marketing | Venta B2B directa abordando a asociaciones de comerciantes y administradores de galerías y centros comerciales. Demostraciones del sistema de alertas tempranas y mapas de calor en vivo. | Enfoque institucional resaltando valor político y cumplimiento de metas municipales. Marketing directo B2G a través de licitaciones y exposición de métricas de respuesta. | Venta directa mediante asesores comerciales, cotización personalizada en su sitio web y promociones periódicas de descuento sobre el precio de catálogo. | Liderazgo en SEO/ASO en tiendas de aplicaciones, marketing masivo en redes sociales y colaboraciones con medios sobre historias de éxito en seguridad familiar. |
@@ -97,7 +97,7 @@ InstAlert plantea estrategias de diferenciación frente a cada competidor identi
 
 #### 2.2.2. Registro de entrevistas
 
-Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBrqsJSVffgSaS2KT2RC4_yAbMjSfUL3AXeUaYltiDsDoU?e=GPJvVF
+Needfinding Interviews Link: [Carpeta de Entrevistas Sharepoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBrqsJSVffgSaS2KT2RC4_yAbMjSfUL3AXeUaYltiDsDoU?e=GPJvVF)
 
 ### Entrevistas realizadas al Segmento 1: Administradores y dueños de locales comerciales
 
@@ -108,10 +108,10 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 | **Edad** | 42 años |
 | **Distrito** | Comas |
 | **Evidencia** | <img src="https://i.postimg.cc/rRmPRFrz/evidencia1.png" alt="Evidencia Entrevista 1" width="180"> |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCQ3QCcLMNJTpUchqBe08G_AYlmCTa9z7RyanN0NzsO_Z4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1yOnV7 |
+| **Link** | [Video Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCQ3QCcLMNJTpUchqBe08G_AYlmCTa9z7RyanN0NzsO_Z4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1yOnV7) |
 | **Timing donde inicia** | 00:05 min |
 | **Duración** | 18:11 min |
-| **Resumen** | La entrevistada, administradora de un minimarket, manifiesta que la extorsión y los asaltos son los mayores riesgos, especialmente al cierre del local. Personalmente usa un smartphone Android y, para su negocio, gestiona una laptop básica con navegador Google Chrome. Ante situaciones de riesgo, como la presencia de sospechosos, emplea WhatsApp o mensajes de texto (SMS) para alertar a otros comerciantes, pero considera estos canales desorganizados e ineficientes. Además, las llamadas a serenazgo resultan demasiado lentas para una emergencia real. Destaca que una plataforma como InstAlert sería vital, pues le permitiría usar los dispositivos que ya posee para emitir una alerta silenciosa e inmediata a sus vecinos, visualizando un mapa de riesgos sin requerir inversiones en hardware costoso. |
+| **Resumen** | La entrevistada, administradora de un minimarket, manifiesta que la extorsión y los asaltos son los mayores riesgos para su negocio, especialmente durante el cierre y la gestión de efectivo. Personalmente usa un smartphone Android y una laptop con Google Chrome en su caja. Actualmente emplea grupos de WhatsApp con otros comerciantes, pero los considera ineficientes y desorganizados ante emergencias reales. Destaca el gran valor que tendría InstAlert como plataforma dedicada a alertas discretas entre vecinos y visualización del mapa de riesgos desde su propio móvil, para proteger a su personal sin requerir nuevas alarmas ni dispositivos extras. |
 
 | **Entrevista #2** | |
 | :--- | :--- |
@@ -120,10 +120,10 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 | **Edad** | 60 años |
 | **Distrito** | Jesús María, Miraflores, San Isidro, Lince y Breña |
 | **Evidencia** | <img src="https://i.postimg.cc/sgFC23zQ/Evidencia-2.png" alt="Evidencia Entrevista 2" width="180"> |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBXA7xWaCu8Sp821kXGKg0eARcjMnTc_E4mKjf0QHs5Oi4?e=Aytt25&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Link** | [Video Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBXA7xWaCu8Sp821kXGKg0eARcjMnTc_E4mKjf0QHs5Oi4?e=Aytt25&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Timing donde inicia** | 00:05 min |
 | **Duración** | 8:49 min |
-| **Resumen** | El entrevistado, gerente de una imprenta con 30 años de experiencia, identifica la falta de vigilancia nocturna como el principal riesgo de seguridad en sus locales. De manera personal utiliza un celular inteligente y en su oficina emplea una PC de escritorio navegando mediante Google Chrome. Actualmente, la comunicación ante emergencias se limita a llamadas telefónicas estándar a la policía, lo cual describe como un proceso lento y poco efectivo. No cuenta con canales directos como WhatsApp con otros negocios vecinos. Valora positivamente una solución web como InstAlert, ya que desde la computadora de su negocio o su móvil podría acceder a un mapa de zonas de riesgo y una alerta de emergencia directa, integrando a todo su personal sin obligarlo a adquirir costosas alarmas monitoreadas. |
+| **Resumen** | El entrevistado, gerente de una empresa gráfica con presencia en varios distritos desde hace 30 años, identifica la falta de vigilancia externa como el principal riesgo, agravado en horario nocturno. En su día a día utiliza un celular inteligente y navega mediante Google Chrome en su PC. Actualmente la comunicación ante emergencias es únicamente verbal o mediante lentas llamadas telefónicas, sin canales formales como WhatsApp con vecinos. Valora positivamente contar con InstAlert en los dispositivos de su personal para ver un mapa de zonas de riesgo y acceder a una alerta directa de emergencia a la red vecinal y policía, pues concluye que 'sin seguridad las empresas no pueden trabajar con tranquilidad'. |
 
 | **Entrevista #3** | |
 | :--- | :--- |
@@ -132,10 +132,10 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 | **Edad** | 26 |
 | **Distrito** | San Martin de Porres |
 | **Evidencia** | <img src="https://i.postimg.cc/wBZjrHhD/evidencia-3.png" alt="Evidencia Entrevista 3" width="180"> |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDHSCAadtHiTYRuyzSdT-UsAThrPOgKm9g88x3TIRDNV8I?e=VXLFKW |
+| **Link** | [Video Entrevista 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDHSCAadtHiTYRuyzSdT-UsAThrPOgKm9g88x3TIRDNV8I?e=VXLFKW) |
 | **Timing donde inicia** | 00:05 min |
 | **Duración** |09:11 min|
-| **Resumen** | La entrevistada, socia de una agencia de marketing, expresa gran preocupación por el robo de equipos costosos (laptops, cámaras) durante traslados o dentro del local. Ella utiliza a diario un iPhone y, para el trabajo, una MacBook Pro con el navegador Safari. Para comunicarse ante incidencias, participa en un grupo de WhatsApp vecinal y usa el teléfono para solicitar taxis satelitales rápidamente; sin embargo, reconoce que los mensajes de emergencia pueden perderse entre tantas notificaciones. En ese sentido, InstAlert se adapta perfectamente a su realidad, ya que le permitiría usar sus propios dispositivos para coordinar de forma ágil, confiable y segura con la comunidad comercial, visualizando zonas de peligro para planificar rutas seguras sin depender de complicadas instalaciones de seguridad. |
+| **Resumen** | La entrevistada, socia de una agencia de marketing en San Martín de Porres, expresa profunda preocupación por el robo de equipos de alto valor (cámaras, laptops) durante traslados o mediante robos al local. Ella utiliza a diario un iPhone y trabaja desde una MacBook Pro con Safari. Aunque cuentan con un canal de WhatsApp para reportar incidencias sospechosas en la zona y piden taxis satelitales rápidamente, reconoce que la comunicación es inefectiva pues los mensajes se pierden entre tantos. Mencionó que valoraría enormemente una plataforma como InstAlert por su facilidad de uso desde su celular, dándoles confianza para moverse por la zona gracias al mapa de riesgos interactivo. |
 
 ---
 
@@ -148,10 +148,10 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 | **Edad** | 26 años |
 | **Distrito** | Barranco |
 | **Evidencia** | <img src="https://i.postimg.cc/jd4BRP8s/Evidencia-4.png" alt="Evidencia Entrevista 4" width="180">  |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDnrzJvuWDISZriFAfcjHYAAfXvGQiumZTBCMOoufNrfOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ScD75v |
+| **Link** | [Video Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDnrzJvuWDISZriFAfcjHYAAfXvGQiumZTBCMOoufNrfOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ScD75v) |
 | **Timing donde inicia** | 00:05 min |
 | **Duración** | 8:57 min |
-| **Resumen** | El entrevistado, trabajador que rota entre locales, identifica el cierre de jornada como el momento de mayor riesgo debido a la baja afluencia y motos sospechosas. En su día a día utiliza un celular Android y el navegador Microsoft Edge en la computadora de caja. Ante un riesgo o intento de extorsión, su primera acción es avisar a su jefe por WhatsApp o llamada tradicional, pero reconoce que estos canales no son discretos ni inmediatos frente a un delincuente. Una herramienta como InstAlert le sería sumamente útil porque, mediante unos pocos clics desde su propio móvil o la caja, podría enviar una alerta silenciosa que notifique al instante a locales vecinos sobre el tipo de amenaza y la distancia del peligro, operando rápidamente sin levantar sospechas ni requerir equipos físicos. |
+| **Resumen** | El entrevistado, trabajador de un establecimiento en Barranco, identifica el cierre de jornada (8-9 p.m.) como el momento de mayor riesgo, relatando distracciones dentro del local y casos de extorsión a vecinos. En caja suele usar Microsoft Edge y para comunicarse emplea un celular Android. Ante una emergencia, avisa a su jefe por WhatsApp o llamada, pero reconoce que ninguno es discreto ni inmediato, y la policía demora en contestar. Señala que le sería muy útil InstAlert para activar una alerta silenciosa desde su móvil con un gesto rápido, sin emitir notificaciones sonoras que alerten al sospechoso, permitiéndole evaluar la distancia del peligro sin exponer su seguridad física. |
 
 | **Entrevista #5** | |
 | :--- | :--- |
@@ -160,10 +160,10 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 | **Edad** | 19 años |
 | **Distrito** | San Juan de Lurigancho |
 | **Evidencia** | <img src="https://i.postimg.cc/L87DSsM4/Evidencia-5.png" alt="Evidencia Entrevista 5" width="180"> |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCl-Zw2GZYcQ6myUop36XoIAavZ2BZlRXtX72Ux2v5yuk0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NSMmm2 |
+| **Link** | [Video Entrevista 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCl-Zw2GZYcQ6myUop36XoIAavZ2BZlRXtX72Ux2v5yuk0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NSMmm2) |
 | **Timing donde inicia** | 00:05 min |
 | **Duración** | 6:01 min |
-| **Resumen** | La entrevistada, vendedora de minimarket que a menudo atiende sola, señala los horarios de apertura y cierre como los más vulnerables a extorsiones. Ella navega habitualmente desde Google Chrome en su smartphone personal, el cual también utiliza para comunicarse con su jefa vía WhatsApp o hacer llamadas a negocios contiguos. Sin embargo, destaca que sacar el celular para chatear frente a un cliente o sospechoso es sumamente arriesgado y lento. InstAlert encaja idealmente en su operativa diaria, pues siendo una plataforma accesible desde su móvil, le brindaría un botón de alerta rápido y silencioso para notificar a la red vecinal sin emitir sonidos que la delaten, ofreciéndole protección en tiempo real sin que el negocio asuma los altos costos de una vigilancia privada. |
+| **Resumen** | La entrevistada, vendedora de un minimarket, atiende muchas veces sola y señala la apertura y cierre como los momentos de mayor riesgo, habiendo sufrido un intento de extorsión sin saber a quién avisar rápidamente. Ante emergencias, usa su smartphone para avisar a su jefa por WhatsApp o grita a los vecinos, pero destaca que atender un cliente o un sospechoso le impide sacar el celular, y el grupo de WhatsApp de la galería es lento. Valora mucho que InstAlert le brinde una alerta rápida, silenciosa y web (accesible desde Chrome), activable con pocos clics, informando el tipo de amenaza y distancia al instante sin levantar sospechas del delincuente ni requerir alarmas caras. |
 
 | **Entrevista #6** | |
 | :--- | :--- |
@@ -172,7 +172,7 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 | **Edad** | 50 años |
 | **Distrito** | San Isidro |
 | **Evidencia** | <img src="https://i.postimg.cc/wM7399zY/Evidencia-6.png" alt="Evidencia Entrevista 6" width="180"> |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCfz9VQv-UWTriH5euSG9nGAfmT-OcmnMkMmy8zG5tawKU?e=pNc9Mb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Link** | [Video Entrevista 6](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCfz9VQv-UWTriH5euSG9nGAfmT-OcmnMkMmy8zG5tawKU?e=pNc9Mb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Timing donde inicia** | 00:05 min |
 | **Duración** | 5:55 min |
 | **Resumen** | La entrevistada administra un negocio en San Isidro desde hace 3 años, en horario de 7 a.m. a 5 p.m., encargándose de supervisar todas las funciones del local. Identifica las horas de la tarde, de menor afluencia de público, como el momento de mayor riesgo, y relata haber sido víctima del robo de su teléfono en la puerta del negocio, un intento de asalto por "raqueteros" y, antes de su llegada, el robo de computadoras del local. Actualmente reporta las emergencias únicamente por teléfono a la policía o el serenazgo, además de contar con una alarma tipo "Berishuk" (posible referencia distorsionada a un sistema de alarma comercial), pero señala que la policía suele demorar en responder. Valora positivamente una alerta rápida y discreta que no ponga sobre aviso a los delincuentes, con ubicación exacta del incidente, activable con un solo clic o huella digital, que notifique simultáneamente a la comisaría, al serenazgo y a otros negocios cercanos, y resalta la importancia de que la herramienta tenga mecanismos contra el mal uso por parte de personas inescrupulosas. |
@@ -251,7 +251,7 @@ En esta sección se presentan las fichas de User Persona, construidas a partir d
 
 ***Nota.*** Ficha que representa el arquetipo del Segmento 1. Detalla sus objetivos orientados a proteger su inversión y a su personal, su frustración ante la ineficacia policial frente a extorsiones, y su necesidad de una plataforma centralizada para recibir alertas tempranas.
 
-Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQB6H7iWp1u_SaA7wZPV7YSOAUHKis7__wwOyzxH4cpoCbc?e=D00egw 
+Para una mejor visualización de los detalles y lectura: [Ver Ficha de User Persona 1](https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQB6H7iWp1u_SaA7wZPV7YSOAUHKis7__wwOyzxH4cpoCbc?e=D00egw) 
 
 
 **User Persona 2: Lucía Ramírez - Personal operativo y vendedora**
@@ -262,7 +262,7 @@ Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sha
 
 ***Nota.*** Ficha que representa el arquetipo del Segmento 2. Expone su necesidad de contar con herramientas de auxilio rápido (botón de pánico) y su frustración por la vulnerabilidad y exposición al peligro durante los horarios de apertura, cierre o manejo de efectivo.
 
-Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQAQgAyDVbwmQY6md0n5nu1nAbgV4gOMufdDbHsxmPhoQho?e=ESLT3z 
+Para una mejor visualización de los detalles y lectura: [Ver Ficha de User Persona 2](https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQAQgAyDVbwmQY6md0n5nu1nAbgV4gOMufdDbHsxmPhoQho?e=ESLT3z) 
 
 
 
@@ -308,7 +308,7 @@ El recorrido actual de Carlos (Administrador) refleja la tensión constante por 
 
 *Nota.* User Journey Map (As-Is) correspondiente a Carlos Mendoza, detallando las deficiencias actuales en la comunicación comunitaria y la prevención de riesgos patrimoniales. 
 
-Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQAi5yEOjEfcSrTiz1lkXRmxAf36hc46eDHQ8h4yuP-KBLU?e=mU7gbU  
+Para una mejor visualización de los detalles y lectura: [Ver User Journey Map 1](https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQAi5yEOjEfcSrTiz1lkXRmxAf36hc46eDHQ8h4yuP-KBLU?e=mU7gbU)  
 
 
 **Segmento 2: Personal operativo y vendedores de establecimientos comerciales**
@@ -322,7 +322,7 @@ El recorrido de Lucía (Vendedora) evidencia la vulnerabilidad de estar en la "p
 
 *Nota.* User Journey Map (As-Is) correspondiente a Lucía Ramírez, ilustrando la alta exposición al peligro físico y la ausencia de herramientas eficaces para emitir alertas tempranas de emergencia.
 
-Para una mejor visualización de los detalles y lectura: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQArn7UEL-1DS5nQpb6rwbepAe2pD0AMZ6bodVM1IOl4JQ4?e=tVh6ar
+Para una mejor visualización de los detalles y lectura: [Ver User Journey Map 2](https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQArn7UEL-1DS5nQpb6rwbepAe2pD0AMZ6bodVM1IOl4JQ4?e=tVh6ar)
 
 
 ### 2.3.4. Empathy Mapping
@@ -343,7 +343,7 @@ El mapa de empatía de Carlos se enfoca en su preocupación constante por la ext
 
 *Nota.* Empathy Map correspondiente al Segmento 1, detallando sus percepciones del entorno delictivo y sus motivaciones para adoptar una red de seguridad comercial.
 
-Para una mejor visualización de los detalles en los Empathy Maps de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQD3ELST12cFTr--zEcLz38fAZiaGTca7_Ermms7NRMGXdw?e=4dBE0U 
+Para una mejor visualización de los detalles en los Empathy Maps de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: [Ver Empathy Map 1](https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQD3ELST12cFTr--zEcLz38fAZiaGTca7_Ermms7NRMGXdw?e=4dBE0U) 
 
 **Segmento 2: Personal operativo y vendedores de establecimientos comerciales**
 
@@ -356,7 +356,7 @@ El mapa de empatía de Lucía ilustra la tensión y el estrés de trabajar en la
 
 *Nota.* Empathy Map correspondiente al Segmento 2, reflejando su exposición al peligro y la necesidad de mecanismos de reacción inmediata como el botón de pánico.
 
-Para una mejor visualización de los detalles en los Empathy Maps de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQBWuhKmJ_CMQ7bAMoxt3xEYAXMtY3bwDXpgiUX4rZLLE0A?e=OCTcQA 
+Para una mejor visualización de los detalles en los Empathy Maps de InstAlert, puede acceder al siguiente enlace de nuestro espacio de trabajo: [Ver Empathy Map 2](https://upcedupe-my.sharepoint.com/:i:/g/personal/u20241g022_upc_edu_pe/IQBWuhKmJ_CMQ7bAMoxt3xEYAXMtY3bwDXpgiUX4rZLLE0A?e=OCTcQA) 
 
 ## 2.4. Big Picture EventStorming
 

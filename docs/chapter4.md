@@ -144,7 +144,7 @@ Para el página de aterrizaje se utilizan etiquetas orientadas a la información
 </p>
 
 **Acceso al diagrama de la Arquitectura de Información (Miro):** 
-https://miro.com/app/board/uXjVHpZMLZ4=/?share_link_id=378532050437 
+[Ver Diagrama de Arquitectura de Información](https://miro.com/app/board/uXjVHpZMLZ4=/?share_link_id=378532050437)
 
 ### 4.2.3. SEO Tags and Meta Tags
 
@@ -837,16 +837,16 @@ Flujo Visual:
 
 Los prototipos de Interfaz de Usuario presentados a continuación simulan la interacción real de los flujos priorizados como lo son la activación y resolución de una alerta de pánico, la consulta del mapa de riesgo y la gestión operativa del negocio, tanto en Escritorio como en Navegador Web Móvil. 
 
-- **Página de Aterrizaje Enlace del Prototipo:** https://www.figma.com/proto/pVi401pE79dbjkdcjoTDQy/Wireflows?node-id=41-12398&t=EYsEnO7HOdlA1Tot-1&scaling=min-zoom&content-scaling=fixed&page-id=18%3A2&starting-point-node-id=41%3A12398&show-proto-sidebar=1 
+- **Página de Aterrizaje Enlace del Prototipo:** [Ver Prototipo Landing Page (Figma)](https://www.figma.com/proto/pVi401pE79dbjkdcjoTDQy/Wireflows?node-id=41-12398&t=EYsEnO7HOdlA1Tot-1&scaling=min-zoom&content-scaling=fixed&page-id=18%3A2&starting-point-node-id=41%3A12398&show-proto-sidebar=1)
 
 
-- **Admin Enlace del Prototipo:** https://www.figma.com/proto/pVi401pE79dbjkdcjoTDQy/Wireflows?node-id=18-4515&t=EYsEnO7HOdlA1Tot-1&scaling=min-zoom&content-scaling=fixed&page-id=18%3A2&starting-point-node-id=18%3A4515&show-proto-sidebar=1 
+- **Admin Enlace del Prototipo:** [Ver Prototipo Panel de Admin (Figma)](https://www.figma.com/proto/pVi401pE79dbjkdcjoTDQy/Wireflows?node-id=18-4515&t=EYsEnO7HOdlA1Tot-1&scaling=min-zoom&content-scaling=fixed&page-id=18%3A2&starting-point-node-id=18%3A4515&show-proto-sidebar=1)
 
 
-- **Operador Enlace del Prototipo:** https://www.figma.com/proto/pVi401pE79dbjkdcjoTDQy/Wireflows?node-id=25-7545&t=EYsEnO7HOdlA1Tot-1&scaling=min-zoom&content-scaling=fixed&page-id=18%3A2&starting-point-node-id=25%3A7545&show-proto-sidebar=1  
+- **Operador Enlace del Prototipo:** [Ver Prototipo Operador (Figma)](https://www.figma.com/proto/pVi401pE79dbjkdcjoTDQy/Wireflows?node-id=25-7545&t=EYsEnO7HOdlA1Tot-1&scaling=min-zoom&content-scaling=fixed&page-id=18%3A2&starting-point-node-id=25%3A7545&show-proto-sidebar=1)
 
 
-Link del video demostrativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQA8DWbv42LlRYa0nQ4P4x1MAa4ST8BcRGO8it_OGeTc8eE?e=l3R106 
+Link del video demostrativo: [Ver Video Demostrativo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQA8DWbv42LlRYa0nQ4P4x1MAa4ST8BcRGO8it_OGeTc8eE?e=l3R106)
 
 
 ## 4.6. Domain-Driven Software Architecture.
@@ -923,7 +923,7 @@ Nota: Paso 9 del Event Storming a Nivel de Diseño – Identificación y agrupac
 Nota: Paso 10 del Event Storming a Nivel de Diseño – Delimitación de contextos acotados (Contextos Acotados)
 </p>
 
-**Enlace del Tablero de Miro:** https://miro.com/app/board/uXjVHqyvuL0=/?share_link_id=889295094432
+**Enlace del Tablero de Miro:** [Ver Tablero de Dominio en Miro](https://miro.com/app/board/uXjVHqyvuL0=/?share_link_id=889295094432)
 
 ### 4.6.2. Software Architecture Context Diagram.
 

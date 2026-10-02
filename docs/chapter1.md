@@ -206,7 +206,7 @@ El siguiente Lean UX Canvas sintetiza los problemas, los segmentos de usuarios, 
   <i>Nota: Lean UX Canvas del proyecto InstAlert, elaborado en Figma. Resume el problema, los segmentos de usuarios, las hipótesis y los resultados esperados.</i>
 </p>
 
-A continuación, se presenta el enlace público de Figma del Lean UX Canvas del proyecto: <https://www.figma.com/board/Qbza1sCNy6SERgj6nfA1eA/Lean-UX-Canvas--v2----InstAlert?node-id=0-1&t=OWB59eKehE05IfsF-1>
+A continuación, se presenta el enlace público de Figma del Lean UX Canvas del proyecto: [Ver Lean UX Canvas en Figma](https://www.figma.com/board/Qbza1sCNy6SERgj6nfA1eA/Lean-UX-Canvas--v2----InstAlert?node-id=0-1&t=OWB59eKehE05IfsF-1)
 
 El Lean UX Canvas expuesto anteriormente resume la estrategia fundamental de InstAlert. Como se observa, partimos del problema crítico de comunicación aislada entre comercios (*Business Problem*) para definir objetivos medibles de adopción y tiempos de alerta (*Business Outcomes*). A partir de esto, identificamos a nuestros usuarios principales y los beneficios que esperan (*User Outcomes & Benefits*), lo que nos permite plantear soluciones directas como el mapa de zonas de riesgo y notificaciones automáticas (*Solutions*). Finalmente, consolidamos estas premisas en hipótesis verificables y priorizamos nuestros experimentos (como la publicación de una *Landing Page* y entrevistas a dueños de negocios) para validar nuestras suposiciones de mayor riesgo con el menor esfuerzo posible.
 
