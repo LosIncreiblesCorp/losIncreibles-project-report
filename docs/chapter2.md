@@ -405,19 +405,18 @@ Estos hotspots (*Administrador no contesta a tiempo*, *Mensajes se pierden entre
   *Nota.* Proceso de Reverse Storytelling que evidencia los puntos de dolor (Hotspots) presentes en el método reactivo actual.
 </p>
 
-## 2.5. Ubiquitous Language
+## 2.5. Lenguaje ubicuo
 
-| Término (Inglés) | Definición |
+Los siguientes términos describen la situación actual de los comercios ante un incidente de seguridad y los medios que utilizan para comunicarse.
+
+| Término | Definición |
 | :--- | :--- |
-| Store Owner (Dueño / Administrador de local) | Persona responsable de la gestión y operación del establecimiento comercial, encargada de administrar el negocio y adquirir la suscripción del servicio de seguridad. |
-| Operational Staff (Personal operativo / Vendedores) | Empleados, cajeros o trabajadores que se encuentran en la primera línea de atención del negocio y utilizan la plataforma para emitir alertas tempranas o solicitar auxilio en caso de emergencia. |
-| Commercial Network (Red de comercios) | Agrupación de negocios vecinos o locales ubicados en un mismo corredor geográfico que comparten información preventiva para protegerse mutuamente. |
-| Subscription Plan (Plan de suscripción) | Nivel de servicio o membresía adquirida por la organización o negocio, el cual define el acceso a características específicas de prevención y seguridad dentro de la plataforma. |
-| Silent Panic Button (Botón de pánico silencioso) | Mecanismo de activación discreta utilizado por el personal operativo para enviar una alerta de emergencia a contactos clave y autoridades sin llamar la atención de los delincuentes. |
-| Extortion Threat (Amenaza de extorsión) | Riesgo de seguridad crítico para el sector comercial (conocido localmente como "cobro de cupos"), cuyo registro y seguimiento requiere un tratamiento confidencial en el sistema. |
-| Commercial Risk Map (Mapa de riesgo comercial) | Representación geográfica que resalta las zonas y horarios con mayor incidencia delictiva, permitiendo a los negocios tomar decisiones operativas (como adelantar horarios de cierre). |
-| Incident Report (Reporte de incidente) | Aviso documentado sobre un hecho delictivo, estafa o actividad sospechosa (ej. billetes falsos, merodeadores), generado por el personal de un comercio para alertar a su red. |
-| Emergency Contacts (Contactos de emergencia) | Lista predefinida de personas clave (dueños, administradores o gerentes de locales vecinos) designadas para recibir notificaciones inmediatas ante la activación de un botón de pánico. |
-| Security Authorities (Autoridades de seguridad) | Entidades encargadas del orden público (Policía Nacional, Serenazgo), con las cuales los comercios buscan articular una respuesta rápida ante emergencias validadas. |
-
-**Nota:** Lenguaje ubicuo (Ubiquitous Language) de InstAlert adaptado al entorno comercial (B2B), que define los principales términos del dominio utilizados para evitar ambigüedades y mantener una comunicación consistente entre los stakeholders y el equipo de desarrollo.
+| **Comercio** | Establecimiento donde se desarrolla la actividad comercial y en el que puede ocurrir un incidente de seguridad. Se utilizará este término en lugar de alternar entre *local*, *negocio* y *tienda*. |
+| **Administrador del comercio** | Persona responsable de gestionar el comercio y coordinar las acciones relacionadas con su operación. Puede ser también su dueño, aunque ambos términos no necesariamente representan el mismo rol. |
+| **Personal operativo** | Trabajadores que realizan sus labores en el comercio y pueden presenciar un incidente. Es un término más amplio que *vendedor*, pues incluye a otros empleados que atienden o trabajan en el establecimiento. |
+| **Comercio vecino** | Establecimiento cercano al comercio afectado que podría recibir información sobre un incidente. |
+| **Incidente de seguridad** | Hecho que afecta o pone en riesgo al comercio, como un robo o un asalto. |
+| **Aviso del incidente** | Comunicación que informa a otra persona o comercio sobre un incidente ocurrido. En la situación actual, se realiza mediante una llamada o un mensaje. |
+| **Canal de comunicación** | Medio utilizado para transmitir el aviso del incidente. Actualmente incluye la llamada telefónica y WhatsApp. |
+| **Demora en la comunicación** | Retraso entre la ocurrencia del incidente y el momento en que el administrador o los comercios vecinos reciben o leen el aviso. |
+| **Ubicación del incidente** | Lugar donde ocurrió el incidente. En la situación actual, comunicarla con precisión puede ser difícil. |
