@@ -927,29 +927,59 @@ Nota: Paso 10 del Design-Level Event Storming – Delimitación de contextos aco
 
 ### 4.6.2. Software Architecture Context Diagram
 
-Este diagrama muestra a InstAlert en el centro y cómo interactúa con los usuarios y los sistemas externos.
+La vista de contexto presenta a InstAlert como un sistema completo, sin mostrar todavía sus componentes internos. Su propósito es delimitar el alcance de la plataforma e identificar a las personas y los sistemas externos que se relacionan con ella.
+
+Los actores que interactúan con InstAlert son:
+
+- **Commerce Administrator:** administra el comercio y su personal operativo, gestiona la suscripción y consulta información de seguridad.
+- **Operational Staff:** utiliza la plataforma para enviar alertas de seguridad y consultar información de riesgo cercana.
+
+El diagrama también muestra cuatro sistemas externos y el propósito de su integración:
+
+- **SendGrid:** servicio de correo electrónico representado para enviar invitaciones al personal operativo.
+- **Firebase Cloud Messaging:** servicio representado para entregar notificaciones push en tiempo real.
+- **Mapbox:** servicio de mapas y visualización geoespacial utilizado por las funciones de ubicación y riesgo.
+- **PayPal:** plataforma de pago representada para procesar los pagos de suscripción.
+
+Las relaciones indican que ambos perfiles utilizan InstAlert y que la plataforma se comunica con los servicios externos para las funciones específicas descritas. Esta vista permite entender los límites del sistema y su ecosistema, sin detallar todavía cómo se implementan internamente esas responsabilidades.
 
 <p align="center">
-<img src="../assets\Chapter4\System Context Diagram.png" alt="Paso 10" width="700"><br>
-Nota: Diagrama de contexto de la arquitectura de software de InstAlert
+<img src="../assets/Chapter4/System Context Diagram.png" alt="Diagrama de contexto del sistema InstAlert" width="1000"><br>
+Nota: Vista de contexto de InstAlert con sus actores y sistemas externos.
 </p>
 
-### 4.6.3. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Container Diagram
 
-Hacemos "zoom" a la caja central azul de InstAlert para ver sus contenedores (aplicaciones y bases de datos).
+La vista de contenedores amplía el sistema InstAlert y muestra las aplicaciones y el almacenamiento que lo componen, junto con sus tecnologías y principales comunicaciones:
+
+- **Landing Page:** sitio web servido como contenido estático que presenta información pública del producto y da acceso a la aplicación web.
+- **Single-Page Application (SPA):** aplicación de navegador implementada con Vue.js y Vite. Ofrece las funciones web para administradores de comercio y personal operativo.
+- **Backend API:** servicio desarrollado con C# y .NET. Expone las API REST, aplica las reglas de negocio y organiza la lógica mediante módulos basados en Domain-Driven Design.
+- **Database:** base de datos MySQL que conserva la información persistente de InstAlert. El diagrama indica que los módulos mantienen la propiedad lógica de sus datos aunque compartan este contenedor de persistencia.
+
+Los usuarios acceden a la experiencia web mediante HTTPS. La SPA intercambia solicitudes y respuestas JSON con el Backend API por HTTPS; el backend lee y escribe en MySQL mediante SQL. También se representan las comunicaciones del backend con SendGrid para los correos de invitación, Firebase Cloud Messaging para las notificaciones push, Mapbox para las funciones geoespaciales y PayPal para el procesamiento de suscripciones. La Landing Page proporciona el acceso a la SPA, mientras que la base de datos permanece dentro del límite del sistema InstAlert.
 
 <p align="center">
-<img src="../assets\Chapter4\Container Diagram.png" alt="Paso 10" width="700"><br>
-Nota: Diagrama de contenedores de la arquitectura de software de InstAlert
+<img src="../assets/Chapter4/Container Diagram.png" alt="Diagrama de contenedores de InstAlert" width="1000"><br>
+Nota: Vista de contenedores de InstAlert, sus tecnologías y sus integraciones externas.
 </p>
 
-### 4.6.4. Software Architecture Components Diagrams
+### 4.6.4. Software Architecture Component Diagram
 
-Hacemos "zoom" al contenedor de la Backend API para detallar los componentes internos y Bounded Contexts que conforman la lógica de negocio del sistema.
+La vista de componentes amplía el Backend API y muestra cómo se distribuyen sus responsabilidades entre los cinco bounded contexts de negocio definidos para InstAlert. **Shared** también aparece en el diagrama, pero representa soporte técnico transversal y no un sexto contexto de negocio:
+
+- **IAM:** administra las identidades, la autenticación y las credenciales; también contempla la activación de cuentas de administradores y personal operativo.
+- **Business:** gestiona comercios, perfiles asociados, personal operativo, invitaciones, membresías y comercios cercanos registrados.
+- **Alert:** maneja el ciclo de vida de las alertas, desde su creación y despacho hasta su cancelación o resolución; además, permite consultar alertas activas, cercanas, sus detalles e historial.
+- **Mapping:** administra las consultas de mapas y zonas de riesgo, la información geográfica de incidentes y su visualización por niveles de riesgo.
+- **Payments:** gestiona los planes, el procesamiento de pagos y la activación o cancelación de suscripciones.
+- **Shared:** ofrece abstracciones reutilizables, contratos comunes, manejo de errores, identificadores y capacidades transversales a los módulos.
+
+La SPA consume las capacidades de los módulos del backend. Las relaciones entre componentes muestran, entre otros flujos, que Business solicita a IAM la activación de cuentas y envía invitaciones mediante SendGrid; Alert envía notificaciones push mediante Firebase Cloud Messaging y proporciona información geolocalizada a Mapping; Mapping utiliza Mapbox; y Payments procesa suscripciones mediante PayPal. Los módulos reutilizan las capacidades de Shared y persisten sus datos en MySQL manteniendo su responsabilidad lógica sobre ellos.
 
 <p align="center">
-<img src="../assets\Chapter4\Component Diagram (Backend API).png" alt="Paso 10" width="700"><br>
-Nota: Diagrama de componentes de la arquitectura de software de InstAlert
+<img src="../assets/Chapter4/Component Diagram (Backend API).png" alt="Diagrama de componentes del Backend API de InstAlert" width="1000"><br>
+Nota: Vista de componentes del Backend API, organizada por bounded context y sus integraciones.
 </p>
 
 
