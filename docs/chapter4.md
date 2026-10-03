@@ -987,60 +987,62 @@ Nota: Vista de componentes del Backend API, organizada por bounded context y sus
 
 ### 4.7.1. Class Diagrams
 
-Los diagramas de clases representan el diseño orientado a objetos del backend de InstAlert. Cada bounded context se modela como un paquete con sus propias entidades, agregados, objetos de valor, enumeraciones y relaciones. Las referencias entre contextos se mantienen mediante contratos y referencias por identificador, evitando que un contexto dependa directamente de las clases internas de otro.
+El siguiente diagrama representa el diseño orientado a objetos propuesto para el **frontend de la Web Application de InstAlert**. El límite del diagrama contiene únicamente elementos del cliente: vistas, componentes, stores de aplicación, modelos utilizados por el frontend y adaptadores HTTP. Las clases `*ApiClient` consumen el backend mediante REST; sus controladores, servicios y base de datos no forman parte de esta vista.
 
-El diseño considera cinco bounded contexts de negocio: Iam, Business, Alert, Payments y Mapping. `Shared` no se presenta como un contexto de negocio, ya que corresponde únicamente a soporte técnico transversal.
+La organización sigue los cinco bounded contexts propios del negocio: `Iam`, `Business`, `Alert`, `Payments` y `Mapping`. Cada uno separa `Domain`, `Application`, `Infrastructure` y `Presentation`; esta última contiene sus vistas y componentes. `Shared` no se incluye como bounded context.
 
-**Diagrama completo de clases**
+Las relaciones entre contextos se expresan mediante identificadores y contratos, no mediante navegación entre objetos de dominio. `BusinessMember` y `StaffInvitation` referencian usuarios de `Iam` por ID; `Alert` e `IncidentReport` referencian usuarios y comercios; `Subscription` apunta al comercio por ID; y `Mapping` consume proyecciones identificadas de alertas y comercios. Para mostrar el cupo contratado, `Business` consulta el contrato de límites de `Payments` mediante `PlanLimitsAdapter`.
+
+**Diagrama de clases frontend**
 
 <p align="center">
-<img src="../assets/Chapter4/class-diagrams/complete.svg" alt="Diagrama completo de clases de InstAlert" width="1000"><br>
-Nota: Diagrama completo de clases del backend de InstAlert, organizado por bounded context.
+<img src="../assets/Chapter4/class-diagrams/complete.svg" alt="Diagrama completo de clases frontend de InstAlert, organizado por bounded context" width="1000"><br>
+Nota: Diagrama completo de clases de la Web Application frontend de InstAlert.
 </p>
 
 **Iam**
 
-Este bounded context administra la identidad de los usuarios: registro, credenciales, datos personales, estado de la cuenta y autenticación. No administra los roles dentro de un comercio; esos roles pertenecen a las membresías de Business.
+Este contexto modela la identidad y el estado de la cuenta del usuario. En el diseño objetivo, `IamStore` coordina los formularios y vistas de registro, inicio de sesión y perfil con el cliente HTTP y el ensamblador de usuarios. Estos flujos de IAM no se implementan en la entrega frontend actual. Los roles que una persona tiene dentro de un comercio pertenecen a `Business`, no a `Iam`.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/iam.svg" alt="Diagrama de clases del bounded context Iam" width="850"><br>
-Nota: Clases del bounded context Iam.
+Nota: Clases frontend del bounded context Iam.
 </p>
 
 **Business**
 
-Este bounded context representa los comercios y la relación entre usuarios y comercios. Contiene el agregado Business, las membresías, los roles Administrator y Operative, y las invitaciones de personal.
+Este contexto reúne el perfil del comercio, las membresías de administradores y empleados, y el ciclo de vida de las invitaciones. `BusinessStore` coordina esas operaciones y consulta a `Payments`, mediante `PlanLimitsAdapter`, el cupo de empleados disponible; el comercio conserva la propiedad de sus miembros e invitaciones.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/business.svg" alt="Diagrama de clases del bounded context Business" width="850"><br>
-Nota: Clases del bounded context Business.
+Nota: Clases frontend del bounded context Business.
 </p>
 
 **Alert**
 
-Este bounded context concentra la operación de seguridad colaborativa. Gestiona la creación, clasificación y resolución de alertas, los reportes de incidentes, las preferencias de notificación, los contactos de emergencia y las entregas de notificaciones mediante los canales definidos por el sistema.
+Este contexto cubre la operación de alertas: su creación, consulta y resolución; los reportes de incidentes; los contactos de emergencia y las preferencias de notificación. El aviso visual de una alerta es temporal y no crea un historial de notificaciones separado. `AlertStatus` y `ReportStatus` representan ciclos de vida independientes.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/alert.svg" alt="Diagrama de clases del bounded context Alert" width="850"><br>
-Nota: Clases del bounded context Alert.
+Nota: Clases frontend del bounded context Alert.
 </p>
 
 **Payments**
 
-Este bounded context gestiona los planes, las suscripciones de los comercios, las transacciones y la comunicación con el proveedor de pagos. Conserva la información necesaria para confirmar pagos y controlar el estado de la suscripción.
+Este contexto presenta los planes y administra en el modelo las suscripciones, los métodos de pago tokenizados y las transacciones. Los planes contemplan límites de tres, cinco u ocho empleados; una cancelación programada mantiene la suscripción activa hasta finalizar el periodo ya pagado.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/payments.svg" alt="Diagrama de clases del bounded context Payments" width="850"><br>
-Nota: Clases del bounded context Payments.
+Nota: Clases frontend del bounded context Payments.
 </p>
 
 **Mapping**
 
-Este bounded context administra la información geográfica utilizada para mapas y consultas de riesgo. Contiene zonas de riesgo y proyecciones de incidentes y ubicaciones comerciales, sin convertirse en propietario de las alertas o comercios originales.
+Este contexto consulta zonas de riesgo y proyecciones geográficas de incidentes y comercios para mostrarlas en el mapa y aplicar filtros. `MapRendererAdapter` conecta la presentación con la biblioteca cartográfica; los datos originales siguen perteneciendo a `Alert` y `Business`.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/mapping.svg" alt="Diagrama de clases del bounded context Mapping" width="850"><br>
-Nota: Clases del bounded context Mapping.
+Nota: Clases frontend del bounded context Mapping.
 </p>
 
 ## 4.8. Database Design
