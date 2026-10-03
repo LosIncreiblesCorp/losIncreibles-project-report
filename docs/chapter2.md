@@ -368,42 +368,41 @@ El equipo llevó a cabo una sesión colaborativa de Big Picture Event Storming c
 
 #### 2.4.1.1. Generación de Eventos de Dominio (Domain Events)
 
-En esta fase inicial, el equipo se enfocó en identificar todos los hechos significativos que ocurren dentro del ecosistema de InstAlert. Siguiendo la convención de la metodología, estos eventos se plasmaron en notas adhesivas de color naranja y se redactaron en tiempo pasado, reflejando acciones ya concretadas. 
-Para nuestro enfoque B2B, se identificaron eventos clave como *Suscripción SaaS adquirida*, *Personal operativo registrado*, *Cierre de caja iniciado*, *Alerta de extorsión emitida*, y *Botón de pánico silencioso activado*. Esta etapa permitió visibilizar la complejidad de la gestión del negocio y la interacción comunitaria sin restricciones de orden cronológico.
+En esta fase inicial, el equipo se enfocó en identificar todos los hechos significativos que ocurren dentro del ecosistema del problema (asaltos y robos a negocios). Siguiendo la convención de la metodología, estos eventos se plasmaron en notas adhesivas de color naranja y se redactaron en tiempo pasado, reflejando acciones ya concretadas.
+Para nuestro contexto de InstAlert, se identificaron eventos clave como *Robo o asalto ocurrido*, *Alerta rápida de incidente emitida*, y *Mensaje leído tarde por vecinos*. Esta etapa permitió visibilizar las acciones manuales actuales frente a los eventos que el aplicativo resolverá, sin restricciones de orden cronológico.
 
 <p align="center">
-  <img src="../assets/Chapter2/Graphics/Domain Events.png" alt="Generación de Eventos de Dominio" width="450"><br>
-  *Nota.* Generación de eventos de dominio del Big Picture Event Storming de InstAlert para el entorno comercial.
+  <img src="../assets/Chapter2/Graphics/Screenshot_1.jpg" alt="Generación de Eventos de Dominio" width="600"><br>
+  *Nota.* Generación de eventos de dominio del Event Storming de Panorama General de InstAlert centrado en flujos de prevención y reacción.
 </p>
 
 #### 2.4.1.2. Ordenamiento Cronológico y Flujo de Trabajo
 
-Una vez generados los eventos de dominio, se procedió a organizarlos en una línea de tiempo (de izquierda a derecha). Este ordenamiento permitió estructurar el ciclo de vida del usuario en la plataforma a través de dos flujos principales: el **Flujo de Gestión Preventiva** (orientado a la suscripción, configuración del local y monitoreo del mapa de riesgos por parte del Administrador) y el **Flujo Reactivo** (enfocado en el reporte de incidencias y uso del botón de pánico por parte del Personal Operativo ante emergencias). Se utilizaron alineaciones verticales para representar eventos concurrentes, como el envío simultáneo de alertas a la red de comercios vecinos y a los contactos clave.
+Una vez generados los eventos de dominio, se procedió a organizarlos en una línea de tiempo (de izquierda a derecha). Este ordenamiento permitió estructurar la realidad del problema a través de dos flujos completamente independientes: el **Flujo Reactivo**, que ilustra la manera ineficiente y tradicional con la que los comerciantes responden hoy en día ante un asalto (llamadas o mensajes de WhatsApp), y el **Flujo de Prevención**, que evidencia el valor que aporta InstAlert mediante la notificación preventiva entre negocios vecinos y la actualización inmediata en un mapa interactivo.
 
 <p align="center">
-  <img src="../assets/Chapter2/Graphics/Flujo.png" alt="Ordenamiento Cronológico y Flujo de Trabajo" width="450"><br>
-  *Nota.* Ordenamiento cronológico y estructuración de flujos preventivos y reactivos del Big Picture Event Storming.
+  <img src="../assets/Chapter2/Graphics/Screenshot_2.jpg" alt="Ordenamiento Cronológico y Flujo de Trabajo" width="600"><br>
+  *Nota.* Ordenamiento cronológico separando el flujo tradicional (reactivo) del flujo propuesto con InstAlert (prevención).
 </p>
 
 #### 2.4.1.3. Identificación de Actores y Sistemas Externos
 
-Para otorgar el contexto necesario a la secuencia de eventos, se añadieron capas de información identificando quién ejecuta las acciones y qué sistemas o integraciones de terceros intervienen en el proceso.
-* **Actores:** Se definieron roles críticos como el Administrador/Dueño del local, el Personal Operativo (cajeros/vendedores), los Comercios Vecinos (red de apoyo) y las Autoridades (Policía/Serenazgo).
-* **Sistemas Externos:** Se identificaron integraciones necesarias, tales como Pasarelas de Pago (para la gestión de las suscripciones SaaS), Google Maps API (para la geolocalización de las alertas comerciales) y Firebase (para el envío de notificaciones push de emergencia en tiempo real).
+Para otorgar el contexto necesario a la secuencia de eventos, se añadieron capas de información identificando quién ejecuta las acciones y qué sistemas o herramientas intervienen en ambos procesos.
+* **Flujo Reactivo:** Se identificó a los actores tradicionales como el *Vendedor*, el *Dueño / Administrador* y el *Comercio Vecino*, quienes dependen exclusivamente del *WhatsApp* y el *Teléfono Celular*.
+* **Flujo de Prevención:** Se introdujo a *InstAlert App* y la API de *Mapbox* como los nuevos sistemas que reemplazan las ineficiencias del flujo anterior, logrando que el *Vendedor* informe de manera estructurada al *Comercio Vecino*.
 
 <p align="center">
-  <img src="../assets/Chapter2/Graphics/Actores y sistemas externos.png" alt="Identificación de Actores y Sistemas Externos" width="450"><br>
-  *Nota.* Identificación de los actores comerciales y las integraciones tecnológicas externas requeridas por el sistema.
+  <img src="../assets/Chapter2/Graphics/Screenshot_3.jpg" alt="Identificación de Actores y Sistemas Externos" width="600"><br>
+  *Nota.* Identificación de los actores y los sistemas (manuales frente a los automatizados de InstAlert) involucrados en ambos flujos.
 </p>
 
 #### 2.4.1.4. Storytelling y Validación (Reverse Storytelling)
 
-Finalmente, el equipo realizó una lectura crítica del mapa completo. Al narrar la historia de forma inversa (Reverse Storytelling), se validó la coherencia lógica del dominio. Durante esta etapa se utilizaron notas adhesivas de color rosado para marcar los "Puntos de Dolor" (Pain Points) o riesgos del sistema. 
-En nuestro contexto comercial, se identificaron vulnerabilidades como la *falsa activación de alertas por parte de empleados nuevos*, *fallos en la renovación automática de la suscripción*, y la *pérdida de conectividad a internet dentro de almacenes o sótanos del local*. Esta etapa garantizó el diseño de contingencias para que el sistema sea robusto y confiable en situaciones de estrés comercial real.
-
+Finalmente, el equipo realizó una lectura crítica del mapa completo de derecha a izquierda (Reverse Storytelling) para validar la coherencia lógica de los procesos trazados. Durante esta etapa se utilizaron notas adhesivas de color rosado (Hotspots) para marcar los "Puntos de Dolor" o problemas críticos de la situación actual.
+Estos hotspots (*Administrador no contesta a tiempo*, *Mensajes se pierden entre el spam* y *Falta de ubicación exacta del incidente*) fueron asignados exclusivamente al **Flujo Reactivo**, evidenciando las serias limitaciones del modelo basado en WhatsApp y llamadas, validando así la pertinencia y el diseño del **Flujo de Prevención** propuesto.
 <p align="center">
-  <img src="../assets/Chapter2/Graphics/Reverse Storytelling.png" alt="Storytelling y Validación" width="450"><br>
-  *Nota.* Proceso de Reverse Storytelling para la validación lógica y detección de puntos de dolor en el sistema.
+  <img src="../assets/Chapter2/Graphics/Screenshot_4.jpg" alt="Storytelling y Validación" width="600"><br>
+  *Nota.* Proceso de Reverse Storytelling que evidencia los puntos de dolor (Hotspots) presentes en el método reactivo actual.
 </p>
 
 ## 2.5. Ubiquitous Language
