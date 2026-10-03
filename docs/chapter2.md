@@ -704,18 +704,18 @@ Estos hotspots (*Administrador no contesta a tiempo*, *Mensajes se pierden entre
   *Nota.* Proceso de Reverse Storytelling que evidencia los puntos de dolor (Hotspots) presentes en el método reactivo actual.
 </p>
 
-## 2.5. Lenguaje ubicuo
+## 2.5. Ubiquitous Language
 
-Los siguientes términos describen la situación actual de los comercios ante un incidente de seguridad y los medios que utilizan para comunicarse.
+Los siguientes términos describen la situación actual de los comercios ante un incidente de seguridad y los medios que utilizan para comunicarse. Se emplearán de manera consistente en el análisis del problema.
 
-| Término | Definición |
+| Term | Definition |
 | :--- | :--- |
-| **Comercio** | Establecimiento donde se desarrolla la actividad comercial y en el que puede ocurrir un incidente de seguridad. Se utilizará este término en lugar de alternar entre *local*, *negocio* y *tienda*. |
-| **Administrador del comercio** | Persona responsable de gestionar el comercio y coordinar las acciones relacionadas con su operación. Puede ser también su dueño, aunque ambos términos no necesariamente representan el mismo rol. |
-| **Personal operativo** | Trabajadores que realizan sus labores en el comercio y pueden presenciar un incidente. Es un término más amplio que *vendedor*, pues incluye a otros empleados que atienden o trabajan en el establecimiento. |
-| **Comercio vecino** | Establecimiento cercano al comercio afectado que podría recibir información sobre un incidente. |
-| **Incidente de seguridad** | Hecho que afecta o pone en riesgo al comercio, como un robo o un asalto. |
-| **Aviso del incidente** | Comunicación que informa a otra persona o comercio sobre un incidente ocurrido. En la situación actual, se realiza mediante una llamada o un mensaje. |
-| **Canal de comunicación** | Medio utilizado para transmitir el aviso del incidente. Actualmente incluye la llamada telefónica y WhatsApp. |
-| **Demora en la comunicación** | Retraso entre la ocurrencia del incidente y el momento en que el administrador o los comercios vecinos reciben o leen el aviso. |
-| **Ubicación del incidente** | Lugar donde ocurrió el incidente. En la situación actual, comunicarla con precisión puede ser difícil. |
+| **Business (Comercio)** | Establecimiento donde se desarrolla la actividad comercial y en el que puede ocurrir un incidente de seguridad. En el documento se utilizará *Business* como término común, en lugar de alternar entre *local*, *negocio* y *tienda*. |
+| **Business Owner or Administrator (Dueño o administrador del comercio)** | Persona que es dueña del comercio o está a cargo de administrarlo. En la situación actual, es una de las personas a las que se intenta contactar después de un incidente. |
+| **Operational Staff (Personal operativo)** | Trabajadores que realizan sus labores en el comercio y pueden presenciar un incidente. Incluye a vendedores y a otros empleados que atienden o trabajan en el establecimiento. |
+| **Neighboring Business (Comercio vecino)** | Establecimiento cercano al comercio afectado que podría recibir información sobre un incidente. |
+| **Security Incident (Incidente de seguridad)** | Hecho que afecta o pone en riesgo al comercio, como un robo o un asalto. |
+| **Incident Notice (Aviso del incidente)** | Comunicación que informa a otra persona o comercio sobre un incidente ocurrido. En la situación actual, se realiza mediante una llamada o un mensaje. |
+| **Communication Channel (Canal de comunicación)** | Medio utilizado para transmitir el aviso del incidente. Actualmente incluye la llamada telefónica y WhatsApp. |
+| **Communication Delay (Demora en la comunicación)** | Retraso entre la ocurrencia del incidente y el momento en que el administrador o los comercios vecinos reciben o leen el aviso. |
+| **Incident Location (Ubicación del incidente)** | Lugar donde ocurrió el incidente. En la situación actual, comunicarlo con precisión puede ser difícil. |
