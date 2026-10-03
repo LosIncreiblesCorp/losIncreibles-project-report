@@ -952,7 +952,6 @@ Hacemos "zoom" al contenedor de la Backend API para detallar los componentes int
 Nota: Diagrama de componentes de la arquitectura de software de InstAlert
 </p>
 
-
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams

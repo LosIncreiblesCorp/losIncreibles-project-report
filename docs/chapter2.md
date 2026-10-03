@@ -86,7 +86,6 @@ InstAlert plantea estrategias de diferenciación frente a cada competidor identi
 
 ## 2.2. Entrevistas
 
-
 ### 2.2.1. Diseño de entrevistas
 
 | Sección | Preguntas de la entrevista |
@@ -97,7 +96,7 @@ InstAlert plantea estrategias de diferenciación frente a cada competidor identi
 
 #### 2.2.2. Registro de entrevistas
 
-Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBrqsJSVffgSaS2KT2RC4_yAbMjSfUL3AXeUaYltiDsDoU?e=GPJvVF
+**Needfinding Interviews Link:** https://acortar.link/IsNjMq 
 
 ### Entrevistas realizadas al Segmento 1: Administradores y dueños de locales comerciales
 
@@ -108,10 +107,10 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 | **Edad** | 42 años |
 | **Distrito** | Comas |
 | **Evidencia** | <img src="https://i.postimg.cc/rRmPRFrz/evidencia1.png" alt="Evidencia Entrevista 1" width="180"> |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCQ3QCcLMNJTpUchqBe08G_AYlmCTa9z7RyanN0NzsO_Z4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1yOnV7 |
+| **Link** | https://lix.li/5DVvs |
 | **Timing donde inicia** | 00:05 min |
 | **Duración** | 18:11 min |
-| **Resumen** | La entrevistada, administradora dgit branche un minimarket, manifiesta que la extorsión y los asaltos son los mayores riesgos para su negocio, especialmente durante el cierre y la gestión de efectivo. Actualmente emplea grupos de WhatsApp con otros comerciantes, pero los considera ineficientes y desorganizados ante emergencias reales. Destaca el gran valor que tendría una plataforma dedicada a alertas entre comercios vecinos y la visualización de un mapa de riesgos para anticiparse a las amenazas y proteger a su personal, siempre que la herramienta sea intuitiva en el uso móvil. |
+| **Resumen** | María Rocío de Los Ángeles es una comerciante de 42 años que vive y atiende su propia bodega en el distrito de Comas. Muestra una personalidad cautelosa, temerosa frente a la delincuencia pero previsora y dispuesta a la colaboración comunitaria. En su día a día experimenta altos niveles de estrés e inseguridad, identificando como momentos de mayor vulnerabilidad la apertura del local por las mañanas y el cierre nocturno debido a la soledad de las calles. Su entorno comercial está fuertemente marcado por la presencia de delincuencia común, bandas organizadas, extorsiones de tipo "gota a gota", vandalismo por pandillaje en zonas con poca iluminación y robos por distracción (hurtos hormiga) mientras atiende. Ya ha sido víctima de asalto directo por jóvenes en su propio local y, ante el temor recurrente por atracos recientes a vecinos, opta en ocasiones por no abrir su bodega, afectando directamente el desempeño de su negocio. En el ámbito tecnológico, interactúa con cámaras de seguridad instaladas en su establecimiento para supervisar la mercadería en exhibición. Su experiencia con los canales tradicionales de interacción frente a emergencias es sumamente negativa: manifiesta una marcada desconfianza hacia la Policía y el Serenazgo debido a su falta de respuesta inmediata (líneas que no contestan, demora por falta de combustible o patrullas) y a la falta de firmeza de las autoridades judiciales, lo que provoca que los delincuentes capturados vuelvan a delinquir al poco tiempo. Tampoco cuenta con una red de apoyo vecinal consolidada durante los incidentes por temor de los residentes a intervenir, lo que la obliga a asumir de forma autónoma su protección.Respecto a soluciones tecnológicas e interfaces de usuario, María Rocío evalúa de forma muy favorable la implementación de un botón de pánico rápido y directo que notifique instantáneamente a las autoridades ante amenazas en el local, clientes violentos o intentos de extorsión. Además, valora de manera positiva un sistema de mapas interactivos (similar a Google Maps) enfocado en zonas de riesgo delictivo que le permita coordinar con vecinos y ajustar sus horarios de atención. Requiere que estos reportes incluyan datos precisos como el tipo de delito, el horario de operación de los delincuentes, las modalidades empleadas (como el uso de niños o mujeres) y, fundamentalmente, fotografías o imágenes de los rostros de los agresores para poder identificarlos preventivamente y alertar a su entorno. |
 
 | **Entrevista #2** | |
 | :--- | :--- |
@@ -120,10 +119,10 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 | **Edad** | 60 años |
 | **Distrito** | Jesús María, Miraflores, San Isidro, Lince y Breña |
 | **Evidencia** | <img src="https://i.postimg.cc/sgFC23zQ/Evidencia-2.png" alt="Evidencia Entrevista 2" width="180"> |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQBXA7xWaCu8Sp821kXGKg0eARcjMnTc_E4mKjf0QHs5Oi4?e=Aytt25&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Link** | https://acortar.link/isowDh |
 | **Timing donde inicia** | 00:05 min |
 | **Duración** | 8:49 min |
-| **Resumen** | El entrevistado, gerente de una empresa gráfica (imprenta) con presencia en Jesús María, Miraflores, San Isidro, Lince y Breña desde hace aproximadamente 30 años, identifica la falta de vigilancia externa como el principal riesgo de seguridad, agravado en horario nocturno a partir de las 6 p.m. Aunque no ha sido víctima directa de un robo, comerciantes cercanos sí lo han sufrido, y actualmente la comunicación ante emergencias es únicamente verbal, sin ningún canal formal entre negocios vecinos. Señala como principal limitante la lentitud de las llamadas telefónicas para reportar una amenaza y valora positivamente contar con un mapa de zonas de riesgo, una llamada de emergencia directa a la policía y una red que integre a todo su personal, otorgando una importancia alta a una plataforma de alertas entre comercios vecinos, "porque sin seguridad las empresas no pueden trabajar con tranquilidad". |
+| **Resumen** | Jorge Alberto Portocarrero de los Ríos es un gerente de 60 años que administra desde hace casi 30 años su propia empresa gráfica (imprenta) operando en distritos como Jesús María, Miraflores, San Isidro, Lince y Breña. Muestra una personalidad precavida, corporativa y pragmática, con un alto sentido de responsabilidad e integración hacia la protección de sus empleados. En su día a día considera que el momento de mayor vulnerabilidad para su negocio inicia a partir de las 6:00 p.m. por la falta de vigilancia privada o patrullaje en las calles. Su entorno comercial lidia con incidentes de robos a negocios cercanos, y aunque su local aún no ha sufrido un ataque directo, su principal medida de protección física se limita a reforzar las puertas con estructuras de alta resistencia. En cuanto a tecnología, canales de interacción y dispositivos, Jorge Alberto gestiona las comunicaciones administrativas principalmente mediante llamadas telefónicas tradicionales. Actualmente no cuenta con un sistema de cámaras de seguridad instalado en su local, aunque reconoce su valor. Sus canales de interacción con negocios vecinos son deficientes: la comunicación ante emergencias se realiza únicamente de forma verbal e informal una vez ocurrido el hecho, y en el pasado dependían de llamadas telefónicas a la comisaría local (ubicada a la espalda del negocio). Su mayor obstáculo frente a situaciones críticas es la lentitud e ineficiencia de las llamadas telefónicas estándar, las cuales se saturan, no contestan o hacen perder minutos vitales. Respecto a requerimientos de software y herramientas digitales, valora con prioridad alta la seguridad para garantizar la operatividad de las empresas. Demuestra disposición a adoptar plataformas o aplicaciones con funciones de llamada de emergencia de conexión inmediata con la policía, exigiendo que toda la plantilla de trabajadores esté integrada y conectada al sistema en tiempo real. Asimismo, considera fundamental contar con herramientas que incluyan mapas de calor o de riesgo para identificar visualmente las zonas más vulnerables de su entorno comercial y tomar precauciones en los desplazamientos, además de recibir información constante y actualizada sobre los incidentes que afectan a su cuadra y distrito.|
 
 | **Entrevista #3** | |
 | :--- | :--- |
@@ -132,10 +131,10 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 | **Edad** | 26 |
 | **Distrito** | San Martin de Porres |
 | **Evidencia** | <img src="https://i.postimg.cc/wBZjrHhD/evidencia-3.png" alt="Evidencia Entrevista 3" width="180"> |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDHSCAadtHiTYRuyzSdT-UsAThrPOgKm9g88x3TIRDNV8I?e=VXLFKW |
+| **Link** |https://acortar.link/kIGydj |
 | **Timing donde inicia** | 00:05 min |
 | **Duración** |09:11 min|
-| **Resumen** | La entrevistada, socia de una agencia de marketing con presencia en San Martin de Porres desde hace 2 años, nos hace saber su preocupación por el alto índice de inseguridad que se vive en el distrito donde reside el local. Menciona que una tarea tan básica y simple como trasladar distintos equipos como cámaras o laptops a distintos lugares de la ciudad se vuelve preocupante por el constante temor de que los equipos puedan ser robados en pleno traslado, o en caso, como menciona ella, que si los delincuentes se enteraran que en su local existen dichos equipos de alto valor, puedan forzar la entrada y hurtarlos. Adicionalmente, explica que entre negocios o locales cercanos y/o vecinos, si bien cuentan con un canal de WhatsApp para poder reportar incidencias o posibles actos sospechosos en la zona, a veces la comunicación no es tan efectiva, pues suelen mandarse muchos mensajes y los mensajes relevantes pueden perderse entre tantos. Mencionó que lo que mas valoraría en una plataforma digital como InstAlert sería la facilidad de uso y la confianza del producto.|
+| **Resumen** | Katherine Andonaire Romero es una comunicadora y socia de 26 años de una agencia de publicidad ubicada en San Martín de Porres, distrito donde operan guardando y gestionando equipos de trabajo, aunque también se desplaza a distritos como Miraflores y San Isidro para sus proyectos. Muestra una personalidad precavida, colaborativa, preventiva y orientada al trabajo en equipo. En su día a día experimenta un constante temor por la vulnerabilidad de sus bienes de alto valor económico (cámaras, micrófonos, luces, laptops) al momento de trasladarlos o guardarlos en el local, identificando la jornada nocturna como el momento de mayor riesgo debido al peligro delictivo percibido en la zona. Aunque no han sufrido robos directos, adopta medidas preventivas estrictas como el uso exclusivo de taxis de confianza o satelitales y el traslado de equipos en grupo para reaccionar con rapidez. En el ámbito tecnológico, interactúa constantemente con smartphones e integra el uso de cámaras de seguridad en el local por su capacidad de registrar hechos para eventuales denuncias policiales. Su canal de interacción habitual con locales cercanos es un grupo de WhatsApp; sin embargo, considera que es una herramienta limitada ya que la información tiende a perderse en el flujo de mensajes y obliga a un proceso lento cuando se necesita reportar una amenaza en tiempo real mientras transita por la calle. Además, manifiesta dudas operativas sobre a quién recurrir primero ante un incidente sin una plataforma centralizada. Respecto a preferencias de software y aplicaciones móviles, Catherine exige una herramienta digital rápida, sencilla de usar en el celular y, sobre todo, altamente confiable. Muestra un claro rechazo a plataformas complejas que requieran registros largos, múltiples permisos o procesos complicados de inicio de sesión, identificando además como barrera de adopción que pocos comercios de la zona la utilicen. Sus necesidades funcionales clave son: envío inmediato de alertas con un solo toque, notificaciones en tiempo real, mapas interactivos con ubicaciones de incidentes que le permitan trazar rutas seguras de traslado, y reportes con datos precisos (qué ocurrió, ubicación exacta y hora) para decidir acciones preventivas como cerrar el local o proteger sus equipos.|
 
 ---
 
@@ -148,10 +147,10 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 | **Edad** | 26 años |
 | **Distrito** | Barranco |
 | **Evidencia** | <img src="https://i.postimg.cc/jd4BRP8s/Evidencia-4.png" alt="Evidencia Entrevista 4" width="180">  |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDnrzJvuWDISZriFAfcjHYAAfXvGQiumZTBCMOoufNrfOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ScD75v |
+| **Link** | https://acortar.link/kRJVPG |
 | **Timing donde inicia** | 00:05 min |
 | **Duración** | 8:57 min |
-| **Resumen** | El entrevistado, con 6 meses en su puesto en un establecimiento de Barranco, rota entre distintas funciones y sedes, trabajando de lunes a sábado hasta altas horas de la noche. Identifica el cierre de jornada (8-9 p.m.) como el momento de mayor riesgo, por la baja afluencia de personas y presencia de motos sospechosas, y relata un intento de distracción por parte de dos personas dentro del local, además de un caso de extorsión ("cupo") a un negocio cercano. Ante una emergencia, avisa primero a su jefe por WhatsApp o llamada, pero reconoce que ninguno de los dos canales es discreto ni inmediato, y que llamar a la policía resulta lento. Señala que le sería útil una alerta silenciosa, activable con un gesto rápido, que funcione con poca señal y sin notificaciones sonoras que alerten al sospechoso, e indica que para evaluar el riesgo real de una alerta cercana necesitaría conocer la distancia del local que reportó, la hora del incidente y si la persona o vehículo sospechoso sigue circulando por la zona. |
+| **Resumen** | Alberto Alejandro Ponce Perales es un trabajador de 26 años que se desempeña desde hace 6 meses en el distrito de Barranco. Muestra una personalidad cautelosa, pragmática, cooperativa y consciente del riesgo. Cumple una jornada laboral de lunes a sábado de 8:00 a.m. a 6:00 p.m. (extendiéndose frecuentemente hasta las 8:00 p.m. o 9:00 p.m. por horas extras), con un rol dinámico y rotativo entre el servicio técnico (TI) y la atención en distintas sedes de la empresa. Experimenta una alta percepción de inseguridad durante las horas nocturnas al quedarse solo o salir del local cuando las calles están oscuras y desiertas. En su entorno laboral ha presenciado modalidades de robo por distracción y conoce situaciones cercanas de cobro de cupos o extorsión, identificando como puntos críticos el cierre de jornada, las esquinas con motos sospechosas y la soledad del local. En cuanto a tecnología, dispositivos y canales de comunicación, Alberto utiliza principalmente su smartphone Android, dispositivo que mantiene siempre a la mano y no pierde de vista. Para el trabajo lidia con problemas de conectividad, como señal débil o inestable en zonas internas como el almacén. Sus canales habituales son las llamadas telefónicas tradicionales y WhatsApp, participando en un grupo vecinal con otros negocios de la cuadra. Su principal frustración es que las llamadas o mensajes no siempre se responden al instante, se notan cuando está frente a un sospechoso y generan un alto peligro si intenta comunicarse mientras atiende solo en el puesto. Además, las autoridades como la Policía o el Serenazgo no responden con rapidez a sus llamadas. Respecto a requerimientos de software y herramientas digitales, Alberto exige una aplicación web o móvil extremadamente simple y veloz, descartando rotundamente formularios largos o registros complejos de datos. Sus necesidades clave incluyen la activación de alertas mediante un botón o gesto rápido, completamente discreto y silencioso (sin ruidos ni notificaciones que lo delaten frente a un agresor). Requiere que el sistema funcione fluidamente incluso con poca señal de internet y emita avisos inmediatos con información esencial: tipo de riesgo (sospechoso, robo, extorsión), ubicación exacta/distancia del local, hora del suceso y si el sospechoso aún circula por la zona, además de valorar una posible interconexión con las autoridades.|
 
 | **Entrevista #5** | |
 | :--- | :--- |
@@ -160,81 +159,383 @@ Needfinding Interviews Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 | **Edad** | 19 años |
 | **Distrito** | San Juan de Lurigancho |
 | **Evidencia** | <img src="https://i.postimg.cc/L87DSsM4/Evidencia-5.png" alt="Evidencia Entrevista 5" width="180"> |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCl-Zw2GZYcQ6myUop36XoIAavZ2BZlRXtX72Ux2v5yuk0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NSMmm2 |
+| **Link** | https://acortar.link/XzhHlq |
 | **Timing donde inicia** | 00:05 min |
 | **Duración** | 6:01 min |
-| **Resumen** | La entrevistada, vendedora de un minimarket en San Juan de Lurigancho desde hace un año, trabaja de 9 a.m. a 6 p.m. rotando entre caja, atención al cliente y cierre del local, muchas veces sola. Identifica el horario de apertura y cierre como los momentos de mayor riesgo, por la falta de vigilancia en la calle, y relata haber sido víctima de un intento de extorsión ("cupo") sin saber a quién avisar de forma rápida en ese momento. Ante una situación de riesgo, avisa primero a su jefa por WhatsApp o grita/llama a un vecino del local contiguo, pero señala que atender a un cliente le impide sacar el celular sin levantar sospechas, y que el grupo de WhatsApp de vendedores de la galería es lento porque no todos lo revisan a tiempo. Valora una alerta rápida y discreta, activable con pocos clics y sin sonido, que le permita usarla sin que el cliente lo note, y que para evaluar el riesgo real de una alerta cercana necesitaría conocer la distancia del incidente a su local, la hora en que ocurrió y el tipo de amenaza (robo, sospechoso o extorsión). |
+| **Resumen** | Carol Juliana Montenegro Izquierdo es una joven vendedora de 19 años que trabaja desde hace un año en un minimarket ubicado en el distrito de San Juan de Lurigancho. Muestra una personalidad precavida, atenta, cautelosa pero adaptable al entorno digital. Labora en un horario de 9:00 a.m. a 6:00 p.m., rotando entre la caja, la atención al cliente y la responsabilidad de quedarse sola en el local al momento de la jornada final. Experimenta una alta percepción de inseguridad durante la apertura y el cierre de la tienda debido a la baja vigilancia en la calle, así como al ingreso de personas con conductas sospechosas que merodean sin comprar. Su entorno laboral ha estado expuesto a amenazas directas de extorsión (cobro de cupos con amedrentamiento), generando impotencia y desorientación por no saber a quién alertar con rapidez. En cuanto a tecnología, dispositivos y canales de interacción, Carol utiliza activamente su smartphone Android durante todo el día, mostrando un alto nivel de comodidad y facilidad para adaptarse a herramientas móviles. Sus canales actuales de comunicación son las llamadas telefónicas directas a su jefa, los gritos/avisos presenciales a locales adyacentes frente a casos extremos y un grupo de WhatsApp compartido con otros vendedores de la galería. Su principal frustración radica en que WhatsApp resulta ineficaz y lento durante una emergencia: redactar un mensaje frente a un cliente levanta sospechas, las respuestas no son inmediatas y las alertas importantes se traspapelan o pierden entre múltiples chats activos. Respecto a requerimientos de software y diseño de la interfaz, Carol necesita una solución web o móvil extremadamente veloz, ágil y de pocos clics que no interrumpa su labor de atención. Exige que el mecanismo de envío de alertas sea sumamente discreto y silencioso (sin ruidos o luces que la delaten ante un posible agresor). Sus necesidades funcionales primordiales incluyen el envío inmediato de notificaciones claras y breves sobre hechos cercanos, especificando la distancia exacta del incidente respecto a su local, la hora exacta del suceso y la tipificación precisa de la amenaza (robo, presencia de sospechosos o extorsión) para tomar medidas preventivas con anticipación. |
 
 | **Entrevista #6** | |
 | :--- | :--- |
-| **Nombre** | Pilar |
-| **Apellidos** | Goya Durmi |
-| **Edad** | 50 años |
-| **Distrito** | San Isidro |
-| **Evidencia** | <img src="https://i.postimg.cc/wM7399zY/Evidencia-6.png" alt="Evidencia Entrevista 6" width="180"> |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCfz9VQv-UWTriH5euSG9nGAfmT-OcmnMkMmy8zG5tawKU?e=pNc9Mb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Nombre** | Natalia |
+| **Apellidos** | Tarrillo |
+| **Edad** | 20 años |
+| **Distrito** | San Juan de Lurigancho |
+| **Evidencia** | <img src="https://i.postimg.cc/GtPJgwMr/Evidencia-6.png" alt="Evidencia Entrevista 6" width="180"> |
+| **Link** | https://acortar.link/cIa40f |
 | **Timing donde inicia** | 00:05 min |
-| **Duración** | 5:55 min |
-| **Resumen** | La entrevistada administra un negocio en San Isidro desde hace 3 años, en horario de 7 a.m. a 5 p.m., encargándose de supervisar todas las funciones del local. Identifica las horas de la tarde, de menor afluencia de público, como el momento de mayor riesgo, y relata haber sido víctima del robo de su teléfono en la puerta del negocio, un intento de asalto por "raqueteros" y, antes de su llegada, el robo de computadoras del local. Actualmente reporta las emergencias únicamente por teléfono a la policía o el serenazgo, además de contar con una alarma tipo "Berishuk" (posible referencia distorsionada a un sistema de alarma comercial), pero señala que la policía suele demorar en responder. Valora positivamente una alerta rápida y discreta que no ponga sobre aviso a los delincuentes, con ubicación exacta del incidente, activable con un solo clic o huella digital, que notifique simultáneamente a la comisaría, al serenazgo y a otros negocios cercanos, y resalta la importancia de que la herramienta tenga mecanismos contra el mal uso por parte de personas inescrupulosas. |
+| **Duración** | 12:19 min |
+| **Resumen** | Natalia Nicolta Tarillo Cieza (20 años) vive y trabaja en San Juan de Lurigancho (se desplaza en combi 35 min). Labora desde hace 2 años y medio en una tienda comercial de una galería en la Av. Próceres de la Independencia, cumpliendo jornadas de 11 horas diarias (6 días a la semana) en roles multifuncionales: atención, caja, orden y recepción de pedidos. Muestra una personalidad cautelosa, colaborativa y pragmática frente al riesgo. Su entorno está expuesto a robos por distracción, cobro de cupos y presencia de sospechosos, siendo sus puntos más vulnerables el cierre nocturno, el almacén, el pasillo de la galería y el paradero final. En el ámbito tecnológico, utiliza un smartphone Android de gama media con datos prepago y lidia con un Wi-Fi inestable en la tienda, mientras que en la computadora de caja solo opera un sistema de ventas básico. Sus canales de interacción habituales e influencias de consumo digital son WhatsApp, TikTok, Instagram, Yape y Plin. Su mayor problema es la ineficiencia de WhatsApp en emergencias: los avisos se pierden entre cadenas y stickers, no puede escribir frente a un agresor con el celular guardado en el mostrador, y desconfía de llamar a la Policía o Serenazgo por temor y lentitud de respuesta.Respecto a preferencias de software y navegación, rechaza instalar apps pesadas por consumo de datos y batería; prefiere acceder mediante el navegador web (browser) o un acceso directo en pantalla. Requiere un sistema simple con botones grandes, sin claves complejas y optimizado para internet lento. Sus necesidades clave son: activación discreta y silenciosa con un toque, notificaciones diferenciadas de WhatsApp con sonido/vibración propia, protección de identidad, y datos claros (tipo de hecho, ubicación, hora y confirmación de vecinos) para validar alertas y evitar falsas alarmas.|
 
 ### 2.2.3. Análisis de entrevistas
 
-#### Segmento 1: Administradores y dueños de locales comerciales
+#### 2.2.3.1. Segmento 1: Administradores y dueños de locales comerciales
+---
 
-**Entrevista 1 (María Rocío de los Ángeles):** la entrevistada, administradora de una tienda en Comas, evidencia un profundo impacto psicológico derivado de haber sido víctima directa de un asalto, donde dos personas la amenazaron exigiendo dinero. Identifica la apertura y el cierre del negocio como los momentos de mayor vulnerabilidad, al coincidir con calles vacías y ausencia de ayuda inmediata. Su testimonio revela además una exposición constante a delincuencia organizada (extorsión tipo "gota a gota") y desconfianza hacia la respuesta policial, a la que califica de lenta e inconsistente. Como mecanismo de mitigación, valora positivamente un botón de pánico y un mapa de zonas de riesgo que le permita coordinarse con otros vecinos y anticiparse a los momentos más peligrosos.
+**Muestra evaluada:** 3 entrevistados (Jorge Alberto Portocarrero, Catherine Andonaire y María Rocío de Los Ángeles).
+ 
+#### 2.2.3.1.1. Características objetivas y demográficas
+ 
+#### 2.2.3.1.1.1. Ubicación de los negocios y movilidad
+ 
+El 66.7 % (2/3) opera o moviliza recursos en la zona **Lima Norte / Este** (Comas y San Martín de Porres), mientras que el 33.3 % (1/3) gestiona operaciones en **Lima Centro / Sur** (Jesús María, Miraflores, San Isidro, Lince y Breña). Además, el 33.3 % (1/3) realiza desplazamientos constantes interdistritales para trasladar equipos de trabajo.
+ 
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Opera en Lima Norte / Este | 2 de 3 | 66.7 % |
+| Opera en Lima Centro / Sur | 1 de 3 | 33.3 % |
+| Desplazamientos interdistritales constantes | 1 de 3 | 33.3 % |
+ 
 
-**Entrevista 2 (Jorge Alberto Portocarrero de los Ríos):** gerente de una empresa gráfica con presencia en cinco distritos de Lima, Jorge Alberto atribuye el principal riesgo de su negocio a la ausencia de vigilancia externa, particularmente después de las 6 p.m. Aunque no ha sido víctima directa de un robo, reconoce que comerciantes cercanos sí lo han sido, y que la comunicación ante una emergencia es completamente informal (verbal, sin ningún canal establecido entre negocios). Su testimonio destaca como principal limitante la lentitud de las llamadas telefónicas para reportar una amenaza, proponiendo como solución una vía directa de contacto con la policía y una plataforma que integre a todo su personal, a la que otorga una importancia alta "porque sin seguridad las empresas no pueden trabajar con tranquilidad".
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_1_Ubicación_de_operación_del_negocio.png" alt="Gráfico de ubicación de operación del negocio" width="350"><br>
+  Nota. Gráfico que representa la ubicación de operación de los negocios del Segmento 1.
+</p>
 
-**Entrevista 3 (Catherine Andonaire Romero):** socia de una agencia de publicidad en San Martín de Porres, Catherine identifica un riesgo distinto al de sus pares: el robo de equipos de trabajo de alto valor (cámaras, micrófonos, laptops), especialmente durante el traslado nocturno hacia o desde el local. Aunque no ha sido víctima directa, reconoce la peligrosidad de la zona y ha adoptado medidas preventivas propias (taxi seguro, traslado rápido y acompañado). Cuenta con un grupo de WhatsApp con negocios vecinos, pero señala que la información se pierde fácilmente en ese canal. Su testimonio aporta un matiz importante: valora la idea de InstAlert, pero advierte que su utilidad depende directamente de que suficientes negocios de su zona la adopten, ya que "si es una red para alertarnos, creo que todas las personas de la zona deberían tenerlo".
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_3_Desplazamientos_interdistritales_constantes.png" alt="Gráfico de desplazamientos interdistritales constantes" width="350"><br>
+  Nota. Gráfico que representa la movilidad entre distritos del segmento 1.
+</p>
 
-**Características más comunes del Segmento 1 (n=3):**
+**Interpretación:** el segmento se concentra principalmente en Lima Norte / Este, zona donde se reportan con más fuerza las amenazas de extorsión. La movilidad entre distritos es una característica minoritaria.
+ 
+ 
+#### 2.2.3.1.1.2. Rango de edad y antigüedad
+ 
+El rango de edad oscila entre los **26 y 60 años**. El 66.7 % (2/3) tiene una trayectoria consolidada administrando negocios, con entre 2 y cerca de 30 años de experiencia.
+ 
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Trayectoria consolidada (2 a ~30 años) | 2 de 3 | 66.7 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_2_Trayectoria_consolidada_administrando_negocios.png" alt="Gráfico de trayectoria consolidada administrando negocios" width="350"><br>
+  Nota. Gráfico que representa la trayectoria de los entrevistados como administradores de negocios
+</p>
+ 
+**Interpretación:** predominan personas con experiencia, lo que les da criterio para evaluar riesgos y soluciones de seguridad.
+ 
+#### 2.2.3.1.1.3. Riesgos y amenazas identificadas
+ 
+El 100 % (3/3) identifica el **horario nocturno** y los momentos de soledad en las calles como los de mayor vulnerabilidad para su patrimonio o personal. El 66.7 % (2/3) ha sido víctima o enfrenta amenaza directa de **delincuencia organizada y extorsiones** (cobro de cupos o "gota a gota"). Asimismo, el 66.7 % (2/3) teme el **robo de activos de alto valor** (equipos tecnológicos o dinero en caja).
+ 
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Horario nocturno / soledad en calles como mayor riesgo | 3 de 3 | 100 % |
+| Amenaza de delincuencia organizada y extorsiones | 2 de 3 | 66.7 % |
+| Temor al robo de activos de alto valor | 2 de 3 | 66.7 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_4_Riesgo_nocturno.png" alt="Gráfico de riesgo nocturno" width="350"><br>
+  Nota. Gráfico que representa la percepción del riesgo nocturno. 
+</p>
 
-| Característica | % de entrevistados | Entrevistas | Evidencia |
-| :--- | :--- | :--- | :--- |
-| Perciben inseguridad activa en su zona o negocio | 100% | #1, #2, #3 | María relata un asalto directo; Jorge Alberto identifica falta de vigilancia; Catherine reconoce la peligrosidad de su zona pese a no haber sido víctima. |
-| Señalan la noche o el cierre como el momento de mayor vulnerabilidad | 100% | #1, #2, #3 | María (apertura/cierre); Jorge Alberto ("a partir de las 6 en adelante"); Catherine (traslado nocturno de equipos). |
-| Han sido víctimas directas de un asalto o robo | 33% | #1 | Solo María fue amenazada directamente dentro de su tienda. |
-| Conocen casos de robo/extorsión en su zona o negocios cercanos | 100% | #1, #2, #3 | Los tres reportan haber escuchado o visto incidentes cercanos, aunque no siempre en negocios que conozcan directamente. |
-| Cuentan con un grupo informal de WhatsApp con negocios vecinos | 66% | #1, #3 | María y Catherine sí participan de un grupo así; Jorge Alberto declara que "no nos comunicamos". |
-| Consideran lenta o poco confiable la respuesta policial | 66% | #1, #2 | María y Jorge Alberto lo mencionan explícitamente; Catherine no evalúa directamente a la policía, enfocándose en medidas propias de prevención. |
-| Valoran positivamente un botón de pánico o alerta rápida | 100% | #1, #2, #3 | Los tres piden explícitamente un mecanismo de alerta instantánea, aunque Catherine no usa el término "botón de pánico" literalmente. |
-| Valoran positivamente un mapa de zonas de riesgo | 100% | #1, #2, #3 | Los tres destacan su utilidad, incluyendo a Catherine para cuando se moviliza fuera de su distrito habitual. |
-| Identifican el riesgo patrimonial (robo de bienes/equipos), no solo personal | 33% | #3 | Solo Catherine enfatiza la protección de activos de trabajo como motivación principal, distinto al enfoque en integridad física de María y Jorge Alberto. |
-| Consideran que la baja adopción de otros negocios sería una barrera de uso | 33% | #3 | Catherine señala explícitamente el "efecto red" como condición para que la herramienta funcione. |
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_5Extorsión_crimen_organizado.png" alt="Gráfico de extorsión y crimen organizado" width="350"><br>
+  Nota. Gráfico que representa la exposición a la delincuencia organizada. 
+</p>
 
-**Conclusión del Segmento 1:**
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_6_Robo_de_activos_valiosos.png" alt="Gráfico de robo de activos valiosos" width="350"><br>
+  Nota. Gráfico que representa el temor al robo de activos de alto valor.
+</p>
+ 
+**Interpretación:** el riesgo nocturno es transversal a todo el segmento; la extorsión y el robo de activos afectan a la mayoría.
+ 
+ 
+#### 2.2.3.1.1.4. Uso de tecnología y canales actuales
+ 
+El 66.7 % (2/3) cuenta o ha interactuado con **cámaras de videovigilancia** como medio de registro y evidencia. El 66.7 % (2/3) utiliza **WhatsApp o llamadas** para comunicarse con vecinos o con la comisaría, pero el 100 % (3/3) reporta que estos canales son **lentos, ineficientes o se saturan** al reportar una amenaza en tiempo real.
+ 
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Usa o ha usado cámaras de videovigilancia | 2 de 3 | 66.7 % |
+| Usa WhatsApp / llamadas para comunicarse | 2 de 3 | 66.7 % |
+| Considera los canales actuales lentos, ineficientes o saturados | 3 de 3 | 100 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_7_Usa_cámaras_de_videovigilancia.png" alt="Gráfico de uso de cámaras de videovigilancia" width="350"><br>
+  Nota. Gráfico que representa el uso de tecnología de seguridad.
+</p>
 
-Con las tres entrevistas ya completas, se confirma que la vulnerabilidad de este segmento se concentra en los momentos de menor actividad y luz (cierre, noche, traslados), y que el 100% valora tanto un mecanismo de alerta rápida como un mapa de zonas de riesgo, validando que ambas funcionalidades responden a una necesidad compartida y no a una suposición del equipo. La incorporación de Catherine matiza el análisis en dos aspectos relevantes: primero, no todo el segmento percibe a la policía como el problema central (66%, no 100%), algunos administradores enfocan su prevención en medidas propias antes que en la respuesta de la autoridad; segundo, emerge una dimensión patrimonial del riesgo (protección de equipos y bienes de trabajo, no solo integridad física) que no estaba representada en las dos primeras entrevistas. Asimismo, Catherine introduce una consideración estratégica clave para el lanzamiento de InstAlert: el valor de la plataforma depende del "efecto red" —su utilidad real requiere que una masa crítica de negocios de la misma zona la adopte simultáneamente—, lo cual debe orientar la estrategia de adquisición de usuarios por zonas geográficas concentradas en lugar de usuarios dispersos.
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_8Usa_WhatsApp_llamadas.png" alt="Gráfico de uso de WhatsApp y llamadas" width="350"><br>
+  Nota. Gráfico que representa los canales actuales de comunicación ante amenazas. 
+</p>
 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_9_Canales_ineficientes.png" alt="Gráfico de canales ineficientes" width="350"><br>
+  Nota. Gráfico que representa la valoración de los canales actuales. 
+</p>
+ 
+**Interpretación:** existe una brecha clara: usan canales informales, pero todos coinciden en que no sirven para alertas en tiempo real. Esta es una oportunidad directa para la solución propuesta.
+ 
+#### 2.2.3.1.2. Características subjetivas (psicografía, miedos y necesidades)
+ 
+#### 2.2.3.1.2.1. Perfil de personalidad
+ 
+El 100 % (3/3) proyecta una personalidad **precavida, pragmática, protectora** de sus colaboradores y activos, y con **disposición a la colaboración comunitaria**.
+ 
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Personalidad precavida, pragmática y colaborativa | 3 de 3 | 100 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_10_Personalidad_precavida.png" alt="Gráfico de personalidad precavida" width="350"><br>
+  Nota. Gráfico que representa el perfil de personalidad del segmento.
+</p> 
 
-#### Segmento 2: Personal operativo y vendedores de establecimientos comerciales
+ 
+#### 2.2.3.1.2.2. Desconfianza institucional
+ 
+El 66.7 % (2/3) manifiesta alta desconfianza o frustración hacia la respuesta de la **Policía Nacional y el Serenazgo**, por la demora, la falta de recursos (combustible, patrullas) o fallas en el sistema judicial.
+ 
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Desconfianza hacia Policía y Serenazgo | 2 de 3 | 66.7 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_11_Desconfianza_institucional.png" alt="Gráfico de desconfianza institucional" width="350"><br>
+  Nota. Gráfico que representa la confianza en las autoridades. 
+</p>
 
-**Entrevista 4 (Alberto Alejandro Ponce Perales):** trabajador de un establecimiento en Barranco con funciones rotativas entre distintas sedes, Alberto Alejandro identifica el cierre de jornada (8–9 p.m.) como el momento de mayor riesgo, marcado por baja afluencia de personas y presencia de vehículos sospechosos. Relata un intento de distracción por parte de dos personas dentro del local y menciona un caso de extorsión sufrido por un negocio cercano. Su testimonio revela que, ante una emergencia, avisar a su jefe por WhatsApp o llamada resulta poco discreto y lento, por lo que valora una alerta silenciosa activable con un gesto rápido, que funcione incluso con poca señal y no genere notificaciones sonoras que alerten al agresor.
+**Interpretación:** la mayoría no espera que la autoridad resuelva a tiempo, por lo que valora la autogestión y la coordinación entre vecinos y comercios.
+  
+#### 2.2.3.1.2.3. Requerimientos de solución y usabilidad
+ 
+- **Mapas de riesgo:** el 100 % (3/3) considera de alta utilidad contar con mapas de calor o riesgo en tiempo real para tomar medidas preventivas, coordinar con vecinos y planificar rutas u horarios de cierre.
+- **Información detallada:** el 100 % (3/3) exige que los reportes detallen el tipo de delito, la hora y la ubicación exacta. Además, el 33.3 % (1/3) solicita fotografías o la modalidad de los delincuentes para identificación preventiva.
+- **Criterios de adopción digital:** el 66.7 % (2/3) demanda una plataforma intuitiva, rápida, sin registros complicados ni permisos excesivos, y con alta adopción por parte de otros comercios del entorno.
 
-**Entrevista 5 (Carol Juliana Montenegro Izquierdo):** vendedora de un minimarket en San Juan de Lurigancho, Carol Juliana señala la apertura y el cierre del local —momentos en que muchas veces atiende sola— como los de mayor vulnerabilidad. Su testimonio incluye haber sido víctima de un intento de extorsión ("cupo"), situación en la que no supo a quién avisar de forma inmediata. Manifiesta que atender a un cliente le impide usar el celular sin levantar sospechas, y que el grupo de WhatsApp de vendedores de la galería resulta demasiado lento para emergencias reales. Valora una alerta rápida, silenciosa y de pocos clics, que le permita reportar sin que el cliente lo perciba.
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Mapas de calor / riesgo en tiempo real | 3 de 3 | 100 % |
+| Reporte con tipo de delito, hora y ubicación exacta | 3 de 3 | 100 % |
+| Plataforma intuitiva, rápida y de alta adopción | 2 de 3 | 66.7 % |
+| Fotografías / modalidad de delincuentes | 1 de 3 | 33.3 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_12_Mapas_de_riesgo_útiles.png" alt="Gráfico de mapas de riesgo útiles" width="350"><br>
+  Nota. Gráfico que representa la utilidad percibida de los mapas de riesgo. 
+</p>
 
-**Entrevista 6 (Pilar, Goya Durmi):** con tres años administrando funciones en un negocio de San Isidro, la entrevistada evidencia una exposición reiterada a hechos delictivos: el robo de su teléfono en la puerta del negocio, un intento de asalto por "raqueteros" y, previamente a su llegada, el robo de las computadoras del local. Actualmente reporta las emergencias únicamente por teléfono a la policía o el serenazgo, además de contar con un sistema de alarma comercial instalado, aunque reconoce que la respuesta policial suele ser lenta. Su testimonio resalta como funcionalidad clave una alerta de un solo clic o con huella digital que notifique simultáneamente a la comisaría, al serenazgo y a otros negocios cercanos, junto con la necesidad de mecanismos que eviten el mal uso de la herramienta.
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_13_Reporte_detallado.png" alt="Gráfico de reporte detallado" width="350"><br>
+  Nota. Gráfico que representa la información que el segmento exige en los reportes. 
+</p>
 
-**Características más comunes del Segmento 2 (n=3):**
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_14_Plataforma_intuitiva.png" alt="Gráfico de plataforma intuitiva" width="350"><br>
+  Nota. Gráfico que representa el criterio de adopción digital. 
+</p>
 
-| Característica | % de entrevistados | Entrevistas | Evidencia |
-| :--- | :--- | :--- | :--- |
-| Han sentido inseguridad durante su jornada laboral | 100% | #4, #5, #6 | Los tres relatan situaciones concretas de temor durante el trabajo. |
-| Asocian el mayor riesgo a apertura y/o cierre, o baja afluencia | 100% | #4, #5, #6 | Alberto (cierre), Carol Juliana (apertura y cierre), Pilar (horas de la tarde). |
-| Han presenciado o vivido un incidente sospechoso, robo o extorsión | 100% | #4, #5, #6 | Distracción de dos personas, amenaza de cupo, robo de teléfono e intento de asalto, respectivamente. |
-| Avisan primero a su jefe/administrador antes que a la autoridad | 66% | #4, #5 | Alberto y Carol Juliana avisan a su jefe/jefa primero; Pilar reporta directamente a la policía/serenazgo. |
-| Usan WhatsApp como canal principal de comunicación | 66% | #4, #5 | Ambos mencionan un grupo de WhatsApp; Pilar usa únicamente el teléfono. |
-| Señalan dificultad para pedir ayuda sin levantar sospechas | 66% | #4, #5 | Ambos indican que no pueden usar el celular abiertamente frente al agresor. |
-| Valoran una alerta silenciosa que no notifique al agresor | 100% | #4, #5, #6 | Los tres piden explícitamente discreción y ausencia de sonido/notificaciones. |
-| Necesitan distancia, hora y tipo de incidente para evaluar el riesgo | 100% | #4, #5, #6 | Los tres mencionan estos tres datos como criterios de decisión. |
-| Se sienten cómodos usando una app web desde su celular | 100% | #4, #5, #6 | Los tres afirman sentirse cómodos, dado el uso constante del celular en su jornada. |
-| Mencionan preocupación por la conectividad/señal del local | 33% | #4 | Solo Alberto menciona explícitamente la mala señal dentro del almacén. |
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_15Fotografías_modalidad.png" alt="Gráfico de fotografías y modalidad" width="350"><br>
+  Nota. Gráfico que representa la solicitud de fotografías o de la modalidad de los delincuentes. 
+</p>
+  
+#### 2.2.3.1.3. Síntesis del Segmento 1 
 
-**Conclusión del Segmento 2:**
+**Perfil general.** El Segmento 1 está conformado por administradores, gerentes, dueños y socios de locales comerciales, con edades entre los 26 y 60 años. El 66.7 % (2/3) cuenta con una trayectoria consolidada de entre 2 y cerca de 30 años administrando negocios, lo que les da criterio para evaluar riesgos y soluciones de seguridad. Su actividad se concentra principalmente en Lima Norte / Este (66.7 %, 2/3), con operaciones en Comas y San Martín de Porres, mientras que el 33.3 % (1/3) opera en Lima Centro / Sur. Además, el 33.3 % (1/3) se desplaza constantemente entre distritos para trasladar equipos de trabajo.
+ 
+**Contexto de riesgo.** La amenaza más transversal es la noche: el 100 % (3/3) identifica el horario nocturno y los momentos de soledad en las calles como los de mayor vulnerabilidad para su patrimonio o su personal. A esto se suma la presión de la delincuencia organizada, ya que el 66.7 % (2/3) ha sido víctima o enfrenta amenaza directa de extorsión (cobro de cupos o "gota a gota"), y el 66.7 % (2/3) teme el robo de activos de alto valor, como equipos tecnológicos o dinero en caja. El riesgo no se limita a perder bienes, también afecta la seguridad de las personas que dependen del negocio.
+ 
+**Relación con la tecnología y los canales actuales.** El segmento ya usa herramientas básicas de seguridad, pero ninguna resuelve la alerta inmediata. El 66.7 % (2/3) cuenta o ha interactuado con cámaras de videovigilancia, que sirven como registro y evidencia, es decir, actúan después del hecho. El 66.7 % (2/3) usa WhatsApp o llamadas para coordinar con vecinos o con la comisaría, y el 100 % (3/3) reporta que estos canales son lentos, ineficientes o se saturan cuando se necesita reportar una amenaza en tiempo real. Existe, por tanto, una brecha clara entre lo que usan hoy y lo que necesitan.
+ 
+**Psicografía y confianza institucional.** El 100 % (3/3) proyecta una personalidad precavida, pragmática, protectora de sus colaboradores y activos, y con disposición a la colaboración comunitaria. Su actitud es proactiva: prefieren prevenir y coordinar con su entorno. Al mismo tiempo, el 66.7 % (2/3) manifiesta desconfianza o frustración hacia la Policía Nacional y el Serenazgo, por la demora, la falta de recursos (combustible y patrullas) o las fallas del sistema judicial. Esta desconfianza refuerza su valoración de la autogestión y de las redes entre vecinos y comercios.
+ 
+**Necesidades y requerimientos de solución.** Lo que el segmento busca es información para prevenir y coordinar. El 100 % (3/3) considera de alta utilidad contar con mapas de calor o riesgo en tiempo real para tomar medidas preventivas, coordinar con vecinos y planificar rutas u horarios de cierre. El 100 % (3/3) exige que los reportes indiquen el tipo de delito, la hora y la ubicación exacta, y el 33.3 % (1/3) agrega la solicitud de fotografías o de la modalidad de los delincuentes para identificación preventiva. En cuanto a la adopción, el 66.7 % (2/3) pide una plataforma intuitiva y rápida, sin registros complicados ni permisos excesivos, y con alta adopción por parte de otros comercios del entorno, lo que indica que el valor de la solución depende del efecto de red.
+ 
+ 
 
-Las tres entrevistas registradas muestran un patrón consistente: el 100% de los entrevistados ha vivido un incidente sospechoso, de robo o de extorsión durante su jornada laboral, y todos identifican el cierre del local como el momento de mayor exposición. La necesidad más reiterada es la discreción: el 100% de los entrevistados valora una alerta silenciosa que no ponga sobre aviso al agresor, muy por encima de canales actuales como WhatsApp (66%) o la llamada telefónica, que consideran lentos o riesgosos de usar frente a una amenaza en curso. Asimismo, el 100% coincide en que necesita conocer la distancia, la hora y el tipo de incidente para evaluar si una alerta cercana representa un riesgo real, lo que debe traducirse directamente en los campos obligatorios del reporte de incidentes dentro de InstAlert. Con n=3, este segmento cuenta con una muestra más sólida que el Segmento 1, aunque igualmente se recomienda ampliarla para robustecer el sustento estadístico del análisis.
+#### 2.2.3.2. Segmento 2: Trabajadores, vendedores y personal de atención en tienda
+---
+ 
+**Muestra evaluada:** 3 entrevistados (Natalia Tarrillo, Alberto Ponce y Carol Montenegro).
+ 
+#### 2.2.3.2.1. Características objetivas y demográficas
+ 
+#### 2.2.3.2.1.1. Edad y perfil laboral
+ 
+El 100 % (3/3) pertenece a un segmento **joven (19 a 26 años)** que trabaja como personal operativo multifuncional: atención al público, caja, reposición de mercadería o soporte técnico rotativo.
+ 
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Joven (19-26 años), personal operativo multifuncional | 3 de 3 | 100 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_16_Perfil_joven_operativo.png" alt="Gráfico de perfil joven operativo" width="350"><br>
+  Nota. Gráfico que representa el perfil del Segmento 2.
+</p>
+  
+#### 2.2.3.2.1.2. Jornada laboral y exposición al riesgo
+ 
+El 100 % (3/3) cumple jornadas extensas (**9 a 11 horas diarias**) y realiza horas extras o **cierres solos** en la tienda. El 100 % (3/3) señala el **cierre nocturno**, la soledad del local y los paraderos o pasillos oscuros como los puntos de mayor riesgo.
+ 
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Jornada de 9 a 11 h, horas extras o cierres solos | 3 de 3 | 100 % |
+| Cierre nocturno / soledad / paraderos oscuros como mayor riesgo | 3 de 3 | 100 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_17Jornada_extensa_cierres_solos.png" alt="Gráfico de jornada extensa y cierres solos" width="350"><br>
+  Nota. Gráfico que representa la exposición por jornada.
+</p>
 
-> **Nota:** Los porcentajes se calculan sobre el total de entrevistas completas por segmento (n=3 para Administradores y dueños, n=3 para Personal operativo).
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_18_Riesgo_en_cierre_nocturno.png" alt="Gráfico de riesgo en cierre nocturno" width="350"><br>
+  Nota. Gráfico que representa la percepción del punto crítico de riesgo.
+</p>
+ 
+**Interpretación:** el momento de mayor exposición es el cierre, cuando el trabajador está solo y sin apoyo inmediato.
+ 
+#### 2.2.3.2.1.3. Modalidad de delitos experimentados
+ 
+El 100 % (3/3) ha presenciado o conoce en su entorno inmediato **robos por distracción (hurtos hormiga)**, **merodeo de sospechosos frente a caja** y **llamadas o visitas de extorsión o cobro de cupos**.
+ 
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Hurtos hormiga / robos por distracción | 3 de 3 | 100 % |
+| Merodeo de sospechosos frente a caja | 3 de 3 | 100 % |
+| Llamadas / visitas de extorsión o cobro de cupos | 3 de 3 | 100 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_19_Hurtos_por_distracción.png" alt="Gráfico de hurtos por distracción" width="350"><br>
+  Nota. Gráfico que representa la exposición a robos en tienda.
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_20_Merodeo_de_sospechosos.png" alt="Gráfico de merodeo de sospechosos" width="350"><br>
+  Nota. Gráfico que representa el merodeo de personas sospechosas.
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_21_Extorsión_cobro_de_cupos.png" alt="Gráfico de extorsión y cobro de cupos" width="350"><br>
+  Nota. Gráfico que representa la presencia de extorsión en el entorno.
+</p>
+ 
+ 
+#### 2.2.3.2.1.4. Dispositivos y conectividad
+ 
+El 100 % (3/3) usa como dispositivo principal un **smartphone Android de gama media**, que mantiene siempre a la mano. El 100 % (3/3) enfrenta limitaciones de conectividad: datos móviles prepago, Wi-Fi inestable o señal débil en zonas como el almacén.
+ 
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Smartphone Android de gama media | 3 de 3 | 100 % |
+| Limitaciones de conectividad | 3 de 3 | 100 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_22_Usa_Android_gama_media.png" alt="Gráfico de uso de Android gama media" width="350"><br>
+  Nota. Gráfico que representa el dispositivo principal utilizado.
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_23_Limitaciones_de_conectividad.png" alt="Gráfico de limitaciones de conectividad" width="350"><br>
+  Nota. Gráfico que representa las restricciones de internet.
+</p>
+ 
+**Interpretación:** la solución debe ser liviana, funcionar en Android de gama media y tolerar conexiones inestables.
+ 
+ 
+#### 2.2.3.2.2. Características subjetivas (psicografía, miedos y necesidades)
+ 
+#### 2.2.3.2.2.1. Personalidad y sentimiento de vulnerabilidad
+ 
+El 100 % (3/3) muestra una personalidad **cautelosa y alerta**, con un constante sentimiento de **vulnerabilidad física**. Temen represalias o una escalada de violencia si piden ayuda abiertamente frente a un agresor.
+ 
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Personalidad cautelosa con sentimiento de vulnerabilidad | 3 de 3 | 100 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_24_Se_siente_vulnerable.png" alt="Gráfico de sentimiento de vulnerabilidad" width="350"><br>
+  Nota. Gráfico que representa el estado emocional durante un riesgo.
+</p>
+
+ 
+#### 2.2.3.2.2.2. Frustración con los canales actuales (WhatsApp y llamadas)
+ 
+El 100 % (3/3) coincide en que **WhatsApp es ineficaz para emergencias**, porque los avisos se pierden entre cadenas, stickers y cientos de mensajes. También el 100 % (3/3) afirma que sacar el celular, desbloquearlo, escribir o llamar mientras atiende a un cliente o sospechoso es **notorio, peligroso y difícil de ejecutar**.
+ 
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| WhatsApp ineficaz para emergencias | 3 de 3 | 100 % |
+| Sacar el celular / llamar es notorio y peligroso | 3 de 3 | 100 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_25_WhatsApp_ineficaz.png" alt="Gráfico de ineficacia de WhatsApp" width="350"><br>
+  Nota. Gráfico que representa la evaluación de WhatsApp en emergencias.
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_26_Llamar_es_peligroso.png" alt="Gráfico de peligro al llamar o escribir" width="350"><br>
+  Nota. Gráfico que representa el riesgo operativo de comunicación.
+</p>
+ 
+ 
+#### 2.2.3.2.2.3. Requerimientos de solución y usabilidad (móvil / web)
+ 
+- **Alerta discreta y silenciosa:** el 100 % (3/3) exige activarla con un solo toque (botón o gesto silencioso), sin sonidos ni luces que delaten la acción.
+- **Simplicidad absoluta:** el 100 % (3/3) rechaza formularios largos, contraseñas complejas y aplicaciones pesadas que consuman espacio y batería. Prefiere accesos directos desde el navegador o interfaces livianas de pocos clics y botones grandes.
+- **Notificaciones diferenciadas con datos clave:** el 100 % (3/3) requiere alertas breves, con sonido o vibración distinto al de WhatsApp, que indiquen la distancia exacta del hecho, el tipo de amenaza (robo, extorsión, sospechoso) y la hora, para decidir si cierran la reja o se ponen a salvo.
+- **Anonimato:** el 66.7 % (2/3) resalta la importancia de proteger su identidad.
+
+| Indicador | Cantidad | Porcentaje |
+|---|---|---|
+| Alerta discreta y silenciosa (un solo toque) | 3 de 3 | 100 % |
+| Simplicidad absoluta (sin formularios ni apps pesadas) | 3 de 3 | 100 % |
+| Notificaciones diferenciadas con distancia, tipo y hora | 3 de 3 | 100 % |
+| Protección de identidad / anonimato | 2 de 3 | 66.7 % |
+ 
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_27_Alerta_discreta.png" alt="Gráfico de necesidad de alerta discreta" width="350"><br>
+  Nota. Gráfico que representa la exigencia de un mecanismo discreto.
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_28_Simplicidad_absoluta.png" alt="Gráfico de simplicidad absoluta" width="350"><br>
+  Nota. Gráfico que representa las preferencias de usabilidad.
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_29_Notificaciones_diferenciadas.png" alt="Gráfico de notificaciones diferenciadas" width="350"><br>
+  Nota. Gráfico que representa el formato de alerta deseado.
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter2/Gráficos_Estadisticos/GRÁFICO_PASTEL_30_Anonimato.png" alt="Gráfico de anonimato y protección de identidad" width="350"><br>
+  Nota. Gráfico que representa la necesidad de protección de datos.
+</p>
+ 
+ 
+#### 2.2.3.2.3. Síntesis del Segmento 2 
+
+**Perfil general.** El Segmento 2 está conformado por trabajadores, vendedores y personal de atención en tienda. El 100 % (3/3) es joven (19 a 26 años) y se desempeña como personal operativo multifuncional: atención al público, caja, reposición de mercadería o soporte técnico rotativo. Es un perfil que está en primera línea frente a clientes, y también frente a posibles agresores.
+ 
+**Exposición al riesgo.** El 100 % (3/3) cumple jornadas extensas de 9 a 11 horas diarias y realiza horas extras o cierres solos. El 100 % (3/3) señala el cierre nocturno, la soledad del local y los paraderos o pasillos oscuros como los puntos de mayor riesgo. Además, el 100 % (3/3) ha presenciado o conoce en su entorno inmediato robos por distracción (hurtos hormiga), merodeo de sospechosos frente a caja y llamadas o visitas de extorsión o cobro de cupos. El momento crítico es el cierre, cuando el trabajador está solo y sin apoyo inmediato.
+ 
+**Dispositivos y conectividad.** El 100 % (3/3) usa como dispositivo principal un smartphone Android de gama media, que mantiene constantemente a la mano. Al mismo tiempo, el 100 % (3/3) enfrenta limitaciones de conectividad: datos móviles prepago, Wi-Fi inestable o señal débil en zonas como el almacén. Esto condiciona el diseño: la solución debe ser liviana, funcionar en Android de gama media y tolerar conexiones inestables.
+ 
+**Psicografía y miedos.** El 100 % (3/3) tiene una personalidad cautelosa y alerta, y vive con un sentimiento constante de vulnerabilidad física. Temen represalias o que la violencia escale si piden ayuda abiertamente frente a un agresor. Por eso no basta con ofrecer un canal de ayuda: debe poder usarse sin que nadie lo note.
+ 
+**Frustración con los canales actuales.** El 100 % (3/3) coincide en que WhatsApp es ineficaz para emergencias, porque los avisos se pierden entre cadenas, stickers y cientos de mensajes. También el 100 % (3/3) afirma que sacar el celular, desbloquearlo, escribir o llamar mientras atiende a un cliente o a un sospechoso es notorio, peligroso y difícil de ejecutar. Los canales actuales no solo son lentos, también pueden aumentar el riesgo.
+ 
+**Necesidades y requerimientos de solución.** El segmento pide una herramienta de auxilio rápido y discreto, con cuatro condiciones:
+ 
+- **Alerta discreta y silenciosa:** el 100 % (3/3) exige activarla con un solo toque (botón o gesto silencioso), sin sonidos ni luces que delaten la acción.
+- **Simplicidad absoluta:** el 100 % (3/3) rechaza formularios largos, contraseñas complejas y aplicaciones pesadas que consuman espacio y batería, y prefiere accesos directos desde el navegador o interfaces livianas de pocos clics y botones grandes.
+- **Notificaciones diferenciadas con datos clave:** el 100 % (3/3) requiere alertas breves, con sonido o vibración distinto al de WhatsApp, que indiquen la distancia exacta del hecho, el tipo de amenaza (robo, extorsión, sospechoso) y la hora, para decidir si cierran la reja o se ponen a salvo.
+- **Anonimato:** el 66.7 % (2/3) resalta la importancia de proteger su identidad.
+**Indicadores clave del segmento**
 
 
 ## 2.3. Needfinding
@@ -378,10 +679,7 @@ Para nuestro enfoque B2B, se identificaron eventos clave como *Suscripción SaaS
 
 Una vez generados los eventos de dominio, se procedió a organizarlos en una línea de tiempo (de izquierda a derecha). Este ordenamiento permitió estructurar el ciclo de vida del usuario en la plataforma a través de dos flujos principales: el **Flujo de Gestión Preventiva** (orientado a la suscripción, configuración del local y monitoreo del mapa de riesgos por parte del Administrador) y el **Flujo Reactivo** (enfocado en el reporte de incidencias y uso del botón de pánico por parte del Personal Operativo ante emergencias). Se utilizaron alineaciones verticales para representar eventos concurrentes, como el envío simultáneo de alertas a la red de comercios vecinos y a los contactos clave.
 
-<p align="center">
-  <img src="../assets/Chapter2/Graphics/Flujo.png" alt="Ordenamiento Cronológico y Flujo de Trabajo" width="450"><br>
-  *Nota.* Ordenamiento cronológico y estructuración de flujos preventivos y reactivos del Big Picture Event Storming.
-</p>
+c
 
 #### 2.4.1.3. Identificación de Actores y Sistemas Externos
 
