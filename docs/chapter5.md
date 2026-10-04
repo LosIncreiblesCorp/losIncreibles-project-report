@@ -14,7 +14,7 @@ La gestión de proyectos es un aspecto esencial en el desarrollo de software, ya
 
 Jira (SaaS):
 
-Jira es una plataforma de gestión de proyectos utilizada principalmente en el desarrollo de software y en equipos que trabajan con metodologías ágiles como Scrum y Kanban. La herramienta permite organizar iteraciones, supervisar el progreso de las tareas y generar informes sobre el rendimiento del equipo, contribuyendo a una mejor planificación y gestión del trabajo.
+Jira es una plataforma de gestión de proyectos utilizada principalmente en el desarrollo de software y en equipos que trabajan con metodologías ágiles como Scrum y Kanban. La herramienta permite organizar Sprints, supervisar el progreso de las tareas y generar informes sobre el rendimiento del equipo, contribuyendo a una mejor planificación y gestión del trabajo.
 
 https://www.atlassian.com/es/software/jira
 
@@ -34,7 +34,7 @@ https://discord.com/
 
 Google Meet:
 
-Google Meet es una herramienta de videoconferencias que permite realizar reuniones virtuales mediante llamadas de audio y video. En el proyecto, se utiliza para llevar a cabo reuniones formales con el equipo, como revisiones de iteración, coordinaciones y otras actividades que requieren comunicación directa.
+Google Meet es una herramienta de videoconferencias que permite realizar reuniones virtuales mediante llamadas de audio y video. En el proyecto, se utiliza para llevar a cabo reuniones formales con el equipo, como revisiones de Sprint, coordinaciones y otras actividades que requieren comunicación directa.
 
 https://meet.google.com/
 
@@ -448,7 +448,7 @@ Se aplicará en el desarrollo de los Servicios Web y la lógica del lado del ser
 
 ### 5.1.4. Software Deployment Configuration.
 
-En esta sección se describe la estrategia de despliegue definida para los productos que conforman la solución InstAlert. Debido a que el alcance del Iteración 1 contempla principalmente el desarrollo y publicación de la Página de Aterrizaje, actualmente este es el único componente desplegado en un entorno de producción. El despliegue de la Frontend Aplicación Web y los Servicios Web se realizará en iteraciones posteriores, de acuerdo con el avance del proyecto.
+En esta sección se describe la estrategia de despliegue definida para los productos que conforman la solución InstAlert. Debido a que el alcance del Sprint 1 contempla principalmente el desarrollo y la publicación de la Página de Aterrizaje, actualmente este es el único componente desplegado en un entorno de producción. El despliegue de la Frontend Aplicación Web y los Servicios Web se realizará en Sprints posteriores, de acuerdo con el avance del proyecto.
 
 **1. Página de Aterrizaje**
 
@@ -467,50 +467,48 @@ En esta sección se describe la estrategia de despliegue definida para los produ
 
 * **Plataforma de Hosting planificada:** Vercel
 
-La Frontend Aplicación Web será desplegada en Vercel en una iteración posterior del proyecto. El proceso previsto considera la integración de las funcionalidades mediante ramas `feature/*`, Solicitudes de extracción hacia `develop` y la preparación de una versión estable antes de su incorporación a `main`.
+La Frontend Aplicación Web será desplegada en Vercel en un Sprint posterior. El proceso previsto considera la integración de las funcionalidades mediante ramas `feature/*`, Solicitudes de extracción hacia `develop` y la preparación de una versión estable antes de su incorporación a `main`.
 
 Una vez implementado el frontend, el proceso de construcción utilizará las herramientas correspondientes al proyecto Vue.js, incluyendo la instalación de dependencias y la generación del build de producción. Asimismo, se configurarán las variables de entorno necesarias, como la URL base de los Servicios Web.
 
 * **Estado actual:** Pendiente de implementación y despliegue.
-* **URL de Producción:** No disponible en el Iteración 1.
+* **URL de Producción:** No disponible durante el Sprint 1.
 
 **3. Servicios Web**
 
 * **Tecnología:** ASP.NET Core
 * **Plataforma de Hosting planificada:** Railway
 
-Los Servicios Web serán desplegados en Railway en una iteración posterior del proyecto. Previamente, el backend será desarrollado y validado mediante las pruebas correspondientes.
+Los Servicios Web serán desplegados en Railway en un Sprint posterior. Previamente, el backend será desarrollado y validado mediante las pruebas correspondientes.
 
 El proceso de despliegue previsto contempla la compilación del proyecto en modo Release mediante el SDK de .NET, la configuración segura de variables de entorno y secretos, como la cadena de conexión de la base de datos y las claves utilizadas para autenticación mediante JWT.
 
 Una vez que los Servicios Web se encuentren desplegados, sus puntos de enlace serán documentados utilizando OpenAPI/Swagger, permitiendo visualizar y probar las operaciones disponibles de la RESTful API.
 
 * **Estado actual:** Pendiente de implementación y despliegue.
-* **URL de Producción (API):** No disponible en el Iteración 1.
+* **URL de Producción (API):** No disponible durante el Sprint 1.
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 ### 5.2.1. Sprint 1
 
-En este primer iteración se desarrolló la página de aterrizaje y la documentación inicial del proyecto InstAlert.
+Durante el Sprint 1 se desarrollaron la Página de Aterrizaje y la documentación inicial del proyecto InstAlert.
 
 #### 5.2.1.1. Sprint Planning 1.
 
-| Iteración # | Iteración 1 |
+| Sprint # | Sprint 1 |
 | :--- | :--- |
-| **Iteración Planning Background** | |
+| **Sprint Planning Background** | |
 | Date | 02/09/2026 |
 | Time | 11:00 PM |
 | Location | Google Meet |
 | Prepared By | Sebastian Victor Andre Diaz Mendoza |
 | Attendees (to planning meeting) | Jose Gustavo Asto Jacome<br>Sebastian Victor Andre Diaz Mendoza<br>Jean Fabio Noriega Collado<br>Yngrid Nahir Ruiz Villegas<br>Ismael Sebastian Simon Calderon |
-| **Iteración 1 Review Summary** | Durante este primer ciclo, los esfuerzos del equipo se centraron en definir la base estratégica e identitaria de InstAlert. Logramos concluir satisfactoriamente los artefactos fundamentales de UX (Personas Usuarias, Mapas de Viaje del Cliente y Arquitectura de la Información), los cuales sirvieron de guía directa para la concepción del producto. Con este respaldo, logramos diseñar, desarrollar y desplegar la versión inicial de nuestra Página de Aterrizaje, en la cual se expone de forma clara la propuesta de valor del SaaS y los detalles de los planes de suscripción. |
-| **Iteración 1 Retrospective Summary** | El equipo concluyó que la dinámica de trabajo fue altamente productiva, impulsada por una clara y equitativa distribución de responsabilidades. Se destacó positivamente la transición y alineación entre el prototipado realizado en Figma y la configuración inicial de los repositorios en GitHub. Como área de mejora para el próximo iteración, acordamos optimizar nuestras estimaciones de tiempo (puntos de historia), especialmente de cara al inicio del desarrollo e integración del lado de la presentacion del producto (frontend). |
-| **Iteración Goal & User Stories** | |
-| **Iteración 1 Goal** | Nuestro objetivo principal consistió en presentar una primera iteración completamente funcional y desplegada de la Página de Aterrizaje, a la par de la redacción formal de los primeros capítulos del informe técnico. Consideramos que estos avances nos permiten proyectar una propuesta de valor sólida para captar a nuestro público objetivo, hito que se validará con el tráfico web inicial y la aprobación de la documentación entregada. |
-| **Iteración 1 Velocity** | 14 |
-| **Sum of Puntos de Historia** | 14 |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | **Nuestro enfoque está en** que los potenciales clientes comprendan la propuesta de valor y las funcionalidades de InstAlert, comparen sus planes y consulten información complementaria en el idioma de su preferencia.<br>**Creemos que esto aportará** mayor claridad y confianza para evaluar si la plataforma responde a las necesidades de su comercio.<br>**Esto se confirmará cuando** la revisión del sitio publicado permita comprobar el acceso a la propuesta de valor, las funcionalidades, los planes en PEN y USD, los testimonios, la explicación de funcionamiento, el equipo, las preguntas frecuentes y la documentación de ayuda y legal. |
+| **Sprint 1 Velocity** | 11 |
+| **Sum of Puntos de Historia** | 13 |
 
-**Nota:** Cuadro resumen que detalla la planificación estratégica, las metas establecidas, los resultados obtenidos y las métricas de esfuerzo correspondientes al Iteración 1 de InstAlert.
+**Nota:** Cuadro resumen de la planificación, los objetivos, los resultados y las métricas de esfuerzo del Sprint 1 de InstAlert.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
@@ -522,28 +520,34 @@ En este primer iteración se desarrolló la página de aterrizaje y la documenta
 | Yngrid Nahir Ruiz Villegas | nahiryn8 | Colaborador | Líder | Colaborador |
 | Ismael Sebastian Simon Calderon | Mayel-dev | Colaborador | Colaborador | Colaborador |
 
-**Nota:** Distribución de responsabilidades de los integrantes del equipo durante el Iteración 1, indicando el liderazgo y la colaboración en las principales áreas de trabajo.
+**Nota:** Distribución de responsabilidades de los integrantes del equipo durante el Sprint 1, con sus funciones de liderazgo y colaboración.
 
 #### 5.2.1.3. Sprint Backlog 1.
 
 | ID de Historia de Usuario | Título de Historia de Usuario | Puntos de Historia | Estado |
 | :--- | :--- | :---: | :--- |
-| US-13 | Visualización de propuesta de valor | 3 | Hecho |
-| US-14 | Comparación de planes de precios | 2 | Hecho |
-| US-15 | Visualización de testimonios | 2 | Hecho |
-| US-29 | Visualización de funcionamiento | 5 | Hecho |
-| US-30 | Visualización de preguntas frecuentes | 2 | Hecho |
-| **Total** |  | **14** |  |
+| US33 | Consultar la propuesta de valor | 1 | Hecho |
+| US34 | Comparar planes y precios | 2 | Hecho |
+| US35 | Visualizar testimonios | 1 | Hecho |
+| US37 | Consultar cómo funciona InstAlert | 1 | Hecho |
+| US38 | Consultar preguntas frecuentes | 2 | Hecho |
+| US46 | Cambiar el idioma de la página | 2 | En progreso |
+| US47 | Consultar las funcionalidades principales | 1 | Hecho |
+| US48 | Conocer al equipo detrás de InstAlert | 1 | Hecho |
+| US49 | Consultar el centro de ayuda | 1 | Hecho |
+| US50 | Revisar la privacidad y los términos del servicio | 1 | Hecho |
+| **Total planificado** |  | **13** |  |
+| **Total completado** |  | **11** |  |
 
 
 
 <p align="center">
-  <img src="../assets/Chapter5/jira-iteración-1.png" alt="Evidencia del Iteración 1 en Jira" width="800">
+  <img src="../assets/Chapter5/jira-sprint-1.png" alt="Captura del tablero de Jira del Sprint 1" width="800">
 </p>
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
-Esta sección expone la evidencia técnica del progreso alcanzado durante el presente iteración con relación a los productos de la solución definidos en el alcance. Se resumen los principales avances en la implementación a través de un registro detallado de las modificaciones en el código fuente. A continuación, se presenta una tabla que incluye los repositorios y sus respectivos confirmaciones, documentando el desarrollo estructural, la integración de contenido y la configuración para la Página de Aterrizaje de InstAlert.
+Esta sección presenta la evidencia técnica del progreso alcanzado durante el Sprint 1 con respecto a los productos incluidos en su alcance. La tabla resume los repositorios, las ramas y las confirmaciones relacionadas con el desarrollo estructural, la integración de contenido y la configuración de la Página de Aterrizaje de InstAlert.
 
 | Repositorio | Rama | ID de Confirmación | Mensaje de Confirmación | Cuerpo del Mensaje de Confirmación | Confirmado en (Fecha) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -556,13 +560,13 @@ Esta sección expone la evidencia técnica del progreso alcanzado durante el pre
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
-Durante el transcurso del Iteración 1, el esfuerzo de desarrollo se centró en la construcción y despliegue de la Página de Aterrizaje oficial de InstAlert. Se completaron las historias US-13, US-14, US-15, US-29 y US-30, correspondientes a la propuesta de valor, los planes de precios, los testimonios, el funcionamiento y las preguntas frecuentes.
+Durante el Sprint 1, el esfuerzo de desarrollo se centró en la construcción y el despliegue de la Página de Aterrizaje oficial de InstAlert. Se completaron las historias US33, US34, US35, US37, US38 y US47–US50, correspondientes a la propuesta de valor, la comparación de planes y precios en PEN y USD, los testimonios, la explicación de funcionamiento, las preguntas frecuentes, las funcionalidades principales, la presentación del equipo y la consulta de documentación de ayuda y legal. La historia US46, relacionada con el cambio de idioma, quedó en progreso: el selector y la persistencia de la preferencia están implementados, pero la página inicia en español y debe ajustarse para cumplir el idioma predeterminado establecido para el proyecto.
 
-El alcance completado incluye la estructura base, navegación global, la sección principal de impacto (Hero), los beneficios de la plataforma, la presentación del producto y soluciones, los planes de suscripción, la presentación del equipo, el llamado a la acción final (CTA) y el pie de página con documentación legal. El trabajo fue distribuido equitativamente entre todos los miembros del equipo, logrando un entregable final que comunica eficazmente la propuesta de valor del modelo SaaS B2B.
+El alcance desarrollado incluye la estructura base, navegación global, la sección principal de impacto (Hero), los beneficios de la plataforma, la presentación del producto y sus funcionalidades, los planes de suscripción, la presentación del equipo, las preguntas frecuentes, el llamado a la acción final (CTA) y el pie de página con documentación de ayuda y legal. La historia US36, que contempla la redirección a la aplicación, no forma parte de las historias completadas en este Sprint: los botones de ingreso y registro permanecen desactivados mientras no se configure una URL de destino.
 
 **Evidencia visual:**
 
-A continuación, se presentan las capturas de pantalla que evidencian las principales vistas y componentes implementados durante este ciclo, indicando el responsable principal de cada apartado según la nueva distribución del repositorio.
+A continuación, se presentan capturas de las principales vistas y componentes implementados durante el Sprint 1, junto con el responsable principal de cada apartado según la distribución del repositorio.
 
 **1. Estructura base, Navegación, Hero y Beneficios**
 
@@ -604,29 +608,17 @@ A continuación, se presentan las capturas de pantalla que evidencian las princi
   <img src="https://imgur.com/L5xYg2c.png" alt="Cierre y Footer" width="500">
 </p>
 
-**Video del Revisión de Iteración:** [Ver video del Revisión de Iteración del Iteración 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDDu4coMfEFS5u3PVPylCcgAWrLM56l0VTYYK_eO1OWuSk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ChGf3N)
+**Video de la revisión del Sprint:** [Ver video de la revisión del Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDDu4coMfEFS5u3PVPylCcgAWrLM56l0VTYYK_eO1OWuSk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ChGf3N)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-Durante el presente Iteración, los objetivos del equipo se centraron exclusivamente en la ideación, diseño y desarrollo de la Página de Aterrizaje de InstAlert. 
-
-Dado que el alcance de esta primera iteración no contempló el desarrollo de la lógica del lado del servidor ni la creación de una API RESTful, actualmente no existen servicios web implementados. Por consiguiente, no se han generado puntos de enlace que requieran ser documentados mediante el estándar OpenAPI. Tienes razón en tu observación: el enlace actual de la Página de Aterrizaje no corresponde a este apartado, ya que aquí solo debe ir la URL del repositorio del backend.
-
-La construcción y documentación de los servicios web está planificada para los siguientes ciclos de desarrollo. Una vez que se inicie la implementación del backend, se empleará Swagger (OpenAPI) para generar la documentación técnica e interactiva. 
-
-En futuras entregas, esta sección se actualizará para incluir estrictamente lo solicitado por las instrucciones del proyecto:
-
-* Una tabla exhaustiva con la relación de los Puntos de enlace implementados.
-* Especificación de las acciones soportadas indicando el verbo HTTP correspondiente (GET, POST, PUT, PATCH, DELETE) y la sintaxis de las llamadas.
-* Detalle de los parámetros requeridos y la explicación estructurada de las respuestas (Respuestas).
-* Capturas de pantalla que evidencien la interacción funcional con la API a través de la interfaz de Swagger UI, empleando datos de muestra.
-* El enlace directo al repositorio de Servicios Web, junto con el registro de los IDs de los confirmaciones asociados exclusivamente a la elaboración de la documentación.
+Durante el Sprint 1, el equipo se centró en la ideación, el diseño, el desarrollo y el despliegue de la Página de Aterrizaje de InstAlert. El alcance no incluyó la implementación de los Servicios Web ni de una API REST, por lo que todavía no hay endpoints disponibles para documentar con OpenAPI. El repositorio destinado a los Servicios Web del proyecto es [InstAlert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd). La documentación de la API se elaborará cuando sus endpoints estén implementados.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-Durante el Iteración 1, los esfuerzos del equipo se centraron en configurar y ejecutar el despliegue inicial de la Página de Aterrizaje de InstAlert. Este proceso garantizó que la propuesta de valor del producto esté accesible públicamente, sentando además las bases para la integración continua. 
+Durante el Sprint 1, los esfuerzos del equipo se centraron en configurar y ejecutar el despliegue inicial de la Página de Aterrizaje de InstAlert. Este proceso permitió publicar la propuesta de valor del producto y establecer las bases para la integración continua.
 
-Dado que el alcance de esta iteración se limitó a la presentación web estática, aún no se han creado cuentas ni configurado entornos de despliegue para las Aplicación Webs ni para los Servicios Web. Estas actividades, que involucrarán el uso de plataformas y proveedores de nube específicos (Proveedores de Nube) para el backend y frontend dinámico, están planificadas para los próximos iteraciones.
+Dado que el alcance de este Sprint se limitó a la presentación web estática, aún no se habían creado cuentas ni configurado entornos de despliegue para la Aplicación Web ni para los Servicios Web. Estas actividades están previstas para Sprints posteriores.
 
 **Actividades de Despliegue Realizadas:**
 
@@ -661,7 +653,7 @@ Dado que el alcance de esta iteración se limitó a la presentación web estáti
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
-Durante este primer Iteración, el equipo se dedicó integralmente a la concepción, diseño e implementación de la Página de Aterrizaje de InstAlert. Para cumplir con los objetivos trazados, las responsabilidades se dividieron de forma equitativa, asegurando que todos los miembros del equipo tuvieran participación activa y directa en el desarrollo del código fuente, la maquetación y la lógica de la interfaz.
+Durante este primer Sprint, el equipo se dedicó a la concepción, el diseño y la implementación de la Página de Aterrizaje de InstAlert. Las responsabilidades se dividieron entre sus integrantes, quienes participaron en el desarrollo del código fuente, la maquetación y la lógica de la interfaz.
 
 **Actividades de implementación desarrolladas:**
 
@@ -703,14 +695,14 @@ Para evidenciar el compromiso y la participación equitativa de todos los integr
 
 **2. Colaboradores activos en el repositorio**
 
-*Esta gráfica demuestra la actividad conjunta del equipo y la distribución de los aportes (adiciones y eliminaciones de código) a lo largo del Iteración.*
+*Esta gráfica muestra la actividad conjunta del equipo y la distribución de los aportes (adiciones y eliminaciones de código) a lo largo del Sprint.*
 <p align="center">
   <img src="https://imgur.com/f8tma3B.png" alt="Active Contributors" width="500">
 </p>
 
 **3. Histograma de contribuciones en el tiempo**
 
-*Muestra la frecuencia de las confirmaciones (confirmaciones) realizadas en los días previos a la revisión del Iteración, evidenciando un esfuerzo constante y coordinado para la integración final.*
+*Muestra la frecuencia de las confirmaciones realizadas en los días previos a la revisión del Sprint, como evidencia de la actividad de integración del equipo.*
 <p align="center">
   <img src="https://imgur.com/B0z7ABn.png" alt="Commit Histogram" width="500">
 </p>
@@ -725,4 +717,4 @@ Se concluye que InstAlert posee una ventaja competitiva clara frente a alternati
 
 Con respecto al diseño y la experiencia de usuario, la identidad visual, la arquitectura de información y los flujos de interacción diseñados para InstAlert mantienen una estricta coherencia con los valores de confianza, rapidez y facilidad de uso. La organización jerárquica de los contenidos y la definición de mecanismos de navegación intuitivos contribuyen a reducir la carga cognitiva, facilitando el proceso de adopción de la plataforma por parte de los clientes y sus usuarios finales.
 
-Finalmente, tras la ejecución del primer iteración de desarrollo, se concluye que el diseño y despliegue de la Página de Aterrizaje constituye un hito fundamental para la validación comercial del proyecto. La implementación de una página web estática y multilingüe (i18n), que expone claramente la propuesta de valor, los planes de suscripción (Precios), el equipo detrás del desarrollo y casos de éxito (Testimonios), provee a InstAlert de un canal oficial y profesional. Esto no solo fortalece la presencia digital de la marca, sino que establece el principal motor para la captación de clientes potenciales y futuros clientes interesados en el servicio SaaS.
+Finalmente, tras la ejecución del primer Sprint de desarrollo, se concluye que el diseño y despliegue de la Página de Aterrizaje constituye un hito para la presentación comercial del proyecto. La página web estática y multilingüe (i18n) expone la propuesta de valor, los planes de suscripción y la información del equipo, y ofrece un canal público para dar a conocer InstAlert.

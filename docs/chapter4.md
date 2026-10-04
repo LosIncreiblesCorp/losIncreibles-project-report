@@ -202,7 +202,7 @@ El diseño del wireframe de la Landing Page de InstAlert se estructura de manera
 Presenta el logotipo de InstAlert, las opciones principales de navegación, el selector de idioma y los botones de acceso y registro. El encabezado se mantiene visible durante el desplazamiento para facilitar el acceso a las diferentes secciones de la página.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-1.png" alt="Labeling app" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-1.png" alt="Wireframe del encabezado de la Landing Page" width="700"><br>
   Nota: Wireframe del encabezado de la Landing Page de InstAlert.
 </p>
 
@@ -211,7 +211,7 @@ Presenta el logotipo de InstAlert, las opciones principales de navegación, el s
 Es la primera sección visual de la landing y presenta la propuesta principal de InstAlert mediante un título, una breve descripción y botones de acción. El contenido se acompaña de un espacio destinado al recurso visual principal del producto.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-1.png" alt="Wireframe 1 lading" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-1.png" alt="Wireframe de la sección principal de la Landing Page" width="700"><br>
   Nota: Wireframe de la sección principal (Hero Section) de InstAlert.
 </p>
 
@@ -221,7 +221,7 @@ Es la primera sección visual de la landing y presenta la propuesta principal de
 Esta sección resume los principales beneficios de la plataforma y posteriormente presenta información sobre InstAlert, acompañada de un recurso multimedia destinado a explicar el funcionamiento o propósito del producto.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-2.png" alt="Wireframe 2 lading" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-2.png" alt="Wireframe de beneficios y presentación del producto" width="700"><br>
   Nota: Wireframe de la sección de beneficios y presentación del producto.
 </p>
 
@@ -231,7 +231,7 @@ Esta sección resume los principales beneficios de la plataforma y posteriorment
 Se presentan los principales principios de la plataforma y una sección orientada a explicar la solución propuesta. La información se complementa con un espacio visual destinado a representar el funcionamiento del sistema y sus funcionalidades relacionadas con la seguridad.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-3.png" alt="Wireframe 2 lading" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-3.png" alt="Wireframe de principios y solución de InstAlert" width="700"><br>
   Nota: Wireframe de la sección de principios y solución de InstAlert.
 </p>
 
@@ -241,7 +241,7 @@ Se presentan los principales principios de la plataforma y una sección orientad
 La sección de planes presenta las diferentes opciones disponibles para el usuario mediante tarjetas comparativas. Cada tarjeta contiene el nombre del plan, descripción, precio, características principales y un botón de acción para seleccionar la opción correspondiente.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-4.png" alt="Wireframe 2 lading" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-4.png" alt="Wireframe de planes y precios" width="700"><br>
   Nota: Wireframe de la sección de planes y precios.
 </p>
 
@@ -251,7 +251,7 @@ La sección de planes presenta las diferentes opciones disponibles para el usuar
 Se presenta al equipo responsable del desarrollo de InstAlert mediante tarjetas individuales con un espacio reservado para la fotografía de cada integrante, su nombre y rol. La sección también incorpora un espacio para contenido audiovisual relacionado con el equipo.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-5.png" alt="Wireframe 2 lading" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-5.png" alt="Wireframe de la sección del equipo de InstAlert" width="700"><br>
   Nota: Wireframe de la sección del equipo de InstAlert.
 </p>
 
@@ -261,7 +261,7 @@ Se presenta al equipo responsable del desarrollo de InstAlert mediante tarjetas 
 Finalmente, la landing incorpora un llamado a la acción que refuerza la propuesta de InstAlert y dirige al usuario hacia la acción principal. El footer contiene la información complementaria y enlaces de navegación del sitio.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-6.png" alt="Wireframe 2 lading" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/wireframes/landing-page-wireframe-6.png" alt="Wireframe del llamado a la acción y pie de página" width="700"><br>
   Nota: Wireframe del llamado a la acción y pie de página de InstAlert.
 </p>
 
@@ -275,7 +275,7 @@ Los mock-ups de la Landing Page de InstAlert representan la propuesta visual fin
 Aquí se muestra el encabezado de la Landing Page junto con la sección principal. El encabezado contiene el logotipo, las opciones de navegación, el selector de idioma, el acceso a inicio de sesión y el botón principal de acción. En el Hero Section se presenta la propuesta de valor de InstAlert, acompañada de un espacio visual destinado a representar el producto.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page//mockups/landing-page-mock-up-1.png" alt="Header y Hero Section" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/mockups/landing-page-mock-up-1.png" alt="Encabezado y sección principal (Hero Section) de la Landing Page" width="700"><br>
   Nota: Mock-up del encabezado y Hero Section de la Landing Page de InstAlert
 </p>
 
@@ -284,7 +284,7 @@ Aquí se muestra el encabezado de la Landing Page junto con la sección principa
 La sección presenta los principales beneficios de InstAlert mediante tres elementos visuales, permitiendo comunicar de manera rápida las características que diferencian la propuesta de la plataforma.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page//mockups/landing-page-mock-up-1.png" alt="Beneficios principales" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/mockups/landing-page-mock-up-1.png" alt="Beneficios principales de InstAlert" width="700"><br>
   Nota: Mock-up de los beneficios principales de InstAlert
 </p>
 
@@ -293,7 +293,7 @@ La sección presenta los principales beneficios de InstAlert mediante tres eleme
 Esta sección presenta información relacionada con la propuesta de InstAlert y sus principales principios, utilizando bloques diferenciados para facilitar la lectura y comprensión del contenido.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page//mockups/landing-page-mock-up-2.png" alt="Principios de InstAlert" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/mockups/landing-page-mock-up-2.png" alt="Presentación del producto y principios de InstAlert" width="700"><br>
   Nota: Mock-up de la sección informativa y principios de InstAlert
 </p>
 
@@ -302,7 +302,7 @@ Esta sección presenta información relacionada con la propuesta de InstAlert y 
 La sección muestra una representación de la plataforma mediante un espacio visual destinado al mapa, acompañado de información sobre las soluciones y funcionalidades principales de InstAlert. Esta distribución permite relacionar la información presentada con la visualización de incidentes y zonas de riesgo.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page//mockups/landing-page-mock-up-3.png" alt="Plataforma y mapa" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/mockups/landing-page-mock-up-3.png" alt="Plataforma InstAlert y mapa de riesgo" width="700"><br>
   Nota: Mock-up de la sección de plataforma y visualización del mapa
 </p>
 
@@ -311,7 +311,7 @@ La sección muestra una representación de la plataforma mediante un espacio vis
 La sección presenta los diferentes planes disponibles mediante tarjetas comparativas. Cada tarjeta contiene el nombre del plan, su descripción, precio, características principales y un botón de acción, permitiendo al usuario comparar las alternativas disponibles.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page//mockups/landing-page-mock-up-4.png" alt="Planes de InstAlert" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/mockups/landing-page-mock-up-4.png" alt="Planes de InstAlert" width="700"><br>
   Nota: Mock-up de la sección de planes de InstAlert
 </p>
 
@@ -320,7 +320,7 @@ La sección presenta los diferentes planes disponibles mediante tarjetas compara
 La sección presenta a los integrantes del equipo mediante tarjetas individuales que incluyen su representación visual, nombre y rol dentro del proyecto. También incorpora un espacio destinado a presentar contenido audiovisual relacionado con el equipo.
 
 <p align="center">
-  <img src="../assets/Chapter4/landing-page//mockups/landing-page-mock-up-5.png" alt="Equipo de InstAlert" width="700"><br>
+  <img src="../assets/Chapter4/landing-page/mockups/landing-page-mock-up-5.png" alt="Equipo de InstAlert" width="700"><br>
   Nota: Mock-up de la sección del equipo de InstAlert
 </p>
 
@@ -549,7 +549,7 @@ flowchart TD
 
 Wireflow:
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 1.png"width="500"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 1.png" alt="Wireflow del registro de un comercio" width="500">
 <br> Nota: Diagrama de Wireflow del proceso de registro de comercio, desde el login hasta el acceso al Dashboard </p>
 
 Descripción del flujo:
@@ -581,7 +581,7 @@ Nota: Diagrama de Task Flow para la consulta del mapa de riesgo del administrado
 Wireflow:
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 2.png"width="500"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 2.png" alt="Wireflow de consulta del mapa de riesgo" width="500">
 <br> Nota: Diagrama de Wireflow de la consulta del mapa de riesgo, desde el Dashboard hasta el detalle de zona </p>
 
 Descripción del flujo:
@@ -608,7 +608,7 @@ Nota: Diagrama de Task Flow para la consulta del historial de alertas del admini
 Wireflow:
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 3.png"width="500"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 3.png" alt="Wireflow de consulta del historial de alertas" width="500">
 <br> Nota: Diagrama de Wireflow del historial de alertas para el administrador </p>
 
 Descripción del flujo:
@@ -637,7 +637,7 @@ flowchart TD
 Wireflow:
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 4.png"width="500"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 4.png" alt="Wireflow de gestión de suscripción" width="500">
 <br> Nota: Diagrama de Wireflow de la gestión de suscripción del administrador </p>
 
 Descripción del flujo:
@@ -665,7 +665,7 @@ Nota: Diagrama de Task Flow para la gestión de personal operativo </p>
 Wireflow:
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 5.png"width="500"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 5.png" alt="Wireflow de gestión del personal operativo" width="500">
 <br> Nota: Diagrama de Wireflow de la gestión de personal operativo del administrador </p>
 
 Descripción del flujo:
@@ -700,7 +700,7 @@ flowchart TD
 Wireflow:
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 6.png"width="500"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 6.png" alt="Wireflow de activación del botón de pánico y emergencia" width="500">
 <br> Nota: Diagrama de Wireflow del proceso de activación del botón de pánico y seguimiento de la emergencia </p>
 
 
@@ -730,7 +730,7 @@ flowchart TD
 Wireflow:
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 7.png"width="500"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 7.png" alt="Wireflow de clasificación del tipo de alerta" width="500">
 <br> Nota: Diagrama de Wireflow de clasificación del tipo de alerta </p>
 
 Descripción del flujo:
@@ -756,7 +756,7 @@ flowchart TD
 Wireflow:
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 8.png"width="500"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 8.png" alt="Wireflow de recepción de alertas cercanas" width="500">
 <br> Nota: Diagrama de Wireflow de recepción de alertas cercanas </p>
 
 Descripción del flujo:
@@ -783,7 +783,7 @@ Nota: Diagrama de Task Flow para la cancelación de una falsa alarma </p>
 Wireflow:
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 9.png"width="500"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 9.png" alt="Wireflow de cancelación de una falsa alarma" width="500">
 <br> Nota: Diagrama de Wireflow de cancelación de falsa alarma </p>
 
 Descripción del flujo:
@@ -815,8 +815,8 @@ flowchart TD
 Wireflow:
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 10.png"width="500"> 
-<br> Nota: Diagrama de Wireflow de cancelación de falsa alarma </p>
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 10.png" alt="Wireflow de gestión de contactos de emergencia" width="500">
+<br> Nota: Diagrama de Wireflow para agregar un contacto de emergencia </p>
 
 Descripción del flujo:
 Desde la pantalla de "Mis Contactos de Emergencia", donde se visualiza el listado del círculo de respaldo con sus niveles de prioridad (SOS Inmediato o Informativo), el usuario presiona el botón "+ Agregar Contacto" para abrir el formulario de registro de red cercana. En esta vista, el operador completa la información clave del contacto, asignando su parentesco o relación, correo y número de teléfono móvil. Una vez guardado, el nuevo contacto queda sincronizado en el sistema para recibir notificaciones automáticas e inmediatas ante cualquier activación de alerta en el comercio.
@@ -848,8 +848,8 @@ Nota: Diagrama de Task Flow para acceder y revisar el historial completo de aler
 Wireflow:
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 11.png"width="500"> 
-<br> Nota: Diagrama de Wireflow de cancelación de falsa alarma </p>
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 11.png" alt="Wireflow de consulta del historial de alertas para el personal operativo" width="500">
+<br> Nota: Diagrama de Wireflow para consultar el historial de alertas del personal operativo </p>
 
 Descripción del flujo:
 Desde el Dashboard, el personal operativo puede seleccionar el acceso rápido "VER HISTORIAL" para abandonar el monitoreo en tiempo real e ingresar a la pantalla de Historial de Alertas. En esta vista, el sistema presenta un registro cronológico de todos los eventos del negocio, permitiendo aplicar filtros por rango de fecha, tipo de incidente y estado. Al seleccionar una alerta específica del listado, la interfaz despliega en la parte inferior el detalle seleccionado junto con los archivos de evidencia asociados, facilitando una auditoría completa y un seguimiento detallado de la trazabilidad de cada incidente registrado.
@@ -1046,7 +1046,7 @@ Esta sección reúne la interfaz gráfica de alta fidelidad para la aplicación 
 **Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (1).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (1).png" alt="User Flow del registro exitoso de un comercio" width="500">
 <br> Nota: Diagrama de UserFlow del proceso de registro de comercio, desde el login hasta el acceso al Dashboard </p>
 
 En esta ruta ideal, un representante o dueño de negocio inicia el proceso desde la pantalla de inicio de sesión de InstAlert (Desktop) haciendo clic en "Registrar mi Negocio". A continuación, ingresa sus datos personales (RUC, nombres y apellidos) y presiona "Siguiente" para completar las credenciales de la cuenta (correo corporativo y contraseña). Tras presionar "Registrar", accede a la selección de planes (como Sentinel Basic, Sentinel Pro o Sentinel Red Enterprise), elige la opción adecuada y hace clic en "Regístrate". Finalmente, completa la información de pago en el formulario de la tarjeta (número de tarjeta, CVC, fecha de vencimiento, titular y dirección de facturación), presiona "Regístrate" y acepta los Términos y Condiciones de la plataforma para activar su cuenta exitosamente.
@@ -1054,7 +1054,7 @@ En esta ruta ideal, un representante o dueño de negocio inicia el proceso desde
 **Unhappy Paths**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (2).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (2).png" alt="User Flow de un registro de comercio con errores" width="500">
 <br> Nota: Diagrama de UserFlow del proceso de registro de comercio mal realizado </p>
 
 En este escenario alternativo, el usuario inicia el registro desde la pantalla de inicio de sesión de InstAlert haciendo clic en "Registrar mi Negocio" y completa los primeros espacios del formulario (RUC, nombres y apellidos). Luego, avanza al siguiente paso para ingresar sus credenciales (correo electrónico y contraseña). Sin embargo, al intentar presionar "Registrar" con datos o formatos incorrectos (por ejemplo, un correo que ya se encuentra registrado o credenciales erróneas), el sistema valida la información, bloquea el registro y despliega un mensaje de error en pantalla alertando sobre las credenciales incorrectas para impedir que la cuenta sea creada hasta que se corrijan los datos.
@@ -1064,7 +1064,7 @@ En este escenario alternativo, el usuario inicia el registro desde la pantalla d
 **Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (3).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (3).png" alt="User Flow de consulta del mapa de riesgo" width="500">
 <br> Nota: Diagrama de UserFlow de la consulta del mapa de riesgo, desde el Dashboard hasta el detalle de zona</p>
 
 En esta ruta ideal, el administrador inicia sesión y accede al Dashboard Administrador de InstAlert. Desde la sección de accesos de navegación o accesos directos, selecciona la opción de "Mapa de Riesgo". El sistema lo redirige a la pantalla del Mapa de Riesgo Táctico, donde se despliega la visualización geográfica de las zonas de cobertura y cuadrantes. A continuación, el administrador ubica e interactúa con el mapa al presionar el local comercial de su interés (por ejemplo, Mini Market Don Pepe). Esto despliega una ventana emergente o panel lateral con el resumen del local; desde allí, el administrador hace clic en "Ver Detalles" para acceder a la información completa de los incidentes registrados, historial y reportes específicos del establecimiento.
@@ -1075,7 +1075,7 @@ En esta ruta ideal, el administrador inicia sesión y accede al Dashboard Admini
 **Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (4).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (4).png" alt="User Flow de consulta del historial de alertas del administrador" width="500">
 <br> Nota: Diagrama de UserFlow del historial de alertas para el administrador</p>
 
 En esta ruta ideal, el administrador inicia sesión en la plataforma y accede al Dashboard Administrador de InstAlert. Desde el menú de navegación lateral o mediante la tarjeta de acceso rápido, hace clic en "Alertas" (o "Ver Historial de Alertas"). El sistema lo redirige a la vista de Historial de Alertas y Eventos, donde se muestra el registro detallado de incidencias y situaciones de alerta. Posteriormente, el administrador hace clic en el botón o acceso de "Alertas SOS Pánico". El sistema lo lleva a la pantalla de Alertas Administrador ("Elige el negocio para ver las alertas"), donde puede visualizar los negocios asociados y consultar el listado de alertas emitidas por cada uno para su posterior gestión o seguimiento.
@@ -1085,7 +1085,7 @@ En esta ruta ideal, el administrador inicia sesión en la plataforma y accede al
 **Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (5).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (5).png" alt="User Flow de selección y gestión de una suscripción" width="500">
 <br> Nota: Diagrama de UserFlow de la gestión de suscripción del administrador</p>
 
 En esta ruta ideal, el administrador inicia sesión en la plataforma y accede al Dashboard Administrador de InstAlert. Desde la barra de navegación lateral o mediante la tarjeta de acceso rápido "Gestionar Suscripción", hace clic en "Suscripción". El sistema lo redirige a la pantalla de Gestión de Suscripción (Administrador), en la sección de Suscripción Comercial y Facturación. Desde esta vista, el administrador puede revisar el plan activo (Sentinel Pro), consultar la matriz de planes de seguridad disponibles (Sentinel Esencial, Sentinel Pro, Sentinel Red Enterprise), gestionar el método de pago guardado y revisar el historial de facturación electrónica e historial de pagos.
@@ -1095,7 +1095,7 @@ En esta ruta ideal, el administrador inicia sesión en la plataforma y accede al
 **Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (6).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (6).png" alt="User Flow para agregar personal operativo" width="500">
 <br> Nota: Diagrama de UserFlow de la gestión de personal operativo del administrador</p>
 
 En esta ruta ideal, el administrador inicia sesión y accede al Dashboard Administrador de InstAlert. Desde el menú lateral o el acceso directo "Gestionar Personal", hace clic en "Personal" para navegar a la vista de Gestión de Personal del Comercio. Una vez allí, hace clic en el botón "+ Agregar personal". En la pantalla de Agregar Personal, completa correctamente todos los campos del formulario con la información del trabajador (nombre completo, cargo o puesto, área asignada, correo institucional, teléfono móvil y notas adicionales). Luego, hace clic en el botón "Agregar personal". El sistema procesa la solicitud, confirma la acción mostrando la pantalla de "Personal agregado correctamente" con el resumen del registro y actualiza la lista de personal del local.
@@ -1103,7 +1103,7 @@ En esta ruta ideal, el administrador inicia sesión y accede al Dashboard Admini
 **Unhappy Paths**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (7).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (7).png" alt="User Flow de error al registrar personal operativo" width="500">
 <br> Nota: Diagrama de UserFlow de un mal registro de personal </p>
 
 En este escenario alternativo, el administrador accede al módulo de Gestión de Personal e inicia el proceso haciendo clic en "+ Agregar personal". Al completar el formulario, ingresa información inválida o duplicada (por ejemplo, un correo institucional que ya pertenece a un trabajador existente en la plataforma). Al hacer clic en "Agregar personal", el sistema realiza la validación, bloquea el registro y muestra la pantalla de Error Agregar personal (Administrador) con un mensaje explícito de alerta ("No se pudo registrar al personal") e indicando en rojo el campo con conflicto para que el usuario pueda corregirlo antes de reintentar.
@@ -1116,7 +1116,7 @@ En este escenario alternativo, el administrador accede al módulo de Gestión de
 **Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (8).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (8).png" alt="User Flow de activación y resolución de una alerta de pánico" width="500">
 <br> Nota: Diagrama de UserFlow el proceso de activación del botón de pánico y seguimiento de la emergencia</p>
 
 En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde la barra de navegación lateral o los accesos directos, hace clic en "Alertas". El sistema lo redirige a la pantalla de Alertas Operativas, donde presiona el botón de pánico central para iniciar el protocolo de emergencia. A continuación, el sistema muestra la pantalla de Cuenta Regresiva de Emergencia (Pánico) con un temporizador de 15 segundos. Al dejar transcurrir los 15 segundos sin cancelar, el sistema activa la alerta e ingresa al estado de Situación de Pánico Activa, notificando a los negocios cercanos y a las autoridades. Una vez controlada la situación, el usuario hace clic en "Finalizar Situación de Pánico". Por último, accede a la pantalla de Completar Reporte de Emergencia, donde selecciona el tipo de incidente ocurrido y añade los detalles pertinentes para registrar el evento de forma completa.
@@ -1127,7 +1127,7 @@ En esta ruta ideal, el personal operativo inicia sesión en la plataforma y acce
 **Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (11).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (11).png" alt="User Flow para reportar actividad sospechosa" width="500">
 <br> Nota: Diagrama de UserFlow el proceso de reportar actividad sospechosa</p>
 
 En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde la barra de navegación lateral o mediante la tarjeta de acceso directo, hace clic en "Alertas". El sistema lo redirige a la pantalla de Alertas Operativas. En la sección de Otros reportes, hace clic en la opción "Vi algo sospechoso". A continuación, el sistema despliega el formulario de Reportar Actividad Sospechosa, donde el usuario selecciona el tipo de actividad observada (personas o vehículos sospechosos, comportamientos inusuales, etc.), confirma la ubicación y temporalidad, añade la descripción táctica y envía el alerta preventivo a la red del sector.
@@ -1136,7 +1136,7 @@ En esta ruta ideal, el personal operativo inicia sesión en la plataforma y acce
 **Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (12).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (12).png" alt="User Flow para reportar otro tipo de alerta" width="500">
 <br> Nota: Diagrama de UserFlow el proceso de reporte de otro tipo de alertas</p>
 
 En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde el menú de navegación, hace clic en "Alertas" para acceder a la pantalla de Alertas Operativas. En la sección de Otros reportes, selecciona el botón "Otro tipo de alerta". El sistema lo lleva a la pantalla InstAlert - Otro tipo de alerta, donde el usuario puede categorizar el incidente específico (fallas de luminaria, intentos de hurto, vandalismo o intrusión), especificar la localización y hora exacta del suceso, adjuntar la descripción con evidencia fotográfica y presionar el botón de envío para notificar a los comercios y administradores vinculados.
@@ -1147,7 +1147,7 @@ En esta ruta ideal, el personal operativo inicia sesión en la plataforma y acce
 **Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (10).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (10).png" alt="User Flow de consulta de notificaciones del sistema" width="500">
 <br> Nota: Diagrama de UserFlow notificaciones sobre incidencias</p>
 
 En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde la barra superior del sistema, hace clic en el icono de Notificación. El sistema lo redirige a la vista de Notificaciones del Sistema dentro del módulo de Alertas Operativas, donde puede consultar en tiempo real las alertas críticas (como pulsadores activados por comercios vecinos), alertas preventivas (marcajes o sospechosos detectados) y notificaciones de pruebas del sistema, pudiendo marcarlas como leídas o gestionar sus respuestas.
@@ -1157,7 +1157,7 @@ En esta ruta ideal, el personal operativo inicia sesión en la plataforma y acce
 **Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (9).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (9).png" alt="User Flow de cancelación de una falsa alarma" width="500">
 <br> Nota: Diagrama de UserFlow de cancelación de falsa alarma</p>
 
 En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde el menú de navegación lateral o los accesos directos, hace clic en "Alertas" para acceder a la pantalla de Alertas Operativas. Allí presiona el botón de pánico central, lo que activa la pantalla de Cuenta Regresiva de Emergencia (Pánico) con un temporizador de 15 segundos. Si se trata de una falsa alarma o una activación accidental, el usuario mantiene presionado durante 5 segundos el botón "Cancelar Alerta SOS". El sistema interrumpe la cuenta regresiva, evita el envío masivo de la notificación de emergencia a las autoridades y negocios cercanos, y retorna al usuario de forma segura a la pantalla principal de Alertas Operativas.
@@ -1167,7 +1167,7 @@ En esta ruta ideal, el personal operativo inicia sesión en la plataforma y acce
 **Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (14).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (14).png" alt="User Flow para registrar un contacto de emergencia" width="500">
 <br> Nota: Diagrama de UserFlow de el registro de un nuevo contacto de confianza</p>
 
 En esta ruta ideal, el personal operativo navega desde el Dashboard Operativo hacia el menú lateral y presiona la opción "Contactos de Emergencia" para acceder al listado de su red de respaldo. Una vez allí, hace clic en el botón "+ Agregar Contacto", desplegando el formulario de registro donde procede a completar correctamente todos los datos solicitados, incluyendo el nombre completo, parentesco, correo electrónico, teléfono móvil y observaciones clave. Al finalizar, el usuario presiona "Guardar Contacto", lo que hace que el sistema procese la información de manera exitosa y lo redirija a la pantalla de Confirmación de Contacto Agregado, donde se muestra la ficha completa de la persona registrada y esta queda automáticamente activa en la plataforma para recibir notificaciones ante cualquier evento de emergencia.
@@ -1175,7 +1175,7 @@ En esta ruta ideal, el personal operativo navega desde el Dashboard Operativo ha
 **Unhappy Paths**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (15).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (15).png" alt="User Flow de validación de un contacto de emergencia" width="500">
 <br> Nota: Diagrama de UserFlow de el registro de un nuevo contacto de confianza</p>
 
 En este flujo de excepción, el personal operativo ingresa a la sección de "Contactos de Emergencia" desde el Dashboard Operativo y hace clic en "+ Agregar Contacto" para desplegar el formulario de registro. Durante el llenado de los datos, el usuario ingresa información errónea o incompleta en los campos obligatorios, como un número telefónico con formato incorrecto o un correo inválido. Al presionar el botón "Guardar Contacto", el sistema detiene el proceso de registro y redirige a la pantalla de Error al Agregar Contacto de Emergencia, mostrando alertas visuales en color rojo que indican de manera precisa qué campos requieren corrección y cuál es el formato esperado, evitando que se guarde un contacto no válido y permitiendo al usuario corregir la información antes de reintentar.
@@ -1185,7 +1185,7 @@ En este flujo de excepción, el personal operativo ingresa a la sección de "Con
 **Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/UserFlows/UserFlow_ (13).png"width="500"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (13).png" alt="User Flow del historial de alertas del personal operativo" width="500">
 <br> Nota: Diagrama de UserFlow de acceso al historial de alertas</p>
 
 En esta ruta ideal, el personal operativo inicia su navegación en la pantalla de Dashboard Operativo de InstAlert. Desde la barra de navegación táctica lateral, hace clic en la opción "Alertas" para acceder al centro operativo de mando en la pantalla de Alertas Operativas. Una vez allí, se desplaza hacia la sección Otros reportes en la parte inferior y presiona la tarjeta "Historial de Alertas y Eventos". El sistema procesa la solicitud de forma inmediata y redirige al usuario a la pantalla de Historial de Alertas, donde puede auditar la lista completa de incidentes registrados, aplicar filtros por estado o fecha y revisar la información detallada junto con la geolocalización y la línea de tiempo de cada evento.
@@ -1213,70 +1213,70 @@ Link del video demostrativo: https://acortar.link/hPiSAo
 **Step 1: Unstructured Exploration**
 
 <p align="center">
-<img src="../assets\Chapter4\event-storming\Step (1).jpg" alt="Paso 1" width="700"><br>
+<img src="../assets/Chapter4/event-storming/Step (1).jpg" alt="Event Storming, paso 1: Unstructured Exploration" width="700"><br>
 Nota: Paso 1 del Design-Level Event Storming – Exploración no estructurada de eventos de dominio
 </p>
 
 **Step 2: Chronology**
 
 <p align="center">
-<img src="../assets\Chapter4\event-storming\Step (2).jpg" alt="Paso 2" width="700"><br>
+<img src="../assets/Chapter4/event-storming/Step (2).jpg" alt="Event Storming, paso 2: Chronology" width="700"><br>
 Nota: Paso 2 del Design-Level Event Storming – Organización cronológica del flujo de eventos
 </p>
 
 **Step 3: Pain Points**
 
 <p align="center">
-<img src="../assets\Chapter4\event-storming\Step (3).jpg" alt="Paso 3" width="700"><br>
+<img src="../assets/Chapter4/event-storming/Step (3).jpg" alt="Event Storming, paso 3: Pain Points" width="700"><br>
 Nota: Paso 3 del Design-Level Event Storming – Identificación de puntos de dolor y cuellos de botella
 </p>
 
 **Step 4: Pivotal Points**
 
 <p align="center">
-<img src="../assets\Chapter4\event-storming\Step (4).jpg" alt="Paso 4" width="700"><br>
+<img src="../assets/Chapter4/event-storming/Step (4).jpg" alt="Event Storming, paso 4: Pivotal Points" width="700"><br>
 Nota: Paso 4 del Design-Level Event Storming – Definición de puntos pivote y momentos clave del sistema
 </p>
 
 **Step 5: Commands**
 
 <p align="center">
-<img src="../assets\Chapter4\event-storming\Step (5).jpg" alt="Paso 5" width="700"><br>
+<img src="../assets/Chapter4/event-storming/Step (5).jpg" alt="Paso 5" width="700"><br>
 Nota: Paso 5 del Design-Level Event Storming – Identificación de comandos, actores y detonadores
 </p>
 
 **Step 6: Policies**
 
 <p align="center">
-<img src="../assets\Chapter4\event-storming\Step (6).jpg" alt="Paso 6" width="700"><br>
+<img src="../assets/Chapter4/event-storming/Step (6).jpg" alt="Paso 6" width="700"><br>
 Nota: Paso 6 del Design-Level Event Storming – Definición de políticas de negocio
 </p>
 
 **Step 7: Read Models**
 
 <p align="center">
-<img src="../assets\Chapter4\event-storming\Step (7).jpg" alt="Paso 7" width="700"><br>
+<img src="../assets/Chapter4/event-storming/Step (7).jpg" alt="Paso 7" width="700"><br>
 Nota: Paso 7 del Design-Level Event Storming – Identificación de modelos de lectura e información requerida
 </p>
 
 **Step 8: External Systems**
 
 <p align="center">
-<img src="../assets\Chapter4\event-storming\Step (8).jpg" alt="Paso 8" width="700"><br>
+<img src="../assets/Chapter4/event-storming/Step (8).jpg" alt="Paso 8" width="700"><br>
 Nota: Paso 8 del Design-Level Event Storming – Integración con sistemas externos y servicios de terceros
 </p>
 
 **Step 9: Aggregates**
 
 <p align="center">
-<img src="../assets\Chapter4\event-storming\Step (9).jpg" alt="Paso 9" width="700"><br>
+<img src="../assets/Chapter4/event-storming/Step (9).jpg" alt="Paso 9" width="700"><br>
 Nota: Paso 9 del Design-Level Event Storming – Identificación y agrupación de agregados de dominio
 </p>
 
 **Step 10: Bounded Contexts**
 
 <p align="center">
-<img src="../assets\Chapter4\event-storming\Step (10).jpg" alt="Paso 10" width="700"><br>
+<img src="../assets/Chapter4/event-storming/Step (10).jpg" alt="Paso 10" width="700"><br>
 Nota: Paso 10 del Design-Level Event Storming – Delimitación de contextos acotados (Bounded Contexts)
 </p>
 
@@ -1284,59 +1284,61 @@ Nota: Paso 10 del Design-Level Event Storming – Delimitación de contextos aco
 
 ### 4.6.2. Software Architecture Context Diagram
 
-La vista de contexto presenta a InstAlert como un sistema completo, sin mostrar todavía sus componentes internos. Su propósito es delimitar el alcance de la plataforma e identificar a las personas y los sistemas externos que se relacionan con ella.
+La vista de contexto presenta a InstAlert como un sistema completo, sin detallar su estructura interna. Permite reconocer quiénes interactúan con la plataforma y qué servicios externos forman parte de su entorno.
 
-Los actores que interactúan con InstAlert son:
+Los actores representados son:
 
-- **Commerce Administrator:** administra el comercio y su personal operativo, gestiona la suscripción y consulta información de seguridad.
-- **Operational Staff:** utiliza la plataforma para enviar alertas de seguridad y consultar información de riesgo cercana.
+- **Commerce Administrator:** administra el comercio, el personal operativo y la suscripción; además, consulta información de seguridad y recibe notificaciones relevantes.
+- **Operational Staff:** utiliza la plataforma para enviar alertas de seguridad, gestionar sus contactos de emergencia y consultar información de riesgo cercana.
 
-El diagrama también muestra cuatro sistemas externos y el propósito de su integración:
+El modelo contempla cuatro sistemas externos:
 
-- **SendGrid:** servicio de correo electrónico representado para enviar invitaciones al personal operativo.
-- **Firebase Cloud Messaging:** servicio representado para entregar notificaciones push en tiempo real.
+- **SendGrid:** servicio de correo electrónico para enviar invitaciones al personal operativo.
+- **Firebase Cloud Messaging:** servicio para entregar notificaciones push, incluidas las relacionadas con alertas cercanas.
 - **Mapbox:** servicio de mapas y visualización geoespacial utilizado por las funciones de ubicación y riesgo.
-- **PayPal:** plataforma de pago representada para procesar los pagos de suscripción.
+- **PayPal:** plataforma externa contemplada para procesar pagos de suscripción.
 
-Las relaciones indican que ambos perfiles utilizan InstAlert y que la plataforma se comunica con los servicios externos para las funciones específicas descritas. Esta vista permite entender los límites del sistema y su ecosistema, sin detallar todavía cómo se implementan internamente esas responsabilidades.
+Las relaciones muestran que ambos perfiles acceden a InstAlert y que la plataforma utiliza los servicios externos para correo, notificaciones push, mapas y pagos. Esta vista delimita el sistema y su ecosistema antes de examinar su organización interna.
 
 <p align="center">
 <img src="../assets/Chapter4/System Context Diagram.png" alt="Diagrama de contexto del sistema InstAlert" width="1000"><br>
-Nota: Vista de contexto de InstAlert con sus actores y sistemas externos.
+Nota: Vista de contexto de InstAlert, sus actores y los servicios externos contemplados.
 </p>
 
 ### 4.6.3. Software Architecture Container Diagram
 
-La vista de contenedores amplía el sistema InstAlert y muestra las aplicaciones y el almacenamiento que lo componen, junto con sus tecnologías y principales comunicaciones:
+La vista de contenedores amplía InstAlert y muestra las aplicaciones y el almacenamiento que conforman la solución, junto con las tecnologías y comunicaciones principales:
 
 - **Landing Page:** sitio web servido como contenido estático que presenta información pública del producto y da acceso a la aplicación web.
 - **Single-Page Application (SPA):** aplicación de navegador implementada con Vue.js y Vite. Ofrece las funciones web para administradores de comercio y personal operativo.
 - **Backend API:** servicio desarrollado con C# y .NET. Expone las API REST, aplica las reglas de negocio y organiza la lógica mediante módulos basados en Domain-Driven Design.
 - **Database:** base de datos MySQL que conserva la información persistente de InstAlert. El diagrama indica que los módulos mantienen la propiedad lógica de sus datos aunque compartan este contenedor de persistencia.
 
-Los usuarios acceden a la experiencia web mediante HTTPS. La SPA intercambia solicitudes y respuestas JSON con el Backend API por HTTPS; el backend lee y escribe en MySQL mediante SQL. También se representan las comunicaciones del backend con SendGrid para los correos de invitación, Firebase Cloud Messaging para las notificaciones push, Mapbox para las funciones geoespaciales y PayPal para el procesamiento de suscripciones. La Landing Page proporciona el acceso a la SPA, mientras que la base de datos permanece dentro del límite del sistema InstAlert.
+Los usuarios acceden a la Landing Page y a la SPA mediante HTTPS. La SPA intercambia solicitudes y respuestas JSON con el Backend API; este lee y escribe datos en MySQL mediante SQL. El backend también se integra con SendGrid para enviar invitaciones, Firebase Cloud Messaging para entregar notificaciones push, Mapbox para las funciones geoespaciales y PayPal para procesar pagos de suscripción. La base de datos y las aplicaciones forman parte del límite del sistema InstAlert.
 
 <p align="center">
 <img src="../assets/Chapter4/Container Diagram.png" alt="Diagrama de contenedores de InstAlert" width="1000"><br>
-Nota: Vista de contenedores de InstAlert, sus tecnologías y sus integraciones externas.
+Nota: Vista de contenedores de InstAlert, las tecnologías utilizadas y las integraciones externas representadas.
 </p>
 
 ### 4.6.4. Software Architecture Component Diagram
 
-La vista de componentes amplía el Backend API y muestra cómo se distribuyen sus responsabilidades entre los cinco bounded contexts de negocio definidos para InstAlert. **Shared** también aparece en el diagrama, pero representa soporte técnico transversal y no un sexto contexto de negocio:
+La vista de componentes amplía el Backend API y muestra cómo se organizan sus responsabilidades en siete bounded contexts: **IAM**, **Business**, **Alert**, **Contacts**, **Notifications**, **Mapping** y **Payments**. **Shared** también aparece, pero representa capacidades técnicas transversales y no un octavo bounded context de negocio:
 
-- **IAM:** administra las identidades, la autenticación y las credenciales; también contempla la activación de cuentas de administradores y personal operativo.
-- **Business:** gestiona comercios, perfiles asociados, personal operativo, invitaciones, membresías y comercios cercanos registrados.
-- **Alert:** maneja el ciclo de vida de las alertas, desde su creación y despacho hasta su cancelación o resolución; además, permite consultar alertas activas, cercanas, sus detalles e historial.
-- **Mapping:** administra las consultas de mapas y zonas de riesgo, la información geográfica de incidentes y su visualización por niveles de riesgo.
+- **IAM:** administra identidades, autenticación y credenciales, y contempla la activación de las cuentas de administradores y personal operativo.
+- **Business:** gestiona el registro y perfil de los comercios, el personal operativo, las invitaciones y las membresías.
+- **Alert:** administra el ciclo de vida de las alertas —creación, cancelación y resolución— y la consulta de alertas activas, cercanas, sus detalles e historial. Proporciona la información del incidente a Notifications para su distribución.
+- **Contacts:** administra los datos de los contactos de emergencia asociados al personal operativo. La relación con el miembro de Business se realiza mediante su identificador.
+- **Notifications:** gestiona las notificaciones generales de la aplicación y las preferencias de entrega. Para notificar alertas cercanas, utiliza Mapping para identificar comercios próximos y Business para resolver los destinatarios; Firebase Cloud Messaging entrega las notificaciones push.
+- **Mapping:** gestiona mapas de riesgo, zonas, información geográfica de incidentes y visualización de niveles de riesgo. También proporciona consultas geoespaciales que permiten identificar comercios cercanos; utiliza Mapbox para los servicios de mapas.
 - **Payments:** gestiona los planes, el procesamiento de pagos y la activación o cancelación de suscripciones.
-- **Shared:** ofrece abstracciones reutilizables, contratos comunes, manejo de errores, identificadores y capacidades transversales a los módulos.
+- **Shared:** ofrece abstracciones reutilizables, contratos comunes, manejo de errores, identificadores y otras capacidades técnicas transversales.
 
-La SPA consume las capacidades de los módulos del backend. Las relaciones entre componentes muestran, entre otros flujos, que Business solicita a IAM la activación de cuentas y envía invitaciones mediante SendGrid; Alert envía notificaciones push mediante Firebase Cloud Messaging y proporciona información geolocalizada a Mapping; Mapping utiliza Mapbox; y Payments procesa suscripciones mediante PayPal. Los módulos reutilizan las capacidades de Shared y persisten sus datos en MySQL manteniendo su responsabilidad lógica sobre ellos.
+La SPA consume las capacidades expuestas por los componentes del backend. Entre las interacciones representadas, Business solicita a IAM la activación de cuentas y envía invitaciones mediante SendGrid; Contacts referencia al miembro de Business por identificador; y Alert proporciona información del incidente a Notifications y datos geolocalizados a Mapping. Notifications consulta Mapping para determinar qué comercios están cerca y Business para resolver los destinatarios, y entrega las notificaciones push mediante Firebase Cloud Messaging. Mapping utiliza Mapbox y Payments procesa los pagos mediante PayPal. Los componentes usan Shared para capacidades transversales y persisten sus propios datos en MySQL.
 
 <p align="center">
 <img src="../assets/Chapter4/Component Diagram (Backend API).png" alt="Diagrama de componentes del Backend API de InstAlert" width="1000"><br>
-Nota: Vista de componentes del Backend API, organizada por bounded context y sus integraciones.
+Nota: Vista de componentes del Backend API, organizada en bounded contexts y con sus principales relaciones e integraciones externas.
 </p>
 
 
@@ -1344,11 +1346,11 @@ Nota: Vista de componentes del Backend API, organizada por bounded context y sus
 
 ### 4.7.1. Class Diagrams
 
-El siguiente diagrama representa el diseño orientado a objetos propuesto para el **frontend de la Web Application de InstAlert**. El límite del diagrama contiene únicamente elementos del cliente: vistas, componentes, stores de aplicación, modelos utilizados por el frontend y adaptadores HTTP. Las clases `*ApiClient` consumen el backend mediante REST; sus controladores, servicios y base de datos no forman parte de esta vista.
+El siguiente diagrama presenta el diseño orientado a objetos del **frontend de la Web Application de InstAlert**. Su alcance se limita al cliente: modelos de dominio, casos de uso y stores de aplicación, adaptadores HTTP y elementos de presentación. Las API se representan desde el punto de vista del frontend; los controladores, servicios y la base de datos del backend no forman parte de estos diagramas.
 
-La organización sigue los cinco bounded contexts propios del negocio: `Iam`, `Business`, `Alert`, `Payments` y `Mapping`. Cada uno separa `Domain`, `Application`, `Infrastructure` y `Presentation`; esta última contiene sus vistas y componentes. `Shared` no se incluye como bounded context.
+El modelo contempla siete bounded contexts de negocio: `IAM`, `Business`, `Alert`, `Contacts`, `Notifications`, `Mapping` y `Payments`. `Shared` se omite porque corresponde a soporte transversal y no a un contexto del negocio. Los diagramas representan el diseño completo del frontend para estos siete contextos y muestran sus modelos, casos de uso, adaptadores y elementos de presentación.
 
-Las relaciones entre contextos se expresan mediante identificadores y contratos, no mediante navegación entre objetos de dominio. `BusinessMember` y `StaffInvitation` referencian usuarios de `Iam` por ID; `Alert` e `IncidentReport` referencian usuarios y comercios; `Subscription` apunta al comercio por ID; y `Mapping` consume proyecciones identificadas de alertas y comercios. Para mostrar el cupo contratado, `Business` consulta el contrato de límites de `Payments` mediante `PlanLimitsAdapter`.
+Cada contexto organiza sus elementos en `Domain`, `Application`, `Infrastructure` y `Presentation`. Las relaciones muestran cómo las vistas y componentes utilizan los stores y casos de uso, cómo estos coordinan modelos del dominio y cómo la infraestructura consulta las API y transforma sus recursos. Las colaboraciones entre contextos se representan mediante identificadores y contratos, sin compartir ni navegar directamente por entidades internas. `Business` conserva la propiedad de membresías e invitaciones y consulta a `Payments` la capacidad del plan; `Alert` conserva las alertas e incidentes, mientras `Mapping` utiliza sus proyecciones geográficas junto con ubicaciones comerciales; `Contacts` administra por separado los contactos de emergencia de cada empleado; e `IAM` mantiene la identidad y las credenciales, mientras `Business` administra la relación del usuario con cada comercio. `Notifications` presenta las notificaciones persistidas para sus destinatarios y mantiene separadas esas notificaciones de sus preferencias.
 
 **Diagrama de clases frontend**
 
@@ -1357,18 +1359,18 @@ Las relaciones entre contextos se expresan mediante identificadores y contratos,
 Nota: Diagrama completo de clases de la Web Application frontend de InstAlert.
 </p>
 
-**Iam**
+**IAM**
 
-Este contexto modela la identidad y el estado de la cuenta del usuario. En el diseño objetivo, `IamStore` coordina los formularios y vistas de registro, inicio de sesión y perfil con el cliente HTTP y el ensamblador de usuarios. Estos flujos de IAM no se implementan en la entrega frontend actual. Los roles que una persona tiene dentro de un comercio pertenecen a `Business`, no a `Iam`.
+Este contexto gestiona la identidad, las credenciales, el estado de la cuenta y los datos personales del usuario. El diagrama incluye los flujos de registro, inicio de sesión, actualización del perfil y establecimiento de credenciales para completar el registro de un empleado invitado. `IamStore` coordina estos casos de uso con los modelos `User` y `AuthenticationSession`; `IamApiClient` y sus ensambladores transforman los recursos de la API, mientras `SessionStorage`, `IamHttpInterceptor` y `AuthenticationGuard` apoyan el manejo de la sesión y la navegación. La invitación y la activación de la membresía del empleado siguen perteneciendo a `Business`; IAM administra las credenciales y la cuenta personal. Los roles dentro de un comercio no se duplican en este contexto.
 
 <p align="center">
-<img src="../assets/Chapter4/class-diagrams/iam.svg" alt="Diagrama de clases del bounded context Iam" width="850"><br>
-Nota: Clases frontend del bounded context Iam.
+<img src="../assets/Chapter4/class-diagrams/iam.svg" alt="Diagrama de clases del bounded context IAM" width="850"><br>
+Nota: Clases frontend del bounded context IAM.
 </p>
 
 **Business**
 
-Este contexto reúne el perfil del comercio, las membresías de administradores y empleados, y el ciclo de vida de las invitaciones. `BusinessStore` coordina esas operaciones y consulta a `Payments`, mediante `PlanLimitsAdapter`, el cupo de empleados disponible; el comercio conserva la propiedad de sus miembros e invitaciones.
+Este contexto administra los comercios, las membresías de sus administradores y empleados, y el ciclo de vida de las invitaciones. `BusinessStore` coordina la consulta y modificación de miembros e invitaciones. Cuando necesita mostrar la capacidad disponible, `BusinessApi` obtiene la información del plan y la suscripción expuesta por `Payments`; el comercio conserva la propiedad de sus miembros e invitaciones, y los límites configurados para los planes son de 4, 8 y 15 empleados.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/business.svg" alt="Diagrama de clases del bounded context Business" width="850"><br>
@@ -1377,29 +1379,47 @@ Nota: Clases frontend del bounded context Business.
 
 **Alert**
 
-Este contexto cubre la operación de alertas: su creación, consulta y resolución; los reportes de incidentes; los contactos de emergencia y las preferencias de notificación. El aviso visual de una alerta es temporal y no crea un historial de notificaciones separado. `AlertStatus` y `ReportStatus` representan ciclos de vida independientes.
+Este contexto gestiona el ciclo de vida de las alertas y los reportes de incidentes, incluidas su creación, consulta, finalización y resolución. `AlertPreferences` contiene preferencias propias del flujo de alertas, como el periodo de cancelación del botón de pánico. Los contactos de emergencia y las preferencias/entregas de avisos generales se modelan en sus contextos independientes. Los estados de la alerta y del reporte representan ciclos de vida distintos.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/alert.svg" alt="Diagrama de clases del bounded context Alert" width="850"><br>
 Nota: Clases frontend del bounded context Alert.
 </p>
 
-**Payments**
+**Contacts**
 
-Este contexto presenta los planes y administra en el modelo las suscripciones, los métodos de pago tokenizados y las transacciones. Los planes contemplan límites de tres, cinco u ocho empleados; una cancelación programada mantiene la suscripción activa hasta finalizar el periodo ya pagado.
+Este contexto mantiene los contactos de emergencia asociados a cada miembro del personal operativo. `ContactsStore` coordina su consulta, creación, edición y eliminación; `ContactsApi` y `EmergencyContactAssembler` conectan los modelos del frontend con los recursos de la API. La separación evita mezclar los datos de contacto personal con el ciclo de vida de las alertas.
 
 <p align="center">
-<img src="../assets/Chapter4/class-diagrams/payments.svg" alt="Diagrama de clases del bounded context Payments" width="850"><br>
-Nota: Clases frontend del bounded context Payments.
+<img src="../assets/Chapter4/class-diagrams/contacts.svg" alt="Diagrama de clases frontend del bounded context Contacts" width="850"><br>
+Nota: Clases frontend del bounded context Contacts.
+</p>
+
+**Notifications**
+
+Este contexto gestiona las preferencias de recepción y la consulta de notificaciones dirigidas a cada usuario, incluidas las relacionadas con alertas cercanas para administradores y comercios pertinentes. `NotificationsStore` carga las notificaciones persistidas, mantiene el contador de no leídas y coordina el marcado como leído; además, actualiza las preferencias del usuario y presenta avisos recibidos en tiempo real. En la base de datos, la tabla `notifications` conserva cada aviso recibido, mientras `notification_preferences` guarda por separado la configuración de recepción. Una notificación puede referenciar la alerta que la originó mediante su identificador, sin trasladar la propiedad de la alerta desde `Alert`.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/notifications.svg" alt="Diagrama de clases frontend del bounded context Notifications" width="850"><br>
+Nota: Clases frontend del bounded context Notifications.
 </p>
 
 **Mapping**
 
-Este contexto consulta zonas de riesgo y proyecciones geográficas de incidentes y comercios para mostrarlas en el mapa y aplicar filtros. `MapRendererAdapter` conecta la presentación con la biblioteca cartográfica; los datos originales siguen perteneciendo a `Alert` y `Business`.
+Este contexto consulta zonas de riesgo y proyecciones geográficas de incidentes y comercios para mostrarlas en el mapa. `MappingStore` coordina la carga de esos datos y la selección de una zona; el componente `RiskMap` presenta el mapa con Mapbox GL JS. Las alertas y los comercios originales siguen perteneciendo a `Alert` y `Business`, respectivamente.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/mapping.svg" alt="Diagrama de clases del bounded context Mapping" width="850"><br>
 Nota: Clases frontend del bounded context Mapping.
+</p>
+
+**Payments**
+
+Este contexto proporciona al frontend la información de planes, suscripción y facturación necesaria para las pantallas de pagos. Los planes contemplan límites de 4, 8 y 15 empleados. Una cancelación programada conserva la suscripción activa hasta el final del periodo pagado; el diagrama representa la interacción del cliente con la API y no implica que el pago se procese localmente en el frontend.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/payments.svg" alt="Diagrama de clases del bounded context Payments" width="850"><br>
+Nota: Clases frontend del bounded context Payments.
 </p>
 
 ## 4.8. Database Design
@@ -1408,7 +1428,7 @@ Nota: Clases frontend del bounded context Mapping.
 
 El diseño de base de datos corresponde a un modelo relacional implementable en MySQL. Las tablas están agrupadas visualmente por bounded context y utilizan nombres en inglés con `snake_case`. El esquema aplica las tres primeras formas normales: cada columna contiene un valor atómico, las tablas representan una sola responsabilidad y los atributos no clave dependen de la clave primaria de su tabla.
 
-Las relaciones entre bounded contexts se representan mediante identificadores, sin duplicar la información propietaria de otro contexto. `Shared` no se incluye porque no contiene datos propios del negocio.
+Las relaciones entre bounded contexts se representan mediante identificadores, sin duplicar la información propietaria de otro contexto. `Shared` no se incluye porque no contiene datos propios del negocio. El esquema contempla siete contextos de negocio.
 
 **Diagrama relacional completo**
 
@@ -1417,18 +1437,18 @@ Las relaciones entre bounded contexts se representan mediante identificadores, s
 Nota: Diagrama relacional completo de InstAlert, agrupado por bounded context.
 </p>
 
-**Iam**
+**IAM**
 
-La persistencia de Iam se centra en `users`, que almacena la identidad, las credenciales protegidas, los datos personales y el estado de la cuenta.
+La persistencia de IAM se centra en `users`, que almacena la identidad, las credenciales protegidas, los datos personales y el estado de la cuenta. Los demás contextos referencian al usuario mediante su identificador, sin duplicar sus datos personales.
 
 <p align="center">
-<img src="../assets/Chapter4/database-diagrams/iam.svg" alt="Diagrama de base de datos de Iam" width="850"><br>
-Nota: Tablas del bounded context Iam.
+<img src="../assets/Chapter4/database-diagrams/iam.svg" alt="Diagrama de base de datos de IAM" width="850"><br>
+Nota: Tabla del bounded context IAM.
 </p>
 
 **Business**
 
-Business contiene `businesses`, `business_members` y `staff_invitations`. Las membresías relacionan usuarios con comercios y almacenan el rol que tiene cada usuario dentro de cada comercio.
+Business contiene `businesses`, `business_members` y `staff_invitations`. Las membresías relacionan usuarios con comercios y almacenan el rol que tiene cada usuario dentro de cada comercio. Las invitaciones pendientes reservan un cupo de empleado; el límite disponible depende del plan administrado por Payments.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/business.svg" alt="Diagrama de base de datos de Business" width="850"><br>
@@ -1437,16 +1457,34 @@ Nota: Tablas del bounded context Business.
 
 **Alert**
 
-Alert contiene las alertas, los reportes de incidentes, las preferencias, los contactos de emergencia y las entregas de notificaciones. El historial se conserva en este contexto porque representa información operativa de seguridad.
+Alert contiene `alerts`, `incident_reports` y `alert_preferences`. La alerta conserva su ciclo de vida; el reporte asociado guarda los detalles del incidente y mantiene un estado propio. Los contactos de emergencia y las notificaciones recibidas pertenecen a sus contextos independientes.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/alert.svg" alt="Diagrama de base de datos de Alert" width="850"><br>
 Nota: Tablas del bounded context Alert.
 </p>
 
+**Contacts**
+
+Contacts contiene `emergency_contacts`, con los contactos asociados a una membresía del personal operativo. Cada contacto se almacena en su propia fila y referencia a `business_members` mediante un identificador; así, un miembro puede registrar varios contactos sin agruparlos en columnas repetidas.
+
+<p align="center">
+<img src="../assets/Chapter4/database-diagrams/contacts.svg" alt="Diagrama de base de datos de Contacts" width="850"><br>
+Nota: Tabla del bounded context Contacts.
+</p>
+
+**Notifications**
+
+Notifications contiene `notification_preferences` y `notifications`. La primera guarda las preferencias de cada usuario, como la recepción de avisos dentro de la aplicación y el radio de alertas cercanas. La segunda registra cada aviso recibido por su destinatario, incluyendo su tipo, contenido y fecha de creación. `read_at` permanece nulo mientras el aviso no se haya marcado como leído, y `source_alert_id` puede referenciar una alerta relacionada sin trasladar su propiedad desde Alert. De esta forma, las preferencias y la bandeja de notificaciones se mantienen separadas.
+
+<p align="center">
+<img src="../assets/Chapter4/database-diagrams/notifications.svg" alt="Diagrama de base de datos de Notifications" width="850"><br>
+Nota: Tablas del bounded context Notifications.
+</p>
+
 **Payments**
 
-Payments contiene los planes, las suscripciones y las transacciones de pago. Las suscripciones se relacionan con un comercio mediante `business_id`, mientras que las transacciones conservan el importe y la moneda de la operación.
+Payments contiene los planes, las suscripciones, los medios de pago tokenizados y las transacciones. Las suscripciones se relacionan con un comercio mediante `business_id`; los planes definen límites de 4, 8 y 15 empleados. Las transacciones conservan el importe y la moneda de cada operación. Se almacenan referencias del proveedor y datos enmascarados del medio de pago, no el número completo ni el código de seguridad de una tarjeta.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/payments.svg" alt="Diagrama de base de datos de Payments" width="850"><br>
