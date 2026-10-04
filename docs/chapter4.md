@@ -469,16 +469,83 @@ En esta sección se presentan los wireframes de alta fidelidad baja/media para l
   Nota: Wireframe del Historial de Alertas para Administrador  
 </p>
 
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/26_Contacto_Emergencia.png" alt="wireframe 26" width="500"><br>
+  Nota: Wireframe de Nuevo contacto de emergencia  
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/27_Mis_Contactos_Emergencia.png" alt="wireframe 27" width="500"><br>
+  Nota: Wireframe de Mis contactos de emergencia 
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/28_Notificaciones_del_Sistema.png" alt="wireframe 28" width="500"><br>
+  Nota: Wireframe de las Notificaciones del sistema
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/29_Agregar_personal.png" alt="wireframe 29" width="500"><br>
+  Nota: Wireframe de Agregar Personal 
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/30_Error_registro_personal.png" alt="wireframe 30" width="500"><br>
+  Nota: Wireframe del Error al registrar personal
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/31_Confirmacion_agregar_personal.png" alt="wireframe 31" width="500"><br>
+  Nota: Wireframe de confirmacion de personal agregado  
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/32_Error_datos_contacto.png" alt="wireframe 32" width="500"><br>
+  Nota: Wireframe de error al crear contacto de emergencia  
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/33_Contacto_agregado.png" alt="wireframe 33" width="500"><br>
+  Nota: Wireframe de contacto agregado
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/34_Iniciar Sesión error credenciales (Desktop).png" alt="wireframe 34" width="500"><br>
+  Nota: Wireframe de registro de tarjeta para el plan de pago
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/wireframes/35_Iniciar Sesión error credenciales (Desktop).png" alt="wireframe 35" width="500"><br>
+  Nota: Wireframe de los terminos y condiciones
+</p>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+**Link de FigJam para los wireflows:**  https://acortar.link/Gt6qhS 
 
 **Segmento 1: Administradores de locales comerciales**
 
 * User Goal: Como administrador de local, quiero registrar los datos de mi negocio, para acceder a la plataforma y administrar la seguridad de mi local.
 
 Task Flow:
+
+<div style="max-width: 350px; margin: auto;">
+
+```mermaid
+flowchart TD
+    A([Visitante en pantalla de Login]) --> B[Selecciona 'Registrar mi Negocio']
+    B --> C[Ingresa RUC, nombres, apellidos y correo]
+    C --> D{¿Correo ya registrado?}
+    D -- Sí --> E[Muestra error: Correo ya registrado]
+    E --> A
+    D -- No --> F[Selecciona un plan de suscripción]
+    F --> G([Accede al Dashboard autenticado])
+```
+
+</div>
+
 <p align="center"> 
-<img src="../assets/Chapter4/task-flows/Task Flow Administrador 1.jpg" width="500"> 
-<br> Nota: Diagrama de Task Flow para el registro de un nuevo comercio en la plataforma </p>
+ Nota: Diagrama de Task Flow para el registro de un nuevo comercio en la plataforma </p>
 
 Wireflow:
 <p align="center"> 
@@ -491,9 +558,25 @@ El proceso inicia cuando un visitante decide registrar su negocio en InstAlert d
 * User Goal: Como administrador de local, quiero visualizar un mapa con los incidentes recientes en mi zona, para identificar patrones de riesgo y áreas inseguras.
 
 Task Flow:
+
+<div style="max-width: 350px; margin: auto;">
+
+```mermaid
+flowchart TD
+    A([Administrador en Dashboard]) --> B["Selecciona 'Ir al Mapa de Riesgo'"]
+    B --> C["Sistema carga incidentes geolocalizados en la vista base"]
+    C --> D["selecciona un negocio"]
+    C --> E["selecciona una zona de riesgo"]
+    D --> F["muestra detalle del negocio"]
+    E --> G["muestra nivel de riesgo e incidentes de la zona"]
+    F --> H([usuario informado para tomar decisiones])
+    G --> H
+```
+
+</div>
+
 <p align="center"> 
-<img src="../assets/Chapter4/task-flows/Task Flow Administrador 2.jpg" width="500"> 
-<br> Nota: Diagrama de Task Flow para la consulta del mapa de riesgo del administrador </p>
+Nota: Diagrama de Task Flow para la consulta del mapa de riesgo del administrador </p>
 
 Wireflow:
 
@@ -507,9 +590,20 @@ Desde el Dashboard principal, el administrador accede al mapa de riesgo mediante
 * User Goal: Como administrador de local, quiero consultar un historial detallado de las alertas generadas por mi tienda, para llevar un registro de eventos de seguridad.
 
 Task Flow:
+
+<div style="max-width: 350px; margin: auto;">
+
+```mermaid
+flowchart TD
+    A([Administrador en Dashboard]) --> B["Selecciona 'Consultar Historial'"]
+    B --> C["Sistema muestra lista cronológica de alertas del negocio"]
+    C --> D["visualiza detalle completo de la alerta."]
+```
+
+</div>
+
 <p align="center"> 
-<img src="../assets/Chapter4/task-flows/Task Flow Administrador 3.jpg" width="500"> 
-<br> Nota: Diagrama de Task Flow para la consulta del historial de alertas del administrador </p>
+Nota: Diagrama de Task Flow para la consulta del historial de alertas del administrador </p>
 
 Wireflow:
 
@@ -523,9 +617,22 @@ El administrador accede al historial de alertas desde el Dashboard para llevar u
 * User Goal: Como administrador de local, quiero seleccionar y suscribirme a un plan de pago, para desbloquear funcionalidades premium de la plataforma.
 
 Task Flow:
+
+<div style="max-width: 350px; margin: auto;">
+
+```mermaid
+flowchart TD
+    A([Administrador en Dashboard]) --> B["Selecciona 'Gestión de Suscripción'"]
+    B --> C["Sistema muestra planes disponibles"]
+    C --> D["Selecciona un plan"]
+    D --> E["Ingresa/confirma método de pago"]
+    E --> F([sistema activa el plan y habilita funciones])
+```
+
+</div>
+
 <p align="center"> 
-<img src="../assets/Chapter4/task-flows/Task Flow Administrador 4.jpg" width="500"> 
-<br> Nota: Diagrama de Task Flow para la selección y gestión del plan de suscripción </p>
+ Nota: Diagrama de Task Flow para la selección y gestión del plan de suscripción </p>
 
 Wireflow:
 
@@ -539,9 +646,21 @@ Desde el panel de configuración, el administrador accede a la sección de gesti
 * User Goal: Como administrador de local, quiero agregar personal operativo a la plataforma usando su correo electrónico, para que puedan utilizar la aplicación y gestionar las alertas del comercio.
 
 Task Flow:
-<p align="center"> 
-<img src="../assets/Chapter4/task-flows/Task Flow Administrador 5.jpg" width="500"> 
-<br> Nota: Diagrama de Task Flow para la gestión de personal operativo </p>
+
+<div style="max-width: 350px; margin: auto;">
+
+```mermaid
+flowchart TD
+    A([Administrador en Dashboard]) --> B["Administrador en sección 'Personal'"]
+    B --> C["'Agregar personal operativo'"]
+    C --> D["Sistema envía invitación"]
+    D --> E([nuevo usuario])
+```
+
+</div>
+
+<p align="center">  
+Nota: Diagrama de Task Flow para la gestión de personal operativo </p>
 
 Wireflow:
 
@@ -558,9 +677,25 @@ El administrador accede a la sección "Personal" desde su Dashboard para agregar
 * User Goal: Como personal operativo, quiero activar el botón de pánico web de manera inmediata y gestionar la red de apoyo para solicitar auxilio ante un peligro inminente en mi ubicación, y coordinar la ayuda necesaria.
 
 Task Flow:
+
+<div style="max-width: 350px; margin: auto;">
+
+```mermaid
+flowchart TD
+    A([Personal operativo en pantalla de Alertas]) --> B["Presiona 'Activar Alerta de Pánico'"]
+    B --> C["Sistema inicia cuenta regresiva de confirmación"]
+    C --> D{"Decisión: ¿usuario cancela durante la cuenta regresiva?"}
+    D --> E["fin, no se envía alerta"]
+    D --> F["Sistema captura ubicación en tiempo real"]
+    F --> G["Notifica simultáneamente a red de apoyo, comercios cercanos"]
+    G --> H["'Situación de Pánico Activa'"]
+```
+
+</div>
+
+
 <p align="center"> 
-<img src="../assets/Chapter4/task-flows/Task Flow Operador 1.jpg" width="500"> 
-<br> Nota: Diagrama de Task Flow para la activación del botón de pánico y gestión de la red de apoyo </p>
+ Nota: Diagrama de Task Flow para la activación del botón de pánico y gestión de la red de apoyo </p>
 
 Wireflow:
 
@@ -576,9 +711,21 @@ Para gestionar una situación de emergencia crítica, el usuario accede a la fun
 * User Goal: Como personal operativo, quiero clasificar el tipo de alerta (Robo, Intento de robo, Asalto u Otro) al crear un reporte, para que quede documentado el motivo exacto del incidente.
 
 Task Flow:
+
+<div style="max-width: 350px; margin: auto;">
+
+```mermaid
+flowchart TD
+    A(["Usuario en pantalla 'Completar Reporte'"]) --> B["Selecciona tipo de incidente (Robo/Intento de robo/Asalto/Otro)"]
+    B --> C["Selecciona tipo de incidente (Robo/Intento de robo/Asalto/Otro)"]
+    C --> D["Completa detalles adicionales"]
+    D --> E["sistema guarda la clasificación en el detalle de la alerta."]
+```
+
+</div>
+
 <p align="center"> 
-<img src="../assets/Chapter4/task-flows/Task Flow Operador 2.jpg" width="500"> 
-<br> Nota: Diagrama de Task Flow para la clasificación del tipo de alerta </p>
+ Nota: Diagrama de Task Flow para la clasificación del tipo de alerta </p>
 
 Wireflow:
 
@@ -592,9 +739,19 @@ Al completar el reporte de un incidente, el usuario selecciona la categoría que
 * User Goal: Como usuario, quiero recibir notificaciones en tiempo real cuando se reporte un incidente cerca, para poder tomar medidas preventivas como cerrar mi local.
 
 Task Flow:
+
+<div style="max-width: 350px; margin: auto;">
+
+```mermaid
+flowchart TD
+    A(["Usuario accede a sección 'Alertas'"]) --> B["Sistema consulta alertas"]
+    B --> C["Se muestra el historial de alertas recientes"]
+```
+
+</div>
+
 <p align="center"> 
-<img src="../assets/Chapter4/task-flows/Task Flow Operador 3.jpg" width="500"> 
-<br> Nota: Diagrama de Task Flow para la recepción de alertas cercanas </p>
+ Nota: Diagrama de Task Flow para la recepción de alertas cercanas </p>
 
 Wireflow:
 
@@ -608,9 +765,20 @@ Descripción del flujo:
 * User Goal: Como operador, quiero poder cancelar una alerta en caso de falsa alarma, para evitar pánico innecesario en la red vecinal.
 
 Task Flow:
+
+<div style="max-width: 350px; margin: auto;">
+
+```mermaid
+flowchart TD
+    A([Inicio: Usuario emisor con alerta activa reciente]) --> B["elecciona 'Cancelar alerta / Fue falsa alarma'"]
+    B --> C["Sistema actualiza estado a 'Resuelta'"]
+    C --> D["lerta cerrada sin generar reporte de incidente real."]
+```
+
+</div>
+
 <p align="center"> 
-<img src="../assets/Chapter4/task-flows/Task Flow Operador 4.jpg" width="500"> 
-<br> Nota: Diagrama de Task Flow para la cancelación de una falsa alarma </p>
+Nota: Diagrama de Task Flow para la cancelación de una falsa alarma </p>
 
 Wireflow:
 
@@ -620,6 +788,72 @@ Wireflow:
 
 Descripción del flujo:
 Si el usuario que activó una alerta determina que se trató de una falsa alarma, puede cancelarla directamente desde la pantalla de "Situación de Pánico Activa" sin necesidad de esperar a que se resuelva como un incidente real. Tras confirmar la cancelación, el sistema actualiza el estado de la alerta a "resuelta" y notifica a la red vecinal que la emergencia ha sido descartada, evitando que otros negocios mantengan un estado de alerta innecesario.
+
+* User Goal: Como operador, quiero gestionar y registrar un nuevo contacto de emergencia en la plataforma, para asegurar que las personas clave reciban las notificaciones automáticas ante cualquier evento o alerta en el comercio.
+
+Task Flow:
+
+<div style="max-width: 350px; margin: auto;">
+
+```mermaid
+flowchart TD
+    A([Operador en Dashboard / Configuración]) --> B["Selecciona 'Contactos de Emergencia'"]
+    B --> C["Selecciona 'Agregar Nuevo Contacto'"]
+    C --> D["Ingresa datos del contacto (Nombre, Teléfono, Rol/Relación)"]
+    D --> E{"¿Campos completos y válidos?"}
+    E -- Sí --> F["Sistema valida y registra el contacto"]
+    F --> G(["Contacto guardado y activo para notificaciones"])
+    E -- No --> H["Muestra mensaje de error en los campos"]
+    H --> D
+```
+
+</div>
+
+<p align="center"> 
+ Nota: Diagrama de Task Flow para mis contactos de Emergencia </p>
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 10.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de cancelación de falsa alarma </p>
+
+Descripción del flujo:
+Desde la pantalla de "Mis Contactos de Emergencia", donde se visualiza el listado del círculo de respaldo con sus niveles de prioridad (SOS Inmediato o Informativo), el usuario presiona el botón "+ Agregar Contacto" para abrir el formulario de registro de red cercana. En esta vista, el operador completa la información clave del contacto, asignando su parentesco o relación, correo y número de teléfono móvil. Una vez guardado, el nuevo contacto queda sincronizado en el sistema para recibir notificaciones automáticas e inmediatas ante cualquier activación de alerta en el comercio.
+
+
+* User Goal: Como operador, quiero acceder y revisar el historial completo de alertas y eventos registrados en el sistema, para auditar los incidentes ocurridos y hacer un seguimiento detallado de la seguridad del negocio.
+
+Task Flow:
+
+<div style="max-width: 350px; margin: auto;">
+
+```mermaid
+flowchart TD
+   A([Operador en Dashboard]) --> B["Selecciona 'Historial de Alertas y Eventos'"]
+    B --> C["Sistema carga lista cronológica de alertas registradas"]
+    C --> D{"¿Aplica filtros de búsqueda?"}
+    D -- Sí --> E["Filtra por fecha, tipo de incidente o estado"]
+    E --> F["Muestra lista filtrada de eventos"]
+    D -- No --> F
+    F --> G["Selecciona una alerta específica"]
+    G --> H(["Visualiza detalle completo y seguimiento de auditoría"])
+```
+
+</div>
+
+<p align="center"> 
+Nota: Diagrama de Task Flow para acceder y revisar el historial completo de alertas </p>
+
+Wireflow:
+
+<p align="center"> 
+<img src="../assets/Chapter4/wireflow/Wireflow de las wireframes 11.png"width="500"> 
+<br> Nota: Diagrama de Wireflow de cancelación de falsa alarma </p>
+
+Descripción del flujo:
+Desde el Dashboard, el personal operativo puede seleccionar el acceso rápido "VER HISTORIAL" para abandonar el monitoreo en tiempo real e ingresar a la pantalla de Historial de Alertas. En esta vista, el sistema presenta un registro cronológico de todos los eventos del negocio, permitiendo aplicar filtros por rango de fecha, tipo de incidente y estado. Al seleccionar una alerta específica del listado, la interfaz despliega en la parte inferior el detalle seleccionado junto con los archivos de evidencia asociados, facilitando una auditoría completa y un seguimiento detallado de la trazabilidad de cada incidente registrado.
+
 
 ### 4.4.3. Web Applications Mock-ups
 
@@ -749,104 +983,227 @@ Esta sección reúne la interfaz gráfica de alta fidelidad para la aplicación 
   Nota: Mockup de Situación de Pánico Activa
 </p>
 
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/26_InstAlert - Alertas Operativas-2.png" alt="wireframe 26" width="500"><br>
+  Nota: Mockup de Nuevo contacto de emergencia 
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/27_InstAlert - Alertas Operativas-1.png" alt="wireframe 26" width="500"><br>
+  Nota: Mockup de Mis contactos de emergencia 
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/28_InstAlert - Alertas Operativas-3.png" alt="wireframe 26" width="500"><br>
+  Nota: Mockup de Notificaciones del sistema
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/29_InstAlert - Agregar Personal (Administrador).png" alt="wireframe 26" width="500"><br>
+  Nota: Mockup de Agregar Personal
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/30_InstAlert - Error Agregar personal  (Administrador).png" alt="wireframe 26" width="500"><br>
+  Nota: Mockup de Error en Agregar personal
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/31_InstAlert - Personal agregado (Administrador).png" alt="wireframe 26" width="500"><br>
+  Nota: Mockup de Personal Agregado correctamente
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/32_InstAlert -  Error contacto agregado.png" alt="wireframe 26" width="500"><br>
+  Nota: Mockup de Error de Nuevo contacto de emergencia
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/33_InstAlert -  Contacto agregado correctamente.png" alt="wireframe 26" width="500"><br>
+  Nota: Mockup de Contacto de emergencia agregado correctamente
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/34_InstAlert - Iniciar Sesión error credenciales (Desktop).png" alt="wireframe 26" width="500"><br>
+  Nota: Mockup de tarjeta para el plan de pago
+
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter4/web-app/mockups/35_InstAlert - Iniciar Sesión error credenciales (Desktop)-1.png" alt="wireframe 26" width="500"><br>
+  Nota: Mockup de los terminos y condiciones
+</p>
+
+
 ### 4.4.4. Web Applications User Flow Diagrams
+
+**Link de los User flows:** https://acortar.link/LAxmIF
 
 **Segmento 1: Administradores de locales comerciales**
 
 * User Goal: Como administrador de local, quiero registrar los datos de mi negocio, para acceder a la plataforma y administrar la seguridad de mi local.
 
-Wireflow:
-<p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 1.png"width="500"> 
-<br> Nota: Diagrama de Wireflow del proceso de registro de comercio, desde el login hasta el acceso al Dashboard </p>
+**Happy Path:**
 
+<p align="center"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (1).png"width="500"> 
+<br> Nota: Diagrama de UserFlow del proceso de registro de comercio, desde el login hasta el acceso al Dashboard </p>
+
+En esta ruta ideal, un representante o dueño de negocio inicia el proceso desde la pantalla de inicio de sesión de InstAlert (Desktop) haciendo clic en "Registrar mi Negocio". A continuación, ingresa sus datos personales (RUC, nombres y apellidos) y presiona "Siguiente" para completar las credenciales de la cuenta (correo corporativo y contraseña). Tras presionar "Registrar", accede a la selección de planes (como Sentinel Basic, Sentinel Pro o Sentinel Red Enterprise), elige la opción adecuada y hace clic en "Regístrate". Finalmente, completa la información de pago en el formulario de la tarjeta (número de tarjeta, CVC, fecha de vencimiento, titular y dirección de facturación), presiona "Regístrate" y acepta los Términos y Condiciones de la plataforma para activar su cuenta exitosamente.
+
+**Unhappy Paths**
+
+<p align="center"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (2).png"width="500"> 
+<br> Nota: Diagrama de UserFlow del proceso de registro de comercio mal realizado </p>
+
+En este escenario alternativo, el usuario inicia el registro desde la pantalla de inicio de sesión de InstAlert haciendo clic en "Registrar mi Negocio" y completa los primeros espacios del formulario (RUC, nombres y apellidos). Luego, avanza al siguiente paso para ingresar sus credenciales (correo electrónico y contraseña). Sin embargo, al intentar presionar "Registrar" con datos o formatos incorrectos (por ejemplo, un correo que ya se encuentra registrado o credenciales erróneas), el sistema valida la información, bloquea el registro y despliega un mensaje de error en pantalla alertando sobre las credenciales incorrectas para impedir que la cuenta sea creada hasta que se corrijan los datos.
 
 * User Goal: Como administrador de local, quiero visualizar un mapa con los incidentes recientes en mi zona, para identificar patrones de riesgo y áreas inseguras.
 
-Wireflow:
+**Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 2.png"width="500"> 
-<br> Nota: Diagrama de Wireflow de la consulta del mapa de riesgo, desde el Dashboard hasta el detalle de zona </p>
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (3).png"width="500"> 
+<br> Nota: Diagrama de UserFlow de la consulta del mapa de riesgo, desde el Dashboard hasta el detalle de zona</p>
 
+En esta ruta ideal, el administrador inicia sesión y accede al Dashboard Administrador de InstAlert. Desde la sección de accesos de navegación o accesos directos, selecciona la opción de "Mapa de Riesgo". El sistema lo redirige a la pantalla del Mapa de Riesgo Táctico, donde se despliega la visualización geográfica de las zonas de cobertura y cuadrantes. A continuación, el administrador ubica e interactúa con el mapa al presionar el local comercial de su interés (por ejemplo, Mini Market Don Pepe). Esto despliega una ventana emergente o panel lateral con el resumen del local; desde allí, el administrador hace clic en "Ver Detalles" para acceder a la información completa de los incidentes registrados, historial y reportes específicos del establecimiento.
 
 * User Goal: Como administrador de local, quiero consultar un historial detallado de las alertas generadas por mi tienda, para llevar un registro de eventos de seguridad.
 
 
-Wireflow:
+**Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 3.png"width="500"> 
-<br> Nota: Diagrama de Wireflow del historial de alertas para el administrador </p>
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (4).png"width="500"> 
+<br> Nota: Diagrama de UserFlow del historial de alertas para el administrador</p>
 
+En esta ruta ideal, el administrador inicia sesión en la plataforma y accede al Dashboard Administrador de InstAlert. Desde el menú de navegación lateral o mediante la tarjeta de acceso rápido, hace clic en "Alertas" (o "Ver Historial de Alertas"). El sistema lo redirige a la vista de Historial de Alertas y Eventos, donde se muestra el registro detallado de incidencias y situaciones de alerta. Posteriormente, el administrador hace clic en el botón o acceso de "Alertas SOS Pánico". El sistema lo lleva a la pantalla de Alertas Administrador ("Elige el negocio para ver las alertas"), donde puede visualizar los negocios asociados y consultar el listado de alertas emitidas por cada uno para su posterior gestión o seguimiento.
 
 * User Goal: Como administrador de local, quiero seleccionar y suscribirme a un plan de pago, para desbloquear funcionalidades premium de la plataforma.
 
-Wireflow:
+**Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 4.png"width="500"> 
-<br> Nota: Diagrama de Wireflow de la gestión de suscripción del administrador </p>
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (5).png"width="500"> 
+<br> Nota: Diagrama de UserFlow de la gestión de suscripción del administrador</p>
 
+En esta ruta ideal, el administrador inicia sesión en la plataforma y accede al Dashboard Administrador de InstAlert. Desde la barra de navegación lateral o mediante la tarjeta de acceso rápido "Gestionar Suscripción", hace clic en "Suscripción". El sistema lo redirige a la pantalla de Gestión de Suscripción (Administrador), en la sección de Suscripción Comercial y Facturación. Desde esta vista, el administrador puede revisar el plan activo (Sentinel Pro), consultar la matriz de planes de seguridad disponibles (Sentinel Esencial, Sentinel Pro, Sentinel Red Enterprise), gestionar el método de pago guardado y revisar el historial de facturación electrónica e historial de pagos.
 
 * User Goal: Como administrador de local, quiero agregar personal operativo a la plataforma usando su correo electrónico, para que puedan utilizar la aplicación y gestionar las alertas del comercio.
 
-Wireflow:
+**Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 5.png"width="500"> 
-<br> Nota: Diagrama de Wireflow de la gestión de personal operativo del administrador </p>
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (6).png"width="500"> 
+<br> Nota: Diagrama de UserFlow de la gestión de personal operativo del administrador</p>
+
+En esta ruta ideal, el administrador inicia sesión y accede al Dashboard Administrador de InstAlert. Desde el menú lateral o el acceso directo "Gestionar Personal", hace clic en "Personal" para navegar a la vista de Gestión de Personal del Comercio. Una vez allí, hace clic en el botón "+ Agregar personal". En la pantalla de Agregar Personal, completa correctamente todos los campos del formulario con la información del trabajador (nombre completo, cargo o puesto, área asignada, correo institucional, teléfono móvil y notas adicionales). Luego, hace clic en el botón "Agregar personal". El sistema procesa la solicitud, confirma la acción mostrando la pantalla de "Personal agregado correctamente" con el resumen del registro y actualiza la lista de personal del local.
+
+**Unhappy Paths**
+
+<p align="center"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (7).png"width="500"> 
+<br> Nota: Diagrama de UserFlow de un mal registro de personal </p>
+
+En este escenario alternativo, el administrador accede al módulo de Gestión de Personal e inicia el proceso haciendo clic en "+ Agregar personal". Al completar el formulario, ingresa información inválida o duplicada (por ejemplo, un correo institucional que ya pertenece a un trabajador existente en la plataforma). Al hacer clic en "Agregar personal", el sistema realiza la validación, bloquea el registro y muestra la pantalla de Error Agregar personal (Administrador) con un mensaje explícito de alerta ("No se pudo registrar al personal") e indicando en rojo el campo con conflicto para que el usuario pueda corregirlo antes de reintentar.
 
 
 **Segmento 2: Personal Operativo**
 
 * User Goal: Como personal operativo, quiero activar el botón de pánico web de manera inmediata y gestionar la red de apoyo para solicitar auxilio ante un peligro inminente en mi ubicación, y coordinar la ayuda necesaria.
 
-Wireflow:
+**Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 6.png"width="500"> 
-<br> Nota: Diagrama de Wireflow del proceso de activación del botón de pánico y seguimiento de la emergencia </p>
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (8).png"width="500"> 
+<br> Nota: Diagrama de UserFlow el proceso de activación del botón de pánico y seguimiento de la emergencia</p>
+
+En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde la barra de navegación lateral o los accesos directos, hace clic en "Alertas". El sistema lo redirige a la pantalla de Alertas Operativas, donde presiona el botón de pánico central para iniciar el protocolo de emergencia. A continuación, el sistema muestra la pantalla de Cuenta Regresiva de Emergencia (Pánico) con un temporizador de 15 segundos. Al dejar transcurrir los 15 segundos sin cancelar, el sistema activa la alerta e ingresa al estado de Situación de Pánico Activa, notificando a los negocios cercanos y a las autoridades. Una vez controlada la situación, el usuario hace clic en "Finalizar Situación de Pánico". Por último, accede a la pantalla de Completar Reporte de Emergencia, donde selecciona el tipo de incidente ocurrido y añade los detalles pertinentes para registrar el evento de forma completa.
 
 
 * User Goal: Como personal operativo, quiero clasificar el tipo de alerta (Robo, Intento de robo, Asalto u Otro) al crear un reporte, para que quede documentado el motivo exacto del incidente.
 
-Wireflow:
+**Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 7.png"width="500"> 
-<br> Nota: Diagrama de Wireflow de clasificación del tipo de alerta </p>
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (11).png"width="500"> 
+<br> Nota: Diagrama de UserFlow el proceso de reportar actividad sospechosa</p>
+
+En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde la barra de navegación lateral o mediante la tarjeta de acceso directo, hace clic en "Alertas". El sistema lo redirige a la pantalla de Alertas Operativas. En la sección de Otros reportes, hace clic en la opción "Vi algo sospechoso". A continuación, el sistema despliega el formulario de Reportar Actividad Sospechosa, donde el usuario selecciona el tipo de actividad observada (personas o vehículos sospechosos, comportamientos inusuales, etc.), confirma la ubicación y temporalidad, añade la descripción táctica y envía el alerta preventivo a la red del sector.
+
+
+**Happy Path:**
+
+<p align="center"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (12).png"width="500"> 
+<br> Nota: Diagrama de UserFlow el proceso de reporte de otro tipo de alertas</p>
+
+En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde el menú de navegación, hace clic en "Alertas" para acceder a la pantalla de Alertas Operativas. En la sección de Otros reportes, selecciona el botón "Otro tipo de alerta". El sistema lo lleva a la pantalla InstAlert - Otro tipo de alerta, donde el usuario puede categorizar el incidente específico (fallas de luminaria, intentos de hurto, vandalismo o intrusión), especificar la localización y hora exacta del suceso, adjuntar la descripción con evidencia fotográfica y presionar el botón de envío para notificar a los comercios y administradores vinculados.
+
 
 * User Goal: Como usuario, quiero recibir notificaciones en tiempo real cuando se reporte un incidente cerca, para poder tomar medidas preventivas como cerrar mi local.
 
-Wireflow:
+**Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 8.png"width="500"> 
-<br> Nota: Diagrama de Wireflow de recepción de alertas cercanas </p>
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (10).png"width="500"> 
+<br> Nota: Diagrama de UserFlow notificaciones sobre incidencias</p>
+
+En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde la barra superior del sistema, hace clic en el icono de Notificación. El sistema lo redirige a la vista de Notificaciones del Sistema dentro del módulo de Alertas Operativas, donde puede consultar en tiempo real las alertas críticas (como pulsadores activados por comercios vecinos), alertas preventivas (marcajes o sospechosos detectados) y notificaciones de pruebas del sistema, pudiendo marcarlas como leídas o gestionar sus respuestas.
 
 * User Goal: Como operador, quiero poder cancelar una alerta en caso de falsa alarma, para evitar pánico innecesario en la red vecinal.
 
-Wireflow:
+**Happy Path:**
 
 <p align="center"> 
-<img src="../assets/Chapter4/wireflow/Wireflow de los mock up 9.png"width="500"> 
-<br> Nota: Diagrama de Wireflow de cancelación de falsa alarma </p>
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (9).png"width="500"> 
+<br> Nota: Diagrama de UserFlow de cancelación de falsa alarma</p>
+
+En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde el menú de navegación lateral o los accesos directos, hace clic en "Alertas" para acceder a la pantalla de Alertas Operativas. Allí presiona el botón de pánico central, lo que activa la pantalla de Cuenta Regresiva de Emergencia (Pánico) con un temporizador de 15 segundos. Si se trata de una falsa alarma o una activación accidental, el usuario mantiene presionado durante 5 segundos el botón "Cancelar Alerta SOS". El sistema interrumpe la cuenta regresiva, evita el envío masivo de la notificación de emergencia a las autoridades y negocios cercanos, y retorna al usuario de forma segura a la pantalla principal de Alertas Operativas.
+
+* User Goal: Como operador, quiero gestionar y registrar un nuevo contacto de emergencia en la plataforma, para asegurar que las personas clave reciban las notificaciones automáticas ante cualquier evento o alerta en el comercio.
+
+**Happy Path:**
+
+<p align="center"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (14).png"width="500"> 
+<br> Nota: Diagrama de UserFlow de el registro de un nuevo contacto de confianza</p>
+
+En esta ruta ideal, el personal operativo navega desde el Dashboard Operativo hacia el menú lateral y presiona la opción "Contactos de Emergencia" para acceder al listado de su red de respaldo. Una vez allí, hace clic en el botón "+ Agregar Contacto", desplegando el formulario de registro donde procede a completar correctamente todos los datos solicitados, incluyendo el nombre completo, parentesco, correo electrónico, teléfono móvil y observaciones clave. Al finalizar, el usuario presiona "Guardar Contacto", lo que hace que el sistema procese la información de manera exitosa y lo redirija a la pantalla de Confirmación de Contacto Agregado, donde se muestra la ficha completa de la persona registrada y esta queda automáticamente activa en la plataforma para recibir notificaciones ante cualquier evento de emergencia.
+
+**Unhappy Paths**
+
+<p align="center"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (15).png"width="500"> 
+<br> Nota: Diagrama de UserFlow de el registro de un nuevo contacto de confianza</p>
+
+En este flujo de excepción, el personal operativo ingresa a la sección de "Contactos de Emergencia" desde el Dashboard Operativo y hace clic en "+ Agregar Contacto" para desplegar el formulario de registro. Durante el llenado de los datos, el usuario ingresa información errónea o incompleta en los campos obligatorios, como un número telefónico con formato incorrecto o un correo inválido. Al presionar el botón "Guardar Contacto", el sistema detiene el proceso de registro y redirige a la pantalla de Error al Agregar Contacto de Emergencia, mostrando alertas visuales en color rojo que indican de manera precisa qué campos requieren corrección y cuál es el formato esperado, evitando que se guarde un contacto no válido y permitiendo al usuario corregir la información antes de reintentar.
+
+* User Goal: Como operador, quiero acceder y revisar el historial completo de alertas y eventos registrados en el sistema, para auditar los incidentes ocurridos y hacer un seguimiento detallado de la seguridad del negocio.
+
+**Happy Path:**
+
+<p align="center"> 
+<img src="../assets/Chapter4/UserFlows/UserFlow_ (13).png"width="500"> 
+<br> Nota: Diagrama de UserFlow de acceso al historial de alertas</p>
+
+En esta ruta ideal, el personal operativo inicia su navegación en la pantalla de Dashboard Operativo de InstAlert. Desde la barra de navegación táctica lateral, hace clic en la opción "Alertas" para acceder al centro operativo de mando en la pantalla de Alertas Operativas. Una vez allí, se desplaza hacia la sección Otros reportes en la parte inferior y presiona la tarjeta "Historial de Alertas y Eventos". El sistema procesa la solicitud de forma inmediata y redirige al usuario a la pantalla de Historial de Alertas, donde puede auditar la lista completa de incidentes registrados, aplicar filtros por estado o fecha y revisar la información detallada junto con la geolocalización y la línea de tiempo de cada evento.
+
 
 ## 4.5. Web Applications Prototyping
 
 Los prototipos de UI presentados a continuación simulan la interacción real de los flujos priorizados como lo son la activación y resolución de una alerta de pánico, la consulta del mapa de riesgo y la gestión operativa del negocio, tanto en Desktop como en Mobile Web Browser. 
 
-- **Landing Page Prototype Link:** https://www.figma.com/proto/pVi401pE79dbjkdcjoTDQy/Wireflows?node-id=41-12398&t=EYsEnO7HOdlA1Tot-1&scaling=min-zoom&content-scaling=fixed&page-id=18%3A2&starting-point-node-id=41%3A12398&show-proto-sidebar=1 
+- **Landing Page Prototype Link:** https://acortar.link/1M34qU 
 
 
-- **Admin Prototype Link:** https://www.figma.com/proto/pVi401pE79dbjkdcjoTDQy/Wireflows?node-id=18-4515&t=EYsEnO7HOdlA1Tot-1&scaling=min-zoom&content-scaling=fixed&page-id=18%3A2&starting-point-node-id=18%3A4515&show-proto-sidebar=1 
+- **Admin Prototype Link:** https://acortar.link/xQAmag 
 
 
-- **Operador Prototype Link:** https://www.figma.com/proto/pVi401pE79dbjkdcjoTDQy/Wireflows?node-id=25-7545&t=EYsEnO7HOdlA1Tot-1&scaling=min-zoom&content-scaling=fixed&page-id=18%3A2&starting-point-node-id=25%3A7545&show-proto-sidebar=1  
+- **Operador Prototype Link:** https://acortar.link/sEtP04
 
-
-Link del video demostrativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQA8DWbv42LlRYa0nQ4P4x1MAa4ST8BcRGO8it_OGeTc8eE?e=l3R106 
+Link del video demostrativo: https://acortar.link/hPiSAo
 
 
 ## 4.6. Domain-Driven Software Architecture
