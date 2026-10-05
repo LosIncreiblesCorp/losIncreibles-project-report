@@ -850,7 +850,99 @@ Las siguientes confirmaciones corresponden a cambios representativos implementad
 | [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/payments` → `develop` | `084d292` | `feat(payments): add subscription views and UI components` | Se agregaron la vista de suscripción y los componentes para mostrar planes y el resumen de la suscripción. | 02/10/2026 |
 | [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/contacts` → `develop` | `557b75b` | `feat(contacts): add emergency contact creation and editing form` | Se implementó el formulario para crear y editar contactos de emergencia. | 04/10/2026 |
 
-#### 5.2.2.5. Execution Evidence for Sprint Review.
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 2 se implementaron las principales interfaces funcionales de la Web Application de InstAlert, considerando los dos perfiles definidos para el sistema: **Personal Operativo** y **Administrador**. La aplicación adapta las opciones de navegación y las funcionalidades disponibles de acuerdo con el tipo de usuario autenticado, permitiendo que cada perfil acceda únicamente a las operaciones correspondientes a sus responsabilidades dentro del establecimiento.
+
+El perfil de **Personal Operativo** está orientado principalmente al monitoreo y respuesta ante situaciones de riesgo, mientras que el perfil de **Administrador** incorpora funciones adicionales relacionadas con la gestión del negocio, el personal y la suscripción. Algunas funcionalidades, como el **Mapa de Riesgo**, mantienen una misma interfaz para ambos perfiles debido a que la información consultada es común para los usuarios del establecimiento.
+
+A continuación, se presentan las principales interfaces implementadas durante el Sprint 2.
+
+##### Interfaces del Personal Operativo
+
+###### Pantalla principal - Personal Operativo
+
+La pantalla principal del perfil **Personal Operativo** presenta los principales accesos relacionados con el monitoreo y respuesta ante situaciones de riesgo. Desde esta vista, el usuario puede acceder a las funcionalidades correspondientes a alertas, mapa de riesgo y contactos de emergencia.
+
+<p align="center">
+  <img src="https://imgur.com/NkzVNl9.png" alt="Pantalla principal - Personal Operativo" width="850">
+</p>
+
+###### Alertas - Personal Operativo
+
+El módulo de **Alertas** permite al Personal Operativo acceder a las alertas relacionadas con situaciones de riesgo que puedan afectar al establecimiento. Esta interfaz permite consultar la información correspondiente a los eventos registrados y realizar las acciones disponibles para este perfil.
+
+<p align="center">
+  <img src="https://imgur.com/KR5S0mv.png" alt="Alertas - Personal Operativo - Captura 1" width="850">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/RJZshq2.png" alt="Alertas - Personal Operativo - Captura 2" width="850">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/wlUXJmy.png" alt="Alertas - Personal Operativo - Captura 3" width="850">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/xILQvW2.png" alt="Alertas - Personal Operativo - Captura 4" width="850">
+</p>
+
+###### Contactos de Emergencia - Personal Operativo
+
+La sección de **Contactos de Emergencia** se encuentra disponible únicamente para el perfil Personal Operativo. Esta funcionalidad proporciona acceso rápido a la información de contacto necesaria para actuar frente a una situación de emergencia.
+
+<p align="center">
+  <img src="https://imgur.com/hLgM5zQ.png" alt="Contactos de Emergencia - Personal Operativo" width="850">
+</p>
+
+##### Interfaces del Administrador
+
+###### Pantalla principal - Administrador
+
+La pantalla principal del perfil **Administrador** presenta las funcionalidades relacionadas tanto con el monitoreo de seguridad como con la administración del establecimiento. Además de las opciones generales del sistema, este perfil dispone de accesos a funcionalidades de gestión de personal y administración de la suscripción.
+
+<p align="center">
+  <img src="https://imgur.com/VlgKH4z.png" alt="Pantalla principal - Administrador" width="850">
+</p>
+
+###### Alertas - Administrador
+
+El módulo de **Alertas** del Administrador permite supervisar las alertas registradas dentro del sistema y consultar la información asociada a los incidentes reportados. Esta visualización se adapta a las responsabilidades de supervisión correspondientes a este perfil.
+
+<p align="center">
+  <img src="https://imgur.com/i8nxzTM.png" alt="Alertas - Administrador" width="850">
+</p>
+
+###### Gestión de Personal - Administrador
+
+El módulo de **Gestión de Personal** está disponible únicamente para el perfil Administrador. Esta sección permite gestionar la información correspondiente al personal asociado al establecimiento y centralizar las operaciones relacionadas con los trabajadores registrados en InstAlert.
+
+<p align="center">
+  <img src="https://imgur.com/F2G53U5.png" alt="Gestión de Personal - Administrador - Captura 1" width="850">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/SgypXPI.png" alt="Gestión de Personal - Administrador - Captura 2" width="850">
+</p>
+
+###### Suscripción - Administrador
+
+El módulo de **Suscripción** se encuentra disponible únicamente para el perfil Administrador. Desde esta sección se puede consultar la información relacionada con el plan contratado por el establecimiento y acceder a las opciones correspondientes a la gestión de la suscripción.
+
+<p align="center">
+  <img src="https://imgur.com/WmaF4MI.png" alt="Suscripción - Administrador" width="850">
+</p>
+
+##### Funcionalidades compartidas
+
+###### Mapa de Riesgo
+
+El **Mapa de Riesgo** se encuentra disponible para los perfiles Personal Operativo y Administrador, manteniendo la misma interfaz para ambos tipos de usuario. Esta funcionalidad permite consultar visualmente la información relacionada con zonas de riesgo e incidentes registrados dentro del entorno considerado por InstAlert.
+
+<p align="center">
+  <img src="https://imgur.com/T5oaSgs.png" alt="Mapa de Riesgo - Personal Operativo y Administrador" width="850">
+</p>
 
 Durante el Sprint 2 se desarrollaron vistas de la aplicación web para las principales tareas del personal operativo y de los administradores de comercios. La evidencia incluye la consulta del mapa de riesgo, la activación y resolución de alertas, el registro de incidentes y la gestión de contactos de emergencia. También se muestran las interfaces administrativas para gestionar al personal, enviar invitaciones y consultar la suscripción y los cupos del plan. Las capturas documentan las pantallas y los flujos de interacción implementados en el frontend.
 
