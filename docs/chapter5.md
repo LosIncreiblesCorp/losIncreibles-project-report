@@ -19,7 +19,7 @@ Jira es una plataforma de gestión de proyectos utilizada principalmente en el d
 https://www.atlassian.com/es/software/jira
 
 <p align="center">
-  <img src="https://imgur.com/65HmGqZ.png" alt="Jira" width="250">
+  <img src="https://imgur.com/65HmGqZ.png" alt="Jira" width="75">
 </p>
 
 Discord:
@@ -29,7 +29,7 @@ Discord es una plataforma de comunicación que permite mantener reuniones y conv
 https://discord.com/
 
 <p align="center"> 
-  <img src="https://imgur.com/nVyvvEN.png" alt="Discord" width="250"> 
+  <img src="https://imgur.com/nVyvvEN.png" alt="Discord" width="75">
 </p>
 
 Google Meet:
@@ -39,7 +39,7 @@ Google Meet es una herramienta de videoconferencias que permite realizar reunion
 https://meet.google.com/
 
 <p align="center"> 
-  <img src="https://imgur.com/oStbxH8.png" alt="Google Meet" width="250"> 
+  <img src="https://imgur.com/oStbxH8.png" alt="Google Meet" width="75">
 </p>
 
 **2. Gestión de Requisitos**
@@ -51,7 +51,7 @@ UXPressia es una plataforma utilizada para representar y organizar información 
 https://uxpressia.com/
 
 <p align="center">
-  <img src="https://imgur.com/fCa7uwT.png" alt="UXPressia" width="250">
+  <img src="https://imgur.com/fCa7uwT.png" alt="UXPressia" width="75">
 </p>
 
 Miro:
@@ -61,7 +61,7 @@ Miro es una plataforma colaborativa utilizada para organizar y representar visua
 https://miro.com/
 
 <p align="center">
-  <img src="https://imgur.com/CuDff2Y.png" alt="Miro" width="250">
+  <img src="https://imgur.com/CuDff2Y.png" alt="Miro" width="75">
 </p>
 
 
@@ -74,7 +74,7 @@ Figma es una herramienta de diseño colaborativo en la nube que permite crear in
 https://www.figma.com/es-la/
 
 <p align="center">
-  <img src="https://imgur.com/Z8QXBFT.png" alt="Figma" width="250">
+  <img src="https://imgur.com/Z8QXBFT.png" alt="Figma" width="75">
 </p>
 
 Lucidchart:
@@ -84,7 +84,7 @@ Lucidchart es una plataforma de diagramación utilizada para elaborar Flujos Vis
 https://www.lucidchart.com/
 
 <p align="center">
-  <img src="https://imgur.com/eMoS4S0.png" alt="Lucidchart" width="250">
+  <img src="https://imgur.com/eMoS4S0.png" alt="Lucidchart" width="75">
 </p>
 
 **4. Desarrollo de Software**
@@ -96,7 +96,7 @@ Visual Studio Code es un editor de código utilizado como herramienta principal 
 https://code.visualstudio.com/
 
 <p align="center">
-  <img src="https://imgur.com/p8XelFC.png" alt="Visual Studio Code" width="250">
+  <img src="https://imgur.com/p8XelFC.png" alt="Visual Studio Code" width="75">
 </p>
 
 Vue.js:
@@ -106,7 +106,7 @@ Vue.js es un framework de JavaScript utilizado para el desarrollo del frontend d
 https://vuejs.org/
 
 <p align="center">
-  <img src="https://imgur.com/1A2BcIC.png" alt="Vue.js" width="250">
+  <img src="https://imgur.com/1A2BcIC.png" alt="Vue.js" width="75">
 </p>
 
 PrimeVue:
@@ -116,7 +116,7 @@ PrimeVue es una biblioteca de componentes de interfaz de usuario para Vue.js. Se
 https://primevue.org/
 
 <p align="center">
-  <img src="https://imgur.com/HW4REnt.png" alt="PrimeVue" width="250">
+  <img src="https://imgur.com/HW4REnt.png" alt="PrimeVue" width="75">
 </p>
 
 HTML5 / CSS3 / JavaScript:
@@ -124,7 +124,7 @@ HTML5 / CSS3 / JavaScript:
 HTML5, CSS3 y JavaScript serán utilizados como tecnologías principales para el desarrollo de la Página de Aterrizaje. Asimismo, HTML5 y CSS3 se emplearán en la construcción de plantillas de la Aplicación Web, mientras que JavaScript será utilizado como lenguaje de programación del frontend.
 
 <p align="center">
-  <img src="https://imgur.com/WvnLL69.png" alt="PrimeVue" width="250">
+  <img src="https://imgur.com/WvnLL69.png" alt="PrimeVue" width="75">
 </p>
 
 ASP.NET Core:
@@ -134,7 +134,7 @@ ASP.NET Core es el framework utilizado para el desarrollo de los Servicios Web b
 https://dotnet.microsoft.com/apps/aspnet
 
 <p align="center">
-  <img src="https://imgur.com/l9IiqmU.png" alt="ASP.NET Core" width="250">
+  <img src="https://imgur.com/l9IiqmU.png" alt="ASP.NET Core" width="75">
 </p>
 
 Entity Framework Core:
@@ -144,7 +144,7 @@ Entity Framework Core es un ORM para .NET utilizado para facilitar la interacci�
 https://learn.microsoft.com/ef/core/
 
 <p align="center">
-  <img src="https://imgur.com/HAZ1JFa.png" alt="ASP.NET Core" width="250">
+  <img src="https://imgur.com/HAZ1JFa.png" alt="ASP.NET Core" width="75">
 </p>
 
 C#:
@@ -154,7 +154,7 @@ C# es el lenguaje de programación utilizado para el desarrollo de los Servicios
 https://dotnet.microsoft.com/languages/csharp
 
 <p align="center">
-  <img src="https://imgur.com/KBqr9MO.png" alt="C#" width="250">
+  <img src="https://imgur.com/KBqr9MO.png" alt="C#" width="75">
 </p>
 
 MySQL Server:
@@ -164,7 +164,7 @@ MySQL Server será utilizado como sistema de gestión de bases de datos relacion
 https://www.mysql.com/
 
 <p align="center">
-  <img src="https://imgur.com/ocZUbSb.png" alt="MySQL Server" width="250">
+  <img src="https://imgur.com/ocZUbSb.png" alt="MySQL Server" width="75">
 </p>
 
 Structurizr:
@@ -174,7 +174,7 @@ Structurizr será utilizado para la elaboración de los diagramas de Arquitectur
 https://structurizr.com/
 
 <p align="center">
-  <img src="https://imgur.com/p3MGGvK.png" alt="Structurizr" width="250">
+  <img src="https://imgur.com/p3MGGvK.png" alt="Structurizr" width="75">
 </p>
 
 Lucidchart:
@@ -184,7 +184,7 @@ Lucidchart será utilizado para la elaboración de diagramas UML y para el Dise�
 https://www.lucidchart.com/
 
 <p align="center">
-  <img src="https://imgur.com/eMoS4S0.png" alt="Lucidchart" width="250">
+  <img src="https://imgur.com/eMoS4S0.png" alt="Lucidchart" width="75">
 </p>
 
 Git:
@@ -194,7 +194,7 @@ Git es un sistema de control de versiones distribuido utilizado para gestionar l
 https://git-scm.com/
 
 <p align="center">
-  <img src="https://imgur.com/BFkP50S.png" alt="Git" width="250">
+  <img src="https://imgur.com/BFkP50S.png" alt="Git" width="75">
 </p>
 
 GitHub:
@@ -204,7 +204,7 @@ GitHub es una plataforma de desarrollo colaborativo basada en Git que permite al
 https://github.com/
 
 <p align="center">
-  <img src="https://imgur.com/4ue0oEn.png" alt="Github" width="250">
+  <img src="https://imgur.com/4ue0oEn.png" alt="Github" width="75">
 </p>
 
 **5. Despliegue de Software**
@@ -216,7 +216,7 @@ GitHub Pages será utilizado como servicio de hosting para realizar el despliegu
 https://pages.github.com/
 
 <p align="center">
-  <img src="https://imgur.com/ebcsG7V.png" alt="GitHub Pages" width="250">
+  <img src="https://imgur.com/ebcsG7V.png" alt="GitHub Pages" width="75">
 </p>
 
 Proveedor de hosting en la nube para ASP.NET Core:
@@ -224,7 +224,7 @@ Proveedor de hosting en la nube para ASP.NET Core:
 Se utilizará un proveedor de hosting en la nube para realizar el despliegue de los Servicios Web desarrollados con ASP.NET Core. El proveedor definitivo será determinado de acuerdo con las necesidades del proyecto.
 
 <p align="center">
-  <img src="https://imgur.com/l9IiqmU.png" alt="ASP.NET Core" width="250">
+  <img src="https://imgur.com/l9IiqmU.png" alt="ASP.NET Core" width="75">
 </p>
 
 **6. Documentación de Software**
@@ -236,7 +236,7 @@ Swagger será utilizado para documentar los Servicios Web mediante la especifica
 https://swagger.io/
 
 <p align="center">
-  <img src="https://imgur.com/6YWgYO8.png" alt="Swagger / OpenAPI" width="250">
+  <img src="https://imgur.com/6YWgYO8.png" alt="Swagger / OpenAPI" width="75">
 </p>
 
 Markdown + Visual Studio Code:
@@ -244,7 +244,7 @@ Markdown + Visual Studio Code:
 Markdown será utilizado para la elaboración y estructuración de la documentación del proyecto dentro del repositorio. Visual Studio Code permitirá editar los archivos Markdown y utilizar extensiones para facilitar su visualización y generación en diferentes formatos.
 
 <p align="center">
-  <img src="https://imgur.com/izshdNe.png" alt="Markdown + Visual Studio Code" width="250">
+  <img src="https://imgur.com/izshdNe.png" alt="Markdown + Visual Studio Code" width="75">
 </p>
 
 ### 5.1.2. Source Code Management.
