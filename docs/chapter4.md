@@ -1210,75 +1210,101 @@ Link del video demostrativo: https://acortar.link/hPiSAo
 
 ### 4.6.1. Design-Level EventStorming
 
-**Step 1: Unstructured Exploration**
+El *Design-Level EventStorming* es una dinámica colaborativa para pasar de la comprensión general del negocio al diseño de la solución. El equipo representa los hechos relevantes del dominio y cómo se relacionan con las acciones de los usuarios, las reglas del negocio, la información que se consulta y los sistemas externos. A diferencia del *Big Picture EventStorming* del Capítulo II, que permitió entender el problema y el flujo general, esta etapa profundiza en las responsabilidades que debe cubrir InstAlert y en sus límites de diseño.
+
+En nuestro caso, el tablero parte de los procesos de comercios, personal operativo, alertas, incidentes, mapas de riesgo, contactos de emergencia y suscripciones. El trabajo se organizó en los siguientes pasos:
+
+**Paso 1: Exploración no estructurada (*Unstructured Exploration*)**
+
+Primero, se identifican hechos importantes del negocio y se registran como eventos de dominio, expresados como acciones que ya ocurrieron. En InstAlert se incluyeron eventos como *Alerta de emergencia creada*, *Incidente geolocalizado registrado*, *Alerta cercana recibida*, *Alerta resuelta*, *Operario activado*, *Contacto de emergencia agregado*, *Pago aprobado* y *Suscripción activada*. También se contemplaron los flujos de invitaciones, consulta de mapas e historial de alertas.
 
 <p align="center">
 <img src="../assets/Chapter4/event-storming/Step (1).jpg" alt="Event Storming, paso 1: Unstructured Exploration" width="700"><br>
 Nota: Paso 1 del Design-Level Event Storming – Exploración no estructurada de eventos de dominio
 </p>
 
-**Step 2: Chronology**
+**Paso 2: Orden cronológico (*Chronology*)**
+
+Luego, los eventos se organizan de izquierda a derecha para representar su secuencia. En el tablero se distinguieron varios flujos: el registro del comercio y la incorporación de personal; la creación, envío, consulta, cancelación o resolución de una alerta; la consulta de incidentes y zonas de riesgo; la gestión de contactos de emergencia; y la selección y activación de una suscripción.
 
 <p align="center">
 <img src="../assets/Chapter4/event-storming/Step (2).jpg" alt="Event Storming, paso 2: Chronology" width="700"><br>
 Nota: Paso 2 del Design-Level Event Storming – Organización cronológica del flujo de eventos
 </p>
 
-**Step 3: Pain Points**
+**Paso 3: Identificación de puntos de dolor (*Pain Points*)**
+
+Se señalan los momentos del flujo donde pueden surgir problemas, demoras o errores. En InstAlert se marcaron puntos relacionados con la atención de alertas, su cancelación y la posibilidad de crear una falsa alerta accidentalmente. Además, se retomaron problemas identificados en el análisis previo, como la demora en recibir avisos, los mensajes que se pierden en canales informales y la dificultad de comunicar la ubicación exacta de un incidente.
 
 <p align="center">
 <img src="../assets/Chapter4/event-storming/Step (3).jpg" alt="Event Storming, paso 3: Pain Points" width="700"><br>
 Nota: Paso 3 del Design-Level Event Storming – Identificación de puntos de dolor y cuellos de botella
 </p>
 
-**Step 4: Pivotal Points**
+**Paso 4: Identificación de puntos pivote (*Pivotal Points*)**
+
+Se destacan los momentos en que una decisión o resultado cambia el curso del proceso. En el tablero se consideraron, por ejemplo, la aceptación o el rechazo de una invitación; la activación o cancelación de una alerta; su posterior resolución; y la aprobación de un pago o la cancelación de una suscripción. Identificar estos puntos ayuda a reconocer los distintos caminos que el sistema debe contemplar.
 
 <p align="center">
 <img src="../assets/Chapter4/event-storming/Step (4).jpg" alt="Event Storming, paso 4: Pivotal Points" width="700"><br>
 Nota: Paso 4 del Design-Level Event Storming – Definición de puntos pivote y momentos clave del sistema
 </p>
 
-**Step 5: Commands**
+**Paso 5: Identificación de comandos (*Commands*)**
+
+Se añaden las acciones que los usuarios o sistemas ejecutan para producir un cambio. Para InstAlert se representaron comandos como crear una invitación, registrar un comercio, crear o activar una cuenta operativa, presionar el botón de pánico, consultar alertas cercanas, consultar mapas de riesgo, filtrar el historial y agregar un contacto de emergencia. El comando expresa lo que se solicita; el evento representa el resultado ocurrido.
 
 <p align="center">
 <img src="../assets/Chapter4/event-storming/Step (5).jpg" alt="Paso 5" width="700"><br>
 Nota: Paso 5 del Design-Level Event Storming – Identificación de comandos, actores y detonadores
 </p>
 
-**Step 6: Policies**
+**Paso 6: Definición de políticas (*Policies*)**
+
+Se relacionan los eventos con reglas que desencadenan acciones posteriores. En el tablero se modelaron reglas para los flujos de invitación y activación del personal; para registrar la ubicación y notificar cuando se genera una alerta; para reflejar su cancelación o resolución; y para activar una suscripción después de la aprobación del pago. Estas relaciones ayudan a precisar qué comportamiento debe coordinar el sistema, sin fijar reglas o tiempos que aún no han sido definidos.
 
 <p align="center">
 <img src="../assets/Chapter4/event-storming/Step (6).jpg" alt="Paso 6" width="700"><br>
 Nota: Paso 6 del Design-Level Event Storming – Definición de políticas de negocio
 </p>
 
-**Step 7: Read Models**
+**Paso 7: Identificación de modelos de lectura (*Read Models*)**
+
+Se identifican las consultas y vistas que necesitan los usuarios para tomar decisiones o completar sus tareas. En InstAlert se incluyeron la consulta del perfil, las alertas cercanas, el historial de alertas, el mapa y los niveles de riesgo, los contactos de emergencia, los planes de suscripción y el estado de las alertas.
 
 <p align="center">
 <img src="../assets/Chapter4/event-storming/Step (7).jpg" alt="Paso 7" width="700"><br>
 Nota: Paso 7 del Design-Level Event Storming – Identificación de modelos de lectura e información requerida
 </p>
 
-**Step 8: External Systems**
+**Paso 8: Identificación de sistemas externos (*External Systems*)**
+
+Se incorporan los sistemas de terceros que participan en los procesos. Para InstAlert se consideraron SendGrid para enviar invitaciones por correo, Firebase Cloud Messaging para las notificaciones push, Mapbox para los servicios de mapas y geolocalización, y PayPal para el procesamiento de pagos de suscripción. Estos servicios son dependencias externas de la arquitectura propuesta.
 
 <p align="center">
 <img src="../assets/Chapter4/event-storming/Step (8).jpg" alt="Paso 8" width="700"><br>
 Nota: Paso 8 del Design-Level Event Storming – Integración con sistemas externos y servicios de terceros
 </p>
 
-**Step 9: Aggregates**
+**Paso 9: Agrupación en agregados (*Aggregates*)**
+
+Se agrupan los comandos, eventos, políticas y datos que deben mantenerse relacionados dentro de una unidad de consistencia del dominio. En el tablero se organizaron elementos asociados a identidad, comercio, alertas, mapas, contactos, suscripciones y notificaciones. Esta agrupación permite reconocer qué información y cambios pertenecen juntos antes de definir los límites de los contextos.
 
 <p align="center">
 <img src="../assets/Chapter4/event-storming/Step (9).jpg" alt="Paso 9" width="700"><br>
 Nota: Paso 9 del Design-Level Event Storming – Identificación y agrupación de agregados de dominio
 </p>
 
-**Step 10: Bounded Contexts**
+**Paso 10: Delimitación de contextos acotados (*Bounded Contexts*)**
+
+Finalmente, se establecen límites explícitos para separar responsabilidades de negocio. El tablero resultante distingue los contextos **IAM**, **Business**, **Alert**, **Contacts**, **Notifications**, **Mapping** y **Payments**. En particular, **Contacts** se ocupa de los contactos de emergencia asociados al personal operativo, mientras que **Notifications** gestiona las notificaciones generales y las dirigidas al administrador o a comercios cercanos cuando hay alertas próximas. Estos límites se reflejan después en el diagrama de componentes del backend.
 
 <p align="center">
 <img src="../assets/Chapter4/event-storming/Step (10).jpg" alt="Paso 10" width="700"><br>
 Nota: Paso 10 del Design-Level Event Storming – Delimitación de contextos acotados (Bounded Contexts)
 </p>
+
+En conjunto, el ejercicio permitió pasar de una secuencia de procesos y eventos a una propuesta de organización del dominio, sus integraciones y sus límites. El tablero sirvió como base para elaborar los diagramas de arquitectura y componentes; representa el diseño de la solución y no significa que todas las integraciones externas o servicios ya estén implementados.
 
 **Miro Board Link:** https://miro.com/app/board/uXjVHqyvuL0=/?share_link_id=889295094432
 
