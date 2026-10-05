@@ -23,7 +23,7 @@
 
   <p>
     Docente<br>
-    <strong>Angel Augusto Velasquez Nuñez</strong>
+    <strong>Velásquez Núñez, Ángel Augusto</strong>
   </p>
 
   <p>
@@ -32,7 +32,7 @@
   </p>
 
   <p>
-    Producto<br>
+    Proyecto<br>
     <strong>InstAlert</strong>
   </p>
 
