@@ -512,38 +512,69 @@ Durante el Sprint 1 se desarrollaron la Página de Aterrizaje y la documentació
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
-| Miembro del Equipo | Nombre de Usuario de GitHub | Página de Aterrizaje | Diseño UI/UX | Documentación |
-| :--- | :--- | :--- | :--- | :--- |
-| Jose Gustavo Asto Jacome | DhudsQ | Lider | Colaborador | Colaborador |
-| Sebastian Victor Andre Diaz Mendoza | DiazDeveloper | Colaborador | Colaborador | Colaborador |
-| Jean Fabio Noriega Collado | dumbaskidd | Colaborador | Colaborador | Lider |
-| Yngrid Nahir Ruiz Villegas | nahiryn8 | Colaborador | Líder | Colaborador |
-| Ismael Sebastian Simon Calderon | Mayel-dev | Colaborador | Colaborador | Colaborador |
+Para el Sprint 1, la matriz **Leadership-and-Collaboration Matrix (LACX)** distribuye las responsabilidades entre tres aspectos del alcance:
 
-**Nota:** Distribución de responsabilidades de los integrantes del equipo durante el Sprint 1, con sus funciones de liderazgo y colaboración.
+- **Desarrollo de la Página de Aterrizaje:** construcción e integración de sus secciones, estilos adaptables e interacciones.
+- **Diseño UI/UX:** definición de la jerarquía visual y de la presentación de las secciones en distintos tamaños de pantalla.
+- **Documentación:** actualización de los artefactos del proyecto y registro de los avances y evidencias del sprint.
+
+Cada aspecto cuenta con un líder y colaboradores para coordinar el trabajo incluido en el sprint.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Aspect: Landing Page** | **Aspect: UI/UX Design** | **Aspect: Documentation** |
+| --------------------------------------- | ------------------- | ----------------------- | ------------------------- | ------------------------- |
+| Asto Jácome, José Gustavo                | DhudsQ              | L                       | C                         | C                         |
+| Díaz Mendoza, Sebastián Víctor André     | DiazDeveloper       | C                       | C                         | C                         |
+| Noriega Collado, Jean Fabio              | dumbaskidd          | C                       | C                         | L                         |
+| Ruiz Villegas, Yngrid Nahir              | nahiryn8            | C                       | L                         | C                         |
+| Simón Calderón, Ismael Sebastián         | Mayel-dev           | C                       | C                         | C                         |
+
+- **L** = Líder del aspecto
+- **C** = Colaborador en el aspecto
+
+**Nota:** La distribución corresponde a los tres aspectos definidos para el alcance del Sprint 1.
 
 #### 5.2.1.3. Sprint Backlog 1.
 
-| ID de Historia de Usuario | Título de Historia de Usuario | Puntos de Historia | Estado |
-| :--- | :--- | :---: | :--- |
-| US33 | Consultar la propuesta de valor | 1 | Hecho |
-| US34 | Comparar planes y precios | 2 | Hecho |
-| US35 | Visualizar testimonios | 1 | Hecho |
-| US37 | Consultar cómo funciona InstAlert | 1 | Hecho |
-| US38 | Consultar preguntas frecuentes | 2 | Hecho |
-| US46 | Cambiar el idioma de la página | 2 | En progreso |
-| US47 | Consultar las funcionalidades principales | 1 | Hecho |
-| US48 | Conocer al equipo detrás de InstAlert | 1 | Hecho |
-| US49 | Consultar el centro de ayuda | 1 | Hecho |
-| US50 | Revisar la privacidad y los términos del servicio | 1 | Hecho |
-| **Total planificado** |  | **13** |  |
-| **Total completado** |  | **11** |  |
+**Sprint #**: Sprint 1
 
-
+El Sprint 1 se enfocó en construir y publicar la Landing Page de InstAlert. El objetivo fue presentar la propuesta de valor, los planes, las funcionalidades y la información complementaria del producto. También se inició el trabajo de localización de la página; la configuración del idioma predeterminado se continuó en el Sprint 2.
 
 <p align="center">
   <img src="../assets/Chapter5/jira-sprint-1.png" alt="Captura del tablero de Jira del Sprint 1" width="800">
 </p>
+
+**Enlace de invitación a Jira:** [Acceder al sitio de Jira](https://joseasto24-1785015581364.atlassian.net/?continue=https%3A%2F%2Fjoseasto24-1785015581364.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10033&atlOrigin=eyJpIjoiM2UwMTY0NzJlODE3NGI3MzgzZDZmMWY2NGY5ZmEwY2MiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9). Se requiere iniciar sesión y contar con acceso al proyecto.
+
+Las horas corresponden a estimaciones del desglose de trabajo. Las asignaciones propuestas siguen los aspectos y líderes definidos en la matriz LACX. Los estados de las tareas se derivan del estado de las historias registradas para el Sprint.
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr><th>Sprint #</th><th colspan="7">Sprint 1</th></tr>
+    <tr><th colspan="2">User Story</th><th colspan="6">Work-Item / Task</th></tr>
+    <tr>
+      <th>Story Id</th><th>Story Title</th><th>Task Id</th><th>Task Title</th>
+      <th>Task Description</th><th>Estimation<br>(Hours)</th><th>Assigned To</th>
+      <th>Status<br>(To-do / InProcess / ToReview / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>US33</td><td>Consultar la propuesta de valor</td><td>S1-T01</td><td>Implementar la sección principal</td><td>Presentar el propósito y el valor de InstAlert en la página.</td><td>4</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>Done</td></tr>
+    <tr><td>US33</td><td>Consultar la propuesta de valor</td><td>S1-T02</td><td>Adaptar la sección a móvil</td><td>Ajustar la presentación de la propuesta de valor a pantallas pequeñas.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US34</td><td>Comparar planes y precios</td><td>S1-T03</td><td>Crear tarjetas de planes</td><td>Mostrar los precios y capacidades de los planes disponibles.</td><td>3</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>Done</td></tr>
+    <tr><td>US34</td><td>Comparar planes y precios</td><td>S1-T04</td><td>Añadir selector de moneda</td><td>Permitir visualizar los precios en PEN y USD.</td><td>3</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>Done</td></tr>
+    <tr><td>US35</td><td>Visualizar testimonios</td><td>S1-T05</td><td>Implementar sección de testimonios</td><td>Presentar las tarjetas de testimonios incluidas en la página.</td><td>3</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US37</td><td>Consultar cómo funciona InstAlert</td><td>S1-T06</td><td>Crear sección de funcionamiento</td><td>Explicar visualmente los pasos principales de InstAlert.</td><td>3</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>Done</td></tr>
+    <tr><td>US38</td><td>Consultar preguntas frecuentes</td><td>S1-T07</td><td>Implementar preguntas desplegables</td><td>Mostrar y ocultar las respuestas al seleccionar una pregunta.</td><td>3</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>Done</td></tr>
+    <tr><td>US38</td><td>Consultar preguntas frecuentes</td><td>S1-T08</td><td>Revisar interacción y presentación</td><td>Verificar la lectura y el uso de la sección en distintos tamaños de pantalla.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US46</td><td>Cambiar el idioma de la página</td><td>S1-T09</td><td>Implementar selector y preferencia</td><td>Permitir seleccionar el idioma y conservar la preferencia del visitante.</td><td>2</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>Done</td></tr>
+    <tr><td>US46</td><td>Cambiar el idioma de la página</td><td>S1-T10</td><td>Completar localización predeterminada</td><td>Ajustar el idioma inicial y verificar la traducción de los textos de la página.</td><td>3</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>InProcess</td></tr>
+    <tr><td>US47</td><td>Consultar las funcionalidades principales</td><td>S1-T11</td><td>Crear sección de funcionalidades</td><td>Presentar las capacidades principales de InstAlert.</td><td>3</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>Done</td></tr>
+    <tr><td>US48</td><td>Conocer al equipo detrás de InstAlert</td><td>S1-T12</td><td>Crear sección del equipo</td><td>Mostrar la información del equipo en la Landing Page.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US49</td><td>Consultar el centro de ayuda</td><td>S1-T13</td><td>Enlazar el centro de ayuda</td><td>Añadir el acceso al documento del centro de ayuda desde la página.</td><td>2</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US50</td><td>Revisar la privacidad y los términos del servicio</td><td>S1-T14</td><td>Enlazar documentos legales</td><td>Añadir los accesos a la política de privacidad y a los términos del servicio.</td><td>2</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>—</td><td>Tarea transversal del Sprint</td><td>S1-T15</td><td>Publicar la Landing Page</td><td>Configurar el despliegue y verificar que la página publicada cargue correctamente.</td><td>3</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>Done</td></tr>
+  </tbody>
+</table>
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
@@ -613,6 +644,12 @@ A continuación, se presentan capturas de las principales vistas y componentes i
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 1, el equipo se centró en la ideación, el diseño, el desarrollo y el despliegue de la Página de Aterrizaje de InstAlert. El alcance no incluyó la implementación de los Servicios Web ni de una API REST, por lo que todavía no hay endpoints disponibles para documentar con OpenAPI. El repositorio destinado a los Servicios Web del proyecto es [InstAlert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd). La documentación de la API se elaborará cuando sus endpoints estén implementados.
+
+| **End Point** | **Funciones** |
+| ------------- | ------------- |
+| N/A | No hay Web Services ni endpoints documentados con OpenAPI en el Sprint 1, cuyo alcance fue una Página de Aterrizaje estática. |
+
+No hubo commits de documentación OpenAPI asociados a este Sprint.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
@@ -734,13 +771,13 @@ Para el Sprint 2 se presenta la matriz **Leadership-and-Collaboration Matrix (LA
 - **Gestión de Alertas (UI):** desarrollo de vistas y componentes Vue para reportar y consultar alertas, revisar incidentes y navegar el mapa de riesgos con sus filtros. Incluye los ajustes de navegación de la Landing Page relacionados con el acceso a la aplicación y el idioma.
 - **Gestión de Comercios y Personal:** desarrollo de vistas para consultar y administrar empleados, invitaciones y membresías, además de consultar cupos, suscripciones y contactos de emergencia del personal operativo.
 
-| **Team Member (Last Name, First Name)** | **Aspect: API Integration** | **Aspect: Alerts UI** | **Aspect: Commerce and Staff Management** |
-| --------------------------------------- | -------------------------- | --------------------- | ---------------------------------------- |
-| Asto Jácome, José Gustavo                | L                          | C                     | C                                        |
-| Díaz Mendoza, Sebastián Víctor André     | C                          | C                     | C                                        |
-| Noriega Collado, Jean Fabio              | C                          | L                     | C                                        |
-| Ruiz Villegas, Yngrid Nahir              | C                          | C                     | L                                        |
-| Simón Calderón, Ismael Sebastián         | C                          | C                     | C                                        |
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Aspect: API Integration** | **Aspect: Alerts UI** | **Aspect: Commerce and Staff Management** |
+| --------------------------------------- | ------------------- | -------------------------- | --------------------- | ---------------------------------------- |
+| Asto Jácome, José Gustavo                | DhudsQ              | L                          | C                     | C                                        |
+| Díaz Mendoza, Sebastián Víctor André     | DiazDeveloper       | C                          | C                     | C                                        |
+| Noriega Collado, Jean Fabio              | dumbaskidd          | C                          | L                     | C                                        |
+| Ruiz Villegas, Yngrid Nahir              | nahiryn8            | C                          | C                     | L                                        |
+| Simón Calderón, Ismael Sebastián         | Mayel-dev           | C                          | C                     | C                                        |
 
 - **L** = Líder del aspecto
 - **C** = Colaborador en el aspecto
@@ -749,39 +786,57 @@ La distribución asigna un responsable principal para cada aspecto y mantiene la
 
 #### 5.2.2.3. Sprint Backlog 2.
 
-El Sprint Backlog 2 comprende 24 historias de usuario, con una estimación total de 42 puntos. La siguiente tabla detalla sus identificadores, títulos, estimaciones y estados; la captura muestra su distribución en el tablero de Jira.
+**Sprint #**: Sprint 2
 
-| ID de Historia de Usuario | Título de Historia de Usuario | Puntos de Historia | Estado |
-| :--- | :--- | :---: | :--- |
-| US06 | Cancelar una invitación | 2 | Hecho |
-| US07 | Consultar empleados | 1 | Hecho |
-| US08 | Activar o desactivar la membresía de un empleado | 3 | Hecho |
-| US09 | Editar los datos de un empleado | 2 | Hecho |
-| US11 | Consultar invitaciones | 1 | Hecho |
-| US41 | Consultar los cupos del plan | 2 | Hecho |
-| US13 | Activar el botón de pánico | 3 | Hecho |
-| US14 | Reportar una actividad sospechosa | 1 | Hecho |
-| US15 | Reportar un evento pasado | 1 | Hecho |
-| US16 | Reportar una condición de riesgo | 1 | Hecho |
-| US19 | Consultar el historial de alertas | 1 | Hecho |
-| US44 | Completar un reporte después de resolver una alerta | 2 | Hecho |
-| US21 | Consultar el mapa de calor | 5 | Hecho |
-| US22 | Consultar incidentes por zona | 2 | Hecho |
-| US23 | Consultar el detalle de un incidente | 1 | Hecho |
-| US24 | Filtrar el mapa | 1 | Hecho |
-| US25 | Consultar el detalle de una zona de riesgo | 3 | Hecho |
-| US42 | Cambiar el plan de suscripción | 2 | Hecho |
-| US45 | Consultar el estado de la suscripción | 1 | Hecho |
-| US30 | Añadir un contacto de emergencia | 2 | Hecho |
-| US31 | Editar un contacto de emergencia | 1 | Hecho |
-| US32 | Eliminar un contacto de emergencia | 1 | Hecho |
-| US36 | Redirigirse a la aplicación | 1 | Hecho |
-| US46 | Cambiar el idioma de la página | 2 | Hecho |
-| **Total** |  | **42** | **24 historias completadas** |
+El Sprint 2 se enfocó en entregar una primera versión funcional de la aplicación web frontend. El trabajo incluyó la gestión de personal y contactos de emergencia, el reporte y consulta de alertas, la visualización de incidentes en el mapa y la consulta de la suscripción. También se completaron la redirección desde la Landing Page y la localización iniciada en el Sprint 1.
 
 <p align="center">
   <img src="../assets/Chapter5/jira-sprint-2.png" alt="Captura del tablero de Jira del Sprint 2" width="800">
 </p>
+
+**Enlace de invitación a Jira:** [Acceder al sitio de Jira](https://joseasto24-1785015581364.atlassian.net/?continue=https%3A%2F%2Fjoseasto24-1785015581364.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10033&atlOrigin=eyJpIjoiM2UwMTY0NzJlODE3NGI3MzgzZDZmMWY2NGY5ZmEwY2MiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9). Se requiere iniciar sesión y contar con acceso al proyecto.
+
+Las horas corresponden a estimaciones del desglose de trabajo. Las asignaciones propuestas siguen los aspectos y líderes definidos en la matriz LACX. Los estados de las tareas se derivan del estado de las historias registradas para el Sprint.
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr><th>Sprint #</th><th colspan="7">Sprint 2</th></tr>
+    <tr><th colspan="2">User Story</th><th colspan="6">Work-Item / Task</th></tr>
+    <tr>
+      <th>Story Id</th><th>Story Title</th><th>Task Id</th><th>Task Title</th>
+      <th>Task Description</th><th>Estimation<br>(Hours)</th><th>Assigned To</th>
+      <th>Status<br>(To-do / InProcess / ToReview / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>US06</td><td>Cancelar una invitación</td><td>S2-T01</td><td>Añadir acción de cancelación</td><td>Permitir cancelar una invitación pendiente y reflejar el cambio en la interfaz.</td><td>3</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US07</td><td>Consultar empleados</td><td>S2-T02</td><td>Mostrar lista de empleados</td><td>Presentar los empleados del comercio e indicar el estado de sus membresías.</td><td>4</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US08</td><td>Activar o desactivar la membresía de un empleado</td><td>S2-T03</td><td>Cambiar estado de membresía</td><td>Añadir las acciones para activar o desactivar la membresía de un empleado.</td><td>4</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US08</td><td>Activar o desactivar la membresía de un empleado</td><td>S2-T04</td><td>Actualizar resumen de cupos</td><td>Reflejar en la interfaz el efecto de la operación sobre los cupos disponibles.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US09</td><td>Editar los datos de un empleado</td><td>S2-T05</td><td>Implementar edición de empleado</td><td>Permitir modificar y guardar los datos editables del empleado.</td><td>3</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US11</td><td>Consultar invitaciones</td><td>S2-T06</td><td>Mostrar invitaciones y estados</td><td>Presentar las invitaciones del comercio junto con su estado actual.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US41</td><td>Consultar los cupos del plan</td><td>S2-T07</td><td>Mostrar desglose de cupos</td><td>Presentar el límite del plan y los cupos ocupados, reservados y disponibles.</td><td>3</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US13</td><td>Activar el botón de pánico</td><td>S2-T08</td><td>Implementar activación de alerta</td><td>Permitir iniciar una alerta de pánico desde la interfaz.</td><td>5</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US13</td><td>Activar el botón de pánico</td><td>S2-T09</td><td>Añadir cuenta regresiva cancelable</td><td>Permitir cancelar la activación antes del envío de la alerta, sin fijar una duración no confirmada.</td><td>3</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US14</td><td>Reportar una actividad sospechosa</td><td>S2-T10</td><td>Crear formulario de actividad sospechosa</td><td>Capturar y enviar los datos requeridos para reportar una actividad sospechosa.</td><td>3</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US15</td><td>Reportar un evento pasado</td><td>S2-T11</td><td>Crear formulario de evento pasado</td><td>Permitir registrar información de un incidente ocurrido anteriormente.</td><td>3</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US16</td><td>Reportar una condición de riesgo</td><td>S2-T12</td><td>Crear formulario de condición de riesgo</td><td>Permitir informar una condición que representa un riesgo de seguridad.</td><td>3</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US19</td><td>Consultar el historial de alertas</td><td>S2-T13</td><td>Mostrar historial de alertas</td><td>Presentar los registros disponibles para consultar alertas anteriores.</td><td>3</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US44</td><td>Completar un reporte después de resolver una alerta</td><td>S2-T14</td><td>Completar reporte pendiente</td><td>Permitir ingresar los detalles pendientes y conservar la alerta como resuelta.</td><td>3</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US21</td><td>Consultar el mapa de calor</td><td>S2-T15</td><td>Mostrar incidentes geolocalizados</td><td>Representar en el mapa las ubicaciones de los incidentes reportados.</td><td>5</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US22</td><td>Consultar incidentes por zona</td><td>S2-T16</td><td>Consultar incidentes de una zona</td><td>Mostrar los incidentes asociados a la zona seleccionada en el mapa.</td><td>3</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US23</td><td>Consultar el detalle de un incidente</td><td>S2-T17</td><td>Mostrar detalle del incidente</td><td>Presentar la información registrada al seleccionar un incidente.</td><td>2</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US24</td><td>Filtrar el mapa</td><td>S2-T18</td><td>Implementar filtros del mapa</td><td>Aplicar y limpiar filtros sobre los incidentes mostrados en el mapa.</td><td>3</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US25</td><td>Consultar el detalle de una zona de riesgo</td><td>S2-T19</td><td>Mostrar detalle de zona</td><td>Presentar la información de riesgo disponible para la zona seleccionada.</td><td>3</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
+    <tr><td>US42</td><td>Cambiar el plan de suscripción</td><td>S2-T20</td><td>Implementar selección de plan</td><td>Permitir seleccionar otro plan y reflejar el resultado de la operación simulada.</td><td>4</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>Done</td></tr>
+    <tr><td>US45</td><td>Consultar el estado de la suscripción</td><td>S2-T21</td><td>Mostrar estado de suscripción</td><td>Presentar el plan y periodo vigentes, incluida una cancelación programada si corresponde.</td><td>3</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>Done</td></tr>
+    <tr><td>US30</td><td>Añadir un contacto de emergencia</td><td>S2-T22</td><td>Crear formulario de contacto</td><td>Permitir registrar un contacto de emergencia propio.</td><td>3</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US31</td><td>Editar un contacto de emergencia</td><td>S2-T23</td><td>Editar contacto registrado</td><td>Permitir actualizar los datos de un contacto existente.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US32</td><td>Eliminar un contacto de emergencia</td><td>S2-T24</td><td>Eliminar contacto</td><td>Solicitar confirmación y retirar el contacto de la lista.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>US36</td><td>Redirigirse a la aplicación</td><td>S2-T25</td><td>Configurar botones de acceso</td><td>Dirigir las llamadas a la acción de la Landing Page a la aplicación.</td><td>2</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>Done</td></tr>
+    <tr><td>US46</td><td>Cambiar el idioma de la página</td><td>S2-T26</td><td>Completar localización</td><td>Configurar el idioma predeterminado requerido y verificar el cambio y persistencia del idioma.</td><td>4</td><td>José Gustavo Asto Jácome (DhudsQ)</td><td>Done</td></tr>
+  </tbody>
+</table>
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
@@ -797,11 +852,177 @@ Las siguientes confirmaciones corresponden a cambios representativos implementad
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
+Durante el Sprint 2 se desarrollaron vistas de la aplicación web para las principales tareas del personal operativo y de los administradores de comercios. La evidencia incluye la consulta del mapa de riesgo, la activación y resolución de alertas, el registro de incidentes y la gestión de contactos de emergencia. También se muestran las interfaces administrativas para gestionar al personal, enviar invitaciones y consultar la suscripción y los cupos del plan. Las capturas documentan las pantallas y los flujos de interacción implementados en el frontend.
+
+**Evidencia visual:**
+
+**1. Mapa de riesgo y detalle de zona**
+
+La vista presenta incidentes y comercios sobre el mapa, junto con la simbología de los niveles de riesgo. El panel lateral muestra el detalle de la zona seleccionada y los incidentes asociados.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-risk-map.png" alt="Mapa de riesgo con incidentes, comercios y detalle de una zona" width="800">
+</p>
+
+**2. Centro de alertas**
+
+La pantalla reúne el acceso a la alerta de pánico, el historial y las opciones para reportar incidentes, actividades sospechosas u otras condiciones de riesgo. También indica cuando existe un reporte pendiente de completar.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-alerts.png" alt="Centro de alertas con activación de pánico y opciones de reporte" width="800">
+</p>
+
+**3. Gestión de contactos de emergencia**
+
+La lista permite consultar los contactos de emergencia registrados y acceder a las acciones para añadir, editar o eliminar un contacto.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-emergency-contacts.png" alt="Lista de contactos de emergencia del personal operativo" width="800">
+</p>
+
+**4. Registro de actividad sospechosa**
+
+El formulario permite seleccionar el tipo de incidente y registrar su ubicación, fecha, hora y descripción para comunicar lo observado.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-report-form.png" alt="Formulario para registrar una actividad sospechosa" width="800">
+</p>
+
+**5. Alerta de pánico activa**
+
+La vista muestra el estado de una alerta activa, el tiempo transcurrido y la ubicación registrada, además de la acción para indicar que la situación peligrosa terminó.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-active-alert.png" alt="Detalle de una alerta de pánico activa y acción para finalizarla" width="800">
+</p>
+
+**6. Gestión del personal del comercio**
+
+La pantalla administrativa presenta el límite del plan y el desglose de cupos ocupados, reservados y disponibles. También lista a los empleados y sus estados, con acciones de gestión e ingreso a las invitaciones.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-staff.png" alt="Gestión del personal del comercio y resumen de cupos" width="800">
+</p>
+
+**7. Creación de invitación para un empleado**
+
+El formulario permite ingresar el nombre y el correo electrónico del empleado, e informa los cupos disponibles antes de crear la invitación.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-invitation.png" alt="Formulario para crear una invitación de empleado" width="800">
+</p>
+
+**8. Suscripción y facturación**
+
+La vista permite consultar el plan vigente, el uso de cupos y las alternativas disponibles, incluidos los controles de moneda y periodicidad de pago.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-subscription.png" alt="Vista administrativa de suscripción, cupos y planes" width="800">
+</p>
+
+**Video de recorrido del Sprint 2:** Pendiente de incorporar el enlace compartido del video.
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 2, el equipo desarrolló la aplicación web frontend de InstAlert y utilizó JSON Server como una API simulada desplegada en Render para probar las vistas con datos de muestra. No se elaboraron documentos OpenAPI ni se implementaron los Web Services definitivos con ASP.NET Core; por ello, el enlace al servidor simulado no se presenta como documentación oficial de endpoints.
+
+| **End Point** | **Funciones** |
+| ------------- | ------------- |
+| N/A (sin documentación OpenAPI) | El frontend consumió recursos REST simulados por JSON Server. URL base del mock desplegado: [https://instalert-frontend-2bmr.onrender.com/](https://instalert-frontend-2bmr.onrender.com/). |
+
+El repositorio destinado a los Servicios Web del proyecto es [InstAlert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd). No hubo commits de documentación OpenAPI asociados a este Sprint. Las capturas de la sección anterior corresponden a la interfaz frontend y no a una documentación OpenAPI.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
+Durante el Sprint 2 se publicó la Web Application de InstAlert en Firebase Hosting, se desplegó en Render una API simulada con JSON Server y se mantuvo disponible la Landing Page mediante GitHub Pages. Las capturas muestran el estado de publicación de la aplicación y de la Landing Page, así como la ejecución exitosa del flujo de despliegue de esta última. JSON Server se utilizó como mock para el frontend; no corresponde a los Web Services definitivos del proyecto implementados con ASP.NET Core.
+
+**1. Despliegue de la Web Application en Firebase Hosting**
+
+La aplicación web está disponible en [https://instalert-c3f7f.web.app/](https://instalert-c3f7f.web.app/). La consola de Firebase muestra el proyecto InstAlert y el historial de implementación, con una publicación registrada el 4 de octubre de 2026 a las 11:13 p. m. La siguiente captura evidencia el servicio de Hosting y el estado de la implementación.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-firebase-hosting.png" alt="Consola de Firebase del proyecto InstAlert y estado de Firebase Hosting" width="800">
+</p>
+
+La siguiente captura muestra la pantalla de selección de perfil al ingresar a la Web Application publicada.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-web-app-deployed.png" alt="Pantalla de selección de perfil de la Web Application publicada" width="800">
+</p>
+
+**2. Despliegue de la API simulada en Render**
+
+Para permitir que la Web Application publicada consuma datos de prueba, se desplegó el servidor JSON Server en Render. La URL base configurada para el mock es [https://instalert-frontend-2bmr.onrender.com/](https://instalert-frontend-2bmr.onrender.com/). Este servicio simula las operaciones de la API durante el desarrollo y no sustituye a los Web Services definitivos en ASP.NET Core.
+
+La consola de Render muestra el servicio en estado **Live** y su historial de despliegues, incluidos despliegues completados correctamente.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-json-server-render-deployment.png" alt="Servicio JSON Server activo en Render y su historial de despliegues" width="800">
+</p>
+
+**3. Despliegue de la Landing Page en GitHub Pages**
+
+La Landing Page está disponible en [https://losincreiblescorp.github.io/InstAlert-LandingPage/](https://losincreiblescorp.github.io/InstAlert-LandingPage/). La configuración de GitHub Pages utiliza la rama `main` y la carpeta raíz del repositorio como fuente de publicación.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-landing-page-deployed.png" alt="Landing Page de InstAlert publicada en GitHub Pages" width="800">
+</p>
+
+La captura de configuración confirma la URL publicada y la fuente seleccionada. Además, la ejecución mostrada en GitHub Actions presenta como exitosas las verificaciones de compilación, despliegue y reporte del estado.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-github-pages-settings.png" alt="Configuración de GitHub Pages con la URL publicada y la rama main" width="800">
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-github-actions-deployment.png" alt="Ejecución exitosa del flujo de compilación y despliegue de GitHub Pages" width="800">
+</p>
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2, el equipo colaboró en el repositorio frontend de InstAlert mediante contribuciones al código, trabajo en ramas y su integración en las ramas principales del proyecto. Las siguientes capturas corresponden a las analíticas e historial de ese repositorio. Las cifras del panel de contribuidores son acumuladas para el periodo visible en GitHub y no representan exclusivamente los commits del Sprint 2; por ello, se presentan como contexto de la actividad del equipo.
+
+**1. Analíticas de contribución del repositorio frontend**
+
+La vista de contribuidores registra actividad de los cinco integrantes en el repositorio. El resumen mostrado por GitHub presenta los siguientes conteos acumulados al momento de la captura:
+
+| Integrante | GitHub Username | Commits acumulados |
+| :--- | :--- | ---: |
+| José Gustavo Asto Jácome | DhudsQ | 87 |
+| Yngrid Nahir Ruiz Villegas | nahiryn8 | 25 |
+| Ismael Sebastián Simón Calderón | Mayel-dev | 17 |
+| Jean Fabio Noriega Collado | dumbaskidd | 14 |
+| Sebastián Víctor André Díaz Mendoza | DiazDeveloper | 1 |
+
+El gráfico general resume la distribución de commits entre contribuidores. El detalle individual permite observar también la actividad registrada por mes; las barras visibles en octubre muestran actividad reciente de los cinco usuarios, aunque el conteo total de cada perfil abarca más que este Sprint.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-frontend-top-committers.png" alt="Gráfico Top committers del repositorio frontend" width="800">
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-frontend-contributors.png" alt="Actividad y conteo acumulado por contribuidor del repositorio frontend" width="800">
+</p>
+
+**2. Integración y evolución de ramas**
+
+Las vistas de red del repositorio muestran la evolución de las ramas de trabajo y su relación con `develop` y `main`, incluida la integración de cambios en esas ramas.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-frontend-branch-history-1.png" alt="Vista de red e historial de ramas del repositorio frontend" width="800">
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-frontend-branch-history-2.png" alt="Integración de ramas feature, develop y main en el repositorio frontend" width="800">
+</p>
+
+**3. Historial de commits**
+
+El historial de la rama `main` muestra integraciones y cambios registrados el 4 de octubre de 2026. Entre los elementos visibles se encuentran la integración de `release/1.0.0` en `main`, un commit relacionado con el despliegue de Firebase y cambios documentales del frontend. Esta captura complementa las analíticas con registros concretos de autoría y actividad.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-2-frontend-commit-history.png" alt="Historial de commits del repositorio frontend en la rama main" width="800">
+</p>
 
 # Conclusiones
 
