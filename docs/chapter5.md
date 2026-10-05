@@ -920,7 +920,7 @@ La vista permite consultar el plan vigente, el uso de cupos y las alternativas d
   <img src="../assets/Chapter5/sprint-2-subscription.png" alt="Vista administrativa de suscripción, cupos y planes" width="800">
 </p>
 
-**Video de recorrido del Sprint 2:** Pendiente de incorporar el enlace compartido del video.
+**Video de recorrido del Sprint 2:** [Ver video de la revisión del Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQD_XVhTUYmdR6-AwlPqkF1rAVeVKAK3R8NVx2AJ5A-0M30?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=XkCFOg)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -1026,12 +1026,25 @@ El historial de la rama `main` muestra integraciones y cambios registrados el 4 
 
 # Conclusiones
 
-## AV1
+## Conclusiones y recomendaciones
 
-A partir del análisis del perfil de la startup InstAlert y su nueva propuesta comercial, se concluye que existe una necesidad crítica y un mercado altamente receptivo para una plataforma integral de seguridad, justificada por el incremento sostenido de delitos y una percepción de inseguridad superior al 80% en el país. El enfoque UX Esbelto implementado por el equipo demuestra una base sólida al alinear las capacidades técnicas con las exigencias del nuevo segmento objetivo B2B bajo un modelo SaaS (Software as a Service), orientado a organizaciones, administraciones residenciales y entidades que requieran planes de suscripción para gestionar su seguridad. La estrategia del producto es acertada al centralizar la prevención y la reacción inmediata mediante herramientas tecnológicas, mitigando la fragmentación de las soluciones actuales y promoviendo redes colaborativas eficientes.
+Al cierre del trabajo realizado hasta TB1, la investigación, el diseño y la primera versión de la aplicación permiten valorar el avance de InstAlert frente al problema y las hipótesis planteadas. La evidencia respalda la pertinencia de la propuesta y demuestra avances funcionales, aunque todavía no permite afirmar que se hayan alcanzado las metas de adopción o desempeño previstas para un piloto.
 
-Se concluye que InstAlert posee una ventaja competitiva clara frente a alternativas institucionales y comerciales tradicionales, al ofrecer una plataforma escalable y adaptable mediante niveles de suscripción. El proceso de investigación y validación permitió redefinir las problemáticas recurrentes, enfocándose no solo en la inseguridad ciudadana, sino en la necesidad de las organizaciones de contar con mecanismos de monitoreo y prevención. Como resultado, se definieron funcionalidades alineadas con los requerimientos operativos de estos nuevos clientes, estableciendo las bases funcionales y comerciales para el desarrollo del sistema.
+**1. Validación del Problem Statement y de los supuestos:**
 
-Con respecto al diseño y la experiencia de usuario, la identidad visual, la arquitectura de información y los flujos de interacción diseñados para InstAlert mantienen una estricta coherencia con los valores de confianza, rapidez y facilidad de uso. La organización jerárquica de los contenidos y la definición de mecanismos de navegación intuitivos contribuyen a reducir la carga cognitiva, facilitando el proceso de adopción de la plataforma por parte de los clientes y sus usuarios finales.
+El análisis de entrevistas documentado en el Capítulo II respalda cualitativamente el problema identificado: administradores y personal operativo enfrentan situaciones de riesgo y dependen de canales dispersos, como llamadas y WhatsApp, para compartir avisos. Estos hallazgos justifican explorar una herramienta que reúna reportes, alertas e información geolocalizada. Sin embargo, la investigación realizada no demuestra por sí sola la aceptación del producto por un mercado amplio, la disposición de pago por una suscripción ni la viabilidad económica del modelo; esos supuestos requieren validación con comercios durante un piloto.
 
-Finalmente, tras la ejecución del primer Sprint de desarrollo, se concluye que el diseño y despliegue de la Página de Aterrizaje constituye un hito para la presentación comercial del proyecto. La página web estática y multilingüe (i18n) expone la propuesta de valor, los planes de suscripción y la información del equipo, y ofrece un canal público para dar a conocer InstAlert.
+**2. Contrastación de las hipótesis funcionales:**
+
+- **Reportes por tipo de incidente:** se implementaron formularios con categorías para registrar situaciones, lo que demuestra que el flujo previsto puede representarse en la aplicación. Aún falta comprobar con usuarios si al menos el 80 % identifica correctamente el tipo de incidente.
+- **Mapa de incidentes geolocalizados:** la aplicación presenta incidentes mediante marcadores y permite consultar información de la zona. Esto materializa la propuesta de visualización, pero todavía no se ha medido si al menos la mitad de los administradores consulta el mapa semanalmente.
+- **Notificaciones oportunas:** se avanzó en los flujos de alertas de la interfaz, pero durante TB1 se utilizó JSON Server como API simulada y no se implementaron los Web Services definitivos ni una entrega real de notificaciones. Por ello, no se ha verificado la meta de disponibilidad en menos de un minuto ni la reducción de tiempo planteada frente a los canales actuales.
+- **Complementación de reportes:** la interfaz contempla completar información pendiente de un reporte. No se cuenta todavía con datos de uso que permitan determinar si aumenta la proporción de reportes incompletos que los usuarios terminan de completar.
+
+En consecuencia, las funcionalidades implementadas permiten demostrar y continuar evaluando las hipótesis, pero no deben presentarse como resultados cuantitativamente validados. La aplicación desplegada, la API simulada en Render y la Landing Page publicada constituyen una base de demostración; no equivalen a una operación productiva con servicios backend definitivos.
+
+**3. Recomendaciones para la siguiente etapa:**
+
+- Implementar e integrar los Web Services previstos con ASP.NET Core, persistencia relacional y documentación OpenAPI, reemplazando gradualmente la API simulada.
+- Ejecutar un piloto con comercios y personal operativo para medir la identificación del tipo de incidente, la consulta semanal del mapa, el tiempo de entrega de alertas y la proporción de reportes completados.
+- Evaluar con los comercios la utilidad de la información recibida, la confianza en los reportes y la disposición a mantener una suscripción, antes de concluir que las hipótesis de negocio y adopción se han confirmado.
