@@ -81,16 +81,16 @@ El constante aumento de la delincuencia se ha convertido en un obstáculo críti
 | **Where** | ¿Dónde ocurre? | En zonas urbanas y corredores comerciales de riesgo medio-alto, con especial énfasis en áreas con poca vigilancia policial, rutas de escape fáciles o iluminación deficiente. |
 | **When** | ¿Cuándo ocurre? | Durante el horario de atención al público (aprovechando momentos de baja afluencia de clientes) y durante los horarios críticos de apertura y cierre de los locales comerciales. |
 | **How** | ¿Cómo ocurre? | Los asaltantes se aprovechan del aislamiento de cada local y la falta de canales directos entre negocios vecinos. Al no existir alertas rápidas, los actos delictivos se consuman antes de que las autoridades o la comunidad puedan intervenir. |
-| **How much** | ¿Cuánto impacto tiene? | Según el Instituto Nacional de Estadística e Informática (INEI, 2024), la tasa de victimización por robo a negocios pasó del 1.0% en 2023 al 2.1% en 2024. Además, el Banco Interamericano de Desarrollo (BID, 2024) indica que esto representa un sobrecosto significativo en seguridad privada, mermando la competitividad. |
+| **How much** | ¿Cuánto impacto tiene? | El Instituto Nacional de Estadística e Informática (INEI, 2026, p. 54) señala que el 68,9 % de las empresas victimizadas manifestó haber sido afectada por el hecho. Como contexto regional, Perez-Vincent et al. (2024, pp. 75–77) estimaron que los costos directos del crimen para el sector privado promediaron alrededor del 1,6 % del PIB en 2022 en los países de América Latina y el Caribe analizados. |
 
-**Figura 1:**
+**Tabla 1. Empresas victimizadas durante 2023**
 
-*Tasa de Victimización Comercial (2023-2024)*
+| Ámbito | Empresas victimizadas | Proporción |
+| :--- | :---: | :---: |
+| Total de empresas comprendidas en la medición | 56 679 de 234 559 | 24,2 % |
+| Sector comercio | 24 660 de 105 173 | 23,4 % |
 
-<p align="center">
-  <img src="../assets/Chapter1/Graphics/TasaDeVictimizacion.png" alt="Tasa de Victimización" width="600"><br>
-  <i>Nota: Elaboración propia a partir de datos del INEI (2024). Gráfico generado con la librería Matplotlib en Python.</i>
-</p>
+*Nota. Datos estimados por el Instituto Nacional de Estadística e Informática (INEI, 2026, pp. 18, 21–22).*
 
 **Conclusión del análisis 5W2H:**
 Tras evaluar todos estos puntos, queda en evidencia que el peligro para los establecimientos no solo recae en la cantidad de asaltos, sino en el profundo nivel de aislamiento en el que operan. La falta de comunicación inmediata entre negocios cercanos impide que se puedan apoyar mutuamente ante una amenaza. Por ello, el desarrollo de una herramienta como InstAlert resulta esencial para cerrar esa brecha, conectando a los comerciantes a través de una red de alertas tempranas que priorice la prevención y la acción conjunta.
@@ -115,71 +115,85 @@ En la actualidad, los dueños y trabajadores de locales comerciales ubicados en 
 - El plazo para el desarrollo y despliegue del software está restringido a la duración del ciclo académico.
 - El proyecto se construirá con recursos de hardware y un equipo humano limitados.
 
-### 1.2.2. Lean UX Process
+### 1.2.2. Lean UX Process.
 
-#### 1.2.2.1. Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements.
 
 Para definir claramente la propuesta de valor de InstAlert frente al desafío de la inseguridad comercial, hemos aplicado el modelo de *Brand New Initiative*, estructurando el dominio, los problemas actuales y nuestra estrategia para abordarlos:
 
-**The current state of** la seguridad y vigilancia preventiva en zonas comerciales **has focused mainly on** los dueños de locales y su personal de ventas, quienes sufren de robos y extorsiones constantes, y que actualmente dependen de tiempos de respuesta policiales lentos o de herramientas de comunicación ineficientes.
+**El estado actual de la gestión de la seguridad en los comercios se caracteriza principalmente por** una comunicación reactiva y dispersa. Ante incidentes cercanos, los administradores y el personal operativo recurren a llamadas, WhatsApp o contactos directos para informarse y comunicarse con otros negocios, lo que puede dificultar el acceso oportuno a información confiable.
 
-**What existing products fail to address is** la ausencia de un canal unificado que conecte a los negocios vecinos en tiempo real, permitiéndoles emitir alertas geolocalizadas y tomar medidas preventivas antes de que el delito se consume en sus propios establecimientos.
+**Lo que los productos y servicios existentes no logran resolver de forma integrada es** la coordinación entre negocios vecinos para compartir información geolocalizada sobre incidentes cercanos y advertir oportunamente sobre posibles riesgos.
 
-**Our product will address this gap by** ofrecer una plataforma web colaborativa e intuitiva donde los comerciantes puedan reportar amenazas al instante, alertar a su comunidad sectorial y visualizar zonas de riesgo en un mapa interactivo.
+**Nuestro producto atenderá esta brecha mediante** una aplicación web colaborativa que permitirá registrar y consultar alertas e incidentes, y visualizar su ubicación y concentración en un mapa con zonas de calor.
 
-**Our initial focus will be** los dueños y trabajadores de pequeños y medianos comercios ubicados en zonas urbanas de riesgo medio-alto.
+**Nuestro enfoque inicial estará dirigido a** administradores y personal operativo de comercios ubicados en zonas urbanas de alto riesgo priorizadas por el proyecto.
 
-**We’ll know we are successful when we see** una alta tasa de adopción de la plataforma por parte de grupos de negocios en una misma cuadra o galería, reportes activos de incidencias sospechosas y una reducción tangible en los asaltos gracias a la prevención comunitaria.
+**Sabremos que tenemos éxito cuando observemos** una reducción medible del tiempo entre el reporte de un incidente y la disponibilidad de la alerta para los comercios cercanos; un uso sostenido de la aplicación para reportar y consultar incidentes; y una mejora en la confianza de administradores y personal operativo en la información recibida, medida mediante encuestas antes y después del piloto.
 
-#### 1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions.
 
-A continuación, se detallan las creencias e hipótesis fundamentales sobre las cuales se sostiene el desarrollo de InstAlert, divididas en cinco categorías clave:
+A continuación, se presentan las creencias del equipo sobre InstAlert, organizadas en cinco categorías. Estas suposiciones servirán de base para formular hipótesis y deberán validarse durante el piloto. Las metas numéricas son objetivos propuestos, no resultados comprobados.
 
-**1. Business Assumptions (Suposiciones del Negocio)**
-- Creemos que existe una necesidad urgente en el sector comercial por adquirir herramientas tecnológicas centradas en la prevención delictiva.
-- Creemos que los comerciantes están dispuestos a incorporar una plataforma web a su rutina laboral si esto les garantiza mayor tranquilidad.
+**1. Suposiciones del negocio**
+- Creemos que existe un mercado inicial suficiente entre los pequeños y medianos comercios ubicados en galerías o corredores comerciales urbanos de alto riesgo para iniciar pilotos por zona.
+- Creemos que los comercios valorarán contar con reportes geolocalizados de incidentes cercanos y conocer si otros comercios los han corroborado, frente a la información dispersa que reciben por llamadas o WhatsApp.
+- Creemos que una suscripción mensual por comercio será viable si la utilidad de InstAlert justifica su precio y los ingresos permiten cubrir su operación y mantenimiento.
+- Creemos que el equipo podrá operar y mantener InstAlert durante un piloto en una zona delimitada, protegiendo los datos de quienes reportan y gestionando los reportes aún no corroborados.
 
-**2. Business Outcome Assumptions (Suposiciones de Resultados del Negocio)**
-- Creemos que lograremos reducir el impacto económico y emocional de la delincuencia en los establecimientos afiliados.
-- Creemos que tendremos éxito si logramos un alto nivel de retención de usuarios y una red de comercios activos que verifiquen constantemente las alertas.
+**2. Suposiciones de resultados del negocio**
+- Creemos que al menos el 60 % de los comercios con suscripción activa en una zona piloto reportará o consultará información al menos una vez por semana.
+- Creemos que la mediana del tiempo entre el envío de un reporte y su disponibilidad en la aplicación para los comercios cercanos será menor a un minuto y al menos 50 % menor que el tiempo observado al avisar por los canales actuales.
+- Creemos que al menos el 50 % de los comercios activos durante el primer mes mantendrá su suscripción y reportará o consultará información semanalmente al llegar al día 90.
+- Creemos que, al finalizar el piloto, los ingresos mensuales de las suscripciones activas cubrirán los costos mensuales de operación y mantenimiento de InstAlert en la zona piloto.
 
-**3. User Assumptions (Suposiciones de los Usuarios)**
-- Creemos que nuestros usuarios principales son administradores de negocios y su personal de primera línea.
-- Creemos que estos usuarios tienen acceso constante a una computadora de mostrador o dispositivo móvil durante su jornada laboral.
-- Creemos que los comerciantes poseen un fuerte sentido de solidaridad y están dispuestos a advertir a los locales vecinos si notan actividades sospechosas.
+**3. Suposiciones de los usuarios**
+- Creemos que los dueños y administradores deciden qué medidas de seguridad adoptar y utilizan la información sobre incidentes cercanos para orientar esas decisiones.
+- Creemos que el personal operativo puede ser quien detecte o presencie incidentes y necesite reportarlos con poco tiempo disponible durante la atención al público.
+- Creemos que administradores y personal operativo utilizan teléfonos inteligentes durante su jornada y que actualmente comparten información sobre incidentes mediante llamadas, WhatsApp o comunicación directa.
+- Creemos que la preocupación por posibles represalias y por la exposición de la identidad del reportante puede influir en la disposición de algunos usuarios a reportar incidentes.
 
-**4. User Outcome and Benefit Assumptions (Suposiciones de Beneficios para el Usuario)**
-- Creemos que los comerciantes valoran enormemente operar sus negocios en un entorno seguro y libre de estrés.
-- Creemos que los usuarios obtendrán el beneficio crucial de estar advertidos con anticipación sobre amenazas cercanas, dándoles tiempo para resguardarse o cerrar sus puertas.
+**4. Suposiciones de resultados y beneficios para los usuarios**
+- Creemos que los administradores obtendrán una visión más clara y oportuna de los incidentes cercanos, lo que les permitirá coordinar medidas de seguridad para sus comercios.
+- Creemos que el personal operativo podrá comunicar incidentes rápidamente, reduciendo la interrupción de sus actividades de atención al público.
+- Creemos que los administradores podrán planificar medidas —como horarios de apertura y cierre o el manejo de efectivo— con información actualizada sobre incidentes, en lugar de depender únicamente de rumores o intuiciones.
+- Creemos que los usuarios confiarán más en la información recibida al distinguir los reportes corroborados de los que aún no lo están, y dependerán menos de rumores.
 
-**5. Feature Assumptions (Suposiciones de Funcionalidades)**
-- Creemos que la plataforma debe contar con un botón de alerta temprana o de pánico silencioso.
-- Creemos que los usuarios necesitan un mapa interactivo que muestre incidentes recientes para identificar el nivel de riesgo en sus alrededores en tiempo real.
-- Creemos que un sistema de notificaciones push comunitarias es indispensable para enviar y recibir avisos urgentes al instante.
+**5. Suposiciones de funcionalidades**
+- Creemos que ofrecer distintos tipos de reporte permitirá registrar con mayor precisión los incidentes y peligros que afectan a los comercios.
+- Creemos que un mapa de calor geolocalizado permitirá visualizar dónde se concentran los incidentes en el entorno comercial.
+- Creemos que generar notificaciones automáticas dentro de la aplicación sobre incidentes cercanos permitirá que los usuarios con acceso activo se enteren oportunamente.
+- Creemos que permitir completar o ampliar los datos de un reporte después de su registro inicial ayudará a ofrecer información más detallada sobre el incidente.
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements.
 
-A partir de las funcionalidades propuestas (Feature Assumptions), planteamos las siguientes hipótesis para validar su efectividad, utilizando el formato estándar de Lean UX:
+Se formula una hipótesis por cada suposición de funcionalidad, relacionando el resultado esperado con las personas usuarias, el beneficio y la solución propuesta.
 
-**Hipótesis 1: Botón de Alerta Temprana**
-- **We believe we will achieve** una mejora sustancial en el tiempo de reacción ante amenazas
-- **If** los trabajadores de los establecimientos comerciales
-- **Attain** la capacidad de notificar silenciosa e instantáneamente a sus vecinos
-- **With** un botón de alerta temprana de fácil acceso en la plataforma web.
+**Hipótesis 1: Reportes por tipo de incidente**
+- **Creemos que lograremos:** que al menos el 80 % de las personas participantes identifique correctamente el tipo de incidente al reportarlo.
+- **Si:** el personal operativo y los administradores de los comercios.
+- **Alcanzan:** comunicar con rapidez qué incidente observaron.
+- **Con:** un formulario que permita seleccionar distintos tipos de incidente.
 
-**Hipótesis 2: Mapa Interactivo de Zonas de Riesgo**
-- **We believe we will achieve** una mejor toma de decisiones preventivas en el entorno local
-- **If** los administradores de los negocios
-- **Attain** el conocimiento actualizado sobre qué áreas cercanas registran actividad sospechosa
-- **With** un mapa interactivo que visualiza el nivel de riesgo y los reportes en tiempo real.
+**Hipótesis 2: Mapa de calor geolocalizado**
+- **Creemos que lograremos:** que al menos la mitad de los administradores consulte el mapa semanalmente.
+- **Si:** los administradores de los comercios.
+- **Alcanzan:** identificar dónde se concentran los incidentes cercanos para planificar medidas de seguridad.
+- **Con:** un mapa de calor geolocalizado de los incidentes reportados.
 
-**Hipótesis 3: Notificaciones Push Inmediatas**
-- **We believe we will achieve** una alta tasa de prevención y protección comunitaria
-- **If** los dueños y el personal operativo
-- **Attain** información oportuna sobre sospechosos merodeando su cuadra o galería
-- **With** un sistema de notificaciones push enviadas en el momento exacto del reporte.
+**Hipótesis 3: Notificaciones automáticas dentro de la aplicación**
+- **Creemos que lograremos:** que la mediana del tiempo entre el envío de un reporte y su disponibilidad para los comercios cercanos sea menor a un minuto y al menos 50 % inferior al tiempo observado con los canales actuales (BO2).
+- **Si:** los administradores y el personal operativo de comercios con acceso activo.
+- **Alcanzan:** enterarse oportunamente de incidentes cercanos.
+- **Con:** notificaciones automáticas dentro de la aplicación.
 
-#### 1.2.2.4. Lean UX Canvas
+**Hipótesis 4: Complementación posterior de reportes**
+- **Creemos que lograremos:** aumentar la proporción de reportes inicialmente incompletos que se complementa después del registro.
+- **Si:** el personal operativo y los administradores que registran incidentes.
+- **Alcanzan:** enviar primero un reporte y añadir después la información que faltaba.
+- **Con:** la posibilidad de completar o ampliar los datos de un reporte ya registrado.
+
+#### 1.2.2.4. Lean UX Canvas.
 
 El siguiente Lean UX Canvas sintetiza los problemas, los segmentos de usuarios, las hipótesis y los resultados esperados para InstAlert. Este diagrama es esencial para visualizar de manera estructurada la relación entre las necesidades del negocio y las soluciones propuestas.
 
@@ -189,12 +203,14 @@ El siguiente Lean UX Canvas sintetiza los problemas, los segmentos de usuarios, 
 
 <p align="center">
   <img src="../assets/Chapter1/Graphics/LeanUXCanvas_Oficial.png" alt="Lean UX Canvas" width="800"><br>
-  <i>Nota: Lean UX Canvas del proyecto InstAlert, elaborado en Canva. Resume el problema, los segmentos de usuarios, las hipótesis y los resultados esperados.</i>
+  <i>Nota: Lean UX Canvas del proyecto InstAlert, elaborado en Figma. Resume el problema, los segmentos de usuarios, las hipótesis y los resultados esperados.</i>
 </p>
 
-A continuación, se presenta el enlace público de Canva del Lean UX Canvas del proyecto: <https://canva.link/n58mftoui937o2g>
+A continuación, se presenta el enlace público de Figma del Lean UX Canvas del proyecto: [Ver Lean UX Canvas en Figma](https://www.figma.com/board/Qbza1sCNy6SERgj6nfA1eA/Lean-UX-Canvas--v2----InstAlert?node-id=0-1&t=OWB59eKehE05IfsF-1)
 
-## 1.3. Segmentos objetivo
+El Lean UX Canvas expuesto anteriormente resume la estrategia fundamental de InstAlert. Como se observa, partimos del problema crítico de comunicación aislada entre comercios (*Business Problem*) para definir objetivos medibles de adopción y tiempos de alerta (*Business Outcomes*). A partir de esto, identificamos a nuestros usuarios principales y los beneficios que esperan (*User Outcomes & Benefits*), lo que nos permite plantear soluciones directas como el mapa de zonas de riesgo y notificaciones automáticas (*Solutions*). Finalmente, consolidamos estas premisas en hipótesis verificables y priorizamos nuestros experimentos (como la publicación de una *Landing Page* y entrevistas a dueños de negocios) para validar nuestras suposiciones de mayor riesgo con el menor esfuerzo posible.
+
+## 1.3. Segmentos objetivo.
 
 Para el desarrollo de InstAlert, se han definido dos segmentos clave que representan a los usuarios principales de la plataforma. Ambos enfrentan directamente la problemática de la inseguridad y requieren herramientas tecnológicas para la prevención colaborativa.
 
@@ -215,6 +231,9 @@ Personas responsables de la gestión y operación de establecimientos comerciale
 * **Perfil Comportamental:**
   - **Uso de tecnología:** Alta dependencia del smartphone como principal herramienta de acceso a la información y gestión básica del negocio.
 
+**Información estadística de sustento:**
+En 2024, el Perú registró 1 030 978 MIPYME formales del sector comercio, equivalentes al 44,2 % del total de MIPYME formales (PRODUCE, 2025, p. 24). Además, el INEI reportó que el 23,4 % de las empresas comerciales incluidas en su estudio fue víctima de algún delito durante 2023 (INEI, 2026, pp. 9–10). Estas cifras sustentan la relevancia del sector comercial y la necesidad de herramientas que apoyen la gestión de la seguridad en los negocios.
+
 **2. Segmento 2: Personal Operativo y Vendedores de Establecimientos**
 Trabajadores que realizan sus actividades directamente dentro o alrededor de los establecimientos comerciales, manteniendo contacto constante con clientes, productos y espacios expuestos a posibles situaciones de inseguridad. Necesitan herramientas que les permitan reportar incidentes de manera rápida, recibir alertas y solicitar ayuda cuando se encuentren frente a una situación de riesgo.
 
@@ -232,6 +251,9 @@ Trabajadores que realizan sus actividades directamente dentro o alrededor de los
 * **Perfil Comportamental:**
   - **Uso de tecnología:** Usuarios digitales nativos o muy familiarizados con dispositivos móviles inteligentes. 
   - **Reacción ante emergencias:** Requieren herramientas que no exijan concentración, priorizando la inmediatez (como un botón de alerta).
+
+**Información estadística de sustento:**
+En 2024, las MIPYME emplearon aproximadamente a 10,5 millones de personas, lo que representó el 89,1 % del empleo del sector privado (PRODUCE, 2025, pp. 13–14). Asimismo, el 96,1 % de las MIPYME formales declaró hasta cinco trabajadores (PRODUCE, 2025, p. 30). Estas cifras respaldan la importancia del personal de las MIPYME y el contexto de equipos pequeños en el que se desempeña el personal operativo.
 
 Para sustentar el dimensionamiento del mercado, la viabilidad tecnológica y la urgencia del problema que atiende InstAlert, nos respaldamos en las siguientes investigaciones académicas e institucionales:
 
