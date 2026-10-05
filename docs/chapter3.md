@@ -94,9 +94,9 @@ La gestión del Product Backlog se lleva a cabo mediante Jira Software.
 |---|---|---|---|---|
 | 1 | US25 | Consultar el detalle de una zona de riesgo | Como usuario, quiero consultar el detalle de una zona para conocer la información de riesgo disponible. | 3 |
 | 2 | US13 | Activar el botón de pánico | Como usuario, quiero activar el botón de pánico para avisar de una emergencia. | 3 |
-| 3 | US14 | Reportar una actividad sospechosa | Como usuario, quiero reportar una actividad sospechosa para compartir información sobre el entorno. | 2 |
-| 4 | US15 | Reportar un evento pasado | Como usuario, quiero reportar un evento que ya ocurrió para dejar constancia y compartir información. | 2 |
-| 5 | US16 | Reportar una condición de riesgo | Como usuario, quiero reportar una condición de riesgo para informar sobre peligros del entorno. | 2 |
+| 3 | US14 | Reportar una actividad sospechosa | Como usuario, quiero reportar una actividad sospechosa para compartir información sobre el entorno. | 1 |
+| 4 | US15 | Reportar un evento pasado | Como usuario, quiero reportar un evento que ya ocurrió para dejar constancia y compartir información. | 1 |
+| 5 | US16 | Reportar una condición de riesgo | Como usuario, quiero reportar una condición de riesgo para informar sobre peligros del entorno. | 1 |
 | 6 | TS-01 | Endpoint para registrar alertas e incidentes | Como desarrollador frontend, quiero endpoints para registrar alertas e incidentes en la aplicación.| 3 |
 | 7 | US21 | Consultar el mapa de calor | Como usuario, quiero consultar el mapa de calor para identificar zonas con mayor concentración de incidentes reportados. | 5 |
 | 8 | TS-04 | Endpoint para consultar el mapa de riesgo | Como desarrollador frontend, quiero endpoints para obtener los datos del mapa de calor y el detalle de una zona.| 3 |
@@ -114,21 +114,21 @@ La gestión del Product Backlog se lleva a cabo mediante Jira Software.
 | 20 | US33 | Consultar la propuesta de valor | Como visitante, quiero entender qué ofrece InstAlert para evaluar su utilidad para mi comercio. | 1 |
 | 21 | US05 | Invitar a un empleado | Como administrador, quiero invitar a un empleado para incorporarlo a mi comercio. | 5 |
 | 22 | US06 | Cancelar una invitación | Como administrador, quiero cancelar una invitación pendiente para detener su proceso de incorporación. | 2 |
-| 23 | US07 | Consultar empleados | Como administrador, quiero consultar la lista de empleados de mi comercio para conocer el estado de sus membresías. | 2 |
-| 24 | US08 | Activar o desactivar la membresía de un empleado | Como administrador, quiero activar o desactivar la membresía de un empleado para gestionar los cupos del plan y su relación con mi comercio. | 5 |
+| 23 | US07 | Consultar empleados | Como administrador, quiero consultar la lista de empleados de mi comercio para conocer el estado de sus membresías. | 1 |
+| 24 | US08 | Activar o desactivar la membresía de un empleado | Como administrador, quiero activar o desactivar la membresía de un empleado para gestionar los cupos del plan y su relación con mi comercio. | 3 |
 | 25 | US09 | Editar los datos de un empleado | Como administrador, quiero editar el nombre o correo de un empleado para corregir sus datos. | 2 |
 | 26 | US10 | Editar los datos del comercio | Como administrador, quiero editar los datos de mi comercio para mantenerlos actualizados. | 2 |
 | 27 | US11 | Consultar invitaciones | Como administrador, quiero consultar las invitaciones de mi comercio para conocer su estado. | 1 |
 | 28 | US12 | Reenviar una invitación pendiente | Como administrador, quiero reenviar una invitación pendiente para que el empleado pueda completar su incorporación. | 1 |
-| 29 | US19 | Consultar el historial de alertas | Como usuario, quiero consultar el historial para revisar alertas e incidentes anteriores. | 2 |
+| 29 | US19 | Consultar el historial de alertas | Como usuario, quiero consultar el historial para revisar alertas e incidentes anteriores. | 1 |
 | 30 | US30 | Añadir un contacto de emergencia | Como empleado, quiero añadir mis contactos de emergencia para tener disponible la información de las personas que elijo. | 2 |
 | 31 | TS-05 | Endpoints para gestionar contactos de emergencia | Como desarrollador frontend, quiero endpoints para consultar, agregar, editar y eliminar contactos de emergencia.| 3 |
 | 32 | US31 | Editar un contacto de emergencia | Como empleado, quiero editar mis contactos de emergencia para mantenerlos actualizados. | 1 |
 | 33 | US32 | Eliminar un contacto de emergencia | Como empleado, quiero eliminar un contacto de emergencia para mantener actualizada mi lista personal. | 1 |
 | 34 | US18 | Resolver una alerta cuando termina el peligro | Como usuario, quiero indicar que terminó el peligro para actualizar el estado de una alerta. | 2 |
 | 35 | US40 | Configurar el radio de recepción de alertas | Como usuario, quiero configurar el radio de recepción para definir el alcance de las alertas cercanas que se me muestran. | 2 |
-| 36 | US23 | Consultar el detalle de un incidente | Como usuario, quiero consultar el detalle de un incidente para conocer la información registrada. | 2 |
-| 37 | US24 | Filtrar el mapa | Como usuario, quiero filtrar la información del mapa para encontrar los reportes que me interesan. | 2 |
+| 36 | US23 | Consultar el detalle de un incidente | Como usuario, quiero consultar el detalle de un incidente para conocer la información registrada. | 1 |
+| 37 | US24 | Filtrar el mapa | Como usuario, quiero filtrar la información del mapa para encontrar los reportes que me interesan. | 1 |
 | 38 | US22 | Consultar incidentes por zona | Como usuario, quiero consultar los incidentes asociados a una zona para conocer los reportes de ese lugar. | 2 |
 | 39 | US34 | Comparar planes y precios | Como visitante, quiero comparar los planes, precios y capacidades para evaluar cuál se ajusta a mi comercio. | 2 |
 | 40 | US35 | Visualizar testimonios | Como visitante, quiero leer testimonios sobre InstAlert para conocer el contenido presentado en la página de aterrizaje. | 1 |
@@ -145,7 +145,7 @@ La gestión del Product Backlog se lleva a cabo mediante Jira Software.
 | 51 | US49 | Consultar el centro de ayuda | Como visitante, quiero consultar el centro de ayuda para resolver dudas sobre InstAlert. | 1 |
 | 52 | US50 | Revisar la privacidad y los términos del servicio | Como visitante, quiero consultar la política de privacidad y los términos del servicio para conocer las condiciones de uso de InstAlert. | 1 |
 | 53 | US41 | Consultar los cupos del plan | Como administrador, quiero consultar los cupos del plan de mi comercio para saber cuántos están ocupados, reservados y disponibles. | 2 |
-| 54 | US42 | Cambiar el plan de suscripción | Como administrador, quiero cambiar el plan de mi comercio para ajustar su capacidad de empleados a sus necesidades. | 5 |
+| 54 | US42 | Cambiar el plan de suscripción | Como administrador, quiero cambiar el plan de mi comercio para ajustar su capacidad de empleados a sus necesidades. | 2 |
 | 55 | US43 | Aceptar una invitación y completar el registro | Como empleado invitado, quiero aceptar la invitación y completar mi registro para incorporarme al comercio. | 3 |
 | 56 | US44 | Completar un reporte después de resolver una alerta | Como usuario, quiero completar el reporte de una alerta después de resolverla para registrar los detalles del incidente cuando haya terminado el peligro. | 2 |
-| 57 | US45 | Consultar el estado de la suscripción | Como administrador, quiero consultar el estado de la suscripción de mi comercio para conocer el plan vigente, su periodo y si la cancelación está programada. | 2 |
+| 57 | US45 | Consultar el estado de la suscripción | Como administrador, quiero consultar el estado de la suscripción de mi comercio para conocer el plan vigente, su periodo y si la cancelación está programada. | 1 |

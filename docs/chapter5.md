@@ -707,6 +707,102 @@ Para evidenciar el compromiso y la participación equitativa de todos los integr
   <img src="https://imgur.com/B0z7ABn.png" alt="Commit Histogram" width="500">
 </p>
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2.
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 28/09/2026 |
+| Time | 09:00 PM |
+| Location | Llamada por Google Meet |
+| Prepared By | José Gustavo Asto Jácome |
+| Attendees (to planning meeting) | José Gustavo Asto Jácome<br>Sebastián Víctor André Díaz Mendoza<br>Jean Fabio Noriega Collado<br>Yngrid Nahir Ruiz Villegas<br>Ismael Sebastián Simón Calderón |
+| Sprint 1 Review Summary | Durante el Sprint 1 se publicó la Landing Page y se completaron historias por 11 de los 13 puntos planificados. La US46 quedó en progreso y la US36 no se abordó porque aún no estaba configurada la URL de destino de la aplicación. |
+| Sprint 1 Retrospective Summary | El equipo consideró que la implementación y el despliegue de la Landing Page funcionaron según lo esperado. Los botones destinados a dirigir a los usuarios hacia la aplicación quedaron pendientes porque la página de destino todavía no existía; su configuración se retomaría cuando estuviera disponible. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | **Nuestro enfoque está en** entregar una primera versión funcional de la aplicación web para que administradores y personal operativo puedan gestionar información del comercio, reportar y consultar alertas, y revisar incidentes en el mapa; además, completar la redirección desde la Landing Page y el cambio de idioma.<br>**Creemos que esto aportará** una gestión más centralizada y oportuna de la seguridad de los comercios, con un acceso claro a la aplicación.<br>**Esto se confirmará cuando** los flujos priorizados cumplan sus criterios de aceptación durante la revisión del Sprint, usando la API simulada y comprobando los dos recorridos pendientes de la Landing Page. |
+| Sprint 2 Velocity | 20 puntos estimados inicialmente al planificar el Sprint |
+| Sum of Story Points | 42 puntos de historias de usuario |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+Para el Sprint 2 se presenta la matriz **Leadership-and-Collaboration Matrix (LACX)**, que define líderes (**L**) y colaboradores (**C**) para tres aspectos técnicos y funcionales del desarrollo frontend de InstAlert. La aplicación web está construida con **Vite y Vue** y utiliza una API simulada para las operaciones descritas; la Landing Page es estática.
+
+- **Integración Frontend–Backend:** consumo de endpoints de la API simulada, configuración de servicios HTTP y validación de la conexión desde la aplicación desarrollada con Vite y Vue.
+- **Gestión de Alertas (UI):** desarrollo de vistas y componentes Vue para reportar y consultar alertas, revisar incidentes y navegar el mapa de riesgos con sus filtros. Incluye los ajustes de navegación de la Landing Page relacionados con el acceso a la aplicación y el idioma.
+- **Gestión de Comercios y Personal:** desarrollo de vistas para consultar y administrar empleados, invitaciones y membresías, además de consultar cupos, suscripciones y contactos de emergencia del personal operativo.
+
+| **Team Member (Last Name, First Name)** | **Aspect: API Integration** | **Aspect: Alerts UI** | **Aspect: Commerce and Staff Management** |
+| --------------------------------------- | -------------------------- | --------------------- | ---------------------------------------- |
+| Asto Jácome, José Gustavo                | L                          | C                     | C                                        |
+| Díaz Mendoza, Sebastián Víctor André     | C                          | C                     | C                                        |
+| Noriega Collado, Jean Fabio              | C                          | L                     | C                                        |
+| Ruiz Villegas, Yngrid Nahir              | C                          | C                     | L                                        |
+| Simón Calderón, Ismael Sebastián         | C                          | C                     | C                                        |
+
+- **L** = Líder del aspecto
+- **C** = Colaborador en el aspecto
+
+La distribución asigna un responsable principal para cada aspecto y mantiene la colaboración entre los cinco integrantes. Los líderes coordinan el seguimiento de sus tareas y las revisiones funcionales correspondientes, mientras que los colaboradores apoyan la implementación y validación del Sprint Backlog.
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+El Sprint Backlog 2 comprende 24 historias de usuario, con una estimación total de 42 puntos. La siguiente tabla detalla sus identificadores, títulos, estimaciones y estados; la captura muestra su distribución en el tablero de Jira.
+
+| ID de Historia de Usuario | Título de Historia de Usuario | Puntos de Historia | Estado |
+| :--- | :--- | :---: | :--- |
+| US06 | Cancelar una invitación | 2 | Hecho |
+| US07 | Consultar empleados | 1 | Hecho |
+| US08 | Activar o desactivar la membresía de un empleado | 3 | Hecho |
+| US09 | Editar los datos de un empleado | 2 | Hecho |
+| US11 | Consultar invitaciones | 1 | Hecho |
+| US41 | Consultar los cupos del plan | 2 | Hecho |
+| US13 | Activar el botón de pánico | 3 | Hecho |
+| US14 | Reportar una actividad sospechosa | 1 | Hecho |
+| US15 | Reportar un evento pasado | 1 | Hecho |
+| US16 | Reportar una condición de riesgo | 1 | Hecho |
+| US19 | Consultar el historial de alertas | 1 | Hecho |
+| US44 | Completar un reporte después de resolver una alerta | 2 | Hecho |
+| US21 | Consultar el mapa de calor | 5 | Hecho |
+| US22 | Consultar incidentes por zona | 2 | Hecho |
+| US23 | Consultar el detalle de un incidente | 1 | Hecho |
+| US24 | Filtrar el mapa | 1 | Hecho |
+| US25 | Consultar el detalle de una zona de riesgo | 3 | Hecho |
+| US42 | Cambiar el plan de suscripción | 2 | Hecho |
+| US45 | Consultar el estado de la suscripción | 1 | Hecho |
+| US30 | Añadir un contacto de emergencia | 2 | Hecho |
+| US31 | Editar un contacto de emergencia | 1 | Hecho |
+| US32 | Eliminar un contacto de emergencia | 1 | Hecho |
+| US36 | Redirigirse a la aplicación | 1 | Hecho |
+| US46 | Cambiar el idioma de la página | 2 | Hecho |
+| **Total** |  | **42** | **24 historias completadas** |
+
+<p align="center">
+  <img src="../assets/Chapter5/jira-sprint-2.png" alt="Captura del tablero de Jira del Sprint 2" width="800">
+</p>
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+Las siguientes confirmaciones corresponden a cambios representativos implementados en el repositorio frontend durante el Sprint 2. Se incluyen ramas integradas a `develop` y commits asociados a los bounded contexts trabajados.
+
+| Repositorio | Rama | ID de confirmación | Mensaje de confirmación | Descripción del cambio | Confirmado en (fecha) |
+| :--- | :--- | :--- | :--- | :--- | :---: |
+| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/alerts` → `develop` | `f067530` | `feat(alerts): implement reporting and history views` | Se implementaron las vistas de reporte de alertas y consulta del historial para el personal operativo. | 03/10/2026 |
+| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/mapping` → `develop` | `4103cec` | `feat(mapping): filter incidents by category and show selection` | Se añadió el filtrado de incidentes por categoría y la visualización de los filtros seleccionados en el mapa de riesgos. | 03/10/2026 |
+| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/business` → `develop` | `ff05cc0` | `feat(business): manage staff and invitations with seat limits` | Se incorporó la gestión de empleados e invitaciones considerando los límites de cupos del plan. | 04/10/2026 |
+| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/payments` → `develop` | `084d292` | `feat(payments): add subscription views and UI components` | Se agregaron la vista de suscripción y los componentes para mostrar planes y el resumen de la suscripción. | 02/10/2026 |
+| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/contacts` → `develop` | `557b75b` | `feat(contacts): add emergency contact creation and editing form` | Se implementó el formulario para crear y editar contactos de emergencia. | 04/10/2026 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
 # Conclusiones
 
 ## AV1
