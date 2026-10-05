@@ -1046,5 +1046,5 @@ En consecuencia, las funcionalidades implementadas permiten demostrar y continua
 **3. Recomendaciones para la siguiente etapa:**
 
 - Implementar e integrar los Web Services previstos con ASP.NET Core, persistencia relacional y documentación OpenAPI, reemplazando gradualmente la API simulada.
-- Ejecutar un piloto con comercios y personal operativo para medir la identificación del tipo de incidente, la consulta semanal del mapa, el tiempo de entrega de alertas y la proporción de reportes completados.
+
 - Evaluar con los comercios la utilidad de la información recibida, la confianza en los reportes y la disposición a mantener una suscripción, antes de concluir que las hipótesis de negocio y adopción se han confirmado.
