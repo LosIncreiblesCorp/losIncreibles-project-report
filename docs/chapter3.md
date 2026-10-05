@@ -84,7 +84,7 @@ A continuación, se presenta la vista panorámica del modelo completo:
 
 ## 3.3. Product Backlog.
 
-La siguiente tabla presenta una propuesta de priorización del Product Backlog de InstAlert, considerando el valor de las funcionalidades principales y su relación con los flujos del producto. El orden es una estimación inicial para revisión del equipo.
+La siguiente tabla presenta una propuesta de priorización del Product Backlog de InstAlert, considerando el valor de las funcionalidades principales y su relación con los flujos del producto.
 
 Los puntos de historia se estiman con la secuencia de Fibonacci (1, 2, 3, 5 y 8). La mayoría de las historias se estima entre 1 y 3 puntos; los 5 puntos se reservan para los flujos de mayor complejidad. Estas estimaciones deben validarse durante la planificación del equipo. La tabla incluye 50 historias de usuario (US) y 7 historias técnicas de API (TS), con numeraciones independientes.
 
