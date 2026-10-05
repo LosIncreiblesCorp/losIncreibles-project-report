@@ -185,6 +185,102 @@ Integración en <code>develop</code> de las ramas <code>feature/Introduction</co
 Versión propuesta para la entrega AV1: Project Report consolidado, Landing Page del Sprint 1, artefactos de Requirements Elicitation, Requirements Specification, Product Design, arquitectura y evidencias de colaboración. Esta versión se considerará publicada cuando el contenido consolidado sea enviado a <code>main</code>.
 </td>
 </tr>
+<tr>
+<td align="center">1.0.1</td>
+<td align="center">29/09/2026</td>
+<td>Jean Noriega (<code>@dumbaskidd</code>)</td>
+<td>
+Traducción y revisión terminológica al español de los Capítulos I–V, manteniendo los términos técnicos necesarios para el curso.
+</td>
+</tr>
+<tr>
+<td align="center">1.0.2</td>
+<td align="center">30/09/2026</td>
+<td>Jean Noriega (<code>@dumbaskidd</code>)</td>
+<td>
+Alineación de los títulos y la estructura de las secciones del informe con el enunciado y la rúbrica del trabajo final.
+</td>
+</tr>
+<tr>
+<td align="center">1.0.3</td>
+<td align="center">01/10/2026</td>
+<td>Jose Asto (<code>@DhudsQ</code>)</td>
+<td>
+Revisión de los supuestos e hipótesis Lean UX y ampliación de la información sobre los segmentos objetivo del producto.
+</td>
+</tr>
+<tr>
+<td align="center">1.0.4</td>
+<td align="center">01/10/2026</td>
+<td>Jean Noriega (<code>@dumbaskidd</code>)<br>Jose Asto (<code>@DhudsQ</code>)</td>
+<td>
+Actualización del Lean UX Canvas y sus referencias, junto con la incorporación de nuevas fuentes académicas a la bibliografía.
+</td>
+</tr>
+<tr>
+<td align="center">1.0.5</td>
+<td align="center">01/10/2026</td>
+<td>Jean Noriega (<code>@dumbaskidd</code>)</td>
+<td>
+Ampliación de los resúmenes de entrevistas con información sobre dispositivos y navegadores, y actualización de los enlaces de evidencia.
+</td>
+</tr>
+<tr>
+<td align="center">1.0.6</td>
+<td align="center">02/10/2026</td>
+<td>Jose Asto (<code>@DhudsQ</code>)</td>
+<td>
+Adición y revisión de historias de usuario e historias técnicas; actualización y reorganización del Product Backlog.
+</td>
+</tr>
+<tr>
+<td align="center">1.0.7</td>
+<td align="center">02/10–03/10/2026</td>
+<td>Jose Asto (<code>@DhudsQ</code>)<br>Jean Noriega (<code>@dumbaskidd</code>)</td>
+<td>
+Actualización de User Personas, Big Picture EventStorming y diagramas de arquitectura C4, además de ajustes a los diagramas de clases.
+</td>
+</tr>
+<tr>
+<td align="center">1.0.8</td>
+<td align="center">03/10/2026</td>
+<td>Yngrid Ruiz (<code>@nahiryn8</code>)<br>Jose Asto (<code>@DhudsQ</code>)</td>
+<td>
+Incorporación de registros y análisis cualitativo de entrevistas; revisión y traducción del Ubiquitous Language para mantener consistencia en los conceptos del dominio.
+</td>
+</tr>
+<tr>
+<td align="center">1.0.9</td>
+<td align="center">03/10/2026</td>
+<td>Víctor Díaz (<code>@DiazDeveloper</code>)<br>Jose Asto (<code>@DhudsQ</code>)</td>
+<td>
+En el <a href="https://github.com/LosIncreiblesCorp/Instalert-FrontEnd">repositorio de la aplicación</a>, Víctor Díaz creó la rama <code>feature/alerts</code> y aportó el commit inicial del módulo Alerts (<code>9a6d17c</code>). Luego, Jose Asto amplió los flujos de pánico, reportes e historial, conectó los endpoints y fusionó la rama a <code>develop</code> (<code>67aa7bd</code>).
+</td>
+</tr>
+<tr>
+<td align="center">1.0.10</td>
+<td align="center">04/10/2026</td>
+<td>Yngrid Ruiz (<code>@nahiryn8</code>)<br>Jose Asto (<code>@DhudsQ</code>)</td>
+<td>
+Actualización de los diagramas de User Flow y Wireflow, los diagramas de clases del frontend y las rutas de recursos visuales del Capítulo IV.
+</td>
+</tr>
+<tr>
+<td align="center">1.0.11</td>
+<td align="center">05/10/2026</td>
+<td>Jose Asto (<code>@DhudsQ</code>)<br>Jean Noriega (<code>@dumbaskidd</code>)<br>Ismael Simon (<code>@Mayel-dev</code>)<br>Víctor Díaz (<code>@DiazDeveloper</code>)</td>
+<td>
+Consolidación de evidencias de Sprint 2, backlog e Impact Mapping, actualización de entrevistas y anexos, y reemplazo de wireframes y mock-ups por sus versiones en inglés. También se redujeron las imágenes de tecnologías del entorno de desarrollo.
+</td>
+</tr>
+<tr>
+<td align="center">2.0.0</td>
+<td align="center">05/10/2026</td>
+<td>Todos los integrantes</td>
+<td>
+Versión consolidada del Project Report para TB1: actualización de los Capítulos I–V, evidencias de implementación y despliegue del Sprint 2, requisitos y diseño revisados, y documentación del módulo Alerts desarrollado para la aplicación. Versión preparada para la entrega TB1; se considerará publicada al integrar el entregable en <code>main</code>.
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -226,7 +322,7 @@ Pendiente de insertar la captura de GitHub Insights después del push de la vers
 
 Durante la elaboración del informe se trabajó con una rama principal de integración y ramas `feature` asociadas a cada capítulo. Se utilizaron `feature/Introduction`, `feature/Chapter1`, `feature/Chapter2`, `feature/Chapter3`, `feature/Chapter4` y `feature/Chapter5` para desarrollar los contenidos de forma independiente. Posteriormente, estas ramas fueron integradas en `develop`, donde se consolidó la versión correspondiente al avance AV1.
 
-El registro de versiones del informe representa esta evolución desde `0.0.1`, correspondiente a la inicialización del repositorio, hasta `1.0.0`, propuesta como versión consolidada de AV1. La versión `1.0.0` quedará formalmente publicada cuando el contenido final sea enviado a `main`.
+El registro de versiones del informe representa su evolución desde `0.0.1`, correspondiente a la inicialización del repositorio, hasta `1.0.0`, propuesta para AV1, y `2.0.0`, preparada para TB1. Cada versión resume cambios relevantes del informe y del producto que se evidencian en el repositorio. La versión `2.0.0` quedará formalmente publicada al integrar el entregable en `main`.
 
 Este gráfico mostrará la evolución de las ramas, los puntos de integración y la relación entre los avances documentales y las versiones del Project Report.
 
