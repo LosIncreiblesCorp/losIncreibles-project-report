@@ -474,6 +474,7 @@ En el siguiente cuadro se describen las acciones realizadas por entrega y las co
 </td>
 <td valign="top">
 <strong>AV1:</strong> La distribución de responsabilidades permitió que cada integrante asumiera liderazgo sobre componentes específicos del proyecto sin perder la visión conjunta de InstAlert. La división del trabajo entre investigación, especificación de requisitos, diseño, documentación e implementación de la Landing Page permitió desarrollar actividades en paralelo y posteriormente consolidarlas en un único producto. El uso de ramas independientes y su posterior integración evidenció una dinámica de liderazgo compartido orientada al cumplimiento de los objetivos de la primera entrega.
+<br><br><strong>TB1:</strong> En la segunda entrega, el equipo distribuyó el liderazgo entre la integración de los módulos, el desarrollo de alertas y del mapa de riesgo, la gestión de comercios, personal y pagos, y la construcción de una estructura compartida para la aplicación. La coordinación de estos aportes permitió conectar las funcionalidades en un producto común y avanzar en los objetivos del Sprint 2.
 
 </td>
 </tr>
@@ -501,6 +502,7 @@ En el siguiente cuadro se describen las acciones realizadas por entrega y las co
 </td>
 <td valign="top">
 <strong>AV1:</strong> Durante la primera entrega, el equipo organizó el trabajo mediante responsabilidades diferenciadas, ramas de desarrollo y contribuciones distribuidas tanto en el Project Report como en la Landing Page. La utilización de GitHub, GitFlow y commits trazables permitió desarrollar tareas en paralelo, revisar los aportes realizados y consolidarlos posteriormente en versiones integradas. Esta dinámica permitió cumplir el objetivo de AV1 al contar con la documentación correspondiente al Sprint 1 y una primera versión funcional y desplegada de la Landing Page de InstAlert.
+<br><br><strong>TB1:</strong> Para el Sprint 2, el equipo trabajó sobre metas compartidas y coordinó la implementación de los módulos de alertas, mapa de riesgo, comercios, personal, contactos, pagos y suscripciones. La actualización de requisitos, flujos de usuario y documentación, junto con la integración y revisión de las funcionalidades, permitió dar seguimiento a las tareas y reunir evidencias del avance y despliegue de la aplicación.
 
 </td>
 </tr>
