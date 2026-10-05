@@ -188,7 +188,7 @@ Versión propuesta para la entrega AV1: Project Report consolidado, Landing Page
 <tr>
 <td align="center">1.0.1</td>
 <td align="center">29/09/2026</td>
-<td>Jean Noriega (<code>@dumbaskidd</code>)</td>
+<td>Jean Noriega</td>
 <td>
 Traducción y revisión terminológica al español de los Capítulos I–V, manteniendo los términos técnicos necesarios para el curso.
 </td>
@@ -196,7 +196,7 @@ Traducción y revisión terminológica al español de los Capítulos I–V, mant
 <tr>
 <td align="center">1.0.2</td>
 <td align="center">30/09/2026</td>
-<td>Jean Noriega (<code>@dumbaskidd</code>)</td>
+<td>Jean Noriega</td>
 <td>
 Alineación de los títulos y la estructura de las secciones del informe con el enunciado y la rúbrica del trabajo final.
 </td>
@@ -204,7 +204,7 @@ Alineación de los títulos y la estructura de las secciones del informe con el 
 <tr>
 <td align="center">1.0.3</td>
 <td align="center">01/10/2026</td>
-<td>Jose Asto (<code>@DhudsQ</code>)</td>
+<td>Jose Asto</td>
 <td>
 Revisión de los supuestos e hipótesis Lean UX y ampliación de la información sobre los segmentos objetivo del producto.
 </td>
@@ -212,7 +212,7 @@ Revisión de los supuestos e hipótesis Lean UX y ampliación de la información
 <tr>
 <td align="center">1.0.4</td>
 <td align="center">01/10/2026</td>
-<td>Jean Noriega (<code>@dumbaskidd</code>)<br>Jose Asto (<code>@DhudsQ</code>)</td>
+<td>Jean Noriega<br>Jose Asto</td>
 <td>
 Actualización del Lean UX Canvas y sus referencias, junto con la incorporación de nuevas fuentes académicas a la bibliografía.
 </td>
@@ -220,7 +220,7 @@ Actualización del Lean UX Canvas y sus referencias, junto con la incorporación
 <tr>
 <td align="center">1.0.5</td>
 <td align="center">01/10/2026</td>
-<td>Jean Noriega (<code>@dumbaskidd</code>)</td>
+<td>Jean Noriega</td>
 <td>
 Ampliación de los resúmenes de entrevistas con información sobre dispositivos y navegadores, y actualización de los enlaces de evidencia.
 </td>
@@ -228,7 +228,7 @@ Ampliación de los resúmenes de entrevistas con información sobre dispositivos
 <tr>
 <td align="center">1.0.6</td>
 <td align="center">02/10/2026</td>
-<td>Jose Asto (<code>@DhudsQ</code>)</td>
+<td>Jose Asto</td>
 <td>
 Adición y revisión de historias de usuario e historias técnicas; actualización y reorganización del Product Backlog.
 </td>
@@ -236,7 +236,7 @@ Adición y revisión de historias de usuario e historias técnicas; actualizaci�
 <tr>
 <td align="center">1.0.7</td>
 <td align="center">02/10–03/10/2026</td>
-<td>Jose Asto (<code>@DhudsQ</code>)<br>Jean Noriega (<code>@dumbaskidd</code>)</td>
+<td>Jose Asto<br>Jean Noriega</td>
 <td>
 Actualización de User Personas, Big Picture EventStorming y diagramas de arquitectura C4, además de ajustes a los diagramas de clases.
 </td>
@@ -244,7 +244,7 @@ Actualización de User Personas, Big Picture EventStorming y diagramas de arquit
 <tr>
 <td align="center">1.0.8</td>
 <td align="center">03/10/2026</td>
-<td>Yngrid Ruiz (<code>@nahiryn8</code>)<br>Jose Asto (<code>@DhudsQ</code>)</td>
+<td>Yngrid Ruiz<br>Jose Asto</td>
 <td>
 Incorporación de registros y análisis cualitativo de entrevistas; revisión y traducción del Ubiquitous Language para mantener consistencia en los conceptos del dominio.
 </td>
@@ -252,7 +252,7 @@ Incorporación de registros y análisis cualitativo de entrevistas; revisión y 
 <tr>
 <td align="center">1.0.9</td>
 <td align="center">03/10/2026</td>
-<td>Víctor Díaz (<code>@DiazDeveloper</code>)<br>Jose Asto (<code>@DhudsQ</code>)</td>
+<td>Víctor Díaz<br>Jose Asto</td>
 <td>
 En el <a href="https://github.com/LosIncreiblesCorp/Instalert-FrontEnd">repositorio de la aplicación</a>, Víctor Díaz creó la rama <code>feature/alerts</code> y aportó el commit inicial del módulo Alerts (<code>9a6d17c</code>). Luego, Jose Asto amplió los flujos de pánico, reportes e historial, conectó los endpoints y fusionó la rama a <code>develop</code> (<code>67aa7bd</code>).
 </td>
@@ -260,7 +260,7 @@ En el <a href="https://github.com/LosIncreiblesCorp/Instalert-FrontEnd">reposito
 <tr>
 <td align="center">1.0.10</td>
 <td align="center">04/10/2026</td>
-<td>Yngrid Ruiz (<code>@nahiryn8</code>)<br>Jose Asto (<code>@DhudsQ</code>)</td>
+<td>Yngrid Ruiz<br>Jose Asto</td>
 <td>
 Actualización de los diagramas de User Flow y Wireflow, los diagramas de clases del frontend y las rutas de recursos visuales del Capítulo IV.
 </td>
@@ -268,7 +268,7 @@ Actualización de los diagramas de User Flow y Wireflow, los diagramas de clases
 <tr>
 <td align="center">1.0.11</td>
 <td align="center">05/10/2026</td>
-<td>Jose Asto (<code>@DhudsQ</code>)<br>Jean Noriega (<code>@dumbaskidd</code>)<br>Ismael Simon (<code>@Mayel-dev</code>)<br>Víctor Díaz (<code>@DiazDeveloper</code>)</td>
+<td>Jose Asto<br>Jean Noriega<br>Ismael Simon<br>Víctor Díaz</td>
 <td>
 Consolidación de evidencias de Sprint 2, backlog e Impact Mapping, actualización de entrevistas y anexos, y reemplazo de wireframes y mock-ups por sus versiones en inglés. También se redujeron las imágenes de tecnologías del entorno de desarrollo.
 </td>
@@ -337,85 +337,94 @@ Pendiente de insertar la captura del historial de ramas y commits después del p
 
 # Contenido
 
-- [CAPÍTULO I: INTRODUCCIÓN](docs/capitulo1.md#capítulo-i-introducción)
-  - [1.1. Startup Profile](docs/capitulo1.md#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](docs/capitulo1.md#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](docs/capitulo1.md#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](docs/capitulo1.md#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](docs/capitulo1.md#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](docs/capitulo1.md#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](docs/capitulo1.md#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](docs/capitulo1.md#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](docs/capitulo1.md#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](docs/capitulo1.md#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](docs/capitulo1.md#13-segmentos-objetivo)
+- [CAPÍTULO I: INTRODUCCIÓN](docs/chapter1.md#capítulo-i-introducción)
+  - [1.1. Startup Profile](docs/chapter1.md#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](docs/chapter1.md#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](docs/chapter1.md#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](docs/chapter1.md#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](docs/chapter1.md#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](docs/chapter1.md#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](docs/chapter1.md#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](docs/chapter1.md#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](docs/chapter1.md#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](docs/chapter1.md#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](docs/chapter1.md#13-segmentos-objetivo)
 
-- [CAPÍTULO II: REQUIREMENTS ELICITATION & ANALYSIS](docs/capitulo2.md#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](docs/capitulo2.md#21-competidores)
-    - [2.1.1. Análisis competitivo](docs/capitulo2.md#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](docs/capitulo2.md#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](docs/capitulo2.md#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](docs/capitulo2.md#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](docs/capitulo2.md#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](docs/capitulo2.md#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](docs/capitulo2.md#23-needfinding)
-    - [2.3.1. User Personas](docs/capitulo2.md#231-user-personas)
-    - [2.3.2. User Task Matrix](docs/capitulo2.md#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](docs/capitulo2.md#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](docs/capitulo2.md#234-empathy-mapping)
-  - [2.4. Big Picture EventStorming](docs/capitulo2.md#24-big-picture-eventstorming)
-  - [2.5. Ubiquitous Language](docs/capitulo2.md#25-ubiquitous-language)
+- [CAPÍTULO II: REQUIREMENTS ELICITATION & ANALYSIS](docs/chapter2.md#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](docs/chapter2.md#21-competidores)
+    - [2.1.1. Análisis competitivo](docs/chapter2.md#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](docs/chapter2.md#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](docs/chapter2.md#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](docs/chapter2.md#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](docs/chapter2.md#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](docs/chapter2.md#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](docs/chapter2.md#23-needfinding)
+    - [2.3.1. User Personas](docs/chapter2.md#231-user-personas)
+    - [2.3.2. User Task Matrix](docs/chapter2.md#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](docs/chapter2.md#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](docs/chapter2.md#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming](docs/chapter2.md#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](docs/chapter2.md#25-ubiquitous-language)
 
-- [CAPÍTULO III: REQUIREMENTS SPECIFICATION](docs/capitulo3.md#capítulo-iii-requirements-specification)
-  - [3.1. User Stories](docs/capitulo3.md#31-user-stories)
-  - [3.2. Impact Mapping](docs/capitulo3.md#32-impact-mapping)
-  - [3.3. Product Backlog](docs/capitulo3.md#33-product-backlog)
+- [CAPÍTULO III: REQUIREMENTS SPECIFICATION](docs/chapter3.md#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](docs/chapter3.md#31-user-stories)
+  - [3.2. Impact Mapping](docs/chapter3.md#32-impact-mapping)
+  - [3.3. Product Backlog](docs/chapter3.md#33-product-backlog)
 
-- [CAPÍTULO IV: PRODUCT DESIGN](docs/capitulo4.md#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](docs/capitulo4.md#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](docs/capitulo4.md#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](docs/capitulo4.md#412-web-style-guidelines)
-  - [4.2. Information Architecture](docs/capitulo4.md#42-information-architecture)
-    - [4.2.1. Organization Systems](docs/capitulo4.md#421-organization-systems)
-    - [4.2.2. Labeling Systems](docs/capitulo4.md#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](docs/capitulo4.md#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](docs/capitulo4.md#424-searching-systems)
-    - [4.2.5. Navigation Systems](docs/capitulo4.md#425-navigation-systems)
-  - [4.3. Landing Page UI Design](docs/capitulo4.md#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](docs/capitulo4.md#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](docs/capitulo4.md#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design](docs/capitulo4.md#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](docs/capitulo4.md#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](docs/capitulo4.md#442-web-applications-wireflow-diagrams)
-    - [4.4.3. Web Applications Mock-ups](docs/capitulo4.md#443-web-applications-mock-ups)
-    - [4.4.4. Web Applications User Flow Diagrams](docs/capitulo4.md#444-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](docs/capitulo4.md#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](docs/capitulo4.md#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level EventStorming](docs/capitulo4.md#461-design-level-eventstorming)
-    - [4.6.2. Software Architecture Context Diagram](docs/capitulo4.md#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams](docs/capitulo4.md#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams](docs/capitulo4.md#464-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design](docs/capitulo4.md#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](docs/capitulo4.md#471-class-diagrams)
-  - [4.8. Database Design](docs/capitulo4.md#48-database-design)
-    - [4.8.1. Database Diagrams](docs/capitulo4.md#481-database-diagrams)
+- [CAPÍTULO IV: PRODUCT DESIGN](docs/chapter4.md#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](docs/chapter4.md#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](docs/chapter4.md#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](docs/chapter4.md#412-web-style-guidelines)
+  - [4.2. Information Architecture](docs/chapter4.md#42-information-architecture)
+    - [4.2.1. Organization Systems](docs/chapter4.md#421-organization-systems)
+    - [4.2.2. Labeling Systems](docs/chapter4.md#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](docs/chapter4.md#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](docs/chapter4.md#424-searching-systems)
+    - [4.2.5. Navigation Systems](docs/chapter4.md#425-navigation-systems)
+  - [4.3. Landing Page UI Design](docs/chapter4.md#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](docs/chapter4.md#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](docs/chapter4.md#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](docs/chapter4.md#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](docs/chapter4.md#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](docs/chapter4.md#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](docs/chapter4.md#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](docs/chapter4.md#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](docs/chapter4.md#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](docs/chapter4.md#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](docs/chapter4.md#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](docs/chapter4.md#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](docs/chapter4.md#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](docs/chapter4.md#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](docs/chapter4.md#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](docs/chapter4.md#471-class-diagrams)
+  - [4.8. Database Design](docs/chapter4.md#48-database-design)
+    - [4.8.1. Database Diagrams](docs/chapter4.md#481-database-diagrams)
 
-- [CAPÍTULO V: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT](docs/capitulo5.md#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](docs/capitulo5.md#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](docs/capitulo5.md#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](docs/capitulo5.md#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](docs/capitulo5.md#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](docs/capitulo5.md#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](docs/capitulo5.md#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](docs/capitulo5.md#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](docs/capitulo5.md#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators](docs/capitulo5.md#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog 1](docs/capitulo5.md#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review](docs/capitulo5.md#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](docs/capitulo5.md#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](docs/capitulo5.md#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](docs/capitulo5.md#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](docs/capitulo5.md#5218-team-collaboration-insights-during-sprint)
+- [CAPÍTULO V: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT](docs/chapter5.md#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](docs/chapter5.md#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](docs/chapter5.md#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](docs/chapter5.md#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](docs/chapter5.md#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](docs/chapter5.md#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](docs/chapter5.md#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](docs/chapter5.md#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](docs/chapter5.md#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](docs/chapter5.md#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](docs/chapter5.md#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](docs/chapter5.md#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](docs/chapter5.md#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](docs/chapter5.md#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](docs/chapter5.md#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](docs/chapter5.md#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](docs/chapter5.md#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](docs/chapter5.md#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](docs/chapter5.md#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](docs/chapter5.md#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](docs/chapter5.md#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](docs/chapter5.md#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](docs/chapter5.md#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](docs/chapter5.md#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](docs/chapter5.md#5228-team-collaboration-insights-during-sprint)
 
 # Conclusiones
 
