@@ -19,7 +19,7 @@
     <strong>8084</strong>
   </p>
 
-  <h3><strong>Informe del Trabajo Final</strong></h3>
+  <h3><strong>Informe del Trabajo Parcial</strong></h3>
 
   <p>
     Docente<br>
