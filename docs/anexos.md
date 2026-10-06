@@ -4,7 +4,7 @@
 
 * Enlace de Exposición AV1: [Ver video de la exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDKy1P_7vjFSKC9Q1r7TBw5AZHoo-qmaGEIEixjJACx8tI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VnvfnY)
 
-* Enlace de Exposición TB1: Pendiente de incorporar
+* Enlace de Exposición TB1: [Ver video de la exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDSBUMvYZIURrQp7VUpTYUTAWImKBYAwEZHep-hC5xyS0E?e=SYjToN)
 
 
 
