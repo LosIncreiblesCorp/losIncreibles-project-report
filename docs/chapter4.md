@@ -1563,9 +1563,9 @@ Nota: Clases backend del bounded context Dashboard.
 
 ### 4.8.1. Database Diagrams
 
-El diseño de base de datos corresponde a un modelo relacional implementable en MySQL. Las tablas están agrupadas visualmente por bounded context y utilizan nombres en inglés con `snake_case`. El esquema aplica las tres primeras formas normales: cada columna contiene un valor atómico, las tablas representan una sola responsabilidad y los atributos no clave dependen de la clave primaria de su tabla.
+El diseño de base de datos corresponde a un modelo relacional implementable en MySQL. Las tablas están agrupadas visualmente por bounded context y utilizan nombres en inglés con `snake_case`. Las tablas transaccionales siguen las tres primeras formas normales; Dashboard mantiene proyecciones de lectura derivadas y desnormalizadas, además de instantáneas de reportes mensuales, para consultar indicadores sin modificar los datos de origen.
 
-Las relaciones entre bounded contexts se representan mediante identificadores, sin duplicar la información propietaria de otro contexto. `Shared` no se incluye porque no contiene datos propios del negocio. El esquema contempla siete contextos de negocio.
+Las relaciones entre bounded contexts se representan mediante identificadores, sin duplicar la información propietaria de otro contexto. En la vista completa, `REF` identifica esas referencias lógicas; las relaciones con claves foráneas dentro de cada contexto se muestran en sus diagramas individuales. `Shared` no se incluye porque no contiene datos propios del negocio. El esquema contempla los nueve bounded contexts de negocio: IAM, Profiles, Business, Alert, Contacts, Notifications, Payments, Mapping y Dashboard.
 
 **Diagrama relacional completo**
 
@@ -1576,16 +1576,25 @@ Nota: Diagrama relacional completo de InstAlert, agrupado por bounded context.
 
 **IAM**
 
-La persistencia de IAM se centra en `users`, que almacena la identidad, las credenciales protegidas, los datos personales y el estado de la cuenta. Los demás contextos referencian al usuario mediante su identificador, sin duplicar sus datos personales.
+La tabla `users` pertenece a IAM y almacena la identidad de acceso, el correo, las credenciales protegidas y el estado de la cuenta. Los datos personales se mantienen en Profiles; los demás contextos referencian al usuario mediante su identificador.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/iam.svg" alt="Diagrama de base de datos de IAM" width="850"><br>
 Nota: Tabla del bounded context IAM.
 </p>
 
+**Profiles**
+
+Profiles conserva los datos personales del usuario en `user_profiles`, incluidos nombres, DNI y teléfono opcional. `user_preferences` guarda preferencias generales, como el idioma de la aplicación. Ambas tablas se identifican con el `user_id` de IAM; Profiles no almacena credenciales ni administra el acceso.
+
+<p align="center">
+<img src="../assets/Chapter4/database-diagrams/profiles.svg" alt="Diagrama de base de datos de Profiles" width="850"><br>
+Nota: Tablas del bounded context Profiles.
+</p>
+
 **Business**
 
-Business contiene `businesses`, `business_members` y `staff_invitations`. Las membresías relacionan usuarios con comercios y almacenan el rol que tiene cada usuario dentro de cada comercio. Las invitaciones pendientes reservan un cupo de empleado; el límite disponible depende del plan administrado por Payments.
+Business contiene `businesses`, `business_members` y `staff_invitations`. Las membresías relacionan usuarios con comercios y almacenan el rol y estado de cada relación. Las membresías operativas activas y las invitaciones pendientes reservan cupos; el administrador no consume uno. Payments proporciona el límite del plan y Business valida su disponibilidad.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/business.svg" alt="Diagrama de base de datos de Business" width="850"><br>
@@ -1594,7 +1603,7 @@ Nota: Tablas del bounded context Business.
 
 **Alert**
 
-Alert contiene `alerts`, `incident_reports` y `alert_preferences`. La alerta conserva su ciclo de vida; el reporte asociado guarda los detalles del incidente y mantiene un estado propio. Los contactos de emergencia y las notificaciones recibidas pertenecen a sus contextos independientes.
+Alert contiene `alerts` e `incident_reports`. La alerta conserva su ciclo de vida y el reporte asociado guarda los detalles del incidente y mantiene un estado propio. Los contactos de emergencia y las preferencias, registros y entregas de notificaciones pertenecen a Contacts y Notifications, respectivamente.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/alert.svg" alt="Diagrama de base de datos de Alert" width="850"><br>
@@ -1603,7 +1612,7 @@ Nota: Tablas del bounded context Alert.
 
 **Contacts**
 
-Contacts contiene `emergency_contacts`, con los contactos asociados a una membresía del personal operativo. Cada contacto se almacena en su propia fila y referencia a `business_members` mediante un identificador; así, un miembro puede registrar varios contactos sin agruparlos en columnas repetidas.
+Contacts contiene `emergency_contacts`, con los contactos de emergencia asociados al personal operativo mediante el identificador de usuario. Cada contacto se almacena en su propia fila, de modo que una persona puede registrar varios contactos sin agruparlos en columnas repetidas.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/contacts.svg" alt="Diagrama de base de datos de Contacts" width="850"><br>
@@ -1612,7 +1621,7 @@ Nota: Tabla del bounded context Contacts.
 
 **Notifications**
 
-Notifications contiene `notification_preferences` y `notifications`. La primera guarda las preferencias de cada usuario, como la recepción de avisos dentro de la aplicación y el radio de alertas cercanas. La segunda registra cada aviso recibido por su destinatario, incluyendo su tipo, contenido y fecha de creación. `read_at` permanece nulo mientras el aviso no se haya marcado como leído, y `source_alert_id` puede referenciar una alerta relacionada sin trasladar su propiedad desde Alert. De esta forma, las preferencias y la bandeja de notificaciones se mantienen separadas.
+Notifications contiene `notification_preferences`, `notifications` y `notification_deliveries`. Las preferencias registran la recepción de avisos y el radio para alertas cercanas. `notifications` guarda el destinatario, contenido, fecha y estado de lectura; `source_alert_id` referencia la alerta de origen sin trasladar su propiedad desde Alert. `notification_deliveries` conserva el canal y resultado de cada entrega.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/notifications.svg" alt="Diagrama de base de datos de Notifications" width="850"><br>
@@ -1621,7 +1630,7 @@ Nota: Tablas del bounded context Notifications.
 
 **Payments**
 
-Payments contiene los planes, las suscripciones, los medios de pago tokenizados y las transacciones. Las suscripciones se relacionan con un comercio mediante `business_id`; los planes definen límites de 4, 8 y 15 empleados. Las transacciones conservan el importe y la moneda de cada operación. Se almacenan referencias del proveedor y datos enmascarados del medio de pago, no el número completo ni el código de seguridad de una tarjeta.
+Payments contiene los planes, las suscripciones y las transacciones. Las suscripciones se relacionan con un comercio mediante `business_id`; los planes definen límites de 4, 8 y 15 empleados. Las transacciones conservan el importe, la moneda y las referencias de operación del proveedor.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/payments.svg" alt="Diagrama de base de datos de Payments" width="850"><br>
@@ -1635,4 +1644,13 @@ Mapping contiene las zonas de riesgo, las proyecciones de incidentes y las ubica
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/mapping.svg" alt="Diagrama de base de datos de Mapping" width="850"><br>
 Nota: Tablas del bounded context Mapping.
+</p>
+
+**Dashboard**
+
+Dashboard contiene proyecciones de lectura para los dos perfiles y modela la conservación de reportes mensuales solicitados por el administrador. Para este reúne alertas activas, incidentes por nivel de riesgo, zonas de mayor riesgo y métricas del personal y sus cupos. Para el personal operativo presenta el riesgo local, incidentes cercanos, actividad de alertas/reportes y notificaciones no leídas. `monthly_reports` conserva el período, quién lo generó y una instantánea de sus indicadores; las proyecciones se derivan de sus contextos de origen y no modifican alertas, membresías, límites, zonas ni notificaciones.
+
+<p align="center">
+<img src="../assets/Chapter4/database-diagrams/dashboard.svg" alt="Diagrama de base de datos de Dashboard" width="850"><br>
+Nota: Proyecciones y reportes mensuales del bounded context Dashboard.
 </p>
