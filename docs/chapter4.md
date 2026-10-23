@@ -1349,22 +1349,25 @@ Nota: Vista de contenedores de InstAlert, las tecnologías utilizadas y las inte
 
 ### 4.6.4. Software Architecture Component Diagram
 
-La vista de componentes amplía el Backend API y muestra cómo se organizan sus responsabilidades en siete bounded contexts: **IAM**, **Business**, **Alert**, **Contacts**, **Notifications**, **Mapping** y **Payments**. **Shared** también aparece, pero representa capacidades técnicas transversales y no un octavo bounded context de negocio:
+La vista amplía el Backend API y presenta nueve bounded contexts de negocio, además del componente técnico transversal **Shared**:
 
-- **IAM:** administra identidades, autenticación y credenciales, y contempla la activación de las cuentas de administradores y personal operativo.
-- **Business:** gestiona el registro y perfil de los comercios, el personal operativo, las invitaciones y las membresías.
-- **Alert:** administra el ciclo de vida de las alertas —creación, cancelación y resolución— y la consulta de alertas activas, cercanas, sus detalles e historial. Proporciona la información del incidente a Notifications para su distribución.
-- **Contacts:** administra los datos de los contactos de emergencia asociados al personal operativo. La relación con el miembro de Business se realiza mediante su identificador.
-- **Notifications:** gestiona las notificaciones generales de la aplicación y las preferencias de entrega. Para notificar alertas cercanas, utiliza Mapping para identificar comercios próximos y Business para resolver los destinatarios; Firebase Cloud Messaging entrega las notificaciones push.
-- **Mapping:** gestiona mapas de riesgo, zonas, información geográfica de incidentes y visualización de niveles de riesgo. También proporciona consultas geoespaciales que permiten identificar comercios cercanos; utiliza Mapbox para los servicios de mapas.
-- **Payments:** gestiona los planes, el procesamiento de pagos y la activación o cancelación de suscripciones.
-- **Shared:** ofrece abstracciones reutilizables, contratos comunes, manejo de errores, identificadores y otras capacidades técnicas transversales.
+- **IAM:** administra la identidad, las credenciales y la autenticación de los usuarios.
+- **Profiles:** gestiona los datos personales del usuario, como sus nombres, y sus preferencias generales.
+- **Business:** gestiona el perfil del comercio, las membresías del personal y sus invitaciones. Las invitaciones pendientes reservan cupo; el administrador no consume un cupo y desactivar a un empleado solo afecta su membresía en ese comercio. Business consulta a Payments el límite vigente.
+- **Alert:** administra las alertas, los reportes de incidentes y su historial.
+- **Contacts:** gestiona los contactos de emergencia asociados al personal operativo.
+- **Notifications:** gestiona las notificaciones generales, sus preferencias de entrega y los avisos de alertas cercanas dirigidos a administradores y negocios próximos.
+- **Payments:** gestiona los planes, las suscripciones y los pagos, además de informar el límite de empleados del plan.
+- **Mapping:** gestiona las zonas de riesgo y las proyecciones geoespaciales de incidentes y comercios cercanos.
+- **Dashboard:** ofrece KPIs y proyecciones de lectura por rol. Para el administrador incluye alertas activas, incidentes recientes por riesgo, zonas de mayor riesgo y personal/cupos; para el personal operativo, riesgo local, incidentes cercanos, estado de alertas y reportes, y notificaciones no leídas. Los datos originales siguen perteneciendo a sus contextos de origen.
 
-La SPA consume las capacidades expuestas por los componentes del backend. Entre las interacciones representadas, Business solicita a IAM la activación de cuentas y envía invitaciones mediante SendGrid; Contacts referencia al miembro de Business por identificador; y Alert proporciona información del incidente a Notifications y datos geolocalizados a Mapping. Notifications consulta Mapping para determinar qué comercios están cerca y Business para resolver los destinatarios, y entrega las notificaciones push mediante Firebase Cloud Messaging. Mapping utiliza Mapbox y Payments procesa los pagos mediante PayPal. Los componentes usan Shared para capacidades transversales y persisten sus propios datos en MySQL.
+**Shared** proporciona capacidades técnicas transversales y no constituye un bounded context de negocio.
+
+La SPA consume las API de estos contextos. Profiles utiliza referencias de identidad de IAM; Business consulta el límite de Payments y envía invitaciones mediante SendGrid. Alert proporciona información de incidentes a Notifications y ubicaciones a Mapping. Notifications consulta Business y Mapping para resolver destinatarios de alertas cercanas y utiliza Firebase Cloud Messaging para entregar notificaciones push. Mapping se integra con Mapbox y Payments con PayPal. Dashboard construye sus proyecciones a partir de Alert, Business, Payments, Mapping y Notifications. Cada contexto mantiene la propiedad lógica de sus datos en MySQL y utiliza Shared para capacidades técnicas comunes.
 
 <p align="center">
-<img src="../assets/Chapter4/Component Diagram (Backend API).png" alt="Diagrama de componentes del Backend API de InstAlert" width="1000"><br>
-Nota: Vista de componentes del Backend API, organizada en bounded contexts y con sus principales relaciones e integraciones externas.
+<img src="../assets/Chapter4/Component Diagram (Backend API).png" alt="Diagrama actualizado de componentes del Backend API de InstAlert con nueve bounded contexts" width="1000"><br>
+Nota: Vista de componentes del Backend API de InstAlert. Muestra los nueve bounded contexts, sus principales interacciones, el componente Shared, la persistencia y las integraciones externas.
 </p>
 
 
