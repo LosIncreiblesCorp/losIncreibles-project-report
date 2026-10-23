@@ -1297,10 +1297,10 @@ Nota: Paso 9 del Design-Level Event Storming – Identificación y agrupación d
 
 **Paso 10: Delimitación de contextos acotados (*Bounded Contexts*)**
 
-Finalmente, se establecen límites explícitos para separar responsabilidades de negocio. El tablero resultante distingue los contextos **IAM**, **Business**, **Alert**, **Contacts**, **Notifications**, **Mapping** y **Payments**. En particular, **Contacts** se ocupa de los contactos de emergencia asociados al personal operativo, mientras que **Notifications** gestiona las notificaciones generales y las dirigidas al administrador o a comercios cercanos cuando hay alertas próximas. Estos límites se reflejan después en el diagrama de componentes del backend.
+Finalmente, se establecen límites explícitos para separar responsabilidades de negocio. El tablero distingue nueve contextos: **IAM**, **Profiles**, **Business**, **Alert**, **Contacts**, **Notifications**, **Mapping**, **Payments** y **Dashboard**. Profiles separa los datos personales de las credenciales de IAM y del perfil comercial de Business. Dashboard reúne KPIs por rol como proyecciones de lectura y contempla que el administrador solicite reportes mensuales y consulte su historial; cada reporte conserva una instantánea sin modificar los datos originales. Contacts mantiene los contactos de emergencia, mientras Notifications gestiona los avisos generales y los relacionados con alertas cercanas. Estos límites se reflejan en los diagramas de arquitectura y diseño.
 
 <p align="center">
-<img src="../assets/Chapter4/event-storming/Step (10).jpg" alt="Paso 10" width="700"><br>
+<img src="../assets/Chapter4/event-storming/Step (10).jpg" alt="Paso 10 del Event Storming con nueve bounded contexts" width="700"><br>
 Nota: Paso 10 del Design-Level Event Storming – Delimitación de contextos acotados (Bounded Contexts)
 </p>
 
