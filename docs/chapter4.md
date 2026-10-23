@@ -1375,11 +1375,11 @@ Nota: Vista de componentes del Backend API de InstAlert. Muestra los nueve bound
 
 ### 4.7.1. Class Diagrams
 
-El siguiente diagrama presenta el diseño orientado a objetos del **frontend de la Web Application de InstAlert**. Su alcance se limita al cliente: modelos de dominio, casos de uso y stores de aplicación, adaptadores HTTP y elementos de presentación. Las API se representan desde el punto de vista del frontend; los controladores, servicios y la base de datos del backend no forman parte de estos diagramas.
+Esta sección presenta los diagramas de clases del **frontend de la Web Application** y del **backend API de InstAlert**. Los diagramas muestran cómo se distribuyen las responsabilidades entre los bounded contexts y sus clases principales; representan el diseño del sistema, no una afirmación de que todos sus componentes estén implementados.
 
-El modelo contempla siete bounded contexts de negocio: `IAM`, `Business`, `Alert`, `Contacts`, `Notifications`, `Mapping` y `Payments`. `Shared` se omite porque corresponde a soporte transversal y no a un contexto del negocio. Los diagramas representan el diseño completo del frontend para estos siete contextos y muestran sus modelos, casos de uso, adaptadores y elementos de presentación.
+El modelo contempla nueve bounded contexts de negocio: `IAM`, `Profiles`, `Business`, `Alert`, `Contacts`, `Notifications`, `Payments`, `Mapping` y `Dashboard`. `Shared` se omite de los diagramas de negocio porque corresponde a soporte técnico transversal. Los diagramas completos resumen las relaciones entre contextos; los diagramas individuales permiten leer con mayor detalle las clases de cada uno.
 
-Cada contexto organiza sus elementos en `Domain`, `Application`, `Infrastructure` y `Presentation`. Las relaciones muestran cómo las vistas y componentes utilizan los stores y casos de uso, cómo estos coordinan modelos del dominio y cómo la infraestructura consulta las API y transforma sus recursos. Las colaboraciones entre contextos se representan mediante identificadores y contratos, sin compartir ni navegar directamente por entidades internas. `Business` conserva la propiedad de membresías e invitaciones y consulta a `Payments` la capacidad del plan; `Alert` conserva las alertas e incidentes, mientras `Mapping` utiliza sus proyecciones geográficas junto con ubicaciones comerciales; `Contacts` administra por separado los contactos de emergencia de cada empleado; e `IAM` mantiene la identidad y las credenciales, mientras `Business` administra la relación del usuario con cada comercio. `Notifications` presenta las notificaciones persistidas para sus destinatarios y mantiene separadas esas notificaciones de sus preferencias.
+En los diagramas de frontend, cada contexto separa `Domain`, `Application`, `Infrastructure` y `Presentation`: las vistas se conectan con stores, estos coordinan modelos y comandos, y los adaptadores se encargan de las API y la transformación de recursos. En los diagramas de backend, las capas son `Domain`, `Application`, `Infrastructure` e `Interfaces`. Las relaciones entre contextos se expresan mediante identificadores y contratos, conservando la propiedad de los datos en su contexto de origen.
 
 **Diagrama de clases frontend**
 
@@ -1390,16 +1390,25 @@ Nota: Diagrama completo de clases de la Web Application frontend de InstAlert.
 
 **IAM**
 
-Este contexto gestiona la identidad, las credenciales, el estado de la cuenta y los datos personales del usuario. El diagrama incluye los flujos de registro, inicio de sesión, actualización del perfil y establecimiento de credenciales para completar el registro de un empleado invitado. `IamStore` coordina estos casos de uso con los modelos `User` y `AuthenticationSession`; `IamApiClient` y sus ensambladores transforman los recursos de la API, mientras `SessionStorage`, `IamHttpInterceptor` y `AuthenticationGuard` apoyan el manejo de la sesión y la navegación. La invitación y la activación de la membresía del empleado siguen perteneciendo a `Business`; IAM administra las credenciales y la cuenta personal. Los roles dentro de un comercio no se duplican en este contexto.
+Este contexto administra la identidad de acceso, las credenciales, el estado de la cuenta y la sesión de autenticación. El diagrama muestra los flujos de registro e inicio de sesión y la creación de credenciales para completar una cuenta invitada. Los datos personales —nombres, DNI y teléfono— y las preferencias generales se separan en `Profiles`; las membresías, invitaciones y roles dentro de un comercio pertenecen a `Business`.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/iam.svg" alt="Diagrama de clases del bounded context IAM" width="850"><br>
 Nota: Clases frontend del bounded context IAM.
 </p>
 
+**Profiles**
+
+Este contexto administra los datos personales de la persona usuaria y sus preferencias generales de la aplicación. `UserProfile` incluye nombres, DNI y teléfono opcional; `UserPreferences` mantiene la preferencia de idioma. El DNI se representa como texto para conservar ceros iniciales. Las credenciales y la autenticación permanecen en `IAM`, y las preferencias de entrega de avisos pertenecen a `Notifications`.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/profiles.svg" alt="Diagrama de clases frontend del bounded context Profiles" width="850"><br>
+Nota: Clases frontend del bounded context Profiles.
+</p>
+
 **Business**
 
-Este contexto administra los comercios, las membresías de sus administradores y empleados, y el ciclo de vida de las invitaciones. `BusinessStore` coordina la consulta y modificación de miembros e invitaciones. Cuando necesita mostrar la capacidad disponible, `BusinessApi` obtiene la información del plan y la suscripción expuesta por `Payments`; el comercio conserva la propiedad de sus miembros e invitaciones, y los límites configurados para los planes son de 4, 8 y 15 empleados.
+Este contexto administra el perfil del comercio, sus membresías y las invitaciones del personal. `BusinessStore` coordina las operaciones sobre miembros e invitaciones, mientras consulta a `Payments` el límite del plan. Las membresías activas y las invitaciones pendientes reservan cupos; el administrador no ocupa uno, y desactivar a un empleado solo desactiva su membresía en el comercio. Los límites de los planes son de 4, 8 y 15 empleados.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/business.svg" alt="Diagrama de clases del bounded context Business" width="850"><br>
@@ -1408,7 +1417,7 @@ Nota: Clases frontend del bounded context Business.
 
 **Alert**
 
-Este contexto gestiona el ciclo de vida de las alertas y los reportes de incidentes, incluidas su creación, consulta, finalización y resolución. `AlertPreferences` contiene preferencias propias del flujo de alertas, como el periodo de cancelación del botón de pánico. Los contactos de emergencia y las preferencias/entregas de avisos generales se modelan en sus contextos independientes. Los estados de la alerta y del reporte representan ciclos de vida distintos.
+Este contexto gestiona el ciclo de vida de las alertas y los reportes de incidentes, incluidas su creación, consulta, finalización y resolución. `AlertPreferences` mantiene preferencias propias del flujo de alerta, como la cuenta regresiva cancelable del botón de pánico, sin fijar aquí una duración. Los contactos de emergencia y las notificaciones se modelan en contextos independientes; la alerta original permanece bajo la responsabilidad de `Alert`.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/alert.svg" alt="Diagrama de clases del bounded context Alert" width="850"><br>
@@ -1417,7 +1426,7 @@ Nota: Clases frontend del bounded context Alert.
 
 **Contacts**
 
-Este contexto mantiene los contactos de emergencia asociados a cada miembro del personal operativo. `ContactsStore` coordina su consulta, creación, edición y eliminación; `ContactsApi` y `EmergencyContactAssembler` conectan los modelos del frontend con los recursos de la API. La separación evita mezclar los datos de contacto personal con el ciclo de vida de las alertas.
+Este contexto permite al personal operativo gestionar sus contactos de emergencia. `ContactsStore` coordina la consulta, creación, edición y eliminación de cada contacto; `ContactsApi` y `EmergencyContactAssembler` conectan el modelo del frontend con los recursos de la API. Estos datos no forman parte del ciclo de vida de una alerta ni representan por sí mismos un canal de envío de mensajes.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/contacts.svg" alt="Diagrama de clases frontend del bounded context Contacts" width="850"><br>
@@ -1426,7 +1435,7 @@ Nota: Clases frontend del bounded context Contacts.
 
 **Notifications**
 
-Este contexto gestiona las preferencias de recepción y la consulta de notificaciones dirigidas a cada usuario, incluidas las relacionadas con alertas cercanas para administradores y comercios pertinentes. `NotificationsStore` carga las notificaciones persistidas, mantiene el contador de no leídas y coordina el marcado como leído; además, actualiza las preferencias del usuario y presenta avisos recibidos en tiempo real. En la base de datos, la tabla `notifications` conserva cada aviso recibido, mientras `notification_preferences` guarda por separado la configuración de recepción. Una notificación puede referenciar la alerta que la originó mediante su identificador, sin trasladar la propiedad de la alerta desde `Alert`.
+Este contexto gestiona las notificaciones generales, sus preferencias y su estado de lectura, incluida la entrega de avisos de alertas cercanas a administradores y negocios próximos. `NotificationsStore` carga las notificaciones, mantiene el contador de no leídas, marca los avisos como leídos y presenta los recibidos en tiempo real. Una notificación puede referenciar la alerta que la originó y al comercio destinatario, sin trasladar la propiedad de la alerta desde `Alert` ni la del comercio desde `Business`.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/notifications.svg" alt="Diagrama de clases frontend del bounded context Notifications" width="850"><br>
@@ -1449,6 +1458,105 @@ Este contexto proporciona al frontend la información de planes, suscripción y 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/payments.svg" alt="Diagrama de clases del bounded context Payments" width="850"><br>
 Nota: Clases frontend del bounded context Payments.
+</p>
+
+**Dashboard**
+
+Este contexto reúne proyecciones de lectura y KPIs según el rol. Para el administrador muestra alertas activas, incidentes recientes por nivel de riesgo, zonas de mayor riesgo y estado del personal y sus cupos; para el personal operativo presenta el riesgo local, incidentes cercanos, actividad de alertas y reportes, y notificaciones no leídas. El diseño contempla que el administrador solicite reportes mensuales y consulte su historial; cada reporte conserva una instantánea del período y no modifica ni sustituye los datos fuente de los demás contextos.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/dashboard.svg" alt="Diagrama de clases frontend del bounded context Dashboard" width="850"><br>
+Nota: Clases frontend del bounded context Dashboard.
+</p>
+
+**Diagrama de clases backend**
+
+El diagrama backend completo presenta los agregados, entidades y objetos de valor de los nueve bounded contexts, junto con sus referencias lógicas. Los diagramas individuales amplían cada contexto y muestran las capas `Domain`, `Application`, `Infrastructure` e `Interfaces`: el dominio contiene el modelo y sus reglas; Application coordina comandos y consultas; Infrastructure implementa persistencia e integraciones; e Interfaces expone controladores, recursos y ensambladores. Esta organización distribuye las responsabilidades del backend según las necesidades del dominio de InstAlert.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-complete.svg" alt="Diagrama completo de clases de dominio del backend de InstAlert" width="1000"><br>
+Nota: Modelo de dominio backend de InstAlert, organizado en nueve bounded contexts.
+</p>
+
+**IAM — backend**
+
+IAM conserva la identidad, el correo de acceso, las credenciales y el estado de la cuenta. La capa Application coordina sus operaciones; Infrastructure implementa repositorios y servicios de credenciales, e Interfaces expone los recursos y operaciones de autenticación.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-iam.svg" alt="Diagrama de clases backend del bounded context IAM" width="850"><br>
+Nota: Clases backend del bounded context IAM.
+</p>
+
+**Profiles — backend**
+
+Profiles modela el perfil personal y las preferencias generales mediante `UserProfile`, `PersonName`, `Dni` y `UserPreferences`. El identificador de usuario se obtiene de la identidad autenticada; las credenciales no se guardan en este contexto.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-profiles.svg" alt="Diagrama de clases backend del bounded context Profiles" width="850"><br>
+Nota: Clases backend del bounded context Profiles.
+</p>
+
+**Business — backend**
+
+Business mantiene el comercio, sus miembros e invitaciones. Consulta a Payments la capacidad del plan y valida los cupos al invitar o activar al personal; las invitaciones pendientes reservan cupo y el administrador no consume uno.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-business.svg" alt="Diagrama de clases backend del bounded context Business" width="850"><br>
+Nota: Clases backend del bounded context Business.
+</p>
+
+**Alert — backend**
+
+Alert contiene las reglas del ciclo de vida de las alertas y los reportes de incidentes. Las notificaciones y los contactos de emergencia quedan fuera de este contexto.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-alert.svg" alt="Diagrama de clases backend del bounded context Alert" width="850"><br>
+Nota: Clases backend del bounded context Alert.
+</p>
+
+**Contacts — backend**
+
+Contacts gestiona los contactos de emergencia asociados al usuario operativo. El modelo no asigna a este contexto el envío de llamadas ni mensajes SMS.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-contacts.svg" alt="Diagrama de clases backend del bounded context Contacts" width="850"><br>
+Nota: Clases backend del bounded context Contacts.
+</p>
+
+**Notifications — backend**
+
+Notifications mantiene las notificaciones, sus preferencias y entregas. Un manejador de eventos resuelve destinatarios de alertas cercanas con información de Business y Mapping, y registra la entrega y lectura sin convertirse en propietario de las alertas ni de los comercios.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-notifications.svg" alt="Diagrama de clases backend del bounded context Notifications" width="850"><br>
+Nota: Clases backend del bounded context Notifications.
+</p>
+
+**Payments — backend**
+
+Payments administra planes, suscripciones y transacciones. Proporciona a Business el límite de empleados correspondiente al plan vigente y encapsula la integración con el proveedor de pagos.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-payments.svg" alt="Diagrama de clases backend del bounded context Payments" width="850"><br>
+Nota: Clases backend del bounded context Payments.
+</p>
+
+**Mapping — backend**
+
+Mapping gestiona las zonas de riesgo y las proyecciones geoespaciales que combinan incidentes y ubicaciones comerciales. Las alertas originales y los perfiles comerciales permanecen en sus contextos propietarios.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-mapping.svg" alt="Diagrama de clases backend del bounded context Mapping" width="850"><br>
+Nota: Clases backend del bounded context Mapping.
+</p>
+
+**Dashboard — backend**
+
+Dashboard mantiene proyecciones de lectura actualizadas a partir de cambios de los contextos fuente. En el modelo, `MonthlyReport` representa el reporte mensual que solicitaría el administrador y conserva la instantánea de sus indicadores para permitir su consulta posterior. El contexto expone KPIs y reportes sin crear ni modificar alertas, membresías, pagos, zonas o notificaciones.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-dashboard.svg" alt="Diagrama de clases backend del bounded context Dashboard" width="850"><br>
+Nota: Clases backend del bounded context Dashboard.
 </p>
 
 ## 4.8. Database Design
