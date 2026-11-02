@@ -171,7 +171,7 @@ InstAlert plantea estrategias de diferenciación frente a cada competidor identi
 | **Apellidos** | Tarrillo |
 | **Edad** | 20 años |
 | **Distrito** | San Juan de Lurigancho |
-| **Evidencia** | <img src="https://i.postimg.cc/GtPJgwMr/Evidencia-6.png" alt="Evidencia Entrevista 6" width="180"> |
+| **Evidencia** | <img src="../assets/Chapter2/Graphics/interview-6-evidence.png" alt="Evidencia Entrevista 6" width="180"> |
 | **Link** | [Entrevista 3 Segmento 2](https://acortar.link/cIa40f) |
 | **Timing donde inicia** | 00:05 min |
 | **Duración** | 12:19 min |
