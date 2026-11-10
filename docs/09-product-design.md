@@ -762,7 +762,7 @@ Wireflow:
 Descripción del flujo:
  Al abrir alertas, el operador de la tienda accede a los detalles clave del incidente: tipo de amenaza, distancia aproximada y hora del suceso, información suficiente para decidir una acción preventiva inmediata, como cerrar temporalmente su local o extremar precauciones.
 
-* User Goal: Como operador, quiero poder cancelar una alerta en caso de falsa alarma, para evitar pánico innecesario en la red vecinal.
+* User Goal: Como operador, quiero cancelar la cuenta regresiva del botón de pánico cuando lo activo por error, para evitar una falsa alarma.
 
 Task Flow:
 
@@ -770,9 +770,10 @@ Task Flow:
 
 ```mermaid
 flowchart TD
-    A([Inicio: Usuario emisor con alerta activa reciente]) --> B["elecciona 'Cancelar alerta / Fue falsa alarma'"]
-    B --> C["Sistema actualiza estado a 'Resuelta'"]
-    C --> D["lerta cerrada sin generar reporte de incidente real."]
+    A([Inicio: Cuenta regresiva de pánico en curso]) --> B["Selecciona cancelar antes de que termine"]
+    B --> C["Sistema interrumpe la cuenta regresiva"]
+    C --> D["No registra alerta ni reporte, ni envía avisos"]
+    D --> E([Regresa a Alertas Operativas])
 ```
 
 </div>
@@ -787,7 +788,7 @@ Wireflow:
 <br> Nota: Diagrama de Wireflow de cancelación de falsa alarma </p>
 
 Descripción del flujo:
-Si el usuario que activó una alerta determina que se trató de una falsa alarma, puede cancelarla directamente desde la pantalla de "Situación de Pánico Activa" sin necesidad de esperar a que se resuelva como un incidente real. Tras confirmar la cancelación, el sistema actualiza el estado de la alerta a "resuelta" y notifica a la red vecinal que la emergencia ha sido descartada, evitando que otros negocios mantengan un estado de alerta innecesario.
+Si el usuario activa el botón de pánico por error, puede cancelar la cuenta regresiva antes de que termine. El sistema interrumpe la preparación y regresa a Alertas Operativas sin registrar una alerta, un reporte o una entrada del historial, ni enviar avisos o generar un punto del mapa por esa activación. Una vez confirmado el pánico, la cancelación de la cuenta regresiva deja de estar disponible; la alerta activa se resuelve cuando termina el peligro y conserva su reporte asociado.
 
 * User Goal: Como operador, quiero gestionar y registrar un nuevo contacto de emergencia en la plataforma, para asegurar que las personas clave reciban las notificaciones automáticas ante cualquier evento o alerta en el comercio.
 
@@ -1152,7 +1153,7 @@ En esta ruta ideal, el personal operativo inicia sesión en la plataforma y acce
 
 En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde la barra superior del sistema, hace clic en el icono de Notificación. El sistema lo redirige a la vista de Notificaciones del Sistema dentro del módulo de Alertas Operativas, donde puede consultar en tiempo real las alertas críticas (como pulsadores activados por comercios vecinos), alertas preventivas (marcajes o sospechosos detectados) y notificaciones de pruebas del sistema, pudiendo marcarlas como leídas o gestionar sus respuestas.
 
-* User Goal: Como operador, quiero poder cancelar una alerta en caso de falsa alarma, para evitar pánico innecesario en la red vecinal.
+* User Goal: Como operador, quiero cancelar la cuenta regresiva del botón de pánico cuando lo activo por error, para evitar una falsa alarma.
 
 **Happy Path:**
 
@@ -1160,7 +1161,7 @@ En esta ruta ideal, el personal operativo inicia sesión en la plataforma y acce
 <img src="../assets/Chapter4/UserFlows/UserFlow_ (9).png" alt="User Flow de cancelación de una falsa alarma" width="500">
 <br> Nota: Diagrama de UserFlow de cancelación de falsa alarma</p>
 
-En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde el menú de navegación lateral o los accesos directos, hace clic en "Alertas" para acceder a la pantalla de Alertas Operativas. Allí presiona el botón de pánico central, lo que activa la pantalla de Cuenta Regresiva de Emergencia (Pánico) con un temporizador de 15 segundos. Si se trata de una falsa alarma o una activación accidental, el usuario mantiene presionado durante 5 segundos el botón "Cancelar Alerta SOS". El sistema interrumpe la cuenta regresiva, evita el envío masivo de la notificación de emergencia a las autoridades y negocios cercanos, y retorna al usuario de forma segura a la pantalla principal de Alertas Operativas.
+En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde el menú de navegación lateral o los accesos directos, hace clic en "Alertas" para acceder a la pantalla de Alertas Operativas. Allí presiona el botón de pánico central, lo que inicia la cuenta regresiva durante el periodo de gracia configurado. Si se trata de una activación accidental, el usuario selecciona la acción de cancelación antes de que termine ese periodo. El sistema interrumpe la cuenta regresiva y retorna a Alertas Operativas sin registrar una alerta o un reporte, incorporar la activación al historial, enviar avisos o generar un punto del mapa. Si la cuenta regresiva termina sin cancelación y el pánico se confirma, se sigue el flujo de alerta activa y posterior resolución.
 
 * User Goal: Como operador, quiero gestionar y registrar un nuevo contacto de emergencia en la plataforma, para asegurar que las personas clave reciban las notificaciones automáticas ante cualquier evento o alerta en el comercio.
 
@@ -1279,7 +1280,7 @@ Nota: Paso 7 del Design-Level Event Storming – Identificación de modelos de l
 
 **Paso 8: Identificación de sistemas externos (*External Systems*)**
 
-Se incorporan los sistemas de terceros que participan en los procesos. Para InstAlert se consideraron SendGrid para enviar invitaciones por correo, Firebase Cloud Messaging para las notificaciones push, Mapbox para los servicios de mapas y geolocalización, y PayPal para el procesamiento de pagos de suscripción. Estos servicios son dependencias externas de la arquitectura propuesta.
+Se incorporan los sistemas de terceros que participan en los procesos. Para InstAlert se consideran Brevo para entregar invitaciones y mensajes por correo electrónico a contactos de emergencia, Mapbox para los servicios de mapas y geolocalización, y PayPal para la aprobación y el procesamiento de suscripciones. Estos servicios son dependencias externas de la arquitectura propuesta.
 
 <p align="center">
 <img src="../assets/Chapter4/event-storming/Step (8).jpg" alt="Paso 8" width="700"><br>
@@ -1310,64 +1311,63 @@ En conjunto, el ejercicio permitió pasar de una secuencia de procesos y eventos
 
 ### 4.6.2. Software Architecture Context Diagram
 
-La vista de contexto presenta a InstAlert como un sistema completo, sin detallar su estructura interna. Permite reconocer quiénes interactúan con la plataforma y qué servicios externos forman parte de su entorno.
+La vista de contexto presenta InstAlert como un sistema completo, sin detallar su estructura interna. Identifica los perfiles que interactúan con la plataforma y los servicios externos con los que se relaciona.
 
 Los actores representados son:
 
-- **Commerce Administrator:** administra el comercio, el personal operativo y la suscripción; además, consulta información de seguridad y recibe notificaciones relevantes.
-- **Operational Staff:** utiliza la plataforma para enviar alertas de seguridad, gestionar sus contactos de emergencia y consultar información de riesgo cercana.
+- **Commerce Administrator:** administra el comercio, el personal y la suscripción, y consulta información de seguridad.
+- **Operational Staff:** envía alertas, gestiona contactos de emergencia y consulta información de riesgo.
 
-El modelo contempla cuatro sistemas externos:
+El entorno de InstAlert incluye tres sistemas externos:
 
-- **SendGrid:** servicio de correo electrónico para enviar invitaciones al personal operativo.
-- **Firebase Cloud Messaging:** servicio para entregar notificaciones push, incluidas las relacionadas con alertas cercanas.
-- **Mapbox:** servicio de mapas y visualización geoespacial utilizado por las funciones de ubicación y riesgo.
-- **PayPal:** plataforma externa contemplada para procesar pagos de suscripción.
+- **Brevo:** servicio de correo utilizado para entregar invitaciones y mensajes a contactos de emergencia.
+- **Mapbox:** servicio de mapas y visualización geoespacial utilizado por la aplicación web.
+- **PayPal:** plataforma externa utilizada para aprobar y procesar suscripciones.
 
-Las relaciones muestran que ambos perfiles acceden a InstAlert y que la plataforma utiliza los servicios externos para correo, notificaciones push, mapas y pagos. Esta vista delimita el sistema y su ecosistema antes de examinar su organización interna.
+Ambos perfiles usan InstAlert. La aplicación se relaciona con Mapbox para representar mapas, con PayPal para las suscripciones y con Brevo para la entrega de correo. Esta vista delimita el sistema y su entorno antes de examinar su organización interna.
 
 <p align="center">
-<img src="../assets/Chapter4/System Context Diagram.png" alt="Diagrama de contexto del sistema InstAlert" width="1000"><br>
-Nota: Vista de contexto de InstAlert, sus actores y los servicios externos contemplados.
+<img src="../assets/Chapter4/c4-diagrams/system-context.png" alt="System context diagram of InstAlert" width="1000"><br>
+Nota: Vista de contexto de InstAlert con sus perfiles de usuario y sus servicios externos.
 </p>
 
 ### 4.6.3. Software Architecture Container Diagram
 
-La vista de contenedores amplía InstAlert y muestra las aplicaciones y el almacenamiento que conforman la solución, junto con las tecnologías y comunicaciones principales:
+La vista de contenedores amplía InstAlert y presenta sus aplicaciones y almacenamiento, las tecnologías principales y las comunicaciones entre ellos:
 
-- **Landing Page:** sitio web servido como contenido estático que presenta información pública del producto y da acceso a la aplicación web.
-- **Single-Page Application (SPA):** aplicación de navegador implementada con Vue.js y Vite. Ofrece las funciones web para administradores de comercio y personal operativo.
-- **Backend API:** servicio desarrollado con C# y .NET. Expone las API REST, aplica las reglas de negocio y organiza la lógica mediante módulos basados en Domain-Driven Design.
-- **Database:** base de datos MySQL que conserva la información persistente de InstAlert. El diagrama indica que los módulos mantienen la propiedad lógica de sus datos aunque compartan este contenedor de persistencia.
+- **InstAlert Web Application:** sirve el contenido estático y entrega la aplicación Vue.js al navegador.
+- **InstAlert Single-Page Application:** aplicación cliente que proporciona la interfaz para administradores de comercio y personal operativo. Consume la API de InstAlert y utiliza Mapbox GL JS para representar mapas.
+- **InstAlert Backend API Application:** aplicación del servidor desarrollada con C#, ASP.NET Core y Entity Framework Core. Expone la API REST, aplica las reglas de negocio y coordina los módulos del monolito modular.
+- **Database:** base de datos MySQL que almacena los datos persistentes. Los módulos conservan la propiedad lógica de sus datos aunque compartan este almacenamiento.
 
-Los usuarios acceden a la Landing Page y a la SPA mediante HTTPS. La SPA intercambia solicitudes y respuestas JSON con el Backend API; este lee y escribe datos en MySQL mediante SQL. El backend también se integra con SendGrid para enviar invitaciones, Firebase Cloud Messaging para entregar notificaciones push, Mapbox para las funciones geoespaciales y PayPal para procesar pagos de suscripción. La base de datos y las aplicaciones forman parte del límite del sistema InstAlert.
+Los usuarios acceden a la aplicación web mediante HTTPS, y esta entrega la SPA al navegador. La SPA intercambia solicitudes JSON/HTTPS con el Backend API, y se comunica con Mapbox para mostrar mapas y con PayPal durante la aprobación de una suscripción. El backend accede a MySQL mediante Entity Framework Core, envía correo a través del componente Notifications y Brevo, y se comunica con PayPal para verificar y conciliar suscripciones. La SPA consulta las notificaciones guardadas a través de la API.
 
 <p align="center">
-<img src="../assets/Chapter4/Container Diagram.png" alt="Diagrama de contenedores de InstAlert" width="1000"><br>
-Nota: Vista de contenedores de InstAlert, las tecnologías utilizadas y las integraciones externas representadas.
+<img src="../assets/Chapter4/c4-diagrams/containers.png" alt="Container diagram of InstAlert" width="1000"><br>
+Nota: Vista de contenedores de InstAlert con sus aplicaciones, almacenamiento y conexiones con servicios externos.
 </p>
 
 ### 4.6.4. Software Architecture Component Diagram
 
-La vista amplía el Backend API y presenta nueve bounded contexts de negocio, además del componente técnico transversal **Shared**:
+La vista amplía el Backend API y presenta sus nueve bounded contexts de negocio junto con **Shared**, un componente técnico transversal:
 
-- **IAM:** administra la identidad, las credenciales y la autenticación de los usuarios.
-- **Profiles:** gestiona los datos personales del usuario, como sus nombres, y sus preferencias generales.
-- **Business:** gestiona el perfil del comercio, las membresías del personal y sus invitaciones. Las invitaciones pendientes reservan cupo; el administrador no consume un cupo y desactivar a un empleado solo afecta su membresía en ese comercio. Business consulta a Payments el límite vigente.
-- **Alert:** administra las alertas, los reportes de incidentes y su historial.
-- **Contacts:** gestiona los contactos de emergencia asociados al personal operativo.
-- **Notifications:** gestiona las notificaciones generales, sus preferencias de entrega y los avisos de alertas cercanas dirigidos a administradores y negocios próximos.
-- **Payments:** gestiona los planes, las suscripciones y los pagos, además de informar el límite de empleados del plan.
-- **Mapping:** gestiona las zonas de riesgo y las proyecciones geoespaciales de incidentes y comercios cercanos.
-- **Dashboard:** ofrece KPIs y proyecciones de lectura por rol. Para el administrador incluye alertas activas, incidentes recientes por riesgo, zonas de mayor riesgo y personal/cupos; para el personal operativo, riesgo local, incidentes cercanos, estado de alertas y reportes, y notificaciones no leídas. Los datos originales siguen perteneciendo a sus contextos de origen.
+- **IAM:** gestiona las identidades, credenciales y autenticación de los usuarios.
+- **Profiles:** gestiona los perfiles personales y las preferencias generales.
+- **Business:** gestiona comercios, membresías, invitaciones y cupos de personal. Publica solicitudes de invitación mediante el outbox y consulta a Payments el límite del plan.
+- **Alert:** gestiona alertas, reportes de incidentes e historial. Publica cambios de alertas mediante el outbox.
+- **Contacts:** gestiona los contactos de emergencia del personal operativo y proporciona sus direcciones de correo cuando Notifications las consulta.
+- **Notifications:** gestiona notificaciones dentro de la aplicación, preferencias y solicitudes de entrega de correo. Consume eventos de Business y Alert, consulta Contacts para los correos de emergencia, y utiliza Brevo para entregar los mensajes.
+- **Payments:** gestiona planes, suscripciones y pagos; verifica y concilia suscripciones con PayPal e informa los límites de personal de los planes.
+- **Mapping:** gestiona las zonas de riesgo y las proyecciones geoespaciales que utiliza la aplicación.
+- **Dashboard:** proporciona KPIs y proyecciones de lectura por rol a partir de datos de Alert, Business, Payments, Mapping y Notifications. Los datos de origen siguen perteneciendo a sus contextos.
 
-**Shared** proporciona capacidades técnicas transversales y no constituye un bounded context de negocio.
+**Shared** proporciona capacidades técnicas transversales, incluido el procesamiento del outbox; no constituye un bounded context de negocio.
 
-La SPA consume las API de estos contextos. Profiles utiliza referencias de identidad de IAM; Business consulta el límite de Payments y envía invitaciones mediante SendGrid. Alert proporciona información de incidentes a Notifications y ubicaciones a Mapping. Notifications consulta Business y Mapping para resolver destinatarios de alertas cercanas y utiliza Firebase Cloud Messaging para entregar notificaciones push. Mapping se integra con Mapbox y Payments con PayPal. Dashboard construye sus proyecciones a partir de Alert, Business, Payments, Mapping y Notifications. Cada contexto mantiene la propiedad lógica de sus datos en MySQL y utiliza Shared para capacidades técnicas comunes.
+Profiles utiliza referencias de identidad de IAM. Business publica eventos de invitación que consume Notifications. Alert publica eventos que consume Notifications; para los avisos a contactos de emergencia, Notifications consulta a Contacts y encola las solicitudes de entrega. También consulta Business y Mapping para resolver destinatarios cercanos. Notifications envía correo por Brevo y la SPA consulta periódicamente las notificaciones almacenadas mediante la API. Payments se comunica con PayPal para verificar y conciliar suscripciones. La SPA se comunica directamente con Mapbox para la representación cartográfica. Dashboard construye proyecciones a partir de Alert, Business, Payments, Mapping y Notifications. Los bounded contexts conservan la propiedad lógica de sus datos en MySQL y utilizan Shared para capacidades técnicas comunes.
 
 <p align="center">
-<img src="../assets/Chapter4/Component Diagram (Backend API).png" alt="Diagrama actualizado de componentes del Backend API de InstAlert con nueve bounded contexts" width="1000"><br>
-Nota: Vista de componentes del Backend API de InstAlert. Muestra los nueve bounded contexts, sus principales interacciones, el componente Shared, la persistencia y las integraciones externas.
+<img src="../assets/Chapter4/c4-diagrams/components.png" alt="Component diagram of the InstAlert Backend API" width="1000"><br>
+Nota: Vista de componentes del Backend API de InstAlert con sus nueve bounded contexts, sus interacciones, el componente técnico Shared, la persistencia y los servicios externos.
 </p>
 
 
