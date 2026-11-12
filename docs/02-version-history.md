@@ -204,6 +204,12 @@ Actualización del Capítulo V para el Sprint 2, incluida su planificación, bac
 Consolidación e integración en <code>main</code> del Project Report para TB1, con los Capítulos I–V y las evidencias documentales del Sprint 2.
 </td>
 </tr>
+<tr>
+<td align="center">2.1.0</td>
+<td align="center">11/11/2026</td>
+<td>Jose Asto</td>
+<td>Preparación del Sprint 3: planificación, LACX, backlog contrastado con Jira, evidencias de integración, documentación OpenAPI y despliegue. Aclaración del alcance de US24. Incorporación de evidencias visuales del Sprint 3.</td>
+</tr>
 </tbody>
 </table>
 
