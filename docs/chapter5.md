@@ -791,23 +791,25 @@ La configuración del radio de recepción se revisa en las preferencias de Notif
   </tr>
   <tr>
     <td><strong>Evidencia</strong></td>
-    <td></td>
+    <td><div align="center"><img src="../assets/Chapter5/entrevistas/maria-rocio-validacion.png" alt="Evidencia de la entrevista de validación de María Rocío de los Ángeles" width="900"></div></td>
   </tr>
   <tr>
     <td><strong>Link de Video</strong></td>
-    <td></td>
+    <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDai321wS-vQI5NkwqzffbFAaH6FXSNJQ5Ch1mK7wK2sK4?e=SzIPmo">Ver entrevista de validación de María Rocío</a></td>
   </tr>
   <tr>
     <td><strong>Timing de Inicio</strong></td>
-    <td></td>
+    <td>00:46</td>
   </tr>
   <tr>
     <td><strong>Duración</strong></td>
-    <td></td>
+    <td>43:57</td>
   </tr>
   <tr>
     <td><strong>Resumen de Validación</strong></td>
-    <td></td>
+    <td><p><em>Síntesis de trabajo elaborada a partir del material preparado para la sesión; pendiente de cotejo con la grabación. Las respuestas de ensayo no constituyen una transcripción ni resultados confirmados de la entrevista.</em></p>
+      <p>La síntesis integra la Landing Page, las preguntas generales y el recorrido de la aplicación como administradora de un minimarket en Comas. Destaca el valor de recibir avisos oportunos entre comercios cercanos y consultar un mapa de riesgos para apoyar decisiones durante la apertura, el cierre y el manejo de efectivo. En la Landing Page, recoge como aspectos favorables la explicación de la red de negocios y la posibilidad de comparar precios y cupos de empleados; también plantea la necesidad de una demostración práctica del botón de pánico, mayor precisión sobre los beneficios de cada plan y una explicación del uso de la pulsera frente a la aplicación.</p>
+      <p>Para la experiencia general y administrativa, el material prioriza una navegación sencilla desde el celular y mensajes que permitan comprender el resultado de cada acción. Como puntos por contrastar en la grabación, incluye la facilidad para interpretar el mapa, localizar el ajuste del radio de recepción, comprender el estado de las invitaciones y consultar el historial de alertas. Las mejoras propuestas son explicar colores y símbolos, facilitar el acceso a preferencias, distinguir el envío de la invitación de su aceptación e incorporar filtros por fecha. Antes de contratar, se plantea aclarar la cobertura de comercios en Comas, quién recibe cada aviso, la privacidad de la ubicación, el comportamiento sin internet y la posibilidad de probar el servicio con el personal.</p></td>
   </tr>
 </tbody>
 </table>
