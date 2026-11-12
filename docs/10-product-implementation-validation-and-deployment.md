@@ -794,7 +794,7 @@ El Sprint 2 se enfocó en entregar una primera versión funcional de la aplicaci
   <img src="../assets/Chapter5/jira-sprint-2.png" alt="Captura del tablero de Jira del Sprint 2" width="800">
 </p>
 
-**Enlace de invitación a Jira:** [Acceder al sitio de Jira](https://joseasto24-1785015581364.atlassian.net/?continue=https%3A%2F%2Fjoseasto24-1785015581364.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10033&atlOrigin=eyJpIjoiM2UwMTY0NzJlODE3NGI3MzgzZDZmMWY2NGY5ZmEwY2MiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9). Se requiere iniciar sesión y contar con acceso al proyecto.
+
 
 Las horas corresponden a estimaciones del desglose de trabajo. Las asignaciones propuestas siguen los aspectos y líderes definidos en la matriz LACX. Los estados de las tareas se derivan del estado de las historias registradas para el Sprint.
 
@@ -1023,3 +1023,501 @@ El historial de la rama `main` muestra integraciones y cambios registrados el 4 
 <p align="center">
   <img src="../assets/Chapter5/sprint-2-frontend-commit-history.png" alt="Historial de commits del repositorio frontend en la rama main" width="800">
 </p>
+
+### 5.2.3. Sprint 3
+
+Durante el Sprint 3 se implementaron los Web Services de InstAlert y se conectaron las vistas de la aplicación con la API ASP.NET Core y su persistencia relacional. La tercera entrega conserva dos usuarios de demostración para recorrer las funciones de administración y operación; la autenticación mediante IAM y el registro real de cuentas se mantienen para la siguiente entrega.
+
+La revisión se documenta con corte al **11 de noviembre de 2026**. El backend publicado corresponde a **1.0.0** y el frontend a **2.0.0**. 
+
+#### 5.2.3.1. Sprint Planning 3.
+
+La planificación orientó el trabajo a conectar los recorridos de seguridad y gestión comercial con servicios persistentes. La reunión se realizó por Google Meet el 26 de octubre de 2026, con la participación de los cinco integrantes.
+
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 2026-10-26 |
+| Time | 07:00 PM, America/Lima |
+| Location | Reunión virtual por Google Meet |
+| Prepared By | Díaz Mendoza, Sebastián Víctor André — Team Leader |
+| Attendees (to planning meeting) | José Gustavo Asto Jácome<br>Sebastián Víctor André Díaz Mendoza<br>Jean Fabio Noriega Collado<br>Yngrid Nahir Ruiz Villegas<br>Ismael Sebastián Simón Calderón |
+| Sprint 2 Review Summary | Se entregaron vistas de comercios, personal, contactos, alertas, mapa y suscripciones mediante una API simulada. Se completaron los recorridos pendientes de redirección e idioma de la Landing Page. Esta entrega necesitaba conectar esas vistas con servicios ASP.NET Core y persistencia real. |
+| Sprint 2 Retrospective Summary | La integración requería unificar contratos HTTP, validar las reglas en el servidor y conectar las vistas con datos persistidos. Estas mejoras se priorizaron para comprobar los recorridos completos entre frontend y backend. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 3 Goal** | **Nuestro enfoque está en** mejorar la gestión y el seguimiento de incidentes dentro de InstAlert, proporcionando a los administradores y al personal operativo información confiable, persistente y accesible que facilite la supervisión de emergencias y la gestión de sus actividades.<br>**Creemos que esto aportará** una mayor continuidad en la atención de situaciones de riesgo, una mejor coordinación entre los usuarios de la plataforma y una toma de decisiones más eficiente, al contar con información actualizada y consistente en las distintas funcionalidades del sistema.<br>**Esto se confirmará cuando** los administradores y el personal operativo puedan completar sus principales procesos de gestión y consulta utilizando información almacenada y recuperada mediante la API, manteniendo la consistencia de los datos entre las diferentes vistas y permitiendo supervisar incidentes e indicadores sin depender de información simulada. |
+| Sprint 3 Velocity | 71 puntos |
+| Sum of Story Points | **71 puntos** para este sprint 3 |
+
+
+
+
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+La matriz LACX organiza las responsabilidades por los módulos trabajados en la tercera entrega. Cada aspecto tiene un líder técnico y colaboradores para coordinar su implementación e integración.
+
+| Team Member (Last Name, First Name) | GitHub Username | Business / Profiles | Alert | Contacts / Payments | Notifications | Mapping / Dashboard |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Asto Jácome, José Gustavo | DhudsQ | C | C | L | C | C |
+| Díaz Mendoza, Sebastián Víctor André | DiazDeveloper | C | L | C | C | C |
+| Noriega Collado, Jean Fabio | dumbaskidd | C | C | C | C | L |
+| Ruiz Villegas, Yngrid Nahir | nahiryn8 | C | C | C | L | C |
+| Simón Calderón, Ismael Sebastián | Mayel-dev | L | C | C | C | C |
+
+**L** identifica al líder técnico del aspecto y **C** a sus colaboradores. Víctor coordina al equipo como Team Leader.
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+El backlog aceptado comprende 9 historias de usuario y 24 historias técnicas. Las tareas se descompusieron según el trabajo realizado.
+La captura del tablero muestra **33 historias en Listo** y ninguna en Por hacer, En curso o En revisión. El estado se contrastó con el Sprint 3 registrado en Jira; la imagen permite observar también subtareas terminadas.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-jira-board.png" alt="Tablero de IncreiblesCorp con 33 historias en Listo y subtareas completadas" width="800">
+</p>
+
+
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr><th>Sprint #</th><th colspan="7">Sprint 3</th></tr>
+    <tr><th colspan="2">User Story / Technical Story</th><th colspan="6">Work-Item / Task</th></tr>
+    <tr><th>Story Id</th><th>Story Title</th><th>Task Id</th><th>Task Title</th><th>Task Description</th><th>Estimation<br>(Hours)</th><th>Assigned To</th><th>Status<br>(To-do / InProcess / ToReview / Done)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">US04</td><td rowspan="2">Editar mis datos personales</td><td>US04TASK001</td><td>Editar nombres, DNI y teléfono desde el perfil</td><td>Cargar los datos personales desde Profiles y guardar el formulario mediante la API, sin editar credenciales de acceso.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>US04TASK002</td><td>Conservar datos y explicar errores de validación</td><td>Validar nombres, DNI de ocho dígitos y teléfono; conservar el formulario ante un rechazo y separar estados de carga y guardado.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td rowspan="3">US10</td><td rowspan="3">Editar los datos del comercio</td><td>US10TASK001</td><td>Cargar y editar el perfil del comercio</td><td>Conectar nombre, dirección y RUC al comercio del administrador; conservar el RUC al actualizar.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>US10TASK002</td><td>Seleccionar la ubicación comercial con Mapbox</td><td>Mostrar el marcador editable y guardar coordenadas válidas con la dirección del comercio.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>US10TASK003</td><td>Gestionar cambios pendientes y errores comerciales</td><td>Mostrar validaciones, guardado y errores del servicio; permitir descartar cambios sin sobrescribir el perfil con respuestas de otro contexto.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td rowspan="2">US17</td><td rowspan="2">Cancelar la cuenta regresiva de pánico</td><td>US17TASK001</td><td>Cancelar la preparación antes de confirmar el pánico</td><td>Detener el temporizador, eliminar el token y el estado persistido, y volver al inicio sin llamar al endpoint de confirmación.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>US17TASK002</td><td>Separar cancelación de cuenta regresiva y resolución</td><td>Permitir cancelar únicamente antes del vencimiento; una alerta ya confirmada se resuelve por el flujo correspondiente, sin marcarla como falsa alarma.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td rowspan="3">US18</td><td rowspan="3">Resolver una alerta cuando termina el peligro</td><td>US18TASK001</td><td>Presentar la acción para terminar el peligro</td><td>Mostrar la acción cuando existe pánico activo y solicitar su resolución al backend.</td><td>1</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>US18TASK002</td><td>Actualizar el estado sin exigir completar el reporte</td><td>Reflejar la alerta resuelta y mantener su reporte pendiente; la resolución no depende de rellenar detalles.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>US18TASK003</td><td>Conservar la resolución ante solicitudes repetidas</td><td>El dominio mantiene resolved al repetir la solicitud; la UI actualiza el estado devuelto por el servidor.</td><td>1</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td rowspan="4">US20</td><td rowspan="4">Recibir y consultar alertas activas</td><td>US20TASK001</td><td>Consultar alertas activas y sus estados</td><td>Cargar las alertas del comercio y distinguir pánico activo, pánico resuelto y reportes enviados.</td><td>1</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+    <tr><td>US20TASK002</td><td>Mostrar avisos cercanos en la bandeja y campana</td><td>Consultar notificaciones del destinatario, mostrar contador no leído y permitir registrar lectura.</td><td>1</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+    <tr><td>US20TASK003</td><td>Actualizar la bandeja mientras la aplicación está visible</td><td>Consultar periódicamente cada 15 segundos; detener el ciclo al cambiar de contexto y no presentar un fallo de carga como lista vacía.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+    <tr><td>US20TASK004</td><td>Aplicar alcance y preferencias al generar los avisos</td><td>Seleccionar destinatarios por distancia al comercio y preferencias. La generación del aviso cercano requiere que el pánico siga activo cuando se procesa el evento.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+    <tr><td rowspan="3">US24</td><td rowspan="3">Filtrar el mapa</td><td>US24TASK001</td><td>Aplicar filtros de categoría, periodo y radio</td><td>Aplicar categoría, periodo y radio mediante consultas al backend.</td><td>2</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>US24TASK002</td><td>Limpiar categoría y periodo y mostrar resultados vacíos</td><td>Restablecer categoría y periodo conservando el radio, y distinguir resultados vacíos de errores.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>US24TASK003</td><td>Documentar el alcance de la limpieza de filtros</td><td>Precisar que limpiar los filtros restablece categoría y periodo, conservando el radio de búsqueda seleccionado.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td rowspan="4">US28</td><td rowspan="4">Consultar el dashboard del administrador</td><td>US28TASK001</td><td>Mostrar los indicadores administrativos del mes</td><td>Consumir el resumen del comercio sin calcular datos mock: pánicos activos, reportes pendientes, incidentes y riesgo.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>US28TASK002</td><td>Presentar las gráficas calculadas por el backend</td><td>Representar evolución diaria, categorías, estados, riesgo y distribución por hora mediante Chart.js.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>US28TASK003</td><td>Mostrar personal, cupos y estado de suscripción</td><td>Representar activos, reservas y límite junto con plan y vigencia, excluyendo al administrador del consumo de cupos.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>US28TASK004</td><td>Distinguir ausencia de actividad y errores del dashboard</td><td>Mostrar ceros y series vacías válidas, advertencias parciales y reintento ante fallos; las gráficas y navegación se comprobaron en la evidencia del 10-11.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td rowspan="3">US29</td><td rowspan="3">Consultar mi resumen operativo</td><td>US29TASK001</td><td>Presentar el resumen de la membresía operativa</td><td>Consumir el resumen por rol con riesgo local, incidentes cercanos, registros propios y notificaciones no leídas.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>US29TASK002</td><td>Mostrar las series y accesos del personal operativo</td><td>Representar evolución diaria y estados; enlazar a alertas, mapa y notificaciones sin exponer controles administrativos.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>US29TASK003</td><td>Separar resumen vacío, fallo y cambio de cuenta</td><td>Limpiar el contexto al cambiar de usuario, descartar respuestas tardías y mostrar errores y ausencia de actividad de manera diferenciada.</td><td>2</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td rowspan="3">US39</td><td rowspan="3">Configurar preferencias de notificación</td><td>US39TASK001</td><td>Abrir las preferencias desde la bandeja</td><td>Mostrar un diálogo accesible para activar o desactivar avisos cercanos y presentar la configuración cargada.</td><td>1</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+    <tr><td>US39TASK002</td><td>Guardar preferencias mediante Notifications</td><td>Persistir NearbyAlertsEnabled y el radio por usuario y comercio; diferenciar errores de consulta y guardado.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+    <tr><td>US39TASK003</td><td>Proteger cambios pendientes y aplicar la preferencia</td><td>Ofrecer descarte, proteger la navegación con cambios sin guardar y usar la preferencia en la selección de destinatarios del backend.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS-01</td><td rowspan="3">Endpoints para consultar y actualizar el perfil personal</td><td>TS01TASK001</td><td>Exponer consulta y actualización del perfil propio</td><td>Definir recursos y transformadores GET/PUT de Profiles para nombres, apellidos, DNI y teléfono.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS01TASK002</td><td>Validar el perfil y conservar el DNI textual</td><td>UserProfile y NationalIdentityNumber validan datos antes de asignarlos; el DNI conserva ocho dígitos y ceros iniciales.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS01TASK003</td><td>Guardar el perfil del usuario reconocido</td><td>ProfileCommandService comprueba userId igual al actor y persiste mediante repositorio y UnitOfWork; no crea una cuenta IAM.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-02</td><td rowspan="2">Endpoints para consultar y actualizar el idioma de la aplicación</td><td>TS02TASK001</td><td>Consultar y guardar en_US o es_419</td><td>Exponer preferencias propias; devolver inglés al no existir configuración y rechazar otros códigos.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS02TASK002</td><td>Persistir la preferencia y reflejarla en la aplicación</td><td>Guardar UserPreferences con el usuario reconocido; el frontend convierte los códigos del contrato a en/es sin perder el idioma elegido.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td rowspan="4">TS-03</td><td rowspan="4">Endpoints para registrar, consultar y actualizar comercios</td><td>TS03TASK001</td><td>Exponer alta, consulta y edición comercial</td><td>Conectar BusinessesController a comandos y consultas; devolver identificador y datos de perfil.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS03TASK002</td><td>Validar RUC, nombre, dirección y coordenadas</td><td>El dominio conserva el RUC al editar y rechaza duplicados o ubicación inválida.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS03TASK003</td><td>Mantener un comercio por administrador</td><td>Comprobar propiedad y ausencia de otro comercio del administrador; conservar el índice único de OwnerUserId.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS03TASK004</td><td>Separar las reglas ORM del comercio</td><td>Mantener el mapeo en Business/Infrastructure y registrarlo en AppDbContext compartido, sin alterar el esquema.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-04</td><td rowspan="2">Endpoints para consultar el personal y las membresías propias</td><td>TS04TASK001</td><td>Consultar el personal autorizado del comercio</td><td>Exponer integrantes y estados mediante BusinessMembersController sin inventar empleados cuando el listado está vacío.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS04TASK002</td><td>Consultar la membresía propia del actor</td><td>Consultar las relaciones por usuario reconocido; conservar la regla de asociación única incluso para una membresía inactiva.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS-05</td><td rowspan="3">Endpoints para actualizar y cambiar el estado de las membresías</td><td>TS05TASK001</td><td>Editar nombre y correo de la membresía</td><td>Validar los datos del miembro bajo propiedad administrativa, sin cambiar la cuenta global.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS05TASK002</td><td>Activar o desactivar sin exceder el plan</td><td>Revisar empleados activos y reservas al activar; desactivar libera cupo sin borrar la asociación comercial.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS05TASK003</td><td>Persistir cambios de personal y concurrencia de cupos</td><td>Guardar membresía y revisión comercial en la misma unidad de trabajo; mantener las restricciones únicas de usuario y correo.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td rowspan="4">TS-06</td><td rowspan="4">Endpoints para crear y consultar invitaciones de personal</td><td>TS06TASK001</td><td>Crear invitaciones pendientes con reserva de cupo</td><td>Verificar capacidad antes de crear StaffInvitation y reservar mediante su estado pending.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS06TASK002</td><td>Impedir invitaciones duplicadas entre comercios</td><td>Validar correo normalizado frente a invitaciones pendientes y membresías existentes.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS06TASK003</td><td>Consultar invitaciones y estados por propietario</td><td>Exponer las invitaciones del comercio autorizado con pending, accepted o cancelled.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS06TASK004</td><td>Registrar la solicitud de correo en Outbox</td><td>Persistir business.invitation.requested.v1 junto con la invitación; Notifications gestiona la entrega. Esto no crea una cuenta ni contraseña temporal.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS-07</td><td rowspan="3">Endpoints para editar, cancelar y reenviar invitaciones</td><td>TS07TASK001</td><td>Editar los datos de una invitación pendiente</td><td>Validar nombre/correo y conservar la invitación y su reserva sin crear un segundo registro.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS07TASK002</td><td>Cancelar una invitación y liberar su reserva</td><td>Permitir la transición desde pending y reflejar la nueva capacidad sin borrar membresías.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td>TS07TASK003</td><td>Reenviar la misma invitación mediante Outbox</td><td>Incrementar la secuencia de entrega, validar que sigue pendiente y no reservar otro cupo.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-09</td><td rowspan="2">Endpoint para consultar la capacidad del comercio</td><td>TS09TASK001</td><td>Componer límite, activos, reservas y disponibles</td><td>Combinar el plan vigente con GetBusinessSeatUsageQuery, excluir al propietario y devolver cero disponible al completar el límite.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+    <tr><td>TS09TASK002</td><td>Representar correctamente la capacidad demo en Production</td><td>Reconocer la suscripción simulada solo cuando Demo y SeedOnStartup están habilitados; Docker verificó Essential con límite 4, un empleado y tres cupos disponibles.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-10</td><td rowspan="2">Endpoints para consultar y actualizar el periodo de gracia del pánico</td><td>TS10TASK001</td><td>Exponer lectura y modificación del periodo de gracia</td><td>Consultar preferencias propias y devolver el periodo configurado o predeterminado.</td><td>1</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>TS10TASK002</td><td>Validar y persistir los valores admitidos</td><td>Rechazar valores inválidos y mantener la configuración previa; usar el periodo del servidor al preparar el pánico.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td rowspan="4">TS-11</td><td rowspan="4">Endpoints para preparar y confirmar una alerta de pánico</td><td>TS11TASK001</td><td>Preparar un pánico sin crear la alerta</td><td>Devolver un token protegido con usuario, comercio y tiempos de confirmación; la preparación no persiste una alerta activa.</td><td>1</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>TS11TASK002</td><td>Validar token, acceso y tiempo antes de confirmar</td><td>Rechazar tokens alterados, de otro actor o vencidos y confirmaciones anticipadas; no confiar en el reloj del frontend.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>TS11TASK003</td><td>Confirmar y publicar el pánico una sola vez</td><td>Persistir AlertRecord activo junto a alert.changed.v1; conservar el comportamiento de reintentos y evitar duplicar pánicos activos.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>TS11TASK004</td><td>Proyectar el pánico a mapa y avisos por Outbox</td><td>Mapping y Notifications consumen el evento después del commit; la cancelación de preparación no genera esos efectos.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-12</td><td rowspan="2">Endpoint para registrar reportes de incidentes</td><td>TS12TASK001</td><td>Registrar los tres tipos de reporte no urgente</td><td>Aceptar suspicious-activity, past-incident y other-situation con categoría, descripción, ubicación y momento válidos.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>TS12TASK002</td><td>Persistir reportes como enviados y publicar su proyección</td><td>Conservar status submitted y sus eventos, sin convertirlos en pánico activo; rechazar fechas futuras y datos incompletos.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS-13</td><td rowspan="3">Endpoints para consultar alertas e historial de incidentes</td><td>TS13TASK001</td><td>Consultar alertas por comercio, estado y página</td><td>Aplicar permisos, filtros y paginación a listados; una ausencia de registros devuelve colección vacía.</td><td>1</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>TS13TASK002</td><td>Consultar el detalle y rechazar registros ajenos</td><td>Recuperar el registro por identificador dentro del acceso permitido y devolver el error correspondiente cuando no existe.</td><td>1</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>TS13TASK003</td><td>Separar pánicos activos, resueltos y reportes históricos</td><td>Conservar Kind, Status y ReportStatus en recursos y consultas; no usar un estado falsa alarma para cancelar una preparación.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-14</td><td rowspan="2">Endpoint para actualizar la ubicación de una alerta activa</td><td>TS14TASK001</td><td>Actualizar coordenadas de un pánico activo propio</td><td>Validar propiedad, estado activo y coordenadas antes de actualizar ubicación y descripción del lugar.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>TS14TASK002</td><td>Persistir la ubicación y refrescar la proyección</td><td>Incrementar la revisión interna y publicar el cambio para Mapping; rechazar modificaciones de alertas ya resueltas.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS-15</td><td rowspan="3">Endpoints para resolver el pánico y completar su reporte</td><td>TS15TASK001</td><td>Resolver la alerta conservando el reporte pendiente</td><td>Marcar resolved y ReportStatus pending sin exigir categoría y descripción en la resolución.</td><td>1</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>TS15TASK002</td><td>Guardar informes después de terminar el peligro</td><td>Permitir edición de detalles únicamente mientras el reporte del pánico resuelto está pendiente.</td><td>2</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td>TS15TASK003</td><td>Finalizar el reporte con sus datos obligatorios</td><td>Comprobar categoría y descripción, completar ReportStatus y conservar resolved; rechazar una finalización repetida.</td><td>1</td><td>Sebastián Víctor André Díaz Mendoza</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-16</td><td rowspan="2">Endpoints para consultar contactos de emergencia</td><td>TS16TASK001</td><td>Consultar listado y detalle de contactos propios</td><td>Filtrar por EmployeeId del actor y exigir membresía operativa; no devolver datos de contactos ajenos.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+    <tr><td>TS16TASK002</td><td>Representar ausencia de contactos sin inventar registros</td><td>Devolver colección vacía o error de detalle según corresponda; mantener recursos y transformadores de Contacts.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS-17</td><td rowspan="3">Endpoints para mantener contactos de emergencia</td><td>TS17TASK001</td><td>Crear y actualizar contactos validados</td><td>Validar nombre, relación, teléfono y correo, mantener unicidad exigida y asociar el contacto al actor.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+    <tr><td>TS17TASK002</td><td>Eliminar contactos bajo propiedad del usuario</td><td>Cargar el contacto propio antes de eliminarlo y confirmar el resultado sin afectar otros usuarios.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+    <tr><td>TS17TASK003</td><td>Mantener persistencia y destinatarios de emergencia</td><td>Conservar mapeos en Contacts/Infrastructure y las consultas de destinatarios de correo; Notifications realiza la entrega.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS-18</td><td rowspan="3">Endpoints para consultar notificaciones y registrar su lectura</td><td>TS18TASK001</td><td>Consultar la bandeja del destinatario</td><td>Filtrar ReceivedNotification por actor y comercio, con paginación y estados de lectura.</td><td>1</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+    <tr><td>TS18TASK002</td><td>Registrar lectura sin duplicar notificaciones</td><td>Marcar como leída solo una notificación propia y devolver el estado existente si ya fue leída.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+    <tr><td>TS18TASK003</td><td>Consultar estados de entrega del usuario</td><td>Exponer DeliveryRequest propios sin tratar sent como garantía de recepción en la bandeja del destinatario.</td><td>1</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-19</td><td rowspan="2">Endpoints para consultar y guardar preferencias de notificación</td><td>TS19TASK001</td><td>Guardar preferencias por usuario y comercio</td><td>Persistir NearbyAlertsEnabled y ReceptionRadius admitiendo 100, 500 y 1000 metros; rechazar valores distintos.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+    <tr><td>TS19TASK002</td><td>Calcular destinatarios desde la ubicación del comercio</td><td>Medir distancia al pánico activo, aplicar radio y habilitación y evitar duplicados por alerta/destinatario/comercio.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS-20</td><td rowspan="3">Endpoints para consultar planes, suscripción e historial de facturación</td><td>TS20TASK001</td><td>Consultar el catálogo mensual y sus capacidades</td><td>Devolver planes, precios, moneda USD, periodo y límites desde persistencia.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+    <tr><td>TS20TASK002</td><td>Consultar suscripción y vigencia del comercio autorizado</td><td>Representar plan activo, expiración y cancelación programada, distinguiendo la suscripción simulada.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+    <tr><td>TS20TASK003</td><td>Consultar transacciones sin inventar pagos</td><td>Filtrar el historial por comercio y conservar referencias del proveedor; una suscripción demo no acredita una transacción real.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS-25</td><td rowspan="3">Endpoints para consultar alertas e incidentes geolocalizados</td><td>TS25TASK001</td><td>Proyectar cambios de alertas e incidentes</td><td>Consumir alert.changed.v1 y conservar la revisión interna para evitar que eventos antiguos sobrescriban proyecciones nuevas.</td><td>2</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>TS25TASK002</td><td>Consultar puntos por radio, categoría y fecha</td><td>Aplicar filtros geográficos desde el comercio autorizado y devolver coordenadas; pánico activo se consulta de forma diferenciada.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>TS25TASK003</td><td>Consultar el detalle geográfico disponible</td><td>Recuperar el incidente dentro del alcance permitido y responder not_found cuando no está disponible.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-26</td><td rowspan="2">Endpoint para consultar negocios geolocalizados</td><td>TS26TASK001</td><td>Consultar comercios con ubicación válida dentro del radio</td><td>Obtener ubicaciones desde Business, filtrar por distancia al comercio del actor y devolver nombre, dirección y coordenadas.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>TS26TASK002</td><td>Representar negocios sin exigir verificación adicional</td><td>No aplicar una certificación comercial inexistente; los puntos provienen de perfiles con coordenadas válidas.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS-27</td><td rowspan="3">Endpoints para consultar zonas y clasificación de riesgo</td><td>TS27TASK001</td><td>Agrupar incidentes en celdas geográficas</td><td>Clasificar observaciones únicas en celdas de 250 metros y descartar coordenadas fuera de límites admitidos.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>TS27TASK002</td><td>Calcular riesgo en una ventana fija de 30 días</td><td>Asignar low para 1–5, medium para 6–14 y high desde 15, sin alterar la ventana por el filtro visual.</td><td>2</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>TS27TASK003</td><td>Consultar zonas y detalle sin generar concentraciones vacías</td><td>Devolver únicamente celdas clasificadas disponibles en el alcance y not_found para una zona inexistente.</td><td>2</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td rowspan="3">TS-28</td><td rowspan="3">Endpoint para consultar indicadores del mes actual por rol</td><td>TS28TASK001</td><td>Componer el resumen administrativo del mes de Lima</td><td>Calcular indicadores, distribución de incidentes, personal y plan usando los servicios de los contextos propietarios.</td><td>2</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>TS28TASK002</td><td>Componer el resumen operativo por membresía</td><td>Limitar indicadores propios, riesgo cercano y notificaciones al usuario operativo autorizado.</td><td>2</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>TS28TASK003</td><td>Devolver series vacías y advertencias sin datos mock</td><td>Diferenciar cero de fallo y preservar las distribuciones diarias, por hora, categoría, estado y riesgo.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td rowspan="4">TS-29</td><td rowspan="4">Endpoints para generar y consultar reportes por rango de fechas</td><td>TS29TASK001</td><td>Validar rangos inclusivos y fecha de corte</td><td>Usar ReportingPeriod para rechazar fechas invertidas o futuras y fijar límites coherentes con America/Lima.</td><td>2</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>TS29TASK002</td><td>Generar una instantánea independiente del reporte</td><td>Persistir SummaryJson y el periodo con comparación al intervalo anterior de igual duración efectiva.</td><td>2</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>TS29TASK003</td><td>Consultar historial y detalle guardados</td><td>Cargar reportes propios sin recalcular el contenido con incidentes posteriores.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+    <tr><td>TS29TASK004</td><td>Conservar fechas y esquema de la instantánea en MySQL</td><td>Aplicar DateOnly/DateTime para columnas date y deserializar el esquema vigente; la evidencia HTTP y UI del 10-11 registra generación y lectura.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+  </tbody>
+</table>
+
+
+
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+
+El backend implementa contratos REST, servicios de aplicación, entidades y value objects, repositorios y mapeos EF Core por bounded context, con un AppDbContext compartido. La integración frontend reemplaza las consultas al mock en los flujos revisados por adaptadores que consumen la API, mantiene el contexto de usuario/comercio y descarta respuestas tardías de un contexto anterior.
+
+La tabla presenta commits del Sprint 3, registrados entre el 24/10/2026 y el corte del 11/11/2026. Se conservan los mensajes originales y se identifica al autor de cada commit mediante los datos de github.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Author | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/contacts-database-configuration` | [3e2d275](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/3e2d2758421727c7c5d3d2564c09a5c0ba238022) | `refactor(contacts): move database rules to Contacts` | Jose Asto (DhudsQ) | 10/11/2026 |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/payments-database-configuration` | [fe99e9d](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/fe99e9d5c5fce22107a4a37e8afd05b0672c5b2c) | `refactor(payments): move database rules to Payments` | Jose Asto (DhudsQ) | 10/11/2026 |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/alert-database-configuration` | [8a16d84](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/8a16d8454c73a33e4e05500a6dc86c1a0bba3cac) | `refactor(alert): move database rules to Alert` | Sebastian Diaz (DiazDeveloper) | 10/11/2026 |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/business-database-configuration` | [d384b3b](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/d384b3bbef9405c0c4bd1ccc6592434ad2c25e03) | `refactor(business): move database rules to Business` | Ismael Simon (Mayel-dev) | 10/11/2026 |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/profiles-database-configuration` | [59d6f15](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/59d6f15573efb59cf0d5dde09847698441d83b33) | `refactor(profiles): move database rules to Profiles` | Ismael Simon (Mayel-dev) | 10/11/2026 |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/dashboard-database-configuration` | [0a5500f](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/0a5500f250973fce0980fc6d09446799cf95e474) | `refactor(dashboard): move database rules to Dashboard` | Jean Fabio Noriega Collado (dumbaskidd) | 10/11/2026 |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/notifications-delivery` | [c6f4cc2](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/c6f4cc2cab53986f87627999b9e64b6990064522) | `feat(notifications): expose inbox and preferences endpoints` | Nahir Ruiz (nahiryn8) | 07/11/2026 |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/deployment-preparation` | [26608bc](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/26608bc139753b475b0bc9a03ad05819b700cebb) | `fix(alert): validate incident dates and stabilize history pagination` | Sebastian Diaz (DiazDeveloper) | 08/11/2026 |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/deployment-preparation` | [908da10](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/908da10736b23e0ec04adfce374d1faddab83ab1) | `fix(business): validate commerce ownership and employee associations` | Ismael Simon (Mayel-dev) | 08/11/2026 |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/date-range-reports` | [501378a](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/501378a5c74ffc950d414ae55e356afb75715726) | `feat(reports): expose business date-range reports` | Jean Fabio Noriega Collado (dumbaskidd) | 07/11/2026 |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `release/1.0.0` | [0c66de7](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/0c66de779e0a5a25d4cea6ab55a43b4bfe26d492) | `fix(docs): use the current server in Scalar` | Jose Asto (DhudsQ) | 11/11/2026 |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `release/1.0.0` | [d694d23](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/d694d238ee04de2c4b519a11e91a7fb08bebc86b) | `chore(release): prepare version 1.0.0 for deployment` | Jose Asto (DhudsQ) | 11/11/2026 |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/business-profiles-integration` | [fbf04dc](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/fbf04dcc2cdb104e896052e6afb86114564a8c95) | `feat(profiles): integrate personal profiles and language preferences with API` | Ismael Simon (Mayel-dev) | 08/11/2026 |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/business-profiles-integration` | [5b428bc](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/5b428bc7e6bec980195a4be09f1b4e44570fd074) | `feat(business): integrate commerce and staff management with API` | Ismael Simon (Mayel-dev) | 08/11/2026 |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/alert-lifecycle-integration` | [705493f](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/705493ff447d5a7d0405012de35d633072d1bc45) | `feat(alert): integrate panic and incident lifecycle with API` | Sebastian Diaz (DiazDeveloper) | 08/11/2026 |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/contacts-integration` | [05d9459](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/05d9459ea98a685dc2e48b404e88ff0cbf2564ed) | `feat(contacts): integrate emergency contact management with API` | Jose Asto (DhudsQ) | 09/11/2026 |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/notifications-integration` | [8cb1be6](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/8cb1be6a24b766cf9e91a9c1851daea959b92dbe) | `feat(notifications): integrate inbox and preferences with API` | Nahir Ruiz (nahiryn8) | 09/11/2026 |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/mapping-integration` | [d6b850a](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/d6b850adc8fa985829149369e64f4cc265312ab1) | `feat(mapping): integrate risk map with backend queries` | Jean Fabio Noriega Collado (dumbaskidd) | 10/11/2026 |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/dashboard-integration` | [decbaa2](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/decbaa2e88d123c20784462ed93c96b3d8059fca) | `feat(dashboard): integrate overview and date range reports` | Jean Fabio Noriega Collado (dumbaskidd) | 10/11/2026 |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/payments-integration` | [3b3edf1](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/3b3edf1768a3c9a79bc9a7048a334a1025337dba) | `feat(payments): integrate subscriptions and verified PayPal checkout` | Jose Asto (DhudsQ) | 10/11/2026 |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `release/2.0.0` | [2cc5b10](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/2cc5b10401eb39dd90484e2b971fe6618531a700) | `chore(release): prepare frontend version 2.0.0` | Jose Asto (DhudsQ) | 11/11/2026 |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `release/2.0.0 → main` | [461f913](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/461f91388e5a8f6131059c9d07cd05b1469dabb1) | `Merge branch 'release/2.0.0'` | Jose Asto (DhudsQ) | 11/11/2026 |
+
+Las seis correcciones ORM trasladaron los mapeos de Contacts, Payments, Business, Profiles, Alert y Dashboard a sus carpetas Infrastructure. Mapping y Notifications ya utilizaban ese patrón. Se mantuvo un único AppDbContext y se comprobó que esta reorganización no modificó el modelo ni requirió otra migración. Esta evidencia no elimina las migraciones funcionales creadas previamente para persistencia y restricciones de asociación comercial.
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+
+
+
+**1. Dashboard administrativo y resumen operativo.** La captura actual del administrador muestra el comercio La Bodeguita, dos reportes registrados, tres cupos disponibles y el plan Essential con un empleado activo sobre un límite de cuatro. La suscripción corresponde a la demostración y no acredita una compra externa.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-admin-dashboard-current.png" alt="Dashboard administrativo actual con dos reportes, plan Essential y tres cupos disponibles" width="800">
+</p>
+
+El resumen del personal operativo presenta riesgo bajo, un incidente cercano y dos notificaciones sin leer. Las gráficas muestran la evolución de los registros y su distribución por estado.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-operational-dashboard.png" alt="Resumen operativo actual con riesgo local, incidente cercano y dos notificaciones sin leer" width="800">
+</p>
+
+Como evidencia complementaria, la siguiente captura del entorno aislado del 10/11 muestra las series completas del dashboard administrativo. Sus valores y el plan Professional pertenecen a datos sintéticos de esa comprobación, diferentes de la captura actual.
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-dashboard-desktop.png" alt="Dashboard administrativo conectado con indicadores, capacidad y series calculadas por la API" width="800">
+</p>
+
+**2. Reportes guardados por rango de fechas.** La vista consulta una instantánea persistida y conserva su fecha de corte. El ejemplo sin actividad muestra ceros y estados vacíos, sin generar datos ficticios para llenar las gráficas. La funcionalidad permite rangos de fechas; no se documenta como un cierre mensual automático.
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-report-desktop.png" alt="Detalle de un reporte guardado por rango de fechas con indicadores sin actividad" width="800">
+</p>
+
+**3. Mapa de riesgo y filtros de búsqueda.** La captura actual muestra el mapa base, un marcador de incidente y una celda de concentración clasificada con riesgo bajo. Los controles permiten seleccionar periodo, categoría y radio; el ejemplo utiliza las últimas 24 horas y un radio de 1000 metros. Limpiar restablece categoría y periodo a todos y conserva el radio, según el alcance confirmado de US24. La imagen es evidencia visual de ese estado, no de todos los filtros posibles.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-risk-map.png" alt="Mapa actual con incidente, celda de riesgo bajo y filtros de periodo, categoría y radio" width="800">
+</p>
+
+**4. Perfil personal, comercio y notificaciones.** El perfil personal muestra los datos del usuario y la selección de idioma de la aplicación. El perfil del negocio presenta nombre, RUC, dirección y ubicación en el mapa. La bandeja muestra dos avisos de alerta cercana sin leer, con su fecha de recepción y la acción para marcarlos como leídos.
+
+![Perfil personal y preferencias de idioma](../assets/Chapter5/sprint-3-personal-profile.png)
+
+![Perfil del negocio y ubicación en el mapa](../assets/Chapter5/sprint-3-business-profile.png)
+
+![Bandeja con dos notificaciones de alerta cercana](../assets/Chapter5/sprint-3-notifications-inbox.png)
+
+**5. Operaciones de la API por bounded context.** Las siguientes capturas muestran las rutas publicadas en Scalar, separadas por módulo. Los resultados de las consultas y los límites de validación se describen en las evidencias anteriores y en la documentación de servicios.
+
+**Profiles.** Consulta y actualización del perfil personal y sus preferencias.
+
+![Operaciones de Profiles en Scalar](../assets/Chapter5/sprint-3-scalar-profiles.png)
+
+**Business.** Gestión del comercio, cupos, miembros e invitaciones del personal.
+
+![Operaciones de Business en Scalar](../assets/Chapter5/sprint-3-scalar-business.png)
+
+**Alert.** Consulta de alertas, preparación y confirmación del pánico, reportes, ubicación, resolución y preferencias.
+
+![Operaciones de Alert en Scalar](../assets/Chapter5/sprint-3-scalar-alert.png)
+
+**Contacts.** Registro, consulta, edición y eliminación de contactos de emergencia.
+
+![Operaciones de Contacts en Scalar](../assets/Chapter5/sprint-3-scalar-contacts.png)
+
+**Notifications.** Consulta de notificaciones y entregas, registro de lectura y configuración de preferencias.
+
+![Operaciones de Notifications en Scalar](../assets/Chapter5/sprint-3-scalar-notifications.png)
+
+**Mapping.** Consulta de alertas activas, incidentes, comercios y zonas de riesgo.
+
+![Operaciones de Mapping en Scalar](../assets/Chapter5/sprint-3-scalar-mapping.png)
+
+**Dashboard.** Resumen del comercio y creación y consulta de reportes guardados.
+
+![Operaciones de Dashboard en Scalar](../assets/Chapter5/sprint-3-scalar-dashboard.png)
+
+**Payments.** Rutas publicadas para planes, suscripciones y facturación. La captura original muestra parte del listado y recorta algunas rutas en el borde derecho. La validación externa de pagos y del webhook permanece pendiente, como se detalla en la documentación de servicios.
+
+![Vista parcial de las operaciones de Payments en Scalar](../assets/Chapter5/sprint-3-scalar-payments.png)
+
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+La API publica su contrato OpenAPI y lo presenta mediante Scalar:
+
+- Referencia Scalar desplegada — `https://instalert-backend-yqe9.onrender.com/scalar/`.
+- Documento OpenAPI JSON — `https://instalert-backend-yqe9.onrender.com/openapi/v1.json`.
+- [Repositorio de Web Services](https://github.com/LosIncreiblesCorp/Instalert-BackEnd).
+- Documentación e infraestructura publicadas en [d694d23](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/d694d238ee04de2c4b519a11e91a7fb08bebc86b) y corrección del servidor relativo de Scalar en [0c66de7](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/0c66de779e0a5a25d4cea6ab55a43b4bfe26d492).
+
+El documento desplegado expone **62 operaciones HTTP**, contadas como combinación de verbo y ruta. **55 corresponden al alcance aceptado y soporte de salud**
+
+**Cómo interpretar las llamadas.** La base es `https://instalert-backend-yqe9.onrender.com`. Los identificadores entre llaves se sustituyen por valores devueltos por la API. En esta entrega se utiliza `User-Id: synthetic-admin` o `User-Id: synthetic-employee` según el recorrido; son identidades demo habilitadas para la presentación, no autenticación IAM. `userId` debe corresponder al actor y `businessId` a su comercio. Primero se consulta `GET /api/v1/businesses` para obtener el identificador comercial.
+
+Las solicitudes JSON utilizan `Content-Type: application/json`; `Accept-Language: en-US` o `es-419` selecciona los mensajes disponibles. En los filtros de consulta se usan fechas ISO 8601, coordenadas numéricas y radios en metros. Las respuestas de error se representan como ProblemDetails con el código aplicable: 400 para entrada inválida, 401 para identidad no reconocida, 403 para falta de acceso, 404 para recurso no disponible y 409 para conflicto o transición. Las respuestas 500 y 503 dependen del fallo o proveedor correspondiente; no todos esos escenarios se producen en cada operación.
+
+Los ejemplos de respuesta son **fragmentos ilustrativos** con datos de prueba; el esquema completo se consulta en Scalar. Los listados se representan como arreglos. Los ejemplos de escritura describen el contrato; su ejecución se detalla en la sección de evidencias.
+
+**Profiles — 4 operaciones del alcance aceptado.**
+
+| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
+| :--- | :--- | :--- | :--- |
+| TS-01 | GET `/api/v1/profiles/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/profiles/GET/api/v1/profiles/%7BuserId%7D` | Ruta/consulta: `userId`. | 200: `{"userId":"synthetic-employee","firstName":"Ana","lastName":"Pérez","dni":"01234567"}` |
+| TS-01 | PUT `/api/v1/profiles/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/profiles/PUT/api/v1/profiles/%7BuserId%7D` | Ruta/consulta: `userId`.<br>JSON: `{"firstName":"Ana","lastName":"Pérez","dni":"01234567","phone":"+51900000000"}` | 200: `{"userId":"synthetic-employee","firstName":"Ana","lastName":"Pérez","dni":"01234567"}` |
+| TS-02 | GET `/api/v1/profiles/{userId}/preferences` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/profiles/GET/api/v1/profiles/%7BuserId%7D/preferences` | Ruta/consulta: `userId`. | 200: `{"userId":"synthetic-employee","locale":"en_US","updatedAt":"2026-11-11T15:00:00Z","version":"11111111-1111-4111-8111-111111111111"}` |
+| TS-02 | PUT `/api/v1/profiles/{userId}/preferences` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/profiles/PUT/api/v1/profiles/%7BuserId%7D/preferences` | Ruta/consulta: `userId`.<br>JSON: `{"locale":"en_US"}` | 200: `{"userId":"synthetic-employee","locale":"en_US","updatedAt":"2026-11-11T15:00:00Z","version":"11111111-1111-4111-8111-111111111111"}` |
+
+**Business — 15 operaciones del alcance aceptado.**
+
+| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
+| :--- | :--- | :--- | :--- |
+| TS-03 | GET `/api/v1/businesses` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses` | Sin parámetros de ruta o consulta. | 200: `[{"id":"registro-ejemplo","ownerUserId":"synthetic-admin","taxId":"20123456789","name":"Comercio de prueba"}]` |
+| TS-03 | POST `/api/v1/businesses` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/businesses` | Sin parámetros de ruta o consulta.<br>JSON: `{"taxId":"20123456789","name":"Comercio de prueba","address":"Dirección de prueba","latitude":-12.0464,"longitude":-77.0428}` | 201: `{"id":"registro-ejemplo","ownerUserId":"synthetic-admin","taxId":"20123456789","name":"Comercio de prueba"}` |
+| TS-03 | GET `/api/v1/businesses/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses/%7Bid%7D` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","ownerUserId":"synthetic-admin","taxId":"20123456789","name":"Comercio de prueba"}` |
+| TS-03 | PUT `/api/v1/businesses/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/PUT/api/v1/businesses/%7Bid%7D` | Ruta/consulta: `id`.<br>JSON: `{"name":"Comercio de prueba","address":"Dirección de prueba","latitude":-12.0464,"longitude":-77.0428,"taxId":"20123456789"}` | 200: `{"id":"registro-ejemplo","ownerUserId":"synthetic-admin","taxId":"20123456789","name":"Comercio de prueba"}` |
+| TS-09 | GET `/api/v1/businesses/{id}/seats` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses/%7Bid%7D/seats` | Ruta/consulta: `id`. | 200: `{"limit":4,"activeEmployees":1,"reservedSeats":0,"availableSeats":3}` |
+| TS-04 | GET `/api/v1/businesses/{id}/members` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses/%7Bid%7D/members` | Ruta/consulta: `id`. | 200: `[{"id":"registro-ejemplo","businessId":"1","userId":"synthetic-employee","displayName":"Persona de prueba"}]` |
+| TS-06 | GET `/api/v1/businesses/{id}/invitations` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses/%7Bid%7D/invitations` | Ruta/consulta: `id`. | 200: `[{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}]` |
+| TS-06 | POST `/api/v1/businesses/{id}/invitations` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/businesses/%7Bid%7D/invitations` | Ruta/consulta: `id`.<br>JSON: `{"displayName":"Persona de prueba","email":"persona@example.test"}` | 201: `{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}` |
+| TS-04 | GET `/api/v1/business-members/me` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/business-members/me` | Sin parámetros de ruta o consulta. | 200: `[{"businessId":"1","status":"active"}]` |
+| TS-05 | PUT `/api/v1/business-members/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/PUT/api/v1/business-members/%7Bid%7D` | Ruta/consulta: `id`.<br>JSON: `{"displayName":"Persona de prueba","email":"persona@example.test"}` | 200: `{"id":"registro-ejemplo","businessId":"1","userId":"synthetic-employee","displayName":"Persona de prueba"}` |
+| TS-05 | POST `/api/v1/business-members/{id}/activation` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/business-members/%7Bid%7D/activation` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","businessId":"1","userId":"synthetic-employee","displayName":"Persona de prueba","status":"active"}` |
+| TS-05 | POST `/api/v1/business-members/{id}/deactivation` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/business-members/%7Bid%7D/deactivation` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","businessId":"1","userId":"synthetic-employee","displayName":"Persona de prueba","status":"inactive"}` |
+| TS-07 | PUT `/api/v1/staff-invitations/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/PUT/api/v1/staff-invitations/%7Bid%7D` | Ruta/consulta: `id`.<br>JSON: `{"displayName":"Persona de prueba","email":"persona@example.test"}` | 200: `{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}` |
+| TS-07 | POST `/api/v1/staff-invitations/{id}/cancellation` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/staff-invitations/%7Bid%7D/cancellation` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}` |
+| TS-07 | POST `/api/v1/staff-invitations/{id}/resend` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/staff-invitations/%7Bid%7D/resend` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}` |
+
+**Alert — 11 operaciones del alcance aceptado.**
+
+| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
+| :--- | :--- | :--- | :--- |
+| TS-13 | GET `/api/v1/alerts` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/GET/api/v1/alerts` | Ruta/consulta: `businessId`, `status`, `page`, `pageSize`. | 200: `[{"id":"registro-ejemplo","businessId":"1","employeeId":"synthetic-employee","kind":"suspicious-activity"}]` |
+| TS-13 | GET `/api/v1/alerts/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/GET/api/v1/alerts/%7Bid%7D` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","businessId":"1","employeeId":"synthetic-employee","kind":"suspicious-activity"}` |
+| TS-11 | POST `/api/v1/alerts/panic-preparations` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/panic-preparations` | Sin parámetros de ruta o consulta.<br>JSON: `{"businessId":"1","location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428}` | 200: `{"preparationToken":"TOKEN_DEVUELTO_POR_LA_PREPARACION","notBefore":"2026-11-11T15:00:05Z","expiresAt":"2026-11-11T15:02:05Z","gracePeriodSeconds":5}` |
+| TS-11 | POST `/api/v1/alerts/panic` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/panic` | Sin parámetros de ruta o consulta.<br>JSON: `{"preparationToken":"TOKEN_DEVUELTO_POR_LA_PREPARACION","location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428}` | 200: `{"id":"alerta-ejemplo","kind":"panic","status":"active"}` |
+| TS-12 | POST `/api/v1/alerts/reports` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/reports` | Sin parámetros de ruta o consulta.<br>JSON: `{"businessId":"1","kind":"suspicious-activity","category":"person","description":"Descripción sintética del reporte","location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428,"moment":"2026-11-10T15:00:00Z"}` | 201: `{"id":"reporte-ejemplo","kind":"suspicious-activity","status":"submitted"}` |
+| TS-14 | PUT `/api/v1/alerts/{id}/location` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/PUT/api/v1/alerts/%7Bid%7D/location` | Ruta/consulta: `id`.<br>JSON: `{"location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428}` | 200: `{"id":"registro-ejemplo","businessId":"1","employeeId":"synthetic-employee","kind":"suspicious-activity"}` |
+| TS-15 | POST `/api/v1/alerts/{id}/resolution` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/%7Bid%7D/resolution` | Ruta/consulta: `id`. | 200: `{"id":"alerta-ejemplo","status":"resolved","reportStatus":"pending"}` |
+| TS-15 | PUT `/api/v1/alerts/{id}/report-draft` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/PUT/api/v1/alerts/%7Bid%7D/report-draft` | Ruta/consulta: `id`.<br>JSON: `{"category":"other","description":"Descripción sintética del reporte","location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428,"moment":"2026-11-10T15:00:00Z"}` | 200: `{"id":"alerta-ejemplo","status":"resolved","reportStatus":"pending"}` |
+| TS-15 | POST `/api/v1/alerts/{id}/report-completion` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/%7Bid%7D/report-completion` | Ruta/consulta: `id`. | 200: `{"id":"alerta-ejemplo","status":"resolved","reportStatus":"completed"}` |
+| TS-10 | GET `/api/v1/alert-preferences/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/GET/api/v1/alert-preferences/%7BuserId%7D` | Ruta/consulta: `userId`. | 200: `{"userId":"synthetic-employee","employeeId":"synthetic-employee","panicGracePeriodSeconds":5}` |
+| TS-10 | PUT `/api/v1/alert-preferences/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/PUT/api/v1/alert-preferences/%7BuserId%7D` | Ruta/consulta: `userId`.<br>JSON: `{"panicGracePeriodSeconds":5}` | 200: `{"userId":"synthetic-employee","employeeId":"synthetic-employee","panicGracePeriodSeconds":5}` |
+
+**Contacts — 5 operaciones del alcance aceptado.**
+
+| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
+| :--- | :--- | :--- | :--- |
+| TS-16 | GET `/api/v1/emergency-contacts` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/GET/api/v1/emergency-contacts` | Sin parámetros de ruta o consulta. | 200: `[{"id":"registro-ejemplo","employeeId":"synthetic-employee","fullName":"Contacto de prueba","relationship":"Familiar"}]` |
+| TS-17 | POST `/api/v1/emergency-contacts` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/POST/api/v1/emergency-contacts` | Sin parámetros de ruta o consulta.<br>JSON: `{"fullName":"Contacto de prueba","relationship":"Familiar","phone":"+51900000000","email":"persona@example.test","notes":"Contacto sintético"}` | 201: `{"id":"registro-ejemplo","employeeId":"synthetic-employee","fullName":"Contacto de prueba","relationship":"Familiar"}` |
+| TS-16 | GET `/api/v1/emergency-contacts/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/GET/api/v1/emergency-contacts/%7Bid%7D` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","employeeId":"synthetic-employee","fullName":"Contacto de prueba","relationship":"Familiar"}` |
+| TS-17 | PUT `/api/v1/emergency-contacts/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/PUT/api/v1/emergency-contacts/%7Bid%7D` | Ruta/consulta: `id`.<br>JSON: `{"fullName":"Contacto de prueba","relationship":"Familiar","phone":"+51900000000","email":"persona@example.test","notes":"Contacto sintético"}` | 200: `{"id":"registro-ejemplo","employeeId":"synthetic-employee","fullName":"Contacto de prueba","relationship":"Familiar"}` |
+| TS-17 | DELETE `/api/v1/emergency-contacts/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/DELETE/api/v1/emergency-contacts/%7Bid%7D` | Ruta/consulta: `id`. | 204: Sin cuerpo. |
+
+**Notifications — 5 operaciones del alcance aceptado.**
+
+| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
+| :--- | :--- | :--- | :--- |
+| TS-18 | GET `/api/v1/notifications` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/GET/api/v1/notifications` | Ruta/consulta: `businessId`, `page`, `pageSize`. | 200: `[{"id":"registro-ejemplo","recipientUserId":"synthetic-employee","targetBusinessId":"1","type":"nearby-panic"}]` |
+| TS-18 | GET `/api/v1/notifications/deliveries` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/GET/api/v1/notifications/deliveries` | Sin parámetros de ruta o consulta. | 200: `[{"id":"registro-ejemplo","sourceAlertId":"valor-ejemplo","sourceInvitationId":"valor-ejemplo","channel":"email"}]` |
+| TS-18 | POST `/api/v1/notifications/{id}/reading` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/POST/api/v1/notifications/%7Bid%7D/reading` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","recipientUserId":"synthetic-employee","targetBusinessId":"1","type":"nearby-panic"}` |
+| TS-19 | GET `/api/v1/notification-preferences/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/GET/api/v1/notification-preferences/%7BuserId%7D` | Ruta/consulta: `userId`, `businessId`. | 200: `{"userId":"synthetic-employee","businessId":"1","nearbyAlertsEnabled":true,"nearbyRadiusMeters":500}` |
+| TS-19 | PUT `/api/v1/notification-preferences/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/PUT/api/v1/notification-preferences/%7BuserId%7D` | Ruta/consulta: `userId`, `businessId`.<br>JSON: `{"nearbyAlertsEnabled":true,"nearbyRadiusMeters":500}` | 200: `{"userId":"synthetic-employee","businessId":"1","nearbyAlertsEnabled":true,"nearbyRadiusMeters":500}` |
+
+**Payments — 3 operaciones del alcance aceptado.**
+
+| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
+| :--- | :--- | :--- | :--- |
+| TS-20 | GET `/api/v1/plans` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/payments/GET/api/v1/plans` | Sin parámetros de ruta o consulta. | 200: `[{"id":"essential","currency":"USD","maxEmployees":4}]` |
+| TS-20 | GET `/api/v1/businesses/{businessId}/subscription` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/payments/GET/api/v1/businesses/%7BbusinessId%7D/subscription` | Ruta/consulta: `businessId`. | 200: `{"planId":"essential","status":"active","isSimulated":true}`<br>204: Sin cuerpo. |
+| TS-20 | GET `/api/v1/businesses/{businessId}/billing-history` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/payments/GET/api/v1/businesses/%7BbusinessId%7D/billing-history` | Ruta/consulta: `businessId`. | 200: `[]` si no hay transacciones confirmadas. |
+
+**Mapping — 6 operaciones del alcance aceptado.**
+
+| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
+| :--- | :--- | :--- | :--- |
+| TS-25 | GET `/api/v1/mapping/active-alerts` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/active-alerts` | Ruta/consulta: `businessId`, `radiusMeters`. | 200: `[{"id":"registro-ejemplo","businessId":"1","title":"Incidente de prueba","description":"Descripción sintética del reporte"}]` |
+| TS-25 | GET `/api/v1/mapping/incidents` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/incidents` | Ruta/consulta: `businessId`, `radiusMeters`, `category`, `since`. | 200: `[{"id":"registro-ejemplo","businessId":"1","title":"Incidente de prueba","description":"Descripción sintética del reporte"}]` |
+| TS-25 | GET `/api/v1/mapping/incidents/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/incidents/%7Bid%7D` | Ruta/consulta: `businessId`, `id`, `radiusMeters`. | 200: `{"id":"registro-ejemplo","businessId":"1","title":"Incidente de prueba","description":"Descripción sintética del reporte"}` |
+| TS-26 | GET `/api/v1/mapping/businesses` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/businesses` | Ruta/consulta: `businessId`, `radiusMeters`. | 200: `[{"id":"registro-ejemplo","name":"Comercio de prueba","address":"Dirección de prueba","latitude":-12.0464}]` |
+| TS-27 | GET `/api/v1/mapping/risk-zones` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/risk-zones` | Ruta/consulta: `businessId`, `radiusMeters`, `category`, `since`. | 200: `[{"id":"registro-ejemplo","name":"Comercio de prueba","riskLevel":"low","incidentCount":2}]` |
+| TS-27 | GET `/api/v1/mapping/risk-zones/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/risk-zones/%7Bid%7D` | Ruta/consulta: `businessId`, `id`, `radiusMeters`, `category`, `since`. | 200: `{"id":"registro-ejemplo","name":"Comercio de prueba","riskLevel":"low","incidentCount":2}` |
+
+**Dashboard — 4 operaciones del alcance aceptado.**
+
+| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
+| :--- | :--- | :--- | :--- |
+| TS-28 | GET `/api/v1/businesses/{businessId}/dashboard` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/dashboard/GET/api/v1/businesses/%7BbusinessId%7D/dashboard` | Ruta/consulta: `businessId`, `radiusMeters`. | 200: `{"role":"administrator","businessId":"1","userId":"synthetic-employee","businessName":"valor-ejemplo"}` |
+| TS-29 | GET `/api/v1/businesses/{businessId}/reports` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/dashboard/GET/api/v1/businesses/%7BbusinessId%7D/reports` | Ruta/consulta: `businessId`. | 200: `[{"id":"registro-ejemplo","businessId":"1","startDate":"2026-11-01","endDate":"2026-11-10"}]` |
+| TS-29 | POST `/api/v1/businesses/{businessId}/reports` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/dashboard/POST/api/v1/businesses/%7BbusinessId%7D/reports` | Ruta/consulta: `businessId`.<br>JSON: `{"startDate":"2026-11-01","endDate":"2026-11-10"}` | 201: `{"id":"registro-ejemplo","businessId":"1","startDate":"2026-11-01","endDate":"2026-11-10"}` |
+| TS-29 | GET `/api/v1/businesses/{businessId}/reports/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/dashboard/GET/api/v1/businesses/%7BbusinessId%7D/reports/%7Bid%7D` | Ruta/consulta: `businessId`, `id`. | 200: `{"id":"registro-ejemplo","businessId":"1","startDate":"2026-11-01","endDate":"2026-11-10"}` |
+
+**Health — 2 operaciones del alcance aceptado.**
+
+| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
+| :--- | :--- | :--- | :--- |
+| Soporte | GET `/health/live` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/health/GET/health/live` | Sin parámetros de ruta o consulta. | 200: `{"status":"alive"}` |
+| Soporte | GET `/health/ready` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/health/GET/health/ready` | Sin parámetros de ruta o consulta. | 200: `{"status":"ready"}` |
+
+
+**Reglas para interpretar las respuestas.** En Profiles, DNI se representa como texto para conservar ceros iniciales. En Business, un administrador posee un comercio y una membresía inactiva conserva su asociación; el administrador no consume cupo. En Alert, preparar no crea una alerta y confirmar exige esperar el periodo del servidor; resolver y completar el reporte son acciones distintas. En Notifications, el radio admite 100, 500 o 1000 metros y se aplica desde la ubicación del comercio. En Mapping, el riesgo usa una ventana fija de 30 días y niveles bajo (1–5), medio (6–14) y alto (15 o más). En Dashboard, los rangos no incluyen fechas futuras y la consulta de un reporte devuelve la instantánea guardada.
+
+
+**Capturas de interacción con la documentación.** La primera muestra la versión 1.0.0, los módulos y el servidor HTTPS. La segunda registra una consulta de lectura ejecutada desde Scalar con HTTP 200 y status ready.
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-scalar-overview.png" alt="Scalar desplegado con API versión 1.0.0 y servidor HTTPS" width="800">
+</p>
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-scalar-health-ready.png" alt="Consulta GET health ready ejecutada desde Scalar con respuesta HTTP 200" width="800">
+</p>
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+**Direcciones desplegadas**
+
+- Backend: `https://instalert-backend-yqe9.onrender.com`
+- Frontend: `https://instalert-c3f7f.web.app/`
+
+El backend se publicó como Web Service Docker en Render y utiliza MySQL administrado por Aiven. El frontend conserva Firebase Hosting y se actualizó su configuración para consultar la API pública.
+
+| Producto | Versión de código | Publicación / configuración | Evidencia al corte |
+| :--- | :--- | :--- | :--- |
+| Web Services | [v1.0.0](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/tree/v1.0.0) | `https://instalert-backend-yqe9.onrender.com`, Dockerfile en la raíz, puerto PORT y health check /health/ready. | Captura del servicio Live, rama release/1.0.0 y commit 0c66de7, junto con consultas públicas comprobadas.  |
+| Base de datos | Migraciones EF Core del backend | MySQL en Aiven, conexión TLS y certificado ca.pem disponible en Render como secret file. | La consola muestra MySQL 8.4.11 en Running y la base defaultdb. Readiness comprueba conexión y ausencia de migraciones pendientes. No se publican credenciales. |
+| Web Application | [v2.0.0](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/tree/v2.0.0) | Proyecto Firebase instalert-c3f7f; public dist y reescritura SPA a index.html; API configurada hacia Render. | El sitio público respondió HTTP 200; su bundle contiene la URL de Render y CORS admite el origen web.app. La captura confirma el proyecto Firebase. |
+| Landing Page | Actualización de contenido del Sprint 3 | GitHub Pages: `https://losincreiblescorp.github.io/InstAlert-LandingPage/` | Se agregaron los videos About the Team y About the Product para presentar al equipo y explicar el producto. |
+
+**Landing Page.** Se agregaron los videos **About the Team** y **About the Product**, que presentan a los integrantes del equipo y las funcionalidades de InstAlert.
+
+- Repositorio: `https://github.com/LosIncreiblesCorp/InstAlert-LandingPage`
+- Sitio publicado: `https://losincreiblescorp.github.io/InstAlert-LandingPage/`
+
+**Backend en Render.** La imagen usa .NET 10 en dos etapas: restore/publish con SDK y ejecución con ASP.NET. El proceso escucha en todas las interfaces y utiliza el puerto proporcionado por Render. .dockerignore excluye salidas de compilación, configuración de desarrollo y certificados locales. La conexión y las credenciales del proveedor se suministran en el entorno del servicio, sin incorporarlas al informe.
+
+El certificado de Aiven se publica como secret file `ca.pem`, disponible en `/etc/secrets/ca.pem`; la conexión utiliza TLS con verificación de CA. Las migraciones se aplican explícitamente: la ejecución automática en Production está deshabilitada. El seeder de demostración está habilitado y su repetición no debe duplicar comercio, perfiles ni membresías. Esta configuración conserva datos demo para la presentación y no constituye un registro de usuarios mediante IAM.
+
+
+
+**Frontend en Firebase Hosting.** El archivo .firebaserc selecciona `instalert-c3f7f` y firebase.json publica `dist`. La compilación obtiene `VITE_INSTALERT_PLATFORM_API_URL=https://instalert-backend-yqe9.onrender.com/api/v1` .
+
+```text
+npm run build
+firebase deploy --only hosting --project instalert-c3f7f
+```
+
+
+
+**Evidencias de los proveedores.** Render muestra el servicio Instalert-BackEnd con runtime Docker, estado Live, fuente release/1.0.0 y commit 0c66de7.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-render-live.png" alt="Servicio Docker de Render en Live con la rama release 1.0.0 y el commit 0c66de7" width="800">
+</p>
+
+La consola de Aiven muestra el servicio mysql-65525dd ejecutándose con MySQL 8.4.11, un nodo y la base defaultdb. Esta imagen confirma la existencia y el estado del recurso.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-aiven-mysql.png" alt="Servicio MySQL de Aiven en Running con la base defaultdb" width="800">
+</p>
+
+La captura de Firebase muestra el proyecto InstAlert. Corresponde a la vista general del proyecto.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-firebase-project.png" alt="Vista general del proyecto InstAlert en Firebase con plan Spark" width="800">
+</p>
+
+
+
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+El equipo trabajó por módulos con ramas feature, revisiones e integración a develop. Los releases consolidados se integraron a main y de vuelta a develop, conservando los tags backend v1.0.0 y frontend v2.0.0. El historial de commits y los pull requests registran la autoría y las integraciones realizadas.
+
+**Contribuciones registradas en main.** El siguiente recuento corresponde al historial Git de main entre el 24/10/2026 y el 11/11/2026 e incluye los merges. Las cifras expresan la cantidad de commits por integrante durante ese intervalo.
+
+| Integrante | GitHub Username | Backend | Frontend |
+| :--- | :--- | ---: | ---: |
+| Asto Jácome, José Gustavo | DhudsQ | 73 | 22 |
+| Díaz Mendoza, Sebastián Víctor André | DiazDeveloper | 52 | 10 |
+| Noriega Collado, Jean Fabio | dumbaskidd | 49 | 10 |
+| Ruiz Villegas, Yngrid Nahir | nahiryn8 | 21 | 6 |
+| Simón Calderón, Ismael Sebastián | Mayel-dev | 111 | 7 |
+| **Total del intervalo** | | **306** | **55** |
+
+
+
+
+
+**Analíticas e integración de ramas del backend.** El gráfico de contribuidores muestra cinco barras, de los 5 miembros del grupo. La gráfica de red identifica las ramas de preparación de despliegue.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-backend-top-committers.png" alt="Gráfico de contribuidores del backend; el recorte no muestra nombres ni periodo" width="510">
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-backend-network.png" alt="Red de ramas del backend con integración de las correcciones ORM a develop" width="800">
+</p>
+
+**Analíticas e integración de ramas del frontend.** El segundo gráfico presenta la actividad de cinco contribuidores. La red de ramas permite observar las integraciones de Alert, Contacts, Notifications, Mapping, Payments y Dashboard, además de release/2.0.0 y su relación con main y develop.
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-frontend-top-committers.png" alt="Gráfico de contribuidores del frontend; el recorte no muestra nombres ni periodo" width="510">
+</p>
+
+<p align="center">
+  <img src="../assets/Chapter5/sprint-3-frontend-network.png" alt="Red del frontend con features integradas y release 2.0.0 hacia main y develop" width="800">
+</p>
+

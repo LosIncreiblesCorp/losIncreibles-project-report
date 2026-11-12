@@ -90,6 +90,16 @@
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](10-product-implementation-validation-and-deployment.md#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](10-product-implementation-validation-and-deployment.md#5228-team-collaboration-insights-during-sprint)
 
+    - [5.2.3. Sprint 3](10-product-implementation-validation-and-deployment.md#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](10-product-implementation-validation-and-deployment.md#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](10-product-implementation-validation-and-deployment.md#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](10-product-implementation-validation-and-deployment.md#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](10-product-implementation-validation-and-deployment.md#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](10-product-implementation-validation-and-deployment.md#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](10-product-implementation-validation-and-deployment.md#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](10-product-implementation-validation-and-deployment.md#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](10-product-implementation-validation-and-deployment.md#5238-team-collaboration-insights-during-sprint)
+
 - [Conclusiones](11-conclusions.md#conclusiones)
 - [Bibliografía](12-references.md#bibliografía)
 - [Anexos](13-annexes.md#anexos)
