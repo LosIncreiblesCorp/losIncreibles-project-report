@@ -763,6 +763,287 @@ La configuración del radio de recepción se revisa en las preferencias de Notif
 **Nota:** La guía comprende 12 preguntas de Landing Page, 12 para administradores, 13 para empleados y 12 preguntas generales. Cada participante responde las preguntas comunes y las correspondientes a su rol.
 
 ### 5.3.2. Registro de Entrevistas.
+
+#### Entrevistas realizadas al Segmento 1: Administradores y dueños de establecimientos comerciales
+
+<table>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista de Validación de Producto #1</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><strong>Nombre</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Apellidos</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Link de Video</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Timing de Inicio</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Duración</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Resumen de Validación</strong></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista de Validación de Producto #2</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><strong>Nombre</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Apellidos</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Link de Video</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Timing de Inicio</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Duración</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Resumen de Validación</strong></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista de Validación de Producto #3</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><strong>Nombre</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Apellidos</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Link de Video</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Timing de Inicio</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Duración</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Resumen de Validación</strong></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+#### Entrevistas realizadas al Segmento 2: Personal operativo
+
+<table>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista de Validación de Producto #4</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><strong>Nombre</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Apellidos</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Link de Video</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Timing de Inicio</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Duración</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Resumen de Validación</strong></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista de Validación de Producto #5</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><strong>Nombre</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Apellidos</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Link de Video</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Timing de Inicio</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Duración</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Resumen de Validación</strong></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista de Validación de Producto #6</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><strong>Nombre</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Apellidos</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Link de Video</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Timing de Inicio</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Duración</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Resumen de Validación</strong></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
 ### 5.3.3. Evaluaciones según heurísticas.
 
 #### UX Heuristics & Principles Evaluation
