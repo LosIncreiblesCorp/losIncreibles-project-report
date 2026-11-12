@@ -775,19 +775,19 @@ La configuración del radio de recepción se revisa en las preferencias de Notif
 <tbody>
   <tr>
     <td><strong>Nombre</strong></td>
-    <td></td>
+    <td>María Rocío</td>
   </tr>
   <tr>
     <td><strong>Apellidos</strong></td>
-    <td></td>
+    <td>de los Ángeles</td>
   </tr>
   <tr>
     <td><strong>Edad</strong></td>
-    <td></td>
+    <td>42 años</td>
   </tr>
   <tr>
     <td><strong>Distrito</strong></td>
-    <td></td>
+    <td>Comas</td>
   </tr>
   <tr>
     <td><strong>Evidencia</strong></td>
