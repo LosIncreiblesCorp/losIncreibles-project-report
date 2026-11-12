@@ -717,168 +717,50 @@ Para evidenciar el compromiso y la participación equitativa de todos los integr
 
 ## 5.3. Validation Interviews
 
-### 5.3.1. Diseño de Entrevistas. 
+### 5.3.1. Diseño de Entrevistas.
 
-Esta sección describe el diseño de las entrevistas de validación orientadas a evaluar la navegación, claridad y experiencia de uso de InstAlert. La validación se realizará considerando los dos segmentos objetivo del proyecto: administradores de establecimientos comerciales y personal operativo.
+Las entrevistas de validación de InstAlert se orientan a evaluar la comprensión de la propuesta, la facilidad de uso, la navegación y la utilidad percibida para sus dos segmentos: administradores y dueños de establecimientos comerciales, y personal operativo.
 
-Durante las sesiones, los participantes interactuarán inicialmente con la Landing Page de InstAlert y, posteriormente, con la aplicación web correspondiente a su segmento. Para ello, se han definido tareas basadas en los User Flows documentados en el informe, con el propósito de observar cómo los participantes completan las principales acciones de la plataforma, identificar posibles dificultades y recopilar sus opiniones sobre la utilidad y facilidad de uso del producto.
+Cada sesión comprende la exploración de la Landing Page, la realización de tareas en la aplicación correspondiente al rol y las preguntas generales de cierre. Se registrarán las dificultades, las acciones que requieran ayuda y las sugerencias del participante, diferenciando sus opiniones de las observaciones del evaluador.
 
-Las entrevistas incluirán preguntas relacionadas con la comprensión de la información, facilidad de navegación, claridad de los mensajes, utilidad de las funcionalidades y oportunidades de mejora.
+**User flows utilizados para la validación:**
 
-**Evaluación de la Landing Page**
+- **Actividad común — Landing Page:** explorar la propuesta de valor, las funcionalidades, el video, los planes y los precios para explicar qué ofrece InstAlert y a quién se dirige.
+- **Segmento 1: Administradores y dueños de establecimientos comerciales:**
+  - Como administrador, quiero consultar el dashboard para identificar la información relevante de mi establecimiento.
+  - Como administrador, quiero interpretar el mapa de riesgos y sus filtros para conocer los incidentes cercanos.
+  - Como administrador, quiero completar o actualizar el perfil del negocio para mantener sus datos y ubicación.
+  - Como administrador, quiero invitar personal operativo y consultar el estado de la invitación para administrar mi equipo.
+  - Como administrador, quiero consultar el historial de alertas y sus filtros para revisar los incidentes registrados.
+  - Como administrador, quiero comparar los planes y sus límites para evaluar una suscripción.
+  - Como administrador, quiero localizar las preferencias de notificación y su radio de recepción para ajustar los avisos cercanos.
+- **Segmento 2: Personal operativo:**
+  - Como empleado, quiero localizar el botón de pánico y comprender su cuenta regresiva para activar o cancelar una alerta de prueba antes de confirmarla.
+  - Como empleado, quiero registrar un incidente y completar sus datos para comunicar lo ocurrido.
+  - Como empleado, quiero agregar o modificar mis contactos de emergencia para mantener mi red de apoyo.
+  - Como empleado, quiero consultar las notificaciones y el mapa para comprender los incidentes cercanos.
+  - Como empleado, quiero localizar mis datos, el idioma y las preferencias de notificación para personalizar el uso de la aplicación.
 
-Antes de utilizar las aplicaciones web, los participantes de ambos segmentos explorarán la Landing Page de InstAlert, con el objetivo de evaluar si la información presentada permite comprender el propósito de la plataforma, sus funcionalidades y los beneficios que ofrece.
+**Procedimiento de la sesión:**
 
-**Tareas asignadas**
+1. Solicitar autorización para registrar la sesión y recoger los datos de identificación del participante.
+2. Permitir la exploración de la Landing Page y realizar las preguntas de esa sección.
+3. Presentar las tareas del segmento correspondiente, utilizando datos y alertas de prueba.
+4. Observar el recorrido y formular las preguntas de la aplicación web sin anticipar respuestas.
+5. Realizar las preguntas generales y registrar las sugerencias finales.
 
-- Ingresar a la Landing Page de InstAlert y explorar su contenido principal.
-- Identificar el propósito de InstAlert y el problema que busca resolver.
-- Revisar las funcionalidades y beneficios que presenta la plataforma.
-- Visualizar el video informativo y evaluar si permite comprender mejor el funcionamiento del producto.
-- Explorar las secciones de información, planes y sobre nosotros.
-- Comparar los planes disponibles e identificar las características y beneficios de cada uno.
-- Revisar los precios y evaluar si la información presentada es clara.
-- Identificar los medios de contacto y las opciones disponibles para conocer o utilizar InstAlert.
+La configuración del radio de recepción se revisa en las preferencias de Notificaciones. Al formular la pregunta sobre el radio en el mapa, se distinguirá esa configuración del radio de búsqueda del mapa para no asumir que ambos controles cumplen la misma función.
 
-**Preguntas de validación**
+**Preguntas de Validación de Producto:**
 
-1. ¿Qué fue lo primero que llamó tu atención al ingresar a la página?
-2. ¿Qué crees que ofrece InstAlert y a qué tipo de usuarios está dirigido?
-3. ¿Qué problema crees que busca resolver InstAlert? ¿Consideras que es relevante para un establecimiento comercial?
-4. ¿Qué entiendes por las funcionalidades y beneficios que presenta InstAlert? ¿Cuál consideras más útil?
-5. ¿El video te permitió comprender mejor el funcionamiento del producto? ¿Qué información adicional esperabas encontrar?
-6. ¿Encontraste fácilmente las secciones de funciones, planes y sobre nosotros?
-7. ¿Qué diferencias encuentras entre los planes? ¿Te resulta fácil identificar qué incluye cada uno?
-8. ¿Los precios te parecen claros? ¿Prefieres visualizarlos en soles o dólares?
-9. ¿Consideras que la información está organizada de manera clara?
-10. ¿Hubo alguna sección que te pareciera innecesaria o confusa?
-11. ¿La página te transmite confianza para utilizar InstAlert? ¿Por qué?
-12. ¿Qué información adicional necesitarías para decidirte a utilizar InstAlert?
+| Sección / Segmento | Preguntas de la Entrevista de Validación |
+| :--- | :--- |
+| **Landing Page — ambos segmentos** | 1. ¿Qué fue lo primero que llamó tu atención al ingresar a la página?<br>2. ¿Qué crees que ofrece InstAlert y a qué tipo de usuarios está dirigido?<br>3. ¿Qué problema crees que busca resolver InstAlert? ¿Consideras que es relevante para un establecimiento comercial?<br>4. ¿Qué entiendes por alertas de seguridad, red de negocios cercanos e información de riesgo local? ¿Cuál consideras más útil?<br>5. ¿El video te permitió comprender mejor el funcionamiento del producto? ¿Qué información adicional esperabas encontrar?<br>6. ¿Qué diferencias encuentras entre los planes? ¿Te resulta fácil identificar qué incluye cada uno?<br>7. ¿Los precios te parecen claros? ¿Prefieres visualizarlos en soles o dólares?<br>8. ¿Encontraste fácilmente la información que buscabas?<br>9. ¿Consideras que la información está organizada de manera clara?<br>10. ¿Hubo alguna sección que te pareciera innecesaria o confusa?<br>11. ¿La página te transmite confianza para contratar el servicio? ¿Por qué?<br>12. ¿Qué información adicional necesitarías para decidirte a utilizar InstAlert? |
+| **Aplicación web — Segmento 1: Administrador** | 1. ¿Pudiste identificar fácilmente en qué sección de la aplicación te encontrabas?<br>2. ¿Comprendiste la información presentada en el dashboard? ¿Qué datos te parecieron más útiles para administrar tu establecimiento?<br>3. ¿Cómo interpretas la información del mapa? ¿Comprendes qué representan sus colores y símbolos?<br>4. ¿Te resultó sencillo encontrar y completar la información del establecimiento? ¿Qué campo te generó dudas?<br>5. ¿Qué tan sencillo fue realizar la invitación a un empleado? ¿Comprendiste qué sucedería después de enviarla?<br>6. ¿Pudiste identificar fácilmente el historial de alertas? ¿Qué filtros o criterios de búsqueda consideras necesarios?<br>7. ¿Comprendes qué beneficios y límites ofrece cada plan? ¿Qué información necesitarías antes de realizar un pago?<br>8. ¿Pudiste identificar cómo funciona el radio de alertas en el mapa? ¿Qué distancia elegirías y por qué?<br>9. ¿Encontraste fácilmente las opciones para actualizar tus datos y preferencias?<br>10. ¿Qué tarea te pareció más complicada de realizar?<br>11. Si cometieras un error durante alguna tarea, ¿sabrías cómo corregirlo?<br>12. ¿Qué información o funcionalidad agregarías para facilitar la administración y la toma de decisiones sobre la seguridad de tu establecimiento? |
+| **Aplicación web — Segmento 2: Empleado** | 1. ¿Pudiste identificar fácilmente las opciones principales de la aplicación?<br>2. ¿Comprendiste cómo funciona el botón de alerta y qué sucedería después de activarlo?<br>3. ¿Comprendiste cómo funciona la cuenta regresiva? ¿Te resultó fácil identificar los pasos para activar o cancelar una alerta de prueba?<br>4. ¿Te resultó sencillo encontrar la opción para registrar un incidente?<br>5. ¿Qué tan sencillo fue completar el reporte? ¿Qué información consideras indispensable?<br>6. ¿Pudiste identificar cómo agregar o modificar un contacto de emergencia? ¿Qué información consideras necesaria solicitar?<br>7. ¿Pudiste identificar las notificaciones nuevas? ¿La información presentada te permite comprender qué ocurrió?<br>8. ¿Comprendes la información que muestra el mapa? ¿Te resulta útil para conocer los incidentes cercanos?<br>9. ¿Pudiste encontrar las opciones para modificar tus datos, idioma o preferencias de notificación?<br>10. ¿Las opciones y mensajes de la aplicación utilizaron palabras que te resultaron familiares?<br>11. ¿Encontraste instrucciones suficientes para realizar las tareas sin ayuda?<br>12. Si cometieras un error durante alguna tarea, ¿sabrías cómo corregirlo?<br>13. ¿Qué cambiarías para que la aplicación fuera más sencilla y rápida de utilizar? |
+| **Preguntas generales — ambos segmentos** | 1. ¿Qué fue lo más fácil de realizar durante la prueba?<br>2. ¿Qué fue lo más difícil o confuso?<br>3. ¿En algún momento no supiste qué acción realizar?<br>4. ¿La aplicación te informó claramente cuando realizaste una acción?<br>5. ¿Consideras que podrías utilizar InstAlert sin ayuda de otra persona?<br>6. ¿Qué tan fácil te resultó utilizar la aplicación del 1 al 5?<br>7. ¿Qué funcionalidad consideras más útil?<br>8. ¿Qué funcionalidad mejorarías o agregarías?<br>9. ¿Confías en que InstAlert protegería tu información personal y ubicación?<br>10. ¿Qué situación podría hacer que dejaras de utilizar InstAlert?<br>11. ¿Consideras que InstAlert aportaría valor a la seguridad de tu establecimiento?<br>12. Si tuvieras que describir InstAlert en tres palabras, ¿cuáles serían? |
 
----
-
-**Primer Segmento Objetivo (Administradores de establecimientos comerciales)**
-
-**User Flows**
-
-Los siguientes User Flows corresponden a los diagramas de la aplicación web del administrador documentados en el informe:
-
-- **User Flow 1** - Registro exitoso de un comercio y registro con errores.
-- **User Flow 2** - Consulta del mapa de riesgo.
-- **User Flow 3** - Consulta del historial de alertas del administrador.
-- **User Flow 4** - Selección y gestión de una suscripción.
-- **User Flow 5** - Agregar personal operativo y validación de errores.
-
- **Tareas asignadas**
-
-- Realizar el proceso de registro de un establecimiento comercial, completando los datos solicitados.
-- Explorar el proceso de registro e identificar los pasos necesarios para ingresar las credenciales y seleccionar un plan.
-- Evaluar el comportamiento del sistema ante información incorrecta o un correo electrónico que ya se encuentre registrado.
-- Ingresar al panel administrativo y ubicar el mapa de riesgo.
-- Explorar el mapa e interpretar los colores, símbolos e información que representan los establecimientos y sus incidentes.
-- Seleccionar un establecimiento en el mapa y revisar los detalles de los incidentes disponibles.
-- Ingresar al historial de alertas del administrador y revisar los registros presentados.
-- Identificar cómo consultar las alertas y seleccionar el establecimiento cuyas incidencias desea revisar.
-- Acceder a la sección de suscripciones y revisar los planes disponibles.
-- Explorar las opciones para seleccionar o gestionar una suscripción.
-- Ingresar a la opción para agregar personal operativo y completar los datos solicitados.
-- Evaluar el mensaje de confirmación después de registrar correctamente a un empleado.
-- Probar el comportamiento del sistema ante información incorrecta o un correo electrónico duplicado.
-
-**Preguntas de validación**
-
-1. ¿Te resultó sencillo encontrar la opción para registrar tu negocio y completar los datos solicitados?
-2. ¿Comprendiste los pasos para ingresar tus credenciales, seleccionar un plan y completar el registro?
-3. Si ingresaras información incorrecta o un correo ya registrado, ¿comprenderías el mensaje de error y cómo solucionarlo?
-4. ¿Pudiste encontrar fácilmente el mapa de riesgo desde el dashboard?
-5. ¿Cómo interpretas la información del mapa? ¿Comprendes qué representan sus colores y símbolos?
-6. ¿Te resultó sencillo seleccionar un establecimiento y consultar los detalles de sus incidentes?
-7. ¿Pudiste encontrar fácilmente el historial de alertas de tu establecimiento?
-8. ¿Comprendiste cómo consultar las alertas y seleccionar el negocio cuyas incidencias deseas revisar?
-9. ¿Te resultó sencillo encontrar la sección de gestión de suscripción?
-10. ¿Comprendes las diferencias entre los planes y los beneficios que ofrece cada uno?
-11. ¿Te resultó clara la información sobre los métodos de pago y la facturación?
-12. ¿Pudiste encontrar fácilmente la opción para agregar personal operativo?
-13. ¿Los campos solicitados para registrar a un empleado te parecieron claros y necesarios?
-14. ¿Comprendiste el mensaje de confirmación cuando se agregó correctamente un empleado?
-15. Si ingresaras un correo duplicado o información incorrecta, ¿sabrías cómo corregirlo?
-16. ¿Qué tarea te pareció más complicada de realizar?
-17. ¿Qué información o funcionalidad agregarías para facilitar la administración de tu establecimiento?
-
----
-
-**Segundo Segmento Objetivo (Personal operativo)**
-
-**User Flows**
-
-Los siguientes User Flows corresponden a los diagramas de la aplicación web del personal operativo documentados en el informe:
-
-- **User Flow 1** - Activación y resolución de una alerta de pánico.
-- **User Flow 2** - Reportar actividad sospechosa.
-- **User Flow 3** - Reportar otro tipo de alerta.
-- **User Flow 4** - Consulta de notificaciones del sistema.
-- **User Flow 5** - Cancelación de una falsa alarma.
-- **User Flow 6** - Registro de un contacto de emergencia y validación de errores.
-- **User Flow 7** - Consulta del historial de alertas.
-
-**Tareas asignadas**
-
-- Ingresar a la sección de alertas e identificar el botón de pánico.
-- Explorar el proceso de activación de una alerta de pánico y observar cómo funciona la cuenta regresiva.
-- Revisar el procedimiento para resolver o cancelar una alerta antes de que se active.
-- Ingresar a la opción para reportar una actividad sospechosa y completar la información solicitada.
-- Explorar las opciones disponibles para describir la situación y registrar los datos del incidente.
-- Acceder a la opción para reportar otro tipo de alerta e identificar las categorías disponibles.
-- Completar un reporte indicando el tipo de incidente, su ubicación y las evidencias correspondientes, según las opciones disponibles.
-- Ingresar a la sección de notificaciones y revisar los avisos recibidos por el sistema.
-- Explorar el procedimiento para cancelar una alerta generada por error y revisar el mensaje de confirmación.
-- Ingresar a la sección de contactos de emergencia y registrar un nuevo contacto.
-- Evaluar el comportamiento del sistema cuando se ingresan datos incorrectos durante el registro del contacto.
-- Acceder al historial de alertas y revisar los eventos registrados.
-- Utilizar los filtros disponibles para localizar una alerta específica y consultar sus detalles.
-
-**Preguntas de validación**
-
-1. ¿Pudiste encontrar fácilmente el botón de pánico desde la sección de alertas?
-2. ¿Comprendiste cómo funciona la cuenta regresiva y qué sucede cuando termina?
-3. ¿Te resultó claro cómo cancelar una alerta antes de que se active?
-4. ¿Te resultó sencillo completar el reporte de emergencia y seleccionar el tipo de incidente?
-5. ¿Las categorías disponibles (robo, intento de robo, asalto u otro) te parecieron claras?
-6. ¿Pudiste identificar fácilmente la opción para reportar una actividad sospechosa?
-7. ¿Comprendiste qué información debías proporcionar para completar el reporte?
-8. ¿Te resultó sencillo encontrar la opción para registrar otro tipo de alerta?
-9. ¿Las opciones para describir el incidente, indicar su ubicación y adjuntar evidencias te parecieron claras?
-10. ¿Pudiste identificar fácilmente las notificaciones recibidas?
-11. ¿La información presentada te permite comprender qué ocurrió y dónde sucedió?
-12. ¿Pudiste identificar cómo cancelar una alerta activada por error?
-13. ¿Comprendiste qué sucede después de confirmar la cancelación?
-14. ¿Pudiste encontrar fácilmente la sección para agregar un contacto de emergencia?
-15. ¿Los datos solicitados para registrar un contacto te parecieron claros y necesarios?
-16. Si ingresaras información incorrecta, ¿comprenderías qué campo necesitas corregir?
-17. ¿Pudiste encontrar fácilmente el historial de alertas y eventos?
-18. ¿Te resultó sencillo utilizar los filtros para encontrar una alerta específica?
-19. ¿La información presentada te permite comprender los detalles de cada incidente?
-20. ¿Qué tarea te pareció más complicada de realizar?
-21. ¿Qué cambiarías para que la aplicación fuera más sencilla y rápida de utilizar?
-
----
-
-**Preguntas generales de cierre**
-
-Al finalizar las actividades correspondientes a cada segmento, se realizarán preguntas generales para conocer la percepción de los participantes sobre la experiencia de uso de InstAlert.
-
-1. ¿Qué fue lo más fácil de realizar durante la prueba?
-2. ¿Qué fue lo más difícil o confuso?
-3. ¿En algún momento no supiste qué acción realizar?
-4. ¿La aplicación te informó claramente cuando realizaste una acción?
-5. ¿Consideras que podrías utilizar InstAlert sin ayuda de otra persona?
-6. ¿Qué tan fácil te resultó utilizar la plataforma del 1 al 5?
-7. ¿Qué funcionalidad consideras más útil?
-8. ¿Qué funcionalidad mejorarías o agregarías?
-9. ¿Confías en que InstAlert protegería tu información personal y ubicación?
-10. ¿Qué situación podría hacer que dejaras de utilizar InstAlert?
-11. ¿Consideras que InstAlert aportaría valor a la seguridad de tu establecimiento?
-12. Si tuvieras que describir InstAlert en tres palabras, ¿cuáles serían?
+**Nota:** La guía comprende 12 preguntas de Landing Page, 12 para administradores, 13 para empleados y 12 preguntas generales. Cada participante responde las preguntas comunes y las correspondientes a su rol.
 
 ### 5.3.2. Registro de Entrevistas.
 ### 5.3.3. Evaluaciones según heurísticas.
