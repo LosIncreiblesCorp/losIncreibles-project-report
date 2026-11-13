@@ -762,7 +762,7 @@ Wireflow:
 Descripción del flujo:
  Al abrir alertas, el operador de la tienda accede a los detalles clave del incidente: tipo de amenaza, distancia aproximada y hora del suceso, información suficiente para decidir una acción preventiva inmediata, como cerrar temporalmente su local o extremar precauciones.
 
-* User Goal: Como operador, quiero poder cancelar una alerta en caso de falsa alarma, para evitar pánico innecesario en la red vecinal.
+* User Goal: Como operador, quiero cancelar la cuenta regresiva del botón de pánico cuando lo activo por error, para evitar una falsa alarma.
 
 Task Flow:
 
@@ -770,9 +770,10 @@ Task Flow:
 
 ```mermaid
 flowchart TD
-    A([Inicio: Usuario emisor con alerta activa reciente]) --> B["elecciona 'Cancelar alerta / Fue falsa alarma'"]
-    B --> C["Sistema actualiza estado a 'Resuelta'"]
-    C --> D["lerta cerrada sin generar reporte de incidente real."]
+    A([Inicio: Cuenta regresiva de pánico en curso]) --> B["Selecciona cancelar antes de que termine"]
+    B --> C["Sistema interrumpe la cuenta regresiva"]
+    C --> D["No registra alerta ni reporte, ni envía avisos"]
+    D --> E([Regresa a Alertas Operativas])
 ```
 
 </div>
@@ -787,7 +788,7 @@ Wireflow:
 <br> Nota: Diagrama de Wireflow de cancelación de falsa alarma </p>
 
 Descripción del flujo:
-Si el usuario que activó una alerta determina que se trató de una falsa alarma, puede cancelarla directamente desde la pantalla de "Situación de Pánico Activa" sin necesidad de esperar a que se resuelva como un incidente real. Tras confirmar la cancelación, el sistema actualiza el estado de la alerta a "resuelta" y notifica a la red vecinal que la emergencia ha sido descartada, evitando que otros negocios mantengan un estado de alerta innecesario.
+Si el usuario activa el botón de pánico por error, puede cancelar la cuenta regresiva antes de que termine. El sistema interrumpe la preparación y regresa a Alertas Operativas sin registrar una alerta, un reporte o una entrada del historial, ni enviar avisos o generar un punto del mapa por esa activación. Una vez confirmado el pánico, la cancelación de la cuenta regresiva deja de estar disponible; la alerta activa se resuelve cuando termina el peligro y conserva su reporte asociado.
 
 * User Goal: Como operador, quiero gestionar y registrar un nuevo contacto de emergencia en la plataforma, para asegurar que las personas clave reciban las notificaciones automáticas ante cualquier evento o alerta en el comercio.
 
@@ -1152,7 +1153,7 @@ En esta ruta ideal, el personal operativo inicia sesión en la plataforma y acce
 
 En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde la barra superior del sistema, hace clic en el icono de Notificación. El sistema lo redirige a la vista de Notificaciones del Sistema dentro del módulo de Alertas Operativas, donde puede consultar en tiempo real las alertas críticas (como pulsadores activados por comercios vecinos), alertas preventivas (marcajes o sospechosos detectados) y notificaciones de pruebas del sistema, pudiendo marcarlas como leídas o gestionar sus respuestas.
 
-* User Goal: Como operador, quiero poder cancelar una alerta en caso de falsa alarma, para evitar pánico innecesario en la red vecinal.
+* User Goal: Como operador, quiero cancelar la cuenta regresiva del botón de pánico cuando lo activo por error, para evitar una falsa alarma.
 
 **Happy Path:**
 
@@ -1160,7 +1161,7 @@ En esta ruta ideal, el personal operativo inicia sesión en la plataforma y acce
 <img src="../assets/Chapter4/UserFlows/UserFlow_ (9).png" alt="User Flow de cancelación de una falsa alarma" width="500">
 <br> Nota: Diagrama de UserFlow de cancelación de falsa alarma</p>
 
-En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde el menú de navegación lateral o los accesos directos, hace clic en "Alertas" para acceder a la pantalla de Alertas Operativas. Allí presiona el botón de pánico central, lo que activa la pantalla de Cuenta Regresiva de Emergencia (Pánico) con un temporizador de 15 segundos. Si se trata de una falsa alarma o una activación accidental, el usuario mantiene presionado durante 5 segundos el botón "Cancelar Alerta SOS". El sistema interrumpe la cuenta regresiva, evita el envío masivo de la notificación de emergencia a las autoridades y negocios cercanos, y retorna al usuario de forma segura a la pantalla principal de Alertas Operativas.
+En esta ruta ideal, el personal operativo inicia sesión en la plataforma y accede al Dashboard Operativo de InstAlert. Desde el menú de navegación lateral o los accesos directos, hace clic en "Alertas" para acceder a la pantalla de Alertas Operativas. Allí presiona el botón de pánico central, lo que inicia la cuenta regresiva durante el periodo de gracia configurado. Si se trata de una activación accidental, el usuario selecciona la acción de cancelación antes de que termine ese periodo. El sistema interrumpe la cuenta regresiva y retorna a Alertas Operativas sin registrar una alerta o un reporte, incorporar la activación al historial, enviar avisos o generar un punto del mapa. Si la cuenta regresiva termina sin cancelación y el pánico se confirma, se sigue el flujo de alerta activa y posterior resolución.
 
 * User Goal: Como operador, quiero gestionar y registrar un nuevo contacto de emergencia en la plataforma, para asegurar que las personas clave reciban las notificaciones automáticas ante cualquier evento o alerta en el comercio.
 
@@ -1279,7 +1280,7 @@ Nota: Paso 7 del Design-Level Event Storming – Identificación de modelos de l
 
 **Paso 8: Identificación de sistemas externos (*External Systems*)**
 
-Se incorporan los sistemas de terceros que participan en los procesos. Para InstAlert se consideraron SendGrid para enviar invitaciones por correo, Firebase Cloud Messaging para las notificaciones push, Mapbox para los servicios de mapas y geolocalización, y PayPal para el procesamiento de pagos de suscripción. Estos servicios son dependencias externas de la arquitectura propuesta.
+Se incorporan los sistemas de terceros que participan en los procesos. Para InstAlert se consideran Brevo para entregar invitaciones y mensajes por correo electrónico a contactos de emergencia, Mapbox para los servicios de mapas y geolocalización, y PayPal para la aprobación y el procesamiento de suscripciones. Estos servicios son dependencias externas de la arquitectura propuesta.
 
 <p align="center">
 <img src="../assets/Chapter4/event-storming/Step (8).jpg" alt="Paso 8" width="700"><br>
@@ -1297,10 +1298,10 @@ Nota: Paso 9 del Design-Level Event Storming – Identificación y agrupación d
 
 **Paso 10: Delimitación de contextos acotados (*Bounded Contexts*)**
 
-Finalmente, se establecen límites explícitos para separar responsabilidades de negocio. El tablero resultante distingue los contextos **IAM**, **Business**, **Alert**, **Contacts**, **Notifications**, **Mapping** y **Payments**. En particular, **Contacts** se ocupa de los contactos de emergencia asociados al personal operativo, mientras que **Notifications** gestiona las notificaciones generales y las dirigidas al administrador o a comercios cercanos cuando hay alertas próximas. Estos límites se reflejan después en el diagrama de componentes del backend.
+Finalmente, se establecen límites explícitos para separar responsabilidades de negocio. El tablero distingue nueve contextos: **IAM**, **Profiles**, **Business**, **Alert**, **Contacts**, **Notifications**, **Mapping**, **Payments** y **Dashboard**. Profiles separa los datos personales de las credenciales de IAM y del perfil comercial de Business. Dashboard reúne KPIs por rol como proyecciones de lectura y contempla que el administrador solicite reportes mensuales y consulte su historial; cada reporte conserva una instantánea sin modificar los datos originales. Contacts mantiene los contactos de emergencia, mientras Notifications gestiona los avisos generales y los relacionados con alertas cercanas. Estos límites se reflejan en los diagramas de arquitectura y diseño.
 
 <p align="center">
-<img src="../assets/Chapter4/event-storming/Step (10).jpg" alt="Paso 10" width="700"><br>
+<img src="../assets/Chapter4/event-storming/Step (10).jpg" alt="Paso 10 del Event Storming con nueve bounded contexts" width="700"><br>
 Nota: Paso 10 del Design-Level Event Storming – Delimitación de contextos acotados (Bounded Contexts)
 </p>
 
@@ -1310,61 +1311,63 @@ En conjunto, el ejercicio permitió pasar de una secuencia de procesos y eventos
 
 ### 4.6.2. Software Architecture Context Diagram
 
-La vista de contexto presenta a InstAlert como un sistema completo, sin detallar su estructura interna. Permite reconocer quiénes interactúan con la plataforma y qué servicios externos forman parte de su entorno.
+La vista de contexto presenta InstAlert como un sistema completo, sin detallar su estructura interna. Identifica los perfiles que interactúan con la plataforma y los servicios externos con los que se relaciona.
 
 Los actores representados son:
 
-- **Commerce Administrator:** administra el comercio, el personal operativo y la suscripción; además, consulta información de seguridad y recibe notificaciones relevantes.
-- **Operational Staff:** utiliza la plataforma para enviar alertas de seguridad, gestionar sus contactos de emergencia y consultar información de riesgo cercana.
+- **Commerce Administrator:** administra el comercio, el personal y la suscripción, y consulta información de seguridad.
+- **Operational Staff:** envía alertas, gestiona contactos de emergencia y consulta información de riesgo.
 
-El modelo contempla cuatro sistemas externos:
+El entorno de InstAlert incluye tres sistemas externos:
 
-- **SendGrid:** servicio de correo electrónico para enviar invitaciones al personal operativo.
-- **Firebase Cloud Messaging:** servicio para entregar notificaciones push, incluidas las relacionadas con alertas cercanas.
-- **Mapbox:** servicio de mapas y visualización geoespacial utilizado por las funciones de ubicación y riesgo.
-- **PayPal:** plataforma externa contemplada para procesar pagos de suscripción.
+- **Brevo:** servicio de correo utilizado para entregar invitaciones y mensajes a contactos de emergencia.
+- **Mapbox:** servicio de mapas y visualización geoespacial utilizado por la aplicación web.
+- **PayPal:** plataforma externa utilizada para aprobar y procesar suscripciones.
 
-Las relaciones muestran que ambos perfiles acceden a InstAlert y que la plataforma utiliza los servicios externos para correo, notificaciones push, mapas y pagos. Esta vista delimita el sistema y su ecosistema antes de examinar su organización interna.
+Ambos perfiles usan InstAlert. La aplicación se relaciona con Mapbox para representar mapas, con PayPal para las suscripciones y con Brevo para la entrega de correo. Esta vista delimita el sistema y su entorno antes de examinar su organización interna.
 
 <p align="center">
-<img src="../assets/Chapter4/System Context Diagram.png" alt="Diagrama de contexto del sistema InstAlert" width="1000"><br>
-Nota: Vista de contexto de InstAlert, sus actores y los servicios externos contemplados.
+<img src="../assets/Chapter4/c4-diagrams/system-context.png" alt="System context diagram of InstAlert" width="1000"><br>
+Nota: Vista de contexto de InstAlert con sus perfiles de usuario y sus servicios externos.
 </p>
 
 ### 4.6.3. Software Architecture Container Diagram
 
-La vista de contenedores amplía InstAlert y muestra las aplicaciones y el almacenamiento que conforman la solución, junto con las tecnologías y comunicaciones principales:
+La vista de contenedores amplía InstAlert y presenta sus aplicaciones y almacenamiento, las tecnologías principales y las comunicaciones entre ellos:
 
-- **Landing Page:** sitio web servido como contenido estático que presenta información pública del producto y da acceso a la aplicación web.
-- **Single-Page Application (SPA):** aplicación de navegador implementada con Vue.js y Vite. Ofrece las funciones web para administradores de comercio y personal operativo.
-- **Backend API:** servicio desarrollado con C# y .NET. Expone las API REST, aplica las reglas de negocio y organiza la lógica mediante módulos basados en Domain-Driven Design.
-- **Database:** base de datos MySQL que conserva la información persistente de InstAlert. El diagrama indica que los módulos mantienen la propiedad lógica de sus datos aunque compartan este contenedor de persistencia.
+- **InstAlert Web Application:** sirve el contenido estático y entrega la aplicación Vue.js al navegador.
+- **InstAlert Single-Page Application:** aplicación cliente que proporciona la interfaz para administradores de comercio y personal operativo. Consume la API de InstAlert y utiliza Mapbox GL JS para representar mapas.
+- **InstAlert Backend API Application:** aplicación del servidor desarrollada con C#, ASP.NET Core y Entity Framework Core. Expone la API REST, aplica las reglas de negocio y coordina los módulos del monolito modular.
+- **Database:** base de datos MySQL que almacena los datos persistentes. Los módulos conservan la propiedad lógica de sus datos aunque compartan este almacenamiento.
 
-Los usuarios acceden a la Landing Page y a la SPA mediante HTTPS. La SPA intercambia solicitudes y respuestas JSON con el Backend API; este lee y escribe datos en MySQL mediante SQL. El backend también se integra con SendGrid para enviar invitaciones, Firebase Cloud Messaging para entregar notificaciones push, Mapbox para las funciones geoespaciales y PayPal para procesar pagos de suscripción. La base de datos y las aplicaciones forman parte del límite del sistema InstAlert.
+Los usuarios acceden a la aplicación web mediante HTTPS, y esta entrega la SPA al navegador. La SPA intercambia solicitudes JSON/HTTPS con el Backend API, y se comunica con Mapbox para mostrar mapas y con PayPal durante la aprobación de una suscripción. El backend accede a MySQL mediante Entity Framework Core, envía correo a través del componente Notifications y Brevo, y se comunica con PayPal para verificar y conciliar suscripciones. La SPA consulta las notificaciones guardadas a través de la API.
 
 <p align="center">
-<img src="../assets/Chapter4/Container Diagram.png" alt="Diagrama de contenedores de InstAlert" width="1000"><br>
-Nota: Vista de contenedores de InstAlert, las tecnologías utilizadas y las integraciones externas representadas.
+<img src="../assets/Chapter4/c4-diagrams/containers.png" alt="Container diagram of InstAlert" width="1000"><br>
+Nota: Vista de contenedores de InstAlert con sus aplicaciones, almacenamiento y conexiones con servicios externos.
 </p>
 
 ### 4.6.4. Software Architecture Component Diagram
 
-La vista de componentes amplía el Backend API y muestra cómo se organizan sus responsabilidades en siete bounded contexts: **IAM**, **Business**, **Alert**, **Contacts**, **Notifications**, **Mapping** y **Payments**. **Shared** también aparece, pero representa capacidades técnicas transversales y no un octavo bounded context de negocio:
+La vista amplía el Backend API y presenta sus nueve bounded contexts de negocio junto con **Shared**, un componente técnico transversal:
 
-- **IAM:** administra identidades, autenticación y credenciales, y contempla la activación de las cuentas de administradores y personal operativo.
-- **Business:** gestiona el registro y perfil de los comercios, el personal operativo, las invitaciones y las membresías.
-- **Alert:** administra el ciclo de vida de las alertas —creación, cancelación y resolución— y la consulta de alertas activas, cercanas, sus detalles e historial. Proporciona la información del incidente a Notifications para su distribución.
-- **Contacts:** administra los datos de los contactos de emergencia asociados al personal operativo. La relación con el miembro de Business se realiza mediante su identificador.
-- **Notifications:** gestiona las notificaciones generales de la aplicación y las preferencias de entrega. Para notificar alertas cercanas, utiliza Mapping para identificar comercios próximos y Business para resolver los destinatarios; Firebase Cloud Messaging entrega las notificaciones push.
-- **Mapping:** gestiona mapas de riesgo, zonas, información geográfica de incidentes y visualización de niveles de riesgo. También proporciona consultas geoespaciales que permiten identificar comercios cercanos; utiliza Mapbox para los servicios de mapas.
-- **Payments:** gestiona los planes, el procesamiento de pagos y la activación o cancelación de suscripciones.
-- **Shared:** ofrece abstracciones reutilizables, contratos comunes, manejo de errores, identificadores y otras capacidades técnicas transversales.
+- **IAM:** gestiona las identidades, credenciales y autenticación de los usuarios.
+- **Profiles:** gestiona los perfiles personales y las preferencias generales.
+- **Business:** gestiona comercios, membresías, invitaciones y cupos de personal. Publica solicitudes de invitación mediante el outbox y consulta a Payments el límite del plan.
+- **Alert:** gestiona alertas, reportes de incidentes e historial. Publica cambios de alertas mediante el outbox.
+- **Contacts:** gestiona los contactos de emergencia del personal operativo y proporciona sus direcciones de correo cuando Notifications las consulta.
+- **Notifications:** gestiona notificaciones dentro de la aplicación, preferencias y solicitudes de entrega de correo. Consume eventos de Business y Alert, consulta Contacts para los correos de emergencia, y utiliza Brevo para entregar los mensajes.
+- **Payments:** gestiona planes, suscripciones y pagos; verifica y concilia suscripciones con PayPal e informa los límites de personal de los planes.
+- **Mapping:** gestiona las zonas de riesgo y las proyecciones geoespaciales que utiliza la aplicación.
+- **Dashboard:** proporciona KPIs y proyecciones de lectura por rol a partir de datos de Alert, Business, Payments, Mapping y Notifications. Los datos de origen siguen perteneciendo a sus contextos.
 
-La SPA consume las capacidades expuestas por los componentes del backend. Entre las interacciones representadas, Business solicita a IAM la activación de cuentas y envía invitaciones mediante SendGrid; Contacts referencia al miembro de Business por identificador; y Alert proporciona información del incidente a Notifications y datos geolocalizados a Mapping. Notifications consulta Mapping para determinar qué comercios están cerca y Business para resolver los destinatarios, y entrega las notificaciones push mediante Firebase Cloud Messaging. Mapping utiliza Mapbox y Payments procesa los pagos mediante PayPal. Los componentes usan Shared para capacidades transversales y persisten sus propios datos en MySQL.
+**Shared** proporciona capacidades técnicas transversales, incluido el procesamiento del outbox; no constituye un bounded context de negocio.
+
+Profiles utiliza referencias de identidad de IAM. Business publica eventos de invitación que consume Notifications. Alert publica eventos que consume Notifications; para los avisos a contactos de emergencia, Notifications consulta a Contacts y encola las solicitudes de entrega. También consulta Business y Mapping para resolver destinatarios cercanos. Notifications envía correo por Brevo y la SPA consulta periódicamente las notificaciones almacenadas mediante la API. Payments se comunica con PayPal para verificar y conciliar suscripciones. La SPA se comunica directamente con Mapbox para la representación cartográfica. Dashboard construye proyecciones a partir de Alert, Business, Payments, Mapping y Notifications. Los bounded contexts conservan la propiedad lógica de sus datos en MySQL y utilizan Shared para capacidades técnicas comunes.
 
 <p align="center">
-<img src="../assets/Chapter4/Component Diagram (Backend API).png" alt="Diagrama de componentes del Backend API de InstAlert" width="1000"><br>
-Nota: Vista de componentes del Backend API, organizada en bounded contexts y con sus principales relaciones e integraciones externas.
+<img src="../assets/Chapter4/c4-diagrams/components.png" alt="Component diagram of the InstAlert Backend API" width="1000"><br>
+Nota: Vista de componentes del Backend API de InstAlert con sus nueve bounded contexts, sus interacciones, el componente técnico Shared, la persistencia y los servicios externos.
 </p>
 
 
@@ -1372,11 +1375,11 @@ Nota: Vista de componentes del Backend API, organizada en bounded contexts y con
 
 ### 4.7.1. Class Diagrams
 
-El siguiente diagrama presenta el diseño orientado a objetos del **frontend de la Web Application de InstAlert**. Su alcance se limita al cliente: modelos de dominio, casos de uso y stores de aplicación, adaptadores HTTP y elementos de presentación. Las API se representan desde el punto de vista del frontend; los controladores, servicios y la base de datos del backend no forman parte de estos diagramas.
+Esta sección presenta los diagramas de clases del **frontend de la Web Application** y del **backend API de InstAlert**. Los diagramas muestran cómo se distribuyen las responsabilidades entre los bounded contexts y sus clases principales; representan el diseño del sistema, no una afirmación de que todos sus componentes estén implementados.
 
-El modelo contempla siete bounded contexts de negocio: `IAM`, `Business`, `Alert`, `Contacts`, `Notifications`, `Mapping` y `Payments`. `Shared` se omite porque corresponde a soporte transversal y no a un contexto del negocio. Los diagramas representan el diseño completo del frontend para estos siete contextos y muestran sus modelos, casos de uso, adaptadores y elementos de presentación.
+El modelo contempla nueve bounded contexts de negocio: `IAM`, `Profiles`, `Business`, `Alert`, `Contacts`, `Notifications`, `Payments`, `Mapping` y `Dashboard`. `Shared` se omite de los diagramas de negocio porque corresponde a soporte técnico transversal. Los diagramas completos resumen las relaciones entre contextos; los diagramas individuales permiten leer con mayor detalle las clases de cada uno.
 
-Cada contexto organiza sus elementos en `Domain`, `Application`, `Infrastructure` y `Presentation`. Las relaciones muestran cómo las vistas y componentes utilizan los stores y casos de uso, cómo estos coordinan modelos del dominio y cómo la infraestructura consulta las API y transforma sus recursos. Las colaboraciones entre contextos se representan mediante identificadores y contratos, sin compartir ni navegar directamente por entidades internas. `Business` conserva la propiedad de membresías e invitaciones y consulta a `Payments` la capacidad del plan; `Alert` conserva las alertas e incidentes, mientras `Mapping` utiliza sus proyecciones geográficas junto con ubicaciones comerciales; `Contacts` administra por separado los contactos de emergencia de cada empleado; e `IAM` mantiene la identidad y las credenciales, mientras `Business` administra la relación del usuario con cada comercio. `Notifications` presenta las notificaciones persistidas para sus destinatarios y mantiene separadas esas notificaciones de sus preferencias.
+En los diagramas de frontend, cada contexto separa `Domain`, `Application`, `Infrastructure` y `Presentation`: las vistas se conectan con stores, estos coordinan modelos y comandos, y los adaptadores se encargan de las API y la transformación de recursos. En los diagramas de backend, las capas son `Domain`, `Application`, `Infrastructure` e `Interfaces`. Las relaciones entre contextos se expresan mediante identificadores y contratos, conservando la propiedad de los datos en su contexto de origen.
 
 **Diagrama de clases frontend**
 
@@ -1387,16 +1390,25 @@ Nota: Diagrama completo de clases de la Web Application frontend de InstAlert.
 
 **IAM**
 
-Este contexto gestiona la identidad, las credenciales, el estado de la cuenta y los datos personales del usuario. El diagrama incluye los flujos de registro, inicio de sesión, actualización del perfil y establecimiento de credenciales para completar el registro de un empleado invitado. `IamStore` coordina estos casos de uso con los modelos `User` y `AuthenticationSession`; `IamApiClient` y sus ensambladores transforman los recursos de la API, mientras `SessionStorage`, `IamHttpInterceptor` y `AuthenticationGuard` apoyan el manejo de la sesión y la navegación. La invitación y la activación de la membresía del empleado siguen perteneciendo a `Business`; IAM administra las credenciales y la cuenta personal. Los roles dentro de un comercio no se duplican en este contexto.
+Este contexto administra la identidad de acceso, las credenciales, el estado de la cuenta y la sesión de autenticación. El diagrama muestra los flujos de registro e inicio de sesión y la creación de credenciales para completar una cuenta invitada. Los datos personales —nombres, DNI y teléfono— y las preferencias generales se separan en `Profiles`; las membresías, invitaciones y roles dentro de un comercio pertenecen a `Business`.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/iam.svg" alt="Diagrama de clases del bounded context IAM" width="850"><br>
 Nota: Clases frontend del bounded context IAM.
 </p>
 
+**Profiles**
+
+Este contexto administra los datos personales de la persona usuaria y sus preferencias generales de la aplicación. `UserProfile` incluye nombres, DNI y teléfono opcional; `UserPreferences` mantiene la preferencia de idioma. El DNI se representa como texto para conservar ceros iniciales. Las credenciales y la autenticación permanecen en `IAM`, y las preferencias de entrega de avisos pertenecen a `Notifications`.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/profiles.svg" alt="Diagrama de clases frontend del bounded context Profiles" width="850"><br>
+Nota: Clases frontend del bounded context Profiles.
+</p>
+
 **Business**
 
-Este contexto administra los comercios, las membresías de sus administradores y empleados, y el ciclo de vida de las invitaciones. `BusinessStore` coordina la consulta y modificación de miembros e invitaciones. Cuando necesita mostrar la capacidad disponible, `BusinessApi` obtiene la información del plan y la suscripción expuesta por `Payments`; el comercio conserva la propiedad de sus miembros e invitaciones, y los límites configurados para los planes son de 4, 8 y 15 empleados.
+Este contexto administra el perfil del comercio, sus membresías y las invitaciones del personal. `BusinessStore` coordina las operaciones sobre miembros e invitaciones, mientras consulta a `Payments` el límite del plan. Las membresías activas y las invitaciones pendientes reservan cupos; el administrador no ocupa uno, y desactivar a un empleado solo desactiva su membresía en el comercio. Los límites de los planes son de 4, 8 y 15 empleados.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/business.svg" alt="Diagrama de clases del bounded context Business" width="850"><br>
@@ -1405,7 +1417,7 @@ Nota: Clases frontend del bounded context Business.
 
 **Alert**
 
-Este contexto gestiona el ciclo de vida de las alertas y los reportes de incidentes, incluidas su creación, consulta, finalización y resolución. `AlertPreferences` contiene preferencias propias del flujo de alertas, como el periodo de cancelación del botón de pánico. Los contactos de emergencia y las preferencias/entregas de avisos generales se modelan en sus contextos independientes. Los estados de la alerta y del reporte representan ciclos de vida distintos.
+Este contexto gestiona el ciclo de vida de las alertas y los reportes de incidentes, incluidas su creación, consulta, finalización y resolución. `AlertPreferences` mantiene preferencias propias del flujo de alerta, como la cuenta regresiva cancelable del botón de pánico, sin fijar aquí una duración. Los contactos de emergencia y las notificaciones se modelan en contextos independientes; la alerta original permanece bajo la responsabilidad de `Alert`.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/alert.svg" alt="Diagrama de clases del bounded context Alert" width="850"><br>
@@ -1414,7 +1426,7 @@ Nota: Clases frontend del bounded context Alert.
 
 **Contacts**
 
-Este contexto mantiene los contactos de emergencia asociados a cada miembro del personal operativo. `ContactsStore` coordina su consulta, creación, edición y eliminación; `ContactsApi` y `EmergencyContactAssembler` conectan los modelos del frontend con los recursos de la API. La separación evita mezclar los datos de contacto personal con el ciclo de vida de las alertas.
+Este contexto permite al personal operativo gestionar sus contactos de emergencia. `ContactsStore` coordina la consulta, creación, edición y eliminación de cada contacto; `ContactsApi` y `EmergencyContactAssembler` conectan el modelo del frontend con los recursos de la API. Estos datos no forman parte del ciclo de vida de una alerta ni representan por sí mismos un canal de envío de mensajes.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/contacts.svg" alt="Diagrama de clases frontend del bounded context Contacts" width="850"><br>
@@ -1423,7 +1435,7 @@ Nota: Clases frontend del bounded context Contacts.
 
 **Notifications**
 
-Este contexto gestiona las preferencias de recepción y la consulta de notificaciones dirigidas a cada usuario, incluidas las relacionadas con alertas cercanas para administradores y comercios pertinentes. `NotificationsStore` carga las notificaciones persistidas, mantiene el contador de no leídas y coordina el marcado como leído; además, actualiza las preferencias del usuario y presenta avisos recibidos en tiempo real. En la base de datos, la tabla `notifications` conserva cada aviso recibido, mientras `notification_preferences` guarda por separado la configuración de recepción. Una notificación puede referenciar la alerta que la originó mediante su identificador, sin trasladar la propiedad de la alerta desde `Alert`.
+Este contexto gestiona las notificaciones generales, sus preferencias y su estado de lectura, incluida la entrega de avisos de alertas cercanas a administradores y negocios próximos. `NotificationsStore` carga las notificaciones, mantiene el contador de no leídas, marca los avisos como leídos y presenta los recibidos en tiempo real. Una notificación puede referenciar la alerta que la originó y al comercio destinatario, sin trasladar la propiedad de la alerta desde `Alert` ni la del comercio desde `Business`.
 
 <p align="center">
 <img src="../assets/Chapter4/class-diagrams/notifications.svg" alt="Diagrama de clases frontend del bounded context Notifications" width="850"><br>
@@ -1448,13 +1460,112 @@ Este contexto proporciona al frontend la información de planes, suscripción y 
 Nota: Clases frontend del bounded context Payments.
 </p>
 
+**Dashboard**
+
+Este contexto reúne proyecciones de lectura y KPIs según el rol. Para el administrador muestra alertas activas, incidentes recientes por nivel de riesgo, zonas de mayor riesgo y estado del personal y sus cupos; para el personal operativo presenta el riesgo local, incidentes cercanos, actividad de alertas y reportes, y notificaciones no leídas. El diseño contempla que el administrador solicite reportes mensuales y consulte su historial; cada reporte conserva una instantánea del período y no modifica ni sustituye los datos fuente de los demás contextos.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/dashboard.svg" alt="Diagrama de clases frontend del bounded context Dashboard" width="850"><br>
+Nota: Clases frontend del bounded context Dashboard.
+</p>
+
+**Diagrama de clases backend**
+
+El diagrama backend completo presenta los agregados, entidades y objetos de valor de los nueve bounded contexts, junto con sus referencias lógicas. Los diagramas individuales amplían cada contexto y muestran las capas `Domain`, `Application`, `Infrastructure` e `Interfaces`: el dominio contiene el modelo y sus reglas; Application coordina comandos y consultas; Infrastructure implementa persistencia e integraciones; e Interfaces expone controladores, recursos y ensambladores. Esta organización distribuye las responsabilidades del backend según las necesidades del dominio de InstAlert.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-complete.svg" alt="Diagrama completo de clases de dominio del backend de InstAlert" width="1000"><br>
+Nota: Modelo de dominio backend de InstAlert, organizado en nueve bounded contexts.
+</p>
+
+**IAM — backend**
+
+IAM conserva la identidad, el correo de acceso, las credenciales y el estado de la cuenta. La capa Application coordina sus operaciones; Infrastructure implementa repositorios y servicios de credenciales, e Interfaces expone los recursos y operaciones de autenticación.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-iam.svg" alt="Diagrama de clases backend del bounded context IAM" width="850"><br>
+Nota: Clases backend del bounded context IAM.
+</p>
+
+**Profiles — backend**
+
+Profiles modela el perfil personal y las preferencias generales mediante `UserProfile`, `PersonName`, `Dni` y `UserPreferences`. El identificador de usuario se obtiene de la identidad autenticada; las credenciales no se guardan en este contexto.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-profiles.svg" alt="Diagrama de clases backend del bounded context Profiles" width="850"><br>
+Nota: Clases backend del bounded context Profiles.
+</p>
+
+**Business — backend**
+
+Business mantiene el comercio, sus miembros e invitaciones. Consulta a Payments la capacidad del plan y valida los cupos al invitar o activar al personal; las invitaciones pendientes reservan cupo y el administrador no consume uno.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-business.svg" alt="Diagrama de clases backend del bounded context Business" width="850"><br>
+Nota: Clases backend del bounded context Business.
+</p>
+
+**Alert — backend**
+
+Alert contiene las reglas del ciclo de vida de las alertas y los reportes de incidentes. Las notificaciones y los contactos de emergencia quedan fuera de este contexto.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-alert.svg" alt="Diagrama de clases backend del bounded context Alert" width="850"><br>
+Nota: Clases backend del bounded context Alert.
+</p>
+
+**Contacts — backend**
+
+Contacts gestiona los contactos de emergencia asociados al usuario operativo. El modelo no asigna a este contexto el envío de llamadas ni mensajes SMS.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-contacts.svg" alt="Diagrama de clases backend del bounded context Contacts" width="850"><br>
+Nota: Clases backend del bounded context Contacts.
+</p>
+
+**Notifications — backend**
+
+Notifications mantiene las notificaciones, sus preferencias y entregas. Un manejador de eventos resuelve destinatarios de alertas cercanas con información de Business y Mapping, y registra la entrega y lectura sin convertirse en propietario de las alertas ni de los comercios.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-notifications.svg" alt="Diagrama de clases backend del bounded context Notifications" width="850"><br>
+Nota: Clases backend del bounded context Notifications.
+</p>
+
+**Payments — backend**
+
+Payments administra planes, suscripciones y transacciones. Proporciona a Business el límite de empleados correspondiente al plan vigente y encapsula la integración con el proveedor de pagos.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-payments.svg" alt="Diagrama de clases backend del bounded context Payments" width="850"><br>
+Nota: Clases backend del bounded context Payments.
+</p>
+
+**Mapping — backend**
+
+Mapping gestiona las zonas de riesgo y las proyecciones geoespaciales que combinan incidentes y ubicaciones comerciales. Las alertas originales y los perfiles comerciales permanecen en sus contextos propietarios.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-mapping.svg" alt="Diagrama de clases backend del bounded context Mapping" width="850"><br>
+Nota: Clases backend del bounded context Mapping.
+</p>
+
+**Dashboard — backend**
+
+Dashboard mantiene proyecciones de lectura actualizadas a partir de cambios de los contextos fuente. En el modelo, `MonthlyReport` representa el reporte mensual que solicitaría el administrador y conserva la instantánea de sus indicadores para permitir su consulta posterior. El contexto expone KPIs y reportes sin crear ni modificar alertas, membresías, pagos, zonas o notificaciones.
+
+<p align="center">
+<img src="../assets/Chapter4/class-diagrams/backend-dashboard.svg" alt="Diagrama de clases backend del bounded context Dashboard" width="850"><br>
+Nota: Clases backend del bounded context Dashboard.
+</p>
+
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
 
-El diseño de base de datos corresponde a un modelo relacional implementable en MySQL. Las tablas están agrupadas visualmente por bounded context y utilizan nombres en inglés con `snake_case`. El esquema aplica las tres primeras formas normales: cada columna contiene un valor atómico, las tablas representan una sola responsabilidad y los atributos no clave dependen de la clave primaria de su tabla.
+El diseño de base de datos corresponde a un modelo relacional implementable en MySQL. Las tablas están agrupadas visualmente por bounded context y utilizan nombres en inglés con `snake_case`. Las tablas transaccionales siguen las tres primeras formas normales; Dashboard mantiene proyecciones de lectura derivadas y desnormalizadas, además de instantáneas de reportes mensuales, para consultar indicadores sin modificar los datos de origen.
 
-Las relaciones entre bounded contexts se representan mediante identificadores, sin duplicar la información propietaria de otro contexto. `Shared` no se incluye porque no contiene datos propios del negocio. El esquema contempla siete contextos de negocio.
+Las relaciones entre bounded contexts se representan mediante identificadores, sin duplicar la información propietaria de otro contexto. En la vista completa, `REF` identifica esas referencias lógicas; las relaciones con claves foráneas dentro de cada contexto se muestran en sus diagramas individuales. `Shared` no se incluye porque no contiene datos propios del negocio. El esquema contempla los nueve bounded contexts de negocio: IAM, Profiles, Business, Alert, Contacts, Notifications, Payments, Mapping y Dashboard.
 
 **Diagrama relacional completo**
 
@@ -1465,16 +1576,25 @@ Nota: Diagrama relacional completo de InstAlert, agrupado por bounded context.
 
 **IAM**
 
-La persistencia de IAM se centra en `users`, que almacena la identidad, las credenciales protegidas, los datos personales y el estado de la cuenta. Los demás contextos referencian al usuario mediante su identificador, sin duplicar sus datos personales.
+La tabla `users` pertenece a IAM y almacena la identidad de acceso, el correo, las credenciales protegidas y el estado de la cuenta. Los datos personales se mantienen en Profiles; los demás contextos referencian al usuario mediante su identificador.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/iam.svg" alt="Diagrama de base de datos de IAM" width="850"><br>
 Nota: Tabla del bounded context IAM.
 </p>
 
+**Profiles**
+
+Profiles conserva los datos personales del usuario en `user_profiles`, incluidos nombres, DNI y teléfono opcional. `user_preferences` guarda preferencias generales, como el idioma de la aplicación. Ambas tablas se identifican con el `user_id` de IAM; Profiles no almacena credenciales ni administra el acceso.
+
+<p align="center">
+<img src="../assets/Chapter4/database-diagrams/profiles.svg" alt="Diagrama de base de datos de Profiles" width="850"><br>
+Nota: Tablas del bounded context Profiles.
+</p>
+
 **Business**
 
-Business contiene `businesses`, `business_members` y `staff_invitations`. Las membresías relacionan usuarios con comercios y almacenan el rol que tiene cada usuario dentro de cada comercio. Las invitaciones pendientes reservan un cupo de empleado; el límite disponible depende del plan administrado por Payments.
+Business contiene `businesses`, `business_members` y `staff_invitations`. Las membresías relacionan usuarios con comercios y almacenan el rol y estado de cada relación. Las membresías operativas activas y las invitaciones pendientes reservan cupos; el administrador no consume uno. Payments proporciona el límite del plan y Business valida su disponibilidad.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/business.svg" alt="Diagrama de base de datos de Business" width="850"><br>
@@ -1483,7 +1603,7 @@ Nota: Tablas del bounded context Business.
 
 **Alert**
 
-Alert contiene `alerts`, `incident_reports` y `alert_preferences`. La alerta conserva su ciclo de vida; el reporte asociado guarda los detalles del incidente y mantiene un estado propio. Los contactos de emergencia y las notificaciones recibidas pertenecen a sus contextos independientes.
+Alert contiene `alerts` e `incident_reports`. La alerta conserva su ciclo de vida y el reporte asociado guarda los detalles del incidente y mantiene un estado propio. Los contactos de emergencia y las preferencias, registros y entregas de notificaciones pertenecen a Contacts y Notifications, respectivamente.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/alert.svg" alt="Diagrama de base de datos de Alert" width="850"><br>
@@ -1492,7 +1612,7 @@ Nota: Tablas del bounded context Alert.
 
 **Contacts**
 
-Contacts contiene `emergency_contacts`, con los contactos asociados a una membresía del personal operativo. Cada contacto se almacena en su propia fila y referencia a `business_members` mediante un identificador; así, un miembro puede registrar varios contactos sin agruparlos en columnas repetidas.
+Contacts contiene `emergency_contacts`, con los contactos de emergencia asociados al personal operativo mediante el identificador de usuario. Cada contacto se almacena en su propia fila, de modo que una persona puede registrar varios contactos sin agruparlos en columnas repetidas.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/contacts.svg" alt="Diagrama de base de datos de Contacts" width="850"><br>
@@ -1501,7 +1621,7 @@ Nota: Tabla del bounded context Contacts.
 
 **Notifications**
 
-Notifications contiene `notification_preferences` y `notifications`. La primera guarda las preferencias de cada usuario, como la recepción de avisos dentro de la aplicación y el radio de alertas cercanas. La segunda registra cada aviso recibido por su destinatario, incluyendo su tipo, contenido y fecha de creación. `read_at` permanece nulo mientras el aviso no se haya marcado como leído, y `source_alert_id` puede referenciar una alerta relacionada sin trasladar su propiedad desde Alert. De esta forma, las preferencias y la bandeja de notificaciones se mantienen separadas.
+Notifications contiene `notification_preferences`, `notifications` y `notification_deliveries`. Las preferencias registran la recepción de avisos y el radio para alertas cercanas. `notifications` guarda el destinatario, contenido, fecha y estado de lectura; `source_alert_id` referencia la alerta de origen sin trasladar su propiedad desde Alert. `notification_deliveries` conserva el canal y resultado de cada entrega.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/notifications.svg" alt="Diagrama de base de datos de Notifications" width="850"><br>
@@ -1510,7 +1630,7 @@ Nota: Tablas del bounded context Notifications.
 
 **Payments**
 
-Payments contiene los planes, las suscripciones, los medios de pago tokenizados y las transacciones. Las suscripciones se relacionan con un comercio mediante `business_id`; los planes definen límites de 4, 8 y 15 empleados. Las transacciones conservan el importe y la moneda de cada operación. Se almacenan referencias del proveedor y datos enmascarados del medio de pago, no el número completo ni el código de seguridad de una tarjeta.
+Payments contiene los planes, las suscripciones y las transacciones. Las suscripciones se relacionan con un comercio mediante `business_id`; los planes definen límites de 4, 8 y 15 empleados. Las transacciones conservan el importe, la moneda y las referencias de operación del proveedor.
 
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/payments.svg" alt="Diagrama de base de datos de Payments" width="850"><br>
@@ -1524,4 +1644,13 @@ Mapping contiene las zonas de riesgo, las proyecciones de incidentes y las ubica
 <p align="center">
 <img src="../assets/Chapter4/database-diagrams/mapping.svg" alt="Diagrama de base de datos de Mapping" width="850"><br>
 Nota: Tablas del bounded context Mapping.
+</p>
+
+**Dashboard**
+
+Dashboard contiene proyecciones de lectura para los dos perfiles y modela la conservación de reportes mensuales solicitados por el administrador. Para este reúne alertas activas, incidentes por nivel de riesgo, zonas de mayor riesgo y métricas del personal y sus cupos. Para el personal operativo presenta el riesgo local, incidentes cercanos, actividad de alertas/reportes y notificaciones no leídas. `monthly_reports` conserva el período, quién lo generó y una instantánea de sus indicadores; las proyecciones se derivan de sus contextos de origen y no modifican alertas, membresías, límites, zonas ni notificaciones.
+
+<p align="center">
+<img src="../assets/Chapter4/database-diagrams/dashboard.svg" alt="Diagrama de base de datos de Dashboard" width="850"><br>
+Nota: Proyecciones y reportes mensuales del bounded context Dashboard.
 </p>
