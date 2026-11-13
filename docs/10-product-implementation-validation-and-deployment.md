@@ -1,14 +1,16 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management.
+
 La Gestión de Configuración de Software (SCM) es una disciplina del desarrollo de software que permite identificar, controlar y realizar un seguimiento de los diferentes componentes de un sistema durante todo su ciclo de vida. Su aplicación facilita la organización y administración de los cambios realizados en el código, documentos y demás elementos del proyecto, contribuyendo a un proceso de desarrollo más ordenado y eficiente. De esta manera, busca optimizar el trabajo del equipo y reducir la posibilidad de errores (Martin, 2023).
 
 ### 5.1.1. Software Development Environment Configuration.
+
 A continuación se listan los productos de software utilizados por el equipo, organizados por tipo de actividad del ciclo de vida. Para cada herramienta se indica su propósito y la ruta de referencia o descarga.
 
 **1. Gestión de Proyectos**
 
-*Descripción:*
+_Descripción:_
 
 La gestión de proyectos es un aspecto esencial en el desarrollo de software, ya que permite organizar y estructurar las actividades necesarias para alcanzar los objetivos de un proyecto. Las herramientas de gestión facilitan la planificación, asignación y seguimiento de tareas, además de favorecer la comunicación y colaboración entre los integrantes del equipo.
 
@@ -28,7 +30,7 @@ Discord es una plataforma de comunicación que permite mantener reuniones y conv
 
 https://discord.com/
 
-<p align="center"> 
+<p align="center">
   <img src="https://imgur.com/nVyvvEN.png" alt="Discord" width="75">
 </p>
 
@@ -38,7 +40,7 @@ Google Meet es una herramienta de videoconferencias que permite realizar reunion
 
 https://meet.google.com/
 
-<p align="center"> 
+<p align="center">
   <img src="https://imgur.com/oStbxH8.png" alt="Google Meet" width="75">
 </p>
 
@@ -63,7 +65,6 @@ https://miro.com/
 <p align="center">
   <img src="https://imgur.com/CuDff2Y.png" alt="Miro" width="75">
 </p>
-
 
 **3. Diseño UX/UI del Producto**
 
@@ -257,52 +258,52 @@ Asimismo, se establecen las convenciones utilizadas para la creación de ramas, 
 
 Para organizar los distintos componentes de la solución, el proyecto InstAlert se encuentra distribuido en cuatro repositorios públicos dentro de la organización LosIncreiblesCorp. Cada repositorio posee una responsabilidad específica dentro de la solución.
 
-*Página de Aterrizaje:*  
+_Página de Aterrizaje:_
 Repositorio destinado al sitio web promocional e informativo de InstAlert. Contiene la estructura HTML, hojas de estilo CSS, scripts JavaScript y recursos multimedia utilizados para presentar la propuesta de valor, funcionalidades, planes y equipo del producto.
 
-*Frontend Aplicación Web:*  
+_Frontend Aplicación Web:_
 Repositorio destinado a la aplicación web del lado del cliente. Contiene la estructura, componentes, vistas y lógica de interacción de la Aplicación Web, además del consumo de los servicios proporcionados por la RESTful API.
 
-*Servicios Web:*  
+_Servicios Web:_
 Repositorio destinado al Backend de InstAlert. Contiene la lógica de negocio, acceso a datos y servicios RESTful desarrollados con ASP.NET Core y Entity Framework Core. Asimismo, incluye los recursos necesarios para las pruebas automatizadas y la documentación de los puntos de enlace mediante OpenAPI/Swagger.
 
-*Informe del Proyecto:*  
+_Informe del Proyecto:_
 Repositorio destinado a la documentación académica y técnica del proyecto. Contiene el informe desarrollado colaborativamente en Markdown, junto con los recursos gráficos, diagramas y evidencias correspondientes a cada capítulo.
 
 **Enlaces a los repositorios:**
 
-* Repositorio de Página de Aterrizaje: https://github.com/LosIncreiblesCorp/InstAlert-LandingPage
-* Repositorio de Frontend Aplicación Web: https://github.com/LosIncreiblesCorp/Instalert-FrontEnd
-* Repositorio de Servicios Web: https://github.com/LosIncreiblesCorp/Instalert-BackEnd
-* Repositorio del Informe del Proyecto: https://github.com/LosIncreiblesCorp/losIncreibles-project-report
+- Repositorio de Página de Aterrizaje: https://github.com/LosIncreiblesCorp/InstAlert-LandingPage
+- Repositorio de Frontend Aplicación Web: https://github.com/LosIncreiblesCorp/Instalert-FrontEnd
+- Repositorio de Servicios Web: https://github.com/LosIncreiblesCorp/Instalert-BackEnd
+- Repositorio del Informe del Proyecto: https://github.com/LosIncreiblesCorp/losIncreibles-project-report
 
 **2. Flujo de trabajo de control de versiones (GitFlow)**
 
 Para gestionar la integración de nuevas características y coordinar el trabajo colaborativo, el equipo utiliza GitFlow. Este flujo de trabajo permite desarrollar funcionalidades de manera aislada mediante ramas específicas y posteriormente integrarlas de forma controlada a las ramas principales del proyecto.
 
-*Estructura de ramas principales y de soporte:*
+_Estructura de ramas principales y de soporte:_
 
-| Nombre de la rama | Descripción |
-| --- | --- |
-| **Rama Principal** (`main`) | Representa el estado estable y listo para producción del proyecto. Recibe únicamente cambios previamente integrados, revisados y validados. |
-| **Rama de Desarrollo** (`develop`) | Funciona como la rama principal de integración. Las nuevas funcionalidades se incorporan aquí antes de preparar una nueva versión del producto. |
-| **Ramas de Características** (`feature/*`) | Ramas temporales creadas a partir de `develop` para implementar funcionalidades o tareas específicas de manera independiente. <br> **Convención:** `feature/nombre-de-la-tarea` |
-| **Ramas de Lanzamiento** (`release/*`) | Ramas utilizadas para preparar una nueva versión del producto. Permiten realizar validaciones finales y correcciones menores antes de integrar los cambios en `main`. <br> **Convención:** `release/vX.Y.Z` |
+| Nombre de la rama                           | Descripción                                                                                                                                                                                                                                 |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Rama Principal** (`main`)                 | Representa el estado estable y listo para producción del proyecto. Recibe únicamente cambios previamente integrados, revisados y validados.                                                                                                 |
+| **Rama de Desarrollo** (`develop`)          | Funciona como la rama principal de integración. Las nuevas funcionalidades se incorporan aquí antes de preparar una nueva versión del producto.                                                                                             |
+| **Ramas de Características** (`feature/*`)  | Ramas temporales creadas a partir de `develop` para implementar funcionalidades o tareas específicas de manera independiente. <br> **Convención:** `feature/nombre-de-la-tarea`                                                             |
+| **Ramas de Lanzamiento** (`release/*`)      | Ramas utilizadas para preparar una nueva versión del producto. Permiten realizar validaciones finales y correcciones menores antes de integrar los cambios en `main`. <br> **Convención:** `release/vX.Y.Z`                                 |
 | **Ramas de Corrección Rápida** (`hotfix/*`) | Ramas creadas a partir de `main` para resolver errores críticos detectados en una versión publicada. Posteriormente, los cambios deben incorporarse tanto en `main` como en `develop`. <br> **Convención:** `hotfix/descripcion-del-parche` |
 
 **3. Versionado Semántico (Semantic Versioning 2.0.0)**
 
 Para identificar y rastrear las versiones publicadas de InstAlert, el equipo utiliza Semantic Versioning (SemVer). Este estándar emplea el formato `MAJOR.MINOR.PATCH`.
 
-* **MAJOR:** Se incrementa cuando se introducen cambios incompatibles con versiones anteriores.
-* **MINOR:** Se incrementa cuando se incorporan nuevas funcionalidades compatibles con la versión actual.
-* **PATCH:** Se incrementa cuando se realizan correcciones de errores o mejoras menores que no modifican la compatibilidad del producto.
+- **MAJOR:** Se incrementa cuando se introducen cambios incompatibles con versiones anteriores.
+- **MINOR:** Se incrementa cuando se incorporan nuevas funcionalidades compatibles con la versión actual.
+- **PATCH:** Se incrementa cuando se realizan correcciones de errores o mejoras menores que no modifican la compatibilidad del producto.
 
 Ejemplos:
 
-* `v1.0.0`: Primera versión estable del producto.
-* `v1.1.0`: Incorporación de nuevas funcionalidades manteniendo compatibilidad.
-* `v1.1.1`: Corrección de errores de una versión existente.
+- `v1.0.0`: Primera versión estable del producto.
+- `v1.1.0`: Incorporación de nuevas funcionalidades manteniendo compatibilidad.
+- `v1.1.1`: Corrección de errores de una versión existente.
 
 **4. Convenciones de Mensajes de Confirmación (Conventional Commits)**
 
@@ -314,48 +315,49 @@ La estructura utilizada es:
 
 Los principales tipos utilizados por el equipo son:
 
-* `feat`: Incorporación de una nueva funcionalidad.  
+- `feat`: Incorporación de una nueva funcionalidad.
   Ejemplo: `feat(alerts): add panic alert creation`
 
-* `fix`: Corrección de un error o comportamiento inesperado.  
+- `fix`: Corrección de un error o comportamiento inesperado.
   Ejemplo: `fix(auth): resolve login validation issue`
 
-* `docs`: Cambios realizados exclusivamente en documentación.  
+- `docs`: Cambios realizados exclusivamente en documentación.
   Ejemplo: `docs(chapter5): update source code management`
 
-* `style`: Cambios de formato o presentación que no modifican la lógica del sistema.  
+- `style`: Cambios de formato o presentación que no modifican la lógica del sistema.
   Ejemplo: `style(landing): improve responsive team layout`
 
-* `refactor`: Reestructuración de código existente sin modificar su comportamiento externo.  
+- `refactor`: Reestructuración de código existente sin modificar su comportamiento externo.
   Ejemplo: `refactor(alerts): simplify alert processing logic`
 
-* `test`: Incorporación o modificación de pruebas automatizadas.  
+- `test`: Incorporación o modificación de pruebas automatizadas.
   Ejemplo: `test(auth): add authentication unit tests`
 
-* `chore`: Cambios de configuración, mantenimiento o tareas auxiliares que no afectan directamente una funcionalidad del producto.  
+- `chore`: Cambios de configuración, mantenimiento o tareas auxiliares que no afectan directamente una funcionalidad del producto.
   Ejemplo: `chore(repo): update project configuration`
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
-En esta sección, el equipo define las normativas y directrices de codificación que se aplicarán a lo largo del desarrollo de la solución. El objetivo principal es estandarizar la escritura del código en HTML, CSS, JavaScript y C#, asegurando que sea legible, mantenible y escalable. 
+En esta sección, el equipo define las normativas y directrices de codificación que se aplicarán a lo largo del desarrollo de la solución. El objetivo principal es estandarizar la escritura del código en HTML, CSS, JavaScript y C#, asegurando que sea legible, mantenible y escalable.
 
 Como regla transversal, **toda la nomenclatura (variables, métodos, clases, comentarios, etc.) se redactará exclusivamente en inglés**. Para establecer estas bases, nos alinearemos con las siguientes guías de la industria:
 
-* Guía de Estilo y Convenciones de Codificación de HTML
-* Guía de Estilo HTML/CSS de Google
-* Guía de Estilo de JavaScript de Google
-* Directrices de JavaScript de MDN
-* Guía de Estilo de JavaScript de W3C
-* Convenciones de Codificación de C#
-* Directrices de Codificación de ASP.NET Core de Microsoft
+- Guía de Estilo y Convenciones de Codificación de HTML
+- Guía de Estilo HTML/CSS de Google
+- Guía de Estilo de JavaScript de Google
+- Directrices de JavaScript de MDN
+- Guía de Estilo de JavaScript de W3C
+- Convenciones de Codificación de C#
+- Directrices de Codificación de ASP.NET Core de Microsoft
 
 La estructuración e implementación del sistema, desde la Página de Aterrizaje hasta los Servicios Web y el Frontend de la aplicación, seguirán reglas estrictas para cada tecnología involucrada.
 
 **Principios Transversales**
-* **Idioma:** Todo el nombrado de elementos técnicos y documentación interna debe estar en inglés.
-* **DRY (Don't Repeat Yourself):** Evitar la duplicidad de código mediante la creación de componentes y métodos reutilizables.
-* **KISS (Keep It Simple, Stupid):** Priorizar la simplicidad y claridad en la lógica de programación.
-* **Indentación:** Mantener una indentación estricta y coherente según el lenguaje utilizado.
+
+- **Idioma:** Todo el nombrado de elementos técnicos y documentación interna debe estar en inglés.
+- **DRY (Don't Repeat Yourself):** Evitar la duplicidad de código mediante la creación de componentes y métodos reutilizables.
+- **KISS (Keep It Simple, Stupid):** Priorizar la simplicidad y claridad en la lógica de programación.
+- **Indentación:** Mantener una indentación estricta y coherente según el lenguaje utilizado.
 
 ---
 
@@ -363,14 +365,15 @@ La estructuración e implementación del sistema, desde la Página de Aterrizaje
 
 Se utilizará HTML5 para definir la estructura semántica de las interfaces (Página de Aterrizaje y vistas de la aplicación web).
 
-*Convenciones de Formato y Estructura:*
-* **Indentación:** 2 espacios por nivel. No utilizar tabulaciones.
-* **Etiquetas y atributos:** Escribir siempre en minúsculas (ej. `<section>`, `<article>`).
-* **Comillas:** Usar comillas dobles para los valores de los atributos (ej. `class="container"`).
-* **Cierre de etiquetas:** Todas las etiquetas deben cerrarse adecuadamente. Las etiquetas vacías no requieren barra diagonal en HTML5 (ej. usar `<br>` en lugar de `<br />`).
-* **Semántica:** Priorizar etiquetas semánticas (`<header>`, `<nav>`, `<main>`, `<footer>`) sobre el uso excesivo de `<div>`.
-* **Accesibilidad:** Incluir siempre el atributo `alt` en las imágenes y usar atributos ARIA cuando sea necesario para tecnologías de asistencia.
-* **Documento base:** Declarar siempre `<!DOCTYPE html>` en la primera línea y especificar el idioma principal `<html lang="en">`.
+_Convenciones de Formato y Estructura:_
+
+- **Indentación:** 2 espacios por nivel. No utilizar tabulaciones.
+- **Etiquetas y atributos:** Escribir siempre en minúsculas (ej. `<section>`, `<article>`).
+- **Comillas:** Usar comillas dobles para los valores de los atributos (ej. `class="container"`).
+- **Cierre de etiquetas:** Todas las etiquetas deben cerrarse adecuadamente. Las etiquetas vacías no requieren barra diagonal en HTML5 (ej. usar `<br>` en lugar de `<br />`).
+- **Semántica:** Priorizar etiquetas semánticas (`<header>`, `<nav>`, `<main>`, `<footer>`) sobre el uso excesivo de `<div>`.
+- **Accesibilidad:** Incluir siempre el atributo `alt` en las imágenes y usar atributos ARIA cuando sea necesario para tecnologías de asistencia.
+- **Documento base:** Declarar siempre `<!DOCTYPE html>` en la primera línea y especificar el idioma principal `<html lang="en">`.
 
 <p align="center">
   <img src="https://imgur.com/P4oNNZs.png" alt="Html Conventions" width="250">
@@ -382,13 +385,14 @@ Se utilizará HTML5 para definir la estructura semántica de las interfaces (Pá
 
 Se utilizará para controlar la presentación visual, priorizando un diseño modular y responsivo (Mobile-First).
 
-*Convenciones de Formato y Arquitectura:*
-* **Indentación:** 2 espacios por nivel.
-* **Sintaxis:** Dejar un espacio antes de la llave de apertura `{` y colocar la llave de cierre `}` en una nueva línea. Escribir cada declaración en su propia línea, terminando con punto y coma `;`.
-* **Nomenclatura:** Adoptar la metodología BEM (Block, Element, Modifier) para las clases, utilizando guiones bajos dobles para elementos y guiones medios dobles para modificadores (ej. `.card`, `.card__title`, `.card--highlighted`).
-* **Orden de propiedades:** Agrupar propiedades lógicamente: Posicionamiento, Modelo de caja (Box model), Tipografía, Aspecto visual (Colores, fondos) y Animaciones.
-* **Especificidad y Anidamiento:** Evitar anidar selectores más de 3 niveles de profundidad. Restringir estrictamente el uso de `!important`.
-* **Variables:** Utilizar Custom Properties (variables CSS) en la raíz (`:root`) para colores de la marca, tipografías y espaciados estandarizados.
+_Convenciones de Formato y Arquitectura:_
+
+- **Indentación:** 2 espacios por nivel.
+- **Sintaxis:** Dejar un espacio antes de la llave de apertura `{` y colocar la llave de cierre `}` en una nueva línea. Escribir cada declaración en su propia línea, terminando con punto y coma `;`.
+- **Nomenclatura:** Adoptar la metodología BEM (Block, Element, Modifier) para las clases, utilizando guiones bajos dobles para elementos y guiones medios dobles para modificadores (ej. `.card`, `.card__title`, `.card--highlighted`).
+- **Orden de propiedades:** Agrupar propiedades lógicamente: Posicionamiento, Modelo de caja (Box model), Tipografía, Aspecto visual (Colores, fondos) y Animaciones.
+- **Especificidad y Anidamiento:** Evitar anidar selectores más de 3 niveles de profundidad. Restringir estrictamente el uso de `!important`.
+- **Variables:** Utilizar Custom Properties (variables CSS) en la raíz (`:root`) para colores de la marca, tipografías y espaciados estandarizados.
 
 <p align="center">
   <img src="https://imgur.com/d4f2qFX.png" alt="CSS Conventions" width="250">
@@ -400,20 +404,22 @@ Se utilizará para controlar la presentación visual, priorizando un diseño mod
 
 Se aplicará para la interactividad del lado del cliente y el consumo de APIs, priorizando los estándares modernos de ECMAScript (ES6+).
 
-*Convenciones de Formato y Nomenclatura:*
-* **Indentación:** 2 espacios.
-* **Sintaxis:** Requerir el uso de punto y coma `;` al final de cada instrucción para evitar problemas de ASI (Automatic Semicolon Insertion). Usar comillas simples para strings (`'texto'`).
-* **Nomenclatura:** 
-  * Variables y funciones: `camelCase` (ej. `fetchUserData`).
-  * Clases y Componentes: `PascalCase` (ej. `UserProfile`).
-  * Constantes globales: `UPPER_SNAKE_CASE` (ej. `API_BASE_URL`).
-* **Declaración de variables:** Usar `const` por defecto. Utilizar `let` únicamente cuando la variable vaya a ser reasignada. Prohibir el uso de `var`.
+_Convenciones de Formato y Nomenclatura:_
 
-*Buenas Prácticas Añadidas:*
-* **Igualdad Estricta:** Utilizar siempre `===` y `!==` en lugar de `==` y `!=`.
-* **Asincronismo:** Preferir `async/await` sobre cadenas extensas de `.then()` para el manejo de promesas, y siempre envolver el bloque lógico en `try/catch` para el manejo de errores.
-* **Funciones:** Utilizar arrow functions `() => {}` para callbacks y métodos anónimos para preservar el contexto de `this`.
-* **Documentación:** Usar JSDoc para documentar funciones complejas, describiendo parámetros y valores de retorno.
+- **Indentación:** 2 espacios.
+- **Sintaxis:** Requerir el uso de punto y coma `;` al final de cada instrucción para evitar problemas de ASI (Automatic Semicolon Insertion). Usar comillas simples para strings (`'texto'`).
+- **Nomenclatura:**
+  - Variables y funciones: `camelCase` (ej. `fetchUserData`).
+  - Clases y Componentes: `PascalCase` (ej. `UserProfile`).
+  - Constantes globales: `UPPER_SNAKE_CASE` (ej. `API_BASE_URL`).
+- **Declaración de variables:** Usar `const` por defecto. Utilizar `let` únicamente cuando la variable vaya a ser reasignada. Prohibir el uso de `var`.
+
+_Buenas Prácticas Añadidas:_
+
+- **Igualdad Estricta:** Utilizar siempre `===` y `!==` en lugar de `==` y `!=`.
+- **Asincronismo:** Preferir `async/await` sobre cadenas extensas de `.then()` para el manejo de promesas, y siempre envolver el bloque lógico en `try/catch` para el manejo de errores.
+- **Funciones:** Utilizar arrow functions `() => {}` para callbacks y métodos anónimos para preservar el contexto de `this`.
+- **Documentación:** Usar JSDoc para documentar funciones complejas, describiendo parámetros y valores de retorno.
 
 <p align="center">
   <img src="https://imgur.com/buHT5fx.png" alt="JS Conventions" width="250">
@@ -425,22 +431,24 @@ Se aplicará para la interactividad del lado del cliente y el consumo de APIs, p
 
 Se aplicará en el desarrollo de los Servicios Web y la lógica del lado del servidor, siguiendo las convenciones oficiales de Microsoft.
 
-*Convenciones de Formato y Nomenclatura:*
-* **Indentación:** 4 espacios (configuración por defecto en Visual Studio).
-* **Llaves:** Utilizar el estilo Allman (cada llave `{` y `}` va en su propia línea).
-* **Nomenclatura:**
-  * Clases, Métodos y Propiedades Públicas: `PascalCase` (ej. `UserController`, `GetActiveUsers`, `FirstName`).
-  * Interfaces: Prefijo `I` seguido de `PascalCase` (ej. `IUserRepository`).
-  * Parámetros y variables locales: `camelCase` (ej. `userId`).
-  * Campos privados de clase: Prefijo guion bajo seguido de `camelCase` (ej. `_dbContext`).
-* **Longitud de línea:** Evitar exceder los 120 caracteres para mejorar la legibilidad en pantallas estándar.
+_Convenciones de Formato y Nomenclatura:_
 
-*Buenas Prácticas Añadidas:*
-* **Tipado implícito:** Usar la palabra clave `var` cuando el tipo de dato sea evidente en el lado derecho de la asignación (ej. `var users = new List<User>();`).
-* **Inyección de Dependencias:** Todos los servicios y repositorios deben ser inyectados a través del constructor, evitando instanciaciones directas (uso de `new`) de clases de lógica de negocio.
-* **Controladores ligeros:** Mantener los controladores (Controllers) lo más delgados posible, delegando toda la lógica de negocio a la capa de Servicios (Services).
-* **Asincronismo:** Los métodos que realicen operaciones de base de datos o I/O deben ser asíncronos, llevando el sufijo `Async` (ej. `GetUserByIdAsync`) y utilizando `async` y `await`.
-* **LINQ:** Aprovechar los métodos de extensión de LINQ para manipular colecciones de forma declarativa y legible.
+- **Indentación:** 4 espacios (configuración por defecto en Visual Studio).
+- **Llaves:** Utilizar el estilo Allman (cada llave `{` y `}` va en su propia línea).
+- **Nomenclatura:**
+  - Clases, Métodos y Propiedades Públicas: `PascalCase` (ej. `UserController`, `GetActiveUsers`, `FirstName`).
+  - Interfaces: Prefijo `I` seguido de `PascalCase` (ej. `IUserRepository`).
+  - Parámetros y variables locales: `camelCase` (ej. `userId`).
+  - Campos privados de clase: Prefijo guion bajo seguido de `camelCase` (ej. `_dbContext`).
+- **Longitud de línea:** Evitar exceder los 120 caracteres para mejorar la legibilidad en pantallas estándar.
+
+_Buenas Prácticas Añadidas:_
+
+- **Tipado implícito:** Usar la palabra clave `var` cuando el tipo de dato sea evidente en el lado derecho de la asignación (ej. `var users = new List<User>();`).
+- **Inyección de Dependencias:** Todos los servicios y repositorios deben ser inyectados a través del constructor, evitando instanciaciones directas (uso de `new`) de clases de lógica de negocio.
+- **Controladores ligeros:** Mantener los controladores (Controllers) lo más delgados posible, delegando toda la lógica de negocio a la capa de Servicios (Services).
+- **Asincronismo:** Los métodos que realicen operaciones de base de datos o I/O deben ser asíncronos, llevando el sufijo `Async` (ej. `GetUserByIdAsync`) y utilizando `async` y `await`.
+- **LINQ:** Aprovechar los métodos de extensión de LINQ para manipular colecciones de forma declarativa y legible.
 
 <p align="center">
   <img src="https://imgur.com/yeEElyR.png" alt="C# Conventions" width="250">
@@ -452,32 +460,32 @@ En esta sección se describe la estrategia de despliegue definida para los produ
 
 **1. Página de Aterrizaje**
 
-* **Plataforma de Hosting:** GitHub Pages
+- **Plataforma de Hosting:** GitHub Pages
 
-* **Proceso de Despliegue:**
-  * **Integración:** Las nuevas características se desarrollan en ramas `feature/*` creadas a partir de `develop` y posteriormente se integran mediante Solicitudes de extracción.
-  * **Preparación de versión:** Una vez que las funcionalidades han sido integradas y validadas, se prepara la versión correspondiente siguiendo el flujo GitFlow.
-  * **Pase a producción:** La versión estable se integra en la rama `main`.
-  * **Publicación:** GitHub Pages publica automáticamente el contenido estático del repositorio desde la configuración establecida para producción.
+- **Proceso de Despliegue:**
+  - **Integración:** Las nuevas características se desarrollan en ramas `feature/*` creadas a partir de `develop` y posteriormente se integran mediante Solicitudes de extracción.
+  - **Preparación de versión:** Una vez que las funcionalidades han sido integradas y validadas, se prepara la versión correspondiente siguiendo el flujo GitFlow.
+  - **Pase a producción:** La versión estable se integra en la rama `main`.
+  - **Publicación:** GitHub Pages publica automáticamente el contenido estático del repositorio desde la configuración establecida para producción.
 
-* **Estado actual:** Desplegado.
-* **URL de Producción:** https://losincreiblescorp.github.io/InstAlert-LandingPage/
+- **Estado actual:** Desplegado.
+- **URL de Producción:** https://losincreiblescorp.github.io/InstAlert-LandingPage/
 
 **2. Frontend Aplicación Web**
 
-* **Plataforma de Hosting planificada:** Vercel
+- **Plataforma de Hosting planificada:** Vercel
 
 La Frontend Aplicación Web será desplegada en Vercel en un Sprint posterior. El proceso previsto considera la integración de las funcionalidades mediante ramas `feature/*`, Solicitudes de extracción hacia `develop` y la preparación de una versión estable antes de su incorporación a `main`.
 
 Una vez implementado el frontend, el proceso de construcción utilizará las herramientas correspondientes al proyecto Vue.js, incluyendo la instalación de dependencias y la generación del build de producción. Asimismo, se configurarán las variables de entorno necesarias, como la URL base de los Servicios Web.
 
-* **Estado actual:** Pendiente de implementación y despliegue.
-* **URL de Producción:** No disponible durante el Sprint 1.
+- **Estado actual:** Pendiente de implementación y despliegue.
+- **URL de Producción:** No disponible durante el Sprint 1.
 
 **3. Servicios Web**
 
-* **Tecnología:** ASP.NET Core
-* **Plataforma de Hosting planificada:** Railway
+- **Tecnología:** ASP.NET Core
+- **Plataforma de Hosting planificada:** Railway
 
 Los Servicios Web serán desplegados en Railway en un Sprint posterior. Previamente, el backend será desarrollado y validado mediante las pruebas correspondientes.
 
@@ -485,8 +493,9 @@ El proceso de despliegue previsto contempla la compilación del proyecto en modo
 
 Una vez que los Servicios Web se encuentren desplegados, sus puntos de enlace serán documentados utilizando OpenAPI/Swagger, permitiendo visualizar y probar las operaciones disponibles de la RESTful API.
 
-* **Estado actual:** Pendiente de implementación y despliegue.
-* **URL de Producción (API):** No disponible durante el Sprint 1.
+- **Estado actual:** Pendiente de implementación y despliegue.
+- **URL de Producción (API):** No disponible durante el Sprint 1.
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 ### 5.2.1. Sprint 1
@@ -495,18 +504,18 @@ Durante el Sprint 1 se desarrollaron la Página de Aterrizaje y la documentació
 
 #### 5.2.1.1. Sprint Planning 1.
 
-| Sprint # | Sprint 1 |
-| :--- | :--- |
-| **Sprint Planning Background** | |
-| Date | 02/09/2026 |
-| Time | 11:00 PM |
-| Location | Google Meet |
-| Prepared By | Sebastian Victor Andre Diaz Mendoza |
-| Attendees (to planning meeting) | Jose Gustavo Asto Jacome<br>Sebastian Victor Andre Diaz Mendoza<br>Jean Fabio Noriega Collado<br>Yngrid Nahir Ruiz Villegas<br>Ismael Sebastian Simon Calderon |
-| **Sprint Goal & User Stories** | |
-| **Sprint 1 Goal** | **Nuestro enfoque está en** que los potenciales clientes comprendan la propuesta de valor y las funcionalidades de InstAlert, comparen sus planes y consulten información complementaria en el idioma de su preferencia.<br>**Creemos que esto aportará** mayor claridad y confianza para evaluar si la plataforma responde a las necesidades de su comercio.<br>**Esto se confirmará cuando** la revisión del sitio publicado permita comprobar el acceso a la propuesta de valor, las funcionalidades, los planes en PEN y USD, los testimonios, la explicación de funcionamiento, el equipo, las preguntas frecuentes y la documentación de ayuda y legal. |
-| **Sprint 1 Velocity** | 11 |
-| **Sum of Puntos de Historia** | 13 |
+| Sprint #                        | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Date                            | 02/09/2026                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Time                            | 11:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Location                        | Google Meet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Prepared By                     | Sebastian Victor Andre Diaz Mendoza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Attendees (to planning meeting) | Jose Gustavo Asto Jacome<br>Sebastian Victor Andre Diaz Mendoza<br>Jean Fabio Noriega Collado<br>Yngrid Nahir Ruiz Villegas<br>Ismael Sebastian Simon Calderon                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Sprint 1 Goal**               | **Nuestro enfoque está en** que los potenciales clientes comprendan la propuesta de valor y las funcionalidades de InstAlert, comparen sus planes y consulten información complementaria en el idioma de su preferencia.<br>**Creemos que esto aportará** mayor claridad y confianza para evaluar si la plataforma responde a las necesidades de su comercio.<br>**Esto se confirmará cuando** la revisión del sitio publicado permita comprobar el acceso a la propuesta de valor, las funcionalidades, los planes en PEN y USD, los testimonios, la explicación de funcionamiento, el equipo, las preguntas frecuentes y la documentación de ayuda y legal. |
+| **Sprint 1 Velocity**           | 11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sum of Puntos de Historia**   | 13                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 **Nota:** Cuadro resumen de la planificación, los objetivos, los resultados y las métricas de esfuerzo del Sprint 1 de InstAlert.
 
@@ -521,12 +530,12 @@ Para el Sprint 1, la matriz **Leadership-and-Collaboration Matrix (LACX)** distr
 Cada aspecto cuenta con un líder y colaboradores para coordinar el trabajo incluido en el sprint.
 
 | **Team Member (Last Name, First Name)** | **GitHub Username** | **Aspect: Landing Page** | **Aspect: UI/UX Design** | **Aspect: Documentation** |
-| --------------------------------------- | ------------------- | ----------------------- | ------------------------- | ------------------------- |
-| Asto Jácome, José Gustavo                | DhudsQ              | L                       | C                         | C                         |
-| Díaz Mendoza, Sebastián Víctor André     | DiazDeveloper       | C                       | C                         | C                         |
-| Noriega Collado, Jean Fabio              | dumbaskidd          | C                       | C                         | L                         |
-| Ruiz Villegas, Yngrid Nahir              | nahiryn8            | C                       | L                         | C                         |
-| Simón Calderón, Ismael Sebastián         | Mayel-dev           | C                       | C                         | C                         |
+| --------------------------------------- | ------------------- | ------------------------ | ------------------------ | ------------------------- |
+| Asto Jácome, José Gustavo               | DhudsQ              | L                        | C                        | C                         |
+| Díaz Mendoza, Sebastián Víctor André    | DiazDeveloper       | C                        | C                        | C                         |
+| Noriega Collado, Jean Fabio             | dumbaskidd          | C                        | C                        | L                         |
+| Ruiz Villegas, Yngrid Nahir             | nahiryn8            | C                        | L                        | C                         |
+| Simón Calderón, Ismael Sebastián        | Mayel-dev           | C                        | C                        | C                         |
 
 - **L** = Líder del aspecto
 - **C** = Colaborador en el aspecto
@@ -580,14 +589,14 @@ Las horas corresponden a estimaciones del desglose de trabajo. Las asignaciones 
 
 Esta sección presenta la evidencia técnica del progreso alcanzado durante el Sprint 1 con respecto a los productos incluidos en su alcance. La tabla resume los repositorios, las ramas y las confirmaciones relacionadas con el desarrollo estructural, la integración de contenido y la configuración de la Página de Aterrizaje de InstAlert.
 
-| Repositorio | Rama | ID de Confirmación | Mensaje de Confirmación | Cuerpo del Mensaje de Confirmación | Confirmado en (Fecha) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| DhudsQ/InstAlert-LandingPage | feature/inicio | 8c9035e | feat(inicio):add site-config file for default Language | Configured the initial site settings and established the default language parameters for the i18n implementation across the main layout. | 10/09/2026 |
-| dumbaskidd/InstAlert-LandingPage | feature/planes | 8a6b851 | feat(planes): add base and responsive css styles for pricing section | Implemented the core stylesheet for the subscription plans, ensuring mobile responsiveness and proper alignment of the pricing cards and currency toggle. | 11/09/2026 |
-| Mayel-dev/InstAlert-LandingPage | feature/equipo | 4bbfccf | feat(team): add team presentation section | Developed the 'About Us' structure, integrating team member portraits, roles, and the placeholder layout for the promotional video. | 11/09/2026 |
-| DiazDeveloper/InstAlert-LandingPage | feature/producto | a8ca125 | feat: agrego estilos, html y js de la seccion producto | Built the interactive 'What We Offer' section, linking the descriptive HTML with its specific CSS styles and interactive JavaScript components. | 12/09/2026 |
-| nahiryn8/InstAlert-LandingPage | feature/cierre | e6cc66e | docs(cierre): add help center and legal documentation pdfs | Uploaded the necessary legal assets (Privacy Policy, Terms of Service) and Help Center documentation, linking them directly in the site footer. | 13/09/2026 |
-| DhudsQ/InstAlert-LandingPage | main | b54c82e | chore: integración iteración 1 features and trigger deployment |
+| Repositorio                         | Rama             | ID de Confirmación | Mensaje de Confirmación                                              | Cuerpo del Mensaje de Confirmación                                                                                                                        | Confirmado en (Fecha) |
+| :---------------------------------- | :--------------- | :----------------- | :------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------- |
+| DhudsQ/InstAlert-LandingPage        | feature/inicio   | 8c9035e            | feat(inicio):add site-config file for default Language               | Configured the initial site settings and established the default language parameters for the i18n implementation across the main layout.                  | 10/09/2026            |
+| dumbaskidd/InstAlert-LandingPage    | feature/planes   | 8a6b851            | feat(planes): add base and responsive css styles for pricing section | Implemented the core stylesheet for the subscription plans, ensuring mobile responsiveness and proper alignment of the pricing cards and currency toggle. | 11/09/2026            |
+| Mayel-dev/InstAlert-LandingPage     | feature/equipo   | 4bbfccf            | feat(team): add team presentation section                            | Developed the 'About Us' structure, integrating team member portraits, roles, and the placeholder layout for the promotional video.                       | 11/09/2026            |
+| DiazDeveloper/InstAlert-LandingPage | feature/producto | a8ca125            | feat: agrego estilos, html y js de la seccion producto               | Built the interactive 'What We Offer' section, linking the descriptive HTML with its specific CSS styles and interactive JavaScript components.           | 12/09/2026            |
+| nahiryn8/InstAlert-LandingPage      | feature/cierre   | e6cc66e            | docs(cierre): add help center and legal documentation pdfs           | Uploaded the necessary legal assets (Privacy Policy, Terms of Service) and Help Center documentation, linking them directly in the site footer.           | 13/09/2026            |
+| DhudsQ/InstAlert-LandingPage        | main             | b54c82e            | chore: integración iteración 1 features and trigger deployment       |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
@@ -601,7 +610,7 @@ A continuación, se presentan capturas de las principales vistas y componentes i
 
 **1. Estructura base, Navegación, Hero y Beneficios**
 
-*Desarrollado por: Jose Gustavo Asto Jacome*
+_Desarrollado por: Jose Gustavo Asto Jacome_
 
 <p align="center">
   <img src="https://imgur.com/AHKZXk4.png" alt="Inicio y Hero Section" width="500">
@@ -609,7 +618,7 @@ A continuación, se presentan capturas de las principales vistas y componentes i
 
 **2. Presentación del Producto y Soluciones (Qué ofrecemos)**
 
-*Desarrollado por: Sebastián Víctor André Díaz Mendoza*
+_Desarrollado por: Sebastián Víctor André Díaz Mendoza_
 
 <p align="center">
   <img src="https://imgur.com/cg2RfmR.png" alt="Producto y Soluciones" width="500">
@@ -617,7 +626,7 @@ A continuación, se presentan capturas de las principales vistas y componentes i
 
 **3. Planes de Suscripción y Selector de Moneda (Precios)**
 
-*Desarrollado por: Jean Fabio Noriega Collado*
+_Desarrollado por: Jean Fabio Noriega Collado_
 
 <p align="center">
   <img src="https://imgur.com/quV9lhu.png" alt="Planes de Suscripción" width="500">
@@ -625,7 +634,7 @@ A continuación, se presentan capturas de las principales vistas y componentes i
 
 **4. Sobre Nosotros y Nuestro Equipo (About Us & Team)**
 
-*Desarrollado por: Ismael Sebastian Simon Calderon*
+_Desarrollado por: Ismael Sebastian Simon Calderon_
 
 <p align="center">
   <img src="https://imgur.com/PLDYOag.png" alt="Sección Equipo" width="500">
@@ -633,7 +642,7 @@ A continuación, se presentan capturas de las principales vistas y componentes i
 
 **5. Llamado a la Acción (CTA), Footer y Enlaces Legales**
 
-*Desarrollado por: Yngrid Nahir Ruiz Villegas*
+_Desarrollado por: Yngrid Nahir Ruiz Villegas_
 
 <p align="center">
   <img src="https://imgur.com/L5xYg2c.png" alt="Cierre y Footer" width="500">
@@ -645,9 +654,9 @@ A continuación, se presentan capturas de las principales vistas y componentes i
 
 Durante el Sprint 1, el equipo se centró en la ideación, el diseño, el desarrollo y el despliegue de la Página de Aterrizaje de InstAlert. El alcance no incluyó la implementación de los Servicios Web ni de una API REST, por lo que todavía no hay endpoints disponibles para documentar con OpenAPI. El repositorio destinado a los Servicios Web del proyecto es [InstAlert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd). La documentación de la API se elaborará cuando sus endpoints estén implementados.
 
-| **End Point** | **Funciones** |
-| ------------- | ------------- |
-| N/A | No hay Web Services ni endpoints documentados con OpenAPI en el Sprint 1, cuyo alcance fue una Página de Aterrizaje estática. |
+| **End Point** | **Funciones**                                                                                                                 |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| N/A           | No hay Web Services ni endpoints documentados con OpenAPI en el Sprint 1, cuyo alcance fue una Página de Aterrizaje estática. |
 
 No hubo commits de documentación OpenAPI asociados a este Sprint.
 
@@ -660,29 +669,33 @@ Dado que el alcance de este Sprint se limitó a la presentación web estática, 
 **Actividades de Despliegue Realizadas:**
 
 **1. Configuración del Repositorio de Código Fuente**
-* Se estableció un repositorio público dedicado exclusivamente a la Página de Aterrizaje dentro de la organización del equipo.
-* El control de versiones se estructuró para facilitar la automatización de los despliegues.
-* Enlace del repositorio: https://github.com/losincreiblescorp/InstAlert-LandingPage
+
+- Se estableció un repositorio público dedicado exclusivamente a la Página de Aterrizaje dentro de la organización del equipo.
+- El control de versiones se estructuró para facilitar la automatización de los despliegues.
+- Enlace del repositorio: https://github.com/losincreiblescorp/InstAlert-LandingPage
 
 **2. Habilitación y Configuración de GitHub Pages**
-* Se activó el servicio de alojamiento estático desde el apartado de configuración (Configuración > Páginas) del repositorio.
-* Se definió la rama main y el directorio raíz (/root) como el entorno de origen para la lectura de los archivos a publicar.
-* Mediante esta configuración, el sitio web quedó expuesto de forma segura y pública en la siguiente URL de producción: https://losincreiblescorp.github.io/InstAlert-LandingPage/
+
+- Se activó el servicio de alojamiento estático desde el apartado de configuración (Configuración > Páginas) del repositorio.
+- Se definió la rama main y el directorio raíz (/root) como el entorno de origen para la lectura de los archivos a publicar.
+- Mediante esta configuración, el sitio web quedó expuesto de forma segura y pública en la siguiente URL de producción: https://losincreiblescorp.github.io/InstAlert-LandingPage/
 
 <p align="center">
   <img src="https://imgur.com/FOA0hnN.png" alt="Configuracion de GitHub Pages" width="500">
 </p>
 
 **3. Automatización del Proceso de Despliegue (CI/CD)**
-* Se aprovechó la integración nativa de GitHub Actions para el despliegue automático. 
-* El flujo de trabajo garantiza que cada vez que se aprueba un Solicitud de extracción y se realiza un integración hacia la rama main, la plataforma detecta los cambios y actualiza el contenido en tiempo real sin requerir intervención manual del equipo de desarrollo.
+
+- Se aprovechó la integración nativa de GitHub Actions para el despliegue automático.
+- El flujo de trabajo garantiza que cada vez que se aprueba un Solicitud de extracción y se realiza un integración hacia la rama main, la plataforma detecta los cambios y actualiza el contenido en tiempo real sin requerir intervención manual del equipo de desarrollo.
 
 <p align="center">
   <img src="https://imgur.com/Z9BUnld.png" alt="Inicio y Hero Section" width="500">
 </p>
 
 **4. Verificación y Validación en Producción**
-* Se validó la correcta carga de todos los recursos (imágenes, estilos, scripts), la estabilidad del diseño responsivo en múltiples resoluciones y el correcto funcionamiento del cambio de idioma (i18n) directamente en la URL pública.
+
+- Se validó la correcta carga de todos los recursos (imágenes, estilos, scripts), la estabilidad del diseño responsivo en múltiples resoluciones y el correcto funcionamiento del cambio de idioma (i18n) directamente en la URL pública.
 
 <p align="center">
   <img src="https://imgur.com/AHKZXk4.png" alt="Inicio y Hero Section" width="500">
@@ -694,10 +707,10 @@ Durante este primer Sprint, el equipo se dedicó a la concepción, el diseño y 
 
 **Actividades de implementación desarrolladas:**
 
-* **Planificación Visual:** Se estructuró el diseño base (esquemas visuales y maquetas) de la web para definir claramente la jerarquía de la información, las secciones clave y la paleta de colores.
-* **Desarrollo Modular:** La maquetación se dividió en componentes específicos (Principal, Precios, Testimonios, Sobre Nosotros, Contacto, Estructura), permitiendo que cada desarrollador trabajara en una rama de característica (`feature/*`) independiente.
-* **Integración de Funcionalidades:** Se aplicaron estilos responsivos con CSS y se integró lógica en JavaScript para dotar de interactividad a la página, incluyendo el sistema de internacionalización (i18n) para soportar múltiples idiomas.
-* **Gestión de Versiones y Despliegue:** Se empleó GitHub como plataforma central, aplicando flujos de Solicitudes de extracción y revisiones de código antes de integrar los cambios a la rama `main` para su posterior publicación en GitHub Pages.
+- **Planificación Visual:** Se estructuró el diseño base (esquemas visuales y maquetas) de la web para definir claramente la jerarquía de la información, las secciones clave y la paleta de colores.
+- **Desarrollo Modular:** La maquetación se dividió en componentes específicos (Principal, Precios, Testimonios, Sobre Nosotros, Contacto, Estructura), permitiendo que cada desarrollador trabajara en una rama de característica (`feature/*`) independiente.
+- **Integración de Funcionalidades:** Se aplicaron estilos responsivos con CSS y se integró lógica en JavaScript para dotar de interactividad a la página, incluyendo el sistema de internacionalización (i18n) para soportar múltiples idiomas.
+- **Gestión de Versiones y Despliegue:** Se empleó GitHub como plataforma central, aplicando flujos de Solicitudes de extracción y revisiones de código antes de integrar los cambios a la rama `main` para su posterior publicación en GitHub Pages.
 
 **Analíticas de colaboración en GitHub:**
 
@@ -705,41 +718,48 @@ Para evidenciar el compromiso y la participación equitativa de todos los integr
 
 **1. Historial de confirmaciones por miembro**
 
-*Desarrollado por: Jean Fabio Noriega Collado (dumbaskidd)*
+_Desarrollado por: Jean Fabio Noriega Collado (dumbaskidd)_
+
 <p align="center">
   <img src="https://imgur.com/VZ9kGig.png" alt="Commits Jean" width="500">
 </p>
 
-*Desarrollado por: Ismael Sebastian Simon Calderon (Mayel-dev)*
+_Desarrollado por: Ismael Sebastian Simon Calderon (Mayel-dev)_
+
 <p align="center">
   <img src="https://imgur.com/BRODVGr.png" alt="Commits Ismael" width="500">
 </p>
 
-*Desarrollado por: Yngrid Nahir Ruiz Villegas (nahiryn8)*
+_Desarrollado por: Yngrid Nahir Ruiz Villegas (nahiryn8)_
+
 <p align="center">
   <img src="https://imgur.com/QP1IhrA.png" alt="Commits Yngrid" width="500">
 </p>
 
-*Desarrollado por: Jose Gustavo Asto Jacome (DhudsQ)*
+_Desarrollado por: Jose Gustavo Asto Jacome (DhudsQ)_
+
 <p align="center">
   <img src="https://imgur.com/iJ5DCVK.png" alt="Commits Jose" width="500">
 </p>
 
-*Desarrollado por: Sebastián Víctor André Díaz Mendoza (DiazDeveloper)*
+_Desarrollado por: Sebastián Víctor André Díaz Mendoza (DiazDeveloper)_
+
 <p align="center">
   <img src="https://imgur.com/7WormTD.png" alt="Commits Sebastian" width="500">
 </p>
 
 **2. Colaboradores activos en el repositorio**
 
-*Esta gráfica muestra la actividad conjunta del equipo y la distribución de los aportes (adiciones y eliminaciones de código) a lo largo del Sprint.*
+_Esta gráfica muestra la actividad conjunta del equipo y la distribución de los aportes (adiciones y eliminaciones de código) a lo largo del Sprint._
+
 <p align="center">
   <img src="https://imgur.com/f8tma3B.png" alt="Active Contributors" width="500">
 </p>
 
 **3. Histograma de contribuciones en el tiempo**
 
-*Muestra la frecuencia de las confirmaciones realizadas en los días previos a la revisión del Sprint, como evidencia de la actividad de integración del equipo.*
+_Muestra la frecuencia de las confirmaciones realizadas en los días previos a la revisión del Sprint, como evidencia de la actividad de integración del equipo._
+
 <p align="center">
   <img src="https://imgur.com/B0z7ABn.png" alt="Commit Histogram" width="500">
 </p>
@@ -748,20 +768,20 @@ Para evidenciar el compromiso y la participación equitativa de todos los integr
 
 #### 5.2.2.1. Sprint Planning 2.
 
-| Sprint # | Sprint 2 |
-| :--- | :--- |
-| **Sprint Planning Background** | |
-| Date | 28/09/2026 |
-| Time | 09:00 PM |
-| Location | Llamada por Google Meet |
-| Prepared By | José Gustavo Asto Jácome |
-| Attendees (to planning meeting) | José Gustavo Asto Jácome<br>Sebastián Víctor André Díaz Mendoza<br>Jean Fabio Noriega Collado<br>Yngrid Nahir Ruiz Villegas<br>Ismael Sebastián Simón Calderón |
-| Sprint 1 Review Summary | Durante el Sprint 1 se publicó la Landing Page y se completaron historias por 11 de los 13 puntos planificados. La US46 quedó en progreso y la US36 no se abordó porque aún no estaba configurada la URL de destino de la aplicación. |
-| Sprint 1 Retrospective Summary | El equipo consideró que la implementación y el despliegue de la Landing Page funcionaron según lo esperado. Los botones destinados a dirigir a los usuarios hacia la aplicación quedaron pendientes porque la página de destino todavía no existía; su configuración se retomaría cuando estuviera disponible. |
-| **Sprint Goal & User Stories** | |
-| **Sprint 2 Goal** | **Nuestro enfoque está en** entregar una primera versión funcional de la aplicación web para que administradores y personal operativo puedan gestionar información del comercio, reportar y consultar alertas, y revisar incidentes en el mapa; además, completar la redirección desde la Landing Page y el cambio de idioma.<br>**Creemos que esto aportará** una gestión más centralizada y oportuna de la seguridad de los comercios, con un acceso claro a la aplicación.<br>**Esto se confirmará cuando** los flujos priorizados cumplan sus criterios de aceptación durante la revisión del Sprint, usando la API simulada y comprobando los dos recorridos pendientes de la Landing Page. |
-| Sprint 2 Velocity | 20 puntos estimados inicialmente al planificar el Sprint |
-| Sum of Story Points | 42 puntos de historias de usuario |
+| Sprint #                        | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| :------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Date                            | 28/09/2026                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Time                            | 09:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Location                        | Llamada por Google Meet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Prepared By                     | José Gustavo Asto Jácome                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Attendees (to planning meeting) | José Gustavo Asto Jácome<br>Sebastián Víctor André Díaz Mendoza<br>Jean Fabio Noriega Collado<br>Yngrid Nahir Ruiz Villegas<br>Ismael Sebastián Simón Calderón                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sprint 1 Review Summary         | Durante el Sprint 1 se publicó la Landing Page y se completaron historias por 11 de los 13 puntos planificados. La US46 quedó en progreso y la US36 no se abordó porque aún no estaba configurada la URL de destino de la aplicación.                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Sprint 1 Retrospective Summary  | El equipo consideró que la implementación y el despliegue de la Landing Page funcionaron según lo esperado. Los botones destinados a dirigir a los usuarios hacia la aplicación quedaron pendientes porque la página de destino todavía no existía; su configuración se retomaría cuando estuviera disponible.                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sprint 2 Goal**               | **Nuestro enfoque está en** entregar una primera versión funcional de la aplicación web para que administradores y personal operativo puedan gestionar información del comercio, reportar y consultar alertas, y revisar incidentes en el mapa; además, completar la redirección desde la Landing Page y el cambio de idioma.<br>**Creemos que esto aportará** una gestión más centralizada y oportuna de la seguridad de los comercios, con un acceso claro a la aplicación.<br>**Esto se confirmará cuando** los flujos priorizados cumplan sus criterios de aceptación durante la revisión del Sprint, usando la API simulada y comprobando los dos recorridos pendientes de la Landing Page. |
+| Sprint 2 Velocity               | 20 puntos estimados inicialmente al planificar el Sprint                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sum of Story Points             | 42 puntos de historias de usuario                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
@@ -772,12 +792,12 @@ Para el Sprint 2 se presenta la matriz **Leadership-and-Collaboration Matrix (LA
 - **Gestión de Comercios y Personal:** desarrollo de vistas para consultar y administrar empleados, invitaciones y membresías, además de consultar cupos, suscripciones y contactos de emergencia del personal operativo.
 
 | **Team Member (Last Name, First Name)** | **GitHub Username** | **Aspect: API Integration** | **Aspect: Alerts UI** | **Aspect: Commerce and Staff Management** |
-| --------------------------------------- | ------------------- | -------------------------- | --------------------- | ---------------------------------------- |
-| Asto Jácome, José Gustavo                | DhudsQ              | L                          | C                     | C                                        |
-| Díaz Mendoza, Sebastián Víctor André     | DiazDeveloper       | C                          | C                     | C                                        |
-| Noriega Collado, Jean Fabio              | dumbaskidd          | C                          | L                     | C                                        |
-| Ruiz Villegas, Yngrid Nahir              | nahiryn8            | C                          | C                     | L                                        |
-| Simón Calderón, Ismael Sebastián         | Mayel-dev           | C                          | C                     | C                                        |
+| --------------------------------------- | ------------------- | --------------------------- | --------------------- | ----------------------------------------- |
+| Asto Jácome, José Gustavo               | DhudsQ              | L                           | C                     | C                                         |
+| Díaz Mendoza, Sebastián Víctor André    | DiazDeveloper       | C                           | C                     | C                                         |
+| Noriega Collado, Jean Fabio             | dumbaskidd          | C                           | L                     | C                                         |
+| Ruiz Villegas, Yngrid Nahir             | nahiryn8            | C                           | C                     | L                                         |
+| Simón Calderón, Ismael Sebastián        | Mayel-dev           | C                           | C                     | C                                         |
 
 - **L** = Líder del aspecto
 - **C** = Colaborador en el aspecto
@@ -793,8 +813,6 @@ El Sprint 2 se enfocó en entregar una primera versión funcional de la aplicaci
 <p align="center">
   <img src="../assets/Chapter5/jira-sprint-2.png" alt="Captura del tablero de Jira del Sprint 2" width="800">
 </p>
-
-
 
 Las horas corresponden a estimaciones del desglose de trabajo. Las asignaciones propuestas siguen los aspectos y líderes definidos en la matriz LACX. Los estados de las tareas se derivan del estado de las historias registradas para el Sprint.
 
@@ -842,13 +860,13 @@ Las horas corresponden a estimaciones del desglose de trabajo. Las asignaciones 
 
 Las siguientes confirmaciones corresponden a cambios representativos implementados en el repositorio frontend durante el Sprint 2. Se incluyen ramas integradas a `develop` y commits asociados a los bounded contexts trabajados.
 
-| Repositorio | Rama | ID de confirmación | Mensaje de confirmación | Descripción del cambio | Confirmado en (fecha) |
-| :--- | :--- | :--- | :--- | :--- | :---: |
-| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/alerts` → `develop` | `f067530` | `feat(alerts): implement reporting and history views` | Se implementaron las vistas de reporte de alertas y consulta del historial para el personal operativo. | 03/10/2026 |
-| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/mapping` → `develop` | `4103cec` | `feat(mapping): filter incidents by category and show selection` | Se añadió el filtrado de incidentes por categoría y la visualización de los filtros seleccionados en el mapa de riesgos. | 03/10/2026 |
-| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/business` → `develop` | `ff05cc0` | `feat(business): manage staff and invitations with seat limits` | Se incorporó la gestión de empleados e invitaciones considerando los límites de cupos del plan. | 04/10/2026 |
-| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/payments` → `develop` | `084d292` | `feat(payments): add subscription views and UI components` | Se agregaron la vista de suscripción y los componentes para mostrar planes y el resumen de la suscripción. | 02/10/2026 |
-| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/contacts` → `develop` | `557b75b` | `feat(contacts): add emergency contact creation and editing form` | Se implementó el formulario para crear y editar contactos de emergencia. | 04/10/2026 |
+| Repositorio                                                                                     | Rama                           | ID de confirmación | Mensaje de confirmación                                           | Descripción del cambio                                                                                                   | Confirmado en (fecha) |
+| :---------------------------------------------------------------------------------------------- | :----------------------------- | :----------------- | :---------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- | :-------------------: |
+| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/alerts` → `develop`   | `f067530`          | `feat(alerts): implement reporting and history views`             | Se implementaron las vistas de reporte de alertas y consulta del historial para el personal operativo.                   |      03/10/2026       |
+| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/mapping` → `develop`  | `4103cec`          | `feat(mapping): filter incidents by category and show selection`  | Se añadió el filtrado de incidentes por categoría y la visualización de los filtros seleccionados en el mapa de riesgos. |      03/10/2026       |
+| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/business` → `develop` | `ff05cc0`          | `feat(business): manage staff and invitations with seat limits`   | Se incorporó la gestión de empleados e invitaciones considerando los límites de cupos del plan.                          |      04/10/2026       |
+| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/payments` → `develop` | `084d292`          | `feat(payments): add subscription views and UI components`        | Se agregaron la vista de suscripción y los componentes para mostrar planes y el resumen de la suscripción.               |      02/10/2026       |
+| [LosIncreiblesCorp/Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/contacts` → `develop` | `557b75b`          | `feat(contacts): add emergency contact creation and editing form` | Se implementó el formulario para crear y editar contactos de emergencia.                                                 |      04/10/2026       |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
@@ -926,8 +944,8 @@ La vista permite consultar el plan vigente, el uso de cupos y las alternativas d
 
 Durante el Sprint 2, el equipo desarrolló la aplicación web frontend de InstAlert y utilizó JSON Server como una API simulada desplegada en Render para probar las vistas con datos de muestra. No se elaboraron documentos OpenAPI ni se implementaron los Web Services definitivos con ASP.NET Core; por ello, el enlace al servidor simulado no se presenta como documentación oficial de endpoints.
 
-| **End Point** | **Funciones** |
-| ------------- | ------------- |
+| **End Point**                   | **Funciones**                                                                                                                                                                               |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | N/A (sin documentación OpenAPI) | El frontend consumió recursos REST simulados por JSON Server. URL base del mock desplegado: [https://instalert-frontend-2bmr.onrender.com/](https://instalert-frontend-2bmr.onrender.com/). |
 
 El repositorio destinado a los Servicios Web del proyecto es [InstAlert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd). No hubo commits de documentación OpenAPI asociados a este Sprint. Las capturas de la sección anterior corresponden a la interfaz frontend y no a una documentación OpenAPI.
@@ -986,13 +1004,13 @@ Durante el Sprint 2, el equipo colaboró en el repositorio frontend de InstAlert
 
 La vista de contribuidores registra actividad de los cinco integrantes en el repositorio. El resumen mostrado por GitHub presenta los siguientes conteos acumulados al momento de la captura:
 
-| Integrante | GitHub Username | Commits acumulados |
-| :--- | :--- | ---: |
-| José Gustavo Asto Jácome | DhudsQ | 87 |
-| Yngrid Nahir Ruiz Villegas | nahiryn8 | 25 |
-| Ismael Sebastián Simón Calderón | Mayel-dev | 17 |
-| Jean Fabio Noriega Collado | dumbaskidd | 14 |
-| Sebastián Víctor André Díaz Mendoza | DiazDeveloper | 1 |
+| Integrante                          | GitHub Username | Commits acumulados |
+| :---------------------------------- | :-------------- | -----------------: |
+| José Gustavo Asto Jácome            | DhudsQ          |                 87 |
+| Yngrid Nahir Ruiz Villegas          | nahiryn8        |                 25 |
+| Ismael Sebastián Simón Calderón     | Mayel-dev       |                 17 |
+| Jean Fabio Noriega Collado          | dumbaskidd      |                 14 |
+| Sebastián Víctor André Díaz Mendoza | DiazDeveloper   |                  1 |
 
 El gráfico general resume la distribución de commits entre contribuidores. El detalle individual permite observar también la actividad registrada por mes; las barras visibles en octubre muestran actividad reciente de los cinco usuarios, aunque el conteo total de cada perfil abarca más que este Sprint.
 
@@ -1028,42 +1046,38 @@ El historial de la rama `main` muestra integraciones y cambios registrados el 4 
 
 Durante el Sprint 3 se implementaron los Web Services de InstAlert y se conectaron las vistas de la aplicación con la API ASP.NET Core y su persistencia relacional. La tercera entrega conserva dos usuarios de demostración para recorrer las funciones de administración y operación; la autenticación mediante IAM y el registro real de cuentas se mantienen para la siguiente entrega.
 
-La revisión se documenta con corte al **11 de noviembre de 2026**. El backend publicado corresponde a **1.0.0** y el frontend a **2.0.0**. 
+La revisión se documenta con corte al **11 de noviembre de 2026**. El backend publicado corresponde a **1.0.0** y el frontend a **2.0.0**.
 
 #### 5.2.3.1. Sprint Planning 3.
 
 La planificación orientó el trabajo a conectar los recorridos de seguridad y gestión comercial con servicios persistentes. La reunión se realizó por Google Meet el 26 de octubre de 2026, con la participación de los cinco integrantes.
 
-| Sprint # | Sprint 3 |
-| :--- | :--- |
-| **Sprint Planning Background** | |
-| Date | 2026-10-26 |
-| Time | 07:00 PM, America/Lima |
-| Location | Reunión virtual por Google Meet |
-| Prepared By | Díaz Mendoza, Sebastián Víctor André — Team Leader |
-| Attendees (to planning meeting) | José Gustavo Asto Jácome<br>Sebastián Víctor André Díaz Mendoza<br>Jean Fabio Noriega Collado<br>Yngrid Nahir Ruiz Villegas<br>Ismael Sebastián Simón Calderón |
-| Sprint 2 Review Summary | Se entregaron vistas de comercios, personal, contactos, alertas, mapa y suscripciones mediante una API simulada. Se completaron los recorridos pendientes de redirección e idioma de la Landing Page. Esta entrega necesitaba conectar esas vistas con servicios ASP.NET Core y persistencia real. |
-| Sprint 2 Retrospective Summary | La integración requería unificar contratos HTTP, validar las reglas en el servidor y conectar las vistas con datos persistidos. Estas mejoras se priorizaron para comprobar los recorridos completos entre frontend y backend. |
-| **Sprint Goal & User Stories** | |
-| **Sprint 3 Goal** | **Nuestro enfoque está en** mejorar la gestión y el seguimiento de incidentes dentro de InstAlert, proporcionando a los administradores y al personal operativo información confiable, persistente y accesible que facilite la supervisión de emergencias y la gestión de sus actividades.<br>**Creemos que esto aportará** una mayor continuidad en la atención de situaciones de riesgo, una mejor coordinación entre los usuarios de la plataforma y una toma de decisiones más eficiente, al contar con información actualizada y consistente en las distintas funcionalidades del sistema.<br>**Esto se confirmará cuando** los administradores y el personal operativo puedan completar sus principales procesos de gestión y consulta utilizando información almacenada y recuperada mediante la API, manteniendo la consistencia de los datos entre las diferentes vistas y permitiendo supervisar incidentes e indicadores sin depender de información simulada. |
-| Sprint 3 Velocity | 71 puntos |
-| Sum of Story Points | **71 puntos** para este sprint 3 |
-
-
-
-
+| Sprint #                        | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Date                            | 2026-10-26                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Time                            | 07:00 PM, America/Lima                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Location                        | Reunión virtual por Google Meet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Prepared By                     | Díaz Mendoza, Sebastián Víctor André — Team Leader                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Attendees (to planning meeting) | José Gustavo Asto Jácome<br>Sebastián Víctor André Díaz Mendoza<br>Jean Fabio Noriega Collado<br>Yngrid Nahir Ruiz Villegas<br>Ismael Sebastián Simón Calderón                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Sprint 2 Review Summary         | Se entregaron vistas de comercios, personal, contactos, alertas, mapa y suscripciones mediante una API simulada. Se completaron los recorridos pendientes de redirección e idioma de la Landing Page. Esta entrega necesitaba conectar esas vistas con servicios ASP.NET Core y persistencia real.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint 2 Retrospective Summary  | La integración requería unificar contratos HTTP, validar las reglas en el servidor y conectar las vistas con datos persistidos. Estas mejoras se priorizaron para comprobar los recorridos completos entre frontend y backend.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Sprint 3 Goal**               | **Nuestro enfoque está en** mejorar la gestión y el seguimiento de incidentes dentro de InstAlert, proporcionando a los administradores y al personal operativo información confiable, persistente y accesible que facilite la supervisión de emergencias y la gestión de sus actividades.<br>**Creemos que esto aportará** una mayor continuidad en la atención de situaciones de riesgo, una mejor coordinación entre los usuarios de la plataforma y una toma de decisiones más eficiente, al contar con información actualizada y consistente en las distintas funcionalidades del sistema.<br>**Esto se confirmará cuando** los administradores y el personal operativo puedan completar sus principales procesos de gestión y consulta utilizando información almacenada y recuperada mediante la API, manteniendo la consistencia de los datos entre las diferentes vistas y permitiendo supervisar incidentes e indicadores sin depender de información simulada. |
+| Sprint 3 Velocity               | 71 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points             | **71 puntos** para este sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
 La matriz LACX organiza las responsabilidades por los módulos trabajados en la tercera entrega. Cada aspecto tiene un líder técnico y colaboradores para coordinar su implementación e integración.
 
-| Team Member (Last Name, First Name) | GitHub Username | Business / Profiles | Alert | Contacts / Payments | Notifications | Mapping / Dashboard |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| Asto Jácome, José Gustavo | DhudsQ | C | C | L | C | C |
-| Díaz Mendoza, Sebastián Víctor André | DiazDeveloper | C | L | C | C | C |
-| Noriega Collado, Jean Fabio | dumbaskidd | C | C | C | C | L |
-| Ruiz Villegas, Yngrid Nahir | nahiryn8 | C | C | C | L | C |
-| Simón Calderón, Ismael Sebastián | Mayel-dev | L | C | C | C | C |
+| Team Member (Last Name, First Name)  | GitHub Username | Business / Profiles | Alert | Contacts / Payments | Notifications | Mapping / Dashboard |
+| :----------------------------------- | :-------------- | :-----------------: | :---: | :-----------------: | :-----------: | :-----------------: |
+| Asto Jácome, José Gustavo            | DhudsQ          |          C          |   C   |          L          |       C       |          C          |
+| Díaz Mendoza, Sebastián Víctor André | DiazDeveloper   |          C          |   L   |          C          |       C       |          C          |
+| Noriega Collado, Jean Fabio          | dumbaskidd      |          C          |   C   |          C          |       C       |          L          |
+| Ruiz Villegas, Yngrid Nahir          | nahiryn8        |          C          |   C   |          C          |       L       |          C          |
+| Simón Calderón, Ismael Sebastián     | Mayel-dev       |          L          |   C   |          C          |       C       |          C          |
 
 **L** identifica al líder técnico del aspecto y **C** a sus colaboradores. Víctor coordina al equipo como Team Leader.
 
@@ -1075,8 +1089,6 @@ La captura del tablero muestra **33 historias en Listo** y ninguna en Por hacer,
 <p align="center">
   <img src="../assets/Chapter5/sprint-3-jira-board.png" alt="Tablero de IncreiblesCorp con 33 historias en Listo y subtareas completadas" width="800">
 </p>
-
-
 
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
@@ -1182,46 +1194,40 @@ La captura del tablero muestra **33 historias en Listo** y ninguna en Por hacer,
   </tbody>
 </table>
 
-
-
-
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
 El backend implementa contratos REST, servicios de aplicación, entidades y value objects, repositorios y mapeos EF Core por bounded context, con un AppDbContext compartido. La integración frontend reemplaza las consultas al mock en los flujos revisados por adaptadores que consumen la API, mantiene el contexto de usuario/comercio y descarta respuestas tardías de un contexto anterior.
 
 La tabla presenta commits del Sprint 3, registrados entre el 24/10/2026 y el corte del 11/11/2026. Se conservan los mensajes originales y se identifica al autor de cada commit mediante los datos de github.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Author | Committed on (Date) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/contacts-database-configuration` | [3e2d275](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/3e2d2758421727c7c5d3d2564c09a5c0ba238022) | `refactor(contacts): move database rules to Contacts` | Jose Asto (DhudsQ) | 10/11/2026 |
-| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/payments-database-configuration` | [fe99e9d](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/fe99e9d5c5fce22107a4a37e8afd05b0672c5b2c) | `refactor(payments): move database rules to Payments` | Jose Asto (DhudsQ) | 10/11/2026 |
-| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/alert-database-configuration` | [8a16d84](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/8a16d8454c73a33e4e05500a6dc86c1a0bba3cac) | `refactor(alert): move database rules to Alert` | Sebastian Diaz (DiazDeveloper) | 10/11/2026 |
-| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/business-database-configuration` | [d384b3b](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/d384b3bbef9405c0c4bd1ccc6592434ad2c25e03) | `refactor(business): move database rules to Business` | Ismael Simon (Mayel-dev) | 10/11/2026 |
-| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/profiles-database-configuration` | [59d6f15](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/59d6f15573efb59cf0d5dde09847698441d83b33) | `refactor(profiles): move database rules to Profiles` | Ismael Simon (Mayel-dev) | 10/11/2026 |
-| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/dashboard-database-configuration` | [0a5500f](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/0a5500f250973fce0980fc6d09446799cf95e474) | `refactor(dashboard): move database rules to Dashboard` | Jean Fabio Noriega Collado (dumbaskidd) | 10/11/2026 |
-| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/notifications-delivery` | [c6f4cc2](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/c6f4cc2cab53986f87627999b9e64b6990064522) | `feat(notifications): expose inbox and preferences endpoints` | Nahir Ruiz (nahiryn8) | 07/11/2026 |
-| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/deployment-preparation` | [26608bc](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/26608bc139753b475b0bc9a03ad05819b700cebb) | `fix(alert): validate incident dates and stabilize history pagination` | Sebastian Diaz (DiazDeveloper) | 08/11/2026 |
-| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/deployment-preparation` | [908da10](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/908da10736b23e0ec04adfce374d1faddab83ab1) | `fix(business): validate commerce ownership and employee associations` | Ismael Simon (Mayel-dev) | 08/11/2026 |
-| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `feature/date-range-reports` | [501378a](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/501378a5c74ffc950d414ae55e356afb75715726) | `feat(reports): expose business date-range reports` | Jean Fabio Noriega Collado (dumbaskidd) | 07/11/2026 |
-| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `release/1.0.0` | [0c66de7](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/0c66de779e0a5a25d4cea6ab55a43b4bfe26d492) | `fix(docs): use the current server in Scalar` | Jose Asto (DhudsQ) | 11/11/2026 |
-| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd) | `release/1.0.0` | [d694d23](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/d694d238ee04de2c4b519a11e91a7fb08bebc86b) | `chore(release): prepare version 1.0.0 for deployment` | Jose Asto (DhudsQ) | 11/11/2026 |
-| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/business-profiles-integration` | [fbf04dc](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/fbf04dcc2cdb104e896052e6afb86114564a8c95) | `feat(profiles): integrate personal profiles and language preferences with API` | Ismael Simon (Mayel-dev) | 08/11/2026 |
-| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/business-profiles-integration` | [5b428bc](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/5b428bc7e6bec980195a4be09f1b4e44570fd074) | `feat(business): integrate commerce and staff management with API` | Ismael Simon (Mayel-dev) | 08/11/2026 |
-| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/alert-lifecycle-integration` | [705493f](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/705493ff447d5a7d0405012de35d633072d1bc45) | `feat(alert): integrate panic and incident lifecycle with API` | Sebastian Diaz (DiazDeveloper) | 08/11/2026 |
-| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/contacts-integration` | [05d9459](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/05d9459ea98a685dc2e48b404e88ff0cbf2564ed) | `feat(contacts): integrate emergency contact management with API` | Jose Asto (DhudsQ) | 09/11/2026 |
-| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/notifications-integration` | [8cb1be6](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/8cb1be6a24b766cf9e91a9c1851daea959b92dbe) | `feat(notifications): integrate inbox and preferences with API` | Nahir Ruiz (nahiryn8) | 09/11/2026 |
-| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/mapping-integration` | [d6b850a](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/d6b850adc8fa985829149369e64f4cc265312ab1) | `feat(mapping): integrate risk map with backend queries` | Jean Fabio Noriega Collado (dumbaskidd) | 10/11/2026 |
-| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/dashboard-integration` | [decbaa2](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/decbaa2e88d123c20784462ed93c96b3d8059fca) | `feat(dashboard): integrate overview and date range reports` | Jean Fabio Noriega Collado (dumbaskidd) | 10/11/2026 |
-| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/payments-integration` | [3b3edf1](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/3b3edf1768a3c9a79bc9a7048a334a1025337dba) | `feat(payments): integrate subscriptions and verified PayPal checkout` | Jose Asto (DhudsQ) | 10/11/2026 |
-| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `release/2.0.0` | [2cc5b10](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/2cc5b10401eb39dd90484e2b971fe6618531a700) | `chore(release): prepare frontend version 2.0.0` | Jose Asto (DhudsQ) | 11/11/2026 |
-| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `release/2.0.0 → main` | [461f913](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/461f91388e5a8f6131059c9d07cd05b1469dabb1) | `Merge branch 'release/2.0.0'` | Jose Asto (DhudsQ) | 11/11/2026 |
+| Repository                                                                    | Branch                                     | Commit Id                                                                                                          | Commit Message                                                                  | Commit Author                           | Committed on (Date) |
+| :---------------------------------------------------------------------------- | :----------------------------------------- | :----------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ | :-------------------------------------- | :------------------ |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd)   | `feature/contacts-database-configuration`  | [3e2d275](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/3e2d2758421727c7c5d3d2564c09a5c0ba238022)  | `refactor(contacts): move database rules to Contacts`                           | Jose Asto (DhudsQ)                      | 10/11/2026          |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd)   | `feature/payments-database-configuration`  | [fe99e9d](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/fe99e9d5c5fce22107a4a37e8afd05b0672c5b2c)  | `refactor(payments): move database rules to Payments`                           | Jose Asto (DhudsQ)                      | 10/11/2026          |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd)   | `feature/alert-database-configuration`     | [8a16d84](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/8a16d8454c73a33e4e05500a6dc86c1a0bba3cac)  | `refactor(alert): move database rules to Alert`                                 | Sebastian Diaz (DiazDeveloper)          | 10/11/2026          |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd)   | `feature/business-database-configuration`  | [d384b3b](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/d384b3bbef9405c0c4bd1ccc6592434ad2c25e03)  | `refactor(business): move database rules to Business`                           | Ismael Simon (Mayel-dev)                | 10/11/2026          |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd)   | `feature/profiles-database-configuration`  | [59d6f15](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/59d6f15573efb59cf0d5dde09847698441d83b33)  | `refactor(profiles): move database rules to Profiles`                           | Ismael Simon (Mayel-dev)                | 10/11/2026          |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd)   | `feature/dashboard-database-configuration` | [0a5500f](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/0a5500f250973fce0980fc6d09446799cf95e474)  | `refactor(dashboard): move database rules to Dashboard`                         | Jean Fabio Noriega Collado (dumbaskidd) | 10/11/2026          |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd)   | `feature/notifications-delivery`           | [c6f4cc2](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/c6f4cc2cab53986f87627999b9e64b6990064522)  | `feat(notifications): expose inbox and preferences endpoints`                   | Nahir Ruiz (nahiryn8)                   | 07/11/2026          |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd)   | `feature/deployment-preparation`           | [26608bc](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/26608bc139753b475b0bc9a03ad05819b700cebb)  | `fix(alert): validate incident dates and stabilize history pagination`          | Sebastian Diaz (DiazDeveloper)          | 08/11/2026          |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd)   | `feature/deployment-preparation`           | [908da10](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/908da10736b23e0ec04adfce374d1faddab83ab1)  | `fix(business): validate commerce ownership and employee associations`          | Ismael Simon (Mayel-dev)                | 08/11/2026          |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd)   | `feature/date-range-reports`               | [501378a](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/501378a5c74ffc950d414ae55e356afb75715726)  | `feat(reports): expose business date-range reports`                             | Jean Fabio Noriega Collado (dumbaskidd) | 07/11/2026          |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd)   | `release/1.0.0`                            | [0c66de7](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/0c66de779e0a5a25d4cea6ab55a43b4bfe26d492)  | `fix(docs): use the current server in Scalar`                                   | Jose Asto (DhudsQ)                      | 11/11/2026          |
+| [Instalert-BackEnd](https://github.com/LosIncreiblesCorp/Instalert-BackEnd)   | `release/1.0.0`                            | [d694d23](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/d694d238ee04de2c4b519a11e91a7fb08bebc86b)  | `chore(release): prepare version 1.0.0 for deployment`                          | Jose Asto (DhudsQ)                      | 11/11/2026          |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/business-profiles-integration`    | [fbf04dc](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/fbf04dcc2cdb104e896052e6afb86114564a8c95) | `feat(profiles): integrate personal profiles and language preferences with API` | Ismael Simon (Mayel-dev)                | 08/11/2026          |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/business-profiles-integration`    | [5b428bc](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/5b428bc7e6bec980195a4be09f1b4e44570fd074) | `feat(business): integrate commerce and staff management with API`              | Ismael Simon (Mayel-dev)                | 08/11/2026          |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/alert-lifecycle-integration`      | [705493f](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/705493ff447d5a7d0405012de35d633072d1bc45) | `feat(alert): integrate panic and incident lifecycle with API`                  | Sebastian Diaz (DiazDeveloper)          | 08/11/2026          |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/contacts-integration`             | [05d9459](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/05d9459ea98a685dc2e48b404e88ff0cbf2564ed) | `feat(contacts): integrate emergency contact management with API`               | Jose Asto (DhudsQ)                      | 09/11/2026          |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/notifications-integration`        | [8cb1be6](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/8cb1be6a24b766cf9e91a9c1851daea959b92dbe) | `feat(notifications): integrate inbox and preferences with API`                 | Nahir Ruiz (nahiryn8)                   | 09/11/2026          |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/mapping-integration`              | [d6b850a](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/d6b850adc8fa985829149369e64f4cc265312ab1) | `feat(mapping): integrate risk map with backend queries`                        | Jean Fabio Noriega Collado (dumbaskidd) | 10/11/2026          |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/dashboard-integration`            | [decbaa2](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/decbaa2e88d123c20784462ed93c96b3d8059fca) | `feat(dashboard): integrate overview and date range reports`                    | Jean Fabio Noriega Collado (dumbaskidd) | 10/11/2026          |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `feature/payments-integration`             | [3b3edf1](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/3b3edf1768a3c9a79bc9a7048a334a1025337dba) | `feat(payments): integrate subscriptions and verified PayPal checkout`          | Jose Asto (DhudsQ)                      | 10/11/2026          |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `release/2.0.0`                            | [2cc5b10](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/2cc5b10401eb39dd90484e2b971fe6618531a700) | `chore(release): prepare frontend version 2.0.0`                                | Jose Asto (DhudsQ)                      | 11/11/2026          |
+| [Instalert-FrontEnd](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd) | `release/2.0.0 → main`                     | [461f913](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/461f91388e5a8f6131059c9d07cd05b1469dabb1) | `Merge branch 'release/2.0.0'`                                                  | Jose Asto (DhudsQ)                      | 11/11/2026          |
 
 Las seis correcciones ORM trasladaron los mapeos de Contacts, Payments, Business, Profiles, Alert y Dashboard a sus carpetas Infrastructure. Mapping y Notifications ya utilizaban ese patrón. Se mantuvo un único AppDbContext y se comprobó que esta reorganización no modificó el modelo ni requirió otra migración. Esta evidencia no elimina las migraciones funcionales creadas previamente para persistencia y restricciones de asociación comercial.
 
-
 #### 5.2.3.5. Execution Evidence for Sprint Review.
-
-
 
 **1. Dashboard administrativo y resumen operativo.** La captura actual del administrador muestra el comercio La Bodeguita, dos reportes registrados, tres cupos disponibles y el plan Essential con un empleado activo sobre un límite de cuatro. La suscripción corresponde a la demostración y no acredita una compra externa.
 
@@ -1236,11 +1242,13 @@ El resumen del personal operativo presenta riesgo bajo, un incidente cercano y d
 </p>
 
 Como evidencia complementaria, la siguiente captura del entorno aislado del 10/11 muestra las series completas del dashboard administrativo. Sus valores y el plan Professional pertenecen a datos sintéticos de esa comprobación, diferentes de la captura actual.
+
 <p align="center">
   <img src="../assets/Chapter5/sprint-3-dashboard-desktop.png" alt="Dashboard administrativo conectado con indicadores, capacidad y series calculadas por la API" width="800">
 </p>
 
 **2. Reportes guardados por rango de fechas.** La vista consulta una instantánea persistida y conserva su fecha de corte. El ejemplo sin actividad muestra ceros y estados vacíos, sin generar datos ficticios para llenar las gráficas. La funcionalidad permite rangos de fechas; no se documenta como un cierre mensual automático.
+
 <p align="center">
   <img src="../assets/Chapter5/sprint-3-report-desktop.png" alt="Detalle de un reporte guardado por rango de fechas con indicadores sin actividad" width="800">
 </p>
@@ -1293,8 +1301,6 @@ Como evidencia complementaria, la siguiente captura del entorno aislado del 10/1
 
 ![Vista parcial de las operaciones de Payments en Scalar](../assets/Chapter5/sprint-3-scalar-payments.png)
 
-
-
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
 La API publica su contrato OpenAPI y lo presenta mediante Scalar:
@@ -1314,109 +1320,108 @@ Los ejemplos de respuesta son **fragmentos ilustrativos** con datos de prueba; e
 
 **Profiles — 4 operaciones del alcance aceptado.**
 
-| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
-| :--- | :--- | :--- | :--- |
-| TS-01 | GET `/api/v1/profiles/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/profiles/GET/api/v1/profiles/%7BuserId%7D` | Ruta/consulta: `userId`. | 200: `{"userId":"synthetic-employee","firstName":"Ana","lastName":"Pérez","dni":"01234567"}` |
-| TS-01 | PUT `/api/v1/profiles/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/profiles/PUT/api/v1/profiles/%7BuserId%7D` | Ruta/consulta: `userId`.<br>JSON: `{"firstName":"Ana","lastName":"Pérez","dni":"01234567","phone":"+51900000000"}` | 200: `{"userId":"synthetic-employee","firstName":"Ana","lastName":"Pérez","dni":"01234567"}` |
-| TS-02 | GET `/api/v1/profiles/{userId}/preferences` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/profiles/GET/api/v1/profiles/%7BuserId%7D/preferences` | Ruta/consulta: `userId`. | 200: `{"userId":"synthetic-employee","locale":"en_US","updatedAt":"2026-11-11T15:00:00Z","version":"11111111-1111-4111-8111-111111111111"}` |
-| TS-02 | PUT `/api/v1/profiles/{userId}/preferences` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/profiles/PUT/api/v1/profiles/%7BuserId%7D/preferences` | Ruta/consulta: `userId`.<br>JSON: `{"locale":"en_US"}` | 200: `{"userId":"synthetic-employee","locale":"en_US","updatedAt":"2026-11-11T15:00:00Z","version":"11111111-1111-4111-8111-111111111111"}` |
+| TS    | Acción y sintaxis HTTP                                                                                                                                        | Parámetros / JSON de entrada                                                                                       | Respuesta de éxito y ejemplo                                                                                                                |
+| :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+| TS-01 | GET `/api/v1/profiles/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/profiles/GET/api/v1/profiles/%7BuserId%7D`                         | Ruta/consulta: `userId`.                                                                                           | 200: `{"userId":"synthetic-employee","firstName":"Ana","lastName":"Pérez","dni":"01234567"}`                                                |
+| TS-01 | PUT `/api/v1/profiles/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/profiles/PUT/api/v1/profiles/%7BuserId%7D`                         | Ruta/consulta: `userId`.<br>JSON: `{"firstName":"Ana","lastName":"Pérez","dni":"01234567","phone":"+51900000000"}` | 200: `{"userId":"synthetic-employee","firstName":"Ana","lastName":"Pérez","dni":"01234567"}`                                                |
+| TS-02 | GET `/api/v1/profiles/{userId}/preferences` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/profiles/GET/api/v1/profiles/%7BuserId%7D/preferences` | Ruta/consulta: `userId`.                                                                                           | 200: `{"userId":"synthetic-employee","locale":"en_US","updatedAt":"2026-11-11T15:00:00Z","version":"11111111-1111-4111-8111-111111111111"}` |
+| TS-02 | PUT `/api/v1/profiles/{userId}/preferences` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/profiles/PUT/api/v1/profiles/%7BuserId%7D/preferences` | Ruta/consulta: `userId`.<br>JSON: `{"locale":"en_US"}`                                                             | 200: `{"userId":"synthetic-employee","locale":"en_US","updatedAt":"2026-11-11T15:00:00Z","version":"11111111-1111-4111-8111-111111111111"}` |
 
 **Business — 15 operaciones del alcance aceptado.**
 
-| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
-| :--- | :--- | :--- | :--- |
-| TS-03 | GET `/api/v1/businesses` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses` | Sin parámetros de ruta o consulta. | 200: `[{"id":"registro-ejemplo","ownerUserId":"synthetic-admin","taxId":"20123456789","name":"Comercio de prueba"}]` |
-| TS-03 | POST `/api/v1/businesses` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/businesses` | Sin parámetros de ruta o consulta.<br>JSON: `{"taxId":"20123456789","name":"Comercio de prueba","address":"Dirección de prueba","latitude":-12.0464,"longitude":-77.0428}` | 201: `{"id":"registro-ejemplo","ownerUserId":"synthetic-admin","taxId":"20123456789","name":"Comercio de prueba"}` |
-| TS-03 | GET `/api/v1/businesses/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses/%7Bid%7D` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","ownerUserId":"synthetic-admin","taxId":"20123456789","name":"Comercio de prueba"}` |
-| TS-03 | PUT `/api/v1/businesses/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/PUT/api/v1/businesses/%7Bid%7D` | Ruta/consulta: `id`.<br>JSON: `{"name":"Comercio de prueba","address":"Dirección de prueba","latitude":-12.0464,"longitude":-77.0428,"taxId":"20123456789"}` | 200: `{"id":"registro-ejemplo","ownerUserId":"synthetic-admin","taxId":"20123456789","name":"Comercio de prueba"}` |
-| TS-09 | GET `/api/v1/businesses/{id}/seats` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses/%7Bid%7D/seats` | Ruta/consulta: `id`. | 200: `{"limit":4,"activeEmployees":1,"reservedSeats":0,"availableSeats":3}` |
-| TS-04 | GET `/api/v1/businesses/{id}/members` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses/%7Bid%7D/members` | Ruta/consulta: `id`. | 200: `[{"id":"registro-ejemplo","businessId":"1","userId":"synthetic-employee","displayName":"Persona de prueba"}]` |
-| TS-06 | GET `/api/v1/businesses/{id}/invitations` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses/%7Bid%7D/invitations` | Ruta/consulta: `id`. | 200: `[{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}]` |
-| TS-06 | POST `/api/v1/businesses/{id}/invitations` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/businesses/%7Bid%7D/invitations` | Ruta/consulta: `id`.<br>JSON: `{"displayName":"Persona de prueba","email":"persona@example.test"}` | 201: `{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}` |
-| TS-04 | GET `/api/v1/business-members/me` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/business-members/me` | Sin parámetros de ruta o consulta. | 200: `[{"businessId":"1","status":"active"}]` |
-| TS-05 | PUT `/api/v1/business-members/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/PUT/api/v1/business-members/%7Bid%7D` | Ruta/consulta: `id`.<br>JSON: `{"displayName":"Persona de prueba","email":"persona@example.test"}` | 200: `{"id":"registro-ejemplo","businessId":"1","userId":"synthetic-employee","displayName":"Persona de prueba"}` |
-| TS-05 | POST `/api/v1/business-members/{id}/activation` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/business-members/%7Bid%7D/activation` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","businessId":"1","userId":"synthetic-employee","displayName":"Persona de prueba","status":"active"}` |
-| TS-05 | POST `/api/v1/business-members/{id}/deactivation` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/business-members/%7Bid%7D/deactivation` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","businessId":"1","userId":"synthetic-employee","displayName":"Persona de prueba","status":"inactive"}` |
-| TS-07 | PUT `/api/v1/staff-invitations/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/PUT/api/v1/staff-invitations/%7Bid%7D` | Ruta/consulta: `id`.<br>JSON: `{"displayName":"Persona de prueba","email":"persona@example.test"}` | 200: `{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}` |
-| TS-07 | POST `/api/v1/staff-invitations/{id}/cancellation` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/staff-invitations/%7Bid%7D/cancellation` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}` |
-| TS-07 | POST `/api/v1/staff-invitations/{id}/resend` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/staff-invitations/%7Bid%7D/resend` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}` |
+| TS    | Acción y sintaxis HTTP                                                                                                                                                      | Parámetros / JSON de entrada                                                                                                                                               | Respuesta de éxito y ejemplo                                                                                                            |
+| :---- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| TS-03 | GET `/api/v1/businesses` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses`                                                         | Sin parámetros de ruta o consulta.                                                                                                                                         | 200: `[{"id":"registro-ejemplo","ownerUserId":"synthetic-admin","taxId":"20123456789","name":"Comercio de prueba"}]`                    |
+| TS-03 | POST `/api/v1/businesses` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/businesses`                                                       | Sin parámetros de ruta o consulta.<br>JSON: `{"taxId":"20123456789","name":"Comercio de prueba","address":"Dirección de prueba","latitude":-12.0464,"longitude":-77.0428}` | 201: `{"id":"registro-ejemplo","ownerUserId":"synthetic-admin","taxId":"20123456789","name":"Comercio de prueba"}`                      |
+| TS-03 | GET `/api/v1/businesses/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses/%7Bid%7D`                                           | Ruta/consulta: `id`.                                                                                                                                                       | 200: `{"id":"registro-ejemplo","ownerUserId":"synthetic-admin","taxId":"20123456789","name":"Comercio de prueba"}`                      |
+| TS-03 | PUT `/api/v1/businesses/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/PUT/api/v1/businesses/%7Bid%7D`                                           | Ruta/consulta: `id`.<br>JSON: `{"name":"Comercio de prueba","address":"Dirección de prueba","latitude":-12.0464,"longitude":-77.0428,"taxId":"20123456789"}`               | 200: `{"id":"registro-ejemplo","ownerUserId":"synthetic-admin","taxId":"20123456789","name":"Comercio de prueba"}`                      |
+| TS-09 | GET `/api/v1/businesses/{id}/seats` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses/%7Bid%7D/seats`                               | Ruta/consulta: `id`.                                                                                                                                                       | 200: `{"limit":4,"activeEmployees":1,"reservedSeats":0,"availableSeats":3}`                                                             |
+| TS-04 | GET `/api/v1/businesses/{id}/members` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses/%7Bid%7D/members`                           | Ruta/consulta: `id`.                                                                                                                                                       | 200: `[{"id":"registro-ejemplo","businessId":"1","userId":"synthetic-employee","displayName":"Persona de prueba"}]`                     |
+| TS-06 | GET `/api/v1/businesses/{id}/invitations` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/businesses/%7Bid%7D/invitations`                   | Ruta/consulta: `id`.                                                                                                                                                       | 200: `[{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}]` |
+| TS-06 | POST `/api/v1/businesses/{id}/invitations` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/businesses/%7Bid%7D/invitations`                 | Ruta/consulta: `id`.<br>JSON: `{"displayName":"Persona de prueba","email":"persona@example.test"}`                                                                         | 201: `{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}`   |
+| TS-04 | GET `/api/v1/business-members/me` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/GET/api/v1/business-members/me`                                       | Sin parámetros de ruta o consulta.                                                                                                                                         | 200: `[{"businessId":"1","status":"active"}]`                                                                                           |
+| TS-05 | PUT `/api/v1/business-members/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/PUT/api/v1/business-members/%7Bid%7D`                               | Ruta/consulta: `id`.<br>JSON: `{"displayName":"Persona de prueba","email":"persona@example.test"}`                                                                         | 200: `{"id":"registro-ejemplo","businessId":"1","userId":"synthetic-employee","displayName":"Persona de prueba"}`                       |
+| TS-05 | POST `/api/v1/business-members/{id}/activation` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/business-members/%7Bid%7D/activation`       | Ruta/consulta: `id`.                                                                                                                                                       | 200: `{"id":"registro-ejemplo","businessId":"1","userId":"synthetic-employee","displayName":"Persona de prueba","status":"active"}`     |
+| TS-05 | POST `/api/v1/business-members/{id}/deactivation` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/business-members/%7Bid%7D/deactivation`   | Ruta/consulta: `id`.                                                                                                                                                       | 200: `{"id":"registro-ejemplo","businessId":"1","userId":"synthetic-employee","displayName":"Persona de prueba","status":"inactive"}`   |
+| TS-07 | PUT `/api/v1/staff-invitations/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/PUT/api/v1/staff-invitations/%7Bid%7D`                             | Ruta/consulta: `id`.<br>JSON: `{"displayName":"Persona de prueba","email":"persona@example.test"}`                                                                         | 200: `{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}`   |
+| TS-07 | POST `/api/v1/staff-invitations/{id}/cancellation` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/staff-invitations/%7Bid%7D/cancellation` | Ruta/consulta: `id`.                                                                                                                                                       | 200: `{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}`   |
+| TS-07 | POST `/api/v1/staff-invitations/{id}/resend` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/business/POST/api/v1/staff-invitations/%7Bid%7D/resend`             | Ruta/consulta: `id`.                                                                                                                                                       | 200: `{"id":"registro-ejemplo","businessId":"1","displayName":"Persona de prueba","email":"persona@example.test","status":"pending"}`   |
 
 **Alert — 11 operaciones del alcance aceptado.**
 
-| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
-| :--- | :--- | :--- | :--- |
-| TS-13 | GET `/api/v1/alerts` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/GET/api/v1/alerts` | Ruta/consulta: `businessId`, `status`, `page`, `pageSize`. | 200: `[{"id":"registro-ejemplo","businessId":"1","employeeId":"synthetic-employee","kind":"suspicious-activity"}]` |
-| TS-13 | GET `/api/v1/alerts/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/GET/api/v1/alerts/%7Bid%7D` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","businessId":"1","employeeId":"synthetic-employee","kind":"suspicious-activity"}` |
-| TS-11 | POST `/api/v1/alerts/panic-preparations` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/panic-preparations` | Sin parámetros de ruta o consulta.<br>JSON: `{"businessId":"1","location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428}` | 200: `{"preparationToken":"TOKEN_DEVUELTO_POR_LA_PREPARACION","notBefore":"2026-11-11T15:00:05Z","expiresAt":"2026-11-11T15:02:05Z","gracePeriodSeconds":5}` |
-| TS-11 | POST `/api/v1/alerts/panic` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/panic` | Sin parámetros de ruta o consulta.<br>JSON: `{"preparationToken":"TOKEN_DEVUELTO_POR_LA_PREPARACION","location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428}` | 200: `{"id":"alerta-ejemplo","kind":"panic","status":"active"}` |
-| TS-12 | POST `/api/v1/alerts/reports` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/reports` | Sin parámetros de ruta o consulta.<br>JSON: `{"businessId":"1","kind":"suspicious-activity","category":"person","description":"Descripción sintética del reporte","location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428,"moment":"2026-11-10T15:00:00Z"}` | 201: `{"id":"reporte-ejemplo","kind":"suspicious-activity","status":"submitted"}` |
-| TS-14 | PUT `/api/v1/alerts/{id}/location` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/PUT/api/v1/alerts/%7Bid%7D/location` | Ruta/consulta: `id`.<br>JSON: `{"location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428}` | 200: `{"id":"registro-ejemplo","businessId":"1","employeeId":"synthetic-employee","kind":"suspicious-activity"}` |
-| TS-15 | POST `/api/v1/alerts/{id}/resolution` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/%7Bid%7D/resolution` | Ruta/consulta: `id`. | 200: `{"id":"alerta-ejemplo","status":"resolved","reportStatus":"pending"}` |
-| TS-15 | PUT `/api/v1/alerts/{id}/report-draft` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/PUT/api/v1/alerts/%7Bid%7D/report-draft` | Ruta/consulta: `id`.<br>JSON: `{"category":"other","description":"Descripción sintética del reporte","location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428,"moment":"2026-11-10T15:00:00Z"}` | 200: `{"id":"alerta-ejemplo","status":"resolved","reportStatus":"pending"}` |
-| TS-15 | POST `/api/v1/alerts/{id}/report-completion` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/%7Bid%7D/report-completion` | Ruta/consulta: `id`. | 200: `{"id":"alerta-ejemplo","status":"resolved","reportStatus":"completed"}` |
-| TS-10 | GET `/api/v1/alert-preferences/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/GET/api/v1/alert-preferences/%7BuserId%7D` | Ruta/consulta: `userId`. | 200: `{"userId":"synthetic-employee","employeeId":"synthetic-employee","panicGracePeriodSeconds":5}` |
-| TS-10 | PUT `/api/v1/alert-preferences/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/PUT/api/v1/alert-preferences/%7BuserId%7D` | Ruta/consulta: `userId`.<br>JSON: `{"panicGracePeriodSeconds":5}` | 200: `{"userId":"synthetic-employee","employeeId":"synthetic-employee","panicGracePeriodSeconds":5}` |
+| TS    | Acción y sintaxis HTTP                                                                                                                                       | Parámetros / JSON de entrada                                                                                                                                                                                                                                                  | Respuesta de éxito y ejemplo                                                                                                                                 |
+| :---- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| TS-13 | GET `/api/v1/alerts` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/GET/api/v1/alerts`                                                     | Ruta/consulta: `businessId`, `status`, `page`, `pageSize`.                                                                                                                                                                                                                    | 200: `[{"id":"registro-ejemplo","businessId":"1","employeeId":"synthetic-employee","kind":"suspicious-activity"}]`                                           |
+| TS-13 | GET `/api/v1/alerts/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/GET/api/v1/alerts/%7Bid%7D`                                       | Ruta/consulta: `id`.                                                                                                                                                                                                                                                          | 200: `{"id":"registro-ejemplo","businessId":"1","employeeId":"synthetic-employee","kind":"suspicious-activity"}`                                             |
+| TS-11 | POST `/api/v1/alerts/panic-preparations` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/panic-preparations`             | Sin parámetros de ruta o consulta.<br>JSON: `{"businessId":"1","location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428}`                                                                                                                                    | 200: `{"preparationToken":"TOKEN_DEVUELTO_POR_LA_PREPARACION","notBefore":"2026-11-11T15:00:05Z","expiresAt":"2026-11-11T15:02:05Z","gracePeriodSeconds":5}` |
+| TS-11 | POST `/api/v1/alerts/panic` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/panic`                                       | Sin parámetros de ruta o consulta.<br>JSON: `{"preparationToken":"TOKEN_DEVUELTO_POR_LA_PREPARACION","location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428}`                                                                                              | 200: `{"id":"alerta-ejemplo","kind":"panic","status":"active"}`                                                                                              |
+| TS-12 | POST `/api/v1/alerts/reports` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/reports`                                   | Sin parámetros de ruta o consulta.<br>JSON: `{"businessId":"1","kind":"suspicious-activity","category":"person","description":"Descripción sintética del reporte","location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428,"moment":"2026-11-10T15:00:00Z"}` | 201: `{"id":"reporte-ejemplo","kind":"suspicious-activity","status":"submitted"}`                                                                            |
+| TS-14 | PUT `/api/v1/alerts/{id}/location` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/PUT/api/v1/alerts/%7Bid%7D/location`                     | Ruta/consulta: `id`.<br>JSON: `{"location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428}`                                                                                                                                                                   | 200: `{"id":"registro-ejemplo","businessId":"1","employeeId":"synthetic-employee","kind":"suspicious-activity"}`                                             |
+| TS-15 | POST `/api/v1/alerts/{id}/resolution` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/%7Bid%7D/resolution`               | Ruta/consulta: `id`.                                                                                                                                                                                                                                                          | 200: `{"id":"alerta-ejemplo","status":"resolved","reportStatus":"pending"}`                                                                                  |
+| TS-15 | PUT `/api/v1/alerts/{id}/report-draft` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/PUT/api/v1/alerts/%7Bid%7D/report-draft`             | Ruta/consulta: `id`.<br>JSON: `{"category":"other","description":"Descripción sintética del reporte","location":"Ubicación de prueba","latitude":-12.0464,"longitude":-77.0428,"moment":"2026-11-10T15:00:00Z"}`                                                              | 200: `{"id":"alerta-ejemplo","status":"resolved","reportStatus":"pending"}`                                                                                  |
+| TS-15 | POST `/api/v1/alerts/{id}/report-completion` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/POST/api/v1/alerts/%7Bid%7D/report-completion` | Ruta/consulta: `id`.                                                                                                                                                                                                                                                          | 200: `{"id":"alerta-ejemplo","status":"resolved","reportStatus":"completed"}`                                                                                |
+| TS-10 | GET `/api/v1/alert-preferences/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/GET/api/v1/alert-preferences/%7BuserId%7D`         | Ruta/consulta: `userId`.                                                                                                                                                                                                                                                      | 200: `{"userId":"synthetic-employee","employeeId":"synthetic-employee","panicGracePeriodSeconds":5}`                                                         |
+| TS-10 | PUT `/api/v1/alert-preferences/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/alert/PUT/api/v1/alert-preferences/%7BuserId%7D`         | Ruta/consulta: `userId`.<br>JSON: `{"panicGracePeriodSeconds":5}`                                                                                                                                                                                                             | 200: `{"userId":"synthetic-employee","employeeId":"synthetic-employee","panicGracePeriodSeconds":5}`                                                         |
 
 **Contacts — 5 operaciones del alcance aceptado.**
 
-| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
-| :--- | :--- | :--- | :--- |
-| TS-16 | GET `/api/v1/emergency-contacts` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/GET/api/v1/emergency-contacts` | Sin parámetros de ruta o consulta. | 200: `[{"id":"registro-ejemplo","employeeId":"synthetic-employee","fullName":"Contacto de prueba","relationship":"Familiar"}]` |
-| TS-17 | POST `/api/v1/emergency-contacts` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/POST/api/v1/emergency-contacts` | Sin parámetros de ruta o consulta.<br>JSON: `{"fullName":"Contacto de prueba","relationship":"Familiar","phone":"+51900000000","email":"persona@example.test","notes":"Contacto sintético"}` | 201: `{"id":"registro-ejemplo","employeeId":"synthetic-employee","fullName":"Contacto de prueba","relationship":"Familiar"}` |
-| TS-16 | GET `/api/v1/emergency-contacts/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/GET/api/v1/emergency-contacts/%7Bid%7D` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","employeeId":"synthetic-employee","fullName":"Contacto de prueba","relationship":"Familiar"}` |
-| TS-17 | PUT `/api/v1/emergency-contacts/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/PUT/api/v1/emergency-contacts/%7Bid%7D` | Ruta/consulta: `id`.<br>JSON: `{"fullName":"Contacto de prueba","relationship":"Familiar","phone":"+51900000000","email":"persona@example.test","notes":"Contacto sintético"}` | 200: `{"id":"registro-ejemplo","employeeId":"synthetic-employee","fullName":"Contacto de prueba","relationship":"Familiar"}` |
-| TS-17 | DELETE `/api/v1/emergency-contacts/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/DELETE/api/v1/emergency-contacts/%7Bid%7D` | Ruta/consulta: `id`. | 204: Sin cuerpo. |
+| TS    | Acción y sintaxis HTTP                                                                                                                                  | Parámetros / JSON de entrada                                                                                                                                                                 | Respuesta de éxito y ejemplo                                                                                                   |
+| :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+| TS-16 | GET `/api/v1/emergency-contacts` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/GET/api/v1/emergency-contacts`                     | Sin parámetros de ruta o consulta.                                                                                                                                                           | 200: `[{"id":"registro-ejemplo","employeeId":"synthetic-employee","fullName":"Contacto de prueba","relationship":"Familiar"}]` |
+| TS-17 | POST `/api/v1/emergency-contacts` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/POST/api/v1/emergency-contacts`                   | Sin parámetros de ruta o consulta.<br>JSON: `{"fullName":"Contacto de prueba","relationship":"Familiar","phone":"+51900000000","email":"persona@example.test","notes":"Contacto sintético"}` | 201: `{"id":"registro-ejemplo","employeeId":"synthetic-employee","fullName":"Contacto de prueba","relationship":"Familiar"}`   |
+| TS-16 | GET `/api/v1/emergency-contacts/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/GET/api/v1/emergency-contacts/%7Bid%7D`       | Ruta/consulta: `id`.                                                                                                                                                                         | 200: `{"id":"registro-ejemplo","employeeId":"synthetic-employee","fullName":"Contacto de prueba","relationship":"Familiar"}`   |
+| TS-17 | PUT `/api/v1/emergency-contacts/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/PUT/api/v1/emergency-contacts/%7Bid%7D`       | Ruta/consulta: `id`.<br>JSON: `{"fullName":"Contacto de prueba","relationship":"Familiar","phone":"+51900000000","email":"persona@example.test","notes":"Contacto sintético"}`               | 200: `{"id":"registro-ejemplo","employeeId":"synthetic-employee","fullName":"Contacto de prueba","relationship":"Familiar"}`   |
+| TS-17 | DELETE `/api/v1/emergency-contacts/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/contacts/DELETE/api/v1/emergency-contacts/%7Bid%7D` | Ruta/consulta: `id`.                                                                                                                                                                         | 204: Sin cuerpo.                                                                                                               |
 
 **Notifications — 5 operaciones del alcance aceptado.**
 
-| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
-| :--- | :--- | :--- | :--- |
-| TS-18 | GET `/api/v1/notifications` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/GET/api/v1/notifications` | Ruta/consulta: `businessId`, `page`, `pageSize`. | 200: `[{"id":"registro-ejemplo","recipientUserId":"synthetic-employee","targetBusinessId":"1","type":"nearby-panic"}]` |
-| TS-18 | GET `/api/v1/notifications/deliveries` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/GET/api/v1/notifications/deliveries` | Sin parámetros de ruta o consulta. | 200: `[{"id":"registro-ejemplo","sourceAlertId":"valor-ejemplo","sourceInvitationId":"valor-ejemplo","channel":"email"}]` |
-| TS-18 | POST `/api/v1/notifications/{id}/reading` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/POST/api/v1/notifications/%7Bid%7D/reading` | Ruta/consulta: `id`. | 200: `{"id":"registro-ejemplo","recipientUserId":"synthetic-employee","targetBusinessId":"1","type":"nearby-panic"}` |
-| TS-19 | GET `/api/v1/notification-preferences/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/GET/api/v1/notification-preferences/%7BuserId%7D` | Ruta/consulta: `userId`, `businessId`. | 200: `{"userId":"synthetic-employee","businessId":"1","nearbyAlertsEnabled":true,"nearbyRadiusMeters":500}` |
-| TS-19 | PUT `/api/v1/notification-preferences/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/PUT/api/v1/notification-preferences/%7BuserId%7D` | Ruta/consulta: `userId`, `businessId`.<br>JSON: `{"nearbyAlertsEnabled":true,"nearbyRadiusMeters":500}` | 200: `{"userId":"synthetic-employee","businessId":"1","nearbyAlertsEnabled":true,"nearbyRadiusMeters":500}` |
+| TS    | Acción y sintaxis HTTP                                                                                                                                                     | Parámetros / JSON de entrada                                                                            | Respuesta de éxito y ejemplo                                                                                              |
+| :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------ |
+| TS-18 | GET `/api/v1/notifications` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/GET/api/v1/notifications`                                             | Ruta/consulta: `businessId`, `page`, `pageSize`.                                                        | 200: `[{"id":"registro-ejemplo","recipientUserId":"synthetic-employee","targetBusinessId":"1","type":"nearby-panic"}]`    |
+| TS-18 | GET `/api/v1/notifications/deliveries` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/GET/api/v1/notifications/deliveries`                       | Sin parámetros de ruta o consulta.                                                                      | 200: `[{"id":"registro-ejemplo","sourceAlertId":"valor-ejemplo","sourceInvitationId":"valor-ejemplo","channel":"email"}]` |
+| TS-18 | POST `/api/v1/notifications/{id}/reading` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/POST/api/v1/notifications/%7Bid%7D/reading`             | Ruta/consulta: `id`.                                                                                    | 200: `{"id":"registro-ejemplo","recipientUserId":"synthetic-employee","targetBusinessId":"1","type":"nearby-panic"}`      |
+| TS-19 | GET `/api/v1/notification-preferences/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/GET/api/v1/notification-preferences/%7BuserId%7D` | Ruta/consulta: `userId`, `businessId`.                                                                  | 200: `{"userId":"synthetic-employee","businessId":"1","nearbyAlertsEnabled":true,"nearbyRadiusMeters":500}`               |
+| TS-19 | PUT `/api/v1/notification-preferences/{userId}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/notifications/PUT/api/v1/notification-preferences/%7BuserId%7D` | Ruta/consulta: `userId`, `businessId`.<br>JSON: `{"nearbyAlertsEnabled":true,"nearbyRadiusMeters":500}` | 200: `{"userId":"synthetic-employee","businessId":"1","nearbyAlertsEnabled":true,"nearbyRadiusMeters":500}`               |
 
 **Payments — 3 operaciones del alcance aceptado.**
 
-| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
-| :--- | :--- | :--- | :--- |
-| TS-20 | GET `/api/v1/plans` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/payments/GET/api/v1/plans` | Sin parámetros de ruta o consulta. | 200: `[{"id":"essential","currency":"USD","maxEmployees":4}]` |
-| TS-20 | GET `/api/v1/businesses/{businessId}/subscription` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/payments/GET/api/v1/businesses/%7BbusinessId%7D/subscription` | Ruta/consulta: `businessId`. | 200: `{"planId":"essential","status":"active","isSimulated":true}`<br>204: Sin cuerpo. |
-| TS-20 | GET `/api/v1/businesses/{businessId}/billing-history` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/payments/GET/api/v1/businesses/%7BbusinessId%7D/billing-history` | Ruta/consulta: `businessId`. | 200: `[]` si no hay transacciones confirmadas. |
+| TS    | Acción y sintaxis HTTP                                                                                                                                                            | Parámetros / JSON de entrada       | Respuesta de éxito y ejemplo                                                           |
+| :---- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------- | :------------------------------------------------------------------------------------- |
+| TS-20 | GET `/api/v1/plans` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/payments/GET/api/v1/plans`                                                                         | Sin parámetros de ruta o consulta. | 200: `[{"id":"essential","currency":"USD","maxEmployees":4}]`                          |
+| TS-20 | GET `/api/v1/businesses/{businessId}/subscription` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/payments/GET/api/v1/businesses/%7BbusinessId%7D/subscription`       | Ruta/consulta: `businessId`.       | 200: `{"planId":"essential","status":"active","isSimulated":true}`<br>204: Sin cuerpo. |
+| TS-20 | GET `/api/v1/businesses/{businessId}/billing-history` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/payments/GET/api/v1/businesses/%7BbusinessId%7D/billing-history` | Ruta/consulta: `businessId`.       | 200: `[]` si no hay transacciones confirmadas.                                         |
 
 **Mapping — 6 operaciones del alcance aceptado.**
 
-| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
-| :--- | :--- | :--- | :--- |
-| TS-25 | GET `/api/v1/mapping/active-alerts` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/active-alerts` | Ruta/consulta: `businessId`, `radiusMeters`. | 200: `[{"id":"registro-ejemplo","businessId":"1","title":"Incidente de prueba","description":"Descripción sintética del reporte"}]` |
-| TS-25 | GET `/api/v1/mapping/incidents` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/incidents` | Ruta/consulta: `businessId`, `radiusMeters`, `category`, `since`. | 200: `[{"id":"registro-ejemplo","businessId":"1","title":"Incidente de prueba","description":"Descripción sintética del reporte"}]` |
-| TS-25 | GET `/api/v1/mapping/incidents/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/incidents/%7Bid%7D` | Ruta/consulta: `businessId`, `id`, `radiusMeters`. | 200: `{"id":"registro-ejemplo","businessId":"1","title":"Incidente de prueba","description":"Descripción sintética del reporte"}` |
-| TS-26 | GET `/api/v1/mapping/businesses` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/businesses` | Ruta/consulta: `businessId`, `radiusMeters`. | 200: `[{"id":"registro-ejemplo","name":"Comercio de prueba","address":"Dirección de prueba","latitude":-12.0464}]` |
-| TS-27 | GET `/api/v1/mapping/risk-zones` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/risk-zones` | Ruta/consulta: `businessId`, `radiusMeters`, `category`, `since`. | 200: `[{"id":"registro-ejemplo","name":"Comercio de prueba","riskLevel":"low","incidentCount":2}]` |
-| TS-27 | GET `/api/v1/mapping/risk-zones/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/risk-zones/%7Bid%7D` | Ruta/consulta: `businessId`, `id`, `radiusMeters`, `category`, `since`. | 200: `{"id":"registro-ejemplo","name":"Comercio de prueba","riskLevel":"low","incidentCount":2}` |
+| TS    | Acción y sintaxis HTTP                                                                                                                           | Parámetros / JSON de entrada                                            | Respuesta de éxito y ejemplo                                                                                                        |
+| :---- | :----------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| TS-25 | GET `/api/v1/mapping/active-alerts` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/active-alerts`         | Ruta/consulta: `businessId`, `radiusMeters`.                            | 200: `[{"id":"registro-ejemplo","businessId":"1","title":"Incidente de prueba","description":"Descripción sintética del reporte"}]` |
+| TS-25 | GET `/api/v1/mapping/incidents` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/incidents`                 | Ruta/consulta: `businessId`, `radiusMeters`, `category`, `since`.       | 200: `[{"id":"registro-ejemplo","businessId":"1","title":"Incidente de prueba","description":"Descripción sintética del reporte"}]` |
+| TS-25 | GET `/api/v1/mapping/incidents/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/incidents/%7Bid%7D`   | Ruta/consulta: `businessId`, `id`, `radiusMeters`.                      | 200: `{"id":"registro-ejemplo","businessId":"1","title":"Incidente de prueba","description":"Descripción sintética del reporte"}`   |
+| TS-26 | GET `/api/v1/mapping/businesses` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/businesses`               | Ruta/consulta: `businessId`, `radiusMeters`.                            | 200: `[{"id":"registro-ejemplo","name":"Comercio de prueba","address":"Dirección de prueba","latitude":-12.0464}]`                  |
+| TS-27 | GET `/api/v1/mapping/risk-zones` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/risk-zones`               | Ruta/consulta: `businessId`, `radiusMeters`, `category`, `since`.       | 200: `[{"id":"registro-ejemplo","name":"Comercio de prueba","riskLevel":"low","incidentCount":2}]`                                  |
+| TS-27 | GET `/api/v1/mapping/risk-zones/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/mapping/GET/api/v1/mapping/risk-zones/%7Bid%7D` | Ruta/consulta: `businessId`, `id`, `radiusMeters`, `category`, `since`. | 200: `{"id":"registro-ejemplo","name":"Comercio de prueba","riskLevel":"low","incidentCount":2}`                                    |
 
 **Dashboard — 4 operaciones del alcance aceptado.**
 
-| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
-| :--- | :--- | :--- | :--- |
-| TS-28 | GET `/api/v1/businesses/{businessId}/dashboard` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/dashboard/GET/api/v1/businesses/%7BbusinessId%7D/dashboard` | Ruta/consulta: `businessId`, `radiusMeters`. | 200: `{"role":"administrator","businessId":"1","userId":"synthetic-employee","businessName":"valor-ejemplo"}` |
-| TS-29 | GET `/api/v1/businesses/{businessId}/reports` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/dashboard/GET/api/v1/businesses/%7BbusinessId%7D/reports` | Ruta/consulta: `businessId`. | 200: `[{"id":"registro-ejemplo","businessId":"1","startDate":"2026-11-01","endDate":"2026-11-10"}]` |
-| TS-29 | POST `/api/v1/businesses/{businessId}/reports` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/dashboard/POST/api/v1/businesses/%7BbusinessId%7D/reports` | Ruta/consulta: `businessId`.<br>JSON: `{"startDate":"2026-11-01","endDate":"2026-11-10"}` | 201: `{"id":"registro-ejemplo","businessId":"1","startDate":"2026-11-01","endDate":"2026-11-10"}` |
-| TS-29 | GET `/api/v1/businesses/{businessId}/reports/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/dashboard/GET/api/v1/businesses/%7BbusinessId%7D/reports/%7Bid%7D` | Ruta/consulta: `businessId`, `id`. | 200: `{"id":"registro-ejemplo","businessId":"1","startDate":"2026-11-01","endDate":"2026-11-10"}` |
+| TS    | Acción y sintaxis HTTP                                                                                                                                                           | Parámetros / JSON de entrada                                                              | Respuesta de éxito y ejemplo                                                                                  |
+| :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
+| TS-28 | GET `/api/v1/businesses/{businessId}/dashboard` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/dashboard/GET/api/v1/businesses/%7BbusinessId%7D/dashboard`           | Ruta/consulta: `businessId`, `radiusMeters`.                                              | 200: `{"role":"administrator","businessId":"1","userId":"synthetic-employee","businessName":"valor-ejemplo"}` |
+| TS-29 | GET `/api/v1/businesses/{businessId}/reports` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/dashboard/GET/api/v1/businesses/%7BbusinessId%7D/reports`               | Ruta/consulta: `businessId`.                                                              | 200: `[{"id":"registro-ejemplo","businessId":"1","startDate":"2026-11-01","endDate":"2026-11-10"}]`           |
+| TS-29 | POST `/api/v1/businesses/{businessId}/reports` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/dashboard/POST/api/v1/businesses/%7BbusinessId%7D/reports`             | Ruta/consulta: `businessId`.<br>JSON: `{"startDate":"2026-11-01","endDate":"2026-11-10"}` | 201: `{"id":"registro-ejemplo","businessId":"1","startDate":"2026-11-01","endDate":"2026-11-10"}`             |
+| TS-29 | GET `/api/v1/businesses/{businessId}/reports/{id}` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/dashboard/GET/api/v1/businesses/%7BbusinessId%7D/reports/%7Bid%7D` | Ruta/consulta: `businessId`, `id`.                                                        | 200: `{"id":"registro-ejemplo","businessId":"1","startDate":"2026-11-01","endDate":"2026-11-10"}`             |
 
 **Health — 2 operaciones del alcance aceptado.**
 
-| TS | Acción y sintaxis HTTP | Parámetros / JSON de entrada | Respuesta de éxito y ejemplo |
-| :--- | :--- | :--- | :--- |
-| Soporte | GET `/health/live` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/health/GET/health/live` | Sin parámetros de ruta o consulta. | 200: `{"status":"alive"}` |
-| Soporte | GET `/health/ready` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/health/GET/health/ready` | Sin parámetros de ruta o consulta. | 200: `{"status":"ready"}` |
-
+| TS      | Acción y sintaxis HTTP                                                                                  | Parámetros / JSON de entrada       | Respuesta de éxito y ejemplo |
+| :------ | :------------------------------------------------------------------------------------------------------ | :--------------------------------- | :--------------------------- |
+| Soporte | GET `/health/live` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/health/GET/health/live`   | Sin parámetros de ruta o consulta. | 200: `{"status":"alive"}`    |
+| Soporte | GET `/health/ready` — `https://instalert-backend-yqe9.onrender.com/scalar/#tag/health/GET/health/ready` | Sin parámetros de ruta o consulta. | 200: `{"status":"ready"}`    |
 
 **Reglas para interpretar las respuestas.** En Profiles, DNI se representa como texto para conservar ceros iniciales. En Business, un administrador posee un comercio y una membresía inactiva conserva su asociación; el administrador no consume cupo. En Alert, preparar no crea una alerta y confirmar exige esperar el periodo del servidor; resolver y completar el reporte son acciones distintas. En Notifications, el radio admite 100, 500 o 1000 metros y se aplica desde la ubicación del comercio. En Mapping, el riesgo usa una ventana fija de 30 días y niveles bajo (1–5), medio (6–14) y alto (15 o más). En Dashboard, los rangos no incluyen fechas futuras y la consulta de un reporte devuelve la instantánea guardada.
 
-
 **Capturas de interacción con la documentación.** La primera muestra la versión 1.0.0, los módulos y el servidor HTTPS. La segunda registra una consulta de lectura ejecutada desde Scalar con HTTP 200 y status ready.
+
 <p align="center">
   <img src="../assets/Chapter5/sprint-3-scalar-overview.png" alt="Scalar desplegado con API versión 1.0.0 y servidor HTTPS" width="800">
 </p>
@@ -1433,12 +1438,12 @@ Los ejemplos de respuesta son **fragmentos ilustrativos** con datos de prueba; e
 
 El backend se publicó como Web Service Docker en Render y utiliza MySQL administrado por Aiven. El frontend conserva Firebase Hosting y se actualizó su configuración para consultar la API pública.
 
-| Producto | Versión de código | Publicación / configuración | Evidencia al corte |
-| :--- | :--- | :--- | :--- |
-| Web Services | [v1.0.0](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/tree/v1.0.0) | `https://instalert-backend-yqe9.onrender.com`, Dockerfile en la raíz, puerto PORT y health check /health/ready. | Captura del servicio Live, rama release/1.0.0 y commit 0c66de7, junto con consultas públicas comprobadas.  |
-| Base de datos | Migraciones EF Core del backend | MySQL en Aiven, conexión TLS y certificado ca.pem disponible en Render como secret file. | La consola muestra MySQL 8.4.11 en Running y la base defaultdb. Readiness comprueba conexión y ausencia de migraciones pendientes. No se publican credenciales. |
-| Web Application | [v2.0.0](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/tree/v2.0.0) | Proyecto Firebase instalert-c3f7f; public dist y reescritura SPA a index.html; API configurada hacia Render. | El sitio público respondió HTTP 200; su bundle contiene la URL de Render y CORS admite el origen web.app. La captura confirma el proyecto Firebase. |
-| Landing Page | Actualización de contenido del Sprint 3 | GitHub Pages: `https://losincreiblescorp.github.io/InstAlert-LandingPage/` | Se agregaron los videos About the Team y About the Product para presentar al equipo y explicar el producto. |
+| Producto        | Versión de código                                                             | Publicación / configuración                                                                                     | Evidencia al corte                                                                                                                                              |
+| :-------------- | :---------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Web Services    | [v1.0.0](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/tree/v1.0.0)  | `https://instalert-backend-yqe9.onrender.com`, Dockerfile en la raíz, puerto PORT y health check /health/ready. | Captura del servicio Live, rama release/1.0.0 y commit 0c66de7, junto con consultas públicas comprobadas.                                                       |
+| Base de datos   | Migraciones EF Core del backend                                               | MySQL en Aiven, conexión TLS y certificado ca.pem disponible en Render como secret file.                        | La consola muestra MySQL 8.4.11 en Running y la base defaultdb. Readiness comprueba conexión y ausencia de migraciones pendientes. No se publican credenciales. |
+| Web Application | [v2.0.0](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/tree/v2.0.0) | Proyecto Firebase instalert-c3f7f; public dist y reescritura SPA a index.html; API configurada hacia Render.    | El sitio público respondió HTTP 200; su bundle contiene la URL de Render y CORS admite el origen web.app. La captura confirma el proyecto Firebase.             |
+| Landing Page    | Actualización de contenido del Sprint 3                                       | GitHub Pages: `https://losincreiblescorp.github.io/InstAlert-LandingPage/`                                      | Se agregaron los videos About the Team y About the Product para presentar al equipo y explicar el producto.                                                     |
 
 **Landing Page.** Se agregaron los videos **About the Team** y **About the Product**, que presentan a los integrantes del equipo y las funcionalidades de InstAlert.
 
@@ -1449,16 +1454,12 @@ El backend se publicó como Web Service Docker en Render y utiliza MySQL adminis
 
 El certificado de Aiven se publica como secret file `ca.pem`, disponible en `/etc/secrets/ca.pem`; la conexión utiliza TLS con verificación de CA. Las migraciones se aplican explícitamente: la ejecución automática en Production está deshabilitada. El seeder de demostración está habilitado y su repetición no debe duplicar comercio, perfiles ni membresías. Esta configuración conserva datos demo para la presentación y no constituye un registro de usuarios mediante IAM.
 
-
-
 **Frontend en Firebase Hosting.** El archivo .firebaserc selecciona `instalert-c3f7f` y firebase.json publica `dist`. La compilación obtiene `VITE_INSTALERT_PLATFORM_API_URL=https://instalert-backend-yqe9.onrender.com/api/v1` .
 
 ```text
 npm run build
 firebase deploy --only hosting --project instalert-c3f7f
 ```
-
-
 
 **Evidencias de los proveedores.** Render muestra el servicio Instalert-BackEnd con runtime Docker, estado Live, fuente release/1.0.0 y commit 0c66de7.
 
@@ -1478,28 +1479,20 @@ La captura de Firebase muestra el proyecto InstAlert. Corresponde a la vista gen
   <img src="../assets/Chapter5/sprint-3-firebase-project.png" alt="Vista general del proyecto InstAlert en Firebase con plan Spark" width="800">
 </p>
 
-
-
-
-
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
 El equipo trabajó por módulos con ramas feature, revisiones e integración a develop. Los releases consolidados se integraron a main y de vuelta a develop, conservando los tags backend v1.0.0 y frontend v2.0.0. El historial de commits y los pull requests registran la autoría y las integraciones realizadas.
 
 **Contribuciones registradas en main.** El siguiente recuento corresponde al historial Git de main entre el 24/10/2026 y el 11/11/2026 e incluye los merges. Las cifras expresan la cantidad de commits por integrante durante ese intervalo.
 
-| Integrante | GitHub Username | Backend | Frontend |
-| :--- | :--- | ---: | ---: |
-| Asto Jácome, José Gustavo | DhudsQ | 73 | 22 |
-| Díaz Mendoza, Sebastián Víctor André | DiazDeveloper | 52 | 10 |
-| Noriega Collado, Jean Fabio | dumbaskidd | 49 | 10 |
-| Ruiz Villegas, Yngrid Nahir | nahiryn8 | 21 | 6 |
-| Simón Calderón, Ismael Sebastián | Mayel-dev | 111 | 7 |
-| **Total del intervalo** | | **306** | **55** |
-
-
-
-
+| Integrante                           | GitHub Username | Backend | Frontend |
+| :----------------------------------- | :-------------- | ------: | -------: |
+| Asto Jácome, José Gustavo            | DhudsQ          |      73 |       22 |
+| Díaz Mendoza, Sebastián Víctor André | DiazDeveloper   |      52 |       10 |
+| Noriega Collado, Jean Fabio          | dumbaskidd      |      49 |       10 |
+| Ruiz Villegas, Yngrid Nahir          | nahiryn8        |      21 |        6 |
+| Simón Calderón, Ismael Sebastián     | Mayel-dev       |     111 |        7 |
+| **Total del intervalo**              |                 | **306** |   **55** |
 
 **Analíticas e integración de ramas del backend.** El gráfico de contribuidores muestra cinco barras, de los 5 miembros del grupo. La gráfica de red identifica las ramas de preparación de despliegue.
 
@@ -1521,10 +1514,9 @@ El equipo trabajó por módulos con ramas feature, revisiones e integración a d
   <img src="../assets/Chapter5/sprint-3-frontend-network.png" alt="Red del frontend con features integradas y release 2.0.0 hacia main y develop" width="800">
 </p>
 
-
 ## 5.3. Validation Interviews
 
-### 5.3.1. Diseño de Entrevistas. 
+### 5.3.1. Diseño de Entrevistas.
 
 Esta sección describe el diseño de las entrevistas de validación orientadas a evaluar la navegación, claridad y experiencia de uso de InstAlert. La validación se realizará considerando los dos segmentos objetivo del proyecto: administradores de establecimientos comerciales y personal operativo.
 
@@ -1576,7 +1568,7 @@ Los siguientes User Flows corresponden a los diagramas de la aplicación web del
 - **User Flow 4** - Selección y gestión de una suscripción.
 - **User Flow 5** - Agregar personal operativo y validación de errores.
 
- **Tareas asignadas**
+  **Tareas asignadas**
 
 - Realizar el proceso de registro de un establecimiento comercial, completando los datos solicitados.
 - Explorar el proceso de registro e identificar los pasos necesarios para ingresar las credenciales y seleccionar un plan.
@@ -1688,4 +1680,153 @@ Al finalizar las actividades correspondientes a cada segmento, se realizarán pr
 12. Si tuvieras que describir InstAlert en tres palabras, ¿cuáles serían?
 
 ### 5.3.2. Registro de Entrevistas.
+
+En esta sección se documentan las entrevistas de validación realizadas a participantes pertenecientes a los dos segmentos objetivo de InstAlert: administradores de establecimientos comerciales y personal operativo.
+
+Las entrevistas tienen como propósito evaluar la experiencia de usuario durante la interacción con la Landing Page y las aplicaciones web, considerando las tareas y los User Flows definidos en la sección 5.3.1.
+
+Para cada participante se registra su información general, evidencia audiovisual, enlace de la grabación en Microsoft Stream, tiempo de inicio, duración de la entrevista y un resumen descriptivo de los resultados obtenidos.
+
+#### Primer Segmento Objetivo: Administradores de establecimientos comerciales
+
+Las entrevistas de este segmento permiten evaluar la comprensión de la propuesta de InstAlert, la navegación por la aplicación administrativa y la facilidad de uso de las funcionalidades relacionadas con la gestión de establecimientos comerciales.
+
+---
+
+---
+
+**Entrevista de Validación N.º 1 — María Rocío de los Ángeles**
+
+| Campo               | Información                                                                                                                                                   |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombre              | María Rocío                                                                                                                                                   |
+| Apellidos           | de los Ángeles                                                                                                                                                |
+| Edad                | 42 años                                                                                                                                                       |
+| Distrito            | Comas                                                                                                                                                         |
+| Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/evidencia_maria.png" alt="Evidencia Entrevista de Validación 1" width="600">                   |
+| Enlace del video    | [Entrevista de María Rocío](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDai321wS-vQI5NkwqzffbFAXzp9qMoHxmiW24EyAcCOvA?e=bFRsDw) |
+| Timing donde inicia | 00:00                                                                                                                                                         |
+| Duración            | 43:57 min                                                                                                                                                     |
+
+**Resumen de la entrevista**
+
+Durante la entrevista, María Rocío de los Ángeles valoró positivamente las alertas de seguridad en tiempo real y la comunicación entre negocios cercanos, especialmente para prevenir riesgos durante la apertura y cierre de su establecimiento. Tras la demostración de InstAlert, destacó la utilidad del historial de alertas, el mapa de riesgos y la gestión del personal, calificando la facilidad de uso con 4 de 5 puntos. Sin embargo, identificó dificultades para configurar el radio de notificaciones y comprender el estado de las invitaciones enviadas a empleados. Como mejoras, sugirió visualizar el alcance de las alertas directamente en el mapa, ofrecer instrucciones más claras para registrar la ubicación del negocio y brindar mayor transparencia sobre la privacidad de los datos personales.
+
+---
+
+---
+
+**Entrevista de Validación N.º 2 — Umi Natalia Arampa Rojas**
+
+| Campo               | Información                                                                                                                                                                |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombre              | Umi Natalia                                                                                                                                                                |
+| Apellidos           | Arampa Rojas                                                                                                                                                               |
+| Edad                | 21 años                                                                                                                                                                    |
+| Distrito            | La Molina                                                                                                                                                                  |
+| Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/validacion_nathaly.png" alt="Evidencia Entrevista de Validación 2" width="600">                             |
+| Enlace del video    | [Entrevista de Umi Natalia Arampa Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDbmsfyIXK3QqaaOqt_aeWGAV4e-Il19oqA99QkHEzMAc8?e=KhGQHk) |
+| Timing donde inicia | 00:03                                                                                                                                                                      |
+| Duración            | 18:39 min                                                                                                                                                                  |
+
+**Resumen de la entrevista**
+
+Durante la entrevista de validación, Umi Natalia Arampa Rojas, encargada de un minimarket, conoció el Landing Page y las principales funcionalidades administrativas de InstAlert. Consideró que la propuesta resultaba innovadora y especialmente útil para micro y pequeños negocios que buscan mejorar su seguridad. Destacó la organización de la información, la claridad de los planes y precios, y la facilidad para identificar las diferentes secciones de la plataforma.
+
+Respecto a la aplicación web, valoró principalmente el historial de reportes de incidentes y el mapa de riesgos, debido a que permiten identificar situaciones de inseguridad y consultar establecimientos cercanos. Calificó la facilidad de uso con 4 de 5 puntos y consideró que podría utilizar la plataforma sin asistencia. Sin embargo, manifestó dificultades iniciales para interpretar y utilizar completamente el mapa, especialmente al seleccionar el radio de alertas. Como oportunidad de mejora, sugirió incorporar notificaciones más directas y anticipadas para informar a los administradores sobre incidentes cercanos. Finalmente, expresó confianza en la plataforma y resaltó su potencial para contribuir a la seguridad de establecimientos comerciales.
+
+---
+
+**Entrevista de Validación N.º 3 — Stefany Trinidad**
+
+| Campo               | Información                                                                                                                                                        |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Nombre              | Stefany                                                                                                                                                            |
+| Apellidos           | Trinidad                                                                                                                                                           |
+| Edad                | 33 años                                                                                                                                                            |
+| Distrito            | Callao                                                                                                                                                             |
+| Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/validacion_stefany.png" alt="Evidencia Entrevista de Validación 2" width="600">                     |
+| Enlace del video    | [Entrevista de Stefany Trinidad](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDi-cMMD4MVQrnh6pxjUCJPATF1jBzFOBvFA2QWanMa6Bk?e=eXblQH) |
+| Timing donde inicia | 00:01                                                                                                                                                              |
+| Duración            | 25:34 min                                                                                                                                                          |
+
+**Resumen de la entrevista**
+
+Durante la entrevista de validación, Stefany Trinidad exploró el Landing Page y las funcionalidades administrativas de InstAlert, destacando positivamente la propuesta de conectar establecimientos comerciales para fortalecer la seguridad de sus comunidades. Consideró que la página estaba bien estructurada, que los planes eran accesibles y que la gestión del personal y las invitaciones resultaban intuitivas. Asimismo, valoró la información sobre incidentes presentada en el dashboard y calificó la facilidad de uso de la aplicación con 4 de 5 puntos. No obstante, expresó confusión al descubrir que el perfil de administrador no podía generar alertas de pánico, sugiriendo habilitar esta función y mostrar al responsable de cada reporte. También recomendó integrar las alertas con serenazgo o la Policía, incorporar notificaciones emergentes y asistencia dentro de la plataforma, simplificar el dashboard para evitar información redundante y reforzar la autenticación del administrador mediante una contraseña. Finalmente, consideró que InstAlert aporta valor a la seguridad de los negocios, especialmente si se fortalece la comunicación con las autoridades.
+
+---
+
+#### Segundo Segmento Objetivo: Personal operativo y vendedores de establecimientos comerciales
+
+Las entrevistas de este segmento permiten evaluar la experiencia de uso de las funcionalidades relacionadas con la seguridad, generación de alertas, registro de incidentes, contactos de emergencia y consulta de notificaciones.
+
+---
+
+**Entrevista de Validación N.º 4 — Alberto Alejandro Ponce Perales**
+
+| Campo               | Información                                                                                                                                                       |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombre              | Alberto Alejandro                                                                                                                                                 |
+| Apellidos           | Ponce Perales                                                                                                                                                     |
+| Edad                | 26 años                                                                                                                                                           |
+| Distrito            | Barranco                                                                                                                                                          |
+| Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/evidencia_alejandro.png" alt="Evidencia Entrevista 4" width="600">                                 |
+| Enlace del video    | [Entrevista de Alejandro Ponce](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQC8tnB_rovTQ6DGnwt7bVdEAZMAWnBciSuIPmpKYlqED_k?e=M53Mg7) |
+| Timing donde inicia | 00:01                                                                                                                                                             |
+| Duración            | 30:12 min                                                                                                                                                         |
+
+**Resumen de la entrevista**
+
+Durante la entrevista, Alberto Alejandro Ponce Perales valoró positivamente la claridad del Landing Page y la facilidad de navegación de InstAlert. Destacó especialmente la rapidez de las notificaciones y la gestión de contactos de emergencia, considerándolas funcionalidades fundamentales para la seguridad de su establecimiento. Calificó la facilidad de uso con 4 de 5 puntos. Sin embargo, señaló dificultades iniciales para localizar algunas configuraciones y recomendó mejorar la validación de correos electrónicos y números telefónicos, diferenciar mejor los planes comerciales y ampliar la información sobre la protección de datos personales. También sugirió mejorar ciertos elementos visuales de la interfaz.
+
+---
+
+**Entrevista de Validación N.º 5 — Carol Juliana Montenegro Izquierdo**
+
+| Campo               | Información                                                                                                                                                        |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Nombre              | Carol Juliana                                                                                                                                                      |
+| Apellidos           | Montenegro Izquierdo                                                                                                                                               |
+| Edad                | 19 años                                                                                                                                                            |
+| Distrito            | San Juan de Lurigancho                                                                                                                                             |
+| Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/evidencia_carol.png" alt="Evidencia Entrevista 5" width="600">                                      |
+| Enlace del video    | [Entrevista de Carol Montenegro](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDvP5TKmSk_TLsAtGPOdS5lAd9DDPyxtxPe-1W3nFx0nrY?e=DG2LHg) |
+| Timing donde inicia | 00:02                                                                                                                                                              |
+| Duración            | 20:19 min                                                                                                                                                          |
+
+**Resumen de la entrevista**
+
+Carol Juliana Montenegro Izquierdo consideró que el Landing Page presenta información clara y organizada, destacando el botón de alerta como el elemento más llamativo y útil de InstAlert. Durante la demostración de la aplicación, comprendió las principales funcionalidades relacionadas con alertas, reportes, mapas y preferencias. Calificó la facilidad de uso entre 3 y 4 de 5 puntos, señalando cierta confusión inicial con la cuenta regresiva del botón de emergencia. Como oportunidades de mejora, recomendó simplificar algunos pasos, reorganizar determinadas opciones e incorporar ejemplos prácticos sobre cómo se atienden las alertas durante una emergencia.
+
+---
+
+**Entrevista de Validación N.º 6 — Natalia Tarrillo**
+
+| Campo               | Información                                                                                                                                                        |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Nombre              | Natalia                                                                                                                                                            |
+| Apellidos           | Tarrillo                                                                                                                                                           |
+| Edad                | 20 años                                                                                                                                                            |
+| Distrito            | San Juan de Lurigancho                                                                                                                                             |
+| Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/evidencia_natalia.png" alt="Evidencia Entrevista 6" width="600">                                    |
+| Enlace del video    | [Entrevista de Natalia Tarrillo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQD68cRq-kvTS7_eY1zC5UBlAS3K_fwehZNaR4SP538y6C4?e=FQjYcr) |
+| Timing donde inicia | 00:00                                                                                                                                                              |
+| Duración            | 21:54 min                                                                                                                                                          |
+
+**Resumen de la entrevista**
+
+Natalia Tarrillo valoró positivamente la organización y facilidad de uso de InstAlert, otorgándole una calificación de 5 de 5 puntos. Consideró especialmente útiles el mapa de riesgos, las alertas de emergencia y la gestión de contactos, aunque manifestó cierta confusión inicial al comprender el funcionamiento de la emisión de alertas. Como principal recomendación, propuso incorporar información de contacto de las estaciones de Policía y Bomberos más cercanas para facilitar la respuesta ante emergencias. Asimismo, destacó la importancia de proteger los datos personales de los usuarios y consideró que la plataforma podría contribuir a mejorar la seguridad de los establecimientos comerciales.
+
+---
+
+**Video consolidado de entrevistas de validación**
+
+## **Enlace de Microsoft Stream:** [Pendiente: URL del video consolidado]
+
+**Video consolidado de entrevistas de validación**
+
+**Enlace de Microsoft Stream:** [Pendiente: URL del video consolidado]
+
+Las evidencias y observaciones registradas durante las entrevistas servirán como insumo para la evaluación de usabilidad, arquitectura de información y diseño inclusivo desarrollada en la sección 5.3.3.
+
 ### 5.3.3. Evaluaciones según heurísticas.
