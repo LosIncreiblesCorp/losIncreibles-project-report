@@ -1830,3 +1830,11 @@ Natalia Tarrillo valoró positivamente la organización y facilidad de uso de In
 Las evidencias y observaciones registradas durante las entrevistas servirán como insumo para la evaluación de usabilidad, arquitectura de información y diseño inclusivo desarrollada en la sección 5.3.3.
 
 ### 5.3.3. Evaluaciones según heurísticas.
+
+## 5.4. Video About-the-Product.
+
+En esta sección se presenta el video publicitario de InstAlert, el cual permite conocer de manera visual y resumida las principales funcionalidades del sistema, su propuesta de valor y la experiencia de usuario que ofrece. El video destaca cómo InstAlert contribuye a mejorar la seguridad en establecimientos comerciales mediante alertas rápidas, reportes de incidentes y mapas de zonas de riesgo, facilitando la comunicación y la respuesta oportuna ante situaciones de emergencia.
+
+**Video About-the-Product Link:** https://youtu.be/nV40EGPt8Aw
+
+![Video About-the-Product](../assets/Chapter5/sprint-3-product-video-evidence.png)
