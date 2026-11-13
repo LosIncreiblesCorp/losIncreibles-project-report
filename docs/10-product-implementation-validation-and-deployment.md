@@ -1823,13 +1823,9 @@ Natalia Tarrillo valoró positivamente la organización y facilidad de uso de In
 
 **Video consolidado de entrevistas de validación**
 
-## **Enlace de Microsoft Stream:** [Pendiente: URL del video consolidado]
+**Enlace:** [Ver el video consolidado de entrevistas](https://youtu.be/65qvL9zOsuI)
 
-**Video consolidado de entrevistas de validación**
-
-**Enlace de Microsoft Stream:** [Pendiente: URL del video consolidado]
-
-Las evidencias y observaciones registradas durante las entrevistas servirán como insumo para la evaluación de usabilidad, arquitectura de información y diseño inclusivo desarrollada en la sección 5.3.3.
+Este video reúne las entrevistas de validación realizadas a administradores y personal operativo. Presenta sus percepciones sobre InstAlert, los comentarios sobre sus funcionalidades y las oportunidades de mejora identificadas.
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
