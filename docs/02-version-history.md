@@ -210,6 +210,30 @@ Consolidación e integración en <code>main</code> del Project Report para TB1, 
 <td>Jose Asto</td>
 <td>Preparación del Sprint 3: planificación, LACX, backlog contrastado con Jira, evidencias de integración, documentación OpenAPI y despliegue. Aclaración del alcance de US24. Incorporación de evidencias visuales del Sprint 3.</td>
 </tr>
+<tr>
+<td align="center">2.2.0</td>
+<td align="center">13/11/2026</td>
+<td>Yngrid Ruiz</td>
+<td>Incorporación de entrevistas de validación y tareas de flujo de usuario en el Capítulo V, además de la sección y evidencia del video About the Product.</td>
+</tr>
+<tr>
+<td align="center">2.3.0</td>
+<td align="center">13/11/2026</td>
+<td>Ismael Simon</td>
+<td>Registro y organización de entrevistas de validación de ambos segmentos, con sus resúmenes y evidencias en el Capítulo V.</td>
+</tr>
+<tr>
+<td align="center">2.4.0</td>
+<td align="center">13/11/2026</td>
+<td>Sebastián Díaz</td>
+<td>Documentación de la evaluación heurística de InstAlert realizada por Grupo Creatividad, con hallazgos y evidencias.</td>
+</tr>
+<tr>
+<td align="center">2.5.0</td>
+<td align="center">13/11/2026</td>
+<td>Jose Asto</td>
+<td>Actualización del informe para Sprint Review 3: incorporación de sus enlaces en el Capítulo V y anexos, enlaces de entrevistas y productos desplegados, y video About-the-Team en References.</td>
+</tr>
 </tbody>
 </table>
 
