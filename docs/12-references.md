@@ -1,3 +1,11 @@
+# Video About-the-Team
+
+[![Portada del video About-the-Team](../assets/Chapter5/about-the-team-video-thumbnail.png)](https://www.youtube.com/watch?v=ZMhPKBR7EF0)
+
+El video presenta al equipo detrás de InstAlert y a sus integrantes.
+
+[Ver el video About-the-Team](https://www.youtube.com/watch?v=ZMhPKBR7EF0)
+
 # Bibliografía
 
 - Centro Nacional de Planeamiento Estratégico [CEPLAN]. (s.f.). *Crecimiento en el acceso a tecnologías de la información a través de los teléfonos inteligentes (Smartphones)*. Observatorio Nacional de Prospectiva. https://observatorio.ceplan.gob.pe/ficha/t70

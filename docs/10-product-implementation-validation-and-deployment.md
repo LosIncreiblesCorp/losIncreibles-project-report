@@ -1229,6 +1229,8 @@ Las seis correcciones ORM trasladaron los mapeos de Contacts, Payments, Business
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
+**Grabación del Sprint Review 3:** [Ver video del Sprint 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQC9XmtuxxY9TrpuGHSsSMNlAe0-iL2rmfbyfLlpkBrtuLE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RaVpEc)
+
 **1. Dashboard administrativo y resumen operativo.** La captura actual del administrador muestra el comercio La Bodeguita, dos reportes registrados, tres cupos disponibles y el plan Essential con un empleado activo sobre un límite de cuatro. La suscripción corresponde a la demostración y no acredita una compra externa.
 
 <p align="center">
