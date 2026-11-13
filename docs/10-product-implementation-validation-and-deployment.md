@@ -1830,3 +1830,196 @@ Natalia Tarrillo valoró positivamente la organización y facilidad de uso de In
 Las evidencias y observaciones registradas durante las entrevistas servirán como insumo para la evaluación de usabilidad, arquitectura de información y diseño inclusivo desarrollada en la sección 5.3.3.
 
 ### 5.3.3. Evaluaciones según heurísticas.
+
+#### UX Heuristics & Principles Evaluation
+
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA:** Ingeniería de Software<br>
+**CURSO:** Aplicaciones Web<br>
+**SECCIÓN:** 8084<br>
+**PROFESOR:** Angel Augusto Velasquez Nuñez<br>
+**AUDITOR:** Grupo Creatividad<br>
+**CLIENTE(S):** Segmento 1: administradores y dueños de establecimientos comerciales. Segmento 2: personal operativo.<br>
+**SITE O APP A EVALUAR:** InstAlert — Aplicación web.
+
+#### Alcance y procedimiento
+
+Se inspeccionaron seis situaciones de la interfaz del administrador utilizando capturas de pantalla. Se consideraron principios de usabilidad, arquitectura de información y diseño inclusivo. Aunque el producto se dirige a ambos segmentos, las evidencias de esta evaluación corresponden a la vista del administrador y no permiten generalizar los resultados a la interfaz del personal operativo.
+
+Los hallazgos describen dificultades potenciales identificadas por inspección; no se atribuyen a participantes ni constituyen resultados de entrevistas. La severidad representa el impacto estimado y puede revisarse mediante pruebas de usuario.
+
+**TAREAS A EVALUAR:**
+
+1. Localizar las preferencias y configurar el radio de recepción de notificaciones.
+2. Consultar el estado de una invitación enviada al personal.
+3. Buscar alertas y reportes dentro de un periodo determinado.
+4. Editar los datos del negocio y navegar hacia otra sección.
+5. Interpretar símbolos y colores del mapa en ventanas de diferente tamaño.
+6. Comparar los beneficios de los planes de suscripción.
+
+**No están incluidas en esta versión de la evaluación:**
+
+1. La entrega efectiva de correos electrónicos.
+2. El procesamiento de pagos mediante PayPal.
+3. La exactitud de los datos geográficos y de los niveles de riesgo.
+4. La activación de alertas mediante dispositivos físicos.
+5. Una auditoría completa de accesibilidad con tecnologías de asistencia.
+
+#### Escala de severidad
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial. Produce una dificultad mínima y puede corregirse cuando exista disponibilidad de tiempo. |
+| 2 | Problema menor. Aumenta el esfuerzo o genera confusión, pero permite continuar la tarea. Debe programarse su mejora. |
+| 3 | Problema mayor. Dificulta considerablemente una tarea o requiere ayuda para completarla. Debe corregirse con prioridad alta. |
+| 4 | Problema muy grave. Impide completar una tarea esencial o continuar utilizando la herramienta. Debe corregirse antes del lanzamiento. |
+
+#### Tabla resumen
+
+| # | Problema | Severidad | Heurística o principio afectado |
+|---|---|---|---|
+| 1 | El acceso a la configuración del radio depende de un icono sin etiqueta visible. | 2 | Usability: reconocimiento antes que recuerdo. Information Architecture: facilidad para encontrar opciones. |
+| 2 | El estado «Pendiente» no distingue la aceptación de la invitación del estado del envío del correo. | 2 | Usability: visibilidad del estado del sistema. |
+| 3 | El historial no ofrece un filtro específico por intervalo de fechas. | 2 | Usability: flexibilidad y eficiencia de uso. Information Architecture: facilidad para localizar información. |
+| 4 | Posible pérdida de cambios del perfil al abandonar el formulario sin guardar. | 2, provisional | Usability: prevención de errores. Pendiente de corroborar el recorrido. |
+| 5 | La leyenda del mapa no permanece disponible en la vista de menor altura documentada. | 2 | Inclusive Design: proporcionar experiencias comparables. Usability: reconocimiento antes que recuerdo. |
+| 6 | Los beneficios diferenciadores de los planes no se explican suficientemente, incluso al desplegar los detalles. | 2 | Usability: ayuda y documentación. Information Architecture: claridad del contenido para tomar decisiones. |
+
+#### Descripción de problemas
+
+##### PROBLEMA #1: Acceso poco explícito a las preferencias de notificación
+
+**Severidad:** 2 — Problema menor.
+
+**Heurística o principio afectado:** Usability — Reconocimiento antes que recuerdo. Information Architecture — Facilidad para encontrar opciones.
+
+**Problema:**
+
+La pantalla de Notificaciones presenta el acceso a las preferencias mediante un engranaje en la esquina superior derecha, sin una etiqueta de texto permanentemente visible que indique que allí se configura el radio de recepción. La segunda captura muestra que el selector del radio está dentro de ese cuadro de preferencias.
+
+El administrador debe interpretar el icono y abrirlo para descubrir la opción. Aunque el engranaje es un símbolo habitual de configuración y no impide completar la tarea, puede aumentar el esfuerzo de descubrimiento para personas poco familiarizadas con estas interfaces.
+
+**Evidencia:**
+
+![Caso 1: evidencia 1](../assets/Chapter5/heuristicas/caso-1-1.png)
+
+![Caso 1: evidencia 2](../assets/Chapter5/heuristicas/caso-1-2.png)
+
+**Recomendación:**
+
+Acompañar el icono con una etiqueta visible, como «Configurar notificaciones» o «Configurar radio». Mostrar también un resumen del valor vigente en la pantalla principal; por ejemplo: «Recibes alertas cercanas hasta 500 m de tu negocio».
+
+##### PROBLEMA #2: Ambigüedad del estado «Pendiente» en las invitaciones
+
+**Severidad:** 2 — Problema menor.
+
+**Heurística o principio afectado:** Usability — Visibilidad del estado del sistema.
+
+**Problema:**
+
+La pestaña Invitaciones muestra un registro «Pendiente» y las acciones «Editar», «Reenviar» y «Cancelar invitación». La interfaz confirma que la invitación fue creada, pero no diferencia el estado de aceptación del estado del envío del correo.
+
+Esto puede generar incertidumbre sobre si debe esperarse una respuesta o reenviarse el mensaje. La captura no demuestra un fallo de entrega: el hallazgo se refiere a la claridad de la información presentada.
+
+**Evidencia:**
+
+![Caso 2: evidencia 1](../assets/Chapter5/heuristicas/caso-2-1.png)
+
+**Recomendación:**
+
+Utilizar «Esperando aceptación» cuando ese sea el significado del estado. Mostrar por separado el estado real del correo: «En cola», «Envío aceptado por el proveedor» o «Error de envío». Explicar qué debe hacer el invitado y cómo proceder si no recibe el mensaje. No mostrar «Entregado» sin confirmación del proveedor.
+
+##### PROBLEMA #3: Búsqueda limitada de alertas por periodo
+
+**Severidad:** 2 — Problema menor.
+
+**Heurística o principio afectado:** Usability — Flexibilidad y eficiencia de uso. Information Architecture — Facilidad para localizar información.
+
+**Problema:**
+
+El historial incluye búsqueda por tipo, descripción o ubicación y filtros por tipo y estado, pero no presenta un selector específico de intervalo de fechas. Para revisar los incidentes de una semana o un mes, el administrador debe leer las fechas de los registros o recurrir a criterios que no representan directamente el periodo solicitado.
+
+La captura contiene solo dos registros: el esfuerzo inmediato es reducido. El impacto estimado aumenta con el volumen del historial y debe comprobarse con una tarea de búsqueda representativa.
+
+**Evidencia:**
+
+![Caso 3: evidencia 1](../assets/Chapter5/heuristicas/caso-3-1.png)
+
+**Recomendación:**
+
+Incorporar los campos «Desde» y «Hasta» y accesos rápidos como «Hoy», «Últimos 7 días», «Últimos 30 días» y «Todas las fechas». Mostrar el periodo aplicado y permitir restablecer los filtros fácilmente.
+
+##### PROBLEMA #4: Posible pérdida de cambios sin guardar en el perfil del negocio
+
+**Severidad:** 2 — Provisional, pendiente de corroborar el recorrido.
+
+**Heurística o principio afectado:** Usability — Prevención de errores.
+
+**Problema:**
+
+Las capturas muestran dos valores para el nombre del negocio: «Comercial Las Torres» y «La Bodeguita». Documentan un cambio de contenido, pero no demuestran por sí solas que se abandonó el formulario sin guardar, que faltó una advertencia o que el valor se perdió al regresar.
+
+El riesgo evaluado es la pérdida accidental del trabajo si una persona modifica datos y navega hacia otra sección sin una protección de salida o conservación del borrador.
+
+**Estado de verificación:** pendiente. Para confirmar el hallazgo debe modificarse un campo sin guardar, navegar hacia otra sección, comprobar si aparece una advertencia y regresar para verificar si se conserva el cambio. Si existe una protección efectiva, este hallazgo debe revisarse o descartarse.
+
+**Evidencia:**
+
+![Caso 4: evidencia 1](../assets/Chapter5/heuristicas/caso-4-1.png)
+
+![Caso 4: evidencia 2](../assets/Chapter5/heuristicas/caso-4-2.png)
+
+**Recomendación:**
+
+Si se confirma la ausencia de protección, detectar los cambios pendientes y mostrar «Tienes cambios sin guardar. ¿Qué deseas hacer?», con las opciones «Seguir editando» y «Salir sin guardar». También puede conservarse un borrador para recuperar la información.
+
+##### PROBLEMA #5: Leyenda del mapa no disponible en una vista de menor altura
+
+**Severidad:** 2 — Problema menor.
+
+**Heurística o principio afectado:** Inclusive Design — Proporcionar experiencias comparables en diferentes condiciones de visualización. Usability — Reconocimiento antes que recuerdo.
+
+**Problema:**
+
+Una captura muestra incidentes y zonas coloreadas sin leyenda; la otra presenta el panel «Simbología del mapa», con los niveles de riesgo y los símbolos de comercio e incidente. Sin esa referencia, el administrador debe recordar o deducir su significado, lo que puede dificultar la interpretación durante los primeros usos.
+
+Las imágenes documentan la diferencia entre vistas, pero no registran las dimensiones de la ventana ni el zoom. Esos datos deben anotarse para reproducir exactamente la condición y confirmar que no existe otro acceso equivalente a la leyenda.
+
+**Evidencia:**
+
+![Caso 5: evidencia 1](../assets/Chapter5/heuristicas/caso-5-1.png)
+
+![Caso 5: evidencia 2](../assets/Chapter5/heuristicas/caso-5-2.png)
+
+**Recomendación:**
+
+Mantener el acceso a la leyenda en todos los tamaños de ventana. Cuando no haya espacio para el panel completo, sustituirlo por un botón visible «Ver leyenda». Conservar etiquetas de texto asociadas a colores y símbolos.
+
+##### PROBLEMA #6: Beneficios de los planes insuficientemente detallados
+
+**Severidad:** 2 — Problema menor.
+
+**Heurística o principio afectado:** Usability — Ayuda y documentación. Information Architecture — Claridad del contenido para tomar decisiones.
+
+**Problema:**
+
+La pantalla presenta los planes Essential, Professional y Business, sus precios mensuales y los límites de empleados. Los cupos de 4, 8 y 15 empleados ya son visibles en las descripciones antes de desplegar los detalles: el problema no consiste en que estén ocultos.
+
+La dificultad se encuentra en términos como «alertas prioritarias», «reportes de riesgo» y «atención prioritaria y acompañamiento», que no explican su alcance concreto. Al desplegar los detalles, las capturas solo añaden una fila con el cupo de empleados, repitiendo información existente sin resolver las dudas sobre los beneficios diferenciadores.
+
+Esto limita la información para decidir si el incremento de precio corresponde a beneficios necesarios para el establecimiento.
+
+**Evidencia:**
+
+![Caso 6: evidencia 1](../assets/Chapter5/heuristicas/caso-6-1.png)
+
+![Caso 6: evidencia 2](../assets/Chapter5/heuristicas/caso-6-2.png)
+
+**Recomendación:**
+
+Incluir una tabla comparativa con criterios equivalentes: cupo de empleados, funciones de alertas, alcance de reportes, tipo y horario de soporte y condiciones de renovación y cancelación. Explicar «prioritario» y «acompañamiento» con condiciones concretas y verificables. Los detalles deben ampliar beneficios y condiciones reales, no repetir únicamente el cupo.
+
+#### Referencia conceptual
+
+Nielsen Norman Group. [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/).
