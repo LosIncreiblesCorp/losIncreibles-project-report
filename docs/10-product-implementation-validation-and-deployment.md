@@ -1714,24 +1714,26 @@ Durante la entrevista, María Rocío de los Ángeles valoró positivamente las a
 
 ---
 
-**Entrevista de Validación N.º 2**
+---
 
-| Campo               | Información                |
-| ------------------- | -------------------------- |
-| Nombre              | [Nombre]                   |
-| Apellidos           | [Apellidos]                |
-| Edad                | [Edad]                     |
-| Distrito            | [Distrito]                 |
-| Evidencia           | [Captura de la entrevista] |
-| Enlace del video    | [URL de Microsoft Stream]  |
-| Timing donde inicia | [HH:MM:SS]                 |
-| Duración            | [MM:SS]                    |
+**Entrevista de Validación N.º 2 — Umi Natalia Arampa Rojas**
+
+| Campo               | Información                                                                                                                                                                |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombre              | Umi Natalia                                                                                                                                                                |
+| Apellidos           | Arampa Rojas                                                                                                                                                               |
+| Edad                | 21 años                                                                                                                                                                    |
+| Distrito            | La Molina                                                                                                                                                                  |
+| Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/validacion_nathaly.png" alt="Evidencia Entrevista de Validación 2" width="600">                             |
+| Enlace del video    | [Entrevista de Umi Natalia Arampa Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDbmsfyIXK3QqaaOqt_aeWGAV4e-Il19oqA99QkHEzMAc8?e=KhGQHk) |
+| Timing donde inicia | 00:03                                                                                                                                                                      |
+| Duración            | 18:39 min                                                                                                                                                                  |
 
 **Resumen de la entrevista**
 
-[Pendiente: registrar los resultados y observaciones de la sesión.]
+Durante la entrevista de validación, Umi Natalia Arampa Rojas, encargada de un minimarket, conoció el Landing Page y las principales funcionalidades administrativas de InstAlert. Consideró que la propuesta resultaba innovadora y especialmente útil para micro y pequeños negocios que buscan mejorar su seguridad. Destacó la organización de la información, la claridad de los planes y precios, y la facilidad para identificar las diferentes secciones de la plataforma.
 
----
+Respecto a la aplicación web, valoró principalmente el historial de reportes de incidentes y el mapa de riesgos, debido a que permiten identificar situaciones de inseguridad y consultar establecimientos cercanos. Calificó la facilidad de uso con 4 de 5 puntos y consideró que podría utilizar la plataforma sin asistencia. Sin embargo, manifestó dificultades iniciales para interpretar y utilizar completamente el mapa, especialmente al seleccionar el radio de alertas. Como oportunidad de mejora, sugirió incorporar notificaciones más directas y anticipadas para informar a los administradores sobre incidentes cercanos. Finalmente, expresó confianza en la plataforma y resaltó su potencial para contribuir a la seguridad de establecimientos comerciales.
 
 ---
 
