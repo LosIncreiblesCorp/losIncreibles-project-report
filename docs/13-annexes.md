@@ -6,6 +6,8 @@
 
 * Enlace de Exposición TB1: [Ver video de la exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDSBUMvYZIURrQp7VUpTYUTAWImKBYAwEZHep-hC5xyS0E?e=SYjToN)
 
+* Enlace de Exposición AV2: [Ver video de la exposición AV2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDOK-WMv1toTqIGPQAvIAiwAUIDAJ43HysY6Wio_pQO7wg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vPe2gV)
+
 
 
 ## Needfinding Interviews

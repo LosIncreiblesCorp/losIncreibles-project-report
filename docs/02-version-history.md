@@ -234,6 +234,24 @@ Consolidación e integración en <code>main</code> del Project Report para TB1, 
 <td>Jose Asto</td>
 <td>Actualización del informe para Sprint Review 3: incorporación de sus enlaces en el Capítulo V y anexos, enlaces de entrevistas y productos desplegados, y video About-the-Team en References.</td>
 </tr>
+<tr>
+<td align="center">2.6.0</td>
+<td align="center">13/11/2026</td>
+<td>Jose Asto</td>
+<td>Actualización del Student Outcome 5 para AV2 con acciones de los cinco integrantes vinculadas a cada criterio, conclusiones integradas por criterio y una conclusión general. Actualización de las conclusiones del informe con los resultados y límites de evidencia de Sprint 3.</td>
+</tr>
+<tr>
+<td align="center">2.7.0</td>
+<td align="center">13/11/2026</td>
+<td>Jose Asto</td>
+<td>Incorporación del enlace y la descripción del video consolidado de entrevistas de validación en el Capítulo V.</td>
+</tr>
+<tr>
+<td align="center">3.0.0</td>
+<td align="center">13/11/2026</td>
+<td>Jose Asto</td>
+<td>Consolidación del Project Report para AV2: incorporación del video de exposición en Anexos y orden de la tabla de contenidos conforme al enunciado, con un máximo de cuatro niveles de esquema.</td>
+</tr>
 </tbody>
 </table>
 
