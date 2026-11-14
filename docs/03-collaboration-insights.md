@@ -70,4 +70,32 @@ Estas tareas resumen los cambios identificables en el historial del repositorio;
 
 
 
+## Reporte de colaboración de la entrega del AV2
+
+Durante la preparación del AV2, el equipo integró el informe del Sprint 3 con evidencias de ejecución y validación. El historial del repositorio registra aportes en la actualización de arquitectura y requisitos, la revisión del producto, el registro de entrevistas, la evaluación heurística y la consolidación final del reporte. Las responsabilidades principales identificables fueron las siguientes:
+
+- **José Gustavo Asto:** actualizó los diagramas C4 y la documentación de US17; consolidó el reporte y la evidencia del Sprint 3, las conclusiones y el Student Outcome; y organizó el video de entrevistas, los anexos, el historial de versiones y la tabla de contenidos para AV2.
+- **Sebastián Víctor Díaz:** documentó entrevistas de validación y sus evidencias, y registró la evaluación heurística realizada por Grupo Creatividad.
+- **Yngrid Nahir Ruiz:** preparó el diseño y las tareas de las entrevistas de validación, y añadió la sección y el enlace del video About-the-Product.
+- **Ismael Sebastián Simón:** incorporó registros, resúmenes y evidencias de entrevistas para ambos segmentos, incluida una entrevista adicional con una administradora.
+- **Jean Fabio Noriega:** lideró Mapping y Dashboard en el trabajo de producto documentado para AV2, coordinando las consultas geográficas y las proyecciones de los paneles. El historial del informe mostrado aquí no identifica una edición suya en el intervalo de la captura.
+
+Estas contribuciones resumen las actividades que pueden identificarse en el historial del informe y en la sección Student Outcome. La matriz LACX distribuye además el liderazgo y la colaboración por aspectos del producto; la especialización por módulos se complementó con integración y revisión compartidas.
+
+### Gráficos de colaboración de AV2
+
+La captura de GitHub Insights muestra cuatro barras visibles, con valores aproximados de 14, 7, 2 y 2 commits. El recorte no incluye nombres legibles, por lo que no se atribuyen esos conteos a integrantes específicos. La lectura de responsabilidades anterior se basa en los commits y contenidos identificables del informe.
+
+![Principales colaboradores del Project Report durante AV2](../assets/project-report-collaboration/top-committers-av2.png)
+
+*Figura: Vista de GitHub Insights con la cantidad de commits visible para AV2; los nombres de los autores no aparecen en el recorte.*
+
+### Ramificación GitFlow de AV2
+
+El equipo continuó el flujo de trabajo con ramas `feature` para desarrollar cambios acotados y las integró en `develop` antes de consolidar el reporte en `main`. La red de ramas muestra la integración de las ramas de entrevistas de validación y del capítulo 5 en `develop`; los cambios finales de AV2 también se integraron primero en `develop` y luego en `main`.
+
+![Ramificación del Project Report usando GitFlow durante AV2](../assets/project-report-collaboration/gitflow-av2.png)
+
+*Figura: Red de ramas de GitHub durante AV2, con ramas feature integradas en develop.*
+
 <div style="page-break-after: always;"></div>
