@@ -74,7 +74,7 @@ Estas tareas resumen los cambios identificables en el historial del repositorio;
 
 Durante la preparación del AV2, el equipo integró el informe del Sprint 3 con evidencias de ejecución y validación. El historial del repositorio registra aportes en la actualización de arquitectura y requisitos, la revisión del producto, el registro de entrevistas, la evaluación heurística y la consolidación final del reporte. Las responsabilidades principales identificables fueron las siguientes:
 
-- **José Gustavo Asto:** actualizó los diagramas C4 y la documentación de US17; consolidó el reporte y la evidencia del Sprint 3, las conclusiones y el Student Outcome; y organizó el video de entrevistas, los anexos, el historial de versiones y la tabla de contenidos para AV2.
+- **José Gustavo Asto:** actualizó los diagramas C4 ; consolidó el reporte y la evidencia del Sprint 3, las conclusiones y el Student Outcome; y organizó el video de entrevistas, los anexos, el historial de versiones y la tabla de contenidos para AV2.
 - **Sebastián Víctor Díaz:** documentó entrevistas de validación y sus evidencias, y registró la evaluación heurística realizada por Grupo Creatividad.
 - **Yngrid Nahir Ruiz:** preparó el diseño y las tareas de las entrevistas de validación, y añadió la sección y el enlace del video About-the-Product.
 - **Ismael Sebastián Simón:** incorporó registros, resúmenes y evidencias de entrevistas para ambos segmentos, incluida una entrevista adicional con una administradora.
@@ -84,11 +84,11 @@ Estas contribuciones resumen las actividades que pueden identificarse en el hist
 
 ### Gráficos de colaboración de AV2
 
-La captura de GitHub Insights muestra cuatro barras visibles, con valores aproximados de 14, 7, 2 y 2 commits. El recorte no incluye nombres legibles, por lo que no se atribuyen esos conteos a integrantes específicos. La lectura de responsabilidades anterior se basa en los commits y contenidos identificables del informe.
+La captura de GitHub Insights muestra cuatro barras visibles, con valores aproximados de 14, 7, 2 y 2 commits.
 
 ![Principales colaboradores del Project Report durante AV2](../assets/project-report-collaboration/top-committers-av2.png)
 
-*Figura: Vista de GitHub Insights con la cantidad de commits visible para AV2; los nombres de los autores no aparecen en el recorte.*
+*Figura: Vista de GitHub Insights con la cantidad de commits visible para AV2*
 
 ### Ramificación GitFlow de AV2
 
