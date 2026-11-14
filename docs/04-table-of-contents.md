@@ -112,8 +112,6 @@
   - [5.3. Validation Interviews](10-product-implementation-validation-and-deployment.md#53-validation-interviews)
     - [5.3.1. Diseño de entrevistas](10-product-implementation-validation-and-deployment.md#531-diseño-de-entrevistas)
     - [5.3.2. Registro de entrevistas](10-product-implementation-validation-and-deployment.md#532-registro-de-entrevistas)
-      - [Primer segmento: administradores de establecimientos comerciales](10-product-implementation-validation-and-deployment.md#primer-segmento-objetivo-administradores-de-establecimientos-comerciales)
-      - [Segundo segmento: personal operativo y vendedores](10-product-implementation-validation-and-deployment.md#segundo-segmento-objetivo-personal-operativo-y-vendedores-de-establecimientos-comerciales)
     - [5.3.3. Evaluaciones según heurísticas](10-product-implementation-validation-and-deployment.md#533-evaluaciones-según-heurísticas)
   - [5.4. Video About-the-Product](10-product-implementation-validation-and-deployment.md#54-video-about-the-product)
 
@@ -122,22 +120,7 @@
 - [Video About-the-Team](12-references.md#video-about-the-team)
 - [Bibliografía](12-references.md#bibliografía)
 - [Anexos](13-annexes.md#anexos)
-  - [Exposiciones del Proyecto](13-annexes.md#exposiciones-del-proyecto)
-  - [Needfinding Interviews](13-annexes.md#needfinding-interviews)
-  - [Validation Interviews — Sprint 3](13-annexes.md#validation-interviews--sprint-3)
-  - [Heuristic Evaluation](13-annexes.md#heuristic-evaluation)
-  - [Execution Evidence](13-annexes.md#execution-evidence)
-  - [Productos Desplegados](13-annexes.md#productos-desplegados)
-    - [Landing Page](13-annexes.md#landing-page)
-    - [InstAlert Web Application](13-annexes.md#instalert-web-application)
-    - [InstAlert Backend API](13-annexes.md#instalert-backend-api)
-    - [Database](13-annexes.md#database)
-    - [Versiones de código desplegadas](13-annexes.md#versiones-de-código-desplegadas)
-    - [Evidencia histórica del Sprint 2](13-annexes.md#evidencia-histórica-del-sprint-2)
-    - [Video de presentación del producto](13-annexes.md#video-de-presentación-del-producto)
-    - [Video de presentación del equipo](13-annexes.md#video-de-presentación-del-equipo)
-  - [Repositorios](13-annexes.md#repositorios)
-
+ 
 
 
 
