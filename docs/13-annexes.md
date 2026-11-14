@@ -81,7 +81,7 @@ Base de datos MySQL 8.4.11 gestionada en Aiven y conectada de forma privada a la
 
 ### Video de presentación del equipo
 
-[![Portada del video About-the-Team](../assets/Chapter5/about-the-team-video-thumbnail.png)](https://www.youtube.com/watch?v=ZMhPKBR7EF0)
+* [video About-the-Team](https://www.youtube.com/watch?v=ZMhPKBR7EF0)
 
 El video presenta a los integrantes del equipo detrás de InstAlert.
 
