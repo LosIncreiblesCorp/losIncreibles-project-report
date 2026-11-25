@@ -831,7 +831,7 @@ Las horas corresponden a estimaciones del desglose de trabajo. Las asignaciones 
     <tr><td>US07</td><td>Consultar empleados</td><td>S2-T02</td><td>Mostrar lista de empleados</td><td>Presentar los empleados del comercio e indicar el estado de sus membresías.</td><td>4</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
     <tr><td>US08</td><td>Activar o desactivar la membresía de un empleado</td><td>S2-T03</td><td>Cambiar estado de membresía</td><td>Añadir las acciones para activar o desactivar la membresía de un empleado.</td><td>4</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
     <tr><td>US08</td><td>Activar o desactivar la membresía de un empleado</td><td>S2-T04</td><td>Actualizar resumen de cupos</td><td>Reflejar en la interfaz el efecto de la operación sobre los cupos disponibles.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
-    <tr><td>US09</td><td>Editar los datos de un empleado</td><td>S2-T05</td><td>Implementar edición de empleado</td><td>Permitir modificar y guardar los datos editables del empleado.</td><td>3</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
+    <tr><td>—</td><td>Edición de empleado en el prototipo</td><td>S2-T05</td><td>Implementar edición de empleado</td><td>Permitir modificar y guardar los datos editables del empleado.</td><td>3</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
     <tr><td>US11</td><td>Consultar invitaciones</td><td>S2-T06</td><td>Mostrar invitaciones y estados</td><td>Presentar las invitaciones del comercio junto con su estado actual.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
     <tr><td>US41</td><td>Consultar los cupos del plan</td><td>S2-T07</td><td>Mostrar desglose de cupos</td><td>Presentar el límite del plan y los cupos ocupados, reservados y disponibles.</td><td>3</td><td>Yngrid Nahir Ruiz Villegas (nahiryn8)</td><td>Done</td></tr>
     <tr><td>US13</td><td>Activar el botón de pánico</td><td>S2-T08</td><td>Implementar activación de alerta</td><td>Permitir iniciar una alerta de pánico desde la interfaz.</td><td>5</td><td>Jean Fabio Noriega Collado (dumbaskidd)</td><td>Done</td></tr>
@@ -1515,6 +1515,314 @@ El equipo trabajó por módulos con ramas feature, revisiones e integración a d
 <p align="center">
   <img src="../assets/Chapter5/sprint-3-frontend-network.png" alt="Red del frontend con features integradas y release 2.0.0 hacia main y develop" width="800">
 </p>
+
+### 5.2.4. Sprint 4
+
+Durante el Sprint 4 se completó el recorrido de InstAlert con cuentas reales: registro administrativo, inicio de sesión, incorporación de comercio y perfil, contratación verificada con PayPal Sandbox e invitaciones mediante Brevo. Los módulos operativos utilizan identidad autenticada y comprueban membresía, suscripción y propiedad de recursos. El recorrido ya no depende del selector de usuarios de demostración.
+
+
+
+#### 5.2.4.1. Sprint Planning 4.
+
+La planificación orientó el trabajo a completar el acceso de administradores y empleados e integrar los módulos existentes con las condiciones de incorporación y suscripción.
+
+| Sprint # | Sprint 4 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 2026-11-17 |
+| Time | 07:00 PM, America/Lima |
+| Location | Reunión virtual por Google Meet |
+| Prepared By | Díaz Mendoza, Sebastián Víctor André |
+| Attendees (to planning meeting) | José Gustavo Asto Jácome<br>Sebastián Víctor André Díaz Mendoza<br>Jean Fabio Noriega Collado<br>Yngrid Nahir Ruiz Villegas<br>Ismael Sebastián Simón Calderón |
+| Sprint 3 Review Summary | Se conectaron las funciones de la aplicación con ASP.NET Core y MySQL. Se conservaron usuarios de demostración; faltaban cuentas reales, incorporación por invitación y completar la verificación de pagos. |
+| Sprint 3 Retrospective Summary | El trabajo posterior abordó las dependencias entre identidad, perfil, comercio y suscripción mediante features coordinadas de backend y frontend. |
+| **Sprint Goal & User Stories** | |
+| Sprint 4 Goal | **Nuestro enfoque está en** permitir que administradores y empleados utilicen InstAlert con sus propias cuentas y acceso al comercio que les corresponde.<br>**Creemos que esto aportará** una gestión segura y continua de los incidentes, el equipo y las suscripciones.<br>**Esto se confirmará cuando** un administrador pueda registrarse, completar sus datos y contratar un plan verificado, y un empleado pueda incorporarse por invitación y realizar sus operaciones con información persistida y permisos comprobados por el servidor. |
+| Sprint 4 Velocity | 42 puntos |
+| Sum of Story Points | **42 puntos** |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name) | GitHub Username | Business / Profiles | Alert | Contacts / Payments | Iam / Notifications | Mapping / Dashboard |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Asto Jácome, José Gustavo | DhudsQ | C | C | L | C | C |
+| Díaz Mendoza, Sebastián Víctor André | DiazDeveloper | C | L | C | C | C |
+| Noriega Collado, Jean Fabio | dumbaskidd | C | C | C | C | L |
+| Ruiz Villegas, Yngrid Nahir | nahiryn8 | C | C | C | L | C |
+| Simón Calderón, Ismael Sebastián | Mayel-dev | L | C | C | C | C |
+
+**L** identifica al líder técnico del aspecto y **C** a sus colaboradores. Víctor coordina al equipo como Team Leader.
+
+#### 5.2.4.3. Sprint Backlog 4.
+
+Se incorporan las historias funcionales terminadas en este sprint, culminando con todas las historias redactadas y esperadas. Las tareas registran trabajo realizado, con estimaciones de una o dos horas.
+
+<table>
+<thead><tr><th>Story ID</th><th>User Story / Technical Story</th><th>Task ID</th><th>Task</th><th>Description</th><th>Estimation (Hours)</th><th>Assigned To</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td rowspan="3">US01</td><td rowspan="3">Crear una cuenta personal</td><td>US01TASK001</td><td>Persistir cuenta y correo único con hash BCrypt</td><td>Crear credenciales propias con validación de datos y acceso por token.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+<tr><td>US01TASK002</td><td>Conectar el formulario de registro y sus validaciones</td><td>Crear credenciales propias con validación de datos y acceso por token.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+<tr><td>US01TASK003</td><td>Emitir tokens de acceso con expiración y revocación</td><td>Crear credenciales propias con validación de datos y acceso por token.</td><td>1</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+<tr><td rowspan="2">US02</td><td rowspan="2">Registrar un comercio</td><td>US02TASK001</td><td>Vincular el único comercio al administrador autenticado</td><td>Conservar propiedad única y coordenadas elegidas sin hardcodeo de identidad.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+<tr><td>US02TASK002</td><td>Registrar datos comerciales y ubicación seleccionada en el mapa</td><td>Conservar propiedad única y coordenadas elegidas sin hardcodeo de identidad.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+<tr><td rowspan="2">US03</td><td rowspan="2">Iniciar sesión</td><td>US03TASK001</td><td>Autenticar correo y contraseña mediante IAM</td><td>Usar sesión autenticada y continuar el siguiente paso definido por servidor.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+<tr><td>US03TASK002</td><td>Recuperar la sesión y retomar la incorporación incompleta</td><td>Usar sesión autenticada y continuar el siguiente paso definido por servidor.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+
+<tr><td rowspan="2">US09</td><td rowspan="2">Cerrar sesión</td><td>US09TASK001</td><td>Revocar los tokens de la cuenta</td><td>Invalidar el acceso anterior mediante el endpoint de cierre autenticado.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+<tr><td>US09TASK002</td><td>Limpiar la sesión y dirigir al inicio</td><td>Retirar datos de la cuenta en frontend y mostrar el cierre de sesión en el menú.</td><td>1</td><td>Jean Fabio Noriega Collado</td><td>Done</td></tr>
+<tr><td rowspan="3">US05</td><td rowspan="3">Invitar a un empleado</td><td>US05TASK001</td><td>Vincular la invitación con una cuenta provisional de IAM</td><td>Coordinar cuenta invitada, reserva comercial y solicitud de entrega.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+<tr><td>US05TASK002</td><td>Reservar cupo y publicar la solicitud de entrega</td><td>Coordinar cuenta invitada, reserva comercial y solicitud de entrega.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+<tr><td>US05TASK003</td><td>Impedir edición de datos personales de empleados incorporados</td><td>Coordinar cuenta invitada, reserva comercial y solicitud de entrega.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+<tr><td rowspan="2">US12</td><td rowspan="2">Reenviar una invitación pendiente</td><td>US12TASK001</td><td>Rotar la credencial provisional sin reservar otro cupo</td><td>Mantener una sola reserva y no reemplazar contraseñas personales.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+<tr><td>US12TASK002</td><td>Enviar mediante Brevo y omitir entregas canceladas o superadas</td><td>Mantener una sola reserva y no reemplazar contraseñas personales.</td><td>1</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+<tr><td rowspan="4">US26</td><td rowspan="4">Seleccionar un plan de suscripción</td><td>US26TASK001</td><td>Crear el checkout y persistir la correlación con PayPal</td><td>Conceder acceso solo cuando la suscripción y el pago estén confirmados.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td>US26TASK002</td><td>Integrar los tres planes y el SDK Sandbox en el onboarding</td><td>Conceder acceso solo cuando la suscripción y el pago estén confirmados.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td>US26TASK003</td><td>Verificar pago y periodo en servidor antes de habilitar acceso</td><td>Conceder acceso solo cuando la suscripción y el pago estén confirmados.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td>US26TASK004</td><td>Conservar y reintentar aprobaciones pendientes sin duplicar contratos</td><td>Conceder acceso solo cuando la suscripción y el pago estén confirmados.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td rowspan="3">US27</td><td rowspan="3">Cancelar y reactivar la renovación de una suscripción</td><td>US27TASK001</td><td>Suspender renovaciones conservando el periodo pagado</td><td>Mantener el periodo pagado y reflejar el estado real de renovación.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td>US27TASK002</td><td>Reanudar el acuerdo antes del vencimiento</td><td>Mantener el periodo pagado y reflejar el estado real de renovación.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td>US27TASK003</td><td>Aplicar restricciones de acceso al expirar la cobertura</td><td>Mantener el periodo pagado y reflejar el estado real de renovación.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td rowspan="2">US40</td><td rowspan="2">Configurar el radio de recepción de alertas</td><td>US40TASK001</td><td>Consultar y guardar el radio del usuario autenticado</td><td>Limitar avisos cercanos según los radios admitidos y preferencias guardadas.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+<tr><td>US40TASK002</td><td>Aplicar radio y preferencias al seleccionar destinatarios</td><td>Limitar avisos cercanos según los radios admitidos y preferencias guardadas.</td><td>1</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+<tr><td rowspan="3">US43</td><td rowspan="3">Aceptar una invitación y completar el registro</td><td>US43TASK001</td><td>Exigir cambio de contraseña temporal</td><td>Completar los pasos obligatorios antes de habilitar operaciones del empleado.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+<tr><td>US43TASK002</td><td>Completar perfil y aceptar la invitación del destinatario</td><td>Completar los pasos obligatorios antes de habilitar operaciones del empleado.</td><td>2</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+<tr><td>US43TASK003</td><td>Activar la membresía sin duplicar la reserva</td><td>Completar los pasos obligatorios antes de habilitar operaciones del empleado.</td><td>1</td><td>Yngrid Nahir Ruiz Villegas</td><td>Done</td></tr>
+<tr><td rowspan="2">TS-08</td><td rowspan="2">Endpoint para aceptar una invitación de personal</td><td>TS08TASK001</td><td>Autorizar aceptación por identidad y correo coincidente</td><td>Revalidar destinatario, membresía y capacidad en el backend.</td><td>2</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+<tr><td>TS08TASK002</td><td>Comprobar asociación única, capacidad y suscripción</td><td>Revalidar destinatario, membresía y capacidad en el backend.</td><td>1</td><td>Ismael Sebastián Simón Calderón</td><td>Done</td></tr>
+<tr><td rowspan="3">TS-21</td><td rowspan="3">Endpoints para iniciar y verificar la contratación de una suscripción</td><td>TS21TASK001</td><td>Guardar la intención y suscripción del proveedor</td><td>Correlacionar y verificar el pago en servidor sin duplicar transacciones.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td>TS21TASK002</td><td>Validar pago confirmado y respuestas sin transacciones</td><td>Correlacionar y verificar el pago en servidor sin duplicar transacciones.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td>TS21TASK003</td><td>Hacer idempotente la activación y facturación</td><td>Correlacionar y verificar el pago en servidor sin duplicar transacciones.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td rowspan="2">TS-22</td><td rowspan="2">Endpoints para solicitar y verificar un cambio de plan</td><td>TS22TASK001</td><td>Bloquear un plan inferior con capacidad insuficiente</td><td>Conservar el plan actual si el proveedor no confirma o falta capacidad.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td>TS22TASK002</td><td>Aplicar únicamente plan y vigencia confirmados por PayPal</td><td>Conservar el plan actual si el proveedor no confirma o falta capacidad.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td rowspan="2">TS-23</td><td rowspan="2">Endpoint para cancelar la renovación de una suscripción</td><td>TS23TASK001</td><td>Registrar suspensión de renovación y conservar cobertura</td><td>Preservar el periodo contratado y evitar efectos duplicados.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td>TS23TASK002</td><td>Conservar el resultado ante solicitudes repetidas</td><td>Preservar el periodo contratado y evitar efectos duplicados.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td rowspan="3">TS-24</td><td rowspan="3">Endpoint para recibir y conciliar eventos del proveedor de pagos</td><td>TS24TASK001</td><td>Validar autenticidad y tipos de eventos del webhook</td><td>Procesar únicamente eventos verificables y sincronizar acuerdos conocidos.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td>TS24TASK002</td><td>Conciliar sin duplicar transacciones por reintentos</td><td>Procesar únicamente eventos verificables y sincronizar acuerdos conocidos.</td><td>2</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+<tr><td>TS24TASK003</td><td>Sincronizar periódicamente sin depender del webhook</td><td>Procesar únicamente eventos verificables y sincronizar acuerdos conocidos.</td><td>1</td><td>José Gustavo Asto Jácome</td><td>Done</td></tr>
+</tbody>
+</table>
+
+
+
+
+
+
+**Tablero del Sprint 4.** El tablero reúne 28 tarjetas principales en Listo y muestra el desglose de tareas de las historias.
+
+![Tablero del Sprint 4 — Sprint 4](../assets/Chapter5/sprint-4-jira-board.png)
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+IAM incorpora modelo de usuario, comandos, queries, errores, persistencia, BCrypt, JWT y recursos REST. Business y Profiles determinan los pasos de incorporación; Payments habilita acceso después de verificar el pago. Los contextos operativos comprueban identidad y acceso, mientras el frontend descarta datos de una cuenta anterior.
+
+La reorganización del backend agrupa contratos de aplicación, servicios internos, snapshots, eventos, ACL, proveedores y workers. Se conservan los nueve bounded contexts y el AppDbContext compartido. La preparación final actualiza configuración de Production, validación de variables del frontend, caché de Firebase y README de ejecución.
+
+
+
+| Repository | Branch | Commit Id | Commit Message | Commit Author | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Instalert-BackEnd | `feature/iam` | [7026821](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/7026821898aabef838f90a1a470d456e55d3a665) | `feat(iam): add user account model` | Nahir Ruiz | 19/11/2026 |
+| Instalert-BackEnd | `feature/iam` | [64a4dea](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/64a4deaab7e4ece9936a91827c03a94dbe392a50) | `feat(iam): add account commands and queries` | Nahir Ruiz | 19/11/2026 |
+| Instalert-BackEnd | `feature/iam` | [87c3ca5](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/87c3ca5f1570f379b2420d182c2135b7201a5f7d) | `feat(iam): add authentication errors` | Nahir Ruiz | 19/11/2026 |
+| Instalert-BackEnd | `feature/iam` | [3b1fcdb](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/3b1fcdbd6e2daa586adad0c069b8789377d33773) | `feat(iam): add authentication contracts` | Nahir Ruiz | 19/11/2026 |
+| Instalert-BackEnd | `feature/iam` | [0edf226](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/0edf226846ba2c019c826bebda21d024fb5f80cd) | `feat(iam): add account services` | Nahir Ruiz | 19/11/2026 |
+| Instalert-BackEnd | `feature/iam` | [b22421a](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/b22421af09bc1e784e16ad315a1f197a25277309) | `feat(iam): add account persistence` | Nahir Ruiz | 19/11/2026 |
+| Instalert-BackEnd | `feature/iam` | [90b6e13](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/90b6e1387951865fcd60c8d89fa2d6f836f228c1) | `feat(iam): add password hashing and tokens` | Nahir Ruiz | 19/11/2026 |
+| Instalert-BackEnd | `feature/iam` | [004a0a2](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/004a0a28a025114fa9a51b42c9453f4e9c942583) | `feat(iam): add account endpoints` | Nahir Ruiz | 19/11/2026 |
+| Instalert-BackEnd | `feature/iam` | [992d115](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/992d115b3284162b985ed23febd1236ff2a5cba9) | `feat(iam): configure API authentication` | Nahir Ruiz | 19/11/2026 |
+| Instalert-BackEnd | `feature/iam` | [d898495](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/d898495d2d843f21de7e17f1aad9ad273180f487) | `docs(iam): explain authentication setup` | Nahir Ruiz | 19/11/2026 |
+| Instalert-BackEnd | `feature/business-identity` | [d891659](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/d89165983d969a43b3da0633ead007e42f7688bc) | `feat(business): require sign in to manage a business` | Ismael Simon | 19/11/2026 |
+| Instalert-BackEnd | `feature/profiles-identity` | [780c080](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/780c080bc9746371fabe71dc2eac4980df703a7a) | `feat(profiles): protect personal profile setup` | Ismael Simon | 19/11/2026 |
+| Instalert-BackEnd | `feature/subscription-onboarding` | [b067a6a](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/b067a6a6c43e073dce328d75df2b4ddfa9d9a9d1) | `feat(payments): save PayPal subscription checkouts` | Jose Asto | 20/11/2026 |
+| Instalert-BackEnd | `feature/invitation-access` | [0748774](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/0748774ae5093d985f64390ac29676dd9197207d) | `feat(notifications): store protected invitation credentials` | Nahir Ruiz | 20/11/2026 |
+| Instalert-BackEnd | `feature/staff-invitations` | [b7371a0](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/b7371a028d57451bcd77a2fdceded9a14896037d) | `feat(business): link invitations to employee accounts` | Ismael Simon | 20/11/2026 |
+| Instalert-BackEnd | `feature/subscription-onboarding` | [a1a6179](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/a1a61794cc053a834c5868d68987ca3fa0b415b1) | `feat(payments): sync subscription payments` | Jose Asto | 20/11/2026 |
+| Instalert-BackEnd | `feature/invitation-access` | [01d66a4](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/01d66a4c5a882b298b0511697885b504003e4810) | `feat(notifications): send employee invitation emails` | Nahir Ruiz | 20/11/2026 |
+| Instalert-BackEnd | `feature/staff-invitations` | [5a166d2](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/5a166d210dca7be89e2327e723d7715945496f6c) | `refactor(business): remove staff account editing` | Ismael Simon | 20/11/2026 |
+| Instalert-BackEnd | `feature/subscription-onboarding` | [b8798e1](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/b8798e12139875aaf8441ca861061c0bd468efb2) | `feat(payments): resume subscription renewals` | Jose Asto | 20/11/2026 |
+| Instalert-BackEnd | `feature/backend-structure` | [2a7d668](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/2a7d66837e29ea86fa4fb565245c80639dfe80d6) | `refactor: organize application services` | Jose Asto | 20/11/2026 |
+| Instalert-BackEnd | `feature/backend-structure` | [a3ac9de](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/a3ac9deae088152b4f2954d41b6682b1537567c8) | `refactor: organize integration events` | Jose Asto | 20/11/2026 |
+| Instalert-BackEnd | `feature/backend-structure` | [6bc010b](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/6bc010bfd30ae4fb3f8cb37de0de6b791c43df43) | `refactor: organize external services` | Jose Asto | 20/11/2026 |
+| Instalert-BackEnd | `feature/backend-structure` | [98484d7](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/98484d74d8323f117ecaf3fe7b2c00103e8ea52d) | `refactor: organize background workers` | Jose Asto | 20/11/2026 |
+| Instalert-BackEnd | `feature/backend-structure` | [38067ff](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/38067ff03e1b0fb6f117c7286e75773e0fb179f0) | `docs: update backend folder structure` | Jose Asto | 20/11/2026 |
+| Instalert-BackEnd | `feature/backend-structure` | [919d9c1](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/919d9c10e69738aa1d5d08b5ce70bbb56eeceac2) | `fix(payments): handle pending PayPal transactions` | Jose Asto | 20/11/2026 |
+| Instalert-BackEnd | `feature/alert-access` | [cdf219d](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/cdf219d54f6f3764dad39e0310272a3e37bade76) | `feat(alert): protect alert workflows` | Sebastian Diaz | 21/11/2026 |
+| Instalert-BackEnd | `feature/contacts-access` | [b6a084d](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/b6a084dd232e64104629c59acc525d356c7a0013) | `feat(contacts): protect personal contacts` | Jose Asto | 21/11/2026 |
+| Instalert-BackEnd | `feature/contacts-access` | [f98685d](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/f98685d86c905f43ebf6fb7048c40136858d4180) | `feat(notifications): include employee names in emergency emails` | Jose Asto | 21/11/2026 |
+| Instalert-BackEnd | `feature/notifications-access` | [2b1f568](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/2b1f56835841bfa33806212338f7921023307476) | `feat(notifications): protect notification access` | Nahir Ruiz | 22/11/2026 |
+| Instalert-BackEnd | `feature/notifications-access` | [00876b3](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/00876b35143c6cdbc82a2a87e01cb38392804483) | `feat(notifications): notify active accounts` | Nahir Ruiz | 22/11/2026 |
+| Instalert-BackEnd | `feature/mapping-access` | [59bd4c2](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/59bd4c2db570281e38c63968a8ec1dc300da9dbc) | `feat(mapping): protect map access` | Jean Fabio Noriega Collado | 22/11/2026 |
+| Instalert-BackEnd | `feature/dashboard-access` | [03bc3ad](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/03bc3ad4a613b1f3abb9798e4bec475cda10ea9a) | `feat(dashboard): protect dashboard and reports` | Jean Fabio Noriega Collado | 22/11/2026 |
+| Instalert-BackEnd | `release/1.1.0` | [366652a](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/366652a2ef30d8da643a0551142f565d08d780c1) | `chore(release): prepare 1.1.0` | Jean Fabio Noriega Collado | 22/11/2026 |
+| Instalert-BackEnd | `feature/invitation-email` | [373fd1e](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/373fd1e4f8c0d2d617ec22509a1dcb7fec38fc7f) | `fix(notifications):send invitations fixed` | Nahir Ruiz | 22/11/2026 |
+| Instalert-BackEnd | `feature/deployment-preparation` | [43b7cc5](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/43b7cc5ebebdc3f8bff54ca03dae5fd7d18afb4c) | `fix(deployment): prepare production settings and setup guide` | Jose Asto | 24/11/2026 |
+| Instalert-BackEnd | `release/2.0.0` | [2c88b11](https://github.com/LosIncreiblesCorp/Instalert-BackEnd/commit/2c88b11f0836efdc61b9f3e76ba35d780d16eb06) | `chore(release): prepare 2.0.0` | Jose Asto | 24/11/2026 |
+| Instalert-FrontEnd | `feature/authentication` | [5d3ef9b](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/5d3ef9bfaaa920aa12a046e00938487e528fb27e) | `feat(iam): add account registration and sign in` | Nahir Ruiz | 19/11/2026 |
+| Instalert-FrontEnd | `feature/onboarding` | [c3198af](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/c3198af2945f5d9253e39cd3ed39e8ac2c9ea5d8) | `feat(onboarding): guide account setup` | Ismael Simon | 19/11/2026 |
+| Instalert-FrontEnd | `feature/invitation-access` | [f08a5f0](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/f08a5f0e9b150d1cacf641ff61028614464605f7) | `feat(iam): add employee account setup` | Nahir Ruiz | 20/11/2026 |
+| Instalert-FrontEnd | `feature/staff-invitations` | [914db22](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/914db22a98bd2c8e9aef171b576298fb87308f51) | `feat(business): update staff invitation management` | Ismael Simon | 20/11/2026 |
+| Instalert-FrontEnd | `feature/subscription-onboarding` | [7eb7e97](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/7eb7e9790e04a094f7f93fa5bb826e27c9809927) | `feat(payments): add subscription checkout to account setup` | Jose Asto | 20/11/2026 |
+| Instalert-FrontEnd | `feature/alert-access` | [9ae85c9](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/9ae85c937e1227fca6d731dc5e2342d7c9c6c719) | `feat(alert): handle account access changes` | Sebastian Diaz | 21/11/2026 |
+| Instalert-FrontEnd | `feature/contacts-access` | [f53c9d2](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/f53c9d272bb76160b416617bf9ffe33dbb9f5e17) | `feat(contacts): handle account access changes` | Jose Asto | 21/11/2026 |
+| Instalert-FrontEnd | `feature/notifications-access` | [2f51779](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/2f51779a2827c950d74a9464c67738849f99a629) | `feat(notifications): keep the inbox in sync` | Nahir Ruiz | 22/11/2026 |
+| Instalert-FrontEnd | `feature/notifications-access` | [2411991](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/2411991525202b5376480e09065f90502009bb27) | `feat(notifications): open alerts on the map` | Nahir Ruiz | 22/11/2026 |
+| Instalert-FrontEnd | `feature/mapping-access` | [0de2b06](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/0de2b06968c871e87d893356899667eb187db6cc) | `feat(mapping): clear map when access changes` | Jean Fabio Noriega Collado | 22/11/2026 |
+| Instalert-FrontEnd | `feature/mapping-access` | [aa49a4b](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/aa49a4b7ec38506aa032725a6f610f14d076aae3) | `feat(alert): choose incident location on the map` | Jean Fabio Noriega Collado | 22/11/2026 |
+| Instalert-FrontEnd | `feature/dashboard-access` | [7d132c5](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/7d132c57b1535552d2168c74aab35af246ddcacb) | `feat(dashboard): clear data when access changes` | Jean Fabio Noriega Collado | 22/11/2026 |
+| Instalert-FrontEnd | `feature/dashboard-access` | [d3cf84e](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/d3cf84ee299c9c88652b5eb18486ae5eaf82889d) | `feat(navigation): show user name and move sign out` | Jean Fabio Noriega Collado | 22/11/2026 |
+| Instalert-FrontEnd | `release/2.1.0` | [c9ca916](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/c9ca91663a0609ae66ef1e6265a37685815549ab) | `chore(release): prepare 2.1.0` | Jean Fabio Noriega Collado | 22/11/2026 |
+| Instalert-FrontEnd | `feature/deployment-preparation` | [a12cc01](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/a12cc01ee95819d715de88282c690b5bbbd4ffeb) | `fix(deployment): prepare frontend build and setup guide` | Jose Asto | 24/11/2026 |
+| Instalert-FrontEnd | `release/3.0.0` | [796381c](https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/commit/796381ca1319e6ee7dab87cab617349490624dd5) | `chore(release): prepare 3.0.0` | Jose Asto | 24/11/2026 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+
+
+Las compilaciones finales del backend 2.0.0 y frontend 3.0.0 fueron correctas. El backend no emitió errores ni advertencias. La construcción y arranque del Dockerfile se verificaron localmente.
+
+**Inicio de sesión.** La pantalla permite acceder con correo y contraseña, cambiar el idioma y continuar una invitación o iniciar el registro administrativo.
+
+![Inicio de sesión — Sprint 4](../assets/Chapter5/sprint-4-sign-in.png)
+
+**Registro de administrador.** El formulario solicita correo, contraseña y confirmación para crear la cuenta administrativa. La captura muestra el envío del registro.
+
+![Registro de administrador — Sprint 4](../assets/Chapter5/sprint-4-administrator-registration.png)
+
+**Registro del comercio.** El primer paso de incorporación reúne nombre comercial, RUC, dirección y selección de ubicación mediante el mapa.
+
+![Registro del comercio — Sprint 4](../assets/Chapter5/sprint-4-business-onboarding.png)
+
+**Perfil personal.** El segundo paso muestra la confirmación de guardado de los datos personales y las preferencias de idioma.
+
+![Perfil personal — Sprint 4](../assets/Chapter5/sprint-4-personal-profile.png)
+
+**Contratación del plan.** El administrador selecciona Essential y continúa su autorización con PayPal. El diálogo identifica el precio mensual y la capacidad del plan.
+
+![Contratación del plan — Sprint 4](../assets/Chapter5/sprint-4-subscription-checkout.png)
+
+**Autorización en PayPal Sandbox.** La ventana del proveedor muestra el dominio Sandbox, el importe de USD 15 y la acción de aceptar la suscripción.
+
+![Autorización en PayPal Sandbox — Sprint 4](../assets/Chapter5/sprint-4-paypal-sandbox.png)
+
+**Suscripción verificada.** InstAlert confirma el pago verificado y muestra Essential activo, el periodo de renovación y la capacidad de cuatro empleados.
+
+![Suscripción verificada — Sprint 4](../assets/Chapter5/sprint-4-active-subscription.png)
+
+**Invitación de personal.** El administrador puede invitar por nombre y correo; la pantalla muestra la capacidad disponible y explica la vigencia de la contraseña temporal.
+
+![Invitación de personal — Sprint 4](../assets/Chapter5/sprint-4-staff-invitation.png)
+
+**Recepción de la invitación.** El correo recibido contiene la credencial temporal y las instrucciones para cambiarla antes de completar el perfil y aceptar la invitación.
+
+![Recepción de la invitación — Sprint 4](../assets/Chapter5/sprint-4-invitation-email.png)
+
+**Correo al contacto de emergencia.** El aviso recibido identifica al empleado que registró al destinatario como contacto de emergencia.
+
+![Correo al contacto de emergencia — Sprint 4](../assets/Chapter5/sprint-4-emergency-email.png)
+
+**Bandeja de notificaciones.** La bandeja muestra avisos cercanos, lectura y el enlace View alert on map para continuar hacia el mapa.
+
+![Bandeja de notificaciones — Sprint 4](../assets/Chapter5/sprint-4-notifications.png)
+
+**Resumen operativo.** El resumen muestra riesgo local, incidentes cercanos, reportes por completar, notificaciones y gráficos del periodo.
+
+![Resumen operativo — Sprint 4](../assets/Chapter5/sprint-4-employee-dashboard.png)
+
+**Resumen administrativo.** El dashboard muestra indicadores del comercio, un empleado activo, tres cupos disponibles y la suscripción Essential vigente.
+
+![Resumen administrativo — Sprint 4](../assets/Chapter5/sprint-4-administrator-dashboard.png)
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Los endpoints protegidos utilizan `Authorization: Bearer <accessToken>`; el frontend obtiene la identidad de IAM. Las respuestas distinguen 401 por sesión ausente o inválida y 403 cuando la operación no cumple las condiciones de acceso.
+
+| Contexto | Método y ruta | Uso |
+| :--- | :--- | :--- |
+| Iam | POST `/api/v1/users` | Registro de administrador con email y password. |
+| Iam | POST `/api/v1/tokens` | Autenticación y obtención de token. |
+| Iam | GET `/api/v1/sessions/current` | Identidad, paso de incorporación y acceso. |
+| Iam | PUT `/api/v1/users/me/password` | Cambio mediante currentPassword y newPassword. |
+| Iam | DELETE `/api/v1/tokens/current` | Revocación de tokens de la cuenta. |
+| Business | POST `/api/v1/businesses` | Registro del único comercio propio. |
+| Profiles | GET/PUT `/api/v1/profiles/{userId}` | Consulta y actualización del perfil propio. |
+| Business | POST `/api/v1/businesses/{id}/invitations` | Invitación con cuenta provisional y reserva. |
+| Business | GET `/api/v1/staff-invitations/me` | Invitaciones de la identidad destinataria. |
+| Business | POST `/api/v1/staff-invitations/{id}/acceptance` | Aceptación después de contraseña personal y perfil. |
+| Business | POST `/api/v1/staff-invitations/{id}/resend` | Nueva entrega sin reserva adicional. |
+| Payments | POST `/api/v1/businesses/{businessId}/subscription/checkout` | Contratación con planId. |
+| Payments | POST `/api/v1/businesses/{businessId}/subscription/verification` | Comprobación de checkoutId y subscriptionId. |
+| Payments | POST `/api/v1/businesses/{businessId}/subscription/plan-change` | Solicitud del nuevo planId. |
+| Payments | POST `/api/v1/businesses/{businessId}/subscription/plan-change/verification` | Verificación del cambio mediante checkoutId. |
+| Payments | POST `/api/v1/businesses/{businessId}/subscription/cancellation` | Suspensión de renovación con periodo vigente. |
+| Payments | POST `/api/v1/businesses/{businessId}/subscription/renewal` | Reanudación antes del vencimiento. |
+| Payments | POST `/api/v1/payments/paypal/webhook` | Eventos verificados mediante firma de PayPal, sin Bearer de usuario. |
+| Notifications | GET `/api/v1/notifications/deliveries` | Estados de entrega propios. |
+
+La documentación se publica en Scalar y OpenAPI. Contacts, Alert, Mapping y Dashboard conservan sus contratos y añaden comprobaciones de identidad y acceso. Los IDs enviados deben obtenerse de la cuenta y comercio autenticados. Inglés es el idioma predeterminado; se admite 'es-419' para mensajes traducidos.
+
+PayPal se integra en Infrastructure de Payments. Brevo se implementa en Infrastructure de Notifications, que posee las entregas y procesa eventos mediante outbox; Contacts conserva los destinatarios personales. Mapbox GL se utiliza en frontend para visualizar la ubicación y las capas consultadas a la API.
+
+**Documentación IAM en Scalar.** Scalar publicado en Render muestra las operaciones de registro, tokens, consulta de sesión, revocación y cambio de contraseña.
+
+![Documentación IAM en Scalar — Sprint 4](../assets/Chapter5/sprint-4-scalar-identity.png)
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+| Producto | Código final | Plataforma |
+| :--- | :--- | :--- |
+| Backend | main, tag v2.0.0, merge 01a9801 | Render, Docker y MySQL remoto. |
+| Frontend | main, tag v3.0.0, merge b2768d6 | Firebase Hosting y compilación Vite. |
+| Base de datos | Migraciones del backend 2.0.0 | Aiven defaultdb; el comando ejecutado el 25/11/2026 informó que ya estaban todas aplicadas. |
+
+Backend: https://instalert-backend-yqe9.onrender.com
+
+Frontend: https://instalert-c3f7f.web.app/
+
+Scalar: https://instalert-backend-yqe9.onrender.com/scalar/
+
+Release backend: https://github.com/LosIncreiblesCorp/Instalert-BackEnd/releases/tag/v2.0.0
+
+Release frontend: https://github.com/LosIncreiblesCorp/Instalert-FrontEnd/releases/tag/v3.0.0
+
+
+
+Los releases se integraron en main, se devolvieron a develop y se publicaron con sus tags.
+
+**Backend desplegado en Render.** El servicio Docker aparece Live desde main en el commit 01a9801, correspondiente al merge del release 2.0.0.
+
+![Backend desplegado en Render — Sprint 4](../assets/Chapter5/sprint-4-render-deployment.png)
+
+**Proyecto frontend en Firebase.** La consola identifica el proyecto InstAlert en Firebase y su aplicación web. Esta vista corresponde al resumen del proyecto.
+
+![Proyecto frontend en Firebase — Sprint 4](../assets/Chapter5/sprint-4-firebase-project.png)
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+| Integrante | Aporte |
+| :--- | :--- |
+| Yngrid Nahir Ruiz Villegas | Modelo y capas de IAM, errores, BCrypt/JWT, endpoints y formularios de cuenta, incorporación de empleados, entregas Brevo y navegación desde notificaciones. |
+| Ismael Sebastián Simón Calderón | Propiedad del comercio por identidad, onboarding comercial y personal, invitaciones vinculadas a cuentas y restricciones de edición del personal. |
+| Sebastián Víctor André Díaz Mendoza | Protección de los recorridos de alerta y su estado en frontend frente a cambios de cuenta, membresía y suscripción; coordinación como Team Leader. |
+| José Gustavo Asto Jácome | Checkout y conciliación de PayPal, cancelación/renovación, contactos personales, nombre del empleado en correos, organización del backend y preparación final de despliegue. |
+| Jean Fabio Noriega Collado | Acceso de Mapping y Dashboard, mapa de ubicación de incidentes, limpieza de datos por cambios de acceso, navegación y versiones intermedias. |
+
+La colaboración se refleja en features por funcionalidad, commits por contexto e integración coordinada de API e interfaz. Se verificaron recorridos válidos y bloqueos por identidad, propiedad, membresía y periodo pagado.
+
+**Contribuciones del backend.** La gráfica muestra la distribución de commits entre los integrantes del repositorio backend.
+
+![Contribuciones del backend — Sprint 4](../assets/Chapter5/sprint-4-backend-contributors.png)
+
+**Ramas del backend.** El gráfico muestra features de identidad, acceso y preparación de despliegue, releases 1.1.0 y 2.0.0 y su integración en main.
+
+![Ramas del backend — Sprint 4](../assets/Chapter5/sprint-4-backend-network.png)
+
+**Contribuciones del frontend.** La gráfica muestra la distribución de commits entre los integrantes del repositorio frontend.
+
+![Contribuciones del frontend — Sprint 4](../assets/Chapter5/sprint-4-frontend-contributors.png)
+
+**Ramas del frontend.** El gráfico muestra las features de autenticación e integración, los releases 2.1.0 y 3.0.0 y el retorno a develop.
+
+![Ramas del frontend — Sprint 4](../assets/Chapter5/sprint-4-frontend-network.png)
 
 ## 5.3. Validation Interviews
 
