@@ -2,9 +2,21 @@
 
 [![Portada del video About-the-Team](../assets/Chapter5/about-the-team-video-thumbnail.png)](https://www.youtube.com/watch?v=ZMhPKBR7EF0)
 
-El video presenta al equipo detrás de InstAlert y a sus integrantes.
+El video reúne la retrospectiva del equipo de InstAlert y los testimonios de sus cinco integrantes. El proyecto partió de entrevistas con administradores y personal operativo para entender cómo comunican incidentes de seguridad. A partir de esos hallazgos, el equipo diseñó y probó prototipos e integró la aplicación web con una API y una base de datos para gestionar alertas, consultar el mapa de riesgos y administrar el personal de los comercios. Las entrevistas de validación permitieron identificar mejoras concretas en la claridad de las invitaciones y las preferencias de notificación.
 
-[Ver el video About-the-Team](https://www.youtube.com/watch?v=ZMhPKBR7EF0)
+**Duración total:** `00:14:21`
+
+| Inicio | Contenido |
+| :--- | :--- |
+| `00:00:04` | Introducción y retrospectiva del equipo, a cargo de Sebastián Díaz Mendoza |
+| `00:05:19` | Testimonio de Yngrid Ruiz Villegas |
+| `00:06:37` | Testimonio de Ismael Simón Calderón |
+| `00:08:07` | Testimonio de José Asto Jácome |
+| `00:10:46` | Testimonio de Sebastián Díaz Mendoza |
+| `00:11:45` | Testimonio de Jean Noriega Collado |
+
+- YouTube: <https://www.youtube.com/watch?v=ZMhPKBR7EF0>
+- Microsoft Stream: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u201823468_upc_edu_pe/IQBIaJLirI88Rr_KEMEVocVrATvzTWLxP14lam1rgnNpLFE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EBmHz5>
 
 # Bibliografía
 
