@@ -17,3 +17,17 @@ Repositorio de documentación de InstAlert. El informe reúne la investigación,
 - [Conclusiones](docs/11-conclusions.md)
 - [Bibliografía](docs/12-references.md)
 - [Anexos](docs/13-annexes.md)
+
+## Exportar a PDF con Pandoc
+
+Desde la raíz del repositorio, ejecuta en PowerShell:
+
+```powershell
+Set-Location docs
+$capitulos = (Get-ChildItem '[0-9][0-9]-*.md' | Sort-Object Name).Name
+$salida = Join-Path $PWD 'instalert-report.html'
+pandoc --from=gfm --to=html5 --standalone --metadata 'pagetitle:InstAlert' --lua-filter=pandoc-annexes.lua $capitulos -o $salida
+Start-Process $salida
+```
+
+En el navegador, imprime el HTML como PDF en tamaño A4. El filtro aplica los saltos de página de los anexos y conserva sus enlaces internos en la exportación. El HTML intermedio se genera en `docs/` para cargar las imágenes del informe y puede eliminarse después de guardar el PDF.

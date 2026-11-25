@@ -122,12 +122,12 @@
 - [Video About-the-Team](12-references.md#video-about-the-team)
 - [Bibliografía](12-references.md#bibliografía)
 - [Anexos](13-annexes.md#anexos)
-  - [Exposiciones del Proyecto](13-annexes.md#exposiciones-del-proyecto)
-  - [Needfinding Interviews](13-annexes.md#needfinding-interviews)
-  - [Validation Interviews — Sprint 3](13-annexes.md#validation-interviews--sprint-3)
-  - [Heuristic Evaluation](13-annexes.md#heuristic-evaluation)
-  - [Execution Evidence](13-annexes.md#execution-evidence)
-  - [Productos Desplegados](13-annexes.md#productos-desplegados)
+  - [Anexo A. Videos de Exposiciones](13-annexes.md#anexo-a-videos-de-exposiciones)
+  - [Anexo B. Entrevistas de Needfinding](13-annexes.md#anexo-b-entrevistas-de-needfinding)
+  - [Anexo C. Entrevistas de validación del Sprint 3](13-annexes.md#anexo-c-entrevistas-de-validación-del-sprint-3)
+  - [Anexo D. Evaluación heurística](13-annexes.md#anexo-d-evaluación-heurística)
+  - [Anexo E. Evidencias de ejecución](13-annexes.md#anexo-e-evidencias-de-ejecución)
+  - [Anexo F. Productos desplegados](13-annexes.md#anexo-f-productos-desplegados)
     - [Landing Page](13-annexes.md#landing-page)
     - [InstAlert Web Application](13-annexes.md#instalert-web-application)
     - [InstAlert Backend API](13-annexes.md#instalert-backend-api)
@@ -136,7 +136,7 @@
     - [Evidencia histórica del Sprint 2](13-annexes.md#evidencia-histórica-del-sprint-2)
     - [Video de presentación del producto](13-annexes.md#video-de-presentación-del-producto)
     - [Video de presentación del equipo](13-annexes.md#video-de-presentación-del-equipo)
-  - [Repositorios](13-annexes.md#repositorios)
+  - [Anexo G. Repositorios](13-annexes.md#anexo-g-repositorios)
 
 
 
