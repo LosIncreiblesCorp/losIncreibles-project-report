@@ -1,6 +1,8 @@
 # Video About-the-Team
 
-[![Portada del video About-the-Team](../assets/Chapter5/about-the-team-video-thumbnail.png)](https://www.youtube.com/watch?v=ZMhPKBR7EF0)
+![Portada del video About-the-Team](../assets/Chapter5/about-the-team-video-thumbnail.png)
+
+https://www.youtube.com/watch?v=ZMhPKBR7EF0
 
 El video reúne la retrospectiva del equipo de InstAlert y los testimonios de sus cinco integrantes. El proyecto partió de entrevistas con administradores y personal operativo para entender cómo comunican incidentes de seguridad. A partir de esos hallazgos, el equipo diseñó y probó prototipos e integró la aplicación web con una API y una base de datos para gestionar alertas, consultar el mapa de riesgos y administrar el personal de los comercios. Las entrevistas de validación permitieron identificar mejoras concretas en la claridad de las invitaciones y las preferencias de notificación.
 
