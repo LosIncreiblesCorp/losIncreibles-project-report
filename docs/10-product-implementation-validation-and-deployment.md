@@ -552,7 +552,7 @@ El Sprint 1 se enfocó en construir y publicar la Landing Page de InstAlert. El 
   <img src="../assets/Chapter5/jira-sprint-1.png" alt="Captura del tablero de Jira del Sprint 1" width="800">
 </p>
 
-**Enlace de invitación a Jira:** [Acceder al sitio de Jira](https://joseasto24-1785015581364.atlassian.net/?continue=https%3A%2F%2Fjoseasto24-1785015581364.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10033&atlOrigin=eyJpIjoiM2UwMTY0NzJlODE3NGI3MzgzZDZmMWY2NGY5ZmEwY2MiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9). Se requiere iniciar sesión y contar con acceso al proyecto.
+**Enlace de invitación a Jira:** https://joseasto24-1785015581364.atlassian.net/?continue=https%3A%2F%2Fjoseasto24-1785015581364.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10033&atlOrigin=eyJpIjoiM2UwMTY0NzJlODE3NGI3MzgzZDZmMWY2NGY5ZmEwY2MiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9. Se requiere iniciar sesión y contar con acceso al proyecto.
 
 Las horas corresponden a estimaciones del desglose de trabajo. Las asignaciones propuestas siguen los aspectos y líderes definidos en la matriz LACX. Los estados de las tareas se derivan del estado de las historias registradas para el Sprint.
 
@@ -648,7 +648,7 @@ _Desarrollado por: Yngrid Nahir Ruiz Villegas_
   <img src="https://imgur.com/L5xYg2c.png" alt="Cierre y Footer" width="500">
 </p>
 
-**Video de la revisión del Sprint:** [Ver video de la revisión del Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDDu4coMfEFS5u3PVPylCcgAWrLM56l0VTYYK_eO1OWuSk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ChGf3N)
+**Video de la revisión del Sprint:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDDu4coMfEFS5u3PVPylCcgAWrLM56l0VTYYK_eO1OWuSk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ChGf3N
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -938,7 +938,7 @@ La vista permite consultar el plan vigente, el uso de cupos y las alternativas d
   <img src="../assets/Chapter5/sprint-2-subscription.png" alt="Vista administrativa de suscripción, cupos y planes" width="800">
 </p>
 
-**Video de recorrido del Sprint 2:** [Ver video de la revisión del Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQD_XVhTUYmdR6-AwlPqkF1rAVeVKAK3R8NVx2AJ5A-0M30?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=XkCFOg)
+**Video de recorrido del Sprint 2:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQD_XVhTUYmdR6-AwlPqkF1rAVeVKAK3R8NVx2AJ5A-0M30?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=XkCFOg
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -1229,7 +1229,7 @@ Las seis correcciones ORM trasladaron los mapeos de Contacts, Payments, Business
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
-**Grabación del Sprint Review 3:** [Ver video del Sprint 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQC9XmtuxxY9TrpuGHSsSMNlAe0-iL2rmfbyfLlpkBrtuLE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RaVpEc)
+**Grabación del Sprint Review 3:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQC9XmtuxxY9TrpuGHSsSMNlAe0-iL2rmfbyfLlpkBrtuLE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RaVpEc
 
 **1. Dashboard administrativo y resumen operativo.** La captura actual del administrador muestra el comercio La Bodeguita, dos reportes registrados, tres cupos disponibles y el plan Essential con un empleado activo sobre un límite de cuatro. La suscripción corresponde a la demostración y no acredita una compra externa.
 
@@ -2014,7 +2014,7 @@ Las entrevistas de este segmento permiten evaluar la comprensión de la propuest
 | Edad                | 42 años                                                                                                                                                       |
 | Distrito            | Comas                                                                                                                                                         |
 | Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/evidencia_maria.png" alt="Evidencia Entrevista de Validación 1" width="600">                   |
-| Enlace del video    | [Entrevista de María Rocío](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDai321wS-vQI5NkwqzffbFAXzp9qMoHxmiW24EyAcCOvA?e=bFRsDw) |
+| Enlace del video    | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDai321wS-vQI5NkwqzffbFAXzp9qMoHxmiW24EyAcCOvA?e=bFRsDw |
 | Timing donde inicia | 00:00                                                                                                                                                         |
 | Duración            | 43:57 min                                                                                                                                                     |
 
@@ -2035,7 +2035,7 @@ Durante la entrevista, María Rocío de los Ángeles valoró positivamente las a
 | Edad                | 21 años                                                                                                                                                                    |
 | Distrito            | La Molina                                                                                                                                                                  |
 | Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/validacion_nathaly.png" alt="Evidencia Entrevista de Validación 2" width="600">                             |
-| Enlace del video    | [Entrevista de Umi Natalia Arampa Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDbmsfyIXK3QqaaOqt_aeWGAV4e-Il19oqA99QkHEzMAc8?e=KhGQHk) |
+| Enlace del video    | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDbmsfyIXK3QqaaOqt_aeWGAV4e-Il19oqA99QkHEzMAc8?e=KhGQHk |
 | Timing donde inicia | 00:03                                                                                                                                                                      |
 | Duración            | 18:39 min                                                                                                                                                                  |
 
@@ -2056,7 +2056,7 @@ Respecto a la aplicación web, valoró principalmente el historial de reportes d
 | Edad                | 33 años                                                                                                                                                            |
 | Distrito            | Callao                                                                                                                                                             |
 | Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/validacion_stefany.png" alt="Evidencia Entrevista de Validación 2" width="600">                     |
-| Enlace del video    | [Entrevista de Stefany Trinidad](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDi-cMMD4MVQrnh6pxjUCJPATF1jBzFOBvFA2QWanMa6Bk?e=eXblQH) |
+| Enlace del video    | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDi-cMMD4MVQrnh6pxjUCJPATF1jBzFOBvFA2QWanMa6Bk?e=eXblQH |
 | Timing donde inicia | 00:01                                                                                                                                                              |
 | Duración            | 25:34 min                                                                                                                                                          |
 
@@ -2081,7 +2081,7 @@ Las entrevistas de este segmento permiten evaluar la experiencia de uso de las f
 | Edad                | 26 años                                                                                                                                                           |
 | Distrito            | Barranco                                                                                                                                                          |
 | Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/evidencia_alejandro.png" alt="Evidencia Entrevista 4" width="600">                                 |
-| Enlace del video    | [Entrevista de Alejandro Ponce](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQC8tnB_rovTQ6DGnwt7bVdEAZMAWnBciSuIPmpKYlqED_k?e=M53Mg7) |
+| Enlace del video    | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQC8tnB_rovTQ6DGnwt7bVdEAZMAWnBciSuIPmpKYlqED_k?e=M53Mg7 |
 | Timing donde inicia | 00:01                                                                                                                                                             |
 | Duración            | 30:12 min                                                                                                                                                         |
 
@@ -2100,7 +2100,7 @@ Durante la entrevista, Alberto Alejandro Ponce Perales valoró positivamente la 
 | Edad                | 19 años                                                                                                                                                            |
 | Distrito            | San Juan de Lurigancho                                                                                                                                             |
 | Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/evidencia_carol.png" alt="Evidencia Entrevista 5" width="600">                                      |
-| Enlace del video    | [Entrevista de Carol Montenegro](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDvP5TKmSk_TLsAtGPOdS5lAd9DDPyxtxPe-1W3nFx0nrY?e=DG2LHg) |
+| Enlace del video    | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDvP5TKmSk_TLsAtGPOdS5lAd9DDPyxtxPe-1W3nFx0nrY?e=DG2LHg |
 | Timing donde inicia | 00:02                                                                                                                                                              |
 | Duración            | 20:19 min                                                                                                                                                          |
 
@@ -2119,7 +2119,7 @@ Carol Juliana Montenegro Izquierdo consideró que el Landing Page presenta infor
 | Edad                | 20 años                                                                                                                                                            |
 | Distrito            | San Juan de Lurigancho                                                                                                                                             |
 | Evidencia           | <img src="../assets/Chapter5/evidencias_entrevistas_validacion/evidencia_natalia.png" alt="Evidencia Entrevista 6" width="600">                                    |
-| Enlace del video    | [Entrevista de Natalia Tarrillo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQD68cRq-kvTS7_eY1zC5UBlAS3K_fwehZNaR4SP538y6C4?e=FQjYcr) |
+| Enlace del video    | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQD68cRq-kvTS7_eY1zC5UBlAS3K_fwehZNaR4SP538y6C4?e=FQjYcr |
 | Timing donde inicia | 00:00                                                                                                                                                              |
 | Duración            | 21:54 min                                                                                                                                                          |
 
@@ -2131,7 +2131,7 @@ Natalia Tarrillo valoró positivamente la organización y facilidad de uso de In
 
 **Video consolidado de entrevistas de validación**
 
-**Enlace:** [Ver el video consolidado de entrevistas](https://youtu.be/65qvL9zOsuI)
+**Enlace:** https://youtu.be/65qvL9zOsuI
 
 Este video reúne las entrevistas de validación realizadas a administradores y personal operativo. Presenta sus percepciones sobre InstAlert, los comentarios sobre sus funcionalidades y las oportunidades de mejora identificadas.
 
@@ -2328,7 +2328,7 @@ Incluir una tabla comparativa con criterios equivalentes: cupo de empleados, fun
 
 #### Referencia conceptual
 
-Nielsen Norman Group. [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/).
+Nielsen Norman Group. https://www.nngroup.com/articles/ten-usability-heuristics/.
 
 ## 5.4. Video About-the-Product.
 
